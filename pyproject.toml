@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hotel-scraper"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = ["PyYAML>=6.0.1"]
+
+[project.optional-dependencies]
+browser = ["playwright>=1.48"]
+
+[tool.setuptools]
+packages = ["hotel_scraper"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

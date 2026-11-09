@@ -1,0 +1,4 @@
+PyYAML>=6.0.1
+
+[browser]
+playwright>=1.48

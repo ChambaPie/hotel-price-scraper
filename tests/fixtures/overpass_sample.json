@@ -1,0 +1,14 @@
+{"elements": [
+  {"type": "node", "id": 101, "lat": 45.6503, "lon": 13.7672, "tags": {"tourism": "hotel", "name": "Grand Hotel Duchi d'Aosta", "stars": "4", "website": "https://example.org/duchi"}},
+  {"type": "way", "id": 202, "center": {"lat": 45.6503, "lon": 13.7673}, "tags": {"tourism": "hotel", "name": "Grand Hotel Duchi d'Aosta", "stars": "4"}},
+  {"type": "way", "id": 303, "center": {"lat": 46.4085, "lon": 11.8436}, "tags": {"tourism": "hotel", "name": "Rosa Alpina", "stars": "5S", "addr:country": "it"}},
+  {"type": "relation", "id": 404, "center": {"lat": 46.3683, "lon": 14.1136}, "tags": {"tourism": "hotel", "name": "Grand Hotel Toplice", "stars": "4,5"}},
+  {"type": "node", "id": 505, "lat": 45.4371, "lon": 12.3326, "tags": {"tourism": "hotel", "name": "Small Venice Inn", "stars": "3"}},
+  {"type": "node", "id": 606, "lat": 48.8566, "lon": 2.3522, "tags": {"tourism": "hotel", "name": "Paris Palace", "stars": "5"}},
+  {"type": "node", "id": 707, "lat": 45.3271, "lon": 14.4422, "tags": {"tourism": "hotel", "stars": "4"}},
+  {"type": "node", "id": 808, "lat": 45.8150, "lon": 15.9819, "tags": {"tourism": "hotel", "name": "Odd Tag Hotel", "stars": "45"}},
+  {"type": "node", "id": 909, "lat": 47.0707, "lon": 15.4395, "tags": {"tourism": "hotel", "name": "Schlossberg Hotel", "stars": "4 superior", "addr:city": "Graz"}},
+  {"type": "node", "id": 1001, "lat": 46.6713, "lon": 11.1597, "tags": {"tourism": "guest_house", "guest_house": "bed_and_breakfast", "name": "B&B Villa Merano"}},
+  {"type": "node", "id": 1002, "lat": 45.0812, "lon": 13.6387, "tags": {"tourism": "bed_and_breakfast", "name": "Rovinj Sea B&B", "stars": "3"}},
+  {"type": "node", "id": 1003, "lat": 45.8, "lon": 13.6, "tags": {"tourism": "apartment", "name": "Not A Hotel Apartments"}}
+]}

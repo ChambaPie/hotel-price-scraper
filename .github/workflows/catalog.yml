@@ -1,0 +1,74 @@
+name: Refresh catalog (daily)
+# Schedules run as the account that last committed this file; keep it a real GitHub account.
+
+# Lists TripAdvisor properties via Xotelo (settings: tripadvisor), adds drive times and official stars from
+# data/osm_catalog.csv, merges into data/catalog.csv, rebuilds data/watchlist.csv from config/selection.yaml +
+# include/exclude lists, and opens an issue listing new / gone properties so you can include or exclude them.
+on:
+  schedule:
+    - cron: "41 3 * * *"   # daily 03:41 UTC
+  workflow_dispatch:
+    inputs:
+      max_minutes:
+        description: "Listing time budget for this run in minutes (empty = settings)"
+        required: false
+        default: ""
+      max_requests:
+        description: "Xotelo request cap for this run (empty = settings)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: "1"   # logs reach the file as they happen
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100  # normal runs ~20 min (tripadvisor.max_minutes); room for a manual longer first fill
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - run: python -m pytest -q
+      - name: Refresh catalog and watchlist
+        env:
+          MAX_MINUTES: ${{ inputs.max_minutes }}
+          MAX_REQUESTS: ${{ inputs.max_requests }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -m hotel_scraper.ta_refresh ${MAX_MINUTES:+--max-minutes "$MAX_MINUTES"} ${MAX_REQUESTS:+--max-requests "$MAX_REQUESTS"} 2>&1 | tee out/refresh.log
+      - name: Summary
+        if: always()
+        run: cat out/catalog_summary.md out/coverage.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog.csv data/watchlist.csv data/drive_times.csv data/ta_state.json
+          git diff --cached --quiet || git commit -m "Catalog refresh $(date -u +%F)"
+          git pull --rebase
+          git push
+      - name: Publish reports
+        if: always()
+        run: bash scripts/publish_reports.sh catalog
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Run failed: ${{ github.workflow }}"
+          body="Run ${{ github.run_id }} failed on $(date -u +%F\ %H:%MZ): ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }} (log also on the reports branch)."
+          n=$(gh issue list --label ops --state open --search "in:title \"$title\"" --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body "$body"; else gh issue create --title "$title" --label ops --body "$body"; fi

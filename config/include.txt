@@ -1,0 +1,2 @@
+# Always watched, even if no rule matches. One property id per line; text after # is ignored.
+# Example: osm:way/123456789  # Hotel Name, Town, IT

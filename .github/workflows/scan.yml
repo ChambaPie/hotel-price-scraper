@@ -1,0 +1,63 @@
+name: Scan for deals
+# Schedules run as the account that last committed this file; keep it a real GitHub account.
+
+# Phase 4: checks the watched properties checked longest ago (settings: scan.properties_per_run, budgets) with one
+# Xotelo heatmap call each, stores each night's cheap/average/high class (data/heatmap.csv) and logs every change
+# (data/heatmap_changes.csv); then prices newly-cheap nights and builds each property's norm (data/prices.csv),
+# Deal identification runs in the private repo, which reads these files.
+on:
+  schedule:
+    - cron: "17 5,17 * * *"   # 05:17 and 17:17 UTC (public repo: free minutes)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40   # scan + detection budgets + margin
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Scan
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -m hotel_scraper.scan 2>&1 | tee out/scan.log
+      - name: Summary
+        if: always()
+        run: cat out/scan_summary.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+      - name: Rebuild watchlist (unpriceable properties make room for the next best)
+        run: python -m hotel_scraper.selection
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/heatmap.csv data/heatmap_changes.csv data/watchlist.csv
+          git diff --cached --quiet || git commit -m "Scan $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep $((i * 5)); done
+      - name: Publish reports
+        if: always()
+        run: bash scripts/publish_reports.sh scan
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Run failed: ${{ github.workflow }}"
+          body="Run ${{ github.run_id }} failed on $(date -u +%F\ %H:%MZ): ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }} (log also on the reports branch)."
+          n=$(gh issue list --label ops --state open --search "in:title \"$title\"" --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body "$body"; else gh issue create --title "$title" --label ops --body "$body"; fi

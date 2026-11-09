@@ -1,0 +1,51 @@
+name: Booking.com browser probe
+# Schedules run as the account that last committed this file; keep it a real GitHub account.
+
+# Opens a few Booking.com pages in headless Chromium (which runs Booking.com's JavaScript challenge) and reports
+# whether the room table (board, prices) and the price calendar can be read. Manual only, a few pages per run.
+on:
+  workflow_dispatch:
+    inputs:
+      pages:
+        description: "Space-separated country/pagename (empty = config/spike.yaml)"
+        required: false
+        default: ""
+      search:
+        description: "Comma-separated destinations to search (e.g. Trieste,Bled)"
+        required: false
+        default: "Trieste"
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-browser.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Probe
+        env:
+          PAGES: ${{ inputs.pages }}
+          SEARCH: ${{ inputs.search }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          args=""; for p in $PAGES; do args="$args --page $p"; done
+          IFS=',' read -ra Q <<< "$SEARCH"; for q in "${Q[@]}"; do [ -n "$q" ] && args="$args --search $q"; done
+          python -m hotel_scraper.booking_browser $args 2>&1 | tee out/booking_probe.log
+      - name: Summary
+        if: always()
+        run: cat out/booking/report.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+      - name: Publish reports
+        if: always()
+        run: bash scripts/publish_reports.sh booking

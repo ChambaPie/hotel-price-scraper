@@ -1,0 +1,3 @@
+-r requirements.txt
+# Real browser for Booking.com (runs its JavaScript challenge). After installing: python -m playwright install chromium
+playwright>=1.48

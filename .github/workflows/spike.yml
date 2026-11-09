@@ -1,0 +1,40 @@
+name: Source spike
+
+# Phase 2: probes the price sources from GitHub's servers. Targets and offsets: config/spike.yaml.
+# Results: the run's job summary, plus an artifact "spike-<run id>" with report.md, results.json and raw responses.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write   # publishes the report to the reports branch
+
+env:
+  PYTHONUNBUFFERED: "1"   # logs reach the file as they happen
+
+jobs:
+  spike:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: |
+          set -o pipefail
+          mkdir -p out/spike
+          python -m hotel_scraper.spike 2>&1 | tee out/spike/run.log
+      - name: Summary
+        if: always()
+        run: cat out/spike/report.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+      - name: Publish reports
+        if: always()
+        run: bash scripts/publish_reports.sh spike
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: spike-${{ github.run_id }}
+          path: out/spike
+          retention-days: 7

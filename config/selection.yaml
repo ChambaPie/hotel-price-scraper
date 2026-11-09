@@ -1,0 +1,27 @@
+# Which catalog properties the scanner watches:
+#   include.txt (always) + for each rule its best `max` matches + capped overall at max_watched; exclude.txt wins.
+# A property counts under the first rule it matches. Ranking inside a rule: guest rating weighted by number of
+# reviews (see rank), then number of reviews. Distance gives no priority (owner, 2026-11-09): within the drive
+# limit every property is equal; what ranks alerts is the size of the discount (Phase 5).
+# Edit these files on GitHub, or run the "Edit selection" workflow.
+auto_include:
+  enabled: true
+  max_watched: 1500
+  rank:
+    prior_score: 4.3         # a rating counts for less the fewer reviews it has: (n*score + 50*4.3) / (n + 50)
+    prior_reviews: 50
+  rules:
+    - property_type: hotel   # rule 1: official hotel class 4-5* (from OpenStreetMap where it has it)
+      min_stars: 4
+      max: 700
+    - property_type: hotel   # rule 2: hotels rated 4.5+ by guests
+      min_review_score: 4.5
+      min_reviews: 20
+      max: 500
+    - property_type: bed_and_breakfast   # rule 3: B&Bs rated 4.5+ by guests
+      min_review_score: 4.5
+      min_reviews: 20
+      max: 300
+  # Optional on any rule: landscape: [mountain, sea, lake, beach, ski, city, countryside] (any of them),
+  # countries: [IT, SI, AT, HR], max_drive_hours: 4, max_distance_km: 400,
+  # min_review_score, min_reviews, min_stars, max. A rule needing a value the catalog doesn't have never matches.

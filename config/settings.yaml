@@ -1,0 +1,145 @@
+# Public data collector settings. Deal identification, thresholds and alerts live in the private repo.
+
+origin:
+  name: Trieste
+  lat: 45.6495
+  lon: 13.7768
+
+universe:
+  radius_km: 800            # straight-line pre-filter only: bounds the map query; drive time below decides
+  drive_time:
+    enabled: true
+    max_hours: 10            # properties further than this by car are left out of the catalog
+    endpoint: https://router.project-osrm.org   # public OSRM demo server (FOSSGIS): reasonable non-commercial use, max 1 request/s
+    profile: driving
+    batch_size: 99           # destinations per request (+1 origin)
+    pause_seconds: 1.1
+    max_requests_per_run: 400   # leftovers are routed on the next run
+    timeout_seconds: 60
+    reroute_if_moved_km: 0.5
+    keep_unroutable: true    # no road route found (e.g. some islands): keep, with blank drive time
+  # Property types pulled into the catalog. A property is the first type whose OSM tags match.
+  # Tag value "*" means "key present". stars: allowed star ratings; [] = any rating, including none.
+  property_types:
+    hotel:
+      osm_tags:
+        - {tourism: hotel}
+      stars: [4, 5]
+    bed_and_breakfast:
+      osm_tags:
+        - {tourism: guest_house}          # OSM's tag for B&Bs and small owner-run guest houses
+        - {tourism: bed_and_breakfast}    # non-standard but used
+      stars: []                           # B&Bs rarely carry stars; quality comes from guest score (Phase 1d)
+
+overpass:
+  endpoints:                # rotated per tile to spread load; the main instance allows ~2 queries/min per address
+    - https://overpass-api.de/api/interpreter
+    - https://maps.mail.ru/osm/tools/overpass/api/interpreter
+    - https://overpass.private.coffee/api/interpreter
+  tile_deg: 2.0             # region split into tiles so each query stays small
+  tiles_per_run: 12         # once every tile has been refreshed: oldest N per run (76 tiles -> full map renewed ~weekly)
+  max_minutes: 20           # stop starting new tiles after this; the rest wait for the next run
+  timeout_seconds: 120      # per query; a tile tries each endpoint `retries` times at most
+  pause_seconds: [5, 10]    # polite gap between tiles (public, free services)
+  retries: 2
+
+paths:
+  catalog: data/catalog.csv        # TripAdvisor properties (priceable), refreshed daily; what you select from
+  osm_catalog: data/osm_catalog.csv  # OpenStreetMap 4-5* hotels and B&Bs: source of official stars
+  ta_state: data/ta_state.json     # TripAdvisor keys found and when each was listed
+  heatmap: data/heatmap.csv        # latest cheap/average/high class per night, per watched property
+  heatmap_changes: data/heatmap_changes.csv  # nights whose class changed between checks
+  booking_ids: data/booking_ids.csv      # Booking.com id per watched property (delta-only mapping)
+  landscape: data/landscape.csv          # elevation + distances to sea, beach, lake, ski area, city; tags
+  landscape_tiles: data/landscape_tiles.json
+  last_minute: data/last_minute_cards.csv  # Booking.com deal badges / advertised discounts for the next nights (raw)
+  last_minute_state: data/last_minute_state.json
+  booking_calendars: data/booking_calendars.csv  # every night's Booking.com price for 12 months per property (snapshots branch)
+  watchlist: data/watchlist.csv    # what the scanner watches = selection rules + include - exclude
+  drive_times: data/drive_times.csv  # cache: each property is routed once
+  tile_state: data/tile_state.json   # when each map tile was last refreshed
+  selection: config/selection.yaml
+  include: config/include.txt
+  exclude: config/exclude.txt
+  spike: config/spike.yaml
+  out_dir: out
+
+tripadvisor:                 # Xotelo (free, keyless TripAdvisor data); keep request counts modest
+  base_url: https://data.xotelo.com/api
+  user_agent: "hotel-deal-radar/0.5 (personal project)"
+  # Country keys used to discover city keys, all confirmed on 2026-11-08 (2,300-3,000 properties inside the radius each):
+  # Italy, Slovenia, Croatia, Austria, Germany, Hungary, Czechia, Switzerland, Slovakia, Bosnia, Serbia.
+  # A wrong key only yields far-away results, which the radius filter drops.
+  # g187070 France (unconfirmed; added after the coverage report showed Nice, Lyon, Cannes... unmatched).
+  seed_keys: [g187768, g274862, g294453, g190410, g187275, g274881, g274684, g188045, g274922, g294449, g294471, g187070]
+  seed_refresh_days: 30
+  page_size: 100
+  max_pages_per_seed: 30     # country lists stop at 3,000 anyway
+  max_pages_per_city: 10     # big cities (Milan, Rome, Munich, Vienna...) need several pages
+  sort: best_value
+  types:                     # TripAdvisor accommodation types kept, by kind; anything else is skipped
+    hotel: [Hotel, Small Hotel, Boutique Hotel, Resort, Specialty Hotel, Farm Hotel, Inn, Specialty Inn]
+    bed_and_breakfast: [Bed and Breakfast, Specialty B&B, Guest house]
+  pause_seconds: [1, 2]
+  max_requests_per_run: 500
+  max_minutes: 10           # daily listing budget (minutes budget); cities keep filling in over the following days
+  stars_match: {max_km: 0.15, min_name_similarity: 0.55}
+
+scan:
+  horizon_days: 365          # check-in dates from today up to this many days ahead
+  min_lead_days: 0
+  date_windows: []           # optional: only these ranges, e.g. [{from: 2027-01-25, to: 2027-03-31}]
+  exclude_windows: []        # optional: never these ranges
+  checkin_weekdays: [mon, tue, wed, thu, fri, sat, sun]
+  stay_nights: [1]           # e.g. [1, 2, 3] to also catch minimum-stay rates
+  adults: 2
+  rooms: 1
+  currency: EUR
+  meal_plans: [breakfast, half_board, full_board, all_inclusive]
+  run_budget_minutes: 25     # hard stop per run so the schedule fits the Actions minutes
+  properties_per_run: 500    # ~1,500 watched / 500 per run / 2 runs a day -> each checked about every 1.5 days
+  max_requests_per_run: 600
+  pause_seconds: [0.5, 1.0]  # between Xotelo heatmap calls
+  change_log_days: 45        # how long night-level class changes are kept in paths.heatmap_changes
+  retry_unpriceable_days: 30 # a property whose price check fails (no partner prices on TripAdvisor) leaves the
+                             # watchlist (its quota place goes to the next best) and is re-tried after this
+
+landscape:                   # tags for filtering: mountain, ski, sea, beach, lake, city, countryside
+  mountain_min_elevation_m: 800
+  ski_km: 5
+  sea_km: 2
+  beach_km: 1.5
+  lake_km: 1
+  city_km: 8
+  search_km: 10              # distances beyond this are left blank
+  elevation_api: https://api.opentopodata.org/v1   # public: max 100 points per call, 1 call/s, 1,000 calls/day
+  elevation_dataset: eudem25m
+  elevation_calls_per_run: 300
+  tiles_per_run: 12
+  tile_padding_deg: 0.1      # features just outside a tile still count for properties near its edge
+  line_step: 3               # coastline / lake outline: every 3rd point
+
+last_minute:                 # Booking.com's own deal badges ("Late Escape Deal", "Limited-time Deal", "Getaway Deal"...)
+  enabled: true
+  nights_ahead: [0, 1, 2, 5, 7, 14]   # check-in today + n, 1 night
+  towns_per_run: 4           # watchlist towns searched per run (rotating, busiest first)
+  scrolls: 2                 # load more result cards per search
+  max_minutes: 4
+
+booking_scan:                # Phase 9: Booking.com via headless browser (calendar = every night's price for 12 months)
+  map_per_run: 120           # id searches per run (~5 s each), only for watched properties without an id
+  warm_up_page: it/grand-duchi-d-aosta   # a known hotel page opened first: passes the challenge, sets the session token
+  match_min_similarity: 0.6
+  remap_after_days: 30       # retry 'not found' after this
+  properties_per_run: 500
+  windows: 6                 # 61-night calendar calls per property (6 = 12 months, ~0.35 s each)
+  max_minutes: 16
+
+
+
+ops:                         # Phase 8: daily health check (workflow file -> max hours since its last successful run)
+  max_hours_since_success:
+    scan.yml: 14
+    booking.yml: 14
+    catalog.yml: 30
+    osm.yml: 200

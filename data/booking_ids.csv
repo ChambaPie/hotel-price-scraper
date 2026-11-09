@@ -1,0 +1,50 @@
+pid,booking_id,booking_name,similarity,status,checked_at
+ta:g1021476-d1584586,it/waldruhe,Hotel Waldruhe,1.0,ok,2026-11-09T12:21:27+00:00
+ta:g1024764-d4564528,at/dolomitengolf-suites-lavant,Dolomitengolf Suites,1.0,ok,2026-11-09T12:21:27+00:00
+ta:g1048250-d1567726,,,0.0,not found,2026-11-09T13:10:35+00:00
+ta:g1133092-d1161066,at/romantikhotel-seefischer-am-see,Hotel Seefischer - Finest Hideaway,0.98,ok,2026-11-09T12:21:27+00:00
+ta:g1164730-d938946,,,0.0,not found,2026-11-09T12:11:39+00:00
+ta:g1165103-d575820,at/ga-stehaus-brambapck,Gästehaus Bramböck,0.944,ok,2026-11-09T12:01:03+00:00
+ta:g1194354-d1194435,at/almwellness-resort-tuffbad,Almwellness-Resort Tuffbad,1.0,ok,2026-11-09T12:21:27+00:00
+ta:g1195075-d1500833,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g1195150-d1577334,,,0.0,not found,2026-11-09T12:21:27+00:00
+ta:g1195856-d1585978,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g16876028-d1734890,at/gintherhof,Gintherhof,1.0,ok,2026-11-09T12:01:03+00:00
+ta:g190440-d2166753,de/schneider,Hotel Schneider,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g190440-d657063,at/enzian-landeck,Hotel Enzian,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g190454-d567211,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g1918752-d1811039,,,0.0,not found,2026-11-09T12:11:39+00:00
+ta:g1988927-d1986522,at/defereggental-amp-resort,Defereggental Hotel & Resort,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g2274029-d2301591,at/berghotel-presslauer,Berghotel Presslauer,1.0,ok,2026-11-09T12:11:39+00:00
+ta:g230011-d1208213,at/parkhotel-tristachersee,Parkhotel Tristachersee,1.0,ok,2026-11-09T12:21:27+00:00
+ta:g230011-d1514263,at/best-western-sonne,Hotel Sonne Lienz,0.6,ok,2026-11-09T12:21:27+00:00
+ta:g551473-d523028,at/hochschober,Hotel Hochschober,1.0,ok,2026-11-09T12:21:27+00:00
+ta:g580116-d1010387,,,0.0,not found,2026-11-09T13:10:35+00:00
+ta:g580116-d286604,de/haus-hirt-klosterlechfeld,Haus Hirt,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g580116-d575322,at/villaexcelsiorkurhaus,Villa Excelsior Hotel & Kurhaus,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g608661-d1371831,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g608666-d645579,at/pension-hubertus,Hotel Pension Hubertus,0.857,ok,2026-11-09T12:01:03+00:00
+ta:g608679-d1142979,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g641721-d1586661,at/sonnalm-bad-kleinkirchheim,"Hotel Sonnalm - SPA,Idyll,Dining",1.0,ok,2026-11-09T12:21:27+00:00
+ta:g641721-d565732,at/pragant,Evident Hotel Prägant,1.0,ok,2026-11-09T12:21:27+00:00
+ta:g641721-d575597,,,0.0,not found,2026-11-09T12:21:27+00:00
+ta:g641721-d575598,at/thermenhotel-ronacher,DAS RONACHER Thermal Spa Hotel,1.0,ok,2026-11-09T12:21:27+00:00
+ta:g641721-d638275,at/hoteleschenhof,Naturhotel Ortners Eschenhof,0.762,ok,2026-11-09T12:21:27+00:00
+ta:g641724-d1913776,at/kinderhotel-ramsi,RAMSI euer Familienhotel,0.65,ok,2026-11-09T12:11:39+00:00
+ta:g641727-d577737,,,0.318,not found,2026-11-09T12:11:39+00:00
+ta:g641728-d1443052,,,0.0,not found,2026-11-09T12:11:39+00:00
+ta:g641728-d313599,at/seehotel-enzian,Seehotel Enzian,1.0,ok,2026-11-09T12:11:39+00:00
+ta:g641732-d1082218,at/bismarck,Hotel Bismarck,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g641749-d638536,at/strasserwirtstrassen,Strasserwirt - Ansitz zu Tirol,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g641766-d4750565,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g651663-d667324,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g651667-d1765617,at/naturlich-mit-charakter,Natürlich Hotel mit Charakter,0.977,ok,2026-11-09T12:01:03+00:00
+ta:g663652-d1021107,at/wellnesshotel-eggerwirt,Wellnesshotel Eggerwirt,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g676650-d1500608,at/vital-und-wanderhotel-taurerwirt,Wanderhotel Taurerwirt,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g676650-d3749911,at/gradonna-mountain-resort-chalets,Gradonna Mountain Resort Chalets & Hotel,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g676650-d7676365,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g776244-d650210,,,0.333,not found,2026-11-09T12:21:27+00:00
+ta:g793515-d1966743,at/gesser,Hotel Gesser,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g793515-d3554025,at/aparthotel-dolomit-royal,Apartments Dolomit-Royal,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g811450-d1178219,at/haus-patricia,Pension Haus Patricia,0.774,ok,2026-11-09T12:01:03+00:00
+ta:g939822-d286609,at/schlossseefels,Hotel Schloss Seefels,1.0,ok,2026-11-09T12:11:39+00:00

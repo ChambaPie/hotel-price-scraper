@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: hotel-scraper
+Version: 0.1.0
+Requires-Python: >=3.9
+Requires-Dist: PyYAML>=6.0.1
+Provides-Extra: browser
+Requires-Dist: playwright>=1.48; extra == "browser"

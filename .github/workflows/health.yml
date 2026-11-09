@@ -1,0 +1,44 @@
+name: Health check (daily)
+# Schedules run as the account that last committed this file; keep it a real GitHub account.
+
+# Opens (or comments on) an "ops" issue when a workflow's last successful run is too old (settings: ops).
+on:
+  schedule:
+    - cron: "47 7 * * *"   # 07:47 UTC, after the morning scan
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+  issues: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Check
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p out
+          python -m hotel_scraper.health | tee out/health.log
+          cat out/health.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Issue if something is wrong
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -s out/health_issue.md ] || exit 0
+          title="Health check: scheduled runs are late or failing"
+          n=$(gh issue list --label ops --state open --search "in:title \"$title\"" --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body-file out/health_issue.md
+          else gh issue create --title "$title" --label ops --body-file out/health_issue.md; fi
+      - name: Publish reports
+        if: always()
+        run: bash scripts/publish_reports.sh health
