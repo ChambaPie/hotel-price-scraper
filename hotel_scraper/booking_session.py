@@ -152,17 +152,20 @@ class BookingSession:
         self.last_window_errors = len(errors)
         return nights
 
-    def offers(self, cc: str, slug: str, night: date) -> list[dict]:
-        """Room offers for one night: price, currency, board, cancellation."""
-        params = urlencode({"checkin": night.isoformat(), "checkout": (night + timedelta(days=1)).isoformat(),
+    def offers(self, cc: str, slug: str, night: date, nights: int = 1) -> list[dict]:
+        """Room offers for a stay starting `night` (`nights` long, e.g. a minimum stay): price for the whole stay,
+        per_night, currency, board, cancellation."""
+        params = urlencode({"checkin": night.isoformat(), "checkout": (night + timedelta(days=nights)).isoformat(),
                             "group_adults": self.adults, "no_rooms": self.rooms, "group_children": 0,
                             "selected_currency": self.currency, "changed_currency": 1, "lang": "en-gb"})
         self.page.goto(f"{self.base}/hotel/{cc}/{slug}.html?{params}", wait_until="domcontentloaded", timeout=60000)
         _, rows = self._wait_for(ROWS_JS, "b_csrf_token", 40)
         out = []
         for r in rows or []:
-            out.append({"room": r["room"], "price": price_of(r["price"]), "currency": currency_of(r["price"]),
-                        "board": board_of(r["conditions"]), "cancellation": cancellation_of(r["conditions"])})
+            total = price_of(r["price"])
+            out.append({"room": r["room"], "price": total, "per_night": round(total / nights, 2) if total else None,
+                        "nights": nights, "currency": currency_of(r["price"]), "board": board_of(r["conditions"]),
+                        "cancellation": cancellation_of(r["conditions"])})
         if out and out[0]["currency"]:
             self.currency_seen = out[0]["currency"]
         return out
