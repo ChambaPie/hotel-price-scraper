@@ -46,6 +46,12 @@ def test_discover_skips_failed_tiles_and_respects_deadline():
     assert [r.ok for r in res] == [True, False, True]            # 4th tile not started: budget spent
 
 
+def test_fix_town_vatican():
+    assert d.fix_town("Vatican City", "VA", 41.9028, 12.4964) == "Rome"
+    assert d.fix_town("Vatican City", "VA", 41.9035, 12.4520) == "Vatican City"
+    assert d.fix_town("Trieste", "IT", 45.65, 13.77) == "Trieste"
+
+
 def test_fix_country_vatican():
     assert d.fix_country("VA", 41.9028, 12.4964) == "IT"      # central Rome
     assert d.fix_country("VA", 41.9035, 12.4520) == "VA"      # inside Vatican City

@@ -146,6 +146,11 @@ def fix_country(cc: str, lat: float, lon: float) -> str:
     return cc
 
 
+def fix_town(name: str, cc: str, lat: float, lon: float) -> str:
+    """Nearest-town lookups name central Rome "Vatican City"."""
+    return "Rome" if cc == "VA" and fix_country(cc, lat, lon) == "IT" else name
+
+
 def add_places(props: list[Property]) -> None:
     """Fill missing country codes and towns offline (GeoNames via reverse_geocoder); skip if unavailable."""
     missing = [p for p in props if not p.country or not p.city]
@@ -157,7 +162,7 @@ def add_places(props: list[Property]) -> None:
         return
     for p, r in zip(missing, rg.search([(p.lat, p.lon) for p in missing], mode=1, verbose=False)):
         p.country = p.country or fix_country(r.get("cc", ""), p.lat, p.lon)
-        p.city = p.city or r.get("name", "")
+        p.city = p.city or fix_town(r.get("name", ""), r.get("cc", ""), p.lat, p.lon)
 
 
 def check_overpass(data: dict) -> dict:
