@@ -27,7 +27,7 @@ from .discover_osm import _norm_name
 from .scan import read_csv, write_csv
 
 ID_FIELDS = ["pid", "booking_id", "booking_name", "similarity", "status", "checked_at"]
-CAL_FIELDS = ["pid", "booking_id", "scanned_at", "first_date", "nights", "status", "error"]
+CAL_FIELDS = ["pid", "booking_id", "scanned_at", "first_date", "currency", "nights", "status", "error"]
 
 
 def log(msg: str) -> None:
@@ -162,7 +162,7 @@ def run(cfg: dict, session, today: date, log=log, clock=time.monotonic) -> Resul
                          "error": str(e)[:120]}
             continue
         cals[pid] = {"pid": pid, "booking_id": bid, "scanned_at": now_iso, "first_date": today.isoformat(),
-                     "nights": encode_nights(nights, today, days), "status": "ok", "error": ""}
+                     "currency": session.currency_seen, "nights": encode_nights(nights, today, days), "status": "ok", "error": ""}
         res.collected += 1
     res.calls, res.seconds = session.calls, round(clock() - started)
     keep = set(watched)

@@ -34,7 +34,7 @@ def test_encode_decode_round_trip():
 
 class FakeSession:
     def __init__(self, cards, years):
-        self.cards, self.years, self.token, self.calls = cards, years, "t", 0
+        self.cards, self.years, self.token, self.calls, self.currency_seen = cards, years, "t", 0, "USD"
 
     def search(self, q, checkin, wait=20, scrolls=0, raw=False):
         return self.cards.get(q.split(" ")[0], [])
@@ -61,4 +61,4 @@ def test_pipeline_maps_and_collects(cfg):
     res = bc.run(cfg, sess, TODAY, log=lambda m: None)
     assert res.mapped == 1 and res.not_found == 1 and res.collected == 1
     row = next(csv.DictReader(open(cfg["paths"]["booking_calendars"])))
-    assert row["booking_id"] == "si/alpha" and row["nights"].startswith("200;4;")
+    assert row["booking_id"] == "si/alpha" and row["nights"].startswith("200;4;") and row["currency"] == "USD"
