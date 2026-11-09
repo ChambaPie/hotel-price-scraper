@@ -50,11 +50,12 @@ def parse_calendar(text: str) -> dict[str, dict]:
 
 class BookingSession:
     def __init__(self, base_url: str, user_agent: str, accept_language: str, adults: int, rooms: int, currency: str,
-                 headless: bool = True, log=print):
+                 headless: bool = True, log=print, cookies: list[dict] | None = None):
         self.base, self.ua, self.lang = base_url.rstrip("/"), user_agent, accept_language
         self.adults, self.rooms, self.currency, self.headless, self.log = adults, rooms, currency, headless, log
         self.token, self.currency_seen, self.calls = "", "", 0
         self.diag_dir, self.diag_left = None, 3   # save a few empty search pages for diagnosis
+        self.cookies = cookies or []              # optional signed-in session (Playwright cookie dicts)
 
     def __enter__(self):
         from playwright.sync_api import sync_playwright
@@ -62,6 +63,8 @@ class BookingSession:
         self.browser = self._pw.chromium.launch(headless=self.headless, args=["--disable-blink-features=AutomationControlled"])
         ctx = self.browser.new_context(user_agent=self.ua, locale="en-GB", viewport={"width": 1366, "height": 900},
                                        extra_http_headers={"Accept-Language": self.lang})
+        if self.cookies:
+            ctx.add_cookies(self.cookies)
         self.page = ctx.new_page()
         return self
 
