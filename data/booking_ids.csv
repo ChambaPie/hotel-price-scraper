@@ -2,17 +2,23 @@ pid,booking_id,booking_name,similarity,status,checked_at
 ta:g1021476-d1584586,it/waldruhe,Hotel Waldruhe,1.0,ok,2026-11-09T12:21:27+00:00
 ta:g1024764-d1020849,at/dolomitengolf-spa,Dolomitengolf Hotel & Spa,1.0,ok,2026-11-10T04:49:10+00:00
 ta:g1024764-d4564528,at/dolomitengolf-suites-lavant,Dolomitengolf Suites,1.0,ok,2026-11-09T12:21:27+00:00
+ta:g1025600-d290126,ch/aad-wellnesshotel-pirmin-zurbriggen,Wellness Spa Pirmin Zurbriggen,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g1048250-d1567726,,,0.0,not found,2026-11-09T13:10:35+00:00
 ta:g1055468-d1584454,at/restaurant-grimmingblick,Hotel Grimmingblick GesmbH,0.619,ok,2026-11-10T08:58:34+00:00
+ta:g1055481-d1095719,at/stern-la-ngenfeld,Hotel Stern,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g1056049-d1006824,at/bergland-romantik,Adler Inn Tyrol Mountain Resort SUPERIOR,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g1056049-d1145033,at/alpenhof-tux,Hotel Alpenhof,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g1056049-d673153,at/berghof-hintertux,Hotel Berghof Crystal Spa & Sports,1.0,ok,2026-11-10T08:58:34+00:00
+ta:g1096327-d1234412,ch/landhaus-munster,Hotel Landhaus,0.75,ok,2026-11-10T18:53:36+00:00
 ta:g1133092-d1161066,at/romantikhotel-seefischer-am-see,Hotel Seefischer - Finest Hideaway,0.98,ok,2026-11-09T12:21:27+00:00
 ta:g1156007-d1195050,at/salzburgerhof,Hotel Salzburger Hof Zauchensee,1.0,ok,2026-11-09T15:30:18+00:00
 ta:g1156007-d1797283,,,0.48,not found,2026-11-10T04:49:10+00:00
 ta:g1164730-d938946,,,0.0,not found,2026-11-09T12:11:39+00:00
 ta:g1165103-d575820,at/ga-stehaus-brambapck,Gästehaus Bramböck,0.944,ok,2026-11-09T12:01:03+00:00
+ta:g1169453-d483103,it/kolfuschgerhof,Kolfuschgerhof Mountain Resort,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g1169453-d776546,it/mezdi,Mountain Hotel Mezdì,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g1194203-d2282791,it/restaurant-oberwirt,Hotel Oberwirt,1.0,ok,2026-11-10T08:58:34+00:00
+ta:g1194229-d1054217,at/schone-aussicht-hochsolden,Hotel Schöne Aussicht,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g1194354-d1194435,at/almwellness-resort-tuffbad,Almwellness-Resort Tuffbad,1.0,ok,2026-11-09T12:21:27+00:00
 ta:g1195075-d1500833,,,0.0,not found,2026-11-09T12:01:03+00:00
 ta:g1195150-d1577334,,,0.0,not found,2026-11-09T12:21:27+00:00
@@ -20,17 +26,236 @@ ta:g1195856-d1585978,,,0.0,not found,2026-11-09T12:01:03+00:00
 ta:g1197052-d1485364,,,0.585,not found,2026-11-10T08:58:34+00:00
 ta:g1197052-d1542747,at/smaragdhotel-tauernblick,Smaragdhotel Tauernblick,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g1197052-d1586671,at/senningerbrau,Hotel Senningerbräu,1.0,ok,2026-11-10T08:58:34+00:00
+ta:g1383542-d2511304,it/cristallo-la-villa,Hotel Cristallo - Wellness Mountain Living,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g15010878-d279183,it/gardena-grodnerhof,Gardena Grödnerhof - Hotel & Spa,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g15701407-d941501,it/tirolerhof-terento1,Hotel Tirolerhof,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g16876028-d1734890,at/gintherhof,Gintherhof,1.0,ok,2026-11-09T12:01:03+00:00
+ta:g187309-d1410589,de/metropol,Hotel Metropol by Maier Privathotels,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187309-d201931,de/torbrau,Hotel Torbräu,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187309-d228386,de/platzlmunich,Platzl Hotel - Superior,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g187309-d233835,de/mandarin-oriental,"Mandarin Oriental, Munich",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187309-d7183477,de/novotel-munchen-arnulfpark,Novotel München City Arnulfpark,0.982,ok,2026-11-10T18:53:36+00:00
+ta:g187399-d1222529,de/bulow-palais,Relais & Châteaux Bülow Palais,0.611,ok,2026-11-10T18:53:36+00:00
+ta:g187399-d199744,de/hoteltaschenbergpalaiskempinski,Hotel Taschenbergpalais Kempinski,0.881,ok,2026-11-10T18:53:36+00:00
+ta:g187399-d679585,de/suitess,Hotel Suitess,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187782-d1656729,it/grand-la-favorita,Grand Hotel La Favorita,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187782-d1825909,it/palazzo-mauro-luxury-rooms,Palazzo Mauro Sorrento Luxury Rooms,0.643,ok,2026-11-10T18:53:36+00:00
+ta:g187782-d2175053,it/palazzo-jannuzzi-relais,Palazzo Jannuzzi Relais,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187782-d235955,it/bellevue-syrene,Bellevue Syrene,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187782-d291430,it/palazzo-starace-relais,Palazzo Starace,0.759,ok,2026-11-10T18:53:36+00:00
+ta:g187782-d291440,it/casa-marino-sorrento,Casa Marino,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g187782-d579275,it/laminervetta,Maison La Minervetta,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d10677590,it/napolimia,NapoliMia Boutique Hotel,0.621,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d12728231,it/napoli-tree-lungomare,Napoli Tree - Lungomare,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d13923727,it/the-five-rooms-napoli,The Five Rooms Napoli,0.643,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d14003708,it/naplesuite,Naplesuite,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d15865744,it/palazzo-rinuccini,Rinuccini Relais,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d19871624,it/naplesuite,Naplesuite,0.727,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d23298912,it/neapolis-central-plaza,Dimora Neapolis,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d3478136,it/romeo,ROMEO Napoli,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d664865,it/casa-d-hotels-sancia,CASA D Hotel,0.727,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d6686720,it/the-bellini-house-b-amp-b,The Bellini House by House In Naples,0.615,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d7318605,it/bb-casamatta,BB Casamatta,0.609,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d8110824,it/napoli-city-rooms,Napoli City Rooms,0.619,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d10061919,it/grand-hotel-palace,Grand Hotel Palace Rome,0.71,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d10137564,it/singer-palace,Singer Palace Hotel Roma,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d13118678,it/palazzo-venere1,Palazzo Venere,0.629,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d13393444,it/singer-palace,Singer Palace Hotel Roma,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d1488058,it/casa-monti-roma-roma,Casa Monti Roma,0.696,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d1509277,it/alloggio-per-uso-turistico-carboni-rossella,Alloggio per uso turistico Carboni Rossella,0.696,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d1721909,it/casa-a-pascarella-roma,Casa a Pascarella,0.615,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d1863272,it/grand-hotel-palace,Grand Hotel Palace Rome,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d19907141,it/dharma-boutique-hotel-spa,Dharma Boutique Hotel & SPA,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d1995956,it/residenza-leutari,Residenza Leutari,0.75,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d203175,it/hotelbarocco,Hotel Barocco,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d2268708,it/domus-re,Domus Re,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d230556,it/the-hoxton-rome,"The Hoxton, Rome",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d231925,it/hotelviminalerome,Hotel Viminale,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d30527049,it/ht6-roma,HT6 Hotel Roma,0.769,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d3245809,it/arenula,Chapter Roma,0.636,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d3929140,it/casa-jk-place-roma,Casa JK Place Roma,0.846,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d4028829,it/casa-monti-roma-roma,Casa Monti Roma,0.75,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d6030326,it/home-sweet-rome-roma7,Home Sweet Rome Vatican,0.606,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d7619756,it/the-fifteen-keys,The Fifteen Keys Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d8615697,it/la-maison-d-39-art-suites,Minerva Relais,0.643,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d8687540,it/stregisgrandroma,The St. Regis Rome,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d8759353,it/casa-monti-roma-roma,Casa Monti Roma,0.609,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d8865999,it/nh-collection-roma-fori-imperiali,NH Collection Roma Fori Imperiali,0.635,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d9773654,it/sistina-149-boutique-guest-house,Sistina Boutique Guest House,0.64,ok,2026-11-10T18:53:36+00:00
+ta:g187807-d1475950,it/aqua,Aqua Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187807-d1566455,it/i-suite,i-Suite Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187807-d23514724,it/demo-hospitality,Demo Hotel Design Emotion,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187807-d33239448,it/mode-eco-mood,Mode Eco Mood Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187807-d6159002,it/rimini-suite,Rimini Suite Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187817-d1815380,it/alla-marina,Alla Marina Affittacamere,0.81,ok,2026-11-10T18:53:36+00:00
+ta:g187820-d459904,it/il-saraceno-riomaggiore,Hotel Il Saraceno,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g187849-d194976,it/spadari-al-duomo,Hotel Spadari Al Duomo True Stay,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187849-d2417960,it/chateau-monfort,Château Monfort - Relais & Châteaux,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g187849-d25157183,it/armani-milano,Armani Hotel Milano,0.692,ok,2026-11-10T18:53:36+00:00
+ta:g187849-d289987,it/park-hyatt-milano,Park Hyatt Milano,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187849-d32714603,it/calimala-milano,Hotel Calimala Milano,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187849-d33216868,it/milu-milano,Hotel Milu Milano,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187849-d4097922,it/senato-milano,Senato Hotel Milano,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g187849-d9762116,it/room-mate-giulia,"Room Mate Collection Giulia, Milan",0.651,ok,2026-11-10T18:53:36+00:00
+ta:g187860-d529262,it/sittnerhof,Hotel Sittnerhof,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d1057391,it/ruzzini-palace,Ruzzini Palace Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d10804768,it/palazzo-venart-luxury,Palazzo Venart Luxury Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d12579192,it/rosasalva-hotel-booking,Rosa Salva Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d14011373,it/ca-39-bonfadini-venezia,Ca' Bonfadini Historic Experience,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d14117477,it/santa-croce-boutique,Santa Croce Boutique Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d1485037,it/priuli,Hotel Palazzo Priuli,0.769,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d1547281,it/canal-grande,Canal Grande,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d16712010,it/palazzo-san-lorenzo-venezia,Palazzo San Lorenzo,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d202684,it/sofitelveneziavenice,Papadopoli Hotel Venezia - MGallery Collection,0.833,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d202728,it/londra-palace,Londra Palace Venezia,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d202737,it/u-visionary-venezia-hotel,U-Visionary Venezia Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d2202675,it/the-venice-venice,The Venice Venice Hotel,0.741,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d230427,it/gritti-palace,"The Gritti Palace, a Luxury Collection Hotel, Venice",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d233394,it/al-ponte-dei-sospiri,Hotel Al Ponte Dei Sospiri,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d237415,it/hotelarcadiavenezia,Arcadia Boutique Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d2558563,it/aqua-palace,Aqua Palace,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d256010,it/sina-palazzo-sant-angelo,Sina Palazzo Sant'Angelo,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d289202,it/hotelantichefigure,Hotel Antiche Figure,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d3348175,it/moresco-venezia,Hotel Moresco,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d482693,it/camariaadelevanezia,Ca Maria Adele,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d555225,it/aimoridoriente,Ai Mori d'Oriente,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d558796,it/nani-mocenigo-palace,Hotel Nani Mocenigo Palace,0.606,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d648266,it/ca-sagredo,Ca' Sagredo Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d651332,it/palazzo-stern,Hotel Palazzo Stern,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d8028498,it/residenza-ducato,Residenza Ducato,0.629,ok,2026-11-10T18:53:36+00:00
+ta:g187870-d8685164,it/ca-fortuny,Palazzina Fortuny,0.609,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d1416521,it/ponte-vecchio-suites-spa,Ponte Vecchio Suites & Spa,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d1446689,it/palazzo-vecchietti-residenza-d-epoca,Palazzo Vecchietti - Residenza D'Epoca,0.677,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d1461957,it/golden-tower,Golden Tower Hotel & Spa,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d17703706,it/angeli-firenze,Hotel Calimala Florence,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d195006,it/lungarno-vespucci-50,Hotel Lungarno Vespucci 50,0.615,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d2257439,it/san-firenze-suites,San Firenze Suites & Spa,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d230717,it/hotelspadai,Hotel Spadai,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d235997,it/antica-torre-di-via-tornabuoni-1,Antica Torre Tornabuoni,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d25074966,it/albani-firenze,Hotel Albani Firenze,0.727,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d296175,it/davanzati,Hotel Davanzati,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d305315,it/de-la-ville-firenze,Hotel De La Ville,0.64,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d567732,it/bonciani,Floren Hotel,0.714,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d5827160,it/borgia-di-firenze,Borgia di Firenze,0.733,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d7778170,it/palazzo-castri-1874,Palazzo Castri 1874 Spa & Garden,0.85,ok,2026-11-10T18:53:36+00:00
+ta:g188052-d228162,ch/savoy,Hotel Savoy,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188052-d236358,ch/bellevue-palace-bern,Hotel Bellevue Palace Bern,0.875,ok,2026-11-10T18:53:36+00:00
+ta:g188052-d267307,ch/schweizerhof-bern,Hotel Schweizerhof Bern & Spa,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188057-d15654431,ch/d-geneva,Hotel D Geneva,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188057-d195980,ch/lesarmures,Hôtel Les Armures,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188057-d195981,ch/four-seasons-geneva,Four Seasons Hotel des Bergues Geneva,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188057-d196004,ch/mandarin-oriental-geneva,"Mandarin Oriental, Geneva",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188057-d228204,ch/de-la-paix-ritz-carlton,"The Ritz-Carlton Hotel de la Paix, Geneva",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188057-d234808,ch/la-reserve-geneve-spa,La Réserve Genève Hotel & Spa,0.645,ok,2026-11-10T18:53:36+00:00
+ta:g188057-d237556,ch/bristolgeneva,Hotel Bristol,0.7,ok,2026-11-10T18:53:36+00:00
+ta:g188057-d8537968,ch/four-seasons-geneva,Four Seasons Hotel des Bergues Geneva,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g188064-d1160988,ch/schweizerhof-luzern,Hotel Schweizerhof Luzern,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188064-d206048,ch/desbalances,Hotel des Balances,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188064-d228134,ch/cascada,Cascada Boutique Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188064-d232990,ch/continental-park,Hotel Continental Park,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188064-d234238,ch/mandarin-oriental-palace-luzern,"Mandarin Oriental Palace, Luzern",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188079-d197813,ch/le-grand-chalet-gstaad,Hotel Le Grand Chalet Gstaad,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188080-d253751,ch/hotel-kreuz,Hotel Kreuz & Post Grindelwald,0.65,ok,2026-11-10T18:53:36+00:00
+ta:g188087-d231845,ch/waldhotel-national,Waldhotel Arosa,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188087-d266531,ch/hohe-promenade,Hotel Hohe Promenade,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188087-d266532,ch/la-cabana-5,La Cabana 5 Arosa,0.692,ok,2026-11-10T18:53:36+00:00
+ta:g188087-d599965,ch/blatter-s-bellavista,Blatter's Arosa Hotel & Bella Vista SPA,0.722,ok,2026-11-10T18:53:36+00:00
+ta:g188087-d632738,ch/waldhotel-national,Waldhotel Arosa,0.636,ok,2026-11-10T18:53:36+00:00
+ta:g188091-d196851,ch/suvretta-house,Suvretta House,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188091-d206213,ch/badrutt-s-palace-st-moritz,Badrutt's Palace Hotel St Moritz,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188091-d206269,ch/grace-la-margna-st-moritz,Hotel GRACE LA MARGNA ST MORITZ,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g188091-d228155,ch/monopol-st-moritz,Art Boutique Hotel Monopol,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d1012460,ch/suitenhotel-zurbriggen,Suitenhotel Zurbriggen,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d196832,ch/grand-zermatterhof,Grand Hotel Zermatterhof,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d230196,ch/swissqwalliserhof,Hotel Walliserhof Zermatt,0.606,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d238057,ch/swissqwalliserhof,Hotel Walliserhof Zermatt,0.625,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d261007,ch/parkhotel-beau-site,BEAUSiTE Zermatt,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d264708,ch/sonne-zermatt,Hotel Sonne,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d278486,ch/bellerive,Hotel Bellerive,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d4137412,ch/matterhorn-lodge,Matterhorn Lodge Boutique Hotel & Apartments,0.862,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d550027,ch/parkhotel-beau-site,BEAUSiTE Zermatt,0.75,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d561189,ch/eden-zermatt,Hotel Eden Wellness,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d601242,ch/albatros,Boutique Hotel Albatros,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g188098-d9807905,ch/panorama-ski-lodge,Suitenhotel Panorama Ski Lodge,0.744,ok,2026-11-10T18:53:36+00:00
 ta:g190432-d195611,at/schlossberg,Schlossberghotel,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g190440-d1459469,at/das-seekarhaus,Hotel das Seekarhaus,1.0,ok,2026-11-09T15:30:18+00:00
 ta:g190440-d2166753,de/schneider,Hotel Schneider,1.0,ok,2026-11-09T13:10:35+00:00
 ta:g190440-d253684,at/kohlmayr,Das Kohlmayr Superior,0.733,ok,2026-11-09T15:30:18+00:00
 ta:g190440-d657063,at/enzian-landeck,Hotel Enzian,1.0,ok,2026-11-09T13:10:35+00:00
 ta:g190440-d967247,at/landhaus-panorama-obertauern,Superior Hotel Panorama,0.762,ok,2026-11-09T15:30:18+00:00
+ta:g190441-d228064,at/hotelbristolsalzburg,Hotel Bristol Salzburg,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g190441-d228068,at/schloss-monchstein,Hotel Schloss Mönchstein,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g190441-d237748,at/hotelbristolsalzburg,Hotel Bristol Salzburg,0.615,ok,2026-11-10T18:53:36+00:00
+ta:g190441-d253252,at/sheratonsalzburg,Sheraton Grand Salzburg,0.686,ok,2026-11-10T18:53:36+00:00
 ta:g190446-d264943,at/erika-kitzbuhel,ERIKA Boutiquehotel Kitzbühel,1.0,ok,2026-11-10T08:58:34+00:00
+ta:g190454-d16811712,at/hyatt-regency-vienna-au,Hyatt Regency Vienna,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g190454-d227176,at/hotelkaiserhof,Hotel Kaiserhof Wien,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g190454-d227177,at/best-western-premier-hotel-harmonie,"The Harmonie Vienna, BW Premier Collection",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g190454-d227967,at/adagio-city-aparthotel-wien-zentrum,Aparthotel Adagio Vienna City,0.627,ok,2026-11-10T18:53:36+00:00
+ta:g190454-d23255413,at/zoku-vienna,Zoku Vienna,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g190454-d264915,at/capri,Henriette Stadthotel Vienna,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g190454-d272580,at/erzherzograiner,Hotel Erzherzog Rainer,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g190454-d3346123,at/sans-souci-wien,"Hotel Sans Souci, Vienna",0.857,ok,2026-11-10T18:53:36+00:00
+ta:g190454-d482579,at/alma-boutique,Alma Boutique-Hotel,0.741,ok,2026-11-10T18:53:36+00:00
 ta:g190454-d567211,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g190454-d6603500,at/park-hyatt-vienna,Park Hyatt Vienna,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g1918752-d1811039,,,0.0,not found,2026-11-09T12:11:39+00:00
+ta:g194680-d2066660,it/miraval-naturhotel,Miraval NaturHotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194691-d1438679,it/costa-rica-bibione-aparthotel,Costa Rica Bibione Aparthotel,0.605,ok,2026-11-10T18:53:36+00:00
+ta:g194703-d2284073,it/hotel-pupp-adults-only,Soley Suites - adults only,0.688,ok,2026-11-10T18:53:36+00:00
+ta:g194703-d23850786,it/santre-dolomythic-home,Santre dolomythic home,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194703-d4374747,it/tourist-bressanone,Tourist Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194709-d1133558,it/wellness-lupo-bianco,Wellness Hotel Lupo Bianco,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194709-d2157527,it/locanda-degli-artisti-art,Locanda degli Artisti Art Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194709-d3805960,it/chalet-berna,Chalet Berna,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g194723-d1893084,it/euro-cattolica3,EURO b&b,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g194796-d1151812,it/villa-amare-caorle,Villa AMARE,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g194796-d2429119,it/centrale-lignano-sabbiadoro,Hotel Centrale,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194796-d641219,it/villa-amare-caorle,Villa AMARE,0.615,ok,2026-11-10T18:53:36+00:00
+ta:g194799-d12090552,it/green-hospitality-provincia-di-sondrio1,Green Hospitality,0.634,ok,2026-11-10T18:53:36+00:00
+ta:g194799-d1637066,it/garni-roberta-livigno,Hotel Roberta Alpine - Adults only,0.722,ok,2026-11-10T18:53:36+00:00
+ta:g194799-d1744281,it/sonne,Eco & Wellness Boutique Hotel Sonne,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194799-d1901491,it/baita-montana,Hotel Baita Montana,0.774,ok,2026-11-10T18:53:36+00:00
+ta:g194799-d637178,it/flora-livigno123,Hotel Flora,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194807-d595253,it/dolomiti-malcesine,Hotel Dolomiti,0.64,ok,2026-11-10T18:53:36+00:00
+ta:g194823-d2175614,it/bellettinihome,Bellettinihome,0.833,ok,2026-11-10T18:53:36+00:00
+ta:g194833-d4028686,it/il-tosco,Il Tosco,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194833-d618733,it/la-locanda-di-san-francesco,La Locanda Di San Francesco,0.905,ok,2026-11-10T18:53:36+00:00
+ta:g194841-d670996,it/engel-angelo,Hotel Angelo Engel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194863-d1204726,it/villa-capri-praiano,Villa Capri,0.64,ok,2026-11-10T18:53:36+00:00
+ta:g194863-d195502,it/palazzo-tasso,Palazzo Tasso,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g194863-d202902,it/casa-degli-dei-nocelle,Positano Alta House,0.743,ok,2026-11-10T18:53:36+00:00
+ta:g194863-d262163,it/casa-reginella-positano,Casa Positano,0.606,ok,2026-11-10T18:53:36+00:00
+ta:g194863-d307715,it/regina-sorrento,Boutique Hotel Regina,0.64,ok,2026-11-10T18:53:36+00:00
+ta:g194863-d8715392,it/villa-magnolia-castellammare-di-stabia,Villa Magnolia,0.87,ok,2026-11-10T18:53:36+00:00
+ta:g194867-d276584,it/hotelmargherita,Hotel Margherita,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194867-d571498,it/casa-celidea,Casa Celidea,0.696,ok,2026-11-10T18:53:36+00:00
+ta:g194878-d1113549,it/ambasciatori-riccione,Hotel Ambasciatori,0.8,ok,2026-11-10T18:53:36+00:00
+ta:g194878-d17760908,it/promenade-residence-wellness,The Promenade Luxury Wellness Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194878-d23323860,it/we-me,We Me Suite Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194878-d469540,it/augustus-riccione-centro,Augustus Hotel Riccione,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194878-d567287,it/augustus-riccione-centro,Augustus Hotel Riccione,0.71,ok,2026-11-10T18:53:36+00:00
+ta:g194878-d607077,it/casa-riva-riccione,Casa Riva,0.615,ok,2026-11-10T18:53:36+00:00
+ta:g194878-d613217,it/corallo-riccione,Hotel Corallo,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194878-d949416,it/appartamenti-desi-riccione,Appartamenti Desi Riccione,0.7,ok,2026-11-10T18:53:36+00:00
+ta:g194897-d1718414,it/lagacio-mountain-residence,Lagació Hotel Mountain Residence,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194912-d1024612,it/cosmea,Hotel COSMEA - Your Dolomites & Honeymoon experience,0.708,ok,2026-11-10T18:53:36+00:00
+ta:g194912-d1104983,it/chalet-l-piz-dolomites-wolkenstein-in-groden,Chalet L Piz Dolomites,0.857,ok,2026-11-10T18:53:36+00:00
+ta:g194912-d1384390,it/garni-aritz,Garni Aritz,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g194912-d1390516,it/sun-valley,Hotel Sun Valley,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194912-d1625397,it/pozzamanigoni,Hotel Pozzamanigoni,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194912-d1650904,it/montchalet,Hotel Montchalet,0.625,ok,2026-11-10T18:53:36+00:00
+ta:g194912-d314495,it/sporthotel-teresa,Sporthotel Teresa,0.686,ok,2026-11-10T18:53:36+00:00
+ta:g194912-d314512,it/tyrol-selva-gardena,Hotel Tyrol,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194933-d1594133,it/golserhof,Golserhof,0.778,ok,2026-11-10T18:53:36+00:00
+ta:g198839-d1179800,ch/voltaire-by-mirabeau,Mirabeau Etoile,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g198839-d267880,ch/mountain-lodge-grachen1,Mountain Lodge,0.621,ok,2026-11-10T18:53:36+00:00
+ta:g198839-d646572,ch/allalin,Hotel Allalin Saas-Fee,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g198842-d253998,ch/wellness-spa-ermitage,ERMITAGE Wellness- & Spa-Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g198858-d291829,ch/morosanischweizerhof,Morosani Schweizerhof,0.75,ok,2026-11-10T18:53:36+00:00
+ta:g198858-d676005,ch/lenzerhorn,"Hotel Lenzerhorn - Alpine Stay, Spa & Savour",0.682,ok,2026-11-10T18:53:36+00:00
+ta:g198865-d231846,ch/ascona,Hotel Ascona,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g198865-d234215,ch/ascona,Hotel Ascona,0.632,ok,2026-11-10T18:53:36+00:00
 ta:g1988927-d1986522,at/defereggental-amp-resort,Defereggental Hotel & Resort,1.0,ok,2026-11-09T13:10:35+00:00
 ta:g2205243-d2194477,at/restaurant-prechtlhof-althofen,Hotel Prechtlhof,1.0,ok,2026-11-10T04:49:10+00:00
 ta:g2274029-d2301591,at/berghotel-presslauer,Berghotel Presslauer,1.0,ok,2026-11-09T12:11:39+00:00
@@ -40,10 +265,107 @@ ta:g229452-d1222305,at/garni-haus-barbara,B&B Hotel Die Barbara,1.0,ok,2026-11-1
 ta:g229452-d1832991,at/schutterhof,Hotel Schütterhof,1.0,ok,2026-11-10T04:49:10+00:00
 ta:g230011-d1208213,at/parkhotel-tristachersee,Parkhotel Tristachersee,1.0,ok,2026-11-09T12:21:27+00:00
 ta:g230011-d1514263,at/best-western-sonne,Hotel Sonne Lienz,0.6,ok,2026-11-09T12:21:27+00:00
+ta:g262035-d1500791,at/burg-vital-resort,Burg Vital Resort,0.706,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d1584728,at/pension-kilian,Pension Kilian,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d1587293,at/burg-oberlech,Burg Hotel Lech am Arlberg,0.737,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d1605341,at/auenhof-lech,Hotel Auenhof,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d1734862,at/almhof-schneider,Hotel Almhof Schneider,0.69,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d262810,at/kristiania-lech,Kristiania Lech a Member of SLH,0.7,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d263524,at/arlberg,Hotel Arlberg Lech,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d282368,at/haldenhof,Haldenhof,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d291954,at/burg-vital-resort,Burg Vital Resort,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d295434,at/auriga,Hotel Auriga,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d315708,at/goldener-berg,Hotel Goldener Berg,0.636,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d316306,at/gotthard,Hotel Gotthard,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d316322,at/auenhof-lech,Hotel Auenhof,0.714,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d500535,at/goldener-berg,Hotel Goldener Berg,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d850390,at/austria-lech,Hotel Austria Lech,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274697-d16745435,cz/revelton-studios-karlovy-vary,Revelton Studios Karlovy Vary,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274697-d17727063,cz/golden-key-boutique,Golden Key Boutique Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274697-d276008,cz/embassy,Hotel Embassy,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274697-d276012,cz/hotelromance,Hotel Romance,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274697-d630391,cz/aura-palace,Karlsbad Grande Madonna,0.84,ok,2026-11-10T18:53:36+00:00
+ta:g274697-d7178408,cz/atlantic-palace,EA Hotel Atlantic Palace,0.789,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d10598046,cz/cosmopolitan-prague,COSMOPOLITAN Hotel Prague,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d1159286,cz/the-augustine,"Augustine Hotel, Prague",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d1231513,cz/buddha-bar-prague,Buddha-Bar Hotel Prague,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d1485015,cz/kings-court,Hotel KINGS COURT,0.625,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d1533333,cz/euroagentur-manes,THE MANES Boutique Hotel Prague,0.632,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d2064862,cz/alchymist-prague-castle-suites,Alchymist Prague Castle Suites Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d23651163,cz/andaz-prague,"Andaz Prague, By Hyatt",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d23785545,cz/julius-meinl-house-prague,The Julius Prague,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d25105920,cz/arthotelprague,Art Hotel Prague,0.762,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d25397629,sk/marrol-s,Marrol's Boutique Hotel,0.647,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d275239,cz/lepalais,Le Palais Art Hotel Prague,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d275253,cz/pariz,Hotel Paris Prague,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d275498,cz/grandhotelbohemia,Grand Hotel Bohemia,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d275502,sk/antares,Hotel ANTARES,0.615,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d276521,cz/the-bishop-s-house,Bishop's House,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d276538,cz/u-zlate-studne,Golden Well,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d276609,cz/waldstein,Hotel Waldstein,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d277214,cz/mercure-prague-old-town,Century Old Town Prague - MGallery Collection,0.848,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d277304,cz/u-zlate-studne,Golden Well,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d282249,cz/hilton-prague,Hilton Prague Atrium,0.651,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d507334,cz/quentin-prague,Quentin Prague Hotel,0.769,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d581385,cz/innside-by-melia,INNSiDE by Meliá Prague Old Town,0.609,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d607172,cz/appia-residences,Appia Hotel Residences,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d616395,cz/mandarin-oriental-prague,"Mandarin Oriental, Prague",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d658737,cz/r18-residences-prague,R18 Residences Prague,0.727,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d667752,sk/residence-1892-apartment-3,Residence 1892 - Apartment 3,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g274707-d8501421,cz/boho-prague,BoHo Prague Hotel - Small Luxury Hotels,0.885,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d1200734,hu/palazzo-zichy,Eurostars Palazzo Zichy,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d13392862,hu/artotel,Park Plaza Budapest,0.733,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d15124757,hu/mystery-budapest,"Mystery Hotel Budapest, Preferred Hotels & Resorts",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d15277005,hu/voco-budapest-d8,voco Budapest D8 by IHG,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d15326707,hu/monastery-boutique-budapest,Monastery Boutique Hotel Budapest,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d1557739,hu/opera-garden-apartments,Opera Garden Hotel & Apartments,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d17783358,hu/up-budapest,Up Hotel Budapest,0.621,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d1977620,hu/fraser-residence-budapest,Escala Hotel & Suites,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d19938265,hu/kozmo-budapest,Kozmo Hotel Suites & Spa - Small Luxury Hotels of the World,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d20182086,hu/up-budapest,Up Hotel Budapest,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d23394053,hu/westend-hotel-budapest,Crowne Plaza Budapest by IHG,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d23595417,hu/fraser-residence-budapest,Escala Hotel & Suites,0.72,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d23959231,hu/est-grand-savoy,EST Grand Hotel Savoy,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d24046643,hu/oktogon-budapest12345,Hotel Oktogon Haggenmacher by Continental Group,0.679,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d26559807,hu/dorothea-budapest-autograph-collection,"Dorothea Hotel, Budapest, Autograph Collection",1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d276352,hu/hilton-budapest,Hilton Budapest,0.645,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d276381,hu/monastery-boutique-budapest,Monastery Boutique Hotel Budapest,0.653,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d276849,hu/four-seasons-gresham-palace-budapest,Four Seasons Hotel Gresham Palace Budapest,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d285437,hu/barcelo-budapest,Barceló Budapest,0.625,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d33214023,hu/mamaison-chain-bridge-budapest-budapest1,Mamaison Hotel Chain Bridge Budapest,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d7818402,hu/prestige-budapest,Prestige Hotel Budapest,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d8074728,hu/leon,Leon Hotel & Lounge Budapest,0.622,ok,2026-11-10T18:53:36+00:00
+ta:g274887-d9250207,hu/dormero-budapest,DORMERO Hotel Budapest,0.733,ok,2026-11-10T18:53:36+00:00
+ta:g274924-d1435845,sk/city-bratislava,Hotel Bratislava,0.645,ok,2026-11-10T18:53:36+00:00
+ta:g274924-d1592032,sk/sheraton-bratislava,Sheraton Bratislava Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g274924-d276296,sk/marrol-s,Marrol's Boutique Hotel,0.636,ok,2026-11-10T18:53:36+00:00
+ta:g274924-d669692,sk/arcadia,Arcadia Boutique Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g295370-d10627083,hr/balatura-split-luxury-rooms-split,Balatura The Fine Bed&Breakfast Split,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g295370-d2236475,hr/gothic-palace-augubio-luxury-rooms,Gothic Palace Heritage,0.75,ok,2026-11-10T18:53:36+00:00
+ta:g295370-d4308958,hr/villa-matejuska-heritage,Villa Matejuska Heritage,0.7,ok,2026-11-10T18:53:36+00:00
+ta:g295370-d6870214,hr/jupelter-luxury,Jupiter Heritage Hotel,0.69,ok,2026-11-10T18:53:36+00:00
+ta:g295370-d6871450,hr/cornaro,Cornaro Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g295370-d6947960,hr/a-heritage-split,A Heritage Split,0.765,ok,2026-11-10T18:53:36+00:00
+ta:g295370-d8111337,hr/irini,Irini Luxury Rooms,0.609,ok,2026-11-10T18:53:36+00:00
+ta:g295371-d1469085,hr/guesthouse-s-amp-l-1,Guesthouse S&L 1,0.8,ok,2026-11-10T18:53:36+00:00
+ta:g295371-d21303097,hr/heritage-lucia,Heritage Hotel Lucia,0.625,ok,2026-11-10T18:53:36+00:00
+ta:g295371-d303138,hr/city-dubrovnik,City Hotel Dubrovnik,0.71,ok,2026-11-10T18:53:36+00:00
+ta:g295371-d559522,hr/hilton-imperial-dubrovnik,Hilton Imperial Dubrovnik,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g319732-d1140276,at/oasis-princess-bergfrieden,Princess Bergfrieden,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g319732-d315538,at/klosterbrau,Hotel Klosterbräu,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g319732-d498797,at/haymon,Hotel Haymon,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g319732-d500144,at/central-seefeld,Hotel Central,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g319732-d646259,at/kreuzhof,KREUZHOF Seefeld,0.645,ok,2026-11-10T18:53:36+00:00
 ta:g551473-d523028,at/hochschober,Hotel Hochschober,1.0,ok,2026-11-09T12:21:27+00:00
 ta:g580116-d1010387,,,0.0,not found,2026-11-09T13:10:35+00:00
 ta:g580116-d286604,de/haus-hirt-klosterlechfeld,Haus Hirt,1.0,ok,2026-11-09T13:10:35+00:00
 ta:g580116-d575322,at/villaexcelsiorkurhaus,Villa Excelsior Hotel & Kurhaus,1.0,ok,2026-11-09T13:10:35+00:00
+ta:g580234-d532370,it/sporthotel-arabba,Sporthotel Arabba,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g580235-d654794,it/wiesenhof-algund,Hotel Wiesenhof,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g5971121-d1166618,it/excelsior-mountain-style-spa-resort,Excelsior Dolomites Life Resort,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g5971121-d1403894,it/my-arbor,My Arbor - Dolomites,0.867,ok,2026-11-10T18:53:36+00:00
+ta:g5971121-d252531,it/monte-sella,Hotel Monte Sella,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g5971121-d571576,it/almhof-call,Almhof Hotel Call,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g608652-d1165572,at/posthotel-familienhotel,Familienhotel Post,1.0,ok,2026-11-10T04:49:10+00:00
 ta:g608658-d1170227,,,0.533,not found,2026-11-10T08:58:34+00:00
 ta:g608661-d10533258,at/und-apartment-orgler-alpenparks,AlpenParks Hotel & Apartment Orgler Kaprun,1.0,ok,2026-11-10T08:58:34+00:00
@@ -74,7 +396,24 @@ ta:g608666-d500765,at/vital-familien-landgasthof-stadt-wien,Hotel Stadt Wien,1.0
 ta:g608666-d645579,at/pension-hubertus,Hotel Pension Hubertus,0.857,ok,2026-11-09T12:01:03+00:00
 ta:g608666-d647276,at/hagleitner-family-balance-spa,POP-UP LIVING Zell am See,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g608668-d1076448,at/landhaus-kaiserblick,Landhaus Kaiserblick,1.0,ok,2026-11-10T04:49:10+00:00
+ta:g608670-d1072691,at/alpenland,Hotel Alpenland,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g608670-d12705543,at/the-ischgl-lodge,The Ischgl Lodge,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g608670-d1635968,at/berghotel-sonnblick,Hotel Sonnblick,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g608670-d2315695,at/garni-christine,Hotel Garni Christine,0.692,ok,2026-11-10T18:53:36+00:00
+ta:g608670-d500880,at/post-ischgl,Superior Hotel Post Ischgl,0.714,ok,2026-11-10T18:53:36+00:00
+ta:g608670-d6419999,at/gastehaus-lavendel,Hotel Garni Lavendel,0.667,ok,2026-11-10T18:53:36+00:00
+ta:g608670-d7660146,at/gletscherblick-st-anton-am-arlberg,Hotel Gletscherblick,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g608676-d1500821,at/gletscherblick-st-anton-am-arlberg,Hotel Gletscherblick,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g608676-d1581564,at/arlberg-lodges,Arlberg Lodges,0.783,ok,2026-11-10T18:53:36+00:00
+ta:g608676-d1647036,at/haldenhof,Haldenhof,0.632,ok,2026-11-10T18:53:36+00:00
+ta:g608676-d195368,at/schwarzer-adler-st-anton,Hotel Schwarzer Adler,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g608676-d2293485,at/m3,m3Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g608676-d943527,at/rundeck,Hotel Rundeck,0.737,ok,2026-11-10T18:53:36+00:00
 ta:g608679-d1142979,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g608682-d1018711,at/goldener-berg,Hotel Goldener Berg,0.632,ok,2026-11-10T18:53:36+00:00
+ta:g608682-d1024087,at/arlberg,Hotel Arlberg Lech,0.727,ok,2026-11-10T18:53:36+00:00
+ta:g612437-d1224845,it/cristal-palace-madonna-di-campiglio-tn,Cristal Palace Hotel,0.643,ok,2026-11-10T18:53:36+00:00
+ta:g612437-d572375,it/piccolo-suite-resort,Il Piccolo Dolomiti Resort,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g616041-d195362,at/theresa-wellness-genieaer,Theresa Wellness-Genießer-Hotel,0.957,ok,2026-11-10T08:58:34+00:00
 ta:g635546-d1017772,at/alpina-rauris,Hotel Alpina Rauris,1.0,ok,2026-11-09T15:30:18+00:00
 ta:g635546-d571954,at/volserhof,Hotel Völserhof,0.6,ok,2026-11-09T15:30:18+00:00
@@ -106,10 +445,20 @@ ta:g641751-d668161,,,0.545,not found,2026-11-10T08:58:34+00:00
 ta:g641760-d1230877,at/schloss-thannegg,Aparthotel Schloss Thannegg,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g641766-d1537003,at/haus-hepi,Haus Hepi B&B,1.0,ok,2026-11-10T04:49:10+00:00
 ta:g641766-d4750565,,,0.0,not found,2026-11-09T12:01:03+00:00
+ta:g644054-d1108350,at/alpenhotel-tirolerhof,Alpenhotel Tirolerhof,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g644054-d1368164,at/wellnesshotel-milderer-hof,Wellness & Relax Hotel Milderer Hof,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g644054-d1500915,at/rastbichlhof,Biohotel Rastbichlhof,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g644054-d292033,at/sagehof-oberisshutte,Sägehof,0.714,ok,2026-11-10T18:53:36+00:00
+ta:g644054-d3748473,at/appartements-alpenschlossl,Alpeiner - Nature Resort Tirol,0.848,ok,2026-11-10T18:53:36+00:00
+ta:g644054-d500371,at/activehotel-bergkonig,Premium Activehotel Bergkönig,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g644054-d500767,at/stubaierhof,Hotel Stubaierhof,0.88,ok,2026-11-10T18:53:36+00:00
 ta:g651663-d667324,,,0.0,not found,2026-11-09T12:01:03+00:00
 ta:g651666-d1447501,,,0.462,not found,2026-11-10T08:58:34+00:00
 ta:g651666-d1570955,at/edelweiss-gerlos,Hotel Edelweiss,0.75,ok,2026-11-10T08:58:34+00:00
 ta:g651667-d1765617,at/naturlich-mit-charakter,Natürlich Hotel mit Charakter,0.977,ok,2026-11-09T12:01:03+00:00
+ta:g651667-d1873486,at/fisserhof,Hotel Fisserhof,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g651667-d7018173,at/garni-alpslodge,Alps Lodge,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g652030-d1096855,it/palace-ravelli,Hotel Ravelli Luxury Spa,0.7,ok,2026-11-10T18:53:36+00:00
 ta:g656477-d645309,at/vitalhotel-saliter-hof,Hotel Saliter Hof,0.632,ok,2026-11-10T08:58:34+00:00
 ta:g658282-d3535622,at/neuwirt-ramsau-am-dachstein,Hotel Neuwirt,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g663652-d1021107,at/wellnesshotel-eggerwirt,Wellnesshotel Eggerwirt,1.0,ok,2026-11-09T13:10:35+00:00
@@ -125,6 +474,7 @@ ta:g793518-d292034,at/sporthotel-stock,Stock Resort,1.0,ok,2026-11-10T08:58:34+0
 ta:g807293-d1169882,at/flachauerhof,Hotel Flachauerhof,1.0,ok,2026-11-09T15:30:18+00:00
 ta:g807293-d1181140,at/montanara-flachau,Alpines Gourmet Hotel Montanara,0.902,ok,2026-11-09T15:30:18+00:00
 ta:g807293-d1191669,at/winterbauer-flachau,Hotel Winterbauer,1.0,ok,2026-11-10T04:49:10+00:00
+ta:g808076-d1094556,at/kristall-pertisau,Verwöhnhotel Kristall,0.632,ok,2026-11-10T18:53:36+00:00
 ta:g808078-d1015064,it/kristall-pfalzen,Hotel Kristall,1.0,ok,2026-11-09T15:30:18+00:00
 ta:g808078-d1728712,at/grossarler-hof,Grossarler Hof Superior,0.765,ok,2026-11-09T15:30:18+00:00
 ta:g808078-d23839471,at/lammwirt-groaarl,Hotel Lammwirt,1.0,ok,2026-11-09T15:30:18+00:00
@@ -133,3 +483,4 @@ ta:g808084-d1208311,at/hoeflehner-natur-und-wellnesshotel,Natur- und Wellnesshot
 ta:g811450-d1178219,at/haus-patricia,Pension Haus Patricia,0.774,ok,2026-11-09T12:01:03+00:00
 ta:g811462-d1595255,at/wander-vitalhotel-steirerhof,Premium Wanderhotel Steirerhof,1.0,ok,2026-11-10T04:49:10+00:00
 ta:g939822-d286609,at/schlossseefels,Hotel Schloss Seefels,1.0,ok,2026-11-09T12:11:39+00:00
+ta:g946051-d3497703,de/wellnesshotel-riedlberg,Wellnesshotel Riedlberg,1.0,ok,2026-11-10T18:53:36+00:00
