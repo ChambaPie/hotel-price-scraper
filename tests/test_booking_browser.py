@@ -27,4 +27,4 @@ def test_google_probe_summary():
     from hotel_scraper.google_probe import summarize
     s = summarize("Haus Hepi  €149  Official site €152  Booking.com €149  18% less than usual  Great deal")
     assert s["prices_seen"] == 3 and s["sellers_seen"] == ["Official site", "Booking.com"]
-    assert s["deal_tags"] == ["18% less than usual", "Deal", "Great deal"] and not s["consent_wall"]
+    assert s["deal_tags"] == ["18% less than usual", "Great deal"] and not s["consent_wall"]
