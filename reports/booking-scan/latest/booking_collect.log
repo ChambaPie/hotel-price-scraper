@@ -1,9 +1,9 @@
-15:30:22 session token: yes
-15:30:44 empty search 'Superior Panorama Obertauern Tweng': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCKXNlYXJjaF9zdXBlcmlvciBwYW5vcmFtYSBvYmVydGF1ZXJuIHR3ZW5nSAlYBGiyAogBAZgBM7gBF8gBDNgBA-gBAfgBAY title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
-15:31:10 empty search 'Das Kohlmayr Untertauern': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCH3NlYXJjaF9kYXMga29obG1heXIgdW50ZXJ0YXVlcm5ICVgEaLICiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKozs title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
-15:31:36 empty search 'Hotel Das Seekarhaus Untertauern': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCJ3NlYXJjaF9ob3RlbCBkYXMgc2Vla2FyaGF1cyB1bnRlcnRhdWVybkgJWARosgKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAg title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
-15:35:58 mapping: 16 found, 1 not found; 48 mapped
-## Booking.com collection: 48 calendars, 288 calls, 414 s
+04:49:14 session token: yes
+04:49:36 empty search 'Haus Kienreich Altenmarkt im Pongau': landed on https://www.booking.com/searchresults.en-gb.html?ss=Haus%20Kienreich%20Altenmarkt%20im%20Pongau&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1 title 'Booking.com: Search results: Haus%20Kienreich%20Altenmarkt%20im%20Pongau. Book y'
+04:49:58 empty search 'Haus Kienreich': landed on https://www.booking.com/searchresults.en-gb.html?ss=Haus%20Kienreich&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1&group_children=0&selected_ title 'Booking.com: Search results: Haus%20Kienreich. Book your hotel now!'
+04:50:31 empty search 'LEDERER s LIVING Kaprun': landed on https://www.booking.com/searchresults.en-gb.html?ss=LEDERER%20s%20LIVING%20Kaprun&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1&group_childre title 'Booking.com: Search results: LEDERER%20s%20LIVING%20Kaprun. Book your hotel now!'
+04:54:28 mapping: 14 found, 3 not found; 62 mapped
+## Booking.com collection: 55 calendars, 330 calls, 410 s
 
-Mapping: 16 found, 1 not found. Failed: 0. Last-minute cards: 643.
+Mapping: 14 found, 3 not found. Failed: 0. Last-minute cards: 508.
 
