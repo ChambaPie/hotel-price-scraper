@@ -1,84 +1,86 @@
-13:43:04 session token: yes
-13:43:17 empty search 'Venice': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCDXNlYXJjaF92ZW5pY2VICVgEaJwCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALovszXBsACAdICJDViODUwY2E3LT title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
-13:43:31 empty search 'Venice': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCDXNlYXJjaF92ZW5pY2VICVgEaJwCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAL1vszXBsACAdICJDIxNTY5NTc2LT title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
-13:43:31 town Venice: 0 cards, 0 of 34 matched
-13:43:44 empty search 'Vatican City': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCE3NlYXJjaF92YXRpY2FuIGNpdHlICVgEaJwCiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKDv8zXBsACAdICJDY3Mj title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
-13:43:58 town Vatican City: 0 cards, 0 of 31 matched
-13:44:25 town Rome: 0 cards, 0 of 28 matched
-13:44:53 town Florence: 0 cards, 0 of 25 matched
-13:45:20 town Napoli: 0 cards, 0 of 25 matched
-13:45:47 town Lech: 0 cards, 0 of 22 matched
-13:46:15 town Zermatt: 0 cards, 0 of 21 matched
-13:46:42 town Prague: 0 cards, 0 of 18 matched
-13:47:09 town Vienna: 0 cards, 0 of 16 matched
-13:47:37 town Mala Strana: 0 cards, 0 of 14 matched
-13:48:04 town Lido di Iesolo: 0 cards, 0 of 13 matched
-13:48:32 town Andalo: 0 cards, 0 of 13 matched
-13:48:59 town Sankt Anton am Arlberg: 0 cards, 0 of 12 matched
-13:49:26 town Seefeld in Tirol: 0 cards, 0 of 11 matched
-13:49:54 town Stare Mesto: 0 cards, 0 of 11 matched
-13:50:21 town Budapest: 0 cards, 0 of 11 matched
-13:50:49 town Riccione: 0 cards, 0 of 11 matched
-13:51:16 town Split: 0 cards, 0 of 10 matched
-13:51:43 town Milano: 0 cards, 0 of 10 matched
-13:52:10 town Sorrento: 0 cards, 0 of 10 matched
-13:52:37 town Lignano Sabbiadoro: 0 cards, 0 of 9 matched
-13:53:04 town Livigno: 0 cards, 0 of 9 matched
-13:53:32 town Stans: 0 cards, 0 of 8 matched
-13:53:59 town Neustift im Stubaital: 0 cards, 0 of 8 matched
-13:54:26 town Ischgl: 0 cards, 0 of 8 matched
-13:54:54 town Geneve: 0 cards, 0 of 8 matched
-13:55:21 town Budapest VI. keruelet: 0 cards, 0 of 8 matched
-13:55:48 town Positano: 0 cards, 0 of 8 matched
-13:56:16 town Selva: 0 cards, 0 of 8 matched
-13:56:43 town Arosa: 0 cards, 0 of 7 matched
-13:57:10 town Saas-Fee: 0 cards, 0 of 7 matched
-13:57:38 town Vysehrad: 0 cards, 0 of 7 matched
-13:58:05 town Bibione: 0 cards, 0 of 7 matched
-13:58:32 town Ortisei: 0 cards, 0 of 7 matched
-13:59:00 town Rimini: 0 cards, 0 of 7 matched
-13:59:27 town Praiano: 0 cards, 0 of 7 matched
-13:59:54 town Fiss: 0 cards, 0 of 6 matched
-14:00:22 town Luzern: 0 cards, 0 of 6 matched
-14:00:49 town Karlovy Vary: 0 cards, 0 of 6 matched
-14:01:16 town Munich: 0 cards, 0 of 6 matched
-14:01:44 town San Vigilio: 0 cards, 0 of 6 matched
-14:02:11 town Salzburg: 0 cards, 0 of 5 matched
-14:02:38 town Saint Moritz: 0 cards, 0 of 5 matched
-14:03:05 town Gstaad: 0 cards, 0 of 5 matched
-14:03:32 town Stari Grad: 0 cards, 0 of 5 matched
-14:03:59 town Budapest VIII. keruelet: 0 cards, 0 of 5 matched
-14:04:26 town Montepulciano: 0 cards, 0 of 5 matched
-14:04:54 town Monterosso al Mare: 0 cards, 0 of 5 matched
-14:05:21 town Corvara in Badia: 0 cards, 0 of 5 matched
-14:05:48 town Canazei: 0 cards, 0 of 5 matched
-14:06:15 town Cattolica: 0 cards, 0 of 5 matched
-14:06:43 town Tirolo: 0 cards, 0 of 5 matched
-14:07:10 town Soelden: 0 cards, 0 of 4 matched
-14:07:37 town Silvaplana: 0 cards, 0 of 4 matched
-14:08:04 town Fiesch: 0 cards, 0 of 4 matched
-14:08:31 town Dubrovnik: 0 cards, 0 of 4 matched
-14:08:59 town Santa Cristina Valgardena: 0 cards, 0 of 4 matched
-14:09:26 town Alba Adriatica: 0 cards, 0 of 4 matched
-14:09:53 town Badia: 0 cards, 0 of 4 matched
-14:10:21 town Cervia: 0 cards, 0 of 4 matched
-14:10:48 town Bressanone: 0 cards, 0 of 4 matched
-14:11:15 town Malcesine: 0 cards, 0 of 4 matched
-14:11:43 town Mezzana: 0 cards, 0 of 4 matched
-14:12:11 town Naturno: 0 cards, 0 of 4 matched
-14:12:38 town Sirmione: 0 cards, 0 of 4 matched
-14:13:05 town Bratislava: 0 cards, 0 of 4 matched
-14:13:32 town Fugen: 0 cards, 0 of 3 matched
-14:14:00 town Umhausen: 0 cards, 0 of 3 matched
-14:14:27 town Leutasch: 0 cards, 0 of 3 matched
-14:14:54 town Churwalden: 0 cards, 0 of 3 matched
-14:15:22 town Ascona: 0 cards, 0 of 3 matched
-14:15:49 town Grindelwald: 0 cards, 0 of 3 matched
-14:16:16 town Bern: 0 cards, 0 of 3 matched
-14:16:43 town Bodenmais: 0 cards, 0 of 3 matched
-14:17:11 town Rothenburg ob der Tauber: 0 cards, 0 of 3 matched
-14:17:11 mapping: 0 found, 0 not found; 104 mapped
-## Booking.com collection: 94 calendars, 564 calls, 2204 s
+18:53:40 session token: yes
+18:54:08 town Venice: 198 cards, 26 of 34 matched
+18:54:35 town Vatican City: 201 cards, 14 of 31 matched
+18:55:01 town Rome: 187 cards, 11 of 28 matched
+18:55:28 town Florence: 195 cards, 14 of 25 matched
+18:55:54 town Napoli: 197 cards, 12 of 25 matched
+18:56:20 town Lech: 64 cards, 17 of 22 matched
+18:56:46 town Zermatt: 81 cards, 12 of 21 matched
+18:57:14 town Prague: 200 cards, 15 of 18 matched
+18:57:40 town Vienna: 198 cards, 10 of 16 matched
+18:58:06 town Mala Strana: 86 cards, 8 of 14 matched
+18:58:19 empty search 'Lido di Iesolo': landed on https://www.booking.com/searchresults.en-gb.html?ss=Lido%20di%20Iesolo&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1&group_children=0&selecte title 'Booking.com: Search results: Lido%20di%20Iesolo. Book your hotel now!'
+18:58:32 empty search 'Lido di Iesolo': landed on https://www.booking.com/searchresults.en-gb.html?ss=Lido%20di%20Iesolo&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1&group_children=0&selecte title 'Booking.com: Search results: Lido%20di%20Iesolo. Book your hotel now!'
+18:58:32 town Lido di Iesolo: 0 cards, 0 of 13 matched
+18:58:58 town Andalo: 200 cards, 2 of 13 matched
+18:59:25 town Sankt Anton am Arlberg: 133 cards, 6 of 12 matched
+18:59:52 town Seefeld in Tirol: 57 cards, 5 of 11 matched
+19:00:19 town Stare Mesto: 157 cards, 3 of 11 matched
+19:00:46 town Budapest: 198 cards, 11 of 11 matched
+19:01:12 town Riccione: 103 cards, 8 of 11 matched
+19:01:40 town Split: 199 cards, 7 of 10 matched
+19:02:06 town Milano: 198 cards, 8 of 10 matched
+19:02:33 town Sorrento: 200 cards, 7 of 10 matched
+19:02:59 town Lignano Sabbiadoro: 73 cards, 3 of 9 matched
+19:03:26 town Livigno: 90 cards, 5 of 9 matched
+19:03:52 town Stans: 123 cards, 0 of 8 matched
+19:04:19 town Neustift im Stubaital: 189 cards, 7 of 8 matched
+19:04:46 town Ischgl: 200 cards, 7 of 8 matched
+19:05:12 town Geneve: 73 cards, 8 of 8 matched
+19:05:39 town Budapest VI. keruelet: 94 cards, 8 of 8 matched
+19:06:06 town Positano: 124 cards, 6 of 8 matched
+19:06:32 town Selva: 122 cards, 5 of 8 matched
+19:07:00 town Arosa: 94 cards, 5 of 7 matched
+19:07:26 town Saas-Fee: 170 cards, 4 of 7 matched
+19:07:53 town Vysehrad: 199 cards, 1 of 7 matched
+19:08:20 town Bibione: 121 cards, 1 of 7 matched
+19:08:47 town Ortisei: 69 cards, 2 of 7 matched
+19:09:14 town Rimini: 154 cards, 5 of 7 matched
+19:09:41 town Praiano: 200 cards, 2 of 7 matched
+19:10:07 town Fiss: 83 cards, 2 of 6 matched
+19:10:34 town Luzern: 98 cards, 5 of 6 matched
+19:11:01 town Karlovy Vary: 188 cards, 6 of 6 matched
+19:11:27 town Munich: 161 cards, 5 of 6 matched
+19:11:54 town San Vigilio: 132 cards, 4 of 6 matched
+19:12:21 town Salzburg: 92 cards, 4 of 5 matched
+19:12:49 town Saint Moritz: 79 cards, 4 of 5 matched
+19:13:16 town Gstaad: 149 cards, 2 of 5 matched
+19:13:42 town Stari Grad: 90 cards, 0 of 5 matched
+19:14:09 town Budapest VIII. keruelet: 144 cards, 4 of 5 matched
+19:14:35 town Montepulciano: 144 cards, 2 of 5 matched
+19:15:01 town Monterosso al Mare: 200 cards, 2 of 5 matched
+19:15:15 empty search 'Corvara in Badia': landed on https://www.booking.com/searchresults.en-gb.html?ss=Corvara%20in%20Badia&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1&group_children=0&selec title 'Booking.com: Search results: Corvara%20in%20Badia. Book your hotel now!'
+19:15:28 town Corvara in Badia: 100 cards, 4 of 5 matched
+19:15:54 town Canazei: 200 cards, 3 of 5 matched
+19:16:22 town Cattolica: 198 cards, 1 of 5 matched
+19:16:48 town Tirolo: 200 cards, 2 of 5 matched
+19:17:14 town Soelden: 123 cards, 1 of 4 matched
+19:17:41 town Silvaplana: 81 cards, 0 of 4 matched
+19:18:07 town Fiesch: 42 cards, 1 of 4 matched
+19:18:34 town Dubrovnik: 171 cards, 4 of 4 matched
+19:19:00 town Santa Cristina Valgardena: 200 cards, 3 of 4 matched
+19:19:27 town Alba Adriatica: 199 cards, 0 of 4 matched
+19:19:53 town Badia: 196 cards, 2 of 4 matched
+19:20:19 town Cervia: 200 cards, 1 of 4 matched
+19:20:47 town Bressanone: 48 cards, 3 of 4 matched
+19:21:14 town Malcesine: 200 cards, 1 of 4 matched
+19:21:40 town Mezzana: 163 cards, 1 of 4 matched
+19:22:07 town Naturno: 200 cards, 1 of 4 matched
+19:22:33 town Sirmione: 66 cards, 0 of 4 matched
+19:23:00 town Bratislava: 200 cards, 4 of 4 matched
+19:23:26 town Fugen: 199 cards, 1 of 3 matched
+19:23:52 town Umhausen: 167 cards, 1 of 3 matched
+19:24:19 town Leutasch: 200 cards, 0 of 3 matched
+19:24:45 town Churwalden: 162 cards, 2 of 3 matched
+19:25:11 town Ascona: 179 cards, 2 of 3 matched
+19:25:38 town Grindelwald: 200 cards, 1 of 3 matched
+19:26:05 town Bern: 88 cards, 3 of 3 matched
+19:26:33 town Bodenmais: 152 cards, 1 of 3 matched
+19:27:00 town Rothenburg ob der Tauber: 76 cards, 0 of 3 matched
+19:27:27 town Dresden: 148 cards, 3 of 3 matched
+19:27:27 mapping: 351 found, 0 not found; 455 mapped
+19:38:37 time budget reached
+## Booking.com collection: 340 calendars, 2040 calls, 2701 s
 
-Mapping: 0 found, 0 not found. Failed: 0. Last-minute cards: 0.
+Mapping: 351 found, 0 not found. Failed: 0. Last-minute cards: 818.
 
