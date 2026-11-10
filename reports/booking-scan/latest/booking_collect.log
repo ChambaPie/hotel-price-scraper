@@ -1,9 +1,9 @@
-04:49:14 session token: yes
-04:49:36 empty search 'Haus Kienreich Altenmarkt im Pongau': landed on https://www.booking.com/searchresults.en-gb.html?ss=Haus%20Kienreich%20Altenmarkt%20im%20Pongau&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1 title 'Booking.com: Search results: Haus%20Kienreich%20Altenmarkt%20im%20Pongau. Book y'
-04:49:58 empty search 'Haus Kienreich': landed on https://www.booking.com/searchresults.en-gb.html?ss=Haus%20Kienreich&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1&group_children=0&selected_ title 'Booking.com: Search results: Haus%20Kienreich. Book your hotel now!'
-04:50:31 empty search 'LEDERER s LIVING Kaprun': landed on https://www.booking.com/searchresults.en-gb.html?ss=LEDERER%20s%20LIVING%20Kaprun&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1&group_childre title 'Booking.com: Search results: LEDERER%20s%20LIVING%20Kaprun. Book your hotel now!'
-04:54:28 mapping: 14 found, 3 not found; 62 mapped
-## Booking.com collection: 55 calendars, 330 calls, 410 s
+08:58:38 session token: yes
+08:59:47 empty search 'Hotel... mein Neubergerhof': landed on https://www.booking.com/searchresults.en-gb.html?ss=Hotel...%20mein%20Neubergerhof&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms=1&group_childr title 'Booking.com: Search results: Hotel...%20mein%20Neubergerhof. Book your hotel now'
+09:00:24 empty search 'Berg Spa Hotel Urslauerhof Dienten am Hochkonig': landed on https://www.booking.com/searchresults.en-gb.html?ss=Berg%20Spa%20Hotel%20Urslauerhof%20Dienten%20am%20Hochkonig&checkin=2026-12-10&checkout=2026-12-11&group_adu title 'Booking.com: Search results: Berg%20Spa%20Hotel%20Urslauerhof%20Dienten%20am%20H'
+09:01:45 empty search 'Hotel Restaurant Grimmingblick Tauplitz': landed on https://www.booking.com/searchresults.en-gb.html?ss=Hotel%20Restaurant%20Grimmingblick%20Tauplitz&checkin=2026-12-10&checkout=2026-12-11&group_adults=2&no_rooms title 'Booking.com: Search results: Hotel%20Restaurant%20Grimmingblick%20Tauplitz. Book'
+09:12:22 mapping: 42 found, 9 not found; 104 mapped
+## Booking.com collection: 97 calendars, 582 calls, 1022 s
 
-Mapping: 14 found, 3 not found. Failed: 0. Last-minute cards: 508.
+Mapping: 42 found, 9 not found. Failed: 0. Last-minute cards: 284.
 
