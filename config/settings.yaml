@@ -149,3 +149,7 @@ ops:                         # Phase 8: daily health check (workflow file -> max
     booking.yml: 14
     catalog.yml: 30
     osm.yml: 200
+
+catalog_changes:             # optional public issue listing new / gone properties after each catalog refresh
+  issue: false
+  max_listed: 150

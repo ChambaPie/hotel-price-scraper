@@ -326,9 +326,10 @@ def main(argv: list[str] | None = None) -> int:
     (out / "coverage.md").write_text(res["coverage"], encoding="utf-8")
     changes = out / "catalog_changes.md"
     changes.unlink(missing_ok=True)
-    if res["news"].any() and cfg["alerts"].get("catalog_changes_issue", True):
-        changes.write_text(changes_md(res["news"], {r["pid"] for r in res["watched"]},
-                                      cfg["alerts"]["max_listed_changes"], today), encoding="utf-8")
+    cc = cfg.get("catalog_changes", {})
+    if res["news"].any() and cc.get("issue", False):
+        changes.write_text(changes_md(res["news"], {r["pid"] for r in res["watched"]}, cc.get("max_listed", 150), today),
+                           encoding="utf-8")
     print(summary_md(res), flush=True)
     log(f"new {len(res['changes'].new)} (reported {len(res['news'].new)}), back {len(res['changes'].returned)}, "
         f"gone {len(res['changes'].gone)}")

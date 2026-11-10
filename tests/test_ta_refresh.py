@@ -140,3 +140,22 @@ def test_unpriceable_properties_make_room():
             for i in range(3)]
     got = selection.resolve(rows, sel, [], [], skip={"ta:g1-d0"})
     assert [r["pid"] for r in got] == ["ta:g1-d1", "ta:g1-d2"]
+
+
+
+def test_main_runs_end_to_end_with_the_real_settings(tmp_cfg, tmp_path):
+    # Regression (2026-11-10): main() read a settings section removed in the repo split and crashed after doing
+    # all the listing work, so nothing was committed. Run main() itself with the real settings file.
+    path, cfg = tmp_cfg
+    cfg["tripadvisor"]["seed_keys"] = ["gSEED"]                 # one seed so both runs finish inside the request cap
+    path.write_text(yaml.safe_dump(cfg), encoding="utf-8")
+    fx = Path(__file__).parent / "fixtures" / "xotelo_list_trieste.json"
+    assert ta_refresh.main(["--config", str(path), "--fixture", str(fx), "--max-requests", "50"]) == 0
+    smaller = json.loads(fx.read_text())
+    smaller["result"]["list"] = [i for i in smaller["result"]["list"] if i["key"] != "g187813-d203235"]
+    smaller["result"]["total_count"] = len(smaller["result"]["list"])
+    fx2 = tmp_path / "smaller.json"
+    fx2.write_text(json.dumps(smaller))
+    assert ta_refresh.main(["--config", str(path), "--fixture", str(fx2), "--max-requests", "50"]) == 0  # a change -> news
+    gone = [r for r in csv.DictReader(open(cfg["paths"]["catalog"], encoding="utf-8")) if r["gone_since"]]
+    assert [r["pid"] for r in gone] == ["ta:g187813-d203235"]
