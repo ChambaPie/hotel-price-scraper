@@ -1,0 +1,60 @@
+[
+ {
+  "query": "Haus Hepi Obertraun",
+  "url": "https://www.google.com/travel/search?q=Haus%20Hepi%20Obertraun&hl=en-GB&gl=it&curr=EUR&ved=0CAAQ5JsGahcKEwjgsobjhP2XAxUAAAAAHQAAAAAQBw",
+  "title": "Search for accommodation in Salzkammergut \u2013 Google hotels",
+  "consent_clicked": false,
+  "dates_set": false,
+  "seconds": 8.1,
+  "prices_seen": 24,
+  "price_sample": [
+   "$154",
+   "$197",
+   "$86",
+   "$104",
+   "$158",
+   "$328",
+   "$158",
+   "US$249",
+   "US$134",
+   "US$173",
+   "US$197",
+   "US$217"
+  ],
+  "sellers_seen": [],
+  "deal_tags": [],
+  "consent_wall": false
+ },
+ {
+  "query": "Grand Hotel Duchi d'Aosta Trieste",
+  "url": "https://www.google.com/travel/search?q=Grand%20Hotel%20Duchi%20d%27Aosta%20Trieste&hl=en-GB&gl=it&curr=EUR&ts=CAAaGhIYEhIKBwjqDxALGBESBwjqDxALGBIyAggAKgcKBToDVVNE&qs=MiZDaGdJbTRLWHBPcll0Yk4yR2d3dlp5OH",
+  "title": "Grand Hotel Duchi D'Aosta \u2013 Google hotels",
+  "consent_clicked": false,
+  "dates_set": false,
+  "seconds": 38.7,
+  "prices_seen": 80,
+  "price_sample": [
+   "US$135",
+   "US$173",
+   "US$133",
+   "US$135",
+   "US$107",
+   "US$90",
+   "US$50",
+   "US$43",
+   "US$59",
+   "US$84",
+   "US$163",
+   "US$104"
+  ],
+  "sellers_seen": [
+   "Booking.com",
+   "Expedia",
+   "Hotels.com",
+   "Agoda",
+   "Trip.com"
+  ],
+  "deal_tags": [],
+  "consent_wall": false
+ }
+]
