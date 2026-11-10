@@ -28,3 +28,13 @@ def test_google_probe_summary():
     s = summarize("Haus Hepi  €149  Official site €152  Booking.com €149  18% less than usual  Great deal")
     assert s["prices_seen"] == 3 and s["sellers_seen"] == ["Official site", "Booking.com"]
     assert s["deal_tags"] == ["18% less than usual", "Great deal"] and not s["consent_wall"]
+
+
+
+def test_google_ts_matches_a_real_url_and_seller_prices():
+    from datetime import date
+    from hotel_scraper.google_probe import encode_ts, seller_prices
+    # captured from Google Hotels on 2026-11-10: 17 -> 18 Nov 2026, USD
+    assert encode_ts(date(2026, 11, 17), date(2026, 11, 18), "USD") == "CAAaGhIYEhIKBwjqDxALGBESBwjqDxALGBIyAggAKgcKBToDVVNE"
+    assert seller_prices("Haus Hepi\nOfficial site\n€152\nBooking.com\n€149\nfree cancellation\nAgoda\nView\n€160") == [
+        ("Official site", "€152"), ("Booking.com", "€149"), ("Agoda", "€160")]

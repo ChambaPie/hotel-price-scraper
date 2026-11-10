@@ -112,30 +112,54 @@ def run(cfg: dict, session, today: date, log=log, clock=time.monotonic) -> Resul
 
     retry_before = (datetime.now(timezone.utc) - timedelta(days=b["remap_after_days"])).isoformat(timespec="seconds")
     todo = [pid for pid in watched if pid not in ids or (ids[pid]["status"] != "ok" and ids[pid]["checked_at"] < retry_before)]
-    town_cards: dict[str, list[dict]] = {}
-    for pid in todo[: b["map_per_run"]]:
-        if not left(0.3):
+    share = b["map_share_backlog"] if len(todo) > b["map_backlog"] else b["map_share"]
+    checkin = today + timedelta(days=30)
+
+    def record(pid, card, sim):
+        ids[pid] = {"pid": pid, "booking_id": f"{card['cc']}/{card['slug']}" if card else "",
+                    "booking_name": card["name"] if card else "", "similarity": sim,
+                    "status": "ok" if card else "not found", "checked_at": now_iso}
+
+    # a) town first: one or two filtered town searches match every unmapped watched property of that town at once
+    by_town: dict[str, list[str]] = {}
+    for pid in todo:
+        by_town.setdefault(watched[pid].get("city", ""), []).append(pid)
+    towns = sorted((t for t in by_town if t and len(by_town[t]) >= b["town_min_properties"]), key=lambda t: -len(by_town[t]))
+    for town in towns:
+        if not left(share):
+            break
+        cards = []
+        for nflt in b["town_filters"]:
+            try:
+                cards += session.search(town, checkin, wait=12, scrolls=b["town_scrolls"], nflt=nflt)
+            except Exception as e:  # noqa: BLE001
+                res.errors[str(e)[:80]] = res.errors.get(str(e)[:80], 0) + 1
+        found = 0
+        for pid in by_town[town]:
+            card, sim = best_match(watched[pid]["name"], cards, b["match_min_similarity"])
+            if card:
+                record(pid, card, sim)
+                res.mapped += 1
+                found += 1
+        log(f"town {town}: {len(cards)} cards, {found} of {len(by_town[town])} matched")
+    # b) the rest one by one (name + town, then name)
+    for pid in [x for x in todo if x not in ids or ids[x]["status"] != "ok" or ids[x]["checked_at"] != now_iso][: b["map_per_run"]]:
+        if pid in ids and ids[pid]["checked_at"] == now_iso:
+            continue
+        if not left(share):
             break
         w = watched[pid]
         try:
             name, town = clean_query(w["name"]), w.get("city", "")
-            cards = session.search(f"{name} {town}".strip(), today + timedelta(days=30))
-            card, sim = best_match(w["name"], cards, b["match_min_similarity"])
+            card, sim = best_match(w["name"], session.search(f"{name} {town}".strip(), checkin, wait=12), b["match_min_similarity"])
             if card is None:
-                cards = session.search(name, today + timedelta(days=30))
-                card, sim = best_match(w["name"], cards, b["match_min_similarity"])
-            if card is None and town:
-                if town not in town_cards:
-                    town_cards[town] = session.search(town, today + timedelta(days=30), scrolls=3)
-                card, sim = best_match(w["name"], town_cards[town], b["match_min_similarity"])
+                card, sim = best_match(w["name"], session.search(name, checkin, wait=12), b["match_min_similarity"])
         except Exception as e:  # noqa: BLE001
             ids[pid] = {"pid": pid, "booking_id": "", "booking_name": "", "similarity": "", "status": "error",
                         "checked_at": now_iso}
             res.errors[str(e)[:80]] = res.errors.get(str(e)[:80], 0) + 1
             continue
-        ids[pid] = {"pid": pid, "booking_id": f"{card['cc']}/{card['slug']}" if card else "",
-                    "booking_name": card["name"] if card else "", "similarity": sim,
-                    "status": "ok" if card else "not found", "checked_at": now_iso}
+        record(pid, card, sim)
         res.mapped += 1 if card else 0
         res.not_found += 0 if card else 1
     write_csv(sorted(ids.values(), key=lambda r: r["pid"]), p["booking_ids"], ID_FIELDS)
@@ -148,7 +172,7 @@ def run(cfg: dict, session, today: date, log=log, clock=time.monotonic) -> Resul
         session.search("Trieste", today + timedelta(days=30))
     days = 61 * b["windows"]
     for pid in order:
-        if not left(1.0):
+        if not left(1.0):  # calendars get whatever the mapping left
             log("time budget reached")
             break
         bid = ids[pid]["booking_id"]

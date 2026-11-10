@@ -36,7 +36,8 @@ class FakeSession:
     def __init__(self, cards, years):
         self.cards, self.years, self.token, self.calls, self.currency_seen = cards, years, "t", 0, "USD"
 
-    def search(self, q, checkin, wait=20, scrolls=0, raw=False):
+    def search(self, q, checkin, wait=20, scrolls=0, raw=False, nflt=""):
+        self.searches = getattr(self, "searches", []) + [(q, nflt)]
         return self.cards.get(q.split(" ")[0], [])
 
     def year(self, cc, slug, today, windows):
@@ -62,3 +63,17 @@ def test_pipeline_maps_and_collects(cfg):
     assert res.mapped == 1 and res.not_found == 1 and res.collected == 1
     row = next(csv.DictReader(open(cfg["paths"]["booking_calendars"])))
     assert row["booking_id"] == "si/alpha" and row["nights"].startswith("200;4;") and row["currency"] == "USD"
+
+
+
+def test_town_search_maps_several_properties_at_once(cfg):
+    with open(cfg["paths"]["watchlist"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "name", "city"]); w.writeheader()
+        for i, n in enumerate(["Alpha Hotel", "Beta Resort", "Gamma Inn"]):
+            w.writerow({"pid": f"ta:g1-d{i}", "name": n, "city": "Bled"})
+    town = [{"name": "Alpha Hotel", "cc": "si", "slug": "alpha"}, {"name": "Beta Resort", "cc": "si", "slug": "beta"}]
+    sess = FakeSession({"Bled": town}, {"alpha": nights({0: 100.0}), "beta": nights({0: 120.0})})
+    res = bc.run(cfg, sess, TODAY, log=lambda m: None)
+    assert res.mapped == 2 and res.not_found == 1
+    town_searches = [s for s in sess.searches if s[0] == "Bled"]
+    assert len(town_searches) == 2 and town_searches[0][1].startswith("class")      # filtered town searches first

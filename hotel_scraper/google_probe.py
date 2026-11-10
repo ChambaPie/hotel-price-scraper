@@ -9,6 +9,7 @@ a screenshot and a report: which sellers and prices are visible (official site, 
 from __future__ import annotations
 
 import argparse
+import base64
 import json
 import re
 import sys
@@ -21,12 +22,56 @@ SELLER_HINTS = ["Official site", "Booking.com", "Expedia", "Hotels.com", "Agoda"
                 "eDreams", "HRS", "Prestigia", "Destinia", "Zenhotels"]
 
 
+def _varint(n: int) -> bytes:
+    out = b""
+    while True:
+        b, n = n & 0x7F, n >> 7
+        out += bytes([b | (0x80 if n else 0)])
+        if not n:
+            return out
+
+
+def _field(num: int, payload: bytes) -> bytes:
+    return bytes([(num << 3) | 2]) + _varint(len(payload)) + payload
+
+
+def _date(d: date) -> bytes:
+    return b"\x08" + _varint(d.year) + b"\x10" + _varint(d.month) + b"\x18" + _varint(d.day)
+
+
+def encode_ts(checkin: date, checkout: date, currency: str = "EUR") -> str:
+    """Google Travel's `ts` URL parameter (a small protobuf) with the stay dates and currency, so the page opens on
+    the right night without clicking through the date picker. Layout taken from a real Google Hotels URL
+    (2026-11-10): ts=CAAaGhIYEhIKBwjqDxALGBESBwjqDxALGBIyAggAKgcKBToDVVNE = 2026-11-17 -> 2026-11-18, USD."""
+    dates = _field(1, _date(checkin)) + _field(2, _date(checkout))
+    msg = b"\x08\x00" + _field(3, _field(2, _field(2, dates) + _field(6, b"\x08\x00"))) + \
+        _field(5, _field(1, _field(7, currency.encode())))
+    return base64.urlsafe_b64encode(msg).decode().rstrip("=")
+
+
+def seller_prices(text: str) -> list[tuple[str, str]]:
+    """(seller, price) pairs from the page text: a seller line followed within two lines by a price."""
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    out = []
+    for i, l in enumerate(lines):
+        name = next((s for s in SELLER_HINTS if l.lower().startswith(s.lower())), None)
+        if not name:
+            continue
+        for nxt in lines[i + 1:i + 3]:
+            m = re.search(r"(?:€|US\$|\$)\s?\d[\d.,]*", nxt)
+            if m:
+                out.append((name, m.group(0)))
+                break
+    return out
+
+
 def summarize(text: str) -> dict:
     prices = re.findall(r"(?:€|US\$|\$)\s?\d[\d.,]*", text)
     return {"prices_seen": len(prices), "price_sample": prices[:12],
             "sellers_seen": [s for s in SELLER_HINTS if s.lower() in text.lower()],
             "deal_tags": sorted(set(re.findall(r"\d+% less than usual|Great deal|Good deal|Deal", text)))[:10],
-            "consent_wall": "Before you continue" in text or "consent.google" in text}
+            "consent_wall": "Before you continue" in text or "consent.google" in text,
+            "seller_prices": seller_prices(text)[:12]}
 
 
 def main(argv=None) -> int:
@@ -50,8 +95,9 @@ def main(argv=None) -> int:
         page = ctx.new_page()
         for q in args.query:
             t0 = time.monotonic()
-            page.goto(f"https://www.google.com/travel/search?q={quote(q)}&hl=en-GB&gl=it&curr=EUR", wait_until="domcontentloaded",
-                      timeout=60000)
+            ts = encode_ts(ci, co, "EUR")
+            page.goto(f"https://www.google.com/travel/search?q={quote(q)}&hl=en-GB&gl=it&curr=EUR&ts={ts}",
+                      wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(3000)
             consent = False
             for label in ("Accept all", "Reject all", "I agree"):
@@ -73,6 +119,14 @@ def main(argv=None) -> int:
             except Exception:  # noqa: BLE001
                 pass
             page.wait_for_timeout(3000)
+            if "/entity/" not in page.url:   # landed on a list: open the hotel whose name matches the query best
+                links = page.locator('a[href*="/travel/hotels/entity/"]')
+                if links.count():
+                    words = [w.lower() for w in q.split()[:2]]
+                    best = next((i for i in range(min(links.count(), 20))
+                                 if all(w in (links.nth(i).inner_text() or "").lower() for w in words)), 0)
+                    links.nth(best).click()
+                    page.wait_for_timeout(5000)
             text = page.inner_text("body")
             slug = re.sub(r"[^A-Za-z0-9]+", "_", q)[:40]
             (out / f"{slug}.html").write_text(page.content()[:1_000_000], encoding="utf-8")
@@ -85,7 +139,8 @@ def main(argv=None) -> int:
         lines += [f"### {r['query']}", f"- landed: {r['url']} — \"{r['title']}\"; consent clicked {r['consent_clicked']}; "
                   f"dates set {r['dates_set']}; {r['seconds']} s",
                   f"- prices seen {r['prices_seen']}: {', '.join(r['price_sample'])}",
-                  f"- sellers seen: {', '.join(r['sellers_seen']) or '-'}; deal tags: {', '.join(r['deal_tags']) or '-'}", ""]
+                  f"- sellers seen: {', '.join(r['sellers_seen']) or '-'}; deal tags: {', '.join(r['deal_tags']) or '-'}",
+                  f"- seller prices: {', '.join(f'{a} {b}' for a, b in r['seller_prices']) or '-'}", ""]
     (out / "report.md").write_text("\n".join(lines), encoding="utf-8")
     (out / "results.json").write_text(json.dumps(results, indent=1), encoding="utf-8")
     print("\n".join(lines))

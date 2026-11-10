@@ -95,12 +95,14 @@ class BookingSession:
         self.offers(cc, slug, checkin)
         return bool(self.token)
 
-    def search(self, query: str, checkin: date, wait: int = 20, scrolls: int = 0, raw: bool = False) -> list[dict]:
+    def search(self, query: str, checkin: date, wait: int = 20, scrolls: int = 0, raw: bool = False,
+               nflt: str = "") -> list[dict]:
         """Property cards for a destination or hotel name: [{name, cc, slug, price_text}].
         A hotel-name search can land straight on that hotel's page: then that hotel is returned as the only card."""
         params = urlencode({"ss": query, "checkin": checkin.isoformat(), "checkout": (checkin + timedelta(days=1)).isoformat(),
                             "group_adults": self.adults, "no_rooms": self.rooms, "group_children": 0,
-                            "selected_currency": self.currency}, quote_via=quote)  # spaces as %20: Booking.com keeps '+' literally
+                            "selected_currency": self.currency, **({"nflt": nflt} if nflt else {})},
+                           quote_via=quote)  # spaces as %20: Booking.com keeps '+' literally
         self.page.goto(f"{self.base}/searchresults.en-gb.html?{params}", wait_until="domcontentloaded", timeout=60000)
         html, cards = self._wait_for(CARDS_JS, "property-card", wait)
         for _ in range(scrolls if cards else 0):  # more cards load as the list scrolls

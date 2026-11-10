@@ -127,7 +127,13 @@ last_minute:                 # Booking.com's own deal badges ("Late Escape Deal"
   max_minutes: 4
 
 booking_scan:                # Phase 9: Booking.com via headless browser (calendar = every night's price for 12 months)
-  map_per_run: 300           # id searches per run (~5 s each), only for watched properties without an id
+  map_per_run: 300           # one-by-one id searches per run, after the town searches
+  map_share: 0.3             # share of the time budget for mapping...
+  map_share_backlog: 0.75    # ...or this much while more than map_backlog watched properties have no id yet
+  map_backlog: 100
+  town_min_properties: 2     # towns with at least this many unmapped watched properties get town searches
+  town_scrolls: 4
+  town_filters: ["class%3D4%3Bclass%3D5", "review_score%3D90"]   # 4-5 stars; guest score 9+ (any class)
   warm_up_page: it/grand-duchi-d-aosta   # a known hotel page opened first: passes the challenge, sets the session token
   match_min_similarity: 0.6
   remap_after_days: 30       # retry 'not found' after this
