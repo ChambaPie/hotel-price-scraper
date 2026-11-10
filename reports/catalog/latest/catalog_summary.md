@@ -1,6 +1,6 @@
 ## Catalog: 38729 active properties, 1500 watched
 
-TripAdvisor keys this run: 380 listed, 5504 never listed yet (of 6863); 500 Xotelo requests; 1257 s.
+TripAdvisor keys this run: 380 listed, 5504 never listed yet (of 6863); 500 Xotelo requests; 1220 s.
 
 Official stars matched from OpenStreetMap: 710 properties this run.
 
@@ -10,22 +10,22 @@ Watched by reason: rule 1: 700, rule 2: 500, rule 3: 300 (rule 1 = official 4-5*
 
 | Country | bed_and_breakfast | hotel | Watched |
 |---|---|---|---|
-| IT | 4481 | 8565 | 812 |
-| AT | 2931 | 5245 | 248 |
-| HR | 1248 | 2377 | 31 |
-| CH | 385 | 1543 | 118 |
-| HU | 440 | 1477 | 38 |
-| CZ | 291 | 1534 | 56 |
-| SI | 662 | 980 | 11 |
-| DE | 408 | 1233 | 63 |
-| RS | 389 | 1213 | 9 |
-| BA | 468 | 1052 | 2 |
+| IT | 4481 | 8565 | 773 |
+| AT | 2931 | 5245 | 297 |
+| HR | 1248 | 2377 | 35 |
+| CH | 385 | 1543 | 122 |
+| HU | 440 | 1477 | 36 |
+| CZ | 291 | 1534 | 57 |
+| SI | 662 | 980 | 8 |
+| DE | 408 | 1233 | 67 |
+| RS | 389 | 1213 | 7 |
+| BA | 468 | 1052 | 3 |
 | SK | 326 | 979 | 6 |
-| FR | 132 | 296 | 102 |
+| FR | 132 | 296 | 86 |
 | XK | 7 | 24 | 1 |
 | PL | 6 | 18 | 0 |
 | RO | 5 | 5 | 0 |
-| VA | 3 | 2 | 3 |
+| VA | 3 | 2 | 2 |
 | ME | 1 | 1 | 0 |
 | BG | 1 | 0 | 0 |
 | MC | 0 | 1 | 0 |
