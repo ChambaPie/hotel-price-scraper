@@ -21,3 +21,10 @@ def test_report():
                    "cancellation": "free cancellation", "conditions": "Breakfast included"}],
         "calendar": {"status": 200, "days": 61, "priced": 50}}])
     assert "| it/x | 202 | yes | 9.1 | 1 | 1 | HTTP 200: 50 of 61 days priced |" in md
+
+
+def test_google_probe_summary():
+    from hotel_scraper.google_probe import summarize
+    s = summarize("Haus Hepi  €149  Official site €152  Booking.com €149  18% less than usual  Great deal")
+    assert s["prices_seen"] == 3 and s["sellers_seen"] == ["Official site", "Booking.com"]
+    assert s["deal_tags"] == ["18% less than usual", "Deal", "Great deal"] and not s["consent_wall"]

@@ -1,0 +1,50 @@
+name: Google Hotels probe
+# Schedules run as the account that last committed this file; keep it a real GitHub account.
+
+# Manual probe for cross-checking sources (official sites, other sellers, "less than usual" tags) via Google Hotels.
+on:
+  workflow_dispatch:
+    inputs:
+      queries:
+        description: "Semicolon-separated hotel searches"
+        required: false
+        default: "Haus Hepi Obertraun;Grand Hotel Duchi d'Aosta Trieste"
+      checkin:
+        description: "Check-in (YYYY-MM-DD)"
+        required: false
+        default: "2026-11-26"
+      nights:
+        description: "Nights"
+        required: false
+        default: "2"
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-browser.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Probe
+        env:
+          QUERIES: ${{ inputs.queries }}
+          CHECKIN: ${{ inputs.checkin }}
+          NIGHTS: ${{ inputs.nights }}
+        run: |
+          args=(); IFS=';' read -ra Q <<< "$QUERIES"; for q in "${Q[@]}"; do args+=(--query "$q"); done
+          python -m hotel_scraper.google_probe "${args[@]}" --checkin "$CHECKIN" --nights "$NIGHTS" --out out/google
+          cat out/google/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Publish reports
+        if: always()
+        run: bash scripts/publish_reports.sh google
