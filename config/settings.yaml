@@ -82,7 +82,7 @@ tripadvisor:                 # Xotelo (free, keyless TripAdvisor data); keep req
     bed_and_breakfast: [Bed and Breakfast, Specialty B&B, Guest house]
   pause_seconds: [1, 2]
   max_requests_per_run: 500
-  max_minutes: 10           # daily listing budget (minutes budget); cities keep filling in over the following days
+  max_minutes: 25           # daily TripAdvisor listing budget (public repo: free minutes)
   stars_match: {max_km: 0.15, min_name_similarity: 0.55}
 
 scan:
@@ -127,13 +127,13 @@ last_minute:                 # Booking.com's own deal badges ("Late Escape Deal"
   max_minutes: 4
 
 booking_scan:                # Phase 9: Booking.com via headless browser (calendar = every night's price for 12 months)
-  map_per_run: 120           # id searches per run (~5 s each), only for watched properties without an id
+  map_per_run: 300           # id searches per run (~5 s each), only for watched properties without an id
   warm_up_page: it/grand-duchi-d-aosta   # a known hotel page opened first: passes the challenge, sets the session token
   match_min_similarity: 0.6
   remap_after_days: 30       # retry 'not found' after this
-  properties_per_run: 500
+  properties_per_run: 800    # coverage drives finds like Haus Hepi (#28); public repo minutes are free
   windows: 6                 # 61-night calendar calls per property (6 = 12 months, ~0.35 s each)
-  max_minutes: 16
+  max_minutes: 45            # mapping gets the first 30% of the budget, calendars the rest
 
 
 

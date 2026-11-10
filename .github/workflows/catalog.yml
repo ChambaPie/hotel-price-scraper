@@ -32,7 +32,7 @@ env:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 100  # normal runs ~20 min (tripadvisor.max_minutes); room for a manual longer first fill
+    timeout-minutes: 100
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
