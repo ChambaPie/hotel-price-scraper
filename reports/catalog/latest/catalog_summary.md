@@ -1,6 +1,6 @@
 ## Catalog: 38729 active properties, 1500 watched
 
-TripAdvisor keys this run: 380 listed, 5504 never listed yet (of 6863); 500 Xotelo requests; 1220 s.
+TripAdvisor keys this run: 380 listed, 5504 never listed yet (of 6863); 500 Xotelo requests; 1271 s.
 
 Official stars matched from OpenStreetMap: 710 properties this run.
 
