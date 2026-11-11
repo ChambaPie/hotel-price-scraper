@@ -1,0 +1,44 @@
+[
+ {
+  "query": "Haus Hepi Obertraun",
+  "url": "https://www.google.com/travel/search?q=Haus%20Hepi%20Obertraun&hl=en-GB&gl=it&curr=EUR&ts=CAAaGhIYEhIKBwjqDxALGBoSBwjqDxALGBwyAggAKgcKBToDRVVS&ved=0CAAQ5JsGahcKEwiggOa9xf-XAxUAAAAAHQAAAAAQBA",
+  "title": "Search for accommodation in Salzkammergut \u2013 Google hotels",
+  "consent_clicked": false,
+  "dates_set": false,
+  "seconds": 7.6,
+  "prices_seen": 28,
+  "price_sample": [
+   "\u20ac113",
+   "\u20ac77",
+   "\u20ac99",
+   "\u20ac236",
+   "\u20ac205",
+   "\u20ac141",
+   "\u20ac122",
+   "\u20ac81",
+   "\u20ac113",
+   "\u20ac205",
+   "\u20ac141",
+   "\u20ac159"
+  ],
+  "sellers_seen": [],
+  "deal_tags": [],
+  "consent_wall": false,
+  "seller_prices": []
+ },
+ {
+  "query": "Grand Hotel Duchi d'Aosta Trieste",
+  "url": "https://www.google.com/travel/search?q=Grand%20Hotel%20Duchi%20d%27Aosta%20Trieste&hl=en-GB&gl=it&curr=EUR&ts=CAAaGhIYEhIKBwjqDxALGBoSBwjqDxALGBwyAggAKgcKBToDRVVS&ved=0CAAQ5JsGahcKEwjgp7jBxf-XAxUAAAAA",
+  "title": "",
+  "consent_clicked": false,
+  "dates_set": false,
+  "seconds": 0,
+  "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/travel/hotels/entity/\\\"]\").first\n    - locator resolved to <a role=\"link\" data-suffix=\"\" jsname=\"ESDofe\" target=\"_blank\" data-hveid=\"CAMQAg\" jscontroller=\"Nt9mXe\" jsaction=\"rcuQ6b:npT2md; mousedown:UX7yZ;\" ssk=\"46",
+  "prices_seen": 0,
+  "price_sample": [],
+  "sellers_seen": [],
+  "deal_tags": [],
+  "consent_wall": false,
+  "seller_prices": []
+ }
+]
