@@ -88,7 +88,8 @@ def main(argv=None) -> int:
     co = ci + timedelta(days=args.nights)
     results = []
     with sync_playwright() as pw:
-        br = pw.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
+        from .booking_session import launch_browser
+        br = launch_browser(pw, True)
         ctx = br.new_context(locale="en-GB", viewport={"width": 1366, "height": 900},
                              user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
                                         "Chrome/130.0.0.0 Safari/537.36")

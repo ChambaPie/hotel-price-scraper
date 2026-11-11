@@ -322,7 +322,8 @@ def main(argv=None) -> int:
     out.mkdir(parents=True, exist_ok=True)
     results = []
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=not args.headed, args=["--disable-blink-features=AutomationControlled"])
+        from .booking_session import launch_browser
+        browser = launch_browser(pw, not args.headed)
         ctx = browser.new_context(user_agent=scfg["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900},
                                   extra_http_headers={"Accept-Language": scfg["accept_language"]})
         page = ctx.new_page()

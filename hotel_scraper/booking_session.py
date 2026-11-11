@@ -48,6 +48,15 @@ def parse_calendar(text: str) -> dict[str, dict]:
     return out
 
 
+def launch_browser(pw, headless: bool = True):
+    """Playwright's Chromium, or the Google Chrome preinstalled on GitHub's runners when the download wasn't possible."""
+    args = ["--disable-blink-features=AutomationControlled"]
+    try:
+        return pw.chromium.launch(headless=headless, args=args)
+    except Exception:  # noqa: BLE001
+        return pw.chromium.launch(headless=headless, args=args, channel="chrome")
+
+
 class BookingSession:
     def __init__(self, base_url: str, user_agent: str, accept_language: str, adults: int, rooms: int, currency: str,
                  headless: bool = True, log=print, cookies: list[dict] | None = None):
@@ -60,7 +69,7 @@ class BookingSession:
     def __enter__(self):
         from playwright.sync_api import sync_playwright
         self._pw = sync_playwright().start()
-        self.browser = self._pw.chromium.launch(headless=self.headless, args=["--disable-blink-features=AutomationControlled"])
+        self.browser = launch_browser(self._pw, self.headless)
         ctx = self.browser.new_context(user_agent=self.ua, locale="en-GB", viewport={"width": 1366, "height": 900},
                                        extra_http_headers={"Accept-Language": self.lang})
         if self.cookies:

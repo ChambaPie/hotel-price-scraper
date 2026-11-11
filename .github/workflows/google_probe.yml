@@ -35,7 +35,7 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements-browser.txt
-      - run: python -m playwright install --with-deps chromium
+      - run: bash scripts/install_browser.sh
       - name: Probe
         env:
           QUERIES: ${{ inputs.queries }}
