@@ -34,7 +34,7 @@ env:
 
 jobs:
   osm:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # pinned: ubuntu-latest is migrating to 26.04 (Playwright browser deps)
     timeout-minutes: 100
     steps:
       - uses: actions/checkout@v7
