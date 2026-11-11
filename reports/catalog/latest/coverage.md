@@ -1,4 +1,4 @@
-## Coverage: 2340 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 2356 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -16,7 +16,6 @@
 | Kraków | PL | 17 |
 | Cannes | FR | 16 |
 | Budapest | HU | 16 |
-| Sölden | AT | 15 |
 | Lido di Iesolo | IT | 14 |
 | Firenze | IT | 14 |
 | Rome | IT | 14 |
@@ -26,6 +25,7 @@
 | Frankfurt am Main | DE | 13 |
 | Leipzig | DE | 13 |
 | Napoli | IT | 13 |
+| Sölden | AT | 12 |
 | Zürich | CH | 12 |
 | Praha | CZ | 12 |
 | Venezia | IT | 12 |
