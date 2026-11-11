@@ -1,12 +1,12 @@
 [
  {
   "query": "Haus Hepi Obertraun",
-  "url": "https://www.google.com/travel/search?q=Haus%20Hepi%20Obertraun&hl=en-GB&gl=it&curr=EUR&ts=CAAaGhIYEhIKBwjqDxALGBoSBwjqDxALGBwyAggAKgcKBToDRVVS&ved=0CAAQ5JsGahcKEwiggOa9xf-XAxUAAAAAHQAAAAAQBA",
+  "url": "https://www.google.com/travel/search?q=Haus%20Hepi%20Obertraun&hl=en-GB&gl=it&curr=EUR&ts=CAAaGhIYEhIKBwjqDxALGBoSBwjqDxALGBwyAggAKgcKBToDRVVS&ved=0CAAQ5JsGahcKEwiopfOiyP-XAxUAAAAAHQAAAAAQBw",
   "title": "Search for accommodation in Salzkammergut \u2013 Google hotels",
   "consent_clicked": false,
   "dates_set": false,
-  "seconds": 7.6,
-  "prices_seen": 28,
+  "seconds": 7.7,
+  "prices_seen": 29,
   "price_sample": [
    "\u20ac113",
    "\u20ac77",
@@ -19,7 +19,7 @@
    "\u20ac113",
    "\u20ac205",
    "\u20ac141",
-   "\u20ac159"
+   "\u20ac184"
   ],
   "sellers_seen": [],
   "deal_tags": [],
@@ -27,18 +27,63 @@
   "seller_prices": []
  },
  {
-  "query": "Grand Hotel Duchi d'Aosta Trieste",
-  "url": "https://www.google.com/travel/search?q=Grand%20Hotel%20Duchi%20d%27Aosta%20Trieste&hl=en-GB&gl=it&curr=EUR&ts=CAAaGhIYEhIKBwjqDxALGBoSBwjqDxALGBwyAggAKgcKBToDRVVS&ved=0CAAQ5JsGahcKEwjgp7jBxf-XAxUAAAAA",
-  "title": "",
+  "query": "Palazzo Baj Trastevere Rome",
+  "url": "https://www.google.com/travel/hotels/entity/ChoIgd6Loc-1i5_6ARoNL2cvMTFmNHd0NHNwcRAB/prices?q=Palazzo%20Baj%20Trastevere%20Rome&hl=en-GB&gl=it&curr=EUR&ts=CAEaIAoCGgASGhIUCgcI6g8QCxgaEgcI6g8QCxgcGAIyA",
+  "title": "Palazzo Baj in Trastevere \u2013 Google hotels",
   "consent_clicked": false,
   "dates_set": false,
-  "seconds": 0,
-  "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/travel/hotels/entity/\\\"]\").first\n    - locator resolved to <a role=\"link\" data-suffix=\"\" jsname=\"ESDofe\" target=\"_blank\" data-hveid=\"CAMQAg\" jscontroller=\"Nt9mXe\" jsaction=\"rcuQ6b:npT2md; mousedown:UX7yZ;\" ssk=\"46",
-  "prices_seen": 0,
-  "price_sample": [],
-  "sellers_seen": [],
-  "deal_tags": [],
+  "seconds": 48.1,
+  "prices_seen": 24,
+  "price_sample": [
+   "\u20ac167",
+   "\u20ac167",
+   "\u20ac179",
+   "\u20ac181",
+   "\u20ac183",
+   "\u20ac177",
+   "\u20ac167",
+   "\u20ac187",
+   "\u20ac167",
+   "\u20ac177",
+   "\u20ac177",
+   "\u20ac177"
+  ],
+  "sellers_seen": [
+   "Official site",
+   "Booking.com",
+   "Expedia",
+   "Hotels.com",
+   "eDreams"
+  ],
+  "deal_tags": [
+   "Deal"
+  ],
   "consent_wall": false,
-  "seller_prices": []
+  "seller_prices": [
+   [
+    "Expedia",
+    "\u20ac167"
+   ],
+   [
+    "Booking.com",
+    "\u20ac183"
+   ],
+   [
+    "Hotels.com",
+    "\u20ac167"
+   ],
+   [
+    "Official site",
+    "\u20ac187"
+   ],
+   [
+    "Hotels.com",
+    "\u20ac167"
+   ],
+   [
+    "eDreams",
+    "\u20ac167"
+   ]
+  ]
  }
 ]
