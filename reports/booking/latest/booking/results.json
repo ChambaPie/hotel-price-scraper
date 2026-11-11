@@ -1,0 +1,526 @@
+{
+ "label": "github-actions",
+ "results": [
+  {
+   "page": "at/haus-hepi",
+   "first_status": 202,
+   "challenge_passed": true,
+   "seconds": 2.9,
+   "title": "Haus Hepi B&B, Obertraun (updated prices 2027)",
+   "cookies": [
+    "aws-waf-token",
+    "bkng",
+    "bkng_sso_auth",
+    "cors_js",
+    "pcm_consent",
+    "pcm_personalization_disabled"
+   ],
+   "markers": {
+    "csrf_token": true,
+    "hotel_name": "haus-hepi",
+    "hotel_country": "at",
+    "room_blocks": 1,
+    "meal_mentions": {
+     "breakfast_included": 0,
+     "half_board": 0,
+     "full_board": 0,
+     "all_inclusive": 0
+    },
+    "bytes": 584618
+   },
+   "rooms": [],
+   "calendar": {
+    "status": 200,
+    "days": 61,
+    "available": 21,
+    "priced": 61,
+    "first": "2027-01-10",
+    "last": "2026-12-02",
+    "min_stay_over_1": 25,
+    "sample": [
+     {
+      "available": true,
+      "avgPriceFormatted": "511",
+      "minLengthOfStay": 3,
+      "__typename": "AvailabilityCalendarDay",
+      "checkin": "2027-01-10"
+     },
+     {
+      "available": false,
+      "__typename": "AvailabilityCalendarDay",
+      "minLengthOfStay": 1,
+      "avgPriceFormatted": "0",
+      "checkin": "2026-12-18"
+     },
+     {
+      "avgPriceFormatted": "642",
+      "minLengthOfStay": 4,
+      "__typename": "AvailabilityCalendarDay",
+      "checkin": "2026-12-19",
+      "available": true
+     }
+    ],
+    "seconds": 0.31
+   },
+   "calendar_windows": [
+    {
+     "status": 200,
+     "days": 61,
+     "available": 58,
+     "priced": 61,
+     "first": "2027-01-12",
+     "last": "2027-01-30",
+     "min_stay_over_1": 58,
+     "sample": [
+      {
+       "available": true,
+       "avgPriceFormatted": "511",
+       "__typename": "AvailabilityCalendarDay",
+       "checkin": "2027-01-12",
+       "minLengthOfStay": 3
+      },
+      {
+       "available": true,
+       "minLengthOfStay": 2,
+       "checkin": "2027-02-25",
+       "__typename": "AvailabilityCalendarDay",
+       "avgPriceFormatted": "146"
+      },
+      {
+       "minLengthOfStay": 3,
+       "checkin": "2027-01-11",
+       "__typename": "AvailabilityCalendarDay",
+       "avgPriceFormatted": "511",
+       "available": true
+      }
+     ],
+     "seconds": 0.61
+    },
+    {
+     "status": 200,
+     "days": 61,
+     "available": 51,
+     "priced": 61,
+     "first": "2027-04-06",
+     "last": "2027-04-21",
+     "min_stay_over_1": 51,
+     "sample": [
+      {
+       "avgPriceFormatted": "142",
+       "minLengthOfStay": 2,
+       "available": true,
+       "checkin": "2027-04-06",
+       "__typename": "AvailabilityCalendarDay"
+      },
+      {
+       "checkin": "2027-04-05",
+       "__typename": "AvailabilityCalendarDay",
+       "available": true,
+       "minLengthOfStay": 2,
+       "avgPriceFormatted": "142"
+      },
+      {
+       "checkin": "2027-04-08",
+       "__typename": "AvailabilityCalendarDay",
+       "available": true,
+       "minLengthOfStay": 2,
+       "avgPriceFormatted": "142"
+      }
+     ],
+     "seconds": 0.46
+    },
+    {
+     "status": 200,
+     "days": 61,
+     "available": 18,
+     "priced": 61,
+     "first": "2027-05-18",
+     "last": "2027-05-30",
+     "min_stay_over_1": 18,
+     "sample": [
+      {
+       "avgPriceFormatted": "546",
+       "__typename": "AvailabilityCalendarDay",
+       "minLengthOfStay": 4,
+       "checkin": "2027-05-18",
+       "available": true
+      },
+      {
+       "avgPriceFormatted": "546",
+       "__typename": "AvailabilityCalendarDay",
+       "minLengthOfStay": 4,
+       "checkin": "2027-05-17",
+       "available": true
+      },
+      {
+       "avgPriceFormatted": "0",
+       "__typename": "AvailabilityCalendarDay",
+       "minLengthOfStay": 1,
+       "checkin": "2027-06-29",
+       "available": false
+      }
+     ],
+     "seconds": 0.38
+    },
+    {
+     "status": 200,
+     "days": 61,
+     "available": 3,
+     "priced": 61,
+     "first": "2027-08-09",
+     "last": "2027-08-20",
+     "min_stay_over_1": 3,
+     "sample": [
+      {
+       "available": false,
+       "__typename": "AvailabilityCalendarDay",
+       "minLengthOfStay": 1,
+       "avgPriceFormatted": "0",
+       "checkin": "2027-08-09"
+      },
+      {
+       "avgPriceFormatted": "0",
+       "checkin": "2027-08-08",
+       "available": false,
+       "minLengthOfStay": 1,
+       "__typename": "AvailabilityCalendarDay"
+      },
+      {
+       "avgPriceFormatted": "0",
+       "checkin": "2027-08-07",
+       "available": false,
+       "minLengthOfStay": 1,
+       "__typename": "AvailabilityCalendarDay"
+      }
+     ],
+     "seconds": 0.31
+    },
+    {
+     "status": 200,
+     "days": 61,
+     "available": 29,
+     "priced": 61,
+     "first": "2027-09-19",
+     "last": "2027-10-19",
+     "min_stay_over_1": 29,
+     "sample": [
+      {
+       "available": false,
+       "checkin": "2027-09-19",
+       "avgPriceFormatted": "0",
+       "minLengthOfStay": 1,
+       "__typename": "AvailabilityCalendarDay"
+      },
+      {
+       "__typename": "AvailabilityCalendarDay",
+       "minLengthOfStay": 1,
+       "avgPriceFormatted": "0",
+       "checkin": "2027-09-18",
+       "available": false
+      },
+      {
+       "__typename": "AvailabilityCalendarDay",
+       "checkin": "2027-09-17",
+       "available": false,
+       "minLengthOfStay": 1,
+       "avgPriceFormatted": "0"
+      }
+     ],
+     "seconds": 0.33
+    }
+   ],
+   "other_calendars": [
+    {
+     "page": "at/haus-alpenrose-obertraun-obertraun",
+     "status": 200,
+     "days": 61,
+     "available": 20,
+     "priced": 61,
+     "first": "2027-01-10",
+     "last": "2026-12-02",
+     "min_stay_over_1": 7,
+     "sample": [
+      {
+       "minLengthOfStay": 1,
+       "avgPriceFormatted": "0",
+       "available": false,
+       "__typename": "AvailabilityCalendarDay",
+       "checkin": "2027-01-10"
+      },
+      {
+       "available": false,
+       "__typename": "AvailabilityCalendarDay",
+       "checkin": "2026-12-18",
+       "avgPriceFormatted": "0",
+       "minLengthOfStay": 1
+      },
+      {
+       "__typename": "AvailabilityCalendarDay",
+       "available": false,
+       "checkin": "2026-12-19",
+       "avgPriceFormatted": "0",
+       "minLengthOfStay": 1
+      }
+     ],
+     "seconds": 0.34
+    },
+    {
+     "page": "at/appartement-sarsteinblick",
+     "status": 200,
+     "days": 61,
+     "available": 38,
+     "priced": 61,
+     "first": "2027-01-10",
+     "last": "2026-12-02",
+     "min_stay_over_1": 4,
+     "sample": [
+      {
+       "available": true,
+       "checkin": "2027-01-10",
+       "avgPriceFormatted": "165",
+       "__typename": "AvailabilityCalendarDay",
+       "minLengthOfStay": 1
+      },
+      {
+       "available": true,
+       "checkin": "2026-12-18",
+       "avgPriceFormatted": "135",
+       "minLengthOfStay": 1,
+       "__typename": "AvailabilityCalendarDay"
+      },
+      {
+       "__typename": "AvailabilityCalendarDay",
+       "minLengthOfStay": 1,
+       "checkin": "2026-12-19",
+       "avgPriceFormatted": "155",
+       "available": true
+      }
+     ],
+     "seconds": 0.29
+    },
+    {
+     "page": "at/gutl-am-sonnenhang",
+     "status": 200,
+     "days": 61,
+     "available": 54,
+     "priced": 61,
+     "first": "2027-01-10",
+     "last": "2026-12-02",
+     "min_stay_over_1": 7,
+     "sample": [
+      {
+       "avgPriceFormatted": "188",
+       "__typename": "AvailabilityCalendarDay",
+       "available": true,
+       "minLengthOfStay": 1,
+       "checkin": "2027-01-10"
+      },
+      {
+       "checkin": "2026-12-18",
+       "minLengthOfStay": 1,
+       "__typename": "AvailabilityCalendarDay",
+       "avgPriceFormatted": "223",
+       "available": true
+      },
+      {
+       "checkin": "2026-12-19",
+       "minLengthOfStay": 1,
+       "avgPriceFormatted": "205",
+       "__typename": "AvailabilityCalendarDay",
+       "available": true
+      }
+     ],
+     "seconds": 0.32
+    },
+    {
+     "page": "at/hideaway-obertraun",
+     "status": 200,
+     "days": 61,
+     "available": 60,
+     "priced": 61,
+     "first": "2027-01-10",
+     "last": "2026-12-02",
+     "min_stay_over_1": 0,
+     "sample": [
+      {
+       "avgPriceFormatted": "157",
+       "checkin": "2027-01-10",
+       "__typename": "AvailabilityCalendarDay",
+       "minLengthOfStay": 1,
+       "available": true
+      },
+      {
+       "available": true,
+       "minLengthOfStay": 1,
+       "checkin": "2026-12-18",
+       "__typename": "AvailabilityCalendarDay",
+       "avgPriceFormatted": "157"
+      },
+      {
+       "avgPriceFormatted": "157",
+       "__typename": "AvailabilityCalendarDay",
+       "checkin": "2026-12-19",
+       "minLengthOfStay": 1,
+       "available": true
+      }
+     ],
+     "seconds": 0.29
+    },
+    {
+     "page": "at/aparment-seerose",
+     "status": 200,
+     "days": 61,
+     "available": 59,
+     "priced": 61,
+     "first": "2027-01-10",
+     "last": "2026-12-02",
+     "min_stay_over_1": 0,
+     "sample": [
+      {
+       "available": true,
+       "avgPriceFormatted": "96",
+       "__typename": "AvailabilityCalendarDay",
+       "checkin": "2027-01-10",
+       "minLengthOfStay": 1
+      },
+      {
+       "avgPriceFormatted": "109",
+       "available": true,
+       "__typename": "AvailabilityCalendarDay",
+       "minLengthOfStay": 1,
+       "checkin": "2026-12-18"
+      },
+      {
+       "checkin": "2026-12-19",
+       "__typename": "AvailabilityCalendarDay",
+       "minLengthOfStay": 1,
+       "avgPriceFormatted": "109",
+       "available": true
+      }
+     ],
+     "seconds": 0.33
+    },
+    {
+     "page": "at/b-amp-b-hallstatt-lake",
+     "status": 200,
+     "days": 61,
+     "available": 30,
+     "priced": 61,
+     "first": "2027-01-10",
+     "last": "2026-12-02",
+     "min_stay_over_1": 0,
+     "sample": [
+      {
+       "__typename": "AvailabilityCalendarDay",
+       "checkin": "2027-01-10",
+       "available": false,
+       "minLengthOfStay": 1,
+       "avgPriceFormatted": "0"
+      },
+      {
+       "avgPriceFormatted": "123",
+       "__typename": "AvailabilityCalendarDay",
+       "checkin": "2026-12-18",
+       "available": true,
+       "minLengthOfStay": 1
+      },
+      {
+       "avgPriceFormatted": "123",
+       "__typename": "AvailabilityCalendarDay",
+       "checkin": "2026-12-19",
+       "available": true,
+       "minLengthOfStay": 1
+      }
+     ],
+     "seconds": 0.35
+    },
+    {
+     "page": "at/good-goisern",
+     "status": 200,
+     "days": 61,
+     "available": 55,
+     "priced": 61,
+     "first": "2027-01-10",
+     "last": "2026-12-02",
+     "min_stay_over_1": 0,
+     "sample": [
+      {
+       "__typename": "AvailabilityCalendarDay",
+       "checkin": "2027-01-10",
+       "avgPriceFormatted": "158",
+       "available": true,
+       "minLengthOfStay": 1
+      },
+      {
+       "avgPriceFormatted": "141",
+       "checkin": "2026-12-18",
+       "minLengthOfStay": 1,
+       "available": true,
+       "__typename": "AvailabilityCalendarDay"
+      },
+      {
+       "avgPriceFormatted": "141",
+       "checkin": "2026-12-19",
+       "minLengthOfStay": 1,
+       "available": true,
+       "__typename": "AvailabilityCalendarDay"
+      }
+     ],
+     "seconds": 0.29
+    }
+   ]
+  },
+  {
+   "page": "at/haus-hepi stay 2027-01-30 x4",
+   "first_status": 0,
+   "challenge_passed": true,
+   "seconds": 0,
+   "stay_offers": [
+    {
+     "room": "Five-Bedroom House",
+     "total": 2045.0,
+     "currency": "USD",
+     "board": []
+    }
+   ]
+  },
+  {
+   "page": "at/haus-hepi stay 2027-01-02 x3",
+   "first_status": 0,
+   "challenge_passed": true,
+   "seconds": 0,
+   "stay_offers": [
+    {
+     "room": "Five-Bedroom House",
+     "total": 1642.0,
+     "currency": "USD",
+     "board": []
+    }
+   ]
+  },
+  {
+   "page": "at/haus-hepi stay 2026-11-26 x2",
+   "first_status": 0,
+   "challenge_passed": true,
+   "seconds": 0,
+   "stay_offers": [
+    {
+     "room": "Small Double Room",
+     "total": 252.0,
+     "currency": "USD",
+     "board": [
+      "breakfast_included"
+     ]
+    },
+    {
+     "room": "Double Room with Balcony",
+     "total": 261.0,
+     "currency": "USD",
+     "board": [
+      "breakfast_included"
+     ]
+    }
+   ]
+  }
+ ]
+}
