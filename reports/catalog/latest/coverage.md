@@ -1,14 +1,13 @@
-## Coverage: 2525 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 2721 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
 | Milano | IT | 152 |
 | Roma | IT | 83 |
-| Lech | AT | 45 |
-| München | DE | 32 |
 | Nice | FR | 32 |
 | Vatican City | VA | 29 |
 | Wien | AT | 24 |
+| Lech | AT | 19 |
 | Lyon | FR | 19 |
 | Strasbourg | FR | 18 |
 | Grado | IT | 17 |
@@ -17,7 +16,6 @@
 | Budapest | HU | 16 |
 | Lido di Iesolo | IT | 14 |
 | Rome | IT | 14 |
-| St. Anton am Arlberg | AT | 13 |
 | Genève | CH | 13 |
 | Karlovy Vary | CZ | 13 |
 | Frankfurt am Main | DE | 13 |
@@ -26,9 +24,7 @@
 | Zürich | CH | 12 |
 | Praha | CZ | 12 |
 | Venezia | IT | 12 |
-| Siena | IT | 12 |
 | Stuttgart | DE | 11 |
-| Ischgl | AT | 10 |
 | Nürnberg | DE | 10 |
 | Riccione | IT | 10 |
 | Sesto San Giovanni | IT | 10 |
@@ -42,3 +38,7 @@
 | Bratislava | SK | 9 |
 | Oberstaufen | DE | 8 |
 | Regensburg | DE | 8 |
+| Baiersbronn | DE | 8 |
+| Erfurt | DE | 8 |
+| Chamonix-Mont-Blanc | FR | 8 |
+| Ancona | IT | 8 |
