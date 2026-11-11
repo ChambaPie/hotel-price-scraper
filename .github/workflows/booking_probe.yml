@@ -13,7 +13,11 @@ on:
       search:
         description: "Comma-separated destinations to search (e.g. Trieste,Bled)"
         required: false
-        default: "Trieste"
+        default: ""
+      stays:
+        description: "Space-separated page:checkin:nights to check offers for (e.g. at/haus-hepi:2027-01-14:4)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -37,11 +41,13 @@ jobs:
         env:
           PAGES: ${{ inputs.pages }}
           SEARCH: ${{ inputs.search }}
+          STAYS: ${{ inputs.stays }}
         run: |
           set -o pipefail
           mkdir -p out
           args=""; for p in $PAGES; do args="$args --page $p"; done
           IFS=',' read -ra Q <<< "$SEARCH"; for q in "${Q[@]}"; do [ -n "$q" ] && args="$args --search $q"; done
+          for st in $STAYS; do args="$args --stay $st"; done
           python -m hotel_scraper.booking_browser $args 2>&1 | tee out/booking_probe.log
       - name: Summary
         if: always()

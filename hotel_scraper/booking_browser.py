@@ -272,7 +272,10 @@ def report_md(label: str, results: list[dict]) -> str:
                  if cal and "error" not in cal else (cal.get("error", "-")[:80] if cal else "-"))
         lines.append(f"| {r['page']} | {r['first_status']} | {'yes' if r['challenge_passed'] else 'no'} | {r['seconds']} | "
                      f"{len(rooms)} | {sum(1 for x in rooms if x['board'])} | {cal_s} |")
-    for r in [r for r in results if "page" in r]:
+    for r in [r for r in results if r.get("stay_offers") is not None]:
+        lines += ["", f"### {r['page']}: offers (total for the stay)"]
+        lines += [f"- {o['room']}: {o['currency']} {o['total']} {', '.join(o['board'])}" for o in r["stay_offers"]]
+    for r in [r for r in results if "page" in r and r.get("stay_offers") is None]:
         lines += ["", f"### {r['page']}: offers"]
         for x in (r.get("rooms") or [])[:12]:
             lines.append(f"- {x['room']}: {x['currency']} {x['price']}, {', '.join(x['board']) or 'no board'}, "
@@ -302,6 +305,7 @@ def main(argv=None) -> int:
     ap.add_argument("--label", default="")
     ap.add_argument("--page", action="append", help="country/pagename, e.g. it/grand-duchi-d-aosta (repeatable)")
     ap.add_argument("--wait", type=int, default=45, help="seconds to wait for the challenge per page")
+    ap.add_argument("--stay", action="append", help="also check offers for page:checkin:nights, e.g. at/haus-hepi:2027-01-14:4")
     ap.add_argument("--headed", action="store_true", help="show the browser window (local runs)")
     ap.add_argument("--other-calendars", type=int, default=10, help="also fetch calendars of N hotels linked from the page")
     ap.add_argument("--search", action="append", help="destination to search after the hotel pages, e.g. Trieste (repeatable)")
@@ -331,6 +335,19 @@ def main(argv=None) -> int:
                 results.append({"page": f"{country}/{pagename}", "first_status": 0, "challenge_passed": False,
                                 "seconds": 0, "error": str(e)[:300]})
             page.wait_for_timeout(5000)
+        for st in args.stay or []:
+            pg, ci, nn = st.rsplit(":", 2)
+            cc, slug = pg.split("/", 1)
+            from .booking_session import BookingSession  # noqa: F401  (reuse the parsers via the open page)
+            params = urlencode({"checkin": ci, "checkout": (date.fromisoformat(ci) + timedelta(days=int(nn))).isoformat(),
+                                "group_adults": s["adults"], "no_rooms": s["rooms"], "group_children": 0, "lang": "en-gb"})
+            page.goto(f"{scfg['base_url']}/hotel/{cc}/{slug}.html?{params}", wait_until="domcontentloaded", timeout=60000)
+            page.wait_for_timeout(8000)
+            rows = page.evaluate(ROWS_JS)
+            offers = [{"room": r["room"], "total": price_of(r["price"]), "currency": currency_of(r["price"]),
+                       "board": board_of(r["conditions"])} for r in rows]
+            results.append({"page": f"{pg} stay {ci} x{nn}", "first_status": 0, "challenge_passed": bool(rows), "seconds": 0,
+                            "stay_offers": offers[:8]})
         session_token = next((r.get("_token") for r in results if r.get("_token")), "")
         for q in args.search or []:
             try:
