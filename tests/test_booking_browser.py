@@ -38,3 +38,13 @@ def test_google_ts_matches_a_real_url_and_seller_prices():
     assert encode_ts(date(2026, 11, 17), date(2026, 11, 18), "USD") == "CAAaGhIYEhIKBwjqDxALGBESBwjqDxALGBIyAggAKgcKBToDVVNE"
     assert seller_prices("Haus Hepi\nOfficial site\n€152\nBooking.com\n€149\nfree cancellation\nAgoda\nView\n€160") == [
         ("Official site", "€152"), ("Booking.com", "€149"), ("Agoda", "€160")]
+
+
+def test_google_best_by_seller():
+    from hotel_scraper.google_hotels import amount, best_by_seller
+    # seller list as read from Palazzo Baj's Google Hotels page (2026-11-11), with a duplicate Hotels.com row
+    pairs = [("Expedia", "€167"), ("Booking.com", "€183"), ("Hotels.com", "€167"), ("Official site", "€187"),
+             ("Hotels.com", "€177"), ("eDreams", "€167")]
+    assert best_by_seller(pairs) == {"Expedia": 167.0, "Booking.com": 183.0, "Hotels.com": 167.0, "Official site": 187.0,
+                                     "eDreams": 167.0}
+    assert amount("€1,234") == 1234 and amount("US$99") == 99 and amount("n/a") is None
