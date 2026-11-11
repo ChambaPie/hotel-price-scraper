@@ -1,284 +1,224 @@
-22:22:41 heatmap failed ta:g1195856-d1585978 (bed_and_breakfast, Sportpension Aichholzer): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:43 heatmap failed ta:g676650-d7676365 (bed_and_breakfast, MoaAlm Mountain Retreat): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:44 heatmap failed ta:g608661-d1371831 (bed_and_breakfast, Pension St. Georg): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:46 heatmap failed ta:g641766-d4750565 (bed_and_breakfast, Landhaus Lilly): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:48 heatmap failed ta:g811450-d1178219 (bed_and_breakfast, Haus Patricia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:49 heatmap failed ta:g1165103-d575820 (bed_and_breakfast, Gaestehaus Bramboeck): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:51 heatmap failed ta:g190454-d567211 (bed_and_breakfast, Stadtnest Bed & Breakfast): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:53 heatmap failed ta:g651663-d667324 (hotel, das Moser - Hotel Garni am See): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:54 heatmap failed ta:g641728-d313599 (hotel, Seehotel Enzian): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:56 heatmap failed ta:g641728-d1443052 (hotel, Genießerhotel Die Forelle): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:57 heatmap failed ta:g1195150-d1577334 (hotel, Biohotel Daberer): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:22:59 heatmap failed ta:g776244-d650210 (hotel, KOLLER's Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:01 heatmap failed ta:g551473-d523028 (hotel, Hotel Hochschober): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:02 heatmap failed ta:g663652-d1021107 (hotel, Wellnesshotel Eggerwirt): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:04 heatmap failed ta:g580116-d286604 (hotel, Haus Hirt): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:06 heatmap failed ta:g580116-d1010387 (hotel, Hotel Sonngastein): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:07 heatmap failed ta:g608665-d674830 (hotel, Hotel Zinnkruegl): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:09 heatmap failed ta:g807293-d1181140 (hotel, Alpines Gourmethotel Montanara): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:10 heatmap failed ta:g808084-d2560714 (hotel, Bliem's Familienhotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:12 heatmap failed ta:g658282-d2306147 (hotel, Hotel Ennstalerhof): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:14 heatmap failed ta:g658282-d2480709 (hotel, Hotel Annelies): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:15 heatmap failed ta:g227585-d4324032 (hotel, Landhotel Schafhuber): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:17 heatmap failed ta:g1118350-d1523088 (hotel, Kinderhotel Felben): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:18 heatmap failed ta:g2044830-d4461164 (hotel, Hotel Garni Schöne Aussichten): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:20 heatmap failed ta:g608663-d1901120 (hotel, Talheimer Grias di & Hoamat): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:22 heatmap failed ta:g666530-d10124343 (hotel, Dachsteinkönig - Familux Resort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:23 heatmap failed ta:g641757-d620288 (hotel, G'sund & Natur Hotel Die Wasnerin): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:25 heatmap failed ta:g651666-d1583386 (hotel, Schoenruh): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:26 heatmap failed ta:g651666-d3784278 (hotel, Alpenland Gerlos - Hotel & Breakfast): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:28 heatmap failed ta:g1163095-d1232099 (hotel, Hotel Seevilla Altaussee): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:30 heatmap failed ta:g608662-d2470494 (hotel, Alpin Hotel Garni Eder): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:32 heatmap failed ta:g793518-d7119775 (hotel, Mountain Resort M&M): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:34 heatmap failed ta:g2201665-d1079106 (hotel, Hotel Pension Wagnermigl): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:35 heatmap failed ta:g1171382-d6868672 (hotel, Das Kaltenbach - Nature Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:37 heatmap failed ta:g804267-d628899 (hotel, POST - Family Resort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:39 heatmap failed ta:g608673-d599989 (hotel, Hotel Staffler): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:40 heatmap failed ta:g608680-d500453 (hotel, Aparthotel Bergland): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:42 heatmap failed ta:g608667-d632115 (hotel, Bergwald Appartements Alpbach): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:44 heatmap failed ta:g808076-d1474465 (hotel, Mia Alpina - Zillertal family retreat): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:45 heatmap failed ta:g641759-d2062225 (hotel, Wilfinger Bio Thermen Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:47 heatmap failed ta:g641759-d656203 (hotel, Hotel & Spa Der Steirerhof): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:48 heatmap failed ta:g1749064-d3536209 (hotel, Hotel Muhr): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:50 heatmap failed ta:g644054-d1108350 (hotel, Alpenhotel Tirolerhof): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:52 heatmap failed ta:g608674-d500363 (hotel, Hotel Alpina deluxe): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:53 heatmap failed ta:g608674-d896852 (hotel, Enzian Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:55 heatmap failed ta:g1194639-d1748319 (hotel, Juffing Hotel & Spa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:57 heatmap failed ta:g641768-d292031 (hotel, Wellness & Kuschelhotel Winzer): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:23:58 heatmap failed ta:g1056039-d1767087 (hotel, Schlosshotel Iglhauser): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:00 heatmap failed ta:g319732-d500477 (hotel, Hotel Alte Schmiede): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:01 heatmap failed ta:g319732-d676222 (hotel, Hotel Helga): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:03 heatmap failed ta:g319732-d500484 (hotel, Hotel Residenz Hochland): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:04 heatmap failed ta:g608675-d1792459 (hotel, Berghotel & Gasthof Marlstein): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:08 heatmap failed ta:g1055484-d195361 (hotel, Alpenresort Schwarz): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:09 heatmap failed ta:g1194193-d1396143 (hotel, Hotel Jerzner Hof): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:11 heatmap failed ta:g641747-d636892 (hotel, Arabella Retreat & Spa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:13 heatmap failed ta:g658285-d604346 (hotel, Hotel Löwe - Leading Family Hotel & Reso): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:14 heatmap failed ta:g1195037-d1437862 (hotel, Hotel Holzleiten): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:16 heatmap failed ta:g651667-d8669240 (hotel, Hotel Garni Montes): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:18 heatmap failed ta:g651667-d1102181 (hotel, Schlosshotel Fiss): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:20 heatmap failed ta:g666336-d576860 (hotel, Alpenrose - Familux Resort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:21 heatmap failed ta:g580362-d1959467 (hotel, LARET Private Boutique Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:23 heatmap failed ta:g608670-d7660146 (hotel, Gletscherblick B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:24 heatmap failed ta:g608670-d6419999 (hotel, Hotel Garni Pazanella): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:26 heatmap failed ta:g1060376-d1182103 (hotel, Hotel Buntali): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:28 heatmap failed ta:g608676-d1506948 (hotel, Pepis Skihotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:30 heatmap failed ta:g608676-d1972626 (hotel, Hotel Garni Albona): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:31 heatmap failed ta:g608676-d638814 (hotel, Hotel Lux Alpinae): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:33 heatmap failed ta:g190413-d1518844 (hotel, Privathotel Das-Schmidt): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:35 heatmap failed ta:g1195182-d1200808 (hotel, Jungbrunn - Der Gutzeitort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:36 heatmap failed ta:g608682-d1024087 (hotel, Hotel Arlberghaus): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:38 heatmap failed ta:g651670-d672071 (hotel, Romantik Hotel Verwall): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:39 heatmap failed ta:g262035-d500535 (hotel, Hotel Omesberg): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:41 heatmap failed ta:g262035-d1587293 (hotel, Hotel Antonius Lech am Arlberg): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:42 heatmap failed ta:g641731-d1118857 (hotel, Wellnesshotel Warther Hof): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:44 heatmap failed ta:g262035-d1500791 (hotel, Burgwald Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:46 heatmap failed ta:g1749713-d1776059 (hotel, Hotel Rockenschaub): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:48 heatmap failed ta:g670762-d234520 (hotel, Oberjoch - Familux Resort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:49 heatmap failed ta:g2276793-d2301542 (hotel, Hotel Bergkristall): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:51 heatmap failed ta:g2276853-d2347462 (hotel, INNs Holz): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:52 heatmap failed ta:g1194700-d1195635 (hotel, Hotel Adler): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:54 heatmap failed ta:g1194700-d1194703 (hotel, Krone In Au): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:56 heatmap failed ta:g3961434-d3197510 (hotel, Kräuter & Spa Das Schäfer): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:57 heatmap failed ta:g807869-d1059933 (hotel, Damülser Hof - Wellness & Spa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:24:59 heatmap failed ta:g608695-d4754592 (hotel, Hotel Quercus): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:00 heatmap failed ta:g656889-d503428 (hotel, Hotel Castell): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:02 heatmap failed ta:g188087-d315603 (hotel, Hotel Prätschli): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:03 heatmap failed ta:g1096327-d597330 (hotel, Hotel Bettmerhof): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:05 heatmap failed ta:g198839-d199008 (hotel, Park Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:07 heatmap failed ta:g198839-d267880 (hotel, Elite Alpine Lodge): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:08 heatmap failed ta:g188098-d550027 (hotel, Hotel Bella Vista Zermatt): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:10 heatmap failed ta:g188098-d230196 (hotel, Hotel Metropol & Spa Zermatt): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:12 heatmap failed ta:g188098-d196832 (hotel, Grand Hotel Zermatterhof): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:14 heatmap failed ta:g188098-d266043 (hotel, Coeur des Alpes): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:16 heatmap failed ta:g1021491-d316270 (hotel, MAISON HORNBERG): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:17 heatmap failed ta:g274707-d276690 (bed_and_breakfast, HOLIDAY HOME - Pension): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:19 heatmap failed ta:g274707-d1138055 (hotel, Rezidence Vysehrad): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:21 heatmap failed ta:g274707-d667752 (hotel, Residence Karolina - Prague City Apartme): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:22 heatmap failed ta:g5062984-d5062985 (hotel, Wellness & Spa Boutique Hotel Villa Memo): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:24 heatmap failed ta:g187309-d625732 (bed_and_breakfast, Bed and Breakfast Zeevat): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:26 heatmap failed ta:g198442-d1630312 (bed_and_breakfast, B&B bei Taferners): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:27 heatmap failed ta:g198561-d5872796 (bed_and_breakfast, Landhaus Meine Auszeit): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:29 heatmap failed ta:g198561-d678071 (bed_and_breakfast, Montara Suites): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:30 heatmap failed ta:g198481-d502891 (hotel, Alpenhotel Zechmeisterlehen): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:34 heatmap failed ta:g1184802-d968821 (hotel, Schloss Elmau): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:35 heatmap failed ta:g674317-d672216 (hotel, Wellnesshotel Zum Bräu): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:37 heatmap failed ta:g187312-d10061309 (hotel, Domresidenz): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:39 heatmap failed ta:g198541-d1178251 (hotel, Hotel Bären Titisee): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:40 heatmap failed ta:g2261335-d2232228 (hotel, Elztalhotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:42 heatmap failed ta:g198515-d25163836 (hotel, The Grand Green - Familux Resort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:43 heatmap failed ta:g1902347-d1873604 (bed_and_breakfast, La Casa Di Matiki): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:45 heatmap failed ta:g303827-d8556949 (bed_and_breakfast, Plitvice Villa Verde): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:47 heatmap failed ta:g295374-d2445957 (bed_and_breakfast, B&B Kuća Bajlo): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:48 heatmap failed ta:g295370-d4725017 (hotel, Golden Palace Split): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:50 heatmap failed ta:g295370-d8111337 (hotel, Horizon Luxury Suites & Desing Rooms): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:51 heatmap failed ta:g2290306-d10025554 (hotel, Hotel Lemongarden): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:53 heatmap failed ta:g480253-d2197379 (hotel, Abuelas Beach House): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:55 heatmap failed ta:g295371-d21303097 (hotel, Heritage Villa Nobile): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:56 heatmap failed ta:g303804-d1226592 (hotel, Fox Apartments): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:58 heatmap failed ta:g1077264-d1148778 (hotel, Wellness Hotel Katalin): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:25:59 heatmap failed ta:g187813-d4064942 (bed_and_breakfast, B&B Atelier Lidia Polla): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:01 heatmap failed ta:g187813-d4751590 (bed_and_breakfast, Sotto Il Faro B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:03 heatmap failed ta:g187870-d1830235 (bed_and_breakfast, Bed and Breakfast You and Me): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:05 heatmap failed ta:g187870-d2202675 (bed_and_breakfast, Venice-BB-Venezia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:06 heatmap failed ta:g187870-d8028498 (bed_and_breakfast, Residenza Corte Antica): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:08 heatmap failed ta:g676139-d1221381 (bed_and_breakfast, B&B Vanessa House): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:09 heatmap failed ta:g780652-d12986998 (bed_and_breakfast, Dimora Naviglio): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:11 heatmap failed ta:g194912-d1650904 (bed_and_breakfast, Mountain Chalet Pra Ronch): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:12 heatmap failed ta:g948560-d2455437 (bed_and_breakfast, Boutique Hotel Clara): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:14 heatmap failed ta:g194732-d25393379 (bed_and_breakfast, Nido Suite & Apartments): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:15 heatmap failed ta:g194688-d1054595 (bed_and_breakfast, Hotel Trevi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:17 heatmap failed ta:g1795301-d1793553 (bed_and_breakfast, B&B La Siesta): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:18 heatmap failed ta:g187796-d4022758 (bed_and_breakfast, B&b Pigiotto): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:20 heatmap failed ta:g187871-d678497 (bed_and_breakfast, B&B Villa Beatrice): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:22 heatmap failed ta:g187871-d2001185 (bed_and_breakfast, B&B Cuore di Giulietta): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:24 heatmap failed ta:g187871-d2323526 (bed_and_breakfast, B&B Santo Stefano): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:25 heatmap failed ta:g6885244-d2485745 (bed_and_breakfast, Il Borgo di Via Chiesa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:27 heatmap failed ta:g661295-d6456404 (bed_and_breakfast, B&b Agora): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:28 heatmap failed ta:g1425788-d1161517 (bed_and_breakfast, Hotel Opinione): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:30 heatmap failed ta:g1414919-d3386156 (bed_and_breakfast, Agriturismo Il Tempo Delle Mele): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:32 heatmap failed ta:g608900-d8516203 (bed_and_breakfast, La Lavanda Del Borgo): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:33 heatmap failed ta:g608900-d10303215 (bed_and_breakfast, Agromarino - Rooms & Suites): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:35 heatmap failed ta:g1497685-d1553639 (bed_and_breakfast, Airone House): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:36 heatmap failed ta:g194838-d4040568 (bed_and_breakfast, La Perla Del Conero Affittacamere): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:38 heatmap failed ta:g1604040-d3396699 (bed_and_breakfast, Maso Fior di Bosco): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:40 heatmap failed ta:g664064-d2141833 (bed_and_breakfast, B&B Gallo delle Pille): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:41 heatmap failed ta:g194802-d7002486 (bed_and_breakfast, B&B A Portata di Mare): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:43 heatmap failed ta:g1582949-d5616194 (bed_and_breakfast, Bed & Breakfast Brigi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:45 heatmap failed ta:g187895-d1433880 (bed_and_breakfast, Il Giglio d'Oro): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:47 heatmap failed ta:g187895-d305315 (bed_and_breakfast, Relais Villa Antea): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:48 heatmap failed ta:g187895-d1113344 (bed_and_breakfast, B&B Monte Oliveto): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:50 heatmap failed ta:g1062574-d3386055 (bed_and_breakfast, Agriturismo Torre Morgana): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:52 heatmap failed ta:g729917-d258717 (bed_and_breakfast, Casa Portagioia - Tuscany Bed and Breakf): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:53 heatmap failed ta:g780934-d2534140 (bed_and_breakfast, Boutique Hotel Leone & Retreat Centre): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:55 heatmap failed ta:g194851-d3165052 (bed_and_breakfast, Locanda San Marco - Palazzo Caluri): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:56 heatmap failed ta:g1226846-d1056140 (bed_and_breakfast, Il Nascondiglio - The Hideaway): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:58 heatmap failed ta:g580240-d267490 (bed_and_breakfast, Ancora del Chianti Country B&B - Retreat): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:26:59 heatmap failed ta:g187907-d3842272 (bed_and_breakfast, Alla Maison di Alessia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:01 heatmap failed ta:g194676-d1478251 (bed_and_breakfast, Villa Fortezza): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:03 heatmap failed ta:g2080067-d1940089 (bed_and_breakfast, Casa La Pace Bed and Breakfast): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:04 heatmap failed ta:g1095749-d2275025 (bed_and_breakfast, Agriturismo San Lorenzo): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:06 heatmap failed ta:g1095749-d613184 (bed_and_breakfast, Castello delle Serre): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:08 heatmap failed ta:g608934-d1724008 (bed_and_breakfast, Siena House): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:09 heatmap failed ta:g608939-d1918959 (bed_and_breakfast, Agriturismo i Mille Ulivi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:11 heatmap failed ta:g608934-d1412326 (bed_and_breakfast, Follonico): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:13 heatmap failed ta:g187902-d4718444 (bed_and_breakfast, Buonenotti B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:14 heatmap failed ta:g194833-d501862 (bed_and_breakfast, Total Tuscany): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:16 heatmap failed ta:g187898-d10055331 (bed_and_breakfast, La Chiusa delle Monache): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:17 heatmap failed ta:g1163191-d1566452 (bed_and_breakfast, Bed and Breakfast San Francesco): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:19 heatmap failed ta:g1184002-d2661447 (bed_and_breakfast, Tenuta La Santissima): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:20 heatmap failed ta:g1051674-d315188 (bed_and_breakfast, Locanda al Colle): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:22 heatmap failed ta:g644253-d638171 (bed_and_breakfast, Villa Tres Jolie): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:23 heatmap failed ta:g187770-d1960334 (bed_and_breakfast, Bed & Breakfast Oasi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:25 heatmap failed ta:g194821-d1945473 (bed_and_breakfast, Le Eriche B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:27 heatmap failed ta:g187849-d4097922 (bed_and_breakfast, Rosso Segnale Milano): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:28 heatmap failed ta:g187821-d480610 (bed_and_breakfast, Cinqueterre Residence): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:30 heatmap failed ta:g187849-d3595471 (bed_and_breakfast, Home BB Milano): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:31 heatmap failed ta:g187820-d654847 (bed_and_breakfast, Il Giardino Incantato Bed and Breakfast): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:33 heatmap failed ta:g187820-d617418 (bed_and_breakfast, Manuel's Guest House): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:35 heatmap failed ta:g1501315-d3225724 (bed_and_breakfast, Agriturismo La Valle Di Vico): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:36 heatmap failed ta:g194928-d1893325 (bed_and_breakfast, B&b Sei Stelle): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:38 heatmap failed ta:g194943-d3292215 (bed_and_breakfast, Bed and Breakfast Colle Selvotta): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:39 heatmap failed ta:g194839-d2281388 (bed_and_breakfast, Masia Mariel - Adults Only): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:41 heatmap failed ta:g194930-d3200664 (bed_and_breakfast, B&b Dimora Monsignore): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:42 heatmap failed ta:g776159-d588925 (bed_and_breakfast, Garni B&B La Rua): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:43 heatmap failed ta:g3340760-d3340762 (bed_and_breakfast, Agriturismo Fontefredda): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:45 heatmap failed ta:g187791-d2285303 (bed_and_breakfast, Bed and Breakfast Tre Civette Sul Comò): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:47 heatmap failed ta:g187791-d10137564 (bed_and_breakfast, Tinkerbell Roma): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:48 heatmap failed ta:g187791-d1721909 (bed_and_breakfast, Campanella3): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:50 heatmap failed ta:g187791-d1960703 (bed_and_breakfast, Aurelio Aquilone B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:51 heatmap failed ta:g187791-d4232199 (bed_and_breakfast, Colfelice Rooms): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:53 heatmap failed ta:g187791-d4028829 (bed_and_breakfast, Casa Eli Roma): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:55 heatmap failed ta:g666789-d1898086 (bed_and_breakfast, Bed And Breakfast Cà De Badin): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:56 heatmap failed ta:g187790-d3567211 (bed_and_breakfast, Volver B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:27:58 heatmap failed ta:g187785-d8110824 (bed_and_breakfast, Via Toledo 156 | Napoli Cozy Rooms): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:00 heatmap failed ta:g187785-d664865 (bed_and_breakfast, Casa 12 B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:01 heatmap failed ta:g1078038-d4260094 (bed_and_breakfast, Bed and Breakfast Il Giardino di Villa A): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:04 heatmap failed ta:g681255-d572343 (hotel, Eurovil Garni): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:06 heatmap failed ta:g194691-d2214987 (hotel, Hotel Cesare Augusto): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:07 heatmap failed ta:g194825-d528706 (hotel, Hotel Patrizia Dolomites Glamour): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:09 heatmap failed ta:g194912-d1024612 (hotel, Stella Hotel - My Dolomites Experience): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:10 heatmap failed ta:g194688-d1036108 (hotel, Hotel K2): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:12 heatmap failed ta:g1182982-d1190761 (hotel, Tratterhof Mountain Sky Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:13 heatmap failed ta:g612437-d1516232 (hotel, Hotel Paganella): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:15 heatmap failed ta:g612437-d1234927 (hotel, Piz Galin Grand Hotel Family & Wellness): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:16 heatmap failed ta:g612437-d1630720 (hotel, Hotel Majorka): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:18 heatmap failed ta:g612437-d1022344 (hotel, Astoria Comfort Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:20 heatmap failed ta:g612437-d1099062 (hotel, Park Hotel Sport): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:22 heatmap failed ta:g612437-d1210596 (hotel, Hotel Select): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:23 heatmap failed ta:g612437-d1520730 (hotel, Hotel Ambiez): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:25 heatmap failed ta:g612437-d1860200 (hotel, Alpino Baby Family Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:26 heatmap failed ta:g1184636-d8632597 (hotel, San Luis Retreat Hotel & Lodges): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:28 heatmap failed ta:g1425788-d1569429 (hotel, Garnì Lilly): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:30 heatmap failed ta:g194807-d279245 (hotel, Castello - Lake Front Hotel & Living Sui): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:31 heatmap failed ta:g194807-d314806 (hotel, Eco Hotel Benacus): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:33 heatmap failed ta:g194933-d572328 (hotel, Hotel Traubenheim): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:34 heatmap failed ta:g3452651-d6921980 (hotel, Corte Campioli Casa di Campagna): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:36 heatmap failed ta:g194933-d1414971 (hotel, Hotel Castel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:38 heatmap failed ta:g194789-d266476 (hotel, Hotel Giulietta Romeo): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:40 heatmap failed ta:g194771-d314102 (hotel, Hotel Eden Garda): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:41 heatmap failed ta:g1604040-d1604642 (hotel, Chalet Val di Rabbi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:42 heatmap failed ta:g946050-d2542821 (hotel, Hotel Genzianella): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:44 heatmap failed ta:g187848-d2350147 (hotel, Casa Museo Palazzo Valenti Gonzaga): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:46 heatmap failed ta:g1945476-d1499337 (hotel, Hotel Waltershof): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:47 heatmap failed ta:g580235-d654790 (hotel, Feldhof DolceVita Resort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:49 heatmap failed ta:g652030-d1549874 (hotel, Hotel Val Di Sole): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:50 heatmap failed ta:g664150-d266469 (hotel, Hotel Gardenia Al Lago): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:52 heatmap failed ta:g187842-d529554 (hotel, Hotel Marconi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:54 heatmap failed ta:g642183-d1882614 (hotel, Mein Matillhof): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:55 heatmap failed ta:g644254-d589302 (hotel, Hotel Vigna): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:57 heatmap failed ta:g644267-d571862 (hotel, Hotel Adamello): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:28:58 heatmap failed ta:g194922-d1368464 (hotel, Hotel Cristallo): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:00 heatmap failed ta:g194922-d1846791 (hotel, Hotel Marlet): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:01 heatmap failed ta:g1175092-d5445055 (hotel, B&b Fonte Cugno): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:03 heatmap failed ta:g187895-d6627401 (hotel, B&B Emozioni Charme): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:04 heatmap failed ta:g1968193-d1899963 (hotel, Cerqua Rosara Residence): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:06 heatmap failed ta:g194799-d12090552 (hotel, Hotel Sporting Family Hospitality): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:08 heatmap failed ta:g1092610-d2325464 (hotel, Albergo Esperia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:09 heatmap failed ta:g194665-d1861890 (hotel, Hotel Boracay): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:11 heatmap failed ta:g194665-d1520303 (hotel, Hotel Excelsior): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:13 heatmap failed ta:g194665-d657970 (hotel, Hotel Doge): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:14 heatmap failed ta:g1186589-d1170820 (hotel, Hotel Venezia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:16 heatmap failed ta:g194775-d1121752 (hotel, SeaPark Family Resort & Spa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:18 heatmap failed ta:g194775-d1224770 (hotel, Family Hotel Promenade): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:20 heatmap failed ta:g194775-d677867 (hotel, Hotel Clipper): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:21 heatmap failed ta:g194833-d23926770 (hotel, Borgo San Vincenzo): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:23 heatmap failed ta:g187901-d238819 (hotel, Villasanpaolo Resort & Spa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:25 heatmap failed ta:g194833-d24135725 (hotel, Stelle Di Monte): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:27 heatmap failed ta:g194766-d811336 (hotel, Hotel Olimpia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:28 heatmap failed ta:g194794-d2205123 (hotel, Residence Anna Rosa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:30 heatmap failed ta:g635626-d637665 (hotel, Hotel La Perla): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:31 heatmap failed ta:g644287-d637028 (hotel, Torre Palombara - Dimora Storica): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:33 heatmap failed ta:g652032-d1087811 (hotel, Relais Sant'Elena): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:35 heatmap failed ta:g187820-d459904 (hotel, Hotel Villa Steno): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:36 heatmap failed ta:g187820-d238482 (hotel, Hotel Pasquale): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:38 heatmap failed ta:g187817-d1815380 (hotel, Marvit Affittacamere): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:40 heatmap failed ta:g1097276-d1162740 (hotel, Villaggio I Sorbizzi Resort & Beach): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:41 heatmap failed ta:g616174-d611394 (hotel, Abbadia San Giorgio): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:43 heatmap failed ta:g187827-d1566245 (hotel, Hotel Villa Anita): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:45 heatmap failed ta:g664168-d262530 (hotel, Hotel Pironi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:46 heatmap failed ta:g664168-d485280 (hotel, Park Hotel Villa Belvedere): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:48 heatmap failed ta:g230067-d4004516 (hotel, Relais Casali della Cisterna): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:49 heatmap failed ta:g1052388-d1052394 (hotel, Palazzo Tour d'Eau - Abruzzo Cibus): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:51 heatmap failed ta:g194885-d1800928 (hotel, Boutique Hotel Il Riccio): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:53 heatmap failed ta:g194708-d529639 (hotel, Hotel Montecristo): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:54 heatmap failed ta:g187791-d1488058 (hotel, Casa Romana): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:56 heatmap failed ta:g2059497-d2188889 (hotel, Hotel Aurora): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:29:58 heatmap failed ta:g187791-d1784133 (hotel, B&B La Casa di Clementina): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:30:00 heatmap failed ta:g644248-d641323 (hotel, Tenuta Cusmano): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:30:01 heatmap failed ta:g1925466-d2204124 (hotel, Hotel Orchidea Blu): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:30:03 heatmap failed ta:g1566581-d2184080 (hotel, Casa Gregorio Culinary Holiday Vacations): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:30:05 heatmap failed ta:g1220549-d581442 (hotel, Hotel Castello di Sinio): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:30:06 heatmap failed ta:g1450722-d2277721 (hotel, La Maison Du Pont Relais | B&B Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:30:09 heatmap failed ta:g187782-d1222420 (hotel, Magi House Relais): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:30:11 heatmap failed ta:g187782-d13221344 (hotel, Anna Belle Elegant Agriresort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:30:12 heatmap failed ta:g194863-d307715 (hotel, Hotel Punta Regina): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-22:34:43 heatmap failed ta:g274707-d614368 (hotel, Aparthotel City 5): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
-## Scan: 224 of 1500 watched properties checked (817 s)
+12:43:36 heatmap failed ta:g1156007-d1797283 (bed_and_breakfast, Haus Kienreich): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:43:45 heatmap failed ta:g608668-d569037 (hotel, Hotel LANDHOF): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:43:47 heatmap failed ta:g1195646-d32762452 (hotel, Hotel Edelweiss By Beier): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:43:48 heatmap failed ta:g608680-d535058 (hotel, Hotel Greil): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:00 heatmap failed ta:g608676-d5533711 (hotel, PETE Alpine Boutique Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:02 heatmap failed ta:g1194700-d1878492 (hotel, Hotel Roessle): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:04 heatmap failed ta:g198863-d1825517 (bed_and_breakfast, The Hayloft): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:07 heatmap failed ta:g187279-d3451977 (hotel, Forsthaus Auerhahn): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:09 heatmap failed ta:g1010234-d3353901 (bed_and_breakfast, The Guest House & Ski Lodge): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:10 heatmap failed ta:g187261-d1399983 (bed_and_breakfast, Ski Breezy - Chalet D'Ile): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:12 heatmap failed ta:g207359-d1400983 (bed_and_breakfast, Cairn Lodge): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:14 heatmap failed ta:g187222-d1115102 (bed_and_breakfast, Domaine Pins Paul): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:15 heatmap failed ta:g207359-d1974095 (bed_and_breakfast, Chalet Aux Joux): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:17 heatmap failed ta:g207359-d2162016 (bed_and_breakfast, AliKats Mountain Holidays - Ferme à Jule): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:19 heatmap failed ta:g207359-d1958878 (bed_and_breakfast, Chalet Fourmiliere Morzine): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:21 heatmap failed ta:g187234-d2169703 (bed_and_breakfast, Vista Azzurra): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:23 heatmap failed ta:g608818-d5445118 (bed_and_breakfast, Chalet Savoie Faire): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:27 heatmap failed ta:g187240-d3315573 (bed_and_breakfast, Le Mas du Chanoine): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:29 heatmap failed ta:g1080045-d1961667 (bed_and_breakfast, La Maison du Guil): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:31 heatmap failed ta:g445020-d2092321 (bed_and_breakfast, La Bousquetiere): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:33 heatmap failed ta:g608808-d1596094 (bed_and_breakfast, Villa Cedria): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:36 heatmap failed ta:g1439756-d1439725 (bed_and_breakfast, La Haute Grange): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:38 heatmap failed ta:g187243-d3823533 (bed_and_breakfast, Maison d'Hôtes Bleu Azur): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:40 heatmap failed ta:g1984485-d12423345 (bed_and_breakfast, Mas Samarcande): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:42 heatmap failed ta:g1984485-d1457305 (bed_and_breakfast, Villa Le Port d'Attache): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:54 heatmap failed ta:g644103-d8467281 (bed_and_breakfast, La Ferme du Bois Joli): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:56 heatmap failed ta:g1194669-d4052460 (bed_and_breakfast, Villa Bacchus maison d’hote Gay only): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:44:58 heatmap failed ta:g187235-d4607584 (bed_and_breakfast, Les Aurochs): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:00 heatmap failed ta:g674096-d667084 (bed_and_breakfast, Villa de Lorgues): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:01 heatmap failed ta:g674121-d676853 (bed_and_breakfast, Villa du Plageron): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:03 heatmap failed ta:g319749-d4074467 (bed_and_breakfast, La Colombière du Château): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:07 heatmap failed ta:g2522230-d2033612 (bed_and_breakfast, Le Mas du Cadranier): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:09 heatmap failed ta:g2189461-d2178064 (bed_and_breakfast, Domaine Saint Dominique): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:10 heatmap failed ta:g616124-d2388660 (bed_and_breakfast, Le Clos Geraldy): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:12 heatmap failed ta:g659313-d13995694 (bed_and_breakfast, Chut ! c'est ici): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:14 heatmap failed ta:g635827-d3316542 (bed_and_breakfast, Couette d'Azur): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:16 heatmap failed ta:g196673-d1025517 (bed_and_breakfast, Mas des Pascaux): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:18 heatmap failed ta:g196673-d2154054 (bed_and_breakfast, La Demeure Insoupçonnée): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:20 heatmap failed ta:g196673-d16664967 (bed_and_breakfast, The Address Cassis): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:37 heatmap failed ta:g207359-d577217 (hotel, Simply Morzine - Chalet des Montagnes): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:41 heatmap failed ta:g207359-d659214 (hotel, Hotel Le Samoyede): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:47 heatmap failed ta:g207359-d500731 (hotel, Hotel Champs Fleuris): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:45:49 heatmap failed ta:g207359-d498391 (hotel, Chalet Hotel Fleur des Neiges): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:46:16 heatmap failed ta:g187217-d219370 (hotel, Hotel Du Cap-Eden-Roc, Oetker Hotels): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:46:21 heatmap failed ta:g1933306-d565753 (hotel, Suites de la Tour): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:46:24 heatmap failed ta:g187270-d677552 (hotel, Hotel Les Grillons): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:46:33 heatmap failed ta:g2223482-d8856193 (hotel, Villa Rene Lalique): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:46:39 heatmap failed ta:g616120-d455199 (hotel, Charembeau): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:46:49 heatmap failed ta:g187265-d4742057 (hotel, Les Loges du Théâtre): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:46:54 heatmap failed ta:g295371-d1210282 (bed_and_breakfast, Apartment & Room Lukre): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:46:56 heatmap failed ta:g187872-d5982343 (bed_and_breakfast, Portico Rosso B&B Vicenza): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:46:58 heatmap failed ta:g194760-d2335853 (bed_and_breakfast, Villa Carlotta): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:00 heatmap failed ta:g194760-d2560529 (bed_and_breakfast, Le Stanze di Torcicoda): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:02 heatmap failed ta:g187871-d1508057 (bed_and_breakfast, Casa & Natura Breviglieri): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:03 heatmap failed ta:g187871-d2036402 (bed_and_breakfast, B&B Corte delle Pigne): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:05 heatmap failed ta:g187871-d2691114 (bed_and_breakfast, B&B 2 Terrazze): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:09 heatmap failed ta:g23691994-d6109063 (bed_and_breakfast, B&B Ghisiolo 73): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:11 heatmap failed ta:g1958066-d2633618 (bed_and_breakfast, Bed and Breakfast Casa dei Ricci): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:16 heatmap failed ta:g635642-d3507314 (bed_and_breakfast, Sweet Life): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:21 heatmap failed ta:g187804-d909299 (bed_and_breakfast, Rubra Bed & Breakfast & Apartments): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:23 heatmap failed ta:g187895-d4257276 (bed_and_breakfast, L'Olivo): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:25 heatmap failed ta:g187907-d2351729 (bed_and_breakfast, La Terrazza fio...Rita): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:26 heatmap failed ta:g187907-d1731231 (bed_and_breakfast, B&B Le Terrazze): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:28 heatmap failed ta:g187894-d1116381 (bed_and_breakfast, Casa Chilenne B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:32 heatmap failed ta:g580240-d1988140 (bed_and_breakfast, B&B Il Cielo Bio): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:36 heatmap failed ta:g187805-d5598930 (bed_and_breakfast, Bed and Breakfast Gio): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:37 heatmap failed ta:g580223-d15842948 (bed_and_breakfast, Angiolina's Farm): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:39 heatmap failed ta:g187791-d6923076 (bed_and_breakfast, Staffoli B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:41 heatmap failed ta:g194948-d12705074 (bed_and_breakfast, B&B Borgo Degli Ulivi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:44 heatmap failed ta:g194947-d2499974 (bed_and_breakfast, Villa Denise): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:46 heatmap failed ta:g635617-d1741384 (bed_and_breakfast, B&B La Casa di Donn'Amelia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:48 heatmap failed ta:g187781-d3383567 (bed_and_breakfast, Salerno in Alto Mare B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:50 heatmap failed ta:g187781-d1727803 (bed_and_breakfast, Salerno Centro Bed And Breakfast): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:52 heatmap failed ta:g187781-d3250694 (bed_and_breakfast, Bed & Breakfast Salerno Antica): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:53 heatmap failed ta:g1057024-d10045348 (bed_and_breakfast, Casa Nannina): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:55 heatmap failed ta:g187782-d8074010 (bed_and_breakfast, Surriento Suites - Bed&Breakfast): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:57 heatmap failed ta:g187782-d14195364 (bed_and_breakfast, Antica Dimora Magi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:47:59 heatmap failed ta:g194863-d2634107 (bed_and_breakfast, B&B Mamma Rosa Positano): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:01 heatmap failed ta:g187782-d4079353 (bed_and_breakfast, Villa Carolina Country House Sorrento): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:03 heatmap failed ta:g194863-d737142 (bed_and_breakfast, Casa Cuccaro B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:04 heatmap failed ta:g1996590-d6586134 (bed_and_breakfast, Villa Antica Macina B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:06 heatmap failed ta:g187782-d611764 (bed_and_breakfast, Villa Monica B&b): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:08 heatmap failed ta:g580201-d1443321 (bed_and_breakfast, Nido Verde): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:10 heatmap failed ta:g194863-d1069391 (bed_and_breakfast, Casa Gilda): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:11 heatmap failed ta:g635619-d1544880 (bed_and_breakfast, La Scogliera): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:13 heatmap failed ta:g187780-d6850249 (bed_and_breakfast, World Center Resort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:15 heatmap failed ta:g187782-d10850373 (bed_and_breakfast, Villa Prestige): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:17 heatmap failed ta:g187874-d9582532 (bed_and_breakfast, B&B Casa Rossella): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:18 heatmap failed ta:g194867-d14043231 (bed_and_breakfast, B&B La Barbera): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:20 heatmap failed ta:g194819-d12563031 (bed_and_breakfast, Casa Clementina): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:22 heatmap failed ta:g651998-d6610561 (bed_and_breakfast, Bed & Breakfast Gli Avi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:25 heatmap failed ta:g194796-d1074837 (hotel, Hotel Europa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:27 heatmap failed ta:g194796-d1450416 (hotel, Croce di Malta): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:29 heatmap failed ta:g1092802-d1062430 (hotel, Park Hotel Pineta - Family Relax Resort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:31 heatmap failed ta:g580246-d1057406 (hotel, Park Hotel Ermitage): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:32 heatmap failed ta:g580246-d529294 (hotel, Hotel Orient & Pacific): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:34 heatmap failed ta:g580246-d1866226 (hotel, Hotel Gambrinus): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:36 heatmap failed ta:g580246-d662400 (hotel, Hotel Gardenia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:37 heatmap failed ta:g580246-d1109668 (hotel, Milton Boutique Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:39 heatmap failed ta:g580246-d529301 (hotel, Cavalieri Palace): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:41 heatmap failed ta:g187870-d577645 (hotel, Residence Corte Grimani): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:42 heatmap failed ta:g187870-d2640499 (hotel, Cima Rosa Boutique Bed &Breakfast): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:44 heatmap failed ta:g187870-d585019 (hotel, Oltre Il Giardino): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:46 heatmap failed ta:g187870-d17388353 (hotel, Palazzetto Foscari): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:48 heatmap failed ta:g775302-d1993151 (hotel, Residence Al Lago): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:50 heatmap failed ta:g1405291-d3332603 (hotel, Garni Ladinia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:52 heatmap failed ta:g15640873-d1841585 (hotel, Hotel Royal): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:54 heatmap failed ta:g194915-d234359 (hotel, Berghotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:55 heatmap failed ta:g194745-d482242 (hotel, Cristallo Resort & Spa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:57 heatmap failed ta:g1643965-d1801652 (hotel, Hotel Eggele): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:48:59 heatmap failed ta:g12118336-d1095760 (hotel, Post Alpina - Family Mountain Chalets): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:01 heatmap failed ta:g194896-d1527505 (hotel, Post Hotel – Tradition & Lifestyle): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:03 heatmap failed ta:g194897-d1124817 (hotel, Armentarola Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:04 heatmap failed ta:g194897-d1391479 (hotel, Diamant Mountain Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:06 heatmap failed ta:g194897-d2587691 (hotel, Residence Ciasa Planat): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:08 heatmap failed ta:g1195270-d279187 (hotel, Hotel Quelle Nature Spa Resort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:09 heatmap failed ta:g194746-d305302 (hotel, Posta Zirm Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:11 heatmap failed ta:g194746-d1830286 (hotel, Garni La Tranquillite B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:14 heatmap failed ta:g194680-d1836000 (hotel, Hotel Gran Ander): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:16 heatmap failed ta:g194825-d1146382 (hotel, Hotel Zirmes): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:18 heatmap failed ta:g194825-d677729 (hotel, Hotel Garden Moena): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:19 heatmap failed ta:g194825-d528713 (hotel, Hotel Piedibosco): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:21 heatmap failed ta:g194940-d1535101 (hotel, Das Bärenhotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:23 heatmap failed ta:g194940-d1522818 (hotel, Hotel Hubertus): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:25 heatmap failed ta:g668546-d3836197 (hotel, Hotel Ciarnadoi): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:27 heatmap failed ta:g5971121-d2188077 (hotel, Hotel Olympia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:29 heatmap failed ta:g194912-d1797320 (hotel, Hotel Somont): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:30 heatmap failed ta:g194912-d1717993 (hotel, Giardin - Boutique Hotel B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:32 heatmap failed ta:g194912-d1911857 (hotel, Garni-Hotel Bel Vert): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:34 heatmap failed ta:g194912-d314489 (hotel, Hotel Aaritz): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:36 heatmap failed ta:g194912-d300883 (hotel, Granvara Relais & Spa Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:38 heatmap failed ta:g1419922-d3795055 (hotel, Alpin Hotel Sonnblick): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:40 heatmap failed ta:g194904-d1908100 (hotel, Cendevaves Alpine Silence): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:41 heatmap failed ta:g194823-d1547847 (hotel, Hotel Londra): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:43 heatmap failed ta:g194729-d31621746 (hotel, Bay Village): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:45 heatmap failed ta:g194904-d7134941 (hotel, Dorfhotel Beludei): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:47 heatmap failed ta:g194823-d1476547 (hotel, Color Miami Beach Family Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:48 heatmap failed ta:g194823-d1489643 (hotel, Club Family Hotel Michelangelo): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:50 heatmap failed ta:g194823-d1535013 (hotel, Hotel Derby Exclusive): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:52 heatmap failed ta:g194823-d652452 (hotel, Hotel Riviera): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:54 heatmap failed ta:g194729-d1487421 (hotel, Hotel Nettuno Cervia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:56 heatmap failed ta:g1095218-d1535020 (hotel, Baby Family Hotel Pinetina Mare): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:58 heatmap failed ta:g1095218-d12203648 (hotel, Club Family Hotel Tintoretto): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:49:59 heatmap failed ta:g1095218-d1146392 (hotel, Hotel Amarcord): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:01 heatmap failed ta:g194841-d608056 (hotel, Hotel Genziana): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:03 heatmap failed ta:g1095218-d259991 (hotel, Hotel Garden Pinarella): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:04 heatmap failed ta:g194729-d1583949 (hotel, Hotel Bamby): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:06 heatmap failed ta:g1095838-d1640506 (hotel, Hotel Santner Alpine Sport & Relax): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:08 heatmap failed ta:g194841-d1389126 (hotel, La Perla Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:10 heatmap failed ta:g1207472-d1567672 (hotel, Hotel Tyrol): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:11 heatmap failed ta:g194732-d2013893 (hotel, Maree Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:13 heatmap failed ta:g1095838-d6636689 (hotel, Hotel Chalet Dolomites): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:15 heatmap failed ta:g1147559-d563683 (hotel, Cyprianerhof Dolomit Resort): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:17 heatmap failed ta:g194732-d2308393 (hotel, Hotel Trieste): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:19 heatmap failed ta:g194841-d967248 (hotel, La Cort My Dollhouse - Adults Only): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:20 heatmap failed ta:g194732-d1092378 (hotel, Executive Hotel Evolution): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:22 heatmap failed ta:g194732-d21104697 (hotel, Club Family Hotel Tosi Beach): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:24 heatmap failed ta:g194841-d567581 (hotel, Mountain Spa Resort Hotel Albion): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:26 heatmap failed ta:g194732-d1899442 (hotel, Club Family Hotel Serenissima): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:28 heatmap failed ta:g1174003-d4101662 (hotel, Hotel Internazionale): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:30 heatmap failed ta:g194688-d4340521 (hotel, Hotel Belsoggiorno): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:32 heatmap failed ta:g194688-d1091510 (hotel, Hotel Agostini): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:33 heatmap failed ta:g194688-d1493822 (hotel, Hotel Villa Gori): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:35 heatmap failed ta:g194688-d2271272 (hotel, Hotel Nettuno): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:37 heatmap failed ta:g187859-d2571862 (hotel, Hotel Madonna): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:38 heatmap failed ta:g187859-d671428 (hotel, Residence Mayr): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:41 heatmap failed ta:g194703-d1161956 (hotel, Hotel Fischer): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:42 heatmap failed ta:g187807-d1404871 (hotel, Hotel Stresa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:44 heatmap failed ta:g194763-d2620786 (hotel, Hotel La Baita): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:46 heatmap failed ta:g194878-d1095849 (hotel, Club Family Hotel Riccione): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:48 heatmap failed ta:g1183175-d1916583 (hotel, Hotel Sun): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:50 heatmap failed ta:g194878-d1053983 (hotel, Hotel Rex): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:51 heatmap failed ta:g194878-d12516148 (hotel, Dan Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:53 heatmap failed ta:g194878-d14196988 (hotel, The Box Riccione): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:55 heatmap failed ta:g194878-d649132 (hotel, Hotel Belvedere): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:57 heatmap failed ta:g194878-d7617245 (hotel, Hotel Carmen): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:50:59 heatmap failed ta:g194769-d1060440 (hotel, Giovanna Regina Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:00 heatmap failed ta:g194878-d911719 (hotel, Club Family Hotel Best Family Riccione): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:02 heatmap failed ta:g194878-d505100 (hotel, Alexandra Plaza Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:04 heatmap failed ta:g194723-d2216067 (hotel, Hotel Manzoni): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:06 heatmap failed ta:g194723-d284449 (hotel, Luxor Cattolica Beach Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:08 heatmap failed ta:g187796-d1840420 (hotel, Hotel Napoleon): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:09 heatmap failed ta:g194723-d1529380 (hotel, Hotel Gambrinus Mare): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:11 heatmap failed ta:g194723-d1910496 (hotel, Hotel Consul Cattolica): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:13 heatmap failed ta:g194723-d3208395 (hotel, Hotel Mirabella): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:15 heatmap failed ta:g635623-d1457875 (hotel, Hotel Clitunno): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:17 heatmap failed ta:g194723-d1025083 (hotel, Hotel Lido): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:19 heatmap failed ta:g194723-d668378 (hotel, Ancora Hotel & Residence): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:20 heatmap failed ta:g1182982-d1532015 (hotel, Hotel Edelweiss): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:22 heatmap failed ta:g1182982-d1933718 (hotel, Hotel Gitschberg): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:24 heatmap failed ta:g2269222-d1884306 (hotel, Parc Hotel Am Kalterer See): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:29 heatmap failed ta:g677293-d833668 (hotel, Familienhotel Huber): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:31 heatmap failed ta:g1185111-d2275555 (hotel, Hotel Girlanerhof): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:33 heatmap failed ta:g1501047-d1641955 (hotel, Maso Pomarolli): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:34 heatmap failed ta:g194889-d6375452 (hotel, Casa del Pittore): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:51:41 heatmap failed ta:g664820-d1498424 (hotel, Albergo Miravalle Fai della Paganella): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:52:06 heatmap failed ta:g194911-d1631899 (hotel, Family Hotel Gutenberg): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:52:16 heatmap failed ta:g194933-d1189731 (hotel, Feel good Resort Johannis): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:52:23 heatmap failed ta:g194933-d6975324 (hotel, Hotel Krause): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:52:40 heatmap failed ta:g1597984-d1595674 (hotel, Holiday Mountain Boutique Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:52:56 heatmap failed ta:g1078285-d2651853 (hotel, Mair Am Ort Living Hotel B&B): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:53:06 heatmap failed ta:g664150-d239264 (hotel, Grand Hotel a Villa Feltrinelli): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:53:19 heatmap failed ta:g1186004-d1237136 (hotel, Hotel Vier Jahreszeiten): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:53:21 heatmap failed ta:g644268-d486886 (hotel, Aktiv & Wellnesshotel Zentral): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:53:25 heatmap failed ta:g1931760-d1819144 (hotel, Der Mohrenwirt): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:54:08 heatmap failed ta:g580240-d8281699 (hotel, Vitigliano Tuscan Relais & Spa): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:54:11 heatmap failed ta:g635622-d646421 (hotel, Holidays Fico d'India): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:54:13 heatmap failed ta:g1078168-d3171593 (hotel, Punta Barone): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:54:15 heatmap failed ta:g294472-d2144871 (hotel, Selection Apartments & Rooms): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:54:17 heatmap failed ta:g274877-d3258063 (bed_and_breakfast, Pension Silvia): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:54:19 heatmap failed ta:g608963-d1160720 (hotel, Pri Lenart Hotel): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:54:21 heatmap failed ta:g274873-d12637551 (hotel, Barbo Palace Apartments and Rooms): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:54:22 heatmap failed ta:g187791-d497255 (bed_and_breakfast, Al Colonnato di San Pietro Bed and Break): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:55:25 heatmap failed ta:g187305-d633011 (hotel, Hotel Kral): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:58:14 heatmap failed ta:g187870-d1204407 (bed_and_breakfast, Campiello Zen): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+12:58:40 heatmap failed ta:g187801-d1636879 (bed_and_breakfast, Antica Residenza d'Azeglio): {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'}
+## Scan: 284 of 1500 watched properties checked (907 s)
 
-Failed: 276; no data: 0; nights whose class changed: 3755, of which turned cheap: 930.
+Failed: 216; no data: 0; nights whose class changed: 4634, of which turned cheap: 1051.
 
-Errors: {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'} ×276
-Failures by kind: bed_and_breakfast: 92, hotel: 184
+Errors: {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'} ×216
+Failures by kind: bed_and_breakfast: 79, hotel: 137
 
 
