@@ -94,6 +94,7 @@ def main(argv=None) -> int:
                                         "Chrome/130.0.0.0 Safari/537.36")
         page = ctx.new_page()
         for q in args.query:
+          try:
             t0 = time.monotonic()
             ts = encode_ts(ci, co, "EUR")
             page.goto(f"https://www.google.com/travel/search?q={quote(q)}&hl=en-GB&gl=it&curr=EUR&ts={ts}",
@@ -131,12 +132,17 @@ def main(argv=None) -> int:
             slug = re.sub(r"[^A-Za-z0-9]+", "_", q)[:40]
             (out / f"{slug}.html").write_text(page.content()[:1_000_000], encoding="utf-8")
             page.screenshot(path=str(out / f"{slug}.png"), full_page=False)
+            (out / f"{slug}.txt").write_text(text[:300_000], encoding="utf-8")
             results.append({"query": q, "url": page.url[:200], "title": page.title()[:120], "consent_clicked": consent,
                             "dates_set": dates_set, "seconds": round(time.monotonic() - t0, 1), **summarize(text)})
+          except Exception as e:  # noqa: BLE001  (one query failing must not lose the others)
+            results.append({"query": q, "url": page.url[:200], "title": "", "consent_clicked": False, "dates_set": False,
+                            "seconds": 0, "error": str(e)[:300], **summarize("")})
         br.close()
     lines = [f"## Google Hotels probe ({date.today().isoformat()}), check-in {ci} for {args.nights} night(s)", ""]
     for r in results:
-        lines += [f"### {r['query']}", f"- landed: {r['url']} — \"{r['title']}\"; consent clicked {r['consent_clicked']}; "
+        lines += [f"### {r['query']}" + (f" — ERROR: {r['error']}" if r.get("error") else ""),
+                  f"- landed: {r['url']} — \"{r['title']}\"; consent clicked {r['consent_clicked']}; "
                   f"dates set {r['dates_set']}; {r['seconds']} s",
                   f"- prices seen {r['prices_seen']}: {', '.join(r['price_sample'])}",
                   f"- sellers seen: {', '.join(r['sellers_seen']) or '-'}; deal tags: {', '.join(r['deal_tags']) or '-'}",

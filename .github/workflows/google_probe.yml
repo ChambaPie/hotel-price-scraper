@@ -43,7 +43,9 @@ jobs:
           NIGHTS: ${{ inputs.nights }}
         run: |
           args=(); IFS=';' read -ra Q <<< "$QUERIES"; for q in "${Q[@]}"; do args+=(--query "$q"); done
-          python -m hotel_scraper.google_probe "${args[@]}" --checkin "$CHECKIN" --nights "$NIGHTS" --out out/google
+          mkdir -p out/google
+          set -o pipefail
+          python -m hotel_scraper.google_probe "${args[@]}" --checkin "$CHECKIN" --nights "$NIGHTS" --out out/google 2>&1 | tee out/google/probe.log
           cat out/google/report.md >> "$GITHUB_STEP_SUMMARY"
       - name: Publish reports
         if: always()
