@@ -120,14 +120,21 @@ def main(argv=None) -> int:
             except Exception:  # noqa: BLE001
                 pass
             page.wait_for_timeout(3000)
-            if "/entity/" not in page.url:   # landed on a list: open the hotel whose name matches the query best
-                links = page.locator('a[href*="/travel/hotels/entity/"]')
-                if links.count():
-                    words = [w.lower() for w in q.split()[:2]]
-                    best = next((i for i in range(min(links.count(), 20))
-                                 if all(w in (links.nth(i).inner_text() or "").lower() for w in words)), 0)
-                    links.nth(best).click()
+            if "/entity/" not in page.url:   # landed on a list: open the matching hotel's page directly (links open new tabs)
+                hrefs = page.evaluate("""() => Array.from(document.querySelectorAll('a[href*="/travel/hotels/entity/"]'))
+                    .map(a => ({href: a.href, text: (a.innerText || a.getAttribute('aria-label') || '').slice(0, 120)}))""")
+                words = [w.lower() for w in q.split()[:2]]
+                pick = next((h for h in hrefs if all(w in h["text"].lower() for w in words)), hrefs[0] if hrefs else None)
+                if pick:
+                    url = pick["href"]
+                    if "ts=" not in url:
+                        url += ("&" if "?" in url else "?") + f"ts={ts}&hl=en-GB&gl=it&curr=EUR"
+                    page.goto(url, wait_until="domcontentloaded", timeout=60000)
                     page.wait_for_timeout(5000)
+                    prices_tab = page.get_by_role("tab", name=re.compile("Prices", re.I))
+                    if prices_tab.count():
+                        prices_tab.first.click()
+                        page.wait_for_timeout(4000)
             text = page.inner_text("body")
             slug = re.sub(r"[^A-Za-z0-9]+", "_", q)[:40]
             (out / f"{slug}.html").write_text(page.content()[:1_000_000], encoding="utf-8")
