@@ -1,7 +1,7 @@
-## Scan: 234 of 1500 watched properties checked (871 s)
+## Scan: 286 of 1500 watched properties checked (821 s)
 
-Failed: 266; no data: 0; nights whose class changed: 3577, of which turned cheap: 953.
+Failed: 214; no data: 0; nights whose class changed: 3921, of which turned cheap: 1050.
 
-Errors: {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'} ×266
-Failures by kind: bed_and_breakfast: 97, hotel: 169
+Errors: {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'} ×205; [Errno 111] Connection refused ×9
+Failures by kind: hotel: 140, bed_and_breakfast: 74
 
