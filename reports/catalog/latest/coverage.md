@@ -1,4 +1,4 @@
-## Coverage: 2965 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3039 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -31,9 +31,7 @@
 | Antibes | FR | 9 |
 | Aix-en-Provence | FR | 9 |
 | Florence | IT | 9 |
-| Santa Margherita Ligure | IT | 9 |
 | Katowice | PL | 9 |
-| Bratislava | SK | 9 |
 | Regensburg | DE | 8 |
 | Baiersbronn | DE | 8 |
 | Erfurt | DE | 8 |
@@ -42,3 +40,5 @@
 | Scena | IT | 8 |
 | San Teodoro | IT | 8 |
 | Sant'Agnello | IT | 8 |
+| Bari | IT | 8 |
+| Tivat | ME | 8 |
