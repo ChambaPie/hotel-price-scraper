@@ -1,81 +1,86 @@
-04:22:25 session token: yes
-04:22:39 empty search 'Lido di Iesolo': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCFXNlYXJjaF9saWRvIGRpIGllc29sb0gJWARokwKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AoH-1NcGwAIB0gIkNm title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
-04:22:53 empty search 'Lido di Iesolo': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCFXNlYXJjaF9saWRvIGRpIGllc29sb0gJWARokwKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4Ao_-1NcGwAIB0gIkNW title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
-04:22:53 town Lido di Iesolo: 0 cards, 0 of 15 matched
-04:23:23 town Vatican City: 152 cards, 0 of 14 matched
-04:23:53 town Cervia: 150 cards, 0 of 14 matched
-04:24:20 town Morzine: 114 cards, 2 of 12 matched
-04:24:50 town Florence: 149 cards, 3 of 12 matched
-04:25:19 town Napoli: 150 cards, 3 of 11 matched
-04:25:49 town Rome: 146 cards, 0 of 10 matched
-04:26:18 town Ortisei: 105 cards, 6 of 10 matched
-04:26:45 town Cattolica: 149 cards, 0 of 10 matched
-04:27:13 town Riccione: 87 cards, 0 of 9 matched
-04:27:43 town Venice: 148 cards, 0 of 8 matched
-04:28:11 town Stare Mesto: 71 cards, 0 of 7 matched
-04:28:39 town Tirolo: 150 cards, 0 of 7 matched
-04:29:08 town Stans: 91 cards, 0 of 6 matched
-04:29:37 town Lech: 150 cards, 1 of 6 matched
-04:30:06 town Carisolo: 105 cards, 1 of 6 matched
-04:30:36 town Sesto: 111 cards, 1 of 6 matched
-04:31:03 town Moena: 150 cards, 0 of 6 matched
-04:31:31 town Sankt Anton am Arlberg: 149 cards, 1 of 5 matched
-04:32:00 town Mala Strana: 149 cards, 1 of 5 matched
-04:32:30 town Lignano Sabbiadoro: 92 cards, 1 of 5 matched
-04:32:59 town Andalo: 129 cards, 0 of 5 matched
-04:33:28 town Merano: 150 cards, 0 of 5 matched
-04:33:58 town Praiano: 150 cards, 0 of 5 matched
-04:34:26 town Silvaplana: 56 cards, 0 of 4 matched
-04:34:55 town Chamonix-Mont-Blanc: 139 cards, 1 of 4 matched
-04:35:23 town Gaiole in Chianti: 150 cards, 0 of 4 matched
-04:35:52 town Levanto: 150 cards, 0 of 4 matched
-04:36:06 empty search 'Capezzano Inferiore': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCGnNlYXJjaF9jYXBlenphbm8gaW5mZXJpb3JlSAlYBGiTAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqITV1wbAAg title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
-04:36:21 town Capezzano Inferiore: 0 cards, 0 of 4 matched
-04:36:50 town Sorrento: 149 cards, 0 of 4 matched
-04:37:19 town Massa Lubrense: 102 cards, 2 of 4 matched
-04:37:47 town Bibione: 41 cards, 0 of 4 matched
-04:38:14 town Badia: 150 cards, 1 of 4 matched
-04:38:42 town Selva: 150 cards, 1 of 4 matched
-04:39:11 town Santa Cristina Valgardena: 150 cards, 1 of 4 matched
-04:39:39 town Bellaria-Igea Marina: 149 cards, 0 of 4 matched
-04:40:05 town Lana: 2 cards, 0 of 4 matched
-04:40:34 town Livigno: 87 cards, 1 of 4 matched
-04:41:03 town Mittelberg: 144 cards, 1 of 3 matched
-04:41:31 town Vienna: 148 cards, 1 of 3 matched
-04:42:00 town Zermatt: 67 cards, 0 of 3 matched
-04:42:29 town Vysehrad: 149 cards, 2 of 3 matched
-04:42:59 town Verona: 149 cards, 0 of 3 matched
-04:43:28 town Bologna: 148 cards, 1 of 3 matched
-04:43:55 town Castellina in Chianti: 150 cards, 3 of 3 matched
-04:44:25 town San Gimignano: 87 cards, 2 of 3 matched
-04:44:55 town Atrani: 150 cards, 1 of 3 matched
-04:45:27 town Positano: 150 cards, 1 of 3 matched
-04:45:57 town Conca dei Marini: 150 cards, 0 of 3 matched
-04:46:24 town Corvara in Badia: 150 cards, 0 of 3 matched
-04:46:53 town San Vigilio: 150 cards, 0 of 3 matched
-04:47:21 town Cesenatico: 150 cards, 0 of 3 matched
-04:47:49 town Gatteo a Mare: 150 cards, 0 of 3 matched
-04:48:17 town Rivazzurra: 99 cards, 0 of 3 matched
-04:48:45 town Misano Adriatico: 149 cards, 0 of 3 matched
-04:49:14 town Rio di Pusteria: 127 cards, 0 of 3 matched
-04:49:41 town Caldaro sulla Strada del Vino: 150 cards, 1 of 3 matched
-04:50:10 town Riva del Garda: 58 cards, 0 of 3 matched
-04:50:38 town Scena: 151 cards, 0 of 3 matched
-04:51:05 town Marlengo: 149 cards, 1 of 3 matched
-04:51:34 town San Martino in Passiria: 143 cards, 2 of 3 matched
-04:52:02 town Commezzadura: 54 cards, 0 of 3 matched
-04:52:30 town Parcines: 149 cards, 0 of 3 matched
-04:52:58 town Naturno: 145 cards, 0 of 3 matched
-04:53:27 town Sirmione: 61 cards, 0 of 3 matched
-04:53:54 town Malles Venosta: 52 cards, 1 of 3 matched
-04:54:23 town Siena: 132 cards, 3 of 3 matched
-04:54:52 town Stari Grad: 92 cards, 0 of 3 matched
-04:55:19 town Ljubljana: 146 cards, 1 of 3 matched
-04:55:49 town Ellmau: 150 cards, 1 of 2 matched
-04:56:18 town Soll: 151 cards, 0 of 2 matched
-04:56:18 mapping: 49 found, 0 not found; 703 mapped
-05:07:22 time budget reached
-## Booking.com collection: 416 calendars, 2496 calls, 2701 s
+19:10:55 session token: yes
+19:11:22 town Milano: 143 cards, 13 of 17 matched
+19:11:49 town Vatican City: 150 cards, 0 of 15 matched
+19:12:16 town Andalo: 128 cards, 1 of 13 matched
+19:12:43 town Rome: 145 cards, 0 of 12 matched
+19:13:09 town Florence: 147 cards, 1 of 11 matched
+19:13:23 empty search 'Lido di Iesolo': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCFXNlYXJjaF9saWRvIGRpIGllc29sb0gJWARosAKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsWf2NcGwAIB0gIkND title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
+19:13:37 empty search 'Lido di Iesolo': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCFXNlYXJjaF9saWRvIGRpIGllc29sb0gJWARosAKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtOf2NcGwAIB0gIkOT title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
+19:13:37 town Lido di Iesolo: 0 cards, 0 of 10 matched
+19:14:04 town Stare Mesto: 94 cards, 0 of 8 matched
+19:14:31 town Napoli: 146 cards, 0 of 8 matched
+19:14:58 town Tirolo: 150 cards, 1 of 7 matched
+19:15:25 town Sankt Anton am Arlberg: 149 cards, 0 of 6 matched
+19:15:52 town Venice: 146 cards, 0 of 6 matched
+19:16:19 town Merano: 150 cards, 0 of 6 matched
+19:16:46 town Stans: 91 cards, 0 of 5 matched
+19:17:13 town Vienna: 149 cards, 3 of 5 matched
+19:17:39 town Levanto: 40 cards, 1 of 5 matched
+19:18:07 town Praiano: 150 cards, 0 of 5 matched
+19:18:34 town Seefeld in Tirol: 39 cards, 0 of 4 matched
+19:19:00 town Fiss: 116 cards, 0 of 4 matched
+19:19:27 town Lech: 42 cards, 0 of 4 matched
+19:19:54 town Silvaplana: 57 cards, 0 of 4 matched
+19:20:21 town Zermatt: 47 cards, 0 of 4 matched
+19:20:47 town Mala Strana: 91 cards, 0 of 4 matched
+19:21:14 town Morzine: 114 cards, 0 of 4 matched
+19:21:42 town Budapest VI. keruelet: 40 cards, 0 of 4 matched
+19:22:09 town Alba Adriatica: 150 cards, 0 of 4 matched
+19:22:35 town Montepulciano: 89 cards, 1 of 4 matched
+19:23:02 town Cattolica: 149 cards, 0 of 4 matched
+19:23:28 town Carisolo: 106 cards, 0 of 4 matched
+19:23:55 town Naturno: 145 cards, 0 of 4 matched
+19:24:21 town Sirmione: 61 cards, 0 of 4 matched
+19:24:49 town Saas-Fee: 114 cards, 0 of 3 matched
+19:25:15 town Gstaad: 128 cards, 0 of 3 matched
+19:25:42 town Ascoli Piceno: 72 cards, 2 of 3 matched
+19:26:10 town Lucca: 149 cards, 1 of 3 matched
+19:26:37 town Monterosso al Mare: 37 cards, 0 of 3 matched
+19:27:05 town Lignano Sabbiadoro: 44 cards, 0 of 3 matched
+19:27:32 town Bibione: 78 cards, 0 of 3 matched
+19:27:58 town Cervia: 150 cards, 0 of 3 matched
+19:28:25 town Riccione: 85 cards, 0 of 3 matched
+19:28:51 town Lana: 2 cards, 0 of 3 matched
+19:29:19 town Riva del Garda: 59 cards, 0 of 3 matched
+19:29:45 town Malcesine: 132 cards, 0 of 3 matched
+19:30:12 town Mezzana: 105 cards, 0 of 3 matched
+19:30:39 town Livigno: 43 cards, 0 of 3 matched
+19:31:06 town Gaiole in Chianti: 150 cards, 0 of 3 matched
+19:31:33 town Giulianova: 150 cards, 0 of 3 matched
+19:31:59 town Sorrento: 150 cards, 0 of 3 matched
+19:32:26 town Soll: 150 cards, 0 of 2 matched
+19:32:53 town Bad Waltersdorf: 114 cards, 1 of 2 matched
+19:33:20 town Soelden: 70 cards, 0 of 2 matched
+19:33:46 town Langkampfen: 150 cards, 0 of 2 matched
+19:34:13 town Bad Tatzmannsdorf: 54 cards, 2 of 2 matched
+19:34:39 town Umhausen: 119 cards, 0 of 2 matched
+19:35:06 town Leutasch: 120 cards, 0 of 2 matched
+19:35:33 town Oetz: 124 cards, 2 of 2 matched
+19:36:00 town Sautens: 130 cards, 2 of 2 matched
+19:36:26 town Jerzens: 128 cards, 1 of 2 matched
+19:36:53 town Ladis: 59 cards, 1 of 2 matched
+19:37:20 town Galtur: 87 cards, 1 of 2 matched
+19:37:46 town Graen: 64 cards, 0 of 2 matched
+19:38:13 town Silbertal: 141 cards, 2 of 2 matched
+19:38:40 town Mittelberg: 144 cards, 0 of 2 matched
+19:39:07 town Au: 145 cards, 0 of 2 matched
+19:39:36 empty search 'Damuels': landed on https://www.booking.com/index.en-gb.html?label=gen173nr-10CAQoggJCDnNlYXJjaF9kYW11ZWxzSAlYBGiwAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC6avY1wbAAgHSAiQwOTc1ODU4MC title 'Booking.com | Official site | The best hotels, flights, car rentals & accommodat'
+19:39:36 town Damuels: 75 cards, 1 of 2 matched
+19:40:04 town Pontresina: 58 cards, 2 of 2 matched
+19:40:31 town Celerina: 55 cards, 1 of 2 matched
+19:40:59 town Arosa: 110 cards, 0 of 2 matched
+19:41:27 town Minusio: 148 cards, 1 of 2 matched
+19:41:54 town Beatenberg: 150 cards, 1 of 2 matched
+19:42:21 town Montana: 148 cards, 0 of 2 matched
+19:42:48 town Lenk: 150 cards, 1 of 2 matched
+19:43:14 town Prague: 148 cards, 0 of 2 matched
+19:43:41 town Bodenmais: 117 cards, 0 of 2 matched
+19:44:07 town Schoenau am Koenigssee: 19 cards, 0 of 2 matched
+19:44:35 town Garmisch-Partenkirchen: 74 cards, 0 of 2 matched
+19:45:02 town Schwangau: 84 cards, 1 of 2 matched
+19:45:02 mapping: 44 found, 0 not found; 747 mapped
+19:55:51 time budget reached
+## Booking.com collection: 353 calendars, 2118 calls, 2701 s
 
-Mapping: 49 found, 0 not found. Failed: 0. Last-minute cards: 592.
+Mapping: 44 found, 0 not found. Failed: 0. Last-minute cards: 446.
 
