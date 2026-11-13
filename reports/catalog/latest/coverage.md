@@ -1,4 +1,4 @@
-## Coverage: 3300 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3366 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -14,7 +14,6 @@
 | Lido di Iesolo | IT | 14 |
 | Vatican City | VA | 14 |
 | Genève | CH | 13 |
-| Karlovy Vary | CZ | 13 |
 | Frankfurt am Main | DE | 13 |
 | Leipzig | DE | 13 |
 | Napoli | IT | 13 |
@@ -39,6 +38,7 @@
 | Timișoara | RO | 8 |
 | Seefeld in Tirol | AT | 7 |
 | Banja Luka | BA | 7 |
-| Frantiskovy Lazne | CZ | 7 |
 | München | DE | 7 |
 | Heidelberg | DE | 7 |
+| Meribel | FR | 7 |
+| Brescia | IT | 7 |
