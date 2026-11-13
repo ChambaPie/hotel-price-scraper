@@ -1,4 +1,4 @@
-## Coverage: 3195 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3239 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -18,7 +18,6 @@
 | Frankfurt am Main | DE | 13 |
 | Leipzig | DE | 13 |
 | Napoli | IT | 13 |
-| Zürich | CH | 12 |
 | Praha | CZ | 12 |
 | Venezia | IT | 12 |
 | Wien | AT | 11 |
@@ -42,3 +41,4 @@
 | Timișoara | RO | 8 |
 | Seefeld in Tirol | AT | 7 |
 | Banja Luka | BA | 7 |
+| Frantiskovy Lazne | CZ | 7 |
