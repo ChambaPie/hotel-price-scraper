@@ -1,28 +1,28 @@
-## Catalog: 67372 active properties, 1500 watched
+## Catalog: 70595 active properties, 1500 watched
 
-TripAdvisor keys this run: 411 listed, 3161 never listed yet (of 6846); 447 Xotelo requests; 1550 s.
+TripAdvisor keys this run: 389 listed, 2772 never listed yet (of 6846); 438 Xotelo requests; 1558 s.
 
-Official stars matched from OpenStreetMap: 205 properties this run.
+Official stars matched from OpenStreetMap: 228 properties this run.
 
-Drive times: 2772 routed now, 1524 from cache, 0 pending, 0 unroutable, 13 left out (over the limit).
+Drive times: 3336 routed now, 1647 from cache, 0 pending, 0 unroutable, 147 left out (over the limit).
 
 Watched by reason: rule 1: 700, rule 2: 500, rule 3: 300 (rule 1 = official 4-5*, rule 2 = hotel rated >= 4.5, rule 3 = B&B rated >= 4.5)
 
 | Country | bed_and_breakfast | hotel | Watched |
 |---|---|---|---|
-| IT | 11570 | 15770 | 878 |
-| AT | 4374 | 7413 | 215 |
-| DE | 1360 | 4063 | 56 |
-| HR | 1790 | 3355 | 28 |
-| CH | 866 | 2919 | 114 |
-| HU | 1161 | 2474 | 41 |
-| CZ | 715 | 2258 | 54 |
-| BA | 595 | 1308 | 2 |
-| RS | 410 | 1237 | 7 |
+| IT | 12126 | 16386 | 880 |
+| AT | 4374 | 7413 | 212 |
+| DE | 1502 | 4678 | 56 |
+| HR | 1875 | 3446 | 29 |
+| CH | 957 | 3222 | 116 |
+| HU | 1197 | 2524 | 41 |
+| CZ | 809 | 2610 | 54 |
+| BA | 602 | 1328 | 2 |
+| RS | 452 | 1305 | 7 |
 | SI | 662 | 983 | 11 |
-| SK | 415 | 1176 | 6 |
-| FR | 131 | 272 | 85 |
-| XK | 7 | 24 | 0 |
+| SK | 432 | 1200 | 6 |
+| FR | 131 | 272 | 83 |
+| XK | 9 | 36 | 0 |
 | VA | 17 | 8 | 3 |
 | PL | 6 | 18 | 0 |
 | RO | 5 | 5 | 0 |
