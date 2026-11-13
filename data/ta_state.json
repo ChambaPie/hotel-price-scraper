@@ -206,7 +206,12 @@
   },
   "g1009465": {
    "from": "g274922",
-   "distance_km": 487.3
+   "distance_km": 487.3,
+   "items": 457,
+   "kept": 216,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1009467": {
    "from": "g274922",
@@ -280,7 +285,12 @@
   },
   "g1010682": {
    "from": "g274684",
-   "distance_km": 505.7
+   "distance_km": 505.7,
+   "items": 29,
+   "kept": 15,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1010802": {
    "from": "g187275",
@@ -368,7 +378,12 @@
   },
   "g1016035": {
    "from": "g274922",
-   "distance_km": 495.1
+   "distance_km": 495.1,
+   "items": 6,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1016043": {
    "from": "g190410",
@@ -403,7 +418,12 @@
   },
   "g1018435": {
    "from": "g187275",
-   "distance_km": 509.6
+   "distance_km": 509.6,
+   "items": 17,
+   "kept": 12,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1019231": {
    "from": "g274684",
@@ -478,7 +498,12 @@
   },
   "g1021491": {
    "from": "g188045",
-   "distance_km": 506.4
+   "distance_km": 506.4,
+   "items": 7,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1022626": {
    "from": "g190410",
@@ -570,7 +595,12 @@
   },
   "g1024953": {
    "from": "g187275",
-   "distance_km": 505.6
+   "distance_km": 505.6,
+   "items": 19,
+   "kept": 13,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1024997": {
    "from": "g188045",
@@ -605,7 +635,12 @@
   },
   "g1025044": {
    "from": "g187275",
-   "distance_km": 498.4
+   "distance_km": 498.4,
+   "items": 21,
+   "kept": 14,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1025201": {
    "from": "g187768",
@@ -698,7 +733,12 @@
   },
   "g1026912": {
    "from": "g274684",
-   "distance_km": 508.7
+   "distance_km": 508.7,
+   "items": 62,
+   "kept": 38,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1026918": {
    "from": "g274684",
@@ -808,7 +848,12 @@
   },
   "g1028708": {
    "from": "g294471",
-   "distance_km": 491.7
+   "distance_km": 491.7,
+   "items": 40,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1028709": {
    "from": "g294471",
@@ -900,7 +945,12 @@
   },
   "g10405638": {
    "from": "g188045",
-   "distance_km": 493.3
+   "distance_km": 493.3,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g10432293": {
    "from": "g190410",
@@ -938,7 +988,12 @@
   },
   "g1047984": {
    "from": "g187768",
-   "distance_km": 510.6
+   "distance_km": 510.6,
+   "items": 10,
+   "kept": 8,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1048241": {
    "from": "g187070",
@@ -1042,7 +1097,12 @@
   },
   "g1051744": {
    "from": "g187275",
-   "distance_km": 510.9
+   "distance_km": 510.9,
+   "items": 13,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1051747": {
    "from": "g187275",
@@ -1187,7 +1247,12 @@
   },
   "g1053114": {
    "from": "g187275",
-   "distance_km": 501.2
+   "distance_km": 501.2,
+   "items": 18,
+   "kept": 9,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1053116": {
    "from": "g187275",
@@ -1265,7 +1330,12 @@
   },
   "g1053569": {
    "from": "g187275",
-   "distance_km": 505.7
+   "distance_km": 505.7,
+   "items": 16,
+   "kept": 7,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1053570": {
    "from": "g187275",
@@ -1744,7 +1814,12 @@
   },
   "g1056640": {
    "from": "g274881",
-   "distance_km": 500.8
+   "distance_km": 500.8,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1056641": {
    "from": "g274881",
@@ -2347,11 +2422,21 @@
   },
   "g1068985": {
    "from": "g188045",
-   "distance_km": 513.1
+   "distance_km": 513.1,
+   "items": 4,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1068990": {
    "from": "g188045",
-   "distance_km": 513.7
+   "distance_km": 513.7,
+   "items": 4,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1068991": {
    "from": "g188045",
@@ -2359,7 +2444,12 @@
   },
   "g1068992": {
    "from": "g188045",
-   "distance_km": 492.0
+   "distance_km": 492.0,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1069599": {
    "from": "g187768",
@@ -2480,7 +2570,12 @@
   },
   "g1075556": {
    "from": "g187070",
-   "distance_km": 510.6
+   "distance_km": 510.6,
+   "items": 19,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1075593": {
    "from": "g187275",
@@ -2532,7 +2627,12 @@
   },
   "g1077024": {
    "from": "g187768",
-   "distance_km": 496.2
+   "distance_km": 496.2,
+   "items": 29,
+   "kept": 7,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1077029": {
    "from": "g187768",
@@ -3310,7 +3410,12 @@
   },
   "g1080018": {
    "from": "g187070",
-   "distance_km": 505.8
+   "distance_km": 505.8,
+   "items": 17,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1080019": {
    "from": "g187070",
@@ -3448,7 +3553,12 @@
   },
   "g1081338": {
    "from": "g187275",
-   "distance_km": 498.6
+   "distance_km": 498.6,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1081342": {
    "from": "g187275",
@@ -3536,7 +3646,12 @@
   },
   "g1085428": {
    "from": "g187275",
-   "distance_km": 497.2
+   "distance_km": 497.2,
+   "items": 9,
+   "kept": 7,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1085434": {
    "from": "g187275",
@@ -3845,11 +3960,21 @@
   },
   "g1096059": {
    "from": "g188045",
-   "distance_km": 513.4
+   "distance_km": 513.4,
+   "items": 4,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1096061": {
    "from": "g188045",
-   "distance_km": 490.6
+   "distance_km": 490.6,
+   "items": 6,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1096064": {
    "from": "g187768",
@@ -3857,7 +3982,12 @@
   },
   "g1096067": {
    "from": "g188045",
-   "distance_km": 492.1
+   "distance_km": 492.1,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1096071": {
    "from": "g188045",
@@ -3870,7 +4000,12 @@
   },
   "g1096081": {
    "from": "g188045",
-   "distance_km": 503.9
+   "distance_km": 503.9,
+   "items": 5,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1096083": {
    "from": "g188045",
@@ -3883,7 +4018,12 @@
   },
   "g1096087": {
    "from": "g188045",
-   "distance_km": 487.3
+   "distance_km": 487.3,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1096100": {
    "from": "g188045",
@@ -3976,7 +4116,12 @@
   },
   "g1096131": {
    "from": "g188045",
-   "distance_km": 505.2
+   "distance_km": 505.2,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1096133": {
    "from": "g188045",
@@ -4142,7 +4287,12 @@
   },
   "g1096209": {
    "from": "g274684",
-   "distance_km": 500.3
+   "distance_km": 500.3,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1096323": {
    "from": "g188045",
@@ -4168,7 +4318,12 @@
   },
   "g1096330": {
    "from": "g188045",
-   "distance_km": 510.0
+   "distance_km": 510.0,
+   "items": 13,
+   "kept": 8,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1096331": {
    "from": "g188045",
@@ -4199,11 +4354,21 @@
   },
   "g1096345": {
    "from": "g188045",
-   "distance_km": 512.4
+   "distance_km": 512.4,
+   "items": 8,
+   "kept": 7,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1096346": {
    "from": "g188045",
-   "distance_km": 487.2
+   "distance_km": 487.2,
+   "items": 9,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1096348": {
    "from": "g188045",
@@ -4402,7 +4567,12 @@
   },
   "g1115251": {
    "from": "g187275",
-   "distance_km": 512.5
+   "distance_km": 512.5,
+   "items": 10,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1115252": {
    "from": "g187275",
@@ -4533,7 +4703,12 @@
   },
   "g1129698": {
    "from": "g188045",
-   "distance_km": 513.6
+   "distance_km": 513.6,
+   "items": 9,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1129723": {
    "from": "g188045",
@@ -4572,7 +4747,12 @@
   },
   "g1130020": {
    "from": "g188045",
-   "distance_km": 489.1
+   "distance_km": 489.1,
+   "items": 8,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1130021": {
    "from": "g188045",
@@ -4880,7 +5060,12 @@
   },
   "g1134698": {
    "from": "g188045",
-   "distance_km": 501.5
+   "distance_km": 501.5,
+   "items": 33,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1134700": {
    "from": "g188045",
@@ -4906,7 +5091,12 @@
   },
   "g1135401": {
    "from": "g187275",
-   "distance_km": 511.7
+   "distance_km": 511.7,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1135597": {
    "from": "g188045",
@@ -4972,7 +5162,12 @@
   },
   "g1136628": {
    "from": "g274684",
-   "distance_km": 512.9
+   "distance_km": 512.9,
+   "items": 6,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1136630": {
    "from": "g274684",
@@ -5043,7 +5238,12 @@
   },
   "g1140510": {
    "from": "g188045",
-   "distance_km": 512.0
+   "distance_km": 512.0,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1140518": {
    "from": "g188045",
@@ -5051,7 +5251,12 @@
   },
   "g1140520": {
    "from": "g188045",
-   "distance_km": 512.2
+   "distance_km": 512.2,
+   "items": 5,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1142455": {
    "from": "g187275",
@@ -5103,7 +5308,12 @@
   },
   "g1142929": {
    "from": "g188045",
-   "distance_km": 501.6
+   "distance_km": 501.6,
+   "items": 7,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1143392": {
    "from": "g187070",
@@ -5203,7 +5413,12 @@
   },
   "g1157721": {
    "from": "g188045",
-   "distance_km": 505.3
+   "distance_km": 505.3,
+   "items": 4,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1158641": {
    "from": "g187070",
@@ -5838,7 +6053,12 @@
   },
   "g1173289": {
    "from": "g274684",
-   "distance_km": 512.1
+   "distance_km": 512.1,
+   "items": 13,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1174003": {
    "from": "g187768",
@@ -6029,7 +6249,12 @@
   },
   "g1178346": {
    "from": "g187275",
-   "distance_km": 506.8
+   "distance_km": 506.8,
+   "items": 22,
+   "kept": 13,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1178662": {
    "from": "g187275",
@@ -6065,7 +6290,12 @@
   },
   "g1179365": {
    "from": "g187768",
-   "distance_km": 503.1
+   "distance_km": 503.1,
+   "items": 14,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1179370": {
    "from": "g187768",
@@ -6270,7 +6500,12 @@
   },
   "g1183311": {
    "from": "g187275",
-   "distance_km": 493.9
+   "distance_km": 493.9,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1183329": {
    "from": "g187275",
@@ -6292,15 +6527,30 @@
   },
   "g1183345": {
    "from": "g187275",
-   "distance_km": 509.7
+   "distance_km": 509.7,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1183367": {
    "from": "g187275",
-   "distance_km": 508.1
+   "distance_km": 508.1,
+   "items": 21,
+   "kept": 14,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1183369": {
    "from": "g187275",
-   "distance_km": 487.6
+   "distance_km": 487.6,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1183383": {
    "from": "g187275",
@@ -6333,7 +6583,12 @@
   },
   "g1183446": {
    "from": "g274922",
-   "distance_km": 498.8
+   "distance_km": 498.8,
+   "items": 4,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1183448": {
    "from": "g274922",
@@ -6345,7 +6600,12 @@
   },
   "g1183472": {
    "from": "g187275",
-   "distance_km": 492.5
+   "distance_km": 492.5,
+   "items": 15,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1183475": {
    "from": "g274922",
@@ -6541,11 +6801,21 @@
   },
   "g1184534": {
    "from": "g187275",
-   "distance_km": 505.0
+   "distance_km": 505.0,
+   "items": 13,
+   "kept": 9,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1184539": {
    "from": "g187275",
-   "distance_km": 497.5
+   "distance_km": 497.5,
+   "items": 12,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g11846308": {
    "from": "g187275",
@@ -6589,11 +6859,21 @@
   },
   "g1184740": {
    "from": "g187275",
-   "distance_km": 510.1
+   "distance_km": 510.1,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1184744": {
    "from": "g187275",
-   "distance_km": 490.4
+   "distance_km": 490.4,
+   "items": 10,
+   "kept": 8,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1184763": {
    "from": "g187275",
@@ -6677,11 +6957,21 @@
   },
   "g1184817": {
    "from": "g187275",
-   "distance_km": 508.0
+   "distance_km": 508.0,
+   "items": 27,
+   "kept": 16,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1184820": {
    "from": "g187275",
-   "distance_km": 499.6
+   "distance_km": 499.6,
+   "items": 14,
+   "kept": 7,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1184840": {
    "from": "g187768",
@@ -6994,7 +7284,12 @@
   },
   "g11872778": {
    "from": "g274881",
-   "distance_km": 486.7
+   "distance_km": 486.7,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g11872782": {
    "from": "g274881",
@@ -7077,7 +7372,12 @@
   },
   "g11888589": {
    "from": "g274881",
-   "distance_km": 512.3
+   "distance_km": 512.3,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1189045": {
    "from": "g274684",
@@ -7342,7 +7642,12 @@
   },
   "g1190122": {
    "from": "g188045",
-   "distance_km": 502.8
+   "distance_km": 502.8,
+   "items": 4,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1190125": {
    "from": "g188045",
@@ -7359,7 +7664,12 @@
   },
   "g1190155": {
    "from": "g188045",
-   "distance_km": 508.4
+   "distance_km": 508.4,
+   "items": 16,
+   "kept": 9,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1190164": {
    "from": "g188045",
@@ -7932,7 +8242,12 @@
   },
   "g1194584": {
    "from": "g187070",
-   "distance_km": 510.1
+   "distance_km": 510.1,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1194586": {
    "from": "g187070",
@@ -8638,7 +8953,12 @@
   },
   "g1197268": {
    "from": "g274684",
-   "distance_km": 503.8
+   "distance_km": 503.8,
+   "items": 7,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1197275": {
    "from": "g274684",
@@ -8969,7 +9289,12 @@
   },
   "g1207828": {
    "from": "g274881",
-   "distance_km": 496.0
+   "distance_km": 496.0,
+   "items": 4,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1207840": {
    "from": "g274881",
@@ -9455,7 +9780,12 @@
   },
   "g1234710": {
    "from": "g188045",
-   "distance_km": 506.1
+   "distance_km": 506.1,
+   "items": 4,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g12349192": {
    "from": "g274862",
@@ -9856,7 +10186,12 @@
   },
   "g12365780": {
    "from": "g274922",
-   "distance_km": 498.7
+   "distance_km": 498.7,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g12365797": {
    "from": "g274922",
@@ -10110,7 +10445,12 @@
   },
   "g12501152": {
    "from": "g274922",
-   "distance_km": 492.8
+   "distance_km": 492.8,
+   "items": 11,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g12501232": {
    "from": "g274922",
@@ -10186,7 +10526,12 @@
   },
   "g12552592": {
    "from": "g294471",
-   "distance_km": 509.3
+   "distance_km": 509.3,
+   "items": 4,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g12559247": {
    "from": "g187768",
@@ -10235,11 +10580,21 @@
   },
   "g12570104": {
    "from": "g294471",
-   "distance_km": 496.6
+   "distance_km": 496.6,
+   "items": 6,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g12579754": {
    "from": "g294471",
-   "distance_km": 500.7
+   "distance_km": 500.7,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g12592080": {
    "from": "g294471",
@@ -10471,7 +10826,12 @@
   },
   "g12844939": {
    "from": "g294471",
-   "distance_km": 508.4
+   "distance_km": 508.4,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g12862820": {
    "from": "g294471",
@@ -10577,7 +10937,12 @@
   },
   "g12912022": {
    "from": "g294471",
-   "distance_km": 491.4
+   "distance_km": 491.4,
+   "items": 3,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g12933871": {
    "from": "g274881",
@@ -10707,7 +11072,12 @@
   },
   "g12956048": {
    "from": "g294471",
-   "distance_km": 493.3
+   "distance_km": 493.3,
+   "items": 9,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g12956056": {
    "from": "g294471",
@@ -10802,7 +11172,12 @@
   },
   "g12988129": {
    "from": "g294449",
-   "distance_km": 495.8
+   "distance_km": 495.8,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g12988177": {
    "from": "g294449",
@@ -10867,7 +11242,12 @@
   },
   "g13091947": {
    "from": "g294471",
-   "distance_km": 512.9
+   "distance_km": 512.9,
+   "items": 5,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1310569": {
    "from": "g187070",
@@ -10917,7 +11297,12 @@
   },
   "g1315191": {
    "from": "g188045",
-   "distance_km": 504.8
+   "distance_km": 504.8,
+   "items": 4,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g13152505": {
    "from": "g294449",
@@ -11000,7 +11385,12 @@
   },
   "g13289237": {
    "from": "g294471",
-   "distance_km": 514.3
+   "distance_km": 514.3,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g13322740": {
    "from": "g274684",
@@ -11078,7 +11468,12 @@
   },
   "g13468818": {
    "from": "g294471",
-   "distance_km": 509.3
+   "distance_km": 509.3,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g13513878": {
    "from": "g274922",
@@ -11153,7 +11548,12 @@
   },
   "g1371356": {
    "from": "g187275",
-   "distance_km": 511.1
+   "distance_km": 511.1,
+   "items": 17,
+   "kept": 11,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1371594": {
    "from": "g294449",
@@ -11459,7 +11859,12 @@
   },
   "g14080106": {
    "from": "g274684",
-   "distance_km": 490.8
+   "distance_km": 490.8,
+   "items": 8,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1408090": {
    "from": "g187768",
@@ -11472,7 +11877,12 @@
   },
   "g14082525": {
    "from": "g274684",
-   "distance_km": 503.1
+   "distance_km": 503.1,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g14099599": {
    "from": "g188045",
@@ -11608,11 +12018,21 @@
   },
   "g1420230": {
    "from": "g188045",
-   "distance_km": 487.0
+   "distance_km": 487.0,
+   "items": 27,
+   "kept": 16,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1420231": {
    "from": "g188045",
-   "distance_km": 487.3
+   "distance_km": 487.3,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1420233": {
    "from": "g188045",
@@ -11651,7 +12071,12 @@
   },
   "g1423555": {
    "from": "g294471",
-   "distance_km": 491.7
+   "distance_km": 491.7,
+   "items": 21,
+   "kept": 9,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1424566": {
    "from": "g187275",
@@ -11828,7 +12253,12 @@
   },
   "g1450722": {
    "from": "g187768",
-   "distance_km": 502.8
+   "distance_km": 502.8,
+   "items": 26,
+   "kept": 18,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1453697": {
    "from": "g274684",
@@ -12003,7 +12433,12 @@
   },
   "g14800107": {
    "from": "g294471",
-   "distance_km": 511.4
+   "distance_km": 511.4,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1485366": {
    "from": "g190410",
@@ -12029,7 +12464,12 @@
   },
   "g1486550": {
    "from": "g188045",
-   "distance_km": 496.7
+   "distance_km": 496.7,
+   "items": 15,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1486555": {
    "from": "g188045",
@@ -12166,7 +12606,12 @@
   },
   "g14996506": {
    "from": "g294471",
-   "distance_km": 489.6
+   "distance_km": 489.6,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1499990": {
    "from": "g274862",
@@ -12274,7 +12719,12 @@
   },
   "g15020107": {
    "from": "g274922",
-   "distance_km": 498.4
+   "distance_km": 498.4,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15020115": {
    "from": "g274922",
@@ -12282,7 +12732,12 @@
   },
   "g15020125": {
    "from": "g274922",
-   "distance_km": 509.8
+   "distance_km": 509.8,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15020134": {
    "from": "g274922",
@@ -12370,7 +12825,12 @@
   },
   "g1509112": {
    "from": "g187768",
-   "distance_km": 505.3
+   "distance_km": 505.3,
+   "items": 8,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1509125": {
    "from": "g187768",
@@ -12428,7 +12888,12 @@
   },
   "g1515335": {
    "from": "g187275",
-   "distance_km": 496.6
+   "distance_km": 496.6,
+   "items": 11,
+   "kept": 7,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15189605": {
    "from": "g187070",
@@ -12550,7 +13015,12 @@
   },
   "g15274318": {
    "from": "g274881",
-   "distance_km": 497.8
+   "distance_km": 497.8,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15274455": {
    "from": "g294449",
@@ -12653,7 +13123,12 @@
   },
   "g15288642": {
    "from": "g188045",
-   "distance_km": 488.6
+   "distance_km": 488.6,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15288696": {
    "from": "g274881",
@@ -12666,7 +13141,12 @@
   },
   "g15289380": {
    "from": "g294471",
-   "distance_km": 492.6
+   "distance_km": 492.6,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15293116": {
    "from": "g274684",
@@ -13052,11 +13532,21 @@
   },
   "g15521555": {
    "from": "g274684",
-   "distance_km": 493.6
+   "distance_km": 493.6,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15521892": {
    "from": "g294453",
-   "distance_km": 489.2
+   "distance_km": 489.2,
+   "items": 6,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15527307": {
    "from": "g294471",
@@ -13144,7 +13634,12 @@
   },
   "g15609105": {
    "from": "g294471",
-   "distance_km": 487.4
+   "distance_km": 487.4,
+   "items": 6,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15615079": {
    "from": "g294453",
@@ -13353,7 +13848,12 @@
   },
   "g1571745": {
    "from": "g274684",
-   "distance_km": 508.2
+   "distance_km": 508.2,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1571747": {
    "from": "g274684",
@@ -13401,7 +13901,12 @@
   },
   "g1572355": {
    "from": "g188045",
-   "distance_km": 491.9
+   "distance_km": 491.9,
+   "items": 4,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1572356": {
    "from": "g188045",
@@ -13409,7 +13914,12 @@
   },
   "g1572357": {
    "from": "g188045",
-   "distance_km": 507.2
+   "distance_km": 507.2,
+   "items": 9,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1572358": {
    "from": "g188045",
@@ -13581,7 +14091,12 @@
   },
   "g1575049": {
    "from": "g187768",
-   "distance_km": 501.8
+   "distance_km": 501.8,
+   "items": 20,
+   "kept": 12,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1575063": {
    "from": "g187768",
@@ -13593,7 +14108,12 @@
   },
   "g15777101": {
    "from": "g294453",
-   "distance_km": 493.4
+   "distance_km": 493.4,
+   "items": 5,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15777420": {
    "from": "g274862",
@@ -13775,7 +14295,12 @@
   },
   "g1584722": {
    "from": "g187275",
-   "distance_km": 509.0
+   "distance_km": 509.0,
+   "items": 14,
+   "kept": 7,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1584729": {
    "from": "g187275",
@@ -13783,7 +14308,12 @@
   },
   "g1584769": {
    "from": "g187275",
-   "distance_km": 512.0
+   "distance_km": 512.0,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1584771": {
    "from": "g187275",
@@ -13861,7 +14391,12 @@
   },
   "g1586856": {
    "from": "g187275",
-   "distance_km": 513.8
+   "distance_km": 513.8,
+   "items": 5,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1586861": {
    "from": "g187275",
@@ -13953,7 +14488,12 @@
   },
   "g1587185": {
    "from": "g187275",
-   "distance_km": 502.1
+   "distance_km": 502.1,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1587188": {
    "from": "g187275",
@@ -14019,7 +14559,12 @@
   },
   "g15885096": {
    "from": "g188045",
-   "distance_km": 488.0
+   "distance_km": 488.0,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g15886145": {
    "from": "g188045",
@@ -14036,7 +14581,12 @@
   },
   "g1591391": {
    "from": "g187768",
-   "distance_km": 494.2
+   "distance_km": 494.2,
+   "items": 5,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1593087": {
    "from": "g190410",
@@ -14071,7 +14621,12 @@
   },
   "g1597623": {
    "from": "g187275",
-   "distance_km": 490.7
+   "distance_km": 490.7,
+   "items": 18,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1598535": {
    "from": "g274881",
@@ -14105,7 +14660,12 @@
   },
   "g1598541": {
    "from": "g274881",
-   "distance_km": 500.7
+   "distance_km": 500.7,
+   "items": 5,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1598542": {
    "from": "g274881",
@@ -14174,7 +14734,12 @@
   },
   "g1601279": {
    "from": "g188045",
-   "distance_km": 503.2
+   "distance_km": 503.2,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1601786": {
    "from": "g190410",
@@ -14205,7 +14770,12 @@
   },
   "g1602210": {
    "from": "g274922",
-   "distance_km": 504.3
+   "distance_km": 504.3,
+   "items": 7,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1602212": {
    "from": "g274922",
@@ -14218,11 +14788,21 @@
   },
   "g1602215": {
    "from": "g274922",
-   "distance_km": 496.5
+   "distance_km": 496.5,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1602216": {
    "from": "g274922",
-   "distance_km": 489.2
+   "distance_km": 489.2,
+   "items": 5,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1602225": {
    "from": "g274922",
@@ -14293,7 +14873,12 @@
   },
   "g1604038": {
    "from": "g187768",
-   "distance_km": 508.5
+   "distance_km": 508.5,
+   "items": 17,
+   "kept": 9,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1604040": {
    "from": "g187768",
@@ -14388,7 +14973,12 @@
   },
   "g1633551": {
    "from": "g274684",
-   "distance_km": 510.0
+   "distance_km": 510.0,
+   "items": 7,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1633631": {
    "from": "g188045",
@@ -14506,11 +15096,21 @@
   },
   "g1648018": {
    "from": "g188045",
-   "distance_km": 498.0
+   "distance_km": 498.0,
+   "items": 11,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1649010": {
    "from": "g187275",
-   "distance_km": 505.2
+   "distance_km": 505.2,
+   "items": 6,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g16490479": {
    "from": "g294471",
@@ -15119,7 +15719,12 @@
   },
   "g17521618": {
    "from": "g294471",
-   "distance_km": 507.9
+   "distance_km": 507.9,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1752761": {
    "from": "g190410",
@@ -15167,7 +15772,12 @@
   },
   "g1756537": {
    "from": "g188045",
-   "distance_km": 501.3
+   "distance_km": 501.3,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1757555": {
    "from": "g188045",
@@ -15260,7 +15870,12 @@
   },
   "g1760371": {
    "from": "g188045",
-   "distance_km": 509.9
+   "distance_km": 509.9,
+   "items": 19,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1760501": {
    "from": "g294471",
@@ -15466,7 +16081,12 @@
   },
   "g17692349": {
    "from": "g294449",
-   "distance_km": 489.2
+   "distance_km": 489.2,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g17698077": {
    "from": "g294471",
@@ -15579,7 +16199,12 @@
   },
   "g1784945": {
    "from": "g274922",
-   "distance_km": 490.4
+   "distance_km": 490.4,
+   "items": 31,
+   "kept": 16,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1784947": {
    "from": "g274684",
@@ -15713,7 +16338,12 @@
   },
   "g1808966": {
    "from": "g188045",
-   "distance_km": 509.3
+   "distance_km": 509.3,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1808972": {
    "from": "g187275",
@@ -15805,7 +16435,12 @@
   },
   "g1819783": {
    "from": "g188045",
-   "distance_km": 513.5
+   "distance_km": 513.5,
+   "items": 9,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1819844": {
    "from": "g187275",
@@ -16021,7 +16656,12 @@
   },
   "g18379204": {
    "from": "g274881",
-   "distance_km": 488.7
+   "distance_km": 488.7,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g18379216": {
    "from": "g274862",
@@ -16495,15 +17135,30 @@
   },
   "g187282": {
    "from": "g187275",
-   "distance_km": 508.7
+   "distance_km": 508.7,
+   "items": 59,
+   "kept": 42,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g187283": {
    "from": "g187275",
-   "distance_km": 500.1
+   "distance_km": 500.1,
+   "items": 11,
+   "kept": 11,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g187285": {
    "from": "g187275",
-   "distance_km": 501.0
+   "distance_km": 501.0,
+   "items": 33,
+   "kept": 12,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g187286": {
    "from": "g187275",
@@ -16537,7 +17192,12 @@
   },
   "g187295": {
    "from": "g187275",
-   "distance_km": 503.6
+   "distance_km": 503.6,
+   "items": 56,
+   "kept": 33,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g187297": {
    "from": "g187275",
@@ -16702,7 +17362,12 @@
   },
   "g187319": {
    "from": "g187275",
-   "distance_km": 494.0
+   "distance_km": 494.0,
+   "items": 105,
+   "kept": 85,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g187321": {
    "from": "g187275",
@@ -16936,7 +17601,12 @@
   },
   "g187790": {
    "from": "g187768",
-   "distance_km": 492.0
+   "distance_km": 492.0,
+   "items": 252,
+   "kept": 171,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g187791": {
    "from": "g187768",
@@ -17294,7 +17964,12 @@
   },
   "g187863": {
    "from": "g187768",
-   "distance_km": 501.1
+   "distance_km": 501.1,
+   "items": 194,
+   "kept": 96,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g187864": {
    "from": "g187768",
@@ -17479,15 +18154,30 @@
   },
   "g188050": {
    "from": "g188045",
-   "distance_km": 504.7
+   "distance_km": 504.7,
+   "items": 6,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g188052": {
    "from": "g188045",
-   "distance_km": 504.9
+   "distance_km": 504.9,
+   "items": 88,
+   "kept": 59,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g188053": {
    "from": "g188045",
-   "distance_km": 487.9
+   "distance_km": 487.9,
+   "items": 31,
+   "kept": 27,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g188054": {
    "from": "g188045",
@@ -17570,15 +18260,30 @@
   },
   "g188075": {
    "from": "g188045",
-   "distance_km": 486.8
+   "distance_km": 486.8,
+   "items": 19,
+   "kept": 12,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g188076": {
    "from": "g188045",
-   "distance_km": 507.8
+   "distance_km": 507.8,
+   "items": 25,
+   "kept": 17,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g188079": {
    "from": "g188045",
-   "distance_km": 505.6
+   "distance_km": 505.6,
+   "items": 31,
+   "kept": 22,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g188080": {
    "from": "g188045",
@@ -17699,11 +18404,21 @@
   },
   "g188096": {
    "from": "g188045",
-   "distance_km": 486.5
+   "distance_km": 486.5,
+   "items": 1000,
+   "kept": 573,
+   "complete": false,
+   "error": "page cap",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g188097": {
    "from": "g188045",
-   "distance_km": 498.6
+   "distance_km": 498.6,
+   "items": 19,
+   "kept": 16,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g188098": {
    "from": "g188045",
@@ -18319,7 +19034,12 @@
   },
   "g19063812": {
    "from": "g294449",
-   "distance_km": 495.9
+   "distance_km": 495.9,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1907668": {
    "from": "g187070",
@@ -18464,7 +19184,12 @@
   },
   "g19115851": {
    "from": "g274684",
-   "distance_km": 511.9
+   "distance_km": 511.9,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g19117455": {
    "from": "g274684",
@@ -18481,7 +19206,12 @@
   },
   "g19120885": {
    "from": "g274684",
-   "distance_km": 505.3
+   "distance_km": 505.3,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g19120959": {
    "from": "g274684",
@@ -18516,7 +19246,12 @@
   },
   "g1913262": {
    "from": "g274684",
-   "distance_km": 505.3
+   "distance_km": 505.3,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g191329": {
    "from": "g187275",
@@ -19090,7 +19825,12 @@
   },
   "g1936411": {
    "from": "g274881",
-   "distance_km": 497.1
+   "distance_km": 497.1,
+   "items": 13,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g19377996": {
    "from": "g274862",
@@ -19442,7 +20182,12 @@
   },
   "g194690": {
    "from": "g187768",
-   "distance_km": 508.7
+   "distance_km": 508.7,
+   "items": 98,
+   "kept": 76,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g194691": {
    "from": "g187768",
@@ -19527,7 +20272,12 @@
   },
   "g194713": {
    "from": "g187768",
-   "distance_km": 509.0
+   "distance_km": 509.0,
+   "items": 203,
+   "kept": 159,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g194714": {
    "from": "g187768",
@@ -19673,7 +20423,12 @@
   },
   "g194752": {
    "from": "g187768",
-   "distance_km": 488.1
+   "distance_km": 488.1,
+   "items": 106,
+   "kept": 71,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g194753": {
    "from": "g187768",
@@ -19731,7 +20486,12 @@
   },
   "g194765": {
    "from": "g187768",
-   "distance_km": 489.0
+   "distance_km": 489.0,
+   "items": 100,
+   "kept": 71,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g194766": {
    "from": "g187768",
@@ -19780,7 +20540,12 @@
   },
   "g194777": {
    "from": "g187768",
-   "distance_km": 502.1
+   "distance_km": 502.1,
+   "items": 38,
+   "kept": 22,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g194784": {
    "from": "g187768",
@@ -20655,7 +21420,12 @@
   },
   "g1951131": {
    "from": "g187768",
-   "distance_km": 486.3
+   "distance_km": 486.3,
+   "items": 11,
+   "kept": 9,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1951369": {
    "from": "g188045",
@@ -21280,7 +22050,12 @@
   },
   "g1973356": {
    "from": "g187768",
-   "distance_km": 512.2
+   "distance_km": 512.2,
+   "items": 12,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1973410": {
    "from": "g187275",
@@ -21350,7 +22125,12 @@
   },
   "g1974705": {
    "from": "g188045",
-   "distance_km": 496.1
+   "distance_km": 496.1,
+   "items": 3,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1974708": {
    "from": "g188045",
@@ -21385,7 +22165,12 @@
   },
   "g19782469": {
    "from": "g274922",
-   "distance_km": 508.8
+   "distance_km": 508.8,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g19802514": {
    "from": "g294449",
@@ -21425,7 +22210,12 @@
   },
   "g1982970": {
    "from": "g188045",
-   "distance_km": 486.7
+   "distance_km": 486.7,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1983703": {
    "from": "g294471",
@@ -21450,7 +22240,12 @@
   },
   "g198389": {
    "from": "g187275",
-   "distance_km": 499.6
+   "distance_km": 499.6,
+   "items": 38,
+   "kept": 30,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198392": {
    "from": "g187275",
@@ -21536,7 +22331,12 @@
   },
   "g198421": {
    "from": "g187275",
-   "distance_km": 496.7
+   "distance_km": 496.7,
+   "items": 31,
+   "kept": 18,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198424": {
    "from": "g187275",
@@ -21597,7 +22397,12 @@
   },
   "g198446": {
    "from": "g187275",
-   "distance_km": 496.2
+   "distance_km": 496.2,
+   "items": 70,
+   "kept": 40,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g1984485": {
    "from": "g187070",
@@ -21730,11 +22535,21 @@
   },
   "g198499": {
    "from": "g187275",
-   "distance_km": 513.8
+   "distance_km": 513.8,
+   "items": 14,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198500": {
    "from": "g187275",
-   "distance_km": 489.3
+   "distance_km": 489.3,
+   "items": 60,
+   "kept": 35,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198501": {
    "from": "g187275",
@@ -21785,7 +22600,12 @@
   },
   "g198524": {
    "from": "g187275",
-   "distance_km": 498.2
+   "distance_km": 498.2,
+   "items": 57,
+   "kept": 38,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198527": {
    "from": "g187275",
@@ -21853,7 +22673,12 @@
   },
   "g198538": {
    "from": "g187275",
-   "distance_km": 490.5
+   "distance_km": 490.5,
+   "items": 38,
+   "kept": 27,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198539": {
    "from": "g187275",
@@ -21875,7 +22700,12 @@
   },
   "g198541": {
    "from": "g187275",
-   "distance_km": 492.5
+   "distance_km": 492.5,
+   "items": 87,
+   "kept": 47,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198542": {
    "from": "g187275",
@@ -22260,7 +23090,12 @@
   },
   "g198807": {
    "from": "g188045",
-   "distance_km": 495.8
+   "distance_km": 495.8,
+   "items": 9,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198809": {
    "from": "g188045",
@@ -22268,11 +23103,21 @@
   },
   "g198810": {
    "from": "g188045",
-   "distance_km": 488.3
+   "distance_km": 488.3,
+   "items": 83,
+   "kept": 50,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198813": {
    "from": "g188045",
-   "distance_km": 493.6
+   "distance_km": 493.6,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198814": {
    "from": "g188045",
@@ -22329,7 +23174,12 @@
   },
   "g198824": {
    "from": "g188045",
-   "distance_km": 490.6
+   "distance_km": 490.6,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198825": {
    "from": "g188045",
@@ -22438,7 +23288,12 @@
   },
   "g198842": {
    "from": "g188045",
-   "distance_km": 509.1
+   "distance_km": 509.1,
+   "items": 6,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198843": {
    "from": "g188045",
@@ -22469,7 +23324,12 @@
   },
   "g198848": {
    "from": "g188045",
-   "distance_km": 505.1
+   "distance_km": 505.1,
+   "items": 49,
+   "kept": 34,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198849": {
    "from": "g188045",
@@ -22566,7 +23426,12 @@
   },
   "g198862": {
    "from": "g188045",
-   "distance_km": 487.4
+   "distance_km": 487.4,
+   "items": 42,
+   "kept": 32,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g198863": {
    "from": "g188045",
@@ -22844,7 +23709,12 @@
   },
   "g2002390": {
    "from": "g274684",
-   "distance_km": 501.6
+   "distance_km": 501.6,
+   "items": 16,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2002495": {
    "from": "g188045",
@@ -22895,7 +23765,12 @@
   },
   "g2009003": {
    "from": "g187275",
-   "distance_km": 511.5
+   "distance_km": 511.5,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g20092596": {
    "from": "g274862",
@@ -23279,7 +24154,12 @@
   },
   "g2039676": {
    "from": "g294453",
-   "distance_km": 487.0
+   "distance_km": 487.0,
+   "items": 17,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2039678": {
    "from": "g294453",
@@ -23539,7 +24419,12 @@
   },
   "g2089120": {
    "from": "g187768",
-   "distance_km": 506.1
+   "distance_km": 506.1,
+   "items": 5,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2089887": {
    "from": "g187275",
@@ -23564,7 +24449,12 @@
   },
   "g2091578": {
    "from": "g188045",
-   "distance_km": 509.3
+   "distance_km": 509.3,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2091595": {
    "from": "g188045",
@@ -23806,7 +24696,12 @@
   },
   "g21345691": {
    "from": "g294471",
-   "distance_km": 509.5
+   "distance_km": 509.5,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g21346116": {
    "from": "g187768",
@@ -23814,7 +24709,12 @@
   },
   "g213497": {
    "from": "g188045",
-   "distance_km": 503.7
+   "distance_km": 503.7,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g21352548": {
    "from": "g294471",
@@ -23822,7 +24722,12 @@
   },
   "g2135764": {
    "from": "g187275",
-   "distance_km": 510.5
+   "distance_km": 510.5,
+   "items": 12,
+   "kept": 8,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2135851": {
    "from": "g188045",
@@ -24009,7 +24914,12 @@
   },
   "g2146164": {
    "from": "g188045",
-   "distance_km": 486.5
+   "distance_km": 486.5,
+   "items": 4,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2146177": {
    "from": "g188045",
@@ -24092,7 +25002,12 @@
   },
   "g2156615": {
    "from": "g188045",
-   "distance_km": 498.0
+   "distance_km": 498.0,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2157082": {
    "from": "g274862",
@@ -24157,7 +25072,12 @@
   },
   "g2167906": {
    "from": "g188045",
-   "distance_km": 497.3
+   "distance_km": 497.3,
+   "items": 4,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2167916": {
    "from": "g274881",
@@ -24234,11 +25154,21 @@
   },
   "g2186021": {
    "from": "g188045",
-   "distance_km": 507.2
+   "distance_km": 507.2,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2186025": {
    "from": "g188045",
-   "distance_km": 494.7
+   "distance_km": 494.7,
+   "items": 2,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2186164": {
    "from": "g187768",
@@ -24302,7 +25232,12 @@
   },
   "g2193361": {
    "from": "g187275",
-   "distance_km": 495.0
+   "distance_km": 495.0,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2194797": {
    "from": "g187768",
@@ -24377,7 +25312,12 @@
   },
   "g2202540": {
    "from": "g187275",
-   "distance_km": 511.9
+   "distance_km": 511.9,
+   "items": 6,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2202548": {
    "from": "g274862",
@@ -24411,7 +25351,12 @@
   },
   "g2208163": {
    "from": "g274922",
-   "distance_km": 504.0
+   "distance_km": 504.0,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2208217": {
    "from": "g187275",
@@ -24543,7 +25488,12 @@
   },
   "g2218167": {
    "from": "g274922",
-   "distance_km": 494.4
+   "distance_km": 494.4,
+   "items": 8,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2221597": {
    "from": "g187768",
@@ -24613,7 +25563,12 @@
   },
   "g2244024": {
    "from": "g274684",
-   "distance_km": 494.0
+   "distance_km": 494.0,
+   "items": 5,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2249195": {
    "from": "g274881",
@@ -25162,7 +26117,12 @@
   },
   "g2275797": {
    "from": "g188045",
-   "distance_km": 508.6
+   "distance_km": 508.6,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2275808": {
    "from": "g187275",
@@ -25431,7 +26391,12 @@
   },
   "g227956": {
    "from": "g188045",
-   "distance_km": 503.8
+   "distance_km": 503.8,
+   "items": 8,
+   "kept": 7,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2281272": {
    "from": "g188045",
@@ -25719,7 +26684,12 @@
   },
   "g2295888": {
    "from": "g294453",
-   "distance_km": 497.7
+   "distance_km": 497.7,
+   "items": 9,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2296409": {
    "from": "g187070",
@@ -25784,7 +26754,12 @@
   },
   "g2299503": {
    "from": "g274881",
-   "distance_km": 510.7
+   "distance_km": 510.7,
+   "items": 24,
+   "kept": 16,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2299505": {
    "from": "g187768",
@@ -26019,7 +26994,12 @@
   },
   "g2313998": {
    "from": "g274881",
-   "distance_km": 511.2
+   "distance_km": 511.2,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2314014": {
    "from": "g190410",
@@ -26090,7 +27070,12 @@
   },
   "g23187740": {
    "from": "g294471",
-   "distance_km": 505.9
+   "distance_km": 505.9,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2318859": {
    "from": "g294449",
@@ -26331,7 +27316,12 @@
   },
   "g23385662": {
    "from": "g294471",
-   "distance_km": 503.7
+   "distance_km": 503.7,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g23400707": {
    "from": "g294453",
@@ -26489,7 +27479,12 @@
   },
   "g2359649": {
    "from": "g187275",
-   "distance_km": 506.5
+   "distance_km": 506.5,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2359956": {
    "from": "g187768",
@@ -26601,7 +27596,12 @@
   },
   "g2368733": {
    "from": "g274881",
-   "distance_km": 486.6
+   "distance_km": 486.6,
+   "items": 14,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g23690625": {
    "from": "g190410",
@@ -26671,7 +27671,12 @@
   },
   "g23885562": {
    "from": "g274684",
-   "distance_km": 487.7
+   "distance_km": 487.7,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g23893347": {
    "from": "g294471",
@@ -26684,7 +27689,12 @@
   },
   "g23894679": {
    "from": "g294471",
-   "distance_km": 511.9
+   "distance_km": 511.9,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2389774": {
    "from": "g274881",
@@ -26822,7 +27832,12 @@
   },
   "g24107029": {
    "from": "g188045",
-   "distance_km": 510.4
+   "distance_km": 510.4,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g24122051": {
    "from": "g187070",
@@ -26961,7 +27976,11 @@
   },
   "g2462645": {
    "from": "g294471",
-   "distance_km": 514.3
+   "distance_km": 514.3,
+   "items": 700,
+   "kept": 422,
+   "complete": false,
+   "error": "run budget reached"
   },
   "g2462750": {
    "from": "g294471",
@@ -27238,11 +28257,21 @@
   },
   "g2492616": {
    "from": "g188045",
-   "distance_km": 502.1
+   "distance_km": 502.1,
+   "items": 4,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g24984240": {
    "from": "g187275",
-   "distance_km": 495.4
+   "distance_km": 495.4,
+   "items": 11,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2499647": {
    "from": "g274684",
@@ -27290,7 +28319,12 @@
   },
   "g2502153": {
    "from": "g274684",
-   "distance_km": 504.4
+   "distance_km": 504.4,
+   "items": 10,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2503273": {
    "from": "g274684",
@@ -27359,7 +28393,12 @@
   },
   "g25188122": {
    "from": "g294449",
-   "distance_km": 486.2
+   "distance_km": 486.2,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g25222225": {
    "from": "g294471",
@@ -27440,7 +28479,12 @@
   },
   "g2534698": {
    "from": "g187768",
-   "distance_km": 503.6
+   "distance_km": 503.6,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2534699": {
    "from": "g188045",
@@ -27660,7 +28704,12 @@
   },
   "g2540173": {
    "from": "g188045",
-   "distance_km": 509.1
+   "distance_km": 509.1,
+   "items": 4,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2540179": {
    "from": "g190410",
@@ -27700,7 +28749,12 @@
   },
   "g25404198": {
    "from": "g294471",
-   "distance_km": 501.9
+   "distance_km": 501.9,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2540441": {
    "from": "g274684",
@@ -27761,7 +28815,12 @@
   },
   "g2541742": {
    "from": "g188045",
-   "distance_km": 512.2
+   "distance_km": 512.2,
+   "items": 8,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2541747": {
    "from": "g274684",
@@ -27848,7 +28907,12 @@
   },
   "g2543623": {
    "from": "g274881",
-   "distance_km": 505.6
+   "distance_km": 505.6,
+   "items": 15,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2543652": {
    "from": "g274684",
@@ -27939,7 +29003,12 @@
   },
   "g2546052": {
    "from": "g274881",
-   "distance_km": 500.6
+   "distance_km": 500.6,
+   "items": 4,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2546055": {
    "from": "g274881",
@@ -28054,7 +29123,12 @@
   },
   "g2546084": {
    "from": "g274881",
-   "distance_km": 511.8
+   "distance_km": 511.8,
+   "items": 26,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2546085": {
    "from": "g274881",
@@ -28115,7 +29189,12 @@
   },
   "g2547041": {
    "from": "g274684",
-   "distance_km": 512.7
+   "distance_km": 512.7,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2547048": {
    "from": "g274684",
@@ -28220,7 +29299,12 @@
   },
   "g2547173": {
    "from": "g274684",
-   "distance_km": 512.7
+   "distance_km": 512.7,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2547178": {
    "from": "g274684",
@@ -28336,7 +29420,12 @@
   },
   "g2548685": {
    "from": "g274684",
-   "distance_km": 497.3
+   "distance_km": 497.3,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2548688": {
    "from": "g274684",
@@ -28366,11 +29455,21 @@
   },
   "g2548701": {
    "from": "g274684",
-   "distance_km": 498.1
+   "distance_km": 498.1,
+   "items": 9,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2550524": {
    "from": "g274684",
-   "distance_km": 491.5
+   "distance_km": 491.5,
+   "items": 2,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2551924": {
    "from": "g187768",
@@ -28467,7 +29566,12 @@
   },
   "g2554436": {
    "from": "g274922",
-   "distance_km": 514.1
+   "distance_km": 514.1,
+   "items": 5,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2554437": {
    "from": "g274922",
@@ -28790,7 +29894,12 @@
   },
   "g2614906": {
    "from": "g187070",
-   "distance_km": 501.8
+   "distance_km": 501.8,
+   "items": 11,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2615063": {
    "from": "g187275",
@@ -28902,7 +30011,12 @@
   },
   "g2623725": {
    "from": "g188045",
-   "distance_km": 488.1
+   "distance_km": 488.1,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2623726": {
    "from": "g188045",
@@ -29006,7 +30120,12 @@
   },
   "g2630342": {
    "from": "g188045",
-   "distance_km": 510.5
+   "distance_km": 510.5,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2630348": {
    "from": "g188045",
@@ -29055,7 +30174,12 @@
   },
   "g2630369": {
    "from": "g188045",
-   "distance_km": 489.7
+   "distance_km": 489.7,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g26305853": {
    "from": "g187768",
@@ -29099,7 +30223,12 @@
   },
   "g2634304": {
    "from": "g188045",
-   "distance_km": 497.4
+   "distance_km": 497.4,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2634331": {
    "from": "g188045",
@@ -29143,7 +30272,12 @@
   },
   "g2640765": {
    "from": "g188045",
-   "distance_km": 501.5
+   "distance_km": 501.5,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2640772": {
    "from": "g188045",
@@ -29349,7 +30483,12 @@
   },
   "g2659007": {
    "from": "g294453",
-   "distance_km": 502.9
+   "distance_km": 502.9,
+   "items": 10,
+   "kept": 7,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g26636982": {
    "from": "g274922",
@@ -29357,7 +30496,12 @@
   },
   "g2666644": {
    "from": "g274881",
-   "distance_km": 498.4
+   "distance_km": 498.4,
+   "items": 2,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g26680169": {
    "from": "g274862",
@@ -29525,7 +30669,12 @@
   },
   "g2693269": {
    "from": "g188045",
-   "distance_km": 488.9
+   "distance_km": 488.9,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2693275": {
    "from": "g188045",
@@ -29538,7 +30687,12 @@
   },
   "g2693291": {
    "from": "g188045",
-   "distance_km": 504.2
+   "distance_km": 504.2,
+   "items": 4,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g2693303": {
    "from": "g188045",
@@ -29675,7 +30829,12 @@
   },
   "g274689": {
    "from": "g274684",
-   "distance_km": 503.3
+   "distance_km": 503.3,
+   "items": 39,
+   "kept": 22,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g274690": {
    "from": "g274684",
@@ -29687,7 +30846,12 @@
   },
   "g274692": {
    "from": "g274684",
-   "distance_km": 507.5
+   "distance_km": 507.5,
+   "items": 92,
+   "kept": 51,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g274693": {
    "from": "g274684",
@@ -29707,7 +30871,12 @@
   },
   "g274697": {
    "from": "g274684",
-   "distance_km": 508.5
+   "distance_km": 508.5,
+   "items": 360,
+   "kept": 199,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g274698": {
    "from": "g274684",
@@ -29729,7 +30898,12 @@
   },
   "g274701": {
    "from": "g274684",
-   "distance_km": 490.4
+   "distance_km": 490.4,
+   "items": 57,
+   "kept": 35,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g274702": {
    "from": "g274684",
@@ -29746,7 +30920,12 @@
   },
   "g274705": {
    "from": "g274684",
-   "distance_km": 505.1
+   "distance_km": 505.1,
+   "items": 51,
+   "kept": 33,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g274706": {
    "from": "g274684",
@@ -29768,7 +30947,12 @@
   },
   "g274708": {
    "from": "g274684",
-   "distance_km": 499.0
+   "distance_km": 499.0,
+   "items": 20,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g274709": {
    "from": "g274684",
@@ -29820,7 +31004,12 @@
   },
   "g274718": {
    "from": "g274684",
-   "distance_km": 507.8
+   "distance_km": 507.8,
+   "items": 109,
+   "kept": 55,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g274719": {
    "from": "g274684",
@@ -30180,7 +31369,12 @@
   },
   "g274912": {
    "from": "g274881",
-   "distance_km": 493.7
+   "distance_km": 493.7,
+   "items": 152,
+   "kept": 82,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g274913": {
    "from": "g274881",
@@ -30441,7 +31635,12 @@
   },
   "g277806": {
    "from": "g274922",
-   "distance_km": 501.6
+   "distance_km": 501.6,
+   "items": 56,
+   "kept": 27,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g277807": {
    "from": "g274922",
@@ -30856,7 +32055,12 @@
   },
   "g294472": {
    "from": "g294471",
-   "distance_km": 513.1
+   "distance_km": 513.1,
+   "items": 1000,
+   "kept": 471,
+   "complete": false,
+   "error": "page cap",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g295370": {
    "from": "g294453",
@@ -31415,7 +32619,12 @@
   },
   "g304092": {
    "from": "g294471",
-   "distance_km": 489.2
+   "distance_km": 489.2,
+   "items": 9,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g304093": {
    "from": "g294471",
@@ -31464,7 +32673,12 @@
   },
   "g304099": {
    "from": "g294471",
-   "distance_km": 504.0
+   "distance_km": 504.0,
+   "items": 34,
+   "kept": 20,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g304100": {
    "from": "g294471",
@@ -31472,7 +32686,12 @@
   },
   "g304101": {
    "from": "g294471",
-   "distance_km": 513.7
+   "distance_km": 513.7,
+   "items": 4,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g304102": {
    "from": "g294471",
@@ -31497,7 +32716,12 @@
   },
   "g304106": {
    "from": "g294471",
-   "distance_km": 513.2
+   "distance_km": 513.2,
+   "items": 414,
+   "kept": 143,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g304107": {
    "from": "g294471",
@@ -31510,7 +32734,12 @@
   },
   "g304108": {
    "from": "g294471",
-   "distance_km": 513.4
+   "distance_km": 513.4,
+   "items": 45,
+   "kept": 28,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g30466284": {
    "from": "g294449",
@@ -31554,7 +32783,12 @@
   },
   "g3135325": {
    "from": "g294449",
-   "distance_km": 488.0
+   "distance_km": 488.0,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3135856": {
    "from": "g188045",
@@ -31675,11 +32909,21 @@
   },
   "g3175055": {
    "from": "g294471",
-   "distance_km": 494.4
+   "distance_km": 494.4,
+   "items": 4,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3175227": {
    "from": "g188045",
-   "distance_km": 491.2
+   "distance_km": 491.2,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3175228": {
    "from": "g188045",
@@ -31792,7 +33036,12 @@
   },
   "g319751": {
    "from": "g187275",
-   "distance_km": 487.2
+   "distance_km": 487.2,
+   "items": 12,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g319752": {
    "from": "g187275",
@@ -31800,7 +33049,12 @@
   },
   "g319753": {
    "from": "g187275",
-   "distance_km": 503.4
+   "distance_km": 503.4,
+   "items": 26,
+   "kept": 14,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g319756": {
    "from": "g187275",
@@ -31822,7 +33076,12 @@
   },
   "g319758": {
    "from": "g187275",
-   "distance_km": 506.9
+   "distance_km": 506.9,
+   "items": 32,
+   "kept": 19,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g319760": {
    "from": "g187275",
@@ -32056,7 +33315,12 @@
   },
   "g3202835": {
    "from": "g274684",
-   "distance_km": 489.6
+   "distance_km": 489.6,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3202847": {
    "from": "g274684",
@@ -32100,7 +33364,12 @@
   },
   "g3202912": {
    "from": "g274684",
-   "distance_km": 512.1
+   "distance_km": 512.1,
+   "items": 6,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3202924": {
    "from": "g274684",
@@ -32180,7 +33449,12 @@
   },
   "g3207842": {
    "from": "g274881",
-   "distance_km": 494.0
+   "distance_km": 494.0,
+   "items": 4,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3207877": {
    "from": "g274862",
@@ -32229,7 +33503,12 @@
   },
   "g3208267": {
    "from": "g274922",
-   "distance_km": 512.2
+   "distance_km": 512.2,
+   "items": 4,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3211021": {
    "from": "g274862",
@@ -32278,7 +33557,12 @@
   },
   "g3221409": {
    "from": "g274881",
-   "distance_km": 504.5
+   "distance_km": 504.5,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3221411": {
    "from": "g274881",
@@ -32304,11 +33588,21 @@
   },
   "g3223412": {
    "from": "g294471",
-   "distance_km": 512.2
+   "distance_km": 512.2,
+   "items": 5,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3223413": {
    "from": "g294471",
-   "distance_km": 502.7
+   "distance_km": 502.7,
+   "items": 11,
+   "kept": 8,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3223416": {
    "from": "g274881",
@@ -32425,7 +33719,12 @@
   },
   "g33000852": {
    "from": "g274881",
-   "distance_km": 494.9
+   "distance_km": 494.9,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g33035351": {
    "from": "g274862",
@@ -32589,11 +33888,21 @@
   },
   "g3334634": {
    "from": "g274684",
-   "distance_km": 500.2
+   "distance_km": 500.2,
+   "items": 5,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3334659": {
    "from": "g187768",
-   "distance_km": 501.7
+   "distance_km": 501.7,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g33357980": {
    "from": "g274862",
@@ -32637,7 +33946,12 @@
   },
   "g33419168": {
    "from": "g274922",
-   "distance_km": 508.5
+   "distance_km": 508.5,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g33445883": {
    "from": "g294449",
@@ -32676,7 +33990,12 @@
   },
   "g3372495": {
    "from": "g188045",
-   "distance_km": 507.7
+   "distance_km": 507.7,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3373384": {
    "from": "g274922",
@@ -32697,7 +34016,12 @@
   },
   "g3373447": {
    "from": "g188045",
-   "distance_km": 495.2
+   "distance_km": 495.2,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3373452": {
    "from": "g188045",
@@ -33094,7 +34418,12 @@
   },
   "g3469447": {
    "from": "g188045",
-   "distance_km": 498.8
+   "distance_km": 498.8,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3474177": {
    "from": "g188045",
@@ -33496,7 +34825,12 @@
   },
   "g3648979": {
    "from": "g294471",
-   "distance_km": 488.6
+   "distance_km": 488.6,
+   "items": 8,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3648988": {
    "from": "g274684",
@@ -33628,11 +34962,21 @@
   },
   "g3734482": {
    "from": "g274684",
-   "distance_km": 498.9
+   "distance_km": 498.9,
+   "items": 4,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3736042": {
    "from": "g294471",
-   "distance_km": 494.1
+   "distance_km": 494.1,
+   "items": 4,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3736159": {
    "from": "g274684",
@@ -33703,7 +35047,12 @@
   },
   "g3746149": {
    "from": "g274684",
-   "distance_km": 493.6
+   "distance_km": 493.6,
+   "items": 10,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3746152": {
    "from": "g274684",
@@ -33747,7 +35096,12 @@
   },
   "g3746547": {
    "from": "g274881",
-   "distance_km": 497.6
+   "distance_km": 497.6,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3746560": {
    "from": "g274881",
@@ -33759,7 +35113,12 @@
   },
   "g3746584": {
    "from": "g274881",
-   "distance_km": 508.1
+   "distance_km": 508.1,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3746587": {
    "from": "g274881",
@@ -33855,7 +35214,12 @@
   },
   "g3859853": {
    "from": "g294471",
-   "distance_km": 496.5
+   "distance_km": 496.5,
+   "items": 14,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3861138": {
    "from": "g188045",
@@ -33913,7 +35277,12 @@
   },
   "g3930645": {
    "from": "g187768",
-   "distance_km": 496.7
+   "distance_km": 496.7,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g3931977": {
    "from": "g188045",
@@ -34054,7 +35423,12 @@
   },
   "g4022274": {
    "from": "g188045",
-   "distance_km": 510.2
+   "distance_km": 510.2,
+   "items": 24,
+   "kept": 11,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4022298": {
    "from": "g188045",
@@ -34067,7 +35441,12 @@
   },
   "g4028735": {
    "from": "g187275",
-   "distance_km": 492.4
+   "distance_km": 492.4,
+   "items": 5,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4046606": {
    "from": "g274684",
@@ -34106,7 +35485,12 @@
   },
   "g4065096": {
    "from": "g274684",
-   "distance_km": 510.2
+   "distance_km": 510.2,
+   "items": 4,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4065108": {
    "from": "g274684",
@@ -34174,7 +35558,12 @@
   },
   "g4173462": {
    "from": "g187275",
-   "distance_km": 507.4
+   "distance_km": 507.4,
+   "items": 5,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4173464": {
    "from": "g187275",
@@ -34190,7 +35579,12 @@
   },
   "g4181103": {
    "from": "g274881",
-   "distance_km": 512.7
+   "distance_km": 512.7,
+   "items": 11,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4185356": {
    "from": "g188045",
@@ -34233,7 +35627,12 @@
   },
   "g4226735": {
    "from": "g274881",
-   "distance_km": 494.3
+   "distance_km": 494.3,
+   "items": 4,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4232122": {
    "from": "g274862",
@@ -34336,7 +35735,12 @@
   },
   "g4273812": {
    "from": "g274684",
-   "distance_km": 502.0
+   "distance_km": 502.0,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4274747": {
    "from": "g188045",
@@ -34405,11 +35809,21 @@
   },
   "g4345184": {
    "from": "g188045",
-   "distance_km": 504.3
+   "distance_km": 504.3,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4345267": {
    "from": "g188045",
-   "distance_km": 495.6
+   "distance_km": 495.6,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4345284": {
    "from": "g188045",
@@ -34447,11 +35861,21 @@
   },
   "g4352841": {
    "from": "g188045",
-   "distance_km": 492.1
+   "distance_km": 492.1,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4352845": {
    "from": "g188045",
-   "distance_km": 504.2
+   "distance_km": 504.2,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4352878": {
    "from": "g188045",
@@ -34491,11 +35915,21 @@
   },
   "g4352901": {
    "from": "g188045",
-   "distance_km": 499.9
+   "distance_km": 499.9,
+   "items": 6,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4353408": {
    "from": "g188045",
-   "distance_km": 493.1
+   "distance_km": 493.1,
+   "items": 5,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4353409": {
    "from": "g188045",
@@ -34622,19 +36056,39 @@
   },
   "g4421079": {
    "from": "g188045",
-   "distance_km": 510.5
+   "distance_km": 510.5,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4421095": {
    "from": "g188045",
-   "distance_km": 496.8
+   "distance_km": 496.8,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4421116": {
    "from": "g188045",
-   "distance_km": 496.5
+   "distance_km": 496.5,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4421190": {
    "from": "g188045",
-   "distance_km": 487.6
+   "distance_km": 487.6,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4421261": {
    "from": "g188045",
@@ -34745,7 +36199,12 @@
   },
   "g4463175": {
    "from": "g274922",
-   "distance_km": 508.3
+   "distance_km": 508.3,
+   "items": 3,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4466873": {
    "from": "g187768",
@@ -34825,7 +36284,12 @@
   },
   "g4491471": {
    "from": "g188045",
-   "distance_km": 499.5
+   "distance_km": 499.5,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4501156": {
    "from": "g274684",
@@ -34838,7 +36302,12 @@
   },
   "g4504980": {
    "from": "g274684",
-   "distance_km": 500.3
+   "distance_km": 500.3,
+   "items": 3,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4504981": {
    "from": "g274922",
@@ -34903,7 +36372,12 @@
   },
   "g4551706": {
    "from": "g187275",
-   "distance_km": 503.7
+   "distance_km": 503.7,
+   "items": 7,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4553481": {
    "from": "g274881",
@@ -35253,7 +36727,12 @@
   },
   "g4716222": {
    "from": "g274881",
-   "distance_km": 513.1
+   "distance_km": 513.1,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4716702": {
    "from": "g274684",
@@ -35517,7 +36996,12 @@
   },
   "g494954": {
    "from": "g187768",
-   "distance_km": 511.4
+   "distance_km": 511.4,
+   "items": 96,
+   "kept": 67,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g4959676": {
    "from": "g294453",
@@ -35689,7 +37173,12 @@
   },
   "g5062984": {
    "from": "g274684",
-   "distance_km": 497.9
+   "distance_km": 497.9,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g5074499": {
    "from": "g190410",
@@ -35724,19 +37213,39 @@
   },
   "g5075341": {
    "from": "g188045",
-   "distance_km": 495.4
+   "distance_km": 495.4,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g5075363": {
    "from": "g188045",
-   "distance_km": 505.0
+   "distance_km": 505.0,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g5075366": {
    "from": "g188045",
-   "distance_km": 506.1
+   "distance_km": 506.1,
+   "items": 3,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g5075386": {
    "from": "g188045",
-   "distance_km": 492.8
+   "distance_km": 492.8,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g5105615": {
    "from": "g274922",
@@ -36266,7 +37775,12 @@
   },
   "g5599740": {
    "from": "g274684",
-   "distance_km": 498.2
+   "distance_km": 498.2,
+   "items": 4,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g5600445": {
    "from": "g274881",
@@ -36306,7 +37820,12 @@
   },
   "g5602078": {
    "from": "g294471",
-   "distance_km": 511.9
+   "distance_km": 511.9,
+   "items": 44,
+   "kept": 15,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g5602092": {
    "from": "g188045",
@@ -36428,15 +37947,30 @@
   },
   "g562790": {
    "from": "g187275",
-   "distance_km": 493.3
+   "distance_km": 493.3,
+   "items": 31,
+   "kept": 23,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g562792": {
    "from": "g187275",
-   "distance_km": 502.1
+   "distance_km": 502.1,
+   "items": 21,
+   "kept": 13,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g562795": {
    "from": "g187275",
-   "distance_km": 495.4
+   "distance_km": 495.4,
+   "items": 12,
+   "kept": 9,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g562796": {
    "from": "g187275",
@@ -36703,7 +38237,12 @@
   },
   "g580341": {
    "from": "g188045",
-   "distance_km": 503.6
+   "distance_km": 503.6,
+   "items": 14,
+   "kept": 8,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g580342": {
    "from": "g188045",
@@ -36752,7 +38291,12 @@
   },
   "g580350": {
    "from": "g188045",
-   "distance_km": 496.0
+   "distance_km": 496.0,
+   "items": 36,
+   "kept": 25,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g580351": {
    "from": "g188045",
@@ -36796,7 +38340,12 @@
   },
   "g580357": {
    "from": "g188045",
-   "distance_km": 487.0
+   "distance_km": 487.0,
+   "items": 8,
+   "kept": 8,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g580358": {
    "from": "g188045",
@@ -36969,7 +38518,12 @@
   },
   "g5928279": {
    "from": "g274684",
-   "distance_km": 508.5
+   "distance_km": 508.5,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g5971121": {
    "from": "g187768",
@@ -36982,7 +38536,12 @@
   },
   "g5980612": {
    "from": "g274684",
-   "distance_km": 513.9
+   "distance_km": 513.9,
+   "items": 2,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g5980809": {
    "from": "g274684",
@@ -37521,7 +39080,12 @@
   },
   "g608726": {
    "from": "g274684",
-   "distance_km": 499.4
+   "distance_km": 499.4,
+   "items": 15,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g608728": {
    "from": "g274684",
@@ -37565,7 +39129,12 @@
   },
   "g608733": {
    "from": "g274684",
-   "distance_km": 491.2
+   "distance_km": 491.2,
+   "items": 51,
+   "kept": 34,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g608766": {
    "from": "g187070",
@@ -37644,7 +39213,12 @@
   },
   "g608888": {
    "from": "g187768",
-   "distance_km": 487.4
+   "distance_km": 487.4,
+   "items": 33,
+   "kept": 16,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g608900": {
    "from": "g187768",
@@ -37770,7 +39344,12 @@
   },
   "g609046": {
    "from": "g274922",
-   "distance_km": 497.3
+   "distance_km": 497.3,
+   "items": 7,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g609047": {
    "from": "g274862",
@@ -37810,7 +39389,12 @@
   },
   "g6123602": {
    "from": "g274684",
-   "distance_km": 489.8
+   "distance_km": 489.8,
+   "items": 8,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g612413": {
    "from": "g294453",
@@ -37840,7 +39424,12 @@
   },
   "g612451": {
    "from": "g274922",
-   "distance_km": 491.7
+   "distance_km": 491.7,
+   "items": 79,
+   "kept": 30,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g612452": {
    "from": "g274922",
@@ -37946,7 +39535,12 @@
   },
   "g616080": {
    "from": "g274684",
-   "distance_km": 492.1
+   "distance_km": 492.1,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g616092": {
    "from": "g187070",
@@ -37982,11 +39576,21 @@
   },
   "g616140": {
    "from": "g187275",
-   "distance_km": 510.0
+   "distance_km": 510.0,
+   "items": 23,
+   "kept": 12,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g616141": {
    "from": "g187275",
-   "distance_km": 507.7
+   "distance_km": 507.7,
+   "items": 10,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g616145": {
    "from": "g187275",
@@ -38112,7 +39716,12 @@
   },
   "g6214821": {
    "from": "g274684",
-   "distance_km": 491.5
+   "distance_km": 491.5,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6215602": {
    "from": "g187768",
@@ -38301,7 +39910,12 @@
   },
   "g635566": {
    "from": "g187070",
-   "distance_km": 510.6
+   "distance_km": 510.6,
+   "items": 56,
+   "kept": 28,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g635587": {
    "from": "g187070",
@@ -38330,7 +39944,12 @@
   },
   "g635597": {
    "from": "g187275",
-   "distance_km": 492.9
+   "distance_km": 492.9,
+   "items": 32,
+   "kept": 17,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g635617": {
    "from": "g187768",
@@ -38698,11 +40317,21 @@
   },
   "g6375745": {
    "from": "g274881",
-   "distance_km": 487.1
+   "distance_km": 487.1,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6375766": {
    "from": "g274922",
-   "distance_km": 492.0
+   "distance_km": 492.0,
+   "items": 6,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6375786": {
    "from": "g274922",
@@ -39055,7 +40684,12 @@
   },
   "g641888": {
    "from": "g187275",
-   "distance_km": 507.0
+   "distance_km": 507.0,
+   "items": 21,
+   "kept": 15,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g641893": {
    "from": "g187275",
@@ -39440,7 +41074,12 @@
   },
   "g642204": {
    "from": "g274922",
-   "distance_km": 503.2
+   "distance_km": 503.2,
+   "items": 27,
+   "kept": 16,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g644015": {
    "from": "g190410",
@@ -39552,11 +41191,21 @@
   },
   "g644075": {
    "from": "g294453",
-   "distance_km": 490.2
+   "distance_km": 490.2,
+   "items": 18,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g644099": {
    "from": "g187070",
-   "distance_km": 495.8
+   "distance_km": 495.8,
+   "items": 13,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g644100": {
    "from": "g187070",
@@ -39593,7 +41242,12 @@
   },
   "g644159": {
    "from": "g187275",
-   "distance_km": 496.7
+   "distance_km": 496.7,
+   "items": 15,
+   "kept": 8,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g644160": {
    "from": "g187275",
@@ -39926,7 +41580,12 @@
   },
   "g644348": {
    "from": "g188045",
-   "distance_km": 513.7
+   "distance_km": 513.7,
+   "items": 15,
+   "kept": 8,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g644350": {
    "from": "g188045",
@@ -40007,7 +41666,12 @@
   },
   "g6487150": {
    "from": "g188045",
-   "distance_km": 512.0
+   "distance_km": 512.0,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6487235": {
    "from": "g274922",
@@ -40020,7 +41684,12 @@
   },
   "g6487641": {
    "from": "g274881",
-   "distance_km": 497.5
+   "distance_km": 497.5,
+   "items": 8,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6495481": {
    "from": "g274922",
@@ -40028,11 +41697,21 @@
   },
   "g6495549": {
    "from": "g274922",
-   "distance_km": 500.5
+   "distance_km": 500.5,
+   "items": 11,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6495568": {
    "from": "g274684",
-   "distance_km": 509.7
+   "distance_km": 509.7,
+   "items": 6,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6495586": {
    "from": "g274922",
@@ -40125,7 +41804,12 @@
   },
   "g651681": {
    "from": "g274684",
-   "distance_km": 510.1
+   "distance_km": 510.1,
+   "items": 30,
+   "kept": 18,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g651682": {
    "from": "g274684",
@@ -40254,11 +41938,21 @@
   },
   "g651773": {
    "from": "g187275",
-   "distance_km": 502.0
+   "distance_km": 502.0,
+   "items": 19,
+   "kept": 11,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g651776": {
    "from": "g187275",
-   "distance_km": 490.6
+   "distance_km": 490.6,
+   "items": 22,
+   "kept": 12,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g651781": {
    "from": "g187275",
@@ -40778,7 +42472,12 @@
   },
   "g656834": {
    "from": "g187768",
-   "distance_km": 488.0
+   "distance_km": 488.0,
+   "items": 69,
+   "kept": 42,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g656841": {
    "from": "g187768",
@@ -40945,7 +42644,12 @@
   },
   "g658382": {
    "from": "g294453",
-   "distance_km": 486.3
+   "distance_km": 486.3,
+   "items": 171,
+   "kept": 37,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6584527": {
    "from": "g274922",
@@ -41024,7 +42728,12 @@
   },
   "g658753": {
    "from": "g188045",
-   "distance_km": 502.7
+   "distance_km": 502.7,
+   "items": 28,
+   "kept": 13,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g658759": {
    "from": "g188045",
@@ -41147,7 +42856,12 @@
   },
   "g6599168": {
    "from": "g274922",
-   "distance_km": 502.8
+   "distance_km": 502.8,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6599204": {
    "from": "g274922",
@@ -41185,7 +42899,12 @@
   },
   "g660190": {
    "from": "g274684",
-   "distance_km": 498.2
+   "distance_km": 498.2,
+   "items": 16,
+   "kept": 14,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g660192": {
    "from": "g274684",
@@ -41206,7 +42925,12 @@
   },
   "g660211": {
    "from": "g187275",
-   "distance_km": 503.0
+   "distance_km": 503.0,
+   "items": 17,
+   "kept": 13,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g660215": {
    "from": "g187275",
@@ -41384,7 +43108,12 @@
   },
   "g661423": {
    "from": "g187070",
-   "distance_km": 486.7
+   "distance_km": 486.7,
+   "items": 17,
+   "kept": 12,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g661468": {
    "from": "g187070",
@@ -41576,7 +43305,12 @@
   },
   "g6636677": {
    "from": "g274684",
-   "distance_km": 488.7
+   "distance_km": 488.7,
+   "items": 6,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6636679": {
    "from": "g274684",
@@ -41584,15 +43318,30 @@
   },
   "g6636685": {
    "from": "g274684",
-   "distance_km": 503.9
+   "distance_km": 503.9,
+   "items": 4,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g6636692": {
    "from": "g274684",
-   "distance_km": 505.4
+   "distance_km": 505.4,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g663670": {
    "from": "g187275",
-   "distance_km": 514.1
+   "distance_km": 514.1,
+   "items": 6,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g663679": {
    "from": "g274922",
@@ -42102,7 +43851,12 @@
   },
   "g666990": {
    "from": "g187768",
-   "distance_km": 488.0
+   "distance_km": 488.0,
+   "items": 46,
+   "kept": 33,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g666994": {
    "from": "g187070",
@@ -42839,7 +44593,12 @@
   },
   "g676773": {
    "from": "g274684",
-   "distance_km": 487.6
+   "distance_km": 487.6,
+   "items": 8,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g676776": {
    "from": "g274684",
@@ -42962,7 +44721,12 @@
   },
   "g678219": {
    "from": "g187275",
-   "distance_km": 512.2
+   "distance_km": 512.2,
+   "items": 10,
+   "kept": 9,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g678222": {
    "from": "g188045",
@@ -43287,7 +45051,12 @@
   },
   "g7022958": {
    "from": "g274684",
-   "distance_km": 486.4
+   "distance_km": 486.4,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7023518": {
    "from": "g274922",
@@ -43320,7 +45089,12 @@
   },
   "g7060033": {
    "from": "g188045",
-   "distance_km": 494.3
+   "distance_km": 494.3,
+   "items": 6,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7060260": {
    "from": "g274684",
@@ -43345,7 +45119,12 @@
   },
   "g7061019": {
    "from": "g274922",
-   "distance_km": 490.0
+   "distance_km": 490.0,
+   "items": 5,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7062334": {
    "from": "g188045",
@@ -43393,7 +45172,12 @@
   },
   "g7084474": {
    "from": "g274684",
-   "distance_km": 496.7
+   "distance_km": 496.7,
+   "items": 6,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7087550": {
    "from": "g190410",
@@ -43415,7 +45199,12 @@
   },
   "g7092325": {
    "from": "g274684",
-   "distance_km": 512.9
+   "distance_km": 512.9,
+   "items": 2,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7094996": {
    "from": "g274881",
@@ -43463,7 +45252,12 @@
   },
   "g7127597": {
    "from": "g294449",
-   "distance_km": 496.6
+   "distance_km": 496.6,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7127604": {
    "from": "g294449",
@@ -43638,7 +45432,12 @@
   },
   "g7245547": {
    "from": "g274684",
-   "distance_km": 495.7
+   "distance_km": 495.7,
+   "items": 8,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7248629": {
    "from": "g187275",
@@ -43699,7 +45498,12 @@
   },
   "g7262255": {
    "from": "g274684",
-   "distance_km": 492.7
+   "distance_km": 492.7,
+   "items": 7,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7265413": {
    "from": "g274862",
@@ -43858,15 +45662,30 @@
   },
   "g736252": {
    "from": "g187768",
-   "distance_km": 496.5
+   "distance_km": 496.5,
+   "items": 52,
+   "kept": 34,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g736260": {
    "from": "g187768",
-   "distance_km": 499.2
+   "distance_km": 499.2,
+   "items": 11,
+   "kept": 9,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g736263": {
    "from": "g187768",
-   "distance_km": 506.1
+   "distance_km": 506.1,
+   "items": 17,
+   "kept": 10,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g736264": {
    "from": "g187768",
@@ -44004,11 +45823,21 @@
   },
   "g7377430": {
    "from": "g274922",
-   "distance_km": 502.7
+   "distance_km": 502.7,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7377463": {
    "from": "g274881",
-   "distance_km": 490.1
+   "distance_km": 490.1,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7377516": {
    "from": "g294449",
@@ -44169,7 +45998,12 @@
   },
   "g754051": {
    "from": "g274881",
-   "distance_km": 513.3
+   "distance_km": 513.3,
+   "items": 6,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g754052": {
    "from": "g274881",
@@ -44325,7 +46159,12 @@
   },
   "g7675933": {
    "from": "g274684",
-   "distance_km": 509.6
+   "distance_km": 509.6,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7675949": {
    "from": "g274862",
@@ -44356,7 +46195,12 @@
   },
   "g7677382": {
    "from": "g188045",
-   "distance_km": 505.9
+   "distance_km": 505.9,
+   "items": 6,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7680589": {
    "from": "g274862",
@@ -44609,7 +46453,12 @@
   },
   "g7736715": {
    "from": "g274684",
-   "distance_km": 512.6
+   "distance_km": 512.6,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7736742": {
    "from": "g274881",
@@ -44702,7 +46551,12 @@
   },
   "g7743267": {
    "from": "g274684",
-   "distance_km": 488.8
+   "distance_km": 488.8,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7743347": {
    "from": "g274684",
@@ -44944,7 +46798,12 @@
   },
   "g777779": {
    "from": "g187768",
-   "distance_km": 489.0
+   "distance_km": 489.0,
+   "items": 6,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g778082": {
    "from": "g294449",
@@ -45044,7 +46903,12 @@
   },
   "g780819": {
    "from": "g187768",
-   "distance_km": 496.0
+   "distance_km": 496.0,
+   "items": 5,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g780930": {
    "from": "g187070",
@@ -45061,7 +46925,12 @@
   },
   "g7811132": {
    "from": "g274922",
-   "distance_km": 491.8
+   "distance_km": 491.8,
+   "items": 4,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7811143": {
    "from": "g274684",
@@ -45180,7 +47049,12 @@
   },
   "g7892776": {
    "from": "g274881",
-   "distance_km": 500.8
+   "distance_km": 500.8,
+   "items": 2,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7896549": {
    "from": "g274684",
@@ -45215,7 +47089,12 @@
   },
   "g790184": {
    "from": "g274684",
-   "distance_km": 509.5
+   "distance_km": 509.5,
+   "items": 3,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g790320": {
    "from": "g274684",
@@ -45236,7 +47115,12 @@
   },
   "g7908982": {
    "from": "g274684",
-   "distance_km": 511.2
+   "distance_km": 511.2,
+   "items": 1,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g7908984": {
    "from": "g187070",
@@ -45335,7 +47219,12 @@
   },
   "g793790": {
    "from": "g274881",
-   "distance_km": 511.7
+   "distance_km": 511.7,
+   "items": 20,
+   "kept": 12,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g793791": {
    "from": "g274881",
@@ -45457,7 +47346,12 @@
   },
   "g799601": {
    "from": "g274922",
-   "distance_km": 509.7
+   "distance_km": 509.7,
+   "items": 9,
+   "kept": 7,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g799602": {
    "from": "g274922",
@@ -46257,7 +48151,12 @@
   },
   "g8355785": {
    "from": "g274881",
-   "distance_km": 495.1
+   "distance_km": 495.1,
+   "items": 4,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g8355849": {
    "from": "g274922",
@@ -46413,7 +48312,12 @@
   },
   "g8465364": {
    "from": "g294453",
-   "distance_km": 495.1
+   "distance_km": 495.1,
+   "items": 7,
+   "kept": 1,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g8469344": {
    "from": "g187070",
@@ -46619,7 +48523,12 @@
   },
   "g8634404": {
    "from": "g274881",
-   "distance_km": 502.9
+   "distance_km": 502.9,
+   "items": 2,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g8635177": {
    "from": "g187070",
@@ -46662,7 +48571,12 @@
   },
   "g8654439": {
    "from": "g274881",
-   "distance_km": 513.1
+   "distance_km": 513.1,
+   "items": 5,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g8654614": {
    "from": "g294471",
@@ -46819,7 +48733,12 @@
   },
   "g8693962": {
    "from": "g294471",
-   "distance_km": 496.5
+   "distance_km": 496.5,
+   "items": 7,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g8698809": {
    "from": "g274922",
@@ -46924,7 +48843,12 @@
   },
   "g8750428": {
    "from": "g188045",
-   "distance_km": 492.0
+   "distance_km": 492.0,
+   "items": 3,
+   "kept": 3,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g8751031": {
    "from": "g274684",
@@ -46990,7 +48914,12 @@
   },
   "g8791704": {
    "from": "g188045",
-   "distance_km": 494.6
+   "distance_km": 494.6,
+   "items": 1,
+   "kept": 0,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g8798096": {
    "from": "g274881",
@@ -47063,7 +48992,12 @@
   },
   "g909121": {
    "from": "g187275",
-   "distance_km": 499.5
+   "distance_km": 499.5,
+   "items": 5,
+   "kept": 5,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g910519": {
    "from": "g188045",
@@ -47414,7 +49348,12 @@
   },
   "g946554": {
    "from": "g188045",
-   "distance_km": 513.6
+   "distance_km": 513.6,
+   "items": 4,
+   "kept": 4,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g946555": {
    "from": "g188045",
@@ -47465,7 +49404,12 @@
   },
   "g947749": {
    "from": "g187275",
-   "distance_km": 502.4
+   "distance_km": 502.4,
+   "items": 37,
+   "kept": 20,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g947829": {
    "from": "g187768",
@@ -47539,7 +49483,12 @@
   },
   "g950936": {
    "from": "g274684",
-   "distance_km": 505.7
+   "distance_km": 505.7,
+   "items": 12,
+   "kept": 8,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g951318": {
    "from": "g187768",
@@ -47666,7 +49615,12 @@
   },
   "g9698134": {
    "from": "g294471",
-   "distance_km": 513.8
+   "distance_km": 513.8,
+   "items": 8,
+   "kept": 6,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g970104": {
    "from": "g187070",
@@ -47713,7 +49667,12 @@
   },
   "g9723286": {
    "from": "g274881",
-   "distance_km": 488.8
+   "distance_km": 488.8,
+   "items": 4,
+   "kept": 2,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g9727851": {
    "from": "g274862",
@@ -47800,7 +49759,12 @@
   },
   "g983754": {
    "from": "g187275",
-   "distance_km": 495.6
+   "distance_km": 495.6,
+   "items": 17,
+   "kept": 11,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g983757": {
    "from": "g187275",
@@ -47808,7 +49772,12 @@
   },
   "g983764": {
    "from": "g187275",
-   "distance_km": 504.3
+   "distance_km": 504.3,
+   "items": 20,
+   "kept": 16,
+   "complete": true,
+   "error": "",
+   "listed": "2026-11-13T19:37:42+00:00"
   },
   "g983810": {
    "from": "g187275",
