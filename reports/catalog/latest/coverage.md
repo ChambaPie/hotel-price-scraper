@@ -1,4 +1,4 @@
-## Coverage: 3366 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3439 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -16,7 +16,6 @@
 | Genève | CH | 13 |
 | Frankfurt am Main | DE | 13 |
 | Leipzig | DE | 13 |
-| Napoli | IT | 13 |
 | Venezia | IT | 12 |
 | Wien | AT | 11 |
 | Praha | CZ | 10 |
@@ -26,9 +25,7 @@
 | Aix-en-Provence | FR | 9 |
 | Florence | IT | 9 |
 | Katowice | PL | 9 |
-| Baiersbronn | DE | 8 |
 | Erfurt | DE | 8 |
-| Chamonix-Mont-Blanc | FR | 8 |
 | Ancona | IT | 8 |
 | Scena | IT | 8 |
 | Sant'Agnello | IT | 8 |
@@ -42,3 +39,6 @@
 | Heidelberg | DE | 7 |
 | Meribel | FR | 7 |
 | Brescia | IT | 7 |
+| Košice | SK | 7 |
+| Stuttgart | DE | 6 |
+| Kassel | DE | 6 |
