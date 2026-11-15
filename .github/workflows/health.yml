@@ -37,11 +37,16 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          [ -s out/health_issue.md ] || exit 0
           title="Health check: scheduled runs are late or failing"
           n=$(gh issue list --label ops --state open --search "in:title \"$title\"" --json number --jq '.[0].number')
-          if [ -n "$n" ]; then gh issue comment "$n" --body-file out/health_issue.md
-          else gh issue create --title "$title" --label ops --body-file out/health_issue.md; fi
+          if [ ! -s out/health_issue.md ]; then          # all good: close a still-open health issue
+            [ -n "$n" ] && gh issue close "$n" --comment "All scheduled workflows are on time again."
+            exit 0
+          fi
+          if [ -z "$n" ]; then gh issue create --title "$title" --label ops --body-file out/health_issue.md; exit 0; fi
+          last=$(gh issue view "$n" --json comments,body --jq '(.comments[-1].body // .body)')
+          [ "$last" = "$(cat out/health_issue.md)" ] && { echo "same problems as last time; not commenting again"; exit 0; }
+          gh issue comment "$n" --body-file out/health_issue.md
       - name: Publish reports
         if: always()
         run: bash scripts/publish_reports.sh health
