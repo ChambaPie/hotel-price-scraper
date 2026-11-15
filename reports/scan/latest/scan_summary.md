@@ -1,7 +1,7 @@
-## Scan: 244 of 1500 watched properties checked (871 s)
+## Scan: 291 of 1500 watched properties checked (820 s)
 
-Failed: 256; no data: 0; nights whose class changed: 3813, of which turned cheap: 1264.
+Failed: 209; no data: 0; nights whose class changed: 6500, of which turned cheap: 2024.
 
-Errors: {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'} ×256
-Failures by kind: bed_and_breakfast: 95, hotel: 161
+Errors: {'status_code': 400, 'message': 'Failed to fetch heatmap data, please check your params and try again.'} ×209
+Failures by kind: hotel: 130, bed_and_breakfast: 79
 
