@@ -1,3 +1,3 @@
-## Booking.com collection: 336 calendars, 2016 calls, 2702 s
+## Booking.com collection: 429 calendars, 2574 calls, 2701 s
 
-Mapping: 5 found, 0 not found. Failed: 0. Last-minute cards: 607.
+Mapping: 0 found, 0 not found. Failed: 0. Last-minute cards: 0.
