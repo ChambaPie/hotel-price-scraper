@@ -11,7 +11,6 @@
 | Vatican City | VA | 14 |
 | Wien | AT | 11 |
 | Praha | CZ | 10 |
-| Riccione | IT | 10 |
 | Florence | IT | 9 |
 | Katowice | PL | 9 |
 | Ancona | IT | 8 |
@@ -28,6 +27,7 @@
 | Strasbourg | FR | 6 |
 | Porec | HR | 6 |
 | Budapest | HU | 6 |
+| Riccione | IT | 6 |
 | Sesto San Giovanni | IT | 6 |
 | Mostar | BA | 5 |
 | Karlovy Vary | CZ | 5 |
