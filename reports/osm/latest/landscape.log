@@ -1,0 +1,13 @@
+10:03:11   overpass attempt 1 via overpass-api.de failed after 1s: HTTP Error 502: Bad Gateway
+10:03:39 tile (42.463, 13.8806, 44.463, 15.8806): 1378 properties, 37580 feature points
+10:03:46   overpass attempt 1 via overpass-api.de failed after 0s: HTTP Error 502: Bad Gateway
+10:03:53   overpass attempt 1 via maps.mail.ru failed after 1s: HTTP Error 504: Gateway Time-out
+10:06:30   overpass attempt 1 via overpass.private.coffee failed after 150s: The read operation timed out
+10:07:37 tile (46.463, 9.8806, 48.463, 11.8806): 8148 properties, 22317 feature points
+10:08:43 tile (46.463, 15.8806, 48.463, 17.8806): 2517 properties, 12947 feature points
+## Landscape tags
+
+Tiles this run: 3; never processed: 66. Elevations: 59569 of 91809.
+
+Tags: countryside 63891, mountain 16636, ski 8767, beach 7468, sea 5907, city 5247, lake 2590
+

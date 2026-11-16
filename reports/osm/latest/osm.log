@@ -1,0 +1,55 @@
+09:32:52 76 tiles in the area, 10 never refreshed; refreshing 10 this run (budget 20 min)
+09:33:31 tile 1/10 (52.463, 15.8806, 52.836, 17.8806): 121 elements, 42 kept, 39.0s
+09:34:15 tile 2/10 (50.463, 5.8806, 52.463, 7.8806): 1420 elements, 342 kept, 35.9s
+09:36:16 tile 3/10 (50.463, 19.8806, 52.463, 21.8806): 704 elements, 175 kept, 114.3s
+09:36:22   overpass attempt 1 via overpass-api.de failed after 1s: HTTP Error 502: Bad Gateway
+09:36:53 tile 4/10 (44.463, 1.8806, 46.463, 3.8806): 638 elements, 111 kept, 32.0s
+09:37:02   overpass attempt 1 via maps.mail.ru failed after 1s: HTTP Error 504: Gateway Time-out
+09:39:38   overpass attempt 1 via overpass.private.coffee failed after 150s: The read operation timed out
+09:39:44   overpass attempt 1 via overpass-api.de failed after 1s: HTTP Error 502: Bad Gateway
+09:39:51   overpass attempt 2 via maps.mail.ru failed after 1s: HTTP Error 504: Gateway Time-out
+09:42:00 tile 5/10 (44.463, 23.8806, 46.463, 25.673): 1721 elements, 112 kept, 299.2s
+09:44:37   overpass attempt 1 via overpass.private.coffee failed after 150s: The read operation timed out
+09:44:44   overpass attempt 1 via overpass-api.de failed after 1s: HTTP Error 502: Bad Gateway
+09:45:12 tile 6/10 (46.463, 1.8806, 48.463, 3.8806): 424 elements, 45 kept, 185.3s
+09:46:13 tile 7/10 (46.463, 23.8806, 48.463, 25.673): 757 elements, 6 kept, 54.7s
+09:46:24   overpass attempt 1 via maps.mail.ru failed after 1s: HTTP Error 504: Gateway Time-out
+09:49:01   overpass attempt 1 via overpass.private.coffee failed after 150s: The read operation timed out
+09:49:07   overpass attempt 1 via overpass-api.de failed after 1s: HTTP Error 502: Bad Gateway
+09:49:13   overpass attempt 2 via maps.mail.ru failed after 1s: HTTP Error 504: Gateway Time-out
+09:51:55   overpass attempt 2 via overpass.private.coffee failed after 150s: The read operation timed out
+09:52:58 tile 8/10 (40.463, 21.8806, 42.463, 23.8806): 336 elements, 7 kept, 395.8s
+09:53:08 time budget reached after 8 tiles; the rest wait for the next run
+09:53:09 routing drive times for 839 properties
+## OpenStreetMap catalog: 44806 active properties, 5897 starred hotels
+
+Map tiles this run: 8 refreshed, 0 failed, 2 never refreshed yet (of 76); 1156s querying.
+
+Drive times: 839 routed now, 0 from cache, 0 pending, 0 unroutable, 836 left out (over the limit).
+
+| Country | bed_and_breakfast | hotel | Watched |
+|---|---|---|---|
+| IT | 10280 | 2116 | 2116 |
+| DE | 7386 | 826 | 826 |
+| AT | 6336 | 1057 | 1057 |
+| HU | 3211 | 201 | 201 |
+| CZ | 2995 | 299 | 299 |
+| FR | 1728 | 407 | 407 |
+| SK | 1622 | 145 | 145 |
+| HR | 1483 | 174 | 174 |
+| PL | 1297 | 73 | 73 |
+| CH | 1029 | 329 | 329 |
+| SI | 678 | 71 | 71 |
+| BA | 295 | 53 | 53 |
+| RS | 235 | 51 | 51 |
+| RO | 200 | 20 | 20 |
+| VA | 61 | 43 | 43 |
+| ME | 45 | 16 | 16 |
+| UA | 17 | 2 | 2 |
+| MC | 0 | 9 | 9 |
+| SM | 4 | 2 | 2 |
+| LI | 4 | 1 | 1 |
+| XK | 2 | 2 | 2 |
+| BG | 1 | 0 | 0 |
+
+09:53:26 new 3, back 0, gone 0; total 1234s
