@@ -1,6 +1,6 @@
 ## Health check
 
 - `scan.yml`: last success 2026-11-16T13:53:25Z
-- `booking.yml`: last success 2026-11-16T04:08:41Z
+- `booking.yml`: last success 2026-11-16T22:11:01Z
 - `catalog.yml`: last success 2026-11-16T12:27:44Z
 - `osm.yml`: last success 2026-11-16T10:09:02Z
