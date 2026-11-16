@@ -1,4 +1,4 @@
-## Coverage: 3864 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3875 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -9,7 +9,6 @@
 | Kraków | PL | 17 |
 | Nice | FR | 15 |
 | Vatican City | VA | 14 |
-| Venezia | IT | 12 |
 | Wien | AT | 11 |
 | Praha | CZ | 10 |
 | Riccione | IT | 10 |
@@ -34,11 +33,12 @@
 | Karlovy Vary | CZ | 5 |
 | Nürnberg | DE | 5 |
 | Frankfurt am Main | DE | 5 |
-| Punat | HR | 5 |
 | Bibione | IT | 5 |
-| Venice | IT | 5 |
+| Venezia | IT | 5 |
 | Rifiano | IT | 5 |
 | Krakow | PL | 5 |
 | Stari Grad | RS | 5 |
 | Salzburg | AT | 4 |
 | Eben am Achensee | AT | 4 |
+| Sölden | AT | 4 |
+| St. Anton am Arlberg | AT | 4 |
