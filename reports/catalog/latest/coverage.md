@@ -1,10 +1,10 @@
-## Coverage: 3884 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3883 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
 | Milano | IT | 34 |
 | Roma | IT | 30 |
-| Lech | AT | 19 |
+| Lech | AT | 23 |
 | Grado | IT | 17 |
 | Kraków | PL | 17 |
 | Nice | FR | 15 |
@@ -19,7 +19,6 @@
 | Timișoara | RO | 8 |
 | Seefeld in Tirol | AT | 7 |
 | Banja Luka | BA | 7 |
-| München | DE | 7 |
 | Lido di Iesolo | IT | 7 |
 | Brescia | IT | 7 |
 | Stuttgart | DE | 6 |
@@ -42,3 +41,4 @@
 | Eben am Achensee | AT | 4 |
 | Sölden | AT | 4 |
 | St. Anton am Arlberg | AT | 4 |
+| Zürich | CH | 4 |
