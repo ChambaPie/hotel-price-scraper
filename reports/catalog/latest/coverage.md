@@ -1,4 +1,4 @@
-## Coverage: 3875 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3877 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -11,10 +11,10 @@
 | Vatican City | VA | 14 |
 | Wien | AT | 11 |
 | Praha | CZ | 10 |
+| Scena | IT | 9 |
 | Florence | IT | 9 |
 | Katowice | PL | 9 |
 | Ancona | IT | 8 |
-| Scena | IT | 8 |
 | Tivat | ME | 8 |
 | Zakopane | PL | 8 |
 | Timișoara | RO | 8 |
@@ -38,7 +38,7 @@
 | Rifiano | IT | 5 |
 | Krakow | PL | 5 |
 | Stari Grad | RS | 5 |
-| Salzburg | AT | 4 |
+| Tux | AT | 4 |
 | Eben am Achensee | AT | 4 |
 | Sölden | AT | 4 |
 | St. Anton am Arlberg | AT | 4 |
