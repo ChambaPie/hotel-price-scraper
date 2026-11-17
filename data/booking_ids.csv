@@ -55,6 +55,7 @@ ta:g1197052-d1485364,,,0.585,not found,2026-11-10T08:58:34+00:00
 ta:g1197052-d1542747,at/smaragdhotel-tauernblick,Smaragdhotel Tauernblick,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g1197052-d1586671,at/senningerbrau,Hotel Senningerbräu,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g1204644-d1423362,it/b-amp-b-incanto,B&B Incanto,0.625,ok,2026-11-11T03:07:11+00:00
+ta:g1220549-d617509,it/cascina-pajanot,Cascina Pajanòt,0.625,ok,2026-11-17T20:03:58+00:00
 ta:g12994305-d268422,it/relaislacortedeipapi,Relais La Corte dei Papi,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g1383542-d2511304,it/cristallo-la-villa,Hotel Cristallo - Wellness Mountain Living,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g1419922-d1900948,it/waldhof,Hotel Waldhof,1.0,ok,2026-11-15T03:08:47+00:00
@@ -243,6 +244,7 @@ ta:g187855-d8333271,it/turin-palace,Turin Palace Hotel,0.733,ok,2026-11-11T03:07
 ta:g187859-d2025186,it/alpin-botique-villa-gabriela,Alpine Boutique Villa Gabriela - Adults Only,0.844,ok,2026-11-17T05:16:10+00:00
 ta:g187859-d671428,it/residence-granvara,Residence Granvara,0.733,ok,2026-11-11T03:07:11+00:00
 ta:g187859-d679198,it/residence-vroni,Sonus Alpis - Adults Only,0.667,ok,2026-11-11T03:07:11+00:00
+ta:g187860-d529259,it/villa-irma-merano,Hotel Villa Irma,1.0,ok,2026-11-17T20:03:58+00:00
 ta:g187860-d529262,it/sittnerhof,Hotel Sittnerhof,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g187860-d600713,it/therme-meran,Hotel Therme Meran - Terme Merano,0.667,ok,2026-11-13T03:39:01+00:00
 ta:g187861-d557205,it/venezia-trento,Hotel Venezia,0.737,ok,2026-11-15T18:00:15+00:00
@@ -298,14 +300,17 @@ ta:g187895-d1380402,it/borgia-di-firenze,Borgia di Firenze,0.765,ok,2026-11-11T0
 ta:g187895-d1416521,it/ponte-vecchio-suites-spa,Ponte Vecchio Suites & Spa,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g187895-d1446689,it/palazzo-vecchietti-residenza-d-epoca,Palazzo Vecchietti - Residenza D'Epoca,0.677,ok,2026-11-10T18:53:36+00:00
 ta:g187895-d1461957,it/golden-tower,Golden Tower Hotel & Spa,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d15239228,it/frame-hotel-florence,The Frame Hotel,1.0,ok,2026-11-17T20:03:58+00:00
 ta:g187895-d17703706,it/angeli-firenze,Hotel Calimala Florence,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g187895-d191159,it/modena-suites-florence,Aura Suites Florence,0.727,ok,2026-11-11T18:53:23+00:00
 ta:g187895-d195005,it/grand-villa-cora,Villa Cora,1.0,ok,2026-11-13T18:48:21+00:00
 ta:g187895-d195006,it/lungarno-vespucci-50,Hotel Lungarno Vespucci 50,0.615,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d195007,it/the-excelsior-a-luxury-collection-hotel-florence,"The Excelsior, a Luxury Collection Hotel, Florence",1.0,ok,2026-11-17T20:03:58+00:00
 ta:g187895-d195402,it/ariele,Hotel Ariele,1.0,ok,2026-11-12T19:10:51+00:00
 ta:g187895-d203921,it/david,Hotel David,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g187895-d2098651,it/palazzo-ridolfi,Palazzo Ridolfi - Residenza d'Epoca,0.741,ok,2026-11-11T03:07:11+00:00
 ta:g187895-d2257439,it/san-firenze-suites,San Firenze Suites & Spa,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d228967,it/albergottohotelfirenze,"Room Mate Collection Isabella, Florence",0.64,ok,2026-11-17T20:03:58+00:00
 ta:g187895-d229073,it/firenze-number-nine,Hotel Number Nine,0.609,ok,2026-11-11T18:53:23+00:00
 ta:g187895-d230717,it/hotelspadai,Hotel Spadai,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g187895-d232969,it/eco-urban-b-amp-b,Eco Urban B&B,0.632,ok,2026-11-11T18:53:23+00:00
@@ -315,7 +320,9 @@ ta:g187895-d262542,it/nh-collection-firenze-porta-rossa,"Porta Rossa Hotel Firen
 ta:g187895-d279283,it/iq-hotel-firenze,iQ Hotel Firenze,0.667,ok,2026-11-11T18:53:23+00:00
 ta:g187895-d296175,it/davanzati,Hotel Davanzati,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g187895-d305315,it/de-la-ville-firenze,Hotel De La Ville,0.64,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d3314157,it/firenze-number-nine,Hotel Number Nine,1.0,ok,2026-11-17T20:03:58+00:00
 ta:g187895-d4257276,it/b-amp-b-dell-39-olio,B&B Dell'Olio,0.714,ok,2026-11-14T03:38:11+00:00
+ta:g187895-d507157,it/villa-agape,Art Hotel Villa Agape - Place of Charme,1.0,ok,2026-11-17T20:03:58+00:00
 ta:g187895-d518382,it/msnhotel-relais-santa-croce,Palazzo Firenze by Baglioni Hotels & Resorts,1.0,ok,2026-11-12T04:22:21+00:00
 ta:g187895-d567732,it/bonciani,Floren Hotel,0.714,ok,2026-11-10T18:53:36+00:00
 ta:g187895-d5827160,it/borgia-di-firenze,Borgia di Firenze,0.733,ok,2026-11-10T18:53:36+00:00
@@ -484,6 +491,7 @@ ta:g194799-d1426168,it/larice-bianco,Hotel Larice Bianco,0.667,ok,2026-11-12T04:
 ta:g194799-d1637066,it/garni-roberta-livigno,Hotel Roberta Alpine - Adults only,0.722,ok,2026-11-10T18:53:36+00:00
 ta:g194799-d1744281,it/sonne,Eco & Wellness Boutique Hotel Sonne,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g194799-d1901491,it/baita-montana,Hotel Baita Montana,0.774,ok,2026-11-10T18:53:36+00:00
+ta:g194799-d314231,it/casa-marianna,Casa Marianna,0.6,ok,2026-11-17T20:03:58+00:00
 ta:g194799-d314262,it/posta-livigno,Hotel Posta,0.6,ok,2026-11-11T18:53:23+00:00
 ta:g194799-d529599,it/concordia-livigno,Hotel Concordia,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g194799-d602603,it/alp-wellness-mota,MOTA hotel,1.0,ok,2026-11-11T18:53:23+00:00
@@ -578,6 +586,7 @@ ta:g194912-d951755,it/alpina-dolomites,COMO Alpina Dolomites,0.649,ok,2026-11-17
 ta:g194915-d1151840,it/monica-santo-stefano-di-cadore,Casa Monica,0.625,ok,2026-11-11T03:07:11+00:00
 ta:g194915-d1966924,it/alpenblick,Hotel Alpenblick,1.0,ok,2026-11-12T04:22:21+00:00
 ta:g194915-d676425,it/family-resort-rainer,Family Resort Rainer Sexten,0.8,ok,2026-11-11T03:07:11+00:00
+ta:g194922-d1368464,it/cristallo-bormio,Hotel Cristallo,1.0,ok,2026-11-17T20:03:58+00:00
 ta:g194928-d1068730,it/rojan,Hotel Rojan,1.0,ok,2026-11-13T18:48:21+00:00
 ta:g194928-d3228276,it/b-amp-b-il-marchese-del-grillo,B&B Il Marchese Del Grillo,1.0,ok,2026-11-13T18:48:21+00:00
 ta:g194933-d1370749,it/belvitahoteladria,Hotel Adria,0.615,ok,2026-11-14T03:38:11+00:00
@@ -914,6 +923,8 @@ ta:g664150-d266469,it/residence-ca-del-lago,Residence Ca Del Lago,0.625,ok,2026-
 ta:g664160-d254104,ch/boutiquehotel-albergo-brione,Boutique Hotel Albergo Brione,0.703,ok,2026-11-12T19:10:51+00:00
 ta:g666530-d1020558,at/landhaus-koller,Landhaus Koller,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g667020-d1236658,at/alpenhotel-schwaigerhof,Hotel Schwaigerhof,1.0,ok,2026-11-10T04:49:10+00:00
+ta:g667205-d1056987,it/intermonti,Hotel Intermonti,0.6,ok,2026-11-17T20:03:58+00:00
+ta:g667205-d1993035,it/alpen-b-b-chalet-valdidentro,Alpen Hotel Chalet,0.667,ok,2026-11-17T20:03:58+00:00
 ta:g668227-d9454866,it/la-maison-de-elena-tuscany,La Maison de Elena Tuscany,0.632,ok,2026-11-14T03:38:11+00:00
 ta:g668546-d1383435,it/residence-vroni,Sonus Alpis - Adults Only,0.757,ok,2026-11-11T03:07:11+00:00
 ta:g668546-d3836197,it/arnaria,Hotel Arnaria,0.625,ok,2026-11-15T03:08:47+00:00
