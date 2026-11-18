@@ -1,89 +1,90 @@
-04:45:19 session token: yes
-04:45:46 town Rome: 141 cards, 1 of 24 matched
-04:45:59 empty search 'Lido di Iesolo': landed on https://www.booking.com/searchresults.en-gb.html?ss=Lido%20di%20Iesolo&checkin=2026-12-18&checkout=2026-12-19&group_adults=2&no_rooms=1&group_children=0&selecte title 'Booking.com: Search results: Lido%20di%20Iesolo. Book your hotel now!'
-04:46:11 empty search 'Lido di Iesolo': landed on https://www.booking.com/searchresults.en-gb.html?ss=Lido%20di%20Iesolo&checkin=2026-12-18&checkout=2026-12-19&group_adults=2&no_rooms=1&group_children=0&selecte title 'Booking.com: Search results: Lido%20di%20Iesolo. Book your hotel now!'
-04:46:11 town Lido di Iesolo: 0 cards, 0 of 14 matched
-04:46:38 town Venice: 147 cards, 0 of 11 matched
-04:47:04 town Cervia: 172 cards, 0 of 10 matched
-04:47:29 town Cattolica: 166 cards, 0 of 9 matched
-04:47:55 town Morzine: 144 cards, 1 of 8 matched
-04:48:21 town Napoli: 144 cards, 0 of 8 matched
-04:48:47 town Riccione: 103 cards, 0 of 7 matched
-04:49:13 town Florence: 149 cards, 2 of 6 matched
-04:49:39 town Vatican City: 149 cards, 0 of 6 matched
-04:50:04 town Stans: 115 cards, 0 of 5 matched
-04:50:30 town Stare Mesto: 145 cards, 0 of 5 matched
-04:50:56 town Bellaria-Igea Marina: 117 cards, 0 of 5 matched
-04:51:09 empty search 'Capezzano Inferiore': landed on https://www.booking.com/searchresults.en-gb.html?ss=Capezzano%20Inferiore&checkin=2026-12-18&checkout=2026-12-19&group_adults=2&no_rooms=1&group_children=0&sele title 'Booking.com: Search results: Capezzano%20Inferiore. Book your hotel now!'
-04:51:21 town Capezzano Inferiore: 0 cards, 0 of 5 matched
-04:51:47 town Sesto: 124 cards, 0 of 5 matched
-04:52:13 town Praiano: 95 cards, 0 of 5 matched
-04:52:39 town Sankt Anton am Arlberg: 160 cards, 0 of 4 matched
-04:53:04 town Eze: 97 cards, 0 of 4 matched
-04:53:30 town Sorrento: 146 cards, 0 of 4 matched
-04:53:56 town Positano: 54 cards, 0 of 4 matched
-04:54:21 town Massa Lubrense: 64 cards, 0 of 4 matched
-04:54:47 town Tirolo: 150 cards, 0 of 4 matched
-04:55:13 town Zermatt: 64 cards, 0 of 3 matched
-04:55:39 town Mala Strana: 75 cards, 0 of 3 matched
-04:56:05 town Verona: 148 cards, 0 of 3 matched
-04:56:32 town Milano: 147 cards, 0 of 3 matched
-04:56:58 town Salerno: 149 cards, 0 of 3 matched
-04:57:24 town Lignano Sabbiadoro: 87 cards, 0 of 3 matched
-04:57:50 town Moena: 166 cards, 0 of 3 matched
-04:58:16 town San Vigilio: 54 cards, 0 of 3 matched
-04:58:42 town Ortisei: 66 cards, 0 of 3 matched
-04:59:08 town Gatteo a Mare: 151 cards, 0 of 3 matched
-04:59:33 town Rivazzurra: 158 cards, 0 of 3 matched
-04:59:59 town Rio di Pusteria: 149 cards, 0 of 3 matched
-05:00:24 town Lana: 2 cards, 0 of 3 matched
-05:00:50 town Riva del Garda: 65 cards, 0 of 3 matched
-05:01:16 town Merano: 127 cards, 0 of 3 matched
-05:01:42 town Commezzadura: 121 cards, 0 of 3 matched
-05:02:07 town Sirmione: 68 cards, 0 of 3 matched
-05:02:33 town Gaiole in Chianti: 169 cards, 0 of 3 matched
-05:02:59 town Soll: 95 cards, 0 of 2 matched
-05:03:24 town Graen: 69 cards, 0 of 2 matched
-05:03:50 town Lech: 52 cards, 0 of 2 matched
-05:04:16 town Saas-Fee: 149 cards, 0 of 2 matched
-05:04:41 town Montana: 145 cards, 0 of 2 matched
-05:05:07 town Chamonix-Mont-Blanc: 85 cards, 0 of 2 matched
-05:05:33 town Guillestre: 86 cards, 0 of 2 matched
-05:05:59 town Cannes: 125 cards, 0 of 2 matched
-05:06:25 town Talloires: 153 cards, 0 of 2 matched
-05:06:52 town Budapest VI. keruelet: 71 cards, 0 of 2 matched
-05:07:18 town Racines: 153 cards, 0 of 2 matched
-05:07:43 town Massa: 145 cards, 0 of 2 matched
-05:08:09 town Levanto: 125 cards, 0 of 2 matched
-05:08:35 town Turin: 148 cards, 0 of 2 matched
-05:09:02 town Meta: 101 cards, 0 of 2 matched
-05:09:29 town Vico Equense: 65 cards, 0 of 2 matched
-05:09:54 town Atrani: 94 cards, 0 of 2 matched
-05:10:20 town Conca dei Marini: 151 cards, 0 of 2 matched
-05:10:46 town Bibione: 105 cards, 0 of 2 matched
-05:11:12 town Caorle: 167 cards, 0 of 2 matched
-05:11:38 town Cavallino: 37 cards, 0 of 2 matched
-05:12:04 town Badia: 160 cards, 0 of 2 matched
-05:12:31 town Canazei: 163 cards, 0 of 2 matched
-05:12:56 town Valdaora di Mezzo: 0 cards, 0 of 2 matched
-05:13:22 town Misano Adriatico: 110 cards, 0 of 2 matched
-05:13:48 town Caldaro sulla Strada del Vino: 165 cards, 0 of 2 matched
-05:14:13 town Cornaiano: 146 cards, 2 of 2 matched
-05:14:39 town Fai della Paganella: 152 cards, 1 of 2 matched
-05:15:05 town Andalo: 154 cards, 0 of 2 matched
-05:15:31 town Molveno: 151 cards, 1 of 2 matched
-05:15:56 town Scena: 143 cards, 0 of 2 matched
-05:16:22 town Caines: 157 cards, 1 of 2 matched
-05:16:47 town Mezzana: 125 cards, 0 of 2 matched
-05:17:13 town Parcines: 151 cards, 1 of 2 matched
-05:17:39 town Bardolino: 69 cards, 0 of 2 matched
-05:18:06 town Rabla: 149 cards, 0 of 2 matched
-05:18:31 town Naturno: 99 cards, 0 of 2 matched
-05:18:58 town Cogolo: 115 cards, 1 of 2 matched
-05:19:23 town Malles Venosta: 68 cards, 0 of 2 matched
-05:19:23 mapping: 11 found, 0 not found; 947 mapped
-05:30:16 time budget reached
-## Booking.com collection: 414 calendars, 2484 calls, 2701 s
+19:38:56 session token: yes
+19:39:10 empty search 'Rome': landed on https://www.booking.com/searchresults.en-gb.html?ss=Rome&checkin=2026-12-18&checkout=2026-12-19&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR title 'Booking.com: Search results: Rome. Book your hotel now!'
+19:39:22 empty search 'Rome': landed on https://www.booking.com/searchresults.en-gb.html?ss=Rome&checkin=2026-12-18&checkout=2026-12-19&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR title 'Booking.com: Search results: Rome. Book your hotel now!'
+19:39:22 town Rome: 0 cards, 0 of 25 matched
+19:39:35 empty search 'Lido di Iesolo': landed on https://www.booking.com/searchresults.en-gb.html?ss=Lido%20di%20Iesolo&checkin=2026-12-18&checkout=2026-12-19&group_adults=2&no_rooms=1&group_children=0&selecte title 'Booking.com: Search results: Lido%20di%20Iesolo. Book your hotel now!'
+19:39:48 town Lido di Iesolo: 0 cards, 0 of 9 matched
+19:40:13 town Andalo: 0 cards, 0 of 9 matched
+19:40:38 town Venice: 0 cards, 0 of 8 matched
+19:41:04 town Napoli: 0 cards, 0 of 8 matched
+19:41:29 town Florence: 0 cards, 0 of 7 matched
+19:41:54 town Vatican City: 0 cards, 0 of 7 matched
+19:42:20 town Sankt Anton am Arlberg: 0 cards, 0 of 6 matched
+19:42:45 town Stare Mesto: 0 cards, 0 of 6 matched
+19:43:10 town Stans: 0 cards, 0 of 5 matched
+19:43:36 town Riccione: 0 cards, 0 of 5 matched
+19:44:01 town Praiano: 0 cards, 0 of 5 matched
+19:44:26 town Lech: 0 cards, 0 of 4 matched
+19:44:52 town Zermatt: 0 cards, 0 of 4 matched
+19:45:17 town Alba Adriatica: 0 cards, 0 of 4 matched
+19:45:42 town Merano: 0 cards, 0 of 4 matched
+19:46:08 town Tirolo: 0 cards, 0 of 4 matched
+19:46:33 town Sirmione: 0 cards, 0 of 4 matched
+19:46:58 town Seefeld in Tirol: 0 cards, 0 of 3 matched
+19:47:24 town Saas-Fee: 0 cards, 0 of 3 matched
+19:47:50 town Mala Strana: 0 cards, 0 of 3 matched
+19:48:15 town Morzine: 0 cards, 0 of 3 matched
+19:48:40 town Eze: 0 cards, 0 of 3 matched
+19:49:06 town Montepulciano: 0 cards, 0 of 3 matched
+19:49:31 town Milano: 0 cards, 0 of 3 matched
+19:49:56 town Monterosso al Mare: 0 cards, 0 of 3 matched
+19:50:22 town Cattolica: 0 cards, 0 of 3 matched
+19:50:47 town Lana: 0 cards, 0 of 3 matched
+19:51:13 town Riva del Garda: 0 cards, 0 of 3 matched
+19:51:38 town Malcesine: 0 cards, 0 of 3 matched
+19:52:03 town Mezzana: 0 cards, 0 of 3 matched
+19:52:29 town Naturno: 0 cards, 0 of 3 matched
+19:52:54 town Gaiole in Chianti: 0 cards, 0 of 3 matched
+19:53:19 town Sorrento: 0 cards, 0 of 3 matched
+19:53:45 town Massa Lubrense: 0 cards, 0 of 3 matched
+19:54:11 town Positano: 0 cards, 0 of 3 matched
+19:54:36 town Soll: 0 cards, 0 of 2 matched
+19:55:02 town Soelden: 0 cards, 0 of 2 matched
+19:55:27 town Langkampfen: 0 cards, 0 of 2 matched
+19:55:52 town Fiss: 0 cards, 0 of 2 matched
+19:56:18 town Graen: 0 cards, 0 of 2 matched
+19:56:43 town Arosa: 0 cards, 0 of 2 matched
+19:57:09 town Montana: 0 cards, 0 of 2 matched
+19:57:34 town Gstaad: 0 cards, 0 of 2 matched
+19:58:00 town Bodenmais: 0 cards, 0 of 2 matched
+19:58:25 town Cannes: 0 cards, 0 of 2 matched
+19:58:50 town Zadar: 0 cards, 0 of 2 matched
+19:59:16 town Split: 0 cards, 0 of 2 matched
+19:59:41 town Budapest VI. keruelet: 0 cards, 0 of 2 matched
+20:00:07 town Racines: 0 cards, 0 of 2 matched
+20:00:32 town Loreto: 0 cards, 0 of 2 matched
+20:00:57 town Greve in Chianti: 0 cards, 0 of 2 matched
+20:01:23 town Sambuca: 0 cards, 0 of 2 matched
+20:01:48 town Belverde: 0 cards, 0 of 2 matched
+20:02:13 town Lucca: 0 cards, 0 of 2 matched
+20:02:39 town Massa: 0 cards, 0 of 2 matched
+20:03:04 town Villa Raspa: 0 cards, 0 of 2 matched
+20:03:30 town Levanto: 0 cards, 0 of 2 matched
+20:03:56 town Genoa: 0 cards, 0 of 2 matched
+20:04:21 town Gaeta: 0 cards, 0 of 2 matched
+20:04:47 town Lignano Sabbiadoro: 0 cards, 0 of 2 matched
+20:05:12 town Bibione: 0 cards, 0 of 2 matched
+20:05:37 town Cavallino: 0 cards, 0 of 2 matched
+20:06:03 town Canazei: 0 cards, 0 of 2 matched
+20:06:28 town Cervia: 0 cards, 0 of 2 matched
+20:06:54 town Rimini: 0 cards, 0 of 2 matched
+20:07:19 town Rivazzurra: 0 cards, 0 of 2 matched
+20:07:44 town Scena: 0 cards, 0 of 2 matched
+20:08:10 town Marlengo: 0 cards, 0 of 2 matched
+20:08:35 town Commezzadura: 0 cards, 0 of 2 matched
+20:09:01 town Lazise: 0 cards, 0 of 2 matched
+20:09:27 town Bardolino: 0 cards, 0 of 2 matched
+20:09:53 town Rabla: 0 cards, 0 of 2 matched
+20:10:18 town Bergamo: 0 cards, 0 of 2 matched
+20:10:44 town San Gimignano: 0 cards, 0 of 2 matched
+20:11:10 town Giulianova: 0 cards, 0 of 2 matched
+20:11:35 town Cadenabbia: 0 cards, 0 of 2 matched
+20:12:00 town Pescara: 0 cards, 0 of 2 matched
+20:12:26 town Cannobio: 0 cards, 0 of 2 matched
+20:12:51 town Roccaraso: 0 cards, 0 of 2 matched
+20:12:51 mapping: 0 found, 0 not found; 947 mapped
+20:23:54 time budget reached
+## Booking.com collection: 346 calendars, 2076 calls, 2701 s
 
-Mapping: 11 found, 0 not found. Failed: 0. Last-minute cards: 565.
+Mapping: 0 found, 0 not found. Failed: 0. Last-minute cards: 0.
 
