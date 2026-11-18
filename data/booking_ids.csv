@@ -11,9 +11,11 @@ ta:g1056049-d1006824,at/bergland-romantik,Adler Inn Tyrol Mountain Resort SUPERI
 ta:g1056049-d1145033,at/alpenhof-tux,Hotel Alpenhof,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g1056049-d673153,at/berghof-hintertux,Hotel Berghof Crystal Spa & Sports,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g1060376-d2686895,at/alpenhotel-montafon-and-spa,Alpenhotel Montafon & SPA,0.683,ok,2026-11-12T19:10:51+00:00
+ta:g1078285-d2651853,it/merano-city-living,Merano City Living,0.71,ok,2026-11-18T04:45:15+00:00
 ta:g1079897-d2092815,it/a-restaurant-brunner,Hotel Avelina,0.615,ok,2026-11-11T18:53:23+00:00
 ta:g1079897-d667643,it/wiesenhof-algund,Hotel Wiesenhof,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g1081261-d1876757,it/rooms-kronblick,Rooms Kronblick,0.783,ok,2026-11-17T05:16:10+00:00
+ta:g1095214-d1187860,it/alpin-wellness-kristiania,Kristiania Pure Nature Hotel & Spa,1.0,ok,2026-11-18T04:45:15+00:00
 ta:g1095749-d2275025,it/agriturismo-sole,Agriturismo Sole,0.778,ok,2026-11-14T17:20:21+00:00
 ta:g1095838-d1159197,it/tirler-dolomites-living,Tirler Dolomites Living Hotel,1.0,ok,2026-11-12T04:22:21+00:00
 ta:g1095838-d1863488,it/alpina-dolomites,COMO Alpina Dolomites,1.0,ok,2026-11-11T03:07:11+00:00
@@ -39,6 +41,7 @@ ta:g1183708-d1189951,at/inntalerhof,Inntaler Hof,0.762,ok,2026-11-12T19:10:51+00
 ta:g1183879-d2698757,it/fiera-rimini,Hotel Fiera Rimini,0.727,ok,2026-11-11T03:07:11+00:00
 ta:g1184636-d567545,it/granpanoramaresidencehotelmiramonti,Miramonti Boutique Hotel - SLH Collection,0.723,ok,2026-11-15T18:00:15+00:00
 ta:g1184636-d623105,it/vigilius-mountain-resort,Vigilius Mountain Resort,0.621,ok,2026-11-11T18:53:23+00:00
+ta:g1185111-d2275555,it/grabmayrhof,Grabmayrhof,0.636,ok,2026-11-18T04:45:15+00:00
 ta:g1186760-d1194779,it/quellenhof-see-lodge,Quellenhof See Lodge,0.619,ok,2026-11-12T04:22:21+00:00
 ta:g1186760-d23832453,it/quellenhof-see-lodge,Quellenhof See Lodge,1.0,ok,2026-11-12T04:22:21+00:00
 ta:g1186760-d28040768,it/chalet-das-alpenschlossel,Hotel Chalet Das Alpenschlössel,1.0,ok,2026-11-11T18:53:23+00:00
@@ -60,6 +63,7 @@ ta:g12994305-d268422,it/relaislacortedeipapi,Relais La Corte dei Papi,1.0,ok,202
 ta:g1383542-d2511304,it/cristallo-la-villa,Hotel Cristallo - Wellness Mountain Living,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g1419922-d1900948,it/waldhof,Hotel Waldhof,1.0,ok,2026-11-15T03:08:47+00:00
 ta:g1425788-d1569429,it/garni-la-roccia,Hotel Garni La Roccia,0.609,ok,2026-11-13T18:48:21+00:00
+ta:g1436137-d1774470,it/weinegg,Weinegg Wellviva Resort,1.0,ok,2026-11-18T04:45:15+00:00
 ta:g15010878-d279183,it/gardena-grodnerhof,Gardena Grödnerhof - Hotel & Spa,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g15701407-d941501,it/tirolerhof-terento1,Hotel Tirolerhof,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g16876028-d1734890,at/gintherhof,Gintherhof,1.0,ok,2026-11-09T12:01:03+00:00
@@ -174,6 +178,7 @@ ta:g187791-d3929140,it/casa-jk-place-roma,Casa JK Place Roma,0.846,ok,2026-11-10
 ta:g187791-d4028829,it/casa-monti-roma-roma,Casa Monti Roma,0.75,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d497255,it/infinity-hotel-st-peter,Hotel Infinity San Pietro,0.615,ok,2026-11-11T03:07:11+00:00
 ta:g187791-d531936,it/torre-argentina-relais-residenze-di-charme,Torre Argentina Relais - Residenze di Charme,0.633,ok,2026-11-13T03:39:01+00:00
+ta:g187791-d597703,it/villa-spalletti-trivelli,Villa Spalletti Trivelli - Small Luxury Hotels of the World,0.647,ok,2026-11-18T04:45:15+00:00
 ta:g187791-d6030326,it/home-sweet-rome-roma7,Home Sweet Rome Vatican,0.606,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d626945,it/rome-sleep-home-roma,Rome Sleep Home Bed & Breakfast,0.609,ok,2026-11-14T17:20:21+00:00
 ta:g187791-d6353278,it/rome55,Rome55 - Piazza di Spagna,0.8,ok,2026-11-14T03:38:11+00:00
@@ -296,6 +301,7 @@ ta:g187871-d2222738,it/opera-relais-de-charme,Opera Relais De Charme - Aparthote
 ta:g187871-d232955,it/accademia-verona,Hotel Accademia,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g187894-d13943300,it/monastero-di-cortona,Monastero di Cortona Hotel & Spa,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g187895-d1061038,it/borgia-di-firenze,Borgia di Firenze,0.625,ok,2026-11-11T03:07:11+00:00
+ta:g187895-d12920834,it/globus,Globus Urban Hotel,0.632,ok,2026-11-18T04:45:15+00:00
 ta:g187895-d1380402,it/borgia-di-firenze,Borgia di Firenze,0.765,ok,2026-11-11T03:07:11+00:00
 ta:g187895-d1416521,it/ponte-vecchio-suites-spa,Ponte Vecchio Suites & Spa,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g187895-d1446689,it/palazzo-vecchietti-residenza-d-epoca,Palazzo Vecchietti - Residenza D'Epoca,0.677,ok,2026-11-10T18:53:36+00:00
@@ -326,6 +332,7 @@ ta:g187895-d507157,it/villa-agape,Art Hotel Villa Agape - Place of Charme,1.0,ok
 ta:g187895-d518382,it/msnhotel-relais-santa-croce,Palazzo Firenze by Baglioni Hotels & Resorts,1.0,ok,2026-11-12T04:22:21+00:00
 ta:g187895-d567732,it/bonciani,Floren Hotel,0.714,ok,2026-11-10T18:53:36+00:00
 ta:g187895-d5827160,it/borgia-di-firenze,Borgia di Firenze,0.733,ok,2026-11-10T18:53:36+00:00
+ta:g187895-d593710,it/guelfo-bianco,II Guelfo Bianco,0.606,ok,2026-11-18T04:45:15+00:00
 ta:g187895-d7165960,it/san-giuliano-inn,San Giuliano Inn,1.0,ok,2026-11-14T17:20:21+00:00
 ta:g187895-d7778170,it/palazzo-castri-1874,Palazzo Castri 1874 Spa & Garden,0.85,ok,2026-11-10T18:53:36+00:00
 ta:g187895-d7907354,it/fuordarno-bed-breakfast,FuordArno Bed & Breakfast,0.686,ok,2026-11-13T18:48:21+00:00
@@ -512,6 +519,7 @@ ta:g194823-d2175614,it/bellettinihome,Bellettinihome,0.833,ok,2026-11-10T18:53:3
 ta:g194823-d529802,it/adria-milano-marittima,Hotel Adria,0.667,ok,2026-11-11T03:07:11+00:00
 ta:g194825-d1146382,it/villa-clara-provincia-di-trento1,Spires Hotel,0.667,ok,2026-11-13T03:39:01+00:00
 ta:g194825-d529191,it/leading-relax-maria,Leading Relax Hotel Maria,1.0,ok,2026-11-13T03:39:01+00:00
+ta:g194827-d1473185,it/alexander-molveno,Alexander Hotel Alpine Wellness Dolomites,1.0,ok,2026-11-18T04:45:15+00:00
 ta:g194827-d1792834,it/ai-mughi,Dolomeet Boutique Hotel,0.7,ok,2026-11-11T03:07:11+00:00
 ta:g194832-d482692,it/hotelpresidentterme,Hotel President Terme,0.72,ok,2026-11-15T03:08:47+00:00
 ta:g194832-d529633,it/esplanade-tergesteo,Esplanade Tergesteo - Luxury Retreat,1.0,ok,2026-11-15T03:08:47+00:00
@@ -592,6 +600,7 @@ ta:g194928-d3228276,it/b-amp-b-il-marchese-del-grillo,B&B Il Marchese Del Grillo
 ta:g194933-d1370749,it/belvitahoteladria,Hotel Adria,0.615,ok,2026-11-14T03:38:11+00:00
 ta:g194933-d1414971,it/stadele,Stadele,0.615,ok,2026-11-12T19:10:51+00:00
 ta:g194933-d1594133,it/golserhof,Golserhof,0.778,ok,2026-11-10T18:53:36+00:00
+ta:g194933-d529713,it/sittnerhof,Hotel Sittnerhof,0.632,ok,2026-11-18T04:45:15+00:00
 ta:g194933-d7274286,it/garni-somvi,SomVita Suites,1.0,ok,2026-11-13T03:39:01+00:00
 ta:g194935-d314166,it/lago-di-garda,Hotel Lago Di Garda,1.0,ok,2026-11-15T18:00:15+00:00
 ta:g194947-d1437339,it/appartamento-bebe-39-3,Villa Bebe',0.632,ok,2026-11-14T03:38:11+00:00
@@ -626,6 +635,7 @@ ta:g1996590-d6586134,it/villa-pina-vico-equense,Villa Pina,0.615,ok,2026-11-12T0
 ta:g207359-d1958878,fr/chalet-sur-les-monts-morzine,Chalet sur les monts Morzine,0.667,ok,2026-11-13T03:39:01+00:00
 ta:g207359-d1974095,fr/chalet-bruno-chatel4,Chalet Bruno,0.667,ok,2026-11-12T04:22:21+00:00
 ta:g207359-d498391,fr/chalet-fleur-d-aulps-ovo-network,Chalet Fleur D'Aulps - OVO Network,0.638,ok,2026-11-12T04:22:21+00:00
+ta:g207359-d500731,fr/ha-tel-champs-fleuris-morzine,Hôtel Champs Fleuris Morzine,0.788,ok,2026-11-18T04:45:15+00:00
 ta:g207359-d602571,fr/la-bergerie-morzine,Hôtel La Bergerie,1.0,ok,2026-11-17T05:16:10+00:00
 ta:g2205243-d2194477,at/restaurant-prechtlhof-althofen,Hotel Prechtlhof,1.0,ok,2026-11-10T04:49:10+00:00
 ta:g2274029-d2301591,at/berghotel-presslauer,Berghotel Presslauer,1.0,ok,2026-11-09T12:11:39+00:00
@@ -921,6 +931,7 @@ ta:g663652-d1021107,at/wellnesshotel-eggerwirt,Wellnesshotel Eggerwirt,1.0,ok,20
 ta:g664064-d3746598,it/il-girasole-peschiera-del-garda,Il Girasole,0.625,ok,2026-11-14T17:20:21+00:00
 ta:g664150-d266469,it/residence-ca-del-lago,Residence Ca Del Lago,0.625,ok,2026-11-11T18:53:23+00:00
 ta:g664160-d254104,ch/boutiquehotel-albergo-brione,Boutique Hotel Albergo Brione,0.703,ok,2026-11-12T19:10:51+00:00
+ta:g664820-d1926308,it/ai-mughi,Dolomeet Boutique Hotel,0.757,ok,2026-11-18T04:45:15+00:00
 ta:g666530-d1020558,at/landhaus-koller,Landhaus Koller,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g667020-d1236658,at/alpenhotel-schwaigerhof,Hotel Schwaigerhof,1.0,ok,2026-11-10T04:49:10+00:00
 ta:g667205-d1056987,it/intermonti,Hotel Intermonti,0.6,ok,2026-11-17T20:03:58+00:00
