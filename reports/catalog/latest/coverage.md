@@ -1,4 +1,4 @@
-## Coverage: 3906 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3916 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -9,7 +9,6 @@
 | Kraków | PL | 17 |
 | Nice | FR | 15 |
 | Vatican City | VA | 14 |
-| Praha | CZ | 10 |
 | Scena | IT | 9 |
 | Katowice | PL | 9 |
 | Wien | AT | 8 |
@@ -21,6 +20,7 @@
 | Banja Luka | BA | 7 |
 | Lido di Iesolo | IT | 7 |
 | Brescia | IT | 7 |
+| Praha | CZ | 6 |
 | Nürnberg | DE | 6 |
 | Stuttgart | DE | 6 |
 | Strasbourg | FR | 6 |
