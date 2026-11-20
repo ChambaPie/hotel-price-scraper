@@ -126,6 +126,7 @@ ta:g187782-d579275,it/laminervetta,Maison La Minervetta,1.0,ok,2026-11-10T18:53:
 ta:g187782-d611764,it/villa-eugenia-sorrento,Villa Eugenia,0.696,ok,2026-11-11T03:07:11+00:00
 ta:g187782-d675580,it/sorrento-flats,Sorrento Flats,1.0,ok,2026-11-14T17:20:21+00:00
 ta:g187782-d969689,it/grace-suites,Grace Suites Sorrento,0.743,ok,2026-11-20T04:22:57+00:00
+ta:g187785-d10067502,it/santa-chiara-boutique,Santa Chiara Boutique Hotel,1.0,ok,2026-11-20T19:16:24+00:00
 ta:g187785-d10677590,it/napolimia,NapoliMia Boutique Hotel,0.621,ok,2026-11-10T18:53:36+00:00
 ta:g187785-d12686661,it/botanic-garden-napoli,Botanic Garden,0.645,ok,2026-11-14T03:38:11+00:00
 ta:g187785-d12728231,it/napoli-tree-lungomare,Napoli Tree - Lungomare,0.667,ok,2026-11-10T18:53:36+00:00
@@ -381,6 +382,7 @@ ta:g188064-d228134,ch/cascada,Cascada Boutique Hotel,1.0,ok,2026-11-10T18:53:36+
 ta:g188064-d232990,ch/continental-park,Hotel Continental Park,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g188064-d234238,ch/mandarin-oriental-palace-luzern,"Mandarin Oriental Palace, Luzern",1.0,ok,2026-11-10T18:53:36+00:00
 ta:g188079-d197813,ch/le-grand-chalet-gstaad,Hotel Le Grand Chalet Gstaad,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g188079-d244787,ch/grand-bellevue,Le Grand Bellevue,1.0,ok,2026-11-20T19:16:24+00:00
 ta:g188079-d3345157,ch/the-alpina-gstaad,The Alpina Gstaad,1.0,ok,2026-11-13T03:39:01+00:00
 ta:g188080-d24981975,ch/fiescherblick-grindelwald,Hotel Fiescherblick,1.0,ok,2026-11-11T03:07:11+00:00
 ta:g188080-d253751,ch/hotel-kreuz,Hotel Kreuz & Post Grindelwald,0.65,ok,2026-11-10T18:53:36+00:00
@@ -462,6 +464,7 @@ ta:g194676-d2426128,it/palazzo-dei-mercanti,Palazzo Dei Mercanti - Dimora & Spa,
 ta:g194676-d680843,it/residenza-100-torri,Hotel & Residenza 100 Torri,1.0,ok,2026-11-12T19:10:51+00:00
 ta:g194680-d1836000,it/gran-paradis,Hotel Gran Paradis,0.6,ok,2026-11-12T04:22:21+00:00
 ta:g194680-d2066660,it/miraval-naturhotel,Miraval NaturHotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g194683-d1109964,it/villa-andrea-garda,Villa Andrea,0.6,ok,2026-11-20T19:16:24+00:00
 ta:g194683-d287934,it/caesius-thermae-spa-resort,Hotel Caesius Thermae & Spa Resort,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g194688-d1493822,it/residenza-mare,Villa Giulia,0.7,ok,2026-11-11T03:07:11+00:00
 ta:g194691-d1438679,it/costa-rica-bibione-aparthotel,Costa Rica Bibione Aparthotel,0.605,ok,2026-11-10T18:53:36+00:00
@@ -677,6 +680,7 @@ ta:g262035-d315708,at/goldener-berg,Hotel Goldener Berg,0.636,ok,2026-11-10T18:5
 ta:g262035-d316306,at/gotthard,Hotel Gotthard,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g262035-d316322,at/auenhof-lech,Hotel Auenhof,0.714,ok,2026-11-10T18:53:36+00:00
 ta:g262035-d500535,at/goldener-berg,Hotel Goldener Berg,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g262035-d620774,at/winklerhof-holzgau,Panorama-Hotel Winklerhof,0.615,ok,2026-11-20T19:16:24+00:00
 ta:g262035-d657387,at/erzberg,Hotel Erzberg,0.625,ok,2026-11-12T04:22:21+00:00
 ta:g262035-d850390,at/austria-lech,Hotel Austria Lech,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g274697-d16745435,cz/revelton-studios-karlovy-vary,Revelton Studios Karlovy Vary,1.0,ok,2026-11-10T18:53:36+00:00
@@ -858,6 +862,7 @@ ta:g608676-d1647036,at/haldenhof,Haldenhof,0.632,ok,2026-11-10T18:53:36+00:00
 ta:g608676-d195368,at/schwarzer-adler-st-anton,Hotel Schwarzer Adler,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g608676-d1972626,at/gridlon,Hotel Gridlon,0.667,ok,2026-11-11T18:53:23+00:00
 ta:g608676-d2293485,at/m3,m3Hotel,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g608676-d638814,at/alpina-galtur,Hotel Alpina,0.75,ok,2026-11-20T19:16:24+00:00
 ta:g608676-d943527,at/rundeck,Hotel Rundeck,0.737,ok,2026-11-10T18:53:36+00:00
 ta:g608679-d1142979,,,0.0,not found,2026-11-09T12:01:03+00:00
 ta:g608679-d659782,at/bergland-solden,Bergland Design- und Wellnesshotel,0.828,ok,2026-11-11T18:53:23+00:00
@@ -876,6 +881,7 @@ ta:g608939-d2181703,it/casa-di-papa-montefalco1,Casa di Papà,0.632,ok,2026-11-1
 ta:g612437-d1099062,it/park-folgarida-di-dimaro,Park Hotel,0.615,ok,2026-11-12T19:10:51+00:00
 ta:g612437-d1114303,it/le-blanc-spa,Brenta Dolomites,0.667,ok,2026-11-13T03:39:01+00:00
 ta:g612437-d1224845,it/cristal-palace-madonna-di-campiglio-tn,Cristal Palace Hotel,0.643,ok,2026-11-10T18:53:36+00:00
+ta:g612437-d1516232,it/fontanella,Hotel Fontanella,0.632,ok,2026-11-20T19:16:24+00:00
 ta:g612437-d1860200,it/alpinhome-family-amp-friends,[AlpinHome] Family & Friends,0.632,ok,2026-11-13T18:48:21+00:00
 ta:g612437-d571556,it/cavallino-andalo,Cavallino Lovely Hotel,1.0,ok,2026-11-13T03:39:01+00:00
 ta:g612437-d572375,it/piccolo-suite-resort,Il Piccolo Dolomiti Resort,1.0,ok,2026-11-10T18:53:36+00:00
@@ -946,6 +952,7 @@ ta:g658453-d1226799,hr/villa-ika-rascane,Villa Ika,0.632,ok,2026-11-11T03:07:11+
 ta:g660756-d1184847,at/thermen-vitalhotel-superior-bad-tatzmannsdorf,Reduce Hotel Vital,0.75,ok,2026-11-12T19:10:51+00:00
 ta:g660756-d1373883,at/thermen-vitalhotel-superior-bad-tatzmannsdorf,Reduce Hotel Vital,1.0,ok,2026-11-12T19:10:51+00:00
 ta:g663602-d1020679,it/restaurant-oberwirt,Hotel Oberwirt,0.667,ok,2026-11-12T04:22:21+00:00
+ta:g663602-d1230681,it/la-maiena-life-resort,La Maiena Meran Resort,1.0,ok,2026-11-20T19:16:24+00:00
 ta:g663652-d1021107,at/wellnesshotel-eggerwirt,Wellnesshotel Eggerwirt,1.0,ok,2026-11-09T13:10:35+00:00
 ta:g664064-d3746598,it/il-girasole-peschiera-del-garda,Il Girasole,0.625,ok,2026-11-14T17:20:21+00:00
 ta:g664150-d266469,it/residence-ca-del-lago,Residence Ca Del Lago,0.625,ok,2026-11-11T18:53:23+00:00
