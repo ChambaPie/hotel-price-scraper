@@ -3,4 +3,4 @@
 - `scan.yml`: last success 2026-11-20T14:14:37Z
 - `booking.yml`: last success 2026-11-20T05:11:21Z
 - `catalog.yml`: last success 2026-11-20T12:35:14Z
-- `osm.yml`: last success 2026-11-16T10:09:02Z
+- `osm.yml`: last success 2026-11-20T15:09:30Z
