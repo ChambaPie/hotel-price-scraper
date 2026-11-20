@@ -1,5 +1,5 @@
 ## Landscape tags
 
-Tiles this run: 3; never processed: 66. Elevations: 59569 of 91809.
+Tiles this run: 0; never processed: 66. Elevations: 89114 of 95800.
 
-Tags: countryside 63891, mountain 16636, ski 8767, beach 7468, sea 5907, city 5247, lake 2590
+Tags:  61545, mountain 17941, ski 8767, beach 7468, sea 5907, city 5247, countryside 5034, lake 2590
