@@ -1,4 +1,4 @@
-## Coverage: 3916 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3917 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -21,6 +21,7 @@
 | Lido di Iesolo | IT | 7 |
 | Brescia | IT | 7 |
 | Praha | CZ | 6 |
+| Karlovy Vary | CZ | 6 |
 | Nürnberg | DE | 6 |
 | Stuttgart | DE | 6 |
 | Strasbourg | FR | 6 |
@@ -29,7 +30,6 @@
 | Riccione | IT | 6 |
 | Sesto San Giovanni | IT | 6 |
 | Mostar | BA | 5 |
-| Karlovy Vary | CZ | 5 |
 | Frankfurt am Main | DE | 5 |
 | Bibione | IT | 5 |
 | Venezia | IT | 5 |
