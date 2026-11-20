@@ -17,6 +17,12 @@ from .spike import calendar_payload
 TOKEN = re.compile(r"b_csrf_token:\s*'(.+?)'")
 
 
+def guest_params(adults: int, rooms: int, children_ages: list[int] | None = None) -> list[tuple]:
+    """Booking.com party parameters: group_adults, no_rooms, group_children and one `age` per child."""
+    ages = [int(a) for a in children_ages or []]
+    return [("group_adults", adults), ("no_rooms", rooms), ("group_children", len(ages))] + [("age", a) for a in ages]
+
+
 def parse_price(raw: str) -> float | None:
     """Calendar price strings: "364", "€ 1,234", "US$1.1K" (Booking.com abbreviates thousands as K, millions as M)."""
     s = (raw or "").strip().upper().replace("\u00a0", " ")
@@ -59,9 +65,11 @@ def launch_browser(pw, headless: bool = True):
 
 class BookingSession:
     def __init__(self, base_url: str, user_agent: str, accept_language: str, adults: int, rooms: int, currency: str,
-                 headless: bool = True, log=print, cookies: list[dict] | None = None):
+                 headless: bool = True, log=print, cookies: list[dict] | None = None,
+                 children_ages: list[int] | None = None):
         self.base, self.ua, self.lang = base_url.rstrip("/"), user_agent, accept_language
         self.adults, self.rooms, self.currency, self.headless, self.log = adults, rooms, currency, headless, log
+        self.children_ages = [int(a) for a in children_ages or []]   # search and hotel pages; calendars are adults only
         self.token, self.currency_seen, self.calls = "", "", 0
         self.diag_dir, self.diag_left = None, 3   # save a few empty search pages for diagnosis
         self.cookies = cookies or []              # optional signed-in session (Playwright cookie dicts)
@@ -108,9 +116,10 @@ class BookingSession:
                nflt: str = "") -> list[dict]:
         """Property cards for a destination or hotel name: [{name, cc, slug, price_text}].
         A hotel-name search can land straight on that hotel's page: then that hotel is returned as the only card."""
-        params = urlencode({"ss": query, "checkin": checkin.isoformat(), "checkout": (checkin + timedelta(days=1)).isoformat(),
-                            "group_adults": self.adults, "no_rooms": self.rooms, "group_children": 0,
-                            "selected_currency": self.currency, **({"nflt": nflt} if nflt else {})},
+        params = urlencode([("ss", query), ("checkin", checkin.isoformat()),
+                            ("checkout", (checkin + timedelta(days=1)).isoformat()),
+                            *guest_params(self.adults, self.rooms, self.children_ages),
+                            ("selected_currency", self.currency), *([("nflt", nflt)] if nflt else [])],
                            quote_via=quote)  # spaces as %20: Booking.com keeps '+' literally
         self.page.goto(f"{self.base}/searchresults.en-gb.html?{params}", wait_until="domcontentloaded", timeout=60000)
         html, cards = self._wait_for(CARDS_JS, "property-card", wait)
@@ -166,9 +175,9 @@ class BookingSession:
     def offers(self, cc: str, slug: str, night: date, nights: int = 1) -> list[dict]:
         """Room offers for a stay starting `night` (`nights` long, e.g. a minimum stay): price for the whole stay,
         per_night, currency, board, cancellation."""
-        params = urlencode({"checkin": night.isoformat(), "checkout": (night + timedelta(days=nights)).isoformat(),
-                            "group_adults": self.adults, "no_rooms": self.rooms, "group_children": 0,
-                            "selected_currency": self.currency, "changed_currency": 1, "lang": "en-gb"})
+        params = urlencode([("checkin", night.isoformat()), ("checkout", (night + timedelta(days=nights)).isoformat()),
+                            *guest_params(self.adults, self.rooms, self.children_ages),
+                            ("selected_currency", self.currency), ("changed_currency", 1), ("lang", "en-gb")])
         self.page.goto(f"{self.base}/hotel/{cc}/{slug}.html?{params}", wait_until="domcontentloaded", timeout=60000)
         _, rows = self._wait_for(ROWS_JS, "b_csrf_token", 40)
         out = []

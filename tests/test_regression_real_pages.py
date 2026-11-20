@@ -34,3 +34,13 @@ def test_tripadvisor_list_real_trieste_page():
     assert ta_refresh.ids(sav) == ("g187813", "g187813-d203235")
     p = ta_refresh.to_property(sav, "g187813", (45.6495, 13.7768), 800, {"hotel": ["Hotel"]})
     assert p.name.startswith("Savoia Excelsior Palace") and p.review_score == 4.7 and p.review_count == 2422
+
+
+def test_guest_params_children_ages():
+    """Party size is a setting (owner, 2026-11-20): one `age` parameter per child, as Booking.com's own URLs have."""
+    from urllib.parse import parse_qs, urlencode
+
+    from hotel_scraper.booking_session import guest_params
+    assert guest_params(2, 1) == [("group_adults", 2), ("no_rooms", 1), ("group_children", 0)]
+    q = parse_qs(urlencode(guest_params(2, 1, [7, 11])))
+    assert q == {"group_adults": ["2"], "no_rooms": ["1"], "group_children": ["2"], "age": ["7", "11"]}
