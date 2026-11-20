@@ -29,7 +29,9 @@ def test_tags():
     assert ls.tags_for({"elevation_m": "1200", "ski_km": "", "sea_km": ""}, LC) == "mountain"
     assert ls.tags_for({"elevation_m": "300", "ski_km": "3", "lake_km": "0.5"}, LC) == "mountain,ski,lake"
     assert ls.tags_for({"elevation_m": "5", "sea_km": "0.3", "beach_km": "0.4", "city_km": "20"}, LC) == "sea,beach"
-    assert ls.tags_for({"elevation_m": "200"}, LC) == "countryside"
+    assert ls.tags_for({"elevation_m": "200", "updated": "2026-11-16"}, LC) == "countryside"
+    assert ls.tags_for({"elevation_m": "200"}, LC) == ""          # map not checked yet: unknown, not "countryside"
+    assert ls.tags_for({"elevation_m": "1500"}, LC) == "mountain"  # elevation alone is enough for mountain
 
 
 def test_selection_by_landscape():

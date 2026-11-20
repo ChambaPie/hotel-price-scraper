@@ -115,7 +115,11 @@ def tags_for(row: dict, lc: dict) -> str:
         v = num(key)
         if v is not None and v <= lc[key]:
             t.append(tag)
-    return ",".join(t) or "countryside"
+    if t:
+        return ",".join(t)
+    # "countryside" only once the map around the property has been checked; before that the landscape is unknown
+    # (2026-11-20: 64k of 92k properties were "countryside" while only 27k had been map-checked)
+    return "countryside" if row.get("updated") else ""
 
 
 # ---------- network ----------
