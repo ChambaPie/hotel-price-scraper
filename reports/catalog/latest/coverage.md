@@ -1,4 +1,4 @@
-## Coverage: 3923 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3926 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -30,7 +30,6 @@
 | Riccione | IT | 6 |
 | Sesto San Giovanni | IT | 6 |
 | Mostar | BA | 5 |
-| Frankfurt am Main | DE | 5 |
 | Bibione | IT | 5 |
 | Venezia | IT | 5 |
 | Rifiano | IT | 5 |
@@ -42,3 +41,4 @@
 | Sölden | AT | 4 |
 | St. Anton am Arlberg | AT | 4 |
 | Zürich | CH | 4 |
+| München | DE | 4 |
