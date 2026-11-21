@@ -30,6 +30,7 @@ ta:g1097289-d1717416,it/anewandter,Hotel Anewandter,0.714,ok,2026-11-15T03:08:47
 ta:g1133092-d1161066,at/romantikhotel-seefischer-am-see,Hotel Seefischer - Finest Hideaway,0.98,ok,2026-11-09T12:21:27+00:00
 ta:g1156007-d1195050,at/salzburgerhof,Hotel Salzburger Hof Zauchensee,1.0,ok,2026-11-09T15:30:18+00:00
 ta:g1156007-d1797283,,,0.48,not found,2026-11-10T04:49:10+00:00
+ta:g1156007-d1930694,at/alpenhof-tux,Hotel Alpenhof,1.0,ok,2026-11-21T04:19:20+00:00
 ta:g1158641-d26241996,fr/tribe-lyon-croix-rousse,TRIBE Lyon Croix Rousse,1.0,ok,2026-11-14T03:38:11+00:00
 ta:g1164730-d938946,,,0.0,not found,2026-11-09T12:11:39+00:00
 ta:g1165103-d575820,at/ga-stehaus-brambapck,Gästehaus Bramböck,0.944,ok,2026-11-09T12:01:03+00:00
@@ -38,6 +39,7 @@ ta:g1169453-d776546,it/mezdi,Mountain Hotel Mezdì,1.0,ok,2026-11-10T18:53:36+00
 ta:g1171460-d1810072,at/verwohnhotel-goies,Alpine Resort Goies Superior,1.0,ok,2026-11-12T19:10:51+00:00
 ta:g1172212-d3807287,at/naturhotel-chesa-valisa,Das Naturhotel Chesa Valisa,1.0,ok,2026-11-12T04:22:21+00:00
 ta:g1182946-d314585,it/bad-ratzes,Bad Ratzes,1.0,ok,2026-11-11T03:07:11+00:00
+ta:g1183481-d1740798,sk/cottage-4-tatry,Cottage Tatry Wellness,0.686,ok,2026-11-21T04:19:20+00:00
 ta:g1183708-d1188651,at/panoramahotel-fliesserhof-fliess1,Panoramahotel Fliesserhof,0.625,ok,2026-11-12T19:10:51+00:00
 ta:g1183708-d1189951,at/inntalerhof,Inntaler Hof,0.762,ok,2026-11-12T19:10:51+00:00
 ta:g1183879-d2698757,it/fiera-rimini,Hotel Fiera Rimini,0.727,ok,2026-11-11T03:07:11+00:00
@@ -76,6 +78,7 @@ ta:g187218-d222930,fr/carltonbeaulieu,Hotel Carlton,1.0,ok,2026-11-14T17:20:21+0
 ta:g187221-d219954,fr/carlton-cannes-a-regent-hotel,"Carlton Cannes, a Regent Hotel",0.667,ok,2026-11-13T18:48:21+00:00
 ta:g187229-d657956,fr/villadelambassadeur,Hôtel La Villa Cap d’Antibes,1.0,ok,2026-11-14T03:38:11+00:00
 ta:g187234-d12506810,fr/palais-saleya,Palais Saleya Boutique Hôtel,0.75,ok,2026-11-13T03:39:01+00:00
+ta:g187234-d197214,fr/hotel-lafayette,Hotel Aparthotel AMMI Nice Lafayette,1.0,ok,2026-11-21T04:19:20+00:00
 ta:g187234-d23541507,fr/apart-39-ammi-vieux-nice,Hotel Aparthotel AMMI Vieux Nice,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g187234-d275287,fr/1-med,"Hôtel de France, un hôtel AMMI",1.0,ok,2026-11-15T03:08:47+00:00
 ta:g187234-d8118910,fr/nice-cote-d-39-azur,Boutique Hotel Nice Côte d'azur,0.765,ok,2026-11-11T18:53:23+00:00
@@ -588,6 +591,7 @@ ta:g194896-d1168513,it/panorama-leitlhof,Naturhotel Leitlhof,1.0,ok,2026-11-11T0
 ta:g194896-d529349,it/villa-anita-chalets-provincia-autonoma-di-bolzano-alto-adige12,Chalet Villa Anita,0.621,ok,2026-11-11T03:07:11+00:00
 ta:g194896-d814743,it/sporthotel-tyrol-wellness,Il Tyrol,1.0,ok,2026-11-11T03:07:11+00:00
 ta:g194897-d1124817,it/164a-apartments-culac-santa-cristina-valgardena,Apartments Culac,0.615,ok,2026-11-11T03:07:11+00:00
+ta:g194897-d1391479,it/park-faloria,Faloria Mountain Spa Resort,0.667,ok,2026-11-21T04:19:20+00:00
 ta:g194897-d1718414,it/lagacio-mountain-residence,Lagació Hotel Mountain Residence,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g194897-d2587691,it/residence-ploner,Residence Ploner,0.686,ok,2026-11-11T03:07:11+00:00
 ta:g194904-d1945361,it/vitalpina-dosses,Vitalhotel Dosses,1.0,ok,2026-11-13T03:39:01+00:00
@@ -727,6 +731,8 @@ ta:g274707-d658737,cz/r18-residences-prague,R18 Residences Prague,0.727,ok,2026-
 ta:g274707-d667752,sk/residence-1892-apartment-3,Residence 1892 - Apartment 3,0.6,ok,2026-11-10T18:53:36+00:00
 ta:g274707-d782524,cz/kkcentral,K+K Hotel Central,0.625,ok,2026-11-11T03:07:11+00:00
 ta:g274707-d8501421,cz/boho-prague,BoHo Prague Hotel - Small Luxury Hotels,0.885,ok,2026-11-10T18:53:36+00:00
+ta:g274863-d3221974,si/penzion-mayer,Penzion Mayer,0.696,ok,2026-11-21T04:19:20+00:00
+ta:g274863-d613563,si/penzion-berc,Penzion Berc,0.6,ok,2026-11-21T04:19:20+00:00
 ta:g274873-d12637551,si/vila-ema,Vila Ema Apartments and Rooms,0.75,ok,2026-11-12T04:22:21+00:00
 ta:g274887-d1192119,hu/bagatelle-gardenhouse,Bagatelle Gardenhouse,0.625,ok,2026-11-11T03:07:11+00:00
 ta:g274887-d1200734,hu/palazzo-zichy,Eurostars Palazzo Zichy,1.0,ok,2026-11-10T18:53:36+00:00
