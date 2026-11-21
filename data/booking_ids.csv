@@ -27,6 +27,7 @@ ta:g1096327-d1115666,ch/slalom,Hotel Slalom,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g1096327-d1234412,ch/landhaus-munster,Hotel Landhaus,0.75,ok,2026-11-10T18:53:36+00:00
 ta:g1096327-d597330,ch/chalet-bettmerhof,Hotel Bettmerhof,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g1097289-d1717416,it/anewandter,Hotel Anewandter,0.714,ok,2026-11-15T03:08:47+00:00
+ta:g1118350-d1523088,,,0.0,not found,2026-11-21T18:15:33+00:00
 ta:g1133092-d1161066,at/romantikhotel-seefischer-am-see,Hotel Seefischer - Finest Hideaway,0.98,ok,2026-11-09T12:21:27+00:00
 ta:g1156007-d1195050,at/salzburgerhof,Hotel Salzburger Hof Zauchensee,1.0,ok,2026-11-09T15:30:18+00:00
 ta:g1156007-d1797283,,,0.48,not found,2026-11-10T04:49:10+00:00
@@ -130,13 +131,16 @@ ta:g187782-d611764,it/villa-eugenia-sorrento,Villa Eugenia,0.696,ok,2026-11-11T0
 ta:g187782-d675580,it/sorrento-flats,Sorrento Flats,1.0,ok,2026-11-14T17:20:21+00:00
 ta:g187782-d969689,it/grace-suites,Grace Suites Sorrento,0.743,ok,2026-11-20T04:22:57+00:00
 ta:g187785-d10067502,it/santa-chiara-boutique,Santa Chiara Boutique Hotel,1.0,ok,2026-11-20T19:16:24+00:00
+ta:g187785-d10163434,it/colour-suite-napoli,Colour Suite,0.727,ok,2026-11-21T18:15:33+00:00
 ta:g187785-d10677590,it/napolimia,NapoliMia Boutique Hotel,0.621,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d12139291,it/pizzasleep,PizzaSleep B&B,1.0,ok,2026-11-21T18:15:33+00:00
 ta:g187785-d12686661,it/botanic-garden-napoli,Botanic Garden,0.645,ok,2026-11-14T03:38:11+00:00
 ta:g187785-d12728231,it/napoli-tree-lungomare,Napoli Tree - Lungomare,0.667,ok,2026-11-10T18:53:36+00:00
 ta:g187785-d12998260,it/domus-studio-25-bed-amp-breakfast,Domus Studio 25 bed & breakfast,0.619,ok,2026-11-12T04:22:21+00:00
 ta:g187785-d1315850,it/domus-studio-25-bed-amp-breakfast,Domus Studio 25 bed & breakfast,0.609,ok,2026-11-12T04:22:21+00:00
 ta:g187785-d13923727,it/the-five-rooms-napoli,The Five Rooms Napoli,0.643,ok,2026-11-10T18:53:36+00:00
 ta:g187785-d14003708,it/naplesuite,Naplesuite,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187785-d1475247,it/b-amp-b-orsini-46,B&B Orsini 46,1.0,ok,2026-11-21T18:15:33+00:00
 ta:g187785-d15005164,it/main-duomo,MAIN - Duomo,0.632,ok,2026-11-14T17:20:21+00:00
 ta:g187785-d15865744,it/palazzo-rinuccini,Rinuccini Relais,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g187785-d19120967,it/dimora-diaz-b-amp-b-napoli,Dimora Diaz B&B,0.667,ok,2026-11-11T03:07:11+00:00
@@ -151,6 +155,7 @@ ta:g187785-d7648295,it/domus-carmela,Domus Carmela,0.75,ok,2026-11-11T18:53:23+0
 ta:g187785-d8110824,it/napoli-city-rooms,Napoli City Rooms,0.619,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d10061919,it/grand-hotel-palace,Grand Hotel Palace Rome,0.71,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d10137564,it/singer-palace,Singer Palace Hotel Roma,0.6,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d10314238,it/the-tribune,"The Tribune, part of JdV by Hyatt",1.0,ok,2026-11-21T18:15:33+00:00
 ta:g187791-d10386179,it/relais-metronia,Relais Metronia,0.606,ok,2026-11-11T18:53:23+00:00
 ta:g187791-d10423574,it/rome-times,Rome Times Hotel,0.609,ok,2026-11-14T17:20:21+00:00
 ta:g187791-d1176140,it/opalace,Orazio Palace Hotel,0.609,ok,2026-11-11T03:07:11+00:00
@@ -161,10 +166,13 @@ ta:g187791-d13919298,it/fontart-collection-tritone,Fontart Tritone,0.667,ok,2026
 ta:g187791-d1488058,it/casa-monti-roma-roma,Casa Monti Roma,0.696,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d1509277,it/alloggio-per-uso-turistico-carboni-rossella,Alloggio per uso turistico Carboni Rossella,0.696,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d1721909,it/casa-a-pascarella-roma,Casa a Pascarella,0.615,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d1784133,it/la-casa-di-emy-roma1,La CASA di EMY,0.69,ok,2026-11-21T18:15:33+00:00
+ta:g187791-d1808428,it/casa-sistina-37-2-piano,Casa Sistina 37,0.615,ok,2026-11-21T18:15:33+00:00
 ta:g187791-d1821265,it/tridente-suites-roma,Tridente Suites,0.6,ok,2026-11-13T18:48:21+00:00
 ta:g187791-d1863272,it/grand-hotel-palace,Grand Hotel Palace Rome,0.667,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d1874678,it/maison-dei-greci-roma,Maison dei Greci,0.72,ok,2026-11-11T18:53:23+00:00
 ta:g187791-d191099,it/hotelsolealpantheon,Antico Albergo del Sole al Pantheon,0.652,ok,2026-11-13T03:39:01+00:00
+ta:g187791-d1928033,it/bocca-di-leone-luxury-suite,Bocca di Leone Luxury Suite,0.692,ok,2026-11-21T18:15:33+00:00
 ta:g187791-d198734,it/locarno,Hotel Locarno,1.0,ok,2026-11-13T03:39:01+00:00
 ta:g187791-d198736,it/nerva,Nerva Boutique Hotel,1.0,ok,2026-11-13T03:39:01+00:00
 ta:g187791-d19907141,it/dharma-boutique-hotel-spa,Dharma Boutique Hotel & SPA,1.0,ok,2026-11-10T18:53:36+00:00
@@ -176,23 +184,28 @@ ta:g187791-d2091012,it/je-rome,Je Rome Hotel,0.714,ok,2026-11-13T03:39:01+00:00
 ta:g187791-d2268708,it/domus-re,Domus Re,0.6,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d230556,it/the-hoxton-rome,"The Hoxton, Rome",1.0,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d231925,it/hotelviminalerome,Hotel Viminale,1.0,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d232859,it/delle-nazioni,Hotel Delle Nazioni,0.632,ok,2026-11-21T18:15:33+00:00
 ta:g187791-d23700559,it/sophie-terrace,Sophie Terrace Hotel,1.0,ok,2026-11-13T03:39:01+00:00
 ta:g187791-d239502,it/raphael,Hotel Raphaël - Relais & Châteaux,0.694,ok,2026-11-13T03:39:01+00:00
 ta:g187791-d270031,it/aleph-hotel-rome,"Aleph Rome Hotel, Curio Collection By Hilton",1.0,ok,2026-11-20T04:22:57+00:00
 ta:g187791-d30527049,it/ht6-roma,HT6 Hotel Roma,0.769,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d3245809,it/arenula,Chapter Roma,0.636,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d3354676,it/domus-re,Domus Re,0.632,ok,2026-11-11T18:53:23+00:00
+ta:g187791-d3372038,it/elysium-suites-colosseo,Elysium Suites Colosseo,0.611,ok,2026-11-21T18:15:33+00:00
 ta:g187791-d3566707,it/guest-house-chateau-indipendenza,Guest House Chateau Indipendenza,0.64,ok,2026-11-11T03:07:11+00:00
 ta:g187791-d3695492,it/trastevere-house-roma3,InTrastevereHouse B&B,0.688,ok,2026-11-14T17:20:21+00:00
 ta:g187791-d3929140,it/casa-jk-place-roma,Casa JK Place Roma,0.846,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d4028829,it/casa-monti-roma-roma,Casa Monti Roma,0.75,ok,2026-11-10T18:53:36+00:00
+ta:g187791-d4232199,it/almi-rooms,Almi Rooms,0.609,ok,2026-11-21T18:15:33+00:00
 ta:g187791-d497255,it/infinity-hotel-st-peter,Hotel Infinity San Pietro,0.615,ok,2026-11-11T03:07:11+00:00
 ta:g187791-d531936,it/torre-argentina-relais-residenze-di-charme,Torre Argentina Relais - Residenze di Charme,0.633,ok,2026-11-13T03:39:01+00:00
 ta:g187791-d597703,it/villa-spalletti-trivelli,Villa Spalletti Trivelli - Small Luxury Hotels of the World,0.647,ok,2026-11-18T04:45:15+00:00
+ta:g187791-d601432,it/gtripa,Hotel Ripa Roma,0.6,ok,2026-11-21T18:15:33+00:00
 ta:g187791-d6030326,it/home-sweet-rome-roma7,Home Sweet Rome Vatican,0.606,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d626945,it/rome-sleep-home-roma,Rome Sleep Home Bed & Breakfast,0.609,ok,2026-11-14T17:20:21+00:00
 ta:g187791-d6353278,it/rome55,Rome55 - Piazza di Spagna,0.8,ok,2026-11-14T03:38:11+00:00
 ta:g187791-d7134644,it/palazzo-navona-roma,Palazzo Navona Hotel,1.0,ok,2026-11-13T03:39:01+00:00
+ta:g187791-d7212553,it/mama-relais-roma,MAMA Relais,0.632,ok,2026-11-21T18:15:33+00:00
 ta:g187791-d7619756,it/the-fifteen-keys,The Fifteen Keys Hotel,1.0,ok,2026-11-10T18:53:36+00:00
 ta:g187791-d7693558,it/corso-281-luxury-suites,Corso 281 Luxury Suites,0.698,ok,2026-11-11T03:07:11+00:00
 ta:g187791-d7976127,it/rome-life,Rome Life Hotel,0.636,ok,2026-11-14T17:20:21+00:00
@@ -227,6 +240,7 @@ ta:g187820-d459904,it/il-saraceno-riomaggiore,Hotel Il Saraceno,0.6,ok,2026-11-1
 ta:g187821-d2323647,it/alla-marina,Alla Marina Affittacamere,0.606,ok,2026-11-11T18:53:23+00:00
 ta:g187821-d675364,it/casa-d-39-amore-riomaggiore,Casa D'amore,0.667,ok,2026-11-11T18:53:23+00:00
 ta:g187823-d22866184,it/astoria-genova,Hotel Astoria,0.7,ok,2026-11-13T03:39:01+00:00
+ta:g187823-d3676506,it/i-rivi,B&B I RIVI,1.0,ok,2026-11-21T18:15:33+00:00
 ta:g187830-d14894604,it/relais-san-vigilio,Relais San Vigilio al Castello,1.0,ok,2026-11-20T04:22:57+00:00
 ta:g187830-d1729158,it/petronilla-in-bergamo,Petronilla - Hotel In Bergamo,0.69,ok,2026-11-20T04:22:57+00:00
 ta:g187842-d1796192,it/hotelcasascaligeri,Hotel Casa Scaligeri,1.0,ok,2026-11-11T18:53:23+00:00
@@ -502,6 +516,7 @@ ta:g194753-d951722,it/grazia-plaza,Sporthotel Romantic Plaza,0.75,ok,2026-11-11T
 ta:g194760-d2407473,it/alchimia-r,Alkimia Smart Rooms,1.0,ok,2026-11-11T03:07:11+00:00
 ta:g194760-d2560529,it/le-stanze-del-savonarola,Le Stanze Del Savonarola,0.65,ok,2026-11-11T03:07:11+00:00
 ta:g194760-d484859,it/piazza-nova-guest-house,Piazza Nova Guest House,1.0,ok,2026-11-11T03:07:11+00:00
+ta:g194775-d1121752,it/kai-garden-family,Kai Family,0.636,ok,2026-11-21T18:15:33+00:00
 ta:g194789-d15675622,it/quellenhof-luxury-resort-lazise-lazise,Quellenhof Luxury Resort Lazise,1.0,ok,2026-11-11T18:53:23+00:00
 ta:g194794-d2205123,it/residence-esplanade,Hotel Residence Esplanade,0.686,ok,2026-11-11T18:53:23+00:00
 ta:g194796-d1151812,it/villa-amare-caorle,Villa AMARE,0.667,ok,2026-11-10T18:53:36+00:00
@@ -587,6 +602,8 @@ ta:g194878-d613217,it/corallo-riccione,Hotel Corallo,1.0,ok,2026-11-10T18:53:36+
 ta:g194878-d949416,it/appartamenti-desi-riccione,Appartamenti Desi Riccione,0.7,ok,2026-11-10T18:53:36+00:00
 ta:g194883-d13541661,it/garda-life,Garda Life,1.0,ok,2026-11-11T03:07:11+00:00
 ta:g194883-d233469,it/du-lac-et-du-parc-grand-resort,Du Lac Et Du Parc Grand Resort,1.0,ok,2026-11-11T18:53:23+00:00
+ta:g194885-d1720878,it/garna-le-ortensie,Hotel Le Ortensie,1.0,ok,2026-11-21T18:15:33+00:00
+ta:g194885-d1800928,it/garna-il-riccio,Boutique Hotel Il Riccio - Adults Only,0.762,ok,2026-11-21T18:15:33+00:00
 ta:g194896-d1168513,it/panorama-leitlhof,Naturhotel Leitlhof,1.0,ok,2026-11-11T03:07:11+00:00
 ta:g194896-d529349,it/villa-anita-chalets-provincia-autonoma-di-bolzano-alto-adige12,Chalet Villa Anita,0.621,ok,2026-11-11T03:07:11+00:00
 ta:g194896-d814743,it/sporthotel-tyrol-wellness,Il Tyrol,1.0,ok,2026-11-11T03:07:11+00:00
@@ -829,6 +846,7 @@ ta:g608661-d575343,at/kapruenrhof,Hotel Kaprunerhof,0.88,ok,2026-11-10T04:49:10+
 ta:g608662-d1015860,at/glockenstuhl,Hotel Garni Glockenstuhl,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g608662-d1974065,at/apart-central,Apart Central – Premium Mountain&Garden,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g608663-d1796892,at/rosentalerhof,Rosentalerhof Hotel & Appartements,0.958,ok,2026-11-10T08:58:34+00:00
+ta:g608663-d1901120,,,0.0,not found,2026-11-21T18:15:33+00:00
 ta:g608663-d2137318,at/sonnegg,Hotel Sonnegg,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g608663-d2395722,at/barbarahof-saalbach,Hotel Barbarahof Saalbach,0.714,ok,2026-11-10T08:58:34+00:00
 ta:g608663-d482577,at/alpinresort-sport-spa,Alpinresort ValSaa - Adults Only,1.0,ok,2026-11-10T08:58:34+00:00
@@ -953,6 +971,7 @@ ta:g656615-d10483209,it/roma-fiera-airport-home,Roma Fiera Airport Home,0.647,ok
 ta:g656615-d10663867,it/villa-san-pio,Hotel Villa San Pio,0.667,ok,2026-11-11T03:07:11+00:00
 ta:g656615-d2058643,it/alida-rooms-roma,Alida Rooms,0.8,ok,2026-11-11T03:07:11+00:00
 ta:g657849-d10277887,it/assisium,Assisium Agriturismo,1.0,ok,2026-11-11T03:07:11+00:00
+ta:g658282-d2480709,at/annelies,Hotel Annelies,1.0,ok,2026-11-21T18:15:33+00:00
 ta:g658282-d3535622,at/neuwirt-ramsau-am-dachstein,Hotel Neuwirt,1.0,ok,2026-11-10T08:58:34+00:00
 ta:g658453-d1226799,hr/villa-ika-rascane,Villa Ika,0.632,ok,2026-11-11T03:07:11+00:00
 ta:g660756-d1184847,at/thermen-vitalhotel-superior-bad-tatzmannsdorf,Reduce Hotel Vital,0.75,ok,2026-11-12T19:10:51+00:00
@@ -996,6 +1015,7 @@ ta:g808078-d1728712,at/grossarler-hof,Grossarler Hof Superior,0.765,ok,2026-11-0
 ta:g808078-d23839471,at/lammwirt-groaarl,Hotel Lammwirt,1.0,ok,2026-11-09T15:30:18+00:00
 ta:g808078-d2430685,at/nesslerhof,Hotel Nesslerhof,1.0,ok,2026-11-09T15:30:18+00:00
 ta:g808084-d1208311,at/hoeflehner-natur-und-wellnesshotel,Natur- und Wellnesshotel Höflehner,0.984,ok,2026-11-10T04:49:10+00:00
+ta:g808084-d2560714,at/bliem-39-s-familienhotel,Bliem's Familienhotel,1.0,ok,2026-11-21T18:15:33+00:00
 ta:g811450-d1178219,at/haus-patricia,Pension Haus Patricia,0.774,ok,2026-11-09T12:01:03+00:00
 ta:g811455-d1186178,at/erlebnishotel-kristall,Hotel Kristall - Adults only,1.0,ok,2026-11-13T18:48:21+00:00
 ta:g811462-d1595255,at/wander-vitalhotel-steirerhof,Premium Wanderhotel Steirerhof,1.0,ok,2026-11-10T04:49:10+00:00
