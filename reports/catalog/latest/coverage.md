@@ -1,4 +1,4 @@
-## Coverage: 3929 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3931 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -30,7 +30,6 @@
 | Sesto San Giovanni | IT | 6 |
 | Mostar | BA | 5 |
 | Porec | HR | 5 |
-| Venezia | IT | 5 |
 | Rifiano | IT | 5 |
 | Florence | IT | 5 |
 | Krakow | PL | 5 |
@@ -42,3 +41,4 @@
 | Zürich | CH | 4 |
 | München | DE | 4 |
 | Frankfurt am Main | DE | 4 |
+| Belfort | FR | 4 |
