@@ -1,4 +1,4 @@
-## Coverage: 3926 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3929 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -25,12 +25,11 @@
 | Nürnberg | DE | 6 |
 | Stuttgart | DE | 6 |
 | Strasbourg | FR | 6 |
-| Porec | HR | 6 |
 | Budapest | HU | 6 |
 | Riccione | IT | 6 |
 | Sesto San Giovanni | IT | 6 |
 | Mostar | BA | 5 |
-| Bibione | IT | 5 |
+| Porec | HR | 5 |
 | Venezia | IT | 5 |
 | Rifiano | IT | 5 |
 | Florence | IT | 5 |
@@ -42,3 +41,4 @@
 | St. Anton am Arlberg | AT | 4 |
 | Zürich | CH | 4 |
 | München | DE | 4 |
+| Frankfurt am Main | DE | 4 |
