@@ -1,0 +1,410 @@
+{
+ "query": "Hotel Schloss Seefels P\u00f6rtschach",
+ "calls": [
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=H"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=H"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Ho"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Ho"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hot"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hot"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hote"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hote"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+S"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+S"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Sc"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Sc"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Sch"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Sch"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schl"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schl"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schlo"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schlo"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schlos"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schlos"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+S"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+S"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Se"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Se"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+See"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+See"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seef"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seef"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefe"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefe"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefel"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefel"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6r"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6r"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rt"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rt"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rts"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rts"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rtsc"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rtsc"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rtsch"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rtsch"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rtscha"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rtscha"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rtschac"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rtschac"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rtschach",
+   "status": 200,
+   "type": "text/x-script; charset=utf-8",
+   "body": "[{\"_1\":2},\"data\",{\"_3\":4,\"_1\":5},\"ok\",true,{\"_6\":7,\"_8\":9,\"_10\":11},\"term\",\"Hotel Schloss Seefels P\u00f6rtschach\",\"suggestions\",[12,13],\"filteredSuggestions\",[],{\"_14\":15,\"_16\":32,\"_18\":33,\"_20\":21,\"_22\":23,\"_24\":25,\"_26\":27,\"_28\":34,\"_30\":31},{\"_14\":15,\"_16\":17,\"_18\":19,\"_20\":21,\"_22\":23,\"_24\":25,\"_26\":27,\"_28\":29,\"_30\":31},\"$typeName\",\"journey.autocompleter.Suggestion\",\"id\",\"019ab52a122f780dbecbcf2d022b0e8f\",\"name\",\"Hotel Schloss Leonstain\",\"shortDescription\",\"Unterkunft in P\u00f6rtschach am W\u00f6rthersee, Alpen, \u00d6sterreich\",\"type\",2,\"parentLocationId\",\"0199c8d1238074da9b1cc92e77990cb5\",\"parentLocationName\",\"P\u00f6rtschach am W\u00f6rthersee\",\"debugInfo\",\"fallback score = OpenSearch full-text score boosted by sqrt(relevance_desktop) * 0.5, x2 for locations, x0.5 for landmarks\\nscore = 8,148\",\"entryType\",\"suggestion\",\"019ab52a7154727ba37e72eec1ec1ec4\",\"Hotel Schloss Seefels\",\"fallback score = OpenSearch full-text score boosted by sqrt(relevance_desktop) * 0.5, x2 for locations, x0.5 for landmarks\\nscore = 23,562\"]\n"
+  },
+  {
+   "method": "POST",
+   "url": "https://hotels.check24.de/api/autocomplete.data",
+   "post": "term=Hotel+Schloss+Seefels+P%C3%B6rtschach",
+   "status": 200,
+   "type": "text/x-script; charset=utf-8",
+   "body": "[{\"_1\":2},\"data\",{\"_3\":4,\"_1\":5},\"ok\",true,{\"_6\":7,\"_8\":9,\"_10\":11},\"term\",\"Hotel Schloss Seefels P\u00f6rtschach\",\"suggestions\",[12,13],\"filteredSuggestions\",[],{\"_14\":15,\"_16\":32,\"_18\":33,\"_20\":21,\"_22\":23,\"_24\":25,\"_26\":27,\"_28\":34,\"_30\":31},{\"_14\":15,\"_16\":17,\"_18\":19,\"_20\":21,\"_22\":23,\"_24\":25,\"_26\":27,\"_28\":29,\"_30\":31},\"$typeName\",\"journey.autocompleter.Suggestion\",\"id\",\"019ab52a122f780dbecbcf2d022b0e8f\",\"name\",\"Hotel Schloss Leonstain\",\"shortDescription\",\"Unterkunft in P\u00f6rtschach am W\u00f6rthersee, Alpen, \u00d6sterreich\",\"type\",2,\"parentLocationId\",\"0199c8d1238074da9b1cc92e77990cb5\",\"parentLocationName\",\"P\u00f6rtschach am W\u00f6rthersee\",\"debugInfo\",\"fallback score = OpenSearch full-text score boosted by sqrt(relevance_desktop) * 0.5, x2 for locations, x0.5 for landmarks\\nscore = 8,148\",\"entryType\",\"suggestion\",\"019ab52a7154727ba37e72eec1ec1ec4\",\"Hotel Schloss Seefels\",\"fallback score = OpenSearch full-text score boosted by sqrt(relevance_desktop) * 0.5, x2 for locations, x0.5 for landmarks\\nscore = 23,562\"]\n"
+  }
+ ],
+ "dom": [
+  {
+   "tag": "DIV",
+   "attrs": [
+    "id=app-page-shell"
+   ],
+   "text": "Suche\nMitteilungen\nMerkzettel\nChat\nAnmelden\nReise\nHotel\nFerienwohnung\nFlug + Hotel\nMietwagen\nFl\u00fcge\nKreuzfahrt\nSt\u00e4dtereis"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "id=app-scroll-viewport"
+   ],
+   "text": "Reise\nHotel\nFerienwohnung\nFlug + Hotel\nMietwagen\nFl\u00fcge\nKreuzfahrt\nSt\u00e4dtereise\nalle Reisevergleiche\nHotel BlackDeals\n\nBis"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=c24-page-container",
+    "id=c24-page-container-content"
+   ],
+   "text": "Reise\nHotel\nFerienwohnung\nFlug + Hotel\nMietwagen\nFl\u00fcge\nKreuzfahrt\nSt\u00e4dtereise\nalle Reisevergleiche\nHotel BlackDeals\n\nBis"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "id=c24-page-content",
+    "class=c24-page"
+   ],
+   "text": "Reise\nHotel\nFerienwohnung\nFlug + Hotel\nMietwagen\nFl\u00fcge\nKreuzfahrt\nSt\u00e4dtereise\nalle Reisevergleiche\nHotel BlackDeals\n\nBis"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "id=c24-content",
+    "class=clearfix"
+   ],
+   "text": "Reise\nHotel\nFerienwohnung\nFlug + Hotel\nMietwagen\nFl\u00fcge\nKreuzfahrt\nSt\u00e4dtereise\nalle Reisevergleiche\nHotel BlackDeals\n\nBis"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=tw-root bg-sophie-white app:scrollbar-none"
+   ],
+   "text": "Reise\nHotel\nFerienwohnung\nFlug + Hotel\nMietwagen\nFl\u00fcge\nKreuzfahrt\nSt\u00e4dtereise\nalle Reisevergleiche\nHotel BlackDeals\n\nBis"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=app:mb-safe-neg relative overflow-x-hidden pb-8 md:pb-12"
+   ],
+   "text": "Hotel BlackDeals\n\nBis zu 55% sparen und gratis BlackTrikot sichern\n\nNoch 39.631 Trikots\nHotel\nFlug + Hotel\nPauschalreise"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=md:max-xl:px-4 px-4"
+   ],
+   "text": "Hotel BlackDeals\n\nBis zu 55% sparen und gratis BlackTrikot sichern\n\nNoch 39.631 Trikots\nHotel\nFlug + Hotel\nPauschalreise"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=mx-auto w-full max-w-7xl flex flex-col gap-6 pb-0 md:gap-8 md:pb-8 pt-8 md:pt-8"
+   ],
+   "text": "Hotel BlackDeals\n\nBis zu 55% sparen und gratis BlackTrikot sichern\n\nNoch 39.631 Trikots\nHotel\nFlug + Hotel\nPauschalreise"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=md:before:bg-sophie-white relative z-10 isolate md:before:absolute md:before:-bo"
+   ],
+   "text": "Hotel\nFlug + Hotel\nPauschalreisen\nFerienwohnung\nHotel Schloss Seefels\nUnterkunft in P\u00f6rtschach am W\u00f6rthersee, Alpen, \u00d6st"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=flex flex-col gap-2 max-md:mb-6"
+   ],
+   "text": "Hotel\nFlug + Hotel\nPauschalreisen\nFerienwohnung\nHotel Schloss Seefels\nUnterkunft in P\u00f6rtschach am W\u00f6rthersee, Alpen, \u00d6st"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=contents flex w-full flex-col items-stretch gap-1 md:flex-row"
+   ],
+   "text": "Hotel Schloss Seefels\nUnterkunft in P\u00f6rtschach am W\u00f6rthersee, Alpen, \u00d6sterreich\nHotel Schloss Leonstain\nUnterkunft in P\u00f6"
+  }
+ ]
+}
