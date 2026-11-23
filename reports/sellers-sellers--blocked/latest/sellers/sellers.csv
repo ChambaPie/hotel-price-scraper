@@ -1,0 +1,9 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+priceline,ta:g274887-d285437,Corinthia Budapest,HU,403,priceline.com,Access to this page has been denied,HTTP 403,0,False,128,3,12.9,search box not found
+logitravel,ta:g274887-d285437,Corinthia Budapest,HU,200,logitravel.it,"Agenzia di Viaggi | Vacanze, Hotel, Crociere | Logitravel",,27,False,10866,0,14.0,search box not found
+marriott,ta:g274887-d285437,Corinthia Budapest,HU,403,marriott.com,Access Denied,Access Denied,0,False,208,0,59.9,search box not found
+ihg,ta:g274887-d285437,Corinthia Budapest,HU,200,ihg.com,Select a Hotel,,0,False,2376,7,34.1,no suggestion list (pressed Enter)
+hyatt,ta:g274887-d285437,Corinthia Budapest,HU,429,hyatt.com,,HTTP 429,0,False,0,0,13.1,search box not found
+radisson,ta:g274887-d285437,Corinthia Budapest,HU,200,radissonhotels.com,Radisson Hotels Official Site | Book Rooms Worldwide,,0,False,4029,0,13.6,search box not found
+melia,ta:g274887-d285437,Corinthia Budapest,HU,200,melia.com,Melia Hotels - Find your hotel and book online | Official website.,,0,False,28617,0,12.7,search box not found
+nh,ta:g274887-d285437,Corinthia Budapest,HU,200,nh-hotels.com,NH Hotels & Resorts | Find and book your hotel online,,0,False,5180,0,12.7,search box not found

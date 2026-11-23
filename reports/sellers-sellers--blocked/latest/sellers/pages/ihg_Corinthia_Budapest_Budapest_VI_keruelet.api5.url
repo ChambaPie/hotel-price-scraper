@@ -1,0 +1,2 @@
+POST https://apis.ihg.com/availability/v3/hotels/offers?fieldset=summary,summary.rateRanges
+{"hotelMnemonics":["BUDVH","BUDPB","BUDVC","BUDHB","BUDKM","BUDBS"],"radius":null,"maxRadius":null,"minHotels":1,"incrementRadiusBy":null,"distanceUnit":"MI","distanceType":"STRAIGHT_LINE","startDate":"2026-11-23","endDate":"2026-11-24","geoLocation":null,"products":[{"productCode":"SR","startDate":"2026-11-23","endDate":"2026-11-24","quantity":1,"guestCounts":[{"otaCode":"AQC10","count":1}]}],"options":{"summary":{"includeTaxDetails":true}}}

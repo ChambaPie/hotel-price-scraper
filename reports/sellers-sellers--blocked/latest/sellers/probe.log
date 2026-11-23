@@ -1,0 +1,34 @@
+21:55:40 warm-up https://www.priceline.com/: Priceline.com - The Best Deals on Hotels, Flights and Rental
+21:55:53 priceline  Corinthia Budapest             403 blocked=HTTP 403 prices=0 name=False json=3
+21:56:15 warm-up https://www.logitravel.it/: Agenzia di Viaggi | Vacanze, Hotel, Crociere | Logitravel
+21:56:30 logitravel Corinthia Budapest             200 blocked=- prices=27 name=False json=0
+21:56:52 warm-up https://www.marriott.com/: Access Denied
+21:57:51 marriott   Corinthia Budapest             403 blocked=Access Denied prices=0 name=False json=0
+21:58:13 warm-up https://www.ihg.com/: IHG Hotels & Resorts® | Book Direct for Exclusive Hotel Deal
+21:58:48 ihg        Corinthia Budapest             200 blocked=- prices=0 name=False json=7
+21:59:08 warm-up https://www.hyatt.com/: 
+21:59:21 hyatt      Corinthia Budapest             429 blocked=HTTP 429 prices=0 name=False json=0
+21:59:42 warm-up https://www.radissonhotels.com/: Radisson Hotels Official Site | Book Rooms Worldwide
+21:59:56 radisson   Corinthia Budapest             200 blocked=- prices=0 name=False json=0
+22:00:17 warm-up https://www.melia.com/: Melia Hotels - Find your hotel and book online | Official we
+22:00:30 melia      Corinthia Budapest             200 blocked=- prices=0 name=False json=0
+22:00:53 warm-up https://www.nh-hotels.com/: NH Hotels & Resorts | Find and book your hotel online
+22:01:06 nh         Corinthia Budapest             200 blocked=- prices=0 name=False json=0
+# Sellers' own websites: probe S0
+
+## Sellers (one night, search page)
+
+| seller | pages | blocked | with prices | hotel found | JSON saved |
+|---|---|---|---|---|---|
+| priceline | 1 | 1 | 0 | 0 | 3 |
+| logitravel | 1 | 0 | 1 | 0 | 0 |
+| marriott | 1 | 1 | 0 | 0 | 0 |
+| ihg | 1 | 0 | 0 | 0 | 7 |
+| hyatt | 1 | 1 | 0 | 0 | 0 |
+| radisson | 1 | 0 | 0 | 0 | 0 |
+| melia | 1 | 0 | 0 | 0 | 0 |
+| nh | 1 | 0 | 0 | 0 | 0 |
+
+Block phrases seen: Access Denied, HTTP 403, HTTP 429
+
+
