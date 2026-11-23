@@ -435,3 +435,16 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   stop_after_errors: 25
   max_minutes: 30
   hotel_url: "https://www.agoda.com/partners/partnersearch.aspx?hid={id}&checkin={checkin}&checkout={checkout}&adults={adults}&rooms=1&currency=EUR"
+
+engines:                     # hotels' own booking engines (hotel_scraper/engines.py; owner, 2026-11-23: every vendor)
+  live: [seekda, d_edge]     # engines with a reader; more as they are built (survey: data/official_sites.csv)
+  seekda: {calendar_url: "https://s.seekda.com/api/calendar.json"}
+  d_edge: {bestprice_url: "https://websdk.d-edge.com/bestprice"}
+  horizon_days: 365
+  min_lead_days: 1
+  pause_seconds: 0.5
+  wait_ms: 6000              # booking page: time for its calls to show the engine's hotel code
+  retry_days: 14
+  ids_per_run: 80
+  max_minutes: 30
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"

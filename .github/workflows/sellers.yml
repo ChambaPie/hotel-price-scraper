@@ -1,19 +1,25 @@
 name: Other sellers
 # Schedules run as the account that last committed this file; keep it a real GitHub account.
 
-# Every watched hotel's own price on the other sellers that sell the room themselves (owner, 2026-11-23), one reader
-# per seller (settings sellers: status live). Now: Agoda. Ids per hotel in data/seller_ids.csv (main); prices per
-# hotel and night in seller_prices.csv on branch `seller-snapshots` (read by the private repo).
+# Every watched hotel's own price on every vendor that sells the room itself (owner, 2026-11-23), one reader per
+# vendor running in parallel (settings sellers: status live; engines: live). Ids per hotel in data/seller_ids.csv
+# (main); prices per hotel and night in seller_prices.csv on branch `seller-snapshots` (read by the private repo).
+#   agoda     Agoda (ids: 3 searches in parallel until every hotel has been looked up; prices: Agoda's own search)
+#   official  hotels' own booking engines (seekda, D-EDGE...): a 12-month calendar per hotel over plain HTTP
+#   publish   each reader's rows replace that reader's rows in the shared files
 on:
   schedule:
     - cron: "41 1,5,9,13,17,21 * * *"   # every 4 hours
   workflow_dispatch:
     inputs:
+      readers:
+        description: "Readers to run (JSON list): agoda, official"
+        default: '["agoda", "official"]'
       part:
         description: "ids, prices or all"
         default: "all"
       minutes:
-        description: "Time budget (empty = settings)"
+        description: "Time budget per step (empty = settings)"
         default: ""
 
 permissions:
@@ -28,9 +34,13 @@ env:
   PYTHONUNBUFFERED: "1"
 
 jobs:
-  agoda:
+  read:
     runs-on: ubuntu-24.04   # pinned: ubuntu-latest is migrating to 26.04 (Playwright browser deps)
     timeout-minutes: 70
+    strategy:
+      fail-fast: false
+      matrix:
+        reader: ${{ fromJSON(inputs.readers || '["agoda", "official"]') }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -45,7 +55,7 @@ jobs:
             git show origin/seller-snapshots:seller_prices.csv > data/seller_prices.csv
             git show origin/seller-snapshots:agoda_state.json > data/agoda_state.json || true; } || echo "no snapshot yet"
       - name: Agoda ids (3 searches in parallel, until every hotel has been looked up)
-        if: inputs.part != 'prices'
+        if: matrix.reader == 'agoda' && inputs.part != 'prices'
         env:
           MIN: ${{ inputs.minutes || '20' }}
         run: |
@@ -57,37 +67,85 @@ jobs:
           tail -n 3 out/agoda_ids_*.log
           python -m hotel_scraper.agoda --merge-ids out/ids-*.csv
       - name: Agoda prices
-        if: inputs.part != 'ids'
+        if: matrix.reader == 'agoda' && inputs.part != 'ids'
         env:
           MIN: ${{ inputs.minutes || '25' }}
         run: |
           set -o pipefail
           mkdir -p out
           python -m hotel_scraper.agoda --part prices --max-minutes "$MIN" 2>&1 | tee out/agoda.log
+      - name: Official sites (booking engines)
+        if: matrix.reader == 'official'
+        env:
+          PART: ${{ inputs.part || 'all' }}
+          MIN: ${{ inputs.minutes }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -m hotel_scraper.engines --part "$PART" ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/engines.log
+      - name: This reader's rows
+        if: always()
+        env:
+          SELLER: ${{ matrix.reader }}
+        run: |
+          mkdir -p part
+          cp data/seller_prices.csv part/ 2>/dev/null || true
+          cp data/seller_ids.csv part/ 2>/dev/null || true
+          [ -f data/agoda_state.json ] && [ "$SELLER" = agoda ] && cp data/agoda_state.json part/ || true
+          python -m hotel_scraper.seller_merge --kind prices --base part/seller_prices.csv --only "$SELLER"
+          python -m hotel_scraper.seller_merge --kind ids --base part/seller_ids.csv --only "$SELLER"
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: seller-${{ matrix.reader }}
+          path: part/
+          retention-days: 1
       - name: Summary
         if: always()
-        run: cat out/agoda_summary*.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
-      - name: Commit hotel ids
+        run: cat out/*summary*.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+      - name: Publish reports
         if: always()
+        run: bash scripts/publish_reports.sh "sellers-${{ matrix.reader }}"
+
+  publish:
+    needs: read
+    if: always()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: seller-*
+          path: parts
+      - name: Merge the readers' rows
+        run: |
+          git fetch -q origin seller-snapshots && git show origin/seller-snapshots:seller_prices.csv > data/seller_prices.csv || echo "no snapshot yet"
+          python -m hotel_scraper.seller_merge --kind prices --base data/seller_prices.csv --parts parts/*/seller_prices.csv
+          python -m hotel_scraper.seller_merge --kind ids --base data/seller_ids.csv --parts parts/*/seller_ids.csv
+          if [ -f parts/seller-agoda/agoda_state.json ]; then cp parts/seller-agoda/agoda_state.json data/agoda_state.json
+          else git show origin/seller-snapshots:agoda_state.json > data/agoda_state.json 2>/dev/null || rm -f data/agoda_state.json; fi
+      - name: Commit hotel ids
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/seller_ids.csv 2>/dev/null || true
+          git add data/seller_ids.csv
           git diff --cached --quiet || git commit -m "Seller ids $(date -u +%FT%H:%MZ)"
           for i in 1 2 3; do git pull --rebase && git push && break; sleep $((i * 5)); done
       - name: Publish prices (seller-snapshots branch)
-        if: always()
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           [ -s data/seller_prices.csv ] || exit 0
           files=(data/seller_prices.csv); [ -f data/agoda_state.json ] && files+=(data/agoda_state.json)
           bash scripts/publish_snapshot.sh seller-snapshots "${files[@]}"
-      - name: Publish reports
-        if: always()
-        run: bash scripts/publish_reports.sh sellers-agoda
       - name: Report failure
-        if: failure()
+        if: failure() || contains(needs.read.result, 'failure')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
