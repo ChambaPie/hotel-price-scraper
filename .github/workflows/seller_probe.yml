@@ -48,8 +48,18 @@ jobs:
           set -o pipefail
           mkdir -p out/sellers
           command -v xvfb-run >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq xvfb; }
+          [ "$PART" = "suggest" ] && exit 0
           xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --sellers "$SELLERS" --catalog "$CATALOG" --out out/sellers 2>&1 | tee out/sellers/probe.log
           cat out/sellers/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Suggestions while typing (part suggest; sellers input = seller:query;query)
+        if: inputs.part == 'suggest'
+        env:
+          SPEC: ${{ inputs.sellers }}
+        run: |
+          mkdir -p out/sellers
+          seller="${SPEC%%:*}"; IFS=';' read -ra Q <<< "${SPEC#*:}"
+          args=(); for q in "${Q[@]}"; do args+=(--query "$q"); done
+          python -m hotel_scraper.suggest_probe --seller "$seller" "${args[@]}" --out out/sellers/suggest 2>&1 | tee out/sellers/suggest.log
       - name: Commit the official sites list (engines survey)
         if: inputs.part == 'engines' || inputs.part == 'all'
         run: |
