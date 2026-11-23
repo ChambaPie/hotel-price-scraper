@@ -1,15 +1,11 @@
-14:57:43 76 tiles in the area, 2 never refreshed; refreshing 1 this run (budget 2.0 min)
-14:57:44   overpass attempt 1 via overpass-api.de failed after 1s: HTTP Error 502: Bad Gateway
-14:57:52   overpass attempt 1 via maps.mail.ru failed after 1s: HTTP Error 504: Gateway Time-out
-14:58:30   overpass attempt 1 via overpass.private.coffee failed after 32s: HTTP Error 504: Gateway Timeout
-14:58:37   overpass attempt 2 via overpass-api.de failed after 1s: HTTP Error 502: Bad Gateway
-14:59:11 tile 1/1 (42.463, 1.8806, 44.463, 3.8806): 1117 elements, 14 kept, 87.6s
-14:59:12 routing drive times for 14 properties
+10:41:31 76 tiles in the area, 1 never refreshed; refreshing 1 this run (budget 20 min)
+10:42:25 tile 1/1 (50.463, 3.8806, 52.463, 5.8806): 1988 elements, 6 kept, 53.5s
+10:42:26 routing drive times for 6 properties
 ## OpenStreetMap catalog: 44806 active properties, 5897 starred hotels
 
-Map tiles this run: 1 refreshed, 0 failed, 1 never refreshed yet (of 76); 88s querying.
+Map tiles this run: 1 refreshed, 0 failed, 0 never refreshed yet (of 76); 54s querying.
 
-Drive times: 14 routed now, 0 from cache, 0 pending, 0 unroutable, 14 left out (over the limit).
+Drive times: 6 routed now, 0 from cache, 0 pending, 0 unroutable, 6 left out (over the limit).
 
 | Country | bed_and_breakfast | hotel | Watched |
 |---|---|---|---|
@@ -36,4 +32,4 @@ Drive times: 14 routed now, 0 from cache, 0 pending, 0 unroutable, 14 left out (
 | XK | 2 | 2 | 2 |
 | BG | 1 | 0 | 0 |
 
-14:59:15 new 0, back 0, gone 0; total 92s
+10:42:28 new 0, back 0, gone 0; total 57s

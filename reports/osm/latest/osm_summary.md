@@ -1,8 +1,8 @@
 ## OpenStreetMap catalog: 44806 active properties, 5897 starred hotels
 
-Map tiles this run: 1 refreshed, 0 failed, 1 never refreshed yet (of 76); 88s querying.
+Map tiles this run: 1 refreshed, 0 failed, 0 never refreshed yet (of 76); 54s querying.
 
-Drive times: 14 routed now, 0 from cache, 0 pending, 0 unroutable, 14 left out (over the limit).
+Drive times: 6 routed now, 0 from cache, 0 pending, 0 unroutable, 6 left out (over the limit).
 
 | Country | bed_and_breakfast | hotel | Watched |
 |---|---|---|---|
