@@ -1,0 +1,63 @@
+#URL https://www.trip.com/hotels/detail/?hotelId=745401&checkIn=2026-12-14&checkOut=2026-12-15&adult=2&crn=1&curr=EUR&locale=en-GB
+#FINAL https://www.trip.com/account/signin?backurl=https%3A%2F%2Fwww.trip.com%2Fhotels%2Fv2%2Fdetail%2F%3FhotelId%3D745401%26checkIn%3D2026-12-14%26checkOut%3D2026-12-15%26adult%3D2%26crn%3D1%26curr%3DEUR%26locale%3Den-GB
+#TITLE Sign in to Trip.com
+Go to main content
+Hotels & Homes
+Flights
+Trains
+Cars
+Attractions & Tours
+App
+EUR
+Customer support
+Find bookings
+Sign in/register
+Sign in/register
+Membership rewards
+Manage bookings with ease
+Continue with email
+or
+Continue with Google
+Continue with Apple
+Continue with Facebook
+Continue with WeChat
+By signing in or registering, you are deemed to have agreed to the Trip.com Terms and Conditions and Privacy Statement.
+Use the Trip.com app to sign in with a QR code
+1
+Open the Trip.com app
+2
+Go to
+Account
+3
+Tap
+in the top-right corner
+or go to
+(Settings) > Scan QR code
+Contact us
+Customer support
+Service Guarantee
+More service info
+About
+About Trip.com
+News
+Careers
+Terms & Conditions
+Privacy Statement
+Accessibility Statement
+AI generated personalized content
+About Trip.com Group
+Other services
+Investor relations
+Trip.com Rewards
+Affiliate program
+List your property
+All hotels
+Become a Supplier
+Security
+Payment methods
+Our partners
+iF Design Award 2026
+Contact Center
+of the year 2025
+Copyright © 2026 Trip.com Travel Singapore Pte. Ltd. All rights reserved
+Site Operator: Trip.com Travel Singapore Pte. Ltd.

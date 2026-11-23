@@ -1,0 +1,31 @@
+19:26:14 replay: no property id in the address
+19:26:14 property page: no id in the address
+19:26:14 agoda      Corinthia Budapest             200 blocked=- prices=0 name=True json=10
+19:26:46 replay 0 {'propertyId': '{id}', 'currency': 'EUR'}: HTTP 200, 104 bytes
+19:26:46 replay 1 {'propertyId': '{id}', 'currency': 'EUR', 'searchType': 'PropertySearch'}: HTTP 200, 104 bytes
+19:26:46 replay 2 {'propertyId': '{id}', 'currency': 'EUR', 'startDate': '2027-05-01T00:00:00.000Z', 'endDate': '2027-06-30T00:00:00.000Z'}: HTTP 200, 104 bytes
+19:27:00 property page https://www.agoda.com/en-gb/search?checkin=2026-12-14&checkout=2026-12-15&currency=EUR&adu: Agoda | Hotels in Rome | Best Price Guarantee!, prices 17, json 9
+19:27:00 agoda      Hotel Artemide                 200 blocked=- prices=0 name=True json=10
+19:27:32 replay 0 {'propertyId': '{id}', 'currency': 'EUR'}: HTTP 200, 1688 bytes
+19:27:32 replay 1 {'propertyId': '{id}', 'currency': 'EUR', 'searchType': 'PropertySearch'}: HTTP 200, 1688 bytes
+19:27:32 replay 2 {'propertyId': '{id}', 'currency': 'EUR', 'startDate': '2027-05-01T00:00:00.000Z', 'endDate': '2027-06-30T00:00:00.000Z'}: HTTP 200, 108 bytes
+19:27:45 property page https://www.agoda.com/en-gb/search?checkin=2026-12-14&checkout=2026-12-15&currency=EUR&adu: Agoda | Hotels in Prague | Best Price Guarantee!, prices 14, json 9
+19:27:45 agoda      Hotel Residence Agnes          200 blocked=- prices=13 name=True json=9
+19:28:31 property page https://www.trip.com/account/signin?backurl=https%3A%2F%2Fwww.trip.com%2Fhotels%2Fv2%2Fdet: Sign in to Trip.com, prices 0, json 0
+19:28:31 trip_com   Corinthia Budapest             200 blocked=- prices=52 name=True json=1
+19:29:14 property page https://www.trip.com/account/signin?backurl=https%3A%2F%2Fwww.trip.com%2Fhotels%2Fv2%2Fdet: Sign in to Trip.com, prices 0, json 0
+19:29:14 trip_com   Hotel Artemide                 200 blocked=- prices=49 name=True json=0
+19:29:59 property page https://www.trip.com/account/signin?backurl=https%3A%2F%2Fwww.trip.com%2Fhotels%2Fv2%2Fdet: Sign in to Trip.com, prices 0, json 0
+19:29:59 trip_com   Hotel Residence Agnes          200 blocked=- prices=53 name=True json=0
+# Sellers' own websites: probe S0
+
+## Sellers (one night, search page)
+
+| seller | pages | blocked | with prices | hotel found | JSON saved |
+|---|---|---|---|---|---|
+| agoda | 3 | 0 | 1 | 3 | 29 |
+| trip_com | 3 | 0 | 3 | 3 | 1 |
+
+Block phrases seen: none
+
+

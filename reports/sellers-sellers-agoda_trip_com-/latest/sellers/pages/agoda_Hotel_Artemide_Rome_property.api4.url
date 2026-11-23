@@ -1,0 +1,1 @@
+GET https://www.agoda.com/api/cronos/layout/GetCalendarExtrasAsync/?cityId=16594&occupancy=2&currency=EUR&suggestedPrice=2&checkIn=2026-12-14T00%3A00%3A00.000Z

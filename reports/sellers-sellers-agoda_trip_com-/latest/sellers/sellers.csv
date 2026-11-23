@@ -1,0 +1,7 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+agoda,ta:g274887-d285437,Corinthia Budapest,HU,200,agoda.com,Agoda | Hotels near Corinthia Hotel Budapest | Best Price Guarantee!,,0,True,6886,10,29.8,no suggestion list (pressed Enter)
+agoda,ta:g187791-d205044,Hotel Artemide,IT,200,agoda.com,Agoda | Hotels in Rome | Best Price Guarantee!,,0,True,10436,10,43.1,no suggestion list (pressed Enter)
+agoda,ta:g274707-d658737,Hotel Residence Agnes,CZ,200,agoda.com,Agoda | Hotels in Prague | Best Price Guarantee!,,13,True,9103,9,42.2,no suggestion list (pressed Enter)
+trip_com,ta:g274887-d285437,Corinthia Budapest,HU,200,trip.com,Budapest Hotels - Where to stay in Budapest | Trip.com,,52,True,6349,1,42.4,no suggestion list (pressed Enter)
+trip_com,ta:g187791-d205044,Hotel Artemide,IT,200,trip.com,Rome Hotels - Where to stay in Rome | Trip.com,,49,True,6127,0,40.7,no suggestion list (pressed Enter)
+trip_com,ta:g274707-d658737,Hotel Residence Agnes,CZ,200,trip.com,Prague Hotels - Where to stay in Prague | Trip.com,,53,True,6044,0,41.1,no suggestion list (pressed Enter)
