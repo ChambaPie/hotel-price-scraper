@@ -1,0 +1,115 @@
+{
+ "query": "Biohotel Rastbichlhof Tux",
+ "calls": [
+  {
+   "method": "GET",
+   "url": "https://www.agoda.com/api/cronos/search/GetUnifiedSuggestResult/3/16/1/0/en-gb/?searchText=Biohotel%20Rastbichlhof%20Tux&guid=013df0b5-6256-4b0c-974c-6af417d1d9fc&origin=US&cid=-1&pageTypeId=1&logtime=Mon%20Nov%2023%202026%2020%3A24%3A03%20GMT%2B0000%20(Coordinated%20Universal%20Time)&logTypeId=1&isHotelLandSearch=true&lastSearchedCity=0",
+   "post": "",
+   "status": 200,
+   "type": "application/json; charset=utf-8",
+   "body": "{\"DerivedLanguageID\":16,\"SiteLanguageID\":16,\"PageTypeID\":1,\"LogTime\":\"Mon Nov 23 2026 20:24:03 GMT\\u002B0000 (Coordinated Universal Time)\",\"Origin\":\"US\",\"UniqueRenderID\":\"013df0b5-6256-4b0c-974c-6af417d1d9fc\",\"ShowNumberOfProperties\":false,\"IsTimeout\":false,\"ViewModelList\":[{\"HasImage\":false,\"HasSubSuggestion\":false,\"IsAddress\":false,\"IsBestSeller\":false,\"IsDefault\":true,\"IsDisplayGoogleLabel\":false,\"IsFirstSuggestion\":false,\"IsHotel\":false,\"IsPopular\":false,\"IsRadius\":false,\"IsSubSuggestion\":false,\"IsTitle\":false,\"IsTopPoi\":false,\"CityId\":0,\"CountryId\":0,\"ExternalTypeID\":0,\"Index\":0,\"NoOfHotels\":0,\"ObjectId\":231902,\"ObjectTypeId\":0,\"PageTypeId\":7,\"SearchType\":0,\"Latitude\":0,\"Longtitude\":0,\"AddressId\":null,\"BgImageLoader\":null,\"CountryISO\":null,\"FormattedNoOfHotels\":\"0\",\"Header\":null,\"HotelText\":null,\"IconCssClass\":null,\"IconDrone\":null,\"Image\":null,\"Name\":\"Biohotel Rastbichlhof Tux\",\"ResultAddress\":null,\"ResultText\":\"Biohotel Rastbichlhof Tux\",\"ResultUrl\":\"/en-gb/search?guid=013df0b5-6256-4b0c-974c-6af417d1d9fc\\u0026lastSearchedCity=0\\u0026hotel=231902\\u0026selectedproperty=231902\\u0026asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb9yaXUeFAxmnnVeEP3XE4E600c%2FNfCNhEcSNqpJeFyhxk%2FUzta%2BddA8bXxPi8s6GcibzkyUPWgBgXufXp2IM0Gp6eEQ%2BpmHFU7pxbZeHp1BrIkkPzgDhYdElNy9kPkCgKyI9Vrj5sDXqFJtDGwn18roIIPp2JRdzHKbY4yvKuDB7ZO%2FRe1rcDQqg2VC9tQS%2Fim\\u0026tick=639310874439\\u0026txtuuid=013df0b5-6256-4b0c-974c-6af417d1d9fc\",\"RetinaImage\":null,\"SubSuggestionTitle\":null,\"SuggestionImage\":null,\"SuggestionImagePlaceHolder\":null,\"TopPoiLabel\":null,\"DisplayNames\":null,\"AirportCodes\":null,\"PlaceTypes\":null,\"HotelImage\":null,\"CityName\":null,\"Filters\":null},{\"HasImage\":false,\"HasSubSuggestion\":false,\"IsAddress\":false,\"IsBestSeller\":false,\"IsDefault\":false,\"IsDisplayGoogleLabel\":false,\"IsFirstSuggestion\":false,\"IsHotel\":true,\"IsPopular\":false,\"IsRadius\":false,\"IsSubSuggestion\":false,\"IsTitle\":false,\"IsTopPoi\":false,\"CityId\":70626,\"CountryId\":130,\"ExternalTypeID\":0,\"Index\":0,\"NoOfHotels\":0,\"ObjectId\":231902,\"ObjectTypeId\":32,\"PageTypeId\":103,\"SearchType\":4,\"Latitude\":0,\"Longtitude\":0,\"AddressId\":null,\"BgImageLoader\":null,\"CountryISO\":\"AT\",\"FormattedNoOfHotels\":\"0\",\"Header\":null,\"HotelText\":\"hotel\",\"IconCssClass\":\"bed-property\",\"IconDrone\":\"fill.facility.bed\",\"Image\":null,\"Name\":\"Biohotel Rastbichlhof\",\"ResultAddress\":null,\"ResultText\":null,\"ResultUrl\":\"/en-gb/search?guid=013df0b5-6256-4b0c-974c-6af417d1d9fc\\u0026lastSearchedCity=0\\u0026hotel=231902\\u0026selectedproperty=231902\\u0026asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb9yaXUeFAxmnnVeEP3XE4E6x1NKK7ebNluAZpicQj4Q8vEgSxImqVSUqc%2FcWHsQJSlHZON9VH1IufgYnAjxfRRpnSk%2FM8eVuQYqDHVLhv%2F6oOmIGBTG8%2FrpFlzTZu3NiSUyaP6QLR%2FrLjY5Votcn4fIybO7AYgtuc%2BvwJimR9dJbSHnVxsvuR6r0SWV8X29HAhN2I%2FTmF07zh%2FPvWXE7Ym7w%3D%3D\\u0026tick=639310874439\",\"RetinaImage\":null,\"SubSuggestionTitle\":null,\"SuggestionImage\":null,\"SuggestionImagePlaceHolder\":null,\"TopPoiLabel\":null,\"DisplayNames\":{\"Name\":\"Biohotel Rastbichlhof\",\"GeoHierarchyName\":\"Neustift im Stubaital, Austria\",\"CategoryName\":\"Property\"},\"AirportCodes\":[],\"PlaceTypes\":null,\"HotelImage\":null,\"CityName\":\"Neustift im Stubaital\",\"Filters\":[]}],\"SuggestionList\":[{\"ExternalTypeID\":0,\"ObjectID\":231902,\"ObjectTypeID\":7,\"ExternalID\":null,\"Name\":\"Biohotel Rastbichlhof Tux\",\"Url\":\"/en-gb/search?guid=013df0b5-6256-4b0c-974c-6af417d1d9fc\\u0026lastSearchedCity=0\\u0026hotel=231902\\u0026selectedproperty=231902\\u0026asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb9yaXUeFAxmnnVeEP3XE4E600c%2FNfCNhEcSNqpJeFyhxk%2FUzta%2BddA8bXxPi8s6GcibzkyUPWgBgXufXp2IM0Gp6eEQ%2BpmHFU7pxbZeHp1BrIkkPzgDhYdElNy9kPkCgKyI9Vrj5sDXqFJtDGwn18roIIPp2JRdzHKbY4yvKuDB7ZO%2FRe1rcDQqg2VC9tQS%2Fim\\u0026tick=639310874439\\u0026txtuuid=013df0b5-6256-4b0c-974c-6af417d1d9fc\",\"ExternalPlaceTypes\":null,\"SuggestionType\":2,\"AirportCodes\":null},{\"ExternalTypeID\":0,\"ObjectID\":231902,\"ObjectTypeID\":103,\"ExternalID\":null,\"Name\":\"Biohotel Rastbichlhof\",\"Url\":\"/en-gb/search?guid=013df0b5-6256-4b0c-974c-6af417d1d9fc\\u0026lastSearchedCity=0\\u0026hotel=231902\\u0026selectedproperty=231902\\u0026asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb9yaXUeFAxmnnVeEP3XE4E6x1NKK7ebNluAZpicQj4Q8vEgSxImqVSUqc%2FcWHsQJSlHZON9VH1IufgYnAjxfRRpnSk%2FM8eVuQYqDHVLhv%2F6oOmIGBTG8%2FrpFlzTZu3NiSUyaP6QLR%2FrLjY5Votcn4fIybO7AYgtuc%2BvwJimR9dJbSHnVxsvuR6r0SWV8X29HAhN2I%2FTmF07zh%2FPvWXE7Ym7w%3D%3D\\u0026tick=639310874439\",\"ExternalPlaceTypes\":null,\"SuggestionType\":2,\"AirportCodes\":[]}]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.agoda.com/graphql/search",
+   "post": "{\"operationName\":\"priceTrendSearch\",\"variables\":{\"PriceTrendSearchRequest\":{\"cityId\":70626,\"propertyId\":231902,\"startDate\":\"2026-11-23T00:00:00.000Z\",\"endDate\":\"2027-01-22T00:00:00.000Z\",\"los\":1,\"occ\":2,\"isUserLoggedIn\":false,\"suggestedPrice\":\"Exclusive\",\"searchType\":\"PropertiesSearch\",\"currency\":\"USD\",\"supportedRateChannelIds\":[1]}},\"query\":\"query priceTrendSearch($PriceTrendSearchRequest: PriceTrendSearchRequest!) {\\n  priceTrendSearch(PriceTrendSearchRequest: $PriceTrendSearchRequest) {\\n    PriceTrendSearchDetails {\\n      cityId\\n      propertyId\\n      prices {\\n        checkIn\\n        price\\n        priceTrendType\\n      }\\n    }\\n  }\\n}\\n\"}",
+   "status": 200,
+   "type": "application/json",
+   "body": "{\"data\":{\"priceTrendSearch\":{\"PriceTrendSearchDetails\":{\"cityId\":70626,\"propertyId\":231902,\"prices\":[{\"checkIn\":\"2027-01-17T07:00:00.000+07:00\",\"price\":266.0,\"priceTrendType\":\"Normal\"},{\"checkIn\":\"2027-01-18T07:00:00.000+07:00\",\"price\":266.0,\"priceTrendType\":\"Normal\"},{\"checkIn\":\"2027-01-19T07:00:00.000+07:00\",\"price\":268.0,\"priceTrendType\":\"High\"},{\"checkIn\":\"2027-01-20T07:00:00.000+07:00\",\"price\":266.0,\"priceTrendType\":\"Normal\"}]}}}}"
+  }
+ ],
+ "dom": [
+  {
+   "tag": "DIV",
+   "attrs": [
+    "id=page-root"
+   ],
+   "text": "Skip to main content\nFlight + Hotel\nHotels & Homes\nTransport\nActivities\nCoupons & Deals\nSign in\nCreate account\nMEGA SALE"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "id=home-react-root"
+   ],
+   "text": "MEGA SALE\nUp to 60% Off!\n\nHotels\n\nFlights\n\nHomes & Apts\n\nFlight + Hotel\n\nActivities\n\nAirport transfer\n\nBegin typing prop"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=TileContainer__wrapper"
+   ],
+   "text": "MEGA SALE\nUp to 60% Off!\n\nHotels\n\nFlights\n\nHomes & Apts\n\nFlight + Hotel\n\nActivities\n\nAirport transfer\n\nBegin typing prop"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=a81c4-box a81c4-fill-inherit a81c4-text-inherit a81c4-w-full a81c4-items-center "
+   ],
+   "text": "Hotels\n\nFlights\n\nHomes & Apts\n\nFlight + Hotel\n\nActivities\n\nAirport transfer\n\nBegin typing property name or keyword to se"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "id=tabpanel-all-rooms-tab",
+    "role=tabpanel",
+    "aria-labelledby=tab-all-rooms-tab",
+    "class=Box-sc-kv6pi1-0 jMHZhv"
+   ],
+   "text": "Begin typing property name or keyword to search, use arrow keys or tab key to navigate, press Enter to select\n\nBiohotel "
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=a81c4-box a81c4-fill-inherit a81c4-text-inherit a81c4-w-full      "
+   ],
+   "text": "Begin typing property name or keyword to search, use arrow keys or tab key to navigate, press Enter to select\n\nBiohotel "
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=SearchBoxContainer SearchBoxContainer--AllRooms SearchBoxContainer--vertical Sea",
+    "id=SearchBoxContainer",
+    "data-selenium=normal-property-searchbox"
+   ],
+   "text": "Begin typing property name or keyword to search, use arrow keys or tab key to navigate, press Enter to select\n\nBiohotel "
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "data-test=TabContent",
+    "class=Box-sc-kv6pi1-0 gpOAsR TabContent OpaqueBackground",
+    "tabindex=-1"
+   ],
+   "text": "Begin typing property name or keyword to search, use arrow keys or tab key to navigate, press Enter to select\n\nBiohotel "
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=Box-sc-kv6pi1-0 khonEX"
+   ],
+   "text": "Begin typing property name or keyword to search, use arrow keys or tab key to navigate, press Enter to select\n\nBiohotel "
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=a81c4-box a81c4-fill-inherit a81c4-text-inherit      "
+   ],
+   "text": "Begin typing property name or keyword to search, use arrow keys or tab key to navigate, press Enter to select\n\nBiohotel "
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=Searchbox Searchbox--vertical",
+    "data-selenium=searchBox"
+   ],
+   "text": "Begin typing property name or keyword to search, use arrow keys or tab key to navigate, press Enter to select\n\nBiohotel "
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=Searchbox__wrapper"
+   ],
+   "text": "Begin typing property name or keyword to search, use arrow keys or tab key to navigate, press Enter to select\n\nBiohotel "
+  }
+ ]
+}

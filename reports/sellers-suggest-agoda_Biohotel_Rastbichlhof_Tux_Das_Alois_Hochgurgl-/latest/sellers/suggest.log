@@ -1,0 +1,10 @@
+20:24:07 Biohotel Rastbichlhof Tux: 2 calls while typing; 12 suggestion-like elements
+20:24:07   200 GET https://www.agoda.com/api/cronos/search/GetUnifiedSuggestResult/3/16/1/0/en-gb/?searchText=Biohotel%20Rastbichlhof%20Tux&guid=013df0b5-6256-4b0c-974c- application/json; charset=utf-
+20:24:07   200 POST https://www.agoda.com/graphql/search application/json
+20:24:20 Das Alois Hochgurgl: 6 calls while typing; 12 suggestion-like elements
+20:24:20   200 GET https://www.agoda.com/api/cronos/search/GetUnifiedSuggestResult/3/16/1/0/en-gb/?searchText=Das%20Alois%20Hochgurgl&guid=7a484400-1e94-429b-a773-f30fcb application/json; charset=utf-
+20:24:20   200 GET https://www.agoda.com/api/cronos/search/GetUnifiedSuggestResult/3/16/1/0/en-gb/?searchText=Das%20Alois%20Hochgurgl&guid=7a484400-1e94-429b-a773-f30fcb application/json; charset=utf-
+20:24:20   200 GET https://www.agoda.com/store/api/stores?cityId=170022&size=4 application/json
+20:24:20   200 GET https://www.agoda.com/store/api/stores?cityId=170022&size=4 application/json
+20:24:20   200 POST https://www.agoda.com/graphql/search application/json
+20:24:20   200 POST https://www.agoda.com/graphql/search application/json
