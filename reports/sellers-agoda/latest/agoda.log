@@ -1,17 +1,17 @@
-20:40:40 city 70092 2026-11-24: no citySearch request seen yet
-20:40:40 city 70092 2027-02-23: no citySearch request seen yet
-20:40:44 took a fresh request from Agoda's page (1)
-20:40:44 city 70092 2027-05-25: no citySearch request seen yet
-20:40:48 took a fresh request from Agoda's page (2)
-20:40:48 city 70092 2027-08-24: no citySearch request seen yet
-20:40:52 took a fresh request from Agoda's page (3)
-20:40:52 city 69328 2026-11-24: no citySearch request seen yet
-20:40:52 city 69328 2027-02-23: no citySearch request seen yet
-20:40:52 city 69328 2027-05-25: no citySearch request seen yet
-20:40:52 city 69328 2027-08-24: no citySearch request seen yet
-20:40:52 city 69292 2026-11-24: no citySearch request seen yet
-20:40:52 city 69292 2027-02-23: no citySearch request seen yet
-20:40:52 city 69292 2027-05-25: no citySearch request seen yet
-20:40:52 city 69292 2027-08-24: no citySearch request seen yet
-20:40:52 too many errors in a row: stopping this pass
-20:40:52 agoda: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 12, 'cities': '131 with mapped hotels', 'stored_nights': 174, 'ids_coverage': '231/1500'}
+20:50:00 city 668713 2026-11-24: no citySearch request seen yet
+20:50:00 city 668713 2027-02-23: no citySearch request seen yet
+20:50:23 took a fresh request from Agoda's page (1)
+20:50:23 city 668713 2027-05-25: no citySearch request seen yet
+20:50:47 took a fresh request from Agoda's page (2)
+20:50:47 city 668713 2027-08-24: no citySearch request seen yet
+20:51:09 took a fresh request from Agoda's page (3)
+20:51:09 city 76593 2026-11-24: no citySearch request seen yet
+20:51:09 city 76593 2027-02-23: no citySearch request seen yet
+20:51:09 city 76593 2027-05-25: no citySearch request seen yet
+20:51:09 city 76593 2027-08-24: no citySearch request seen yet
+20:51:09 city 76145 2026-11-24: no citySearch request seen yet
+20:51:09 city 76145 2027-02-23: no citySearch request seen yet
+20:51:09 city 76145 2027-05-25: no citySearch request seen yet
+20:51:09 city 76145 2027-08-24: no citySearch request seen yet
+20:51:09 too many errors in a row: stopping this pass
+20:51:09 agoda: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 12, 'cities': '230 with mapped hotels', 'stored_nights': 174, 'ids_coverage': '423/1500'}

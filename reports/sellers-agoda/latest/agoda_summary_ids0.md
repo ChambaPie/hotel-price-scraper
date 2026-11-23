@@ -1,10 +1,10 @@
 ## Agoda (ids, share 0)
 
 - ids_due: 150
-- ids_found: 59
-- ids_missed: 91
+- ids_found: 65
+- ids_missed: 85
 - calls: 0
 - priced: 0
 - available: 0
-- errors: 153
-- ids_coverage: 117/1500
+- errors: 421
+- ids_coverage: 296/1500

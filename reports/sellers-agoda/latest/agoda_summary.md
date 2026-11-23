@@ -7,6 +7,6 @@
 - priced: 0
 - available: 0
 - errors: 12
-- cities: 131 with mapped hotels
+- cities: 230 with mapped hotels
 - stored_nights: 174
-- ids_coverage: 231/1500
+- ids_coverage: 423/1500
