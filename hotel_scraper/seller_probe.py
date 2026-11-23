@@ -533,12 +533,15 @@ def survey_site(row: dict, cfg: dict, fetch=None) -> dict:
     return out
 
 
-def survey_engines(cfg: dict, watch: list[dict], osm: dict[str, dict], log=log, fetch=None) -> list[dict]:
+def survey_engines(cfg: dict, watch: list[dict], osm: dict[str, dict], log=log, fetch=None,
+                   google: dict[str, str] | None = None) -> list[dict]:
+    """Every watched hotel with an official website: OpenStreetMap's website tag, else the address Google Hotels gives
+    (google_vendors: the hotel's "Website" button)."""
     sites = []
     for w in watch:
         if w.get("gone_since"):
             continue
-        site = osm.get(w.get("osm_pid") or "", {}).get("website", "")
+        site = osm.get(w.get("osm_pid") or "", {}).get("website", "") or (google or {}).get(w["pid"], "")
         if site:
             sites.append({**w, "website": site})
     log(f"engines: {len(sites)} watched hotels with an official website")
@@ -624,7 +627,8 @@ def main(argv=None) -> int:
         write_rows(out / "sellers.csv", seller_rows)
     if args.part in ("engines", "all"):
         osm = {r["pid"]: r for r in read_csv(p["osm_catalog"])}
-        engine_rows = survey_engines(cfg, watch, osm)
+        google = {r["pid"]: r["website"] for r in read_csv(p["hotel_vendors"]) if r.get("website")}
+        engine_rows = survey_engines(cfg, watch, osm, google=google)
         write_rows(out / "engines.csv", engine_rows)
         stamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
         write_rows(Path(p["official_sites"]), sorted(({**r, "checked_at": stamp} for r in engine_rows), key=lambda r: r["pid"]))
