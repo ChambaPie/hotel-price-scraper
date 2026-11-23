@@ -1,56 +1,9 @@
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 1357, in do_open
-    h.request(req.get_method(), req.selector, req.data, headers,
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1386, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1432, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1381, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1141, in _send_output
-    self.send(msg)
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1085, in send
-    self.connect()
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1520, in connect
-    super().connect()
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/http/client.py", line 1051, in connect
-    self.sock = self._create_connection(
-                ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/socket.py", line 865, in create_connection
-    raise exceptions[0]
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/socket.py", line 850, in create_connection
-    sock.connect(sa)
-OSError: [Errno 101] Network is unreachable
+15:16:42 nord-est: 392 properties, 84364 feature points, 21 cities, 901 s
+15:24:24 centro: 214 properties, 59011 feature points, 20 cities, 462 s
+15:46:25 austria: 206 properties, 60618 feature points, 6 cities, 1321 s
+## Type of place
 
-During handling of the above exception, another exception occurred:
+Processed 812 of 1500 due from 3 OpenStreetMap extracts (1832 MB, 0 failed); coverage 812/1500.
 
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "/home/runner/work/hotel-price-scraper/hotel-price-scraper/hotel_scraper/places.py", line 372, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/runner/work/hotel-price-scraper/hotel-price-scraper/hotel_scraper/places.py", line 361, in main
-    res = run(cfg, args.max_minutes or cfg["places"]["max_minutes"])
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/hotel-price-scraper/hotel-price-scraper/hotel_scraper/places.py", line 308, in run
-    with urlopen(Request(pc["extracts_index"], headers={"User-Agent": UA}), timeout=120) as r:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 215, in urlopen
-    return opener.open(url, data, timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 515, in open
-    response = self._open(req, data)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 532, in _open
-    result = self._call_chain(self.handle_open, protocol, protocol +
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
-    result = func(*args)
-             ^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 1405, in https_open
-    return self.do_open(http.client.HTTPSConnection, req,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 1360, in do_open
-    raise URLError(err)
-urllib.error.URLError: <urlopen error [Errno 101] Network is unreachable>
+Tags: mountain 314, city 249, vineyards 227, ski 216, old_town 189, major_city 140, beach 136, countryside 117, sea 109, thermal 68, lake 53
+
