@@ -387,7 +387,7 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   search_box: *agoda_box     # the same search box as the probe
   cookie_buttons: *cookies
   warm_up_query: "Trieste"   # one search at the start of a prices-only pass, to get the page's own city-search request
-  wait_ms: 6000
+  wait_ms: 4000
   currency: EUR
   user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
   accept_language: "en-GB,en;q=0.9"
@@ -395,12 +395,17 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   min_similarity: 0.8
   near_km: 1.0               # ...or within near_km with a looser name match (names differ between sites)
   min_similarity_near: 0.5
+  same_place_km: 0.15        # ...or practically the same spot with one name inside the other ("Hotel Gesser Sillian ...")
+  queries: ["{name} {city}", "{name}"]   # the name alone when Agoda pins nothing for name and town
   retry_days: 30             # a hotel not found is searched again after this
-  ids_per_run: 120
+  ids_per_run: 150          # per id job (the workflow runs several in parallel until every hotel has been looked up)
+  id_jobs: 3                 # parallel id jobs; must match the loop in .github/workflows/sellers.yml
   ids_share: 0.5             # when ids and prices run together, at most this share of the time goes to ids
   nights_per_city: 4         # nights priced per city per pass...
   night_stride: 182          # ...this many days apart, so one pass spans the 24 months and every night comes round
-  hotels_per_call: 20        # watched hotels pinned in one city search
+  hotels_per_call: 1         # Agoda: "sending more than 1 extra property is not allowed" (2026-11-23)
+  min_lead_days: 1           # tonight is often sold out or past the booking cut-off
+  horizon_days: 730          # 24 months, like Booking.com (owner, 2026-11-23); the summary shows how far Agoda sells
   pause_seconds: 1.5
   stop_after_errors: 8
   max_minutes: 30

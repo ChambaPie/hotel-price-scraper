@@ -28,6 +28,7 @@ from . import config, geo
 from .scan import read_csv, write_csv
 
 SELLER = "agoda"
+LEADS = [(0, 30), (31, 90), (91, 180), (181, 365), (366, 545), (546, 10_000)]   # availability by lead time (summary)
 ID_FIELDS = ["pid", "seller", "seller_id", "city_id", "seller_name", "lat", "lon", "km", "similarity", "status", "checked_at"]
 PRICE_FIELDS = ["pid", "seller", "seller_id", "night", "price", "price_excl", "price_total", "currency", "available",
                 "cancellation", "rooms_left", "url", "seen_at"]
@@ -173,8 +174,17 @@ def match(w: dict, url: str, props: list[dict], ac: dict) -> dict | None:
         return None
     km = geo.haversine_km(float(w["lat"]), float(w["lon"]), float(p["lat"]), float(p["lon"]))
     sim = similarity(w["name"], p["name"])
-    ok = km <= ac["max_km"] and sim >= ac["min_similarity"] or km <= ac["near_km"] and sim >= ac["min_similarity_near"]
+    ok = (km <= ac["max_km"] and sim >= ac["min_similarity"] or km <= ac["near_km"] and sim >= ac["min_similarity_near"]
+          or km <= ac["same_place_km"] and contains(w["name"], p["name"]))
     return {**p, "km": round(km, 2), "similarity": sim, "ok": ok}
+
+
+def contains(a: str, b: str) -> bool:
+    """One name inside the other ("Hotel Gesser" / "Hotel Gesser Sillian Hochpustertal"), not a generic stub."""
+    from .discover_osm import _norm_name
+    na, nb = _norm_name(a), _norm_name(b)
+    short, long_ = sorted((na, nb), key=len)
+    return len(short) >= 5 and short in long_
 
 
 def ids_due(watch: list[dict], known: dict, today: date, ac: dict) -> list[dict]:
@@ -190,16 +200,18 @@ def ids_due(watch: list[dict], known: dict, today: date, ac: dict) -> list[dict]
 
 # ---------- nights ----------
 
-def nights_for(city_key: str, state: dict, today: date, horizon: int, per_pass: int, stride: int) -> list[date]:
+def nights_for(city_key: str, state: dict, today: date, horizon: int, per_pass: int, stride: int,
+               min_lead: int = 0) -> list[date]:
     """The next nights for a city: a walk through the horizon with a fixed stride (so a pass covers far-apart nights
-    and every night comes round), continuing where the last pass stopped."""
+    and every night comes round), continuing where the last pass stopped; never closer than min_lead days."""
     start = int(state.get(city_key, 0))
     out = []
+    span = max(1, horizon - min_lead)
     for i in range(per_pass):
-        k = (start + i * stride) % horizon
+        k = min_lead + (start + i * stride) % span
         out.append(today + timedelta(days=k))
-    state[city_key] = (start + 1) % horizon
-    return out
+    state[city_key] = (start + 1) % span
+    return sorted(set(out))
 
 
 def merge_prices(old: list[dict], new: list[dict], today: date) -> list[dict]:
@@ -212,8 +224,26 @@ def merge_prices(old: list[dict], new: list[dict], today: date) -> list[dict]:
 
 # ---------- run ----------
 
+def shard_of(pid: str, shards: int) -> int:
+    import zlib
+    return zlib.crc32(pid.encode()) % max(1, shards)
+
+
+def merge_ids(paths: list[str], out: str) -> int:
+    """Combine the id files of parallel id jobs: per (seller, hotel), the newest check wins, a found id over a miss."""
+    best: dict[tuple, dict] = {}
+    for path in paths:
+        for r in read_csv(path):
+            k = (r["seller"], r["pid"])
+            old = best.get(k)
+            if old is None or (r["status"] == "ok", r["checked_at"]) > (old["status"] == "ok", old["checked_at"]):
+                best[k] = r
+    write_csv(sorted(best.values(), key=lambda r: (r["seller"], r["pid"])), out, ID_FIELDS)
+    return len(best)
+
+
 def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None = None, log=log,
-        clock=time.monotonic, sleep=time.sleep) -> dict:
+        clock=time.monotonic, sleep=time.sleep, shard: int = 0, shards: int = 1) -> dict:
     ac, p = cfg["agoda"], cfg["paths"]
     today = today or date.today()
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -230,20 +260,24 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
         return max_minutes * 60 - (clock() - started)
 
     if part in ("ids", "all"):
-        todo = ids_due(watch, known, today, ac)[: ac["ids_per_run"]]
+        todo = [w for w in ids_due(watch, known, today, ac) if shard_of(w["pid"], shards) == shard][: ac["ids_per_run"]]
         stats["ids_due"] = len(todo)
         budget = max_minutes * 60 * (ac["ids_share"] if part == "all" else 1)
         for w in todo:
             if clock() - started > budget:
                 break
-            q = f"{w['name']} {w.get('city', '')}".strip()
-            try:
-                url, props = page.search(q)
-                m = match(w, url, props, ac)
-            except Exception as e:  # noqa: BLE001
-                stats["errors"] += 1
-                log(f"{q[:40]}: {str(e)[:100]}")
-                m = None
+            m = None
+            for tpl in ac["queries"]:          # name and town first; the name alone if Agoda pinned nothing
+                q = tpl.format(name=w["name"], city=w.get("city", "")).strip()
+                try:
+                    url, props = page.search(q)
+                    m = match(w, url, props, ac)
+                except Exception as e:  # noqa: BLE001
+                    stats["errors"] += 1
+                    log(f"{q[:40]}: {str(e)[:100]}")
+                    m = None
+                if m is not None:
+                    break
             if m and m["ok"]:
                 stats["ids_found"] += 1
                 known[w["pid"]] = {"pid": w["pid"], "seller": SELLER, "seller_id": m["id"], "city_id": m["city_id"],
@@ -273,12 +307,13 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
                 cities.setdefault(str(r["city_id"]), []).append(r)
         order = sorted(cities, key=lambda c: state.get(f"last:{c}", ""))   # least recently priced first
         new = []
-        horizon = cfg["scan"]["horizon_days"]
+        horizon = ac.get("horizon_days") or cfg["scan"]["horizon_days"]
         for city in order:
             if left() <= 0:
                 break
             rows = cities[city]
-            for night in nights_for(city, state, today, horizon, ac["nights_per_city"], ac["night_stride"]):
+            for night in nights_for(city, state, today, horizon, ac["nights_per_city"], ac["night_stride"],
+                                    ac.get("min_lead_days", 0)):
                 for chunk in range(0, len(rows), ac["hotels_per_call"]):
                     part_rows = rows[chunk: chunk + ac["hotels_per_call"]]
                     try:
@@ -297,6 +332,10 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
                             continue
                         stats["priced"] += 1
                         stats["available"] += 1 if x["available"] else 0
+                        lead = next(f"{lo}-{hi} days" for lo, hi in LEADS if (night - today).days <= hi)
+                        got_lead = stats.setdefault("available_by_lead", {}).setdefault(lead, [0, 0])
+                        got_lead[0] += 1 if x["available"] else 0
+                        got_lead[1] += 1
                         new.append({"pid": r["pid"], "seller": SELLER, "seller_id": r["seller_id"], "night": night.isoformat(),
                                     "price": x["price"] if x["price"] is not None else "",
                                     "price_excl": x["price_excl"] if x["price_excl"] is not None else "",
@@ -331,20 +370,34 @@ def main(argv=None) -> int:
     ap.add_argument("--config", default=str(config.DEFAULT_PATH))
     ap.add_argument("--part", choices=["ids", "prices", "all"], default="all")
     ap.add_argument("--max-minutes", type=float)
+    ap.add_argument("--shard", type=int, default=0, help="ids: this job's share of the hotels (0..shards-1)")
+    ap.add_argument("--shards", type=int, default=1)
+    ap.add_argument("--ids-out", help="ids: write to this file instead of paths.seller_ids (parallel jobs)")
+    ap.add_argument("--merge-ids", nargs="+", help="combine id files into paths.seller_ids and stop")
     args = ap.parse_args(argv)
     cfg = config.load(args.config)
+    if args.merge_ids:
+        log(f"seller ids: {merge_ids(args.merge_ids + [cfg['paths']['seller_ids']], cfg['paths']['seller_ids'])} rows")
+        return 0
     from playwright.sync_api import sync_playwright
     with sync_playwright() as pw:
         page = AgodaPage(pw, cfg)
         try:
-            stats = run(cfg, args.part, args.max_minutes or cfg["agoda"]["max_minutes"], page)
+            if args.ids_out:          # read the shared file, write this job's own
+                src = cfg["paths"]["seller_ids"]
+                cfg["paths"]["seller_ids"] = args.ids_out
+                if not Path(args.ids_out).exists() and Path(src).exists():
+                    Path(args.ids_out).write_bytes(Path(src).read_bytes())
+            stats = run(cfg, args.part, args.max_minutes or cfg["agoda"]["max_minutes"], page,
+                        shard=args.shard, shards=args.shards)
         finally:
             page.close()
     log(f"agoda: {stats}")
     out = Path(cfg["paths"]["out_dir"])
     out.mkdir(parents=True, exist_ok=True)
-    (out / "agoda_summary.md").write_text("## Agoda\n\n" + "\n".join(f"- {k}: {v}" for k, v in stats.items()) + "\n",
-                                          encoding="utf-8")
+    name = f"agoda_summary{'_' + args.part + str(args.shard) if args.shards > 1 else ''}.md"
+    (out / name).write_text(f"## Agoda ({args.part}{f', share {args.shard}' if args.shards > 1 else ''})\n\n"
+                            + "\n".join(f"- {k}: {v}" for k, v in stats.items()) + "\n", encoding="utf-8")
     return 0
 
 

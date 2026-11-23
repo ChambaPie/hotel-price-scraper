@@ -30,7 +30,7 @@ env:
 jobs:
   agoda:
     runs-on: ubuntu-24.04   # pinned: ubuntu-latest is migrating to 26.04 (Playwright browser deps)
-    timeout-minutes: 60
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -44,17 +44,29 @@ jobs:
           git fetch -q origin seller-snapshots && {
             git show origin/seller-snapshots:seller_prices.csv > data/seller_prices.csv
             git show origin/seller-snapshots:agoda_state.json > data/agoda_state.json || true; } || echo "no snapshot yet"
-      - name: Agoda
+      - name: Agoda ids (3 searches in parallel, until every hotel has been looked up)
+        if: inputs.part != 'prices'
         env:
-          PART: ${{ inputs.part || 'all' }}
-          MIN: ${{ inputs.minutes }}
+          MIN: ${{ inputs.minutes || '20' }}
+        run: |
+          mkdir -p out
+          for i in 0 1 2; do   # = settings agoda.id_jobs
+            python -m hotel_scraper.agoda --part ids --shard $i --shards 3 --ids-out out/ids-$i.csv --max-minutes "$MIN" > out/agoda_ids_$i.log 2>&1 &
+          done
+          wait
+          tail -n 3 out/agoda_ids_*.log
+          python -m hotel_scraper.agoda --merge-ids out/ids-*.csv
+      - name: Agoda prices
+        if: inputs.part != 'ids'
+        env:
+          MIN: ${{ inputs.minutes || '25' }}
         run: |
           set -o pipefail
           mkdir -p out
-          python -m hotel_scraper.agoda --part "$PART" ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/agoda.log
+          python -m hotel_scraper.agoda --part prices --max-minutes "$MIN" 2>&1 | tee out/agoda.log
       - name: Summary
         if: always()
-        run: cat out/agoda_summary.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+        run: cat out/agoda_summary*.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
       - name: Commit hotel ids
         if: always()
         run: |

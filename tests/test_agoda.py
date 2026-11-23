@@ -50,6 +50,11 @@ def test_match_checks_name_and_place():
     other = agoda.match({**w, "name": "Grand Hotel Plaza"}, "https://x/?selectedproperty=1081", props, ac)
     assert not other["ok"]                                                          # nearby, another hotel
     assert agoda.match(w, "https://x/?city=16594", props, ac) is None               # Agoda pinned nothing
+    # regression (run 45250329826): the same spot, Agoda's longer name ("Hotel Gesser Sillian Hochpustertal")
+    near = agoda.match({"name": "Hotel", "lat": "41.9009", "lon": "12.4935"}, "https://x/?selectedproperty=1081", props, ac)
+    assert not near["ok"]                                                            # a generic stub is not a name
+    longer = agoda.match({"name": "Artemide", "lat": "41.9009", "lon": "12.4935"}, "https://x/?selectedproperty=1081", props, ac)
+    assert longer["ok"] and agoda.contains("Hotel Gesser", "Hotel Gesser Sillian Hochpustertal")
 
 
 def test_nights_walk_the_whole_horizon():
@@ -59,6 +64,26 @@ def test_nights_walk_the_whole_horizon():
     assert len(seen) == 728 and min(seen) == today                                   # 4 x 182 nights in 182 passes
     first = agoda.nights_for("1", {}, today, 730, 4, 182)
     assert [(n - today).days for n in first] == [0, 182, 364, 546]
+    assert [(n - today).days for n in agoda.nights_for("1", {}, today, 730, 2, 182, min_lead=1)] == [1, 183]
+
+
+def test_parallel_id_jobs_merge(tmp_path):
+    f = ["pid", "seller", "seller_id", "city_id", "seller_name", "lat", "lon", "km", "similarity", "status", "checked_at"]
+    def write(name, rows):
+        with open(tmp_path / name, "w", newline="") as fh:
+            w = csv.DictWriter(fh, f)
+            w.writeheader()
+            w.writerows([{k: r.get(k, "") for k in f} for r in rows])
+        return str(tmp_path / name)
+    a = write("a.csv", [{"pid": "p1", "seller": "agoda", "seller_id": "1", "status": "ok", "checked_at": "2026-11-23T10:00"},
+                        {"pid": "p2", "seller": "agoda", "status": "not found", "checked_at": "2026-11-23T10:00"}])
+    b = write("b.csv", [{"pid": "p1", "seller": "agoda", "status": "not found", "checked_at": "2026-11-24T10:00"},
+                        {"pid": "p2", "seller": "agoda", "seller_id": "2", "status": "ok", "checked_at": "2026-11-23T09:00"}])
+    out = str(tmp_path / "ids.csv")
+    assert agoda.merge_ids([a, b], out) == 2
+    got = {r["pid"]: r for r in csv.DictReader(open(out))}
+    assert got["p1"]["seller_id"] == "1" and got["p2"]["seller_id"] == "2"         # a found id beats a later miss
+    assert {agoda.shard_of(p, 3) for p in ("ta:1", "ta:2", "ta:3", "ta:4", "ta:5", "ta:6")} <= {0, 1, 2}
 
 
 def test_merge_keeps_latest_and_drops_past():
@@ -98,9 +123,9 @@ def test_run_finds_ids_then_prices_nights(tmp_path):
     assert len(page.calls) == 4 and {c[2] for c in page.calls} == {(1081,)} and page.calls[0][0] == 16594
     rows = list(csv.DictReader(open(cfg["paths"]["seller_prices"])))
     assert len(rows) == 4 and rows[0]["seller"] == "agoda" and rows[0]["price"] == "188.05" and rows[0]["available"] == "yes"
-    assert "hid=1081" in rows[0]["url"] and "checkin=2026-11-24" in rows[0]["url"]
+    assert "hid=1081" in rows[0]["url"] and "checkin=2026-11-25" in rows[0]["url"]   # tonight skipped (min_lead_days)
     ids = {r["pid"]: r for r in csv.DictReader(open(cfg["paths"]["seller_ids"]))}
     assert ids["ta:art"]["seller_id"] == "1081" and ids["ta:x"]["status"] == "not found"
     page2 = FakePage()                                                               # next pass: ids reused, next nights
     agoda.run(cfg, "all", 5, page2, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
-    assert page2.searches == ["Trieste"] and page2.calls[0][1] == date(2026, 11, 25)
+    assert page2.searches == ["Trieste"] and page2.calls[0][1] == date(2026, 11, 26)
