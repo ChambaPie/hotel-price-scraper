@@ -105,3 +105,22 @@ def test_replay_asks_the_page_api_for_one_property(tmp_path):
     got = json.loads(b)["variables"]["PriceTrendSearchRequest"]
     assert url.endswith("/graphql/search") and got == {"cityId": 16594, "currency": "EUR", "propertyId": 1081}
     assert "cookie" not in headers and len(sent) == len(rp["variants"]) and (tmp_path / "agoda_x.replay0.json").exists()
+
+
+def test_human_touch_and_window_browser_settings():
+    import random
+    pytest = __import__("pytest")
+    pytest.importorskip("playwright")
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as pw:
+        try:
+            br = pw.chromium.launch()
+        except Exception:  # noqa: BLE001  (no browser installed here)
+            pytest.skip("no browser")
+        page = br.new_page()
+        page.set_content("<body style='height:3000px'><script>let n=0;addEventListener('mousemove',()=>n++)</script></body>")
+        sp.human_touch(page, random.Random(1))
+        assert page.evaluate("n") > 10 and page.evaluate("scrollY") > 0
+        br.close()
+    person = CFG["seller_probe"]["sellers"]["expedia"]["browser"]
+    assert person["headed"] and person["native_user_agent"] and person["timezone"] == "Europe/Rome"

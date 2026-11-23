@@ -218,8 +218,14 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
   hotels: 6                  # watched hotels per seller (one per country first)
   checkin_offset_days: 21
   sellers:                   # search page per seller; {q} hotel name + town, {checkin} YYYY-MM-DD, {checkin_slash} YYYY/MM/DD
-    hotels_com: "https://www.hotels.com/Hotel-Search?destination={q}&startDate={checkin}&endDate={checkout}&adults={adults}&rooms=1"
-    expedia: "https://www.expedia.it/Hotel-Search?destination={q}&startDate={checkin}&endDate={checkout}&adults={adults}&rooms=1"
+    hotels_com:              # a hidden test browser is refused (2026-11-23): Google Chrome with a window, like a person's
+      search: "https://www.hotels.com/Hotel-Search?destination={q}&startDate={checkin}&endDate={checkout}&adults={adults}&rooms=1"
+      browser: &person {headed: true, channel: chrome, native_user_agent: true, timezone: Europe/Rome, locale: en-GB,
+                        accept_language: "en-GB,en;q=0.9,it;q=0.8", human: true, pause_seconds: 12,
+                        warm_up: "https://www.hotels.com/"}
+    expedia:
+      search: "https://www.expedia.it/Hotel-Search?destination={q}&startDate={checkin}&endDate={checkout}&adults={adults}&rooms=1"
+      browser: {<<: *person, warm_up: "https://www.expedia.it/"}
     agoda:                   # the search address alone opens the home page (2026-11-23): use the search box
       home: "https://www.agoda.com/en-gb/"
       input: "[data-selenium='textInput'], input[placeholder*='destination' i], input[placeholder*='Where' i]"

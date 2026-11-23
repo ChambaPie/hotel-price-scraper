@@ -92,14 +92,16 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
     checkout = checkin + timedelta(days=1)
     rows = []
     with sync_playwright() as pw:
-        br = launch_browser(pw, True)
+        default_br = launch_browser(pw, True)
         for seller, spec in sp["sellers"].items():
             if only and seller not in only:
                 continue
-            tpl = spec["home"] if isinstance(spec, dict) else spec
-            ctx = br.new_context(user_agent=sp["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900},
-                                 extra_http_headers={"Accept-Language": sp["accept_language"]})
+            bc = spec.get("browser", {}) if isinstance(spec, dict) else {}
+            tpl = (spec.get("search") or spec["home"]) if isinstance(spec, dict) else spec
+            br, ctx = open_browser(pw, default_br, bc, sp)
             page = ctx.new_page()
+            if bc.get("warm_up"):
+                warm_up(page, bc["warm_up"], log)
             seen: list = []
             page.on("response", lambda r: seen.append(r))
             for w in hotels:
@@ -113,7 +115,9 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                     r = page.goto(url, wait_until="domcontentloaded", timeout=60000)
                     status = r.status if r else 0
                     page.wait_for_timeout(sp["wait_ms"])
-                    if isinstance(spec, dict):
+                    if bc.get("human"):
+                        human_touch(page)
+                    if isinstance(spec, dict) and spec.get("input"):
                         err = search_box(page, spec, q, sp["wait_ms"])
                 except Exception as e:  # noqa: BLE001
                     err = str(e)[:160]
@@ -142,10 +146,63 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                 rows.append(row)
                 log(f"{seller:10} {w['name'][:30]:30} {status} blocked={facts['blocked'] or '-'} prices={facts['prices']} "
                     f"name={facts['name_found']} json={api}")
-                time.sleep(sp["pause_seconds"])
+                time.sleep(bc.get("pause_seconds", sp["pause_seconds"]))
             ctx.close()
-        br.close()
+            if br is not default_br:
+                br.close()
+        default_br.close()
     return rows
+
+
+def open_browser(pw, default_br, bc: dict, sp: dict):
+    """The usual hidden browser, or (bc.headed) Google Chrome with a window, its own user agent and a time zone and
+    language that match each other, as a person's browser would have."""
+    if not bc.get("headed") and not bc.get("channel"):
+        br = default_br
+    else:
+        br = pw.chromium.launch(headless=not bc.get("headed"), channel=bc.get("channel") or None,
+                                args=["--disable-blink-features=AutomationControlled", "--window-size=1366,768"])
+    opts = {"locale": bc.get("locale", "en-GB"), "viewport": {"width": 1366, "height": 768},
+            "screen": {"width": 1366, "height": 768},
+            "extra_http_headers": {"Accept-Language": bc.get("accept_language", sp["accept_language"])}}
+    if bc.get("timezone"):
+        opts["timezone_id"] = bc["timezone"]
+    if not bc.get("native_user_agent"):
+        opts["user_agent"] = sp["user_agent"]
+    return br, br.new_context(**opts)
+
+
+def human_touch(page, rnd=None) -> None:
+    """A few seconds of ordinary use: the pointer moves across the page and the page scrolls a little."""
+    import random
+    rnd = rnd or random.Random()
+    x, y = rnd.randint(200, 1100), rnd.randint(150, 600)
+    for _ in range(rnd.randint(3, 5)):
+        nx, ny = rnd.randint(100, 1250), rnd.randint(120, 700)
+        page.mouse.move(nx, ny, steps=rnd.randint(12, 30))
+        page.wait_for_timeout(rnd.randint(150, 600))
+        x, y = nx, ny
+    page.mouse.wheel(0, rnd.randint(250, 600))
+    page.wait_for_timeout(rnd.randint(700, 1500))
+    page.mouse.wheel(0, -rnd.randint(100, 300))
+    page.wait_for_timeout(rnd.randint(500, 1200))
+
+
+def warm_up(page, url: str, log=log) -> None:
+    """Open the site's home page first, as a person would, accept its cookie banner and look around."""
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(3500)
+        for label in ("Accept all", "Accept", "Accetta tutto", "Accetta", "I agree", "OK"):
+            b = page.get_by_role("button", name=label, exact=True)
+            if b.count():
+                b.first.click()
+                page.wait_for_timeout(1200)
+                break
+        human_touch(page)
+        log(f"warm-up {url}: {page.title()[:60]}")
+    except Exception as e:  # noqa: BLE001
+        log(f"warm-up {url}: {str(e)[:120]}")
 
 
 def name_words(name: str) -> list[str]:
