@@ -53,12 +53,37 @@ def parse_count(num: str, suffix: str = "") -> int | None:
     return int(s) if s.isdigit() else None
 
 
+ENTITY = re.compile(r"^Open (.+) in a new tab\.$")
+
+
+def entity_card(lines: list[str]) -> dict | None:
+    """The hotel's own panel, which Google opens beside the list for the best match (real pages, 2026-11-23):
+        Open Posthotel Achenkirch in a new tab. / Close / Overview / ... / 4.7 / (1.1k) / • / 5-star hotel / address"""
+    for i, line in enumerate(lines):
+        m = ENTITY.match(line)
+        if not m:
+            continue
+        for j in range(i + 1, min(i + 14, len(lines))):
+            if RATING.match(lines[j]):
+                reviews = None
+                if j + 1 < len(lines) and COUNT.match(lines[j + 1]):
+                    c = COUNT.match(lines[j + 1])
+                    reviews = parse_count(c.group(1), c.group(2))
+                stars = next((int(CLASS.search(x).group(1)) for x in lines[j + 1: j + 6] if CLASS.search(x)), None)
+                return {"name": m.group(1), "rating": float(RATING.match(lines[j]).group(1).replace(",", ".")),
+                        "reviews": reviews, "stars": stars, "amenities": [], "panel": True}
+        return None
+    return None
+
+
 def cards_from_text(text: str) -> list[dict]:
     """Hotel cards from the text of a Google Hotels results page: [{name, rating, reviews, stars, amenities}].
-    A card ends with "View prices" / "View details"; its name is the last line before the rating that isn't a price
-    or a label; amenities come from the "Amenities for <name>[, a 4-star hotel.]: a, b, c," line."""
+    The hotel's own panel first, when Google opened one (entity_card). A list card ends with "View prices" /
+    "View details"; its name is the last line before the rating that isn't a price or a label; amenities come from the
+    "Amenities for <name>[, a 4-star hotel.]: a, b, c," line."""
     lines = [l.strip() for l in text.splitlines() if l.strip()]
-    cards, block = [], []
+    panel = entity_card(lines)
+    cards, block = ([panel] if panel else []), []
     for line in lines:
         if line in ENDS:
             card = _card(block)

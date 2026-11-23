@@ -1,5 +1,7 @@
 """Google rating, reviews, class and amenities from Google Hotels results (real page captured 2026-11-10)."""
 import csv
+
+import pytest
 from datetime import date
 from pathlib import Path
 
@@ -65,3 +67,27 @@ def test_run_fills_the_property_and_its_neighbours(tmp_path):
     assert rows["ta:2"]["google_reviews"] == "2800" and "Hot tub" in rows["ta:2"]["amenities"].split("|")
     assert rows["ta:3"]["status"] == "not found"
     assert stats["also_filled"] == 1 and stats["coverage"] == "2/3"
+
+
+ENTITY_PAGES = [   # real captures (Place details run 45200479429): Google opened the hotel's own panel
+    ("google_hotels_entity_posthotel_achenkirch_2026-11.txt", "Posthotel Achenkirch", 4.7, 1100, 5),
+    ("google_hotels_entity_vitalhotel_edelweiss_2026-11.txt", "Vitalhotel Edelweiss", 4.9, 664, 4),
+    ("google_hotels_entity_princess_bergfrieden_2026-11.txt", "Hotel Princess Bergfrieden", 4.7, 161, None),
+    ("google_hotels_entity_klosterbraeu_2026-11.txt", "Hotel Klosterbräu & SPA", 4.6, 754, 5),
+]
+
+
+@pytest.mark.parametrize("fixture,name,rating,reviews,stars", ENTITY_PAGES)
+def test_hotel_panel_on_real_pages(fixture, name, rating, reviews, stars):
+    """Regression: these were 'not found' although Google showed the hotel's own panel with its rating."""
+    from pathlib import Path
+    text = (Path(__file__).parent / "fixtures" / fixture).read_text(encoding="utf-8")
+    card, sim = gr.best_card(name, gr.cards_from_text(text), 0.72)
+    assert card is not None and sim >= 0.9
+    assert (card["rating"], card["reviews"], card["stars"]) == (rating, reviews, stars)
+
+
+def test_no_results_page_has_no_cards():
+    from pathlib import Path
+    text = (Path(__file__).parent / "fixtures" / "google_hotels_no_results_2026-11.txt").read_text(encoding="utf-8")
+    assert gr.cards_from_text(text) == []
