@@ -28,7 +28,8 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
     cfg = config.load(args.config)
     sp = cfg["seller_probe"]
-    spec = sp["sellers"][args.seller]
+    from .seller_probe import probe_specs
+    spec = probe_specs(cfg, ["probe", "account", "official", "live"])[args.seller]
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     from playwright.sync_api import sync_playwright
