@@ -272,6 +272,23 @@ sellers:                     # every travel website that sells the room and take
   weekendesk: {name: Weekendesk, status: probe, home: "https://www.weekendesk.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   secret_escapes: {name: Secret Escapes, status: account, home: "https://www.secretescapes.it/", note: "no answer (probe 2026-11-23)"}
   voyage_prive: {name: Voyage Privé, status: account, home: "https://www.voyage-prive.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  # seen selling watched hotels on Google Hotels (vendors survey, 2026-11-23; hotels with a list: 19 so far)
+  holidaycheck: {name: HolidayCheck, status: probe, home: "https://www.holidaycheck.at/", note: "Google: 18 of 19 hotels"}
+  super_com: {name: Super.com, status: probe, home: "https://www.super.com/travel/", note: "Google: 8 of 19"}
+  reserving: {name: Reserving, status: probe, home: "https://www.reserving.com/", note: "Google: 6 of 19"}
+  etrip: {name: Etrip.net, status: probe, home: "https://www.etrip.net/", note: "Google: 11 of 19"}
+  goseek: {name: goseek, status: probe, home: "https://www.goseek.com/", note: "Google: 9 of 19"}
+  hotel_booking_zone: {name: Hotel Booking Zone, status: probe, note: "Google: 12 of 19; address to find"}
+  bookhotel_direct: {name: Bookhotel.direct, status: probe, home: "https://bookhotel.direct/", note: "Google: 3 of 19"}
+  stayforlong: {name: Stayforlong, status: probe, home: "https://www.stayforlong.com/", note: "Google: 1 of 19"}
+  traveluro: {name: Traveluro, status: probe, home: "https://www.traveluro.com/", note: "Google: 1 of 19"}
+  travelup: {name: TravelUp, status: probe, home: "https://www.travelup.com/", note: "Google: 1 of 19"}
+  travelcircus: {name: Travelcircus, status: probe, home: "https://www.travelcircus.de/", note: "Google: 1 of 19"}
+  catchit: {name: Catchit, status: probe, home: "https://www.catchit.com/", note: "Google: 2 of 19"}
+  klook: {name: Klook, status: later, note: "Google: 2 of 19; Asia-first"}
+  qantas_hotels: {name: Qantas Hotels, status: later, note: "Google: 2 of 19; Australia-first"}
+  kiwi: {name: Kiwi.com, status: later, note: "Google: 4 of 19; its hotels come from Booking.com (already read)"}
+  cheaptickets: {name: CheapTickets, group: Expedia Group, status: blocked, note: "same system as Expedia; Google: 10 of 19"}
   hoteltonight: {name: HotelTonight, group: Airbnb, status: later, note: "app-first, same-night deals"}
   hopper: {name: Hopper, status: later, note: "app-first"}
   marriott: {name: Marriott, status: blocked, home: "https://www.marriott.com/", note: "Access Denied from GitHub's servers (probe 2026-11-23)"}
@@ -285,7 +302,8 @@ sellers:                     # every travel website that sells the room and take
   best_western: {name: Best Western, status: official, home: "https://www.bestwestern.it/"}
   wyndham: {name: Wyndham, status: official, home: "https://www.wyndhamhotels.com/"}
 
-comparison_sites: [trivago, kayak, google hotels, tripadvisor, skyscanner, momondo, hotelscombined, holidu, wego]
+comparison_sites: [trivago, trivago deals, kayak, google hotels, tripadvisor, skyscanner, momondo, hotelscombined, holidu,
+                   wego, bluepillow, dealbase]
                              # show other sellers' prices and send you there: never used for prices (owner, 2026-11-23)
 
 seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the sellers' own websites)
