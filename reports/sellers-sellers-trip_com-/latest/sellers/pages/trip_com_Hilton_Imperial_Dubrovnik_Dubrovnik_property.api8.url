@@ -1,0 +1,2 @@
+POST https://www.trip.com/restapi/soa2/27147/run?subEnv=fat18&x-traceID=1795471140342.6388Zq8CK2ol-1795471306264-1366292156
+{"name":"gotop-tg-config","Head":{"Group":"Trip","Source":"ONLINE","Version":"10000","Locale":"en-XX","Currency":"EUR","VID":"1795471140342.6388Zq8CK2ol","ClientID":"09034129214822242268","SessionId":"1","PvId":"12"},"localTime":"2026-11-23"}

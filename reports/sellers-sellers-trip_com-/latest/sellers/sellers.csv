@@ -1,0 +1,5 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+trip_com,ta:g274887-d285437,Corinthia Budapest,HU,200,trip.com,Budapest Hotels - Where to stay in Budapest | Trip.com,,53,True,6377,1,43.1,no suggestion list (pressed Enter)
+trip_com,ta:g187791-d205044,Hotel Artemide,IT,200,trip.com,Rome Hotels - Where to stay in Rome | Trip.com,,49,True,6163,0,41.9,no suggestion list (pressed Enter)
+trip_com,ta:g274707-d658737,Hotel Residence Agnes,CZ,200,trip.com,Prague Hotels - Where to stay in Prague | Trip.com,,54,True,6043,0,41.7,no suggestion list (pressed Enter)
+trip_com,ta:g295371-d559522,Hilton Imperial Dubrovnik,HR,200,trip.com,Dubrovnik Hotels - Where to stay in Dubrovnik | Trip.com,,50,True,6300,0,42.4,no suggestion list (pressed Enter)

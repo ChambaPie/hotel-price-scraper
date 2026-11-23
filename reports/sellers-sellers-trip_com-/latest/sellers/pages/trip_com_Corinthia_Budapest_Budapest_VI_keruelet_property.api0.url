@@ -1,0 +1,2 @@
+POST https://www.trip.com/restapi/soa2/13909/getUspInfo?x-traceID=1795471140342.6388Zq8CK2ol-1795471170903-1381139940
+{"pageId":"10320668148","filterInfo":{"productLine":"hotels","scene":"isbrg"},"head":{"group":"trip","source":"Online","locale":"en-XX"}}

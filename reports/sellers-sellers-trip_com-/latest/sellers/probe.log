@@ -1,0 +1,19 @@
+21:59:43 property page https://www.trip.com/hotels/list?flexType=1&cityId=637&provinceId=0&districtId=0&countryId: Budapest Hotels - Where to stay in Budapest | Trip, prices 51, json 10
+21:59:43 trip_com   Corinthia Budapest             200 blocked=- prices=53 name=True json=1
+22:00:28 property page https://www.trip.com/hotels/list?flexType=1&cityId=343&provinceId=10151&districtId=0&count: Rome Hotels - Where to stay in Rome | Trip.com, prices 52, json 10
+22:00:28 trip_com   Hotel Artemide                 200 blocked=- prices=49 name=True json=0
+22:01:12 property page https://www.trip.com/hotels/list?flexType=1&cityId=1288&provinceId=0&districtId=0&countryI: Prague Hotels - Where to stay in Prague | Trip.com, prices 55, json 10
+22:01:12 trip_com   Hotel Residence Agnes          200 blocked=- prices=54 name=True json=0
+22:01:58 property page https://www.trip.com/hotels/list?flexType=1&cityId=3901&provinceId=10101&districtId=0&coun: Dubrovnik Hotels - Where to stay in Dubrovnik | Tr, prices 47, json 10
+22:01:58 trip_com   Hilton Imperial Dubrovnik      200 blocked=- prices=50 name=True json=0
+# Sellers' own websites: probe S0
+
+## Sellers (one night, search page)
+
+| seller | pages | blocked | with prices | hotel found | JSON saved |
+|---|---|---|---|---|---|
+| trip_com | 4 | 0 | 4 | 4 | 1 |
+
+Block phrases seen: none
+
+

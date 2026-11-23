@@ -1,0 +1,2 @@
+POST https://www.trip.com/restapi/soa2/18088/getAppConfig.json
+{"appId":"5278","categoryList":["ubtconfig"],"head":{"appid":"5278","cid":"1795471140342.6388Zq8CK2ol","cver":"000.001","sid":"8892"}}
