@@ -1,0 +1,2 @@
+POST https://www.agoda.com/api/cronos/layout/GetHotCities
+{"SearchCriteria":null,"PageType":103,"IncludeRecentSearch":true,"IncludeLatestSearch":false,"RecommendedCitiesRequest":{"languageId":1,"userId":"0d30300d-ed2c-434d-b42b-5a5c2a79c3ef","sessionId":"kgoqslk4fbrodjkxrji3kx2k","usecaseId":10310,"origin":"US","currency":"USD","locale":"en-gb","cultureCode":"en-gb","cid":-1,"requestNumber":6},"RecentSearchNumberOfItems":null,"NoAbandonedCartSorting":false}

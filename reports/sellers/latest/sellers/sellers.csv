@@ -1,0 +1,9 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+agoda,ta:g274887-d285437,Corinthia Budapest,HU,200,agoda.com,Agoda | Hotels near Corinthia Hotel Budapest | Best Price Guarantee!,,0,True,6630,8,29.1,no suggestion list (pressed Enter)
+agoda,ta:g187791-d205044,Hotel Artemide,IT,200,agoda.com,Agoda | Hotels in Rome | Best Price Guarantee!,,0,True,10494,9,27.2,no suggestion list (pressed Enter)
+agoda,ta:g274707-d658737,Hotel Residence Agnes,CZ,200,agoda.com,Agoda | Hotels in Prague | Best Price Guarantee!,,0,True,8494,9,27.8,no suggestion list (pressed Enter)
+agoda,ta:g295371-d559522,Hilton Imperial Dubrovnik,HR,200,agoda.com,Agoda | Hotels in Dubrovnik | Best Price Guarantee!,,0,True,7282,10,28.7,no suggestion list (pressed Enter)
+trip_com,ta:g274887-d285437,Corinthia Budapest,HU,200,trip.com,Budapest Hotels - Where to stay in Budapest | Trip.com,,52,True,6372,1,33.8,no suggestion list (pressed Enter)
+trip_com,ta:g187791-d205044,Hotel Artemide,IT,200,trip.com,Rome Hotels - Where to stay in Rome | Trip.com,,51,True,6206,0,26.9,no suggestion list (pressed Enter)
+trip_com,ta:g274707-d658737,Hotel Residence Agnes,CZ,200,trip.com,Prague Hotels - Where to stay in Prague | Trip.com,,53,True,6132,0,27.6,no suggestion list (pressed Enter)
+trip_com,ta:g295371-d559522,Hilton Imperial Dubrovnik,HR,200,trip.com,Dubrovnik Hotels - Where to stay in Dubrovnik | Trip.com,,49,True,6293,0,29.0,no suggestion list (pressed Enter)

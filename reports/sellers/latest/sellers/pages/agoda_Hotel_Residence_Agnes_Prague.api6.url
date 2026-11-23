@@ -1,0 +1,2 @@
+POST https://www.agoda.com/api/cronos/seo/search
+{"objectId":15977,"searchRequestType":1}

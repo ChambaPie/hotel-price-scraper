@@ -1,0 +1,2 @@
+POST https://www.agoda.com/api/cronos/search/npc/area/info
+{"areaIds":[61034,26514,58660,58651,482582,61033,80457,61032,58666,58640,58649]}
