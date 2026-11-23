@@ -42,9 +42,10 @@ def test_money():
 
 
 def test_list_request_for_another_hotel_and_night():
-    b = tripcom.list_body(LIST_REQUEST, [1234], 99, 7, date(2027, 3, 1), 2)
+    b = tripcom.list_body(LIST_REQUEST, [1234], 99, 7, date(2027, 3, 1), 2, "Hotel Andy")
     assert b["date"]["dateInfo"] == {"checkInDate": "20270301", "checkOutDate": "20270302"}
-    assert b["destination"]["geo"] == {"cityId": 99, "countryId": 7} and "keyword" not in b["destination"]
+    assert b["destination"]["geo"] == {"cityId": 99, "countryId": 7}
+    assert b["destination"]["keyword"] == {"word": "Hotel+Andy"}     # as the page sends it (run 45277915620)
     ids = [f["value"] for f in b["filters"] if f["type"] == "31"]
     assert ids == ["1234"]                                    # the captured hotel's filter replaced, not kept
     assert [f["value"] for f in b["filters"] if f["type"] == "29"] == ["1|2"]
@@ -71,8 +72,9 @@ class FakePage:
         self.suggested.append(q)
         return tripcom.keywords(KEYWORDS) if "Artemide" in q else []
 
-    def nights(self, ids, city_id, country_id, night, adults):
+    def nights(self, ids, city_id, country_id, night, adults, name=""):
         self.calls.append((tuple(ids), city_id, country_id, night))
+        self.names = getattr(self, "names", set()) | {name}
         return tripcom.hotels(LIST)
 
 
@@ -80,6 +82,7 @@ def _setup(tmp_path):
     cfg = config.load()
     for k in ("watchlist", "seller_ids", "seller_prices", "locations"):
         cfg["paths"][k] = str(tmp_path / f"{k}.csv")
+    cfg["paths"]["out_dir"] = str(tmp_path / "out")
     with open(cfg["paths"]["watchlist"], "w", newline="") as f:
         w = csv.DictWriter(f, ["pid", "name", "city", "lat", "lon", "gone_since"])
         w.writeheader()
@@ -108,6 +111,7 @@ def test_run_finds_ids_then_prices_nights(tmp_path):
     assert ids[("trip_com", "ta:x")]["status"] == "not found"
     n = cfg["tripcom"]["nights_per_pass"]
     assert len(page.calls) == n and {c[:3] for c in page.calls} == {((760667,), 343, 106)}
+    assert page.names == {"Hotel Artemide"}        # the page sends the name with the id (run 45277915620)
     assert min(c[3] for c in page.calls) >= date(2026, 11, 25)                 # tonight skipped (min_lead_days)
     rows = list(csv.DictReader(open(cfg["paths"]["seller_prices"])))
     assert len(rows) == n and rows[0]["seller"] == "trip_com" and rows[0]["price"] == "188.77"
@@ -126,10 +130,13 @@ def test_other_hotels_in_the_answer_are_not_taken_for_ours(tmp_path):
     tripcom.run(cfg, "ids", 5, FakePage(), today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
 
     class Others(FakePage):
-        def nights(self, ids, *a):
+        def nights(self, ids, *a, **k):
             doc = json.loads(json.dumps(LIST))
             doc["data"]["hotelList"][0]["hotelInfo"]["summary"]["hotelId"] = "1"
             return tripcom.hotels(doc)
-    res = tripcom.run(cfg, "prices", 5, Others(), today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
-    assert res["calls"] > 0 and res["priced"] == 0
+    pg = Others()
+    pg.last = {"data": {"hotelList": []}}
+    res = tripcom.run(cfg, "prices", 5, pg, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+    assert res["calls"] > 0 and res["priced"] == 0 and res["missing"] == res["calls"]
+    assert (tmp_path / "out" / "tripcom_miss_1.json").exists()      # what came back instead, kept to see why
     assert [r for r in csv.DictReader(open(cfg["paths"]["seller_prices"])) if r["seller"] == "trip_com"] == []

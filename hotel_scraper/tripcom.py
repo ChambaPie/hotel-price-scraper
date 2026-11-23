@@ -89,7 +89,7 @@ def keywords_body(template: dict, query: str) -> dict:
 
 
 def list_body(template: dict, hotel_ids: list[int], city_id: int, country_id: int | None, night: date,
-              adults: int) -> dict:
+              adults: int, name: str = "") -> dict:
     """Trip.com's own results-list request (captured, config tripcom.list_template) for these hotels and one night."""
     b = copy.deepcopy(template)
     b["date"] = {**b.get("date", {}), "dateType": 1,
@@ -97,6 +97,8 @@ def list_body(template: dict, hotel_ids: list[int], city_id: int, country_id: in
                               "checkOutDate": (night + timedelta(days=1)).strftime("%Y%m%d")}}
     geo = {"cityId": city_id, **({"countryId": country_id} if country_id else {})}
     b["destination"] = {**{k: v for k, v in b.get("destination", {}).items() if k != "keyword"}, "type": 1, "geo": geo}
+    if name:                                 # the page sends the hotel's name with its id (run 45277915620: without
+        b["destination"]["keyword"] = {"word": name.replace(" ", "+")}     # it, 404 answers without our hotel)
     b["filters"] = [f for f in b.get("filters", []) if f.get("type") not in ("31", "29")] + \
         [{"type": "31", "title": "", "value": str(i), "filterId": f"31|{i}"} for i in hotel_ids] + \
         [{"filterId": "29|1", "type": "29", "value": f"1|{adults}"}]
@@ -141,9 +143,12 @@ class TripPage:
     def suggest(self, query: str) -> list[dict]:
         return keywords(self._post(self.tc["keywords_url"], keywords_body(self.kw_template, query)))
 
-    def nights(self, hotel_ids: list[int], city_id: int, country_id: int | None, night: date, adults: int) -> list[dict]:
-        return hotels(self._post(self.tc["list_url"],
-                                 list_body(self.list_template, hotel_ids, city_id, country_id, night, adults)))
+    def nights(self, hotel_ids: list[int], city_id: int, country_id: int | None, night: date, adults: int,
+               name: str = "") -> list[dict]:
+        doc = self._post(self.tc["list_url"], list_body(self.list_template, hotel_ids, city_id, country_id, night,
+                                                        adults, name))
+        self.last = doc
+        return hotels(doc)
 
 
 def find_id(page, w: dict, tc: dict, stats: dict, sleep=time.sleep, log=log) -> dict | None:
@@ -231,7 +236,7 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
             for night in rotating_nights(r["pid"], start, days, tc["nights_per_pass"], tc["night_stride"], now_dt):
                 try:
                     got = {x["id"]: x for x in page.nights([hid], int(city), int(country) if country else None,
-                                                           night, adults)}
+                                                           night, adults, r["seller_name"])}
                     stats["calls"] += 1
                 except Exception as e:  # noqa: BLE001
                     stats["errors"] += 1
@@ -241,6 +246,14 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
                 x = got.get(hid)
                 sleep(tc["pause_seconds"])
                 if x is None:               # Trip.com listed other hotels only: no answer for ours that night
+                    stats["missing"] = stats.get("missing", 0) + 1
+                    if stats["missing"] <= 3:     # what came back instead (kept to see why)
+                        log(f"{r['seller_name'][:30]} {night}: not in the answer ({list(got)[:5]})")
+                        raw = getattr(page, "last", None)
+                        if raw is not None and cfg["paths"].get("out_dir"):
+                            out = Path(cfg["paths"]["out_dir"])
+                            out.mkdir(parents=True, exist_ok=True)
+                            (out / f"tripcom_miss_{stats['missing']}.json").write_text(json.dumps(raw)[:2_000_000])
                     continue
                 stats["priced"] += 1
                 stats["available"] += 1 if x["available"] else 0
