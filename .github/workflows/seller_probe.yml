@@ -19,6 +19,10 @@ on:
       catalog:
         description: "Also every catalogued seller with these statuses (settings sellers), e.g. probe,account,official"
         default: ""
+      person:
+        description: "Every seller in Google Chrome with a window (like a person's browser)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -44,12 +48,13 @@ jobs:
           HOTELS: ${{ inputs.hotels }}
           SELLERS: ${{ inputs.sellers }}
           CATALOG: ${{ inputs.catalog }}
+          PERSON: ${{ inputs.person }}
         run: |
           set -o pipefail
           mkdir -p out/sellers
           command -v xvfb-run >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq xvfb; }
           [ "$PART" = "suggest" ] && exit 0
-          xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --sellers "$SELLERS" --catalog "$CATALOG" --out out/sellers 2>&1 | tee out/sellers/probe.log
+          xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --sellers "$SELLERS" --catalog "$CATALOG" $([ "$PERSON" = true ] && echo --person) --out out/sellers 2>&1 | tee out/sellers/probe.log
           cat out/sellers/report.md >> "$GITHUB_STEP_SUMMARY"
       - name: Suggestions while typing (part suggest; sellers input = seller:query;query)
         if: inputs.part == 'suggest'

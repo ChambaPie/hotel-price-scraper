@@ -293,7 +293,7 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
   sellers:                   # search page per seller; {q} hotel name + town, {checkin} YYYY-MM-DD, {checkin_slash} YYYY/MM/DD
     hotels_com:              # a hidden test browser is refused (2026-11-23): Google Chrome with a window, like a person's
       url: "https://www.hotels.com/Hotel-Search?destination={q}&startDate={checkin}&endDate={checkout}&adults={adults}&rooms=1"
-      browser: &person {headed: true, channel: chrome, native_user_agent: true, timezone: Europe/Rome, locale: en-GB,
+      browser: &person_browser {headed: true, channel: chrome, native_user_agent: true, timezone: Europe/Rome, locale: en-GB,
                         accept_language: "en-GB,en;q=0.9,it;q=0.8", human: true, pause_seconds: 12, wait_check_s: 45,
                         warm_up: "https://www.hotels.com/"}
     expedia:                 # deep links to the search are refused even in that browser: use the home page's search box
@@ -301,7 +301,7 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       input: "[data-stid='destination_form_field-menu-trigger'], input#destination_form_field, button[aria-label*='Dove'], button[aria-label*='Where']"
       suggestion: "[data-stid='destination_form_field-result-item-button'], [data-stid*='result-item'] button, [role='option']"
       search: "button#search_button, [data-testid='submit-button'], button[type='submit']"
-      browser: {<<: *person, warm_up: "https://www.expedia.it/"}
+      browser: {<<: *person_browser, warm_up: "https://www.expedia.it/"}
     agoda: &agoda_box        # the search address alone opens the home page (2026-11-23): use the search box
       home: "https://www.agoda.com/en-gb/"
       input: "[data-selenium='textInput'], input[placeholder*='destination' i], input[placeholder*='Where' i]"
@@ -324,6 +324,7 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       search: "button:has-text('Search'), [class*='search-btn']"
       id_from_url: "optionId=(\\d+)"
       then_open: "https://www.trip.com/hotels/detail/?hotelId={id}&checkIn={checkin}&checkOut={checkout}&adult={adults}&crn=1&curr=EUR&locale=en-GB"
+  person: *person_browser    # --person: every probed seller in this browser
   generic:                   # search box of a seller without its own entry above (any home page in settings sellers)
     input: "input[type='search'], input[placeholder*='estination' i], input[placeholder*='where' i], input[placeholder*='dove' i], input[placeholder*='wohin' i], input[placeholder*='ziel' i], input[placeholder*='città' i], input[placeholder*='city' i], input[placeholder*='hotel' i], input[name*='dest' i], input[id*='dest' i], input[aria-label*='destination' i]"
     suggestion: "[role='option'], [role='listbox'] li, [class*='uggest'] li, [class*='utocomplete'] li"

@@ -588,6 +588,8 @@ def main(argv=None) -> int:
     ap.add_argument("--hotels", type=int)
     ap.add_argument("--sellers", default="", help="comma-separated seller keys (default: all in the settings)")
     ap.add_argument("--catalog", default="", help="also every catalogued seller with these statuses, e.g. probe,account")
+    ap.add_argument("--person", action="store_true",
+                    help="every seller in Google Chrome with a window, like a person's browser (settings seller_probe.person)")
     ap.add_argument("--checkin", help="YYYY-MM-DD (default: settings seller_probe.checkin_offset_days from today)")
     ap.add_argument("--out", default="out/sellers")
     args = ap.parse_args(argv)
@@ -602,6 +604,9 @@ def main(argv=None) -> int:
         hotels = sample_hotels(watch, ids, args.hotels or sp["hotels"])
         checkin = date.fromisoformat(args.checkin) if args.checkin else date.today() + timedelta(days=sp["checkin_offset_days"])
         specs = probe_specs(cfg, [x for x in args.catalog.split(",") if x])
+        if args.person:
+            specs = {k: ({**v, "browser": {**sp["person"], "warm_up": v.get("home") or seller_url(v)}}
+                         if isinstance(v, dict) else {"url": v, "browser": sp["person"]}) for k, v in specs.items()}
         only = [x for x in args.sellers.split(",") if x] or (
             [k for k in specs if k not in sp["sellers"]] if args.catalog else None)
         seller_rows = probe_sellers(cfg, hotels, out, checkin, only=only, specs=specs, out_csv=out / "sellers.csv")
