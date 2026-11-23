@@ -1,0 +1,435 @@
+{
+ "query": "Hotel Artemide Rome",
+ "calls": [
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/m/i18n/ReportRecentUsedKey.html",
+   "post": "[\"33000001|en-XX|ButtonText_Hotel|10320668150\",\"33000001|en-XX|ButtonText_Flights|10320668150\",\"33000001|en-XX|ButtonText_Trains|10320668150\",\"33000001|en-XX|ButtonText_Cars|10320668150\",\"33000001|en-XX|ButtonText_Carhire|10320668150\",\"33000001|en-XX|ButtonText_AirportTransfers|10320668150\",\"33000001|en-XX|ButtonText_TTD|10320668150\",\"33000001|en-XX|ButtonText_eSim|10320668150\",\"33000001|en-XX|ButtonText_Bundle|10320668150\",\"33000001|en-XX|ButtonText_PrivateTours|10320668150\",\"33000001|en-XX|ButtonText_GroupTours|10320668150\",\"33000001|en-XX|ButtonText_Cruises|10320668150\",\"33000001|en-XX|ButtonText_TripPlanner|10320668150\",\"33000001|en-XX|ButtonText_TravelInspiration|10320668150\",\"33000001|en-XX|ButtonText_TravelGuide|10320668150\",\"33000001|en-XX|ButtonText_TripBest|10320668150\",\"33000001|en-XX|ButtonText_Map|10320668150\",\"33000001|en-XX|ButtonText_TripRewards|10320668150\",\"33000001|en-XX|ButtonText_Deals|10320668150\",\"33000001|en-XX|key_app|10320668150\",\"33000001|en-XX|ButtonText_SearchBookings|10320668150\",\"33000001|en-XX|key_header_entry|10320668150\",\"33000001|en-XX|aria_selector|10320668150\",\"33000001|en-XX|PageHead_SiteAllTxt|10320668150\",\"33000001|en-XX|aria_close_modal|10320668150\",\"33000001|en-XX|Help|10320668150\",\"33000001|en-XX|Key_Account_Coins_Tips|10320668150\",\"33000001|en-XX|aria_coins|10320668150\",\"33000001|en-XX|online_header_default_username|10320668150\",\"33000001|en-XX|ButtonText_LoginUser_Signout|10320668150\",\"100014416|en-XX|ads_marketing_image|10320668150\",\"33000002|en-XX|ButtonText_Right_Reserved|10320668150\",\"33000002|en-XX|ButtonText_AboutUs|10320668150\",\"33000002|en-XX|ButtonText_NewsRoom|10320668150\",\"33000002|en-XX|ButtonText_Career|10320668150\",\"33000002|en-XX|LinkButtonText_TermsAndCondition|10320668150\",\"33000002|en-XX|ButtonText_PrivacyPolicy|10320668150\",\"33000002|en-XX|ButtonText_Accessibility_Statement|10320668150\",\"33000002|en-XX|ButtonText_PersonalizationSettings|10320668150\",\"33000002|en-XX|ButtonText_TripGroup|10320668150\",\"33000002|en-XX|ButtonText_InvestorRelations|10320668150\",\"33000002|en-XX|ButtonText_TripPlus|10320668150\",\"33000002|en-XX|ButtonText_Affiliate_trip|10320668150\",\"33000002|en-XX|LinkButtonText_Listyourhotel|10320668150\",\"33000002|en-XX|LinkButtonText_ListHotelCities|10320668150\",\"33000002|en-XX|LinkButtonText_VBooking|10320668150\",\"33000002|en-XX|ButtonText_Security|10320668150\",\"33000002|en-XX|ButtonText_CustomerServiceHelp|10320668150\",\"33000002|en-XX|ButtonText_CustomerService|10320668150\",\"33000002|en-XX|ButtonText_ServiceUSP|10320668150\",\"33000002|en-XX|ButtonText_Contactus|10320668150\",\"33000002|en-XX|ButtonText_Company|10320668150\",\"33000002|en-XX|ButtonText_More|10320668150\",\"33000002|en-XX|key_online_footer_payment_methods|10320668150\",\"33000002|en-XX|key_online_footer_business_partners|10320668150\",\"33000032|en-XX|key_a11y_skip_main_content|10320668150\",\"33000006|en-XX|key.calendar.departure.hotel|10320668150\",\"33000006|en-XX|key.calender.return.hotel|10320668150\",\"33000006|en-XX",
+   "status": 200,
+   "type": "text/plain; charset=utf-8",
+   "body": "ok"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290291-427204",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290293-9027257",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290427-2506798",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290429-1659829",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290553-368386",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290556-8380664",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290591-745823",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290685-9955590",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290687-9663869",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://cdid.trip.com/v5/b",
+   "post": "payload=zNtQko10B335sHINOspYtPGe2ynA9jJQStnpJNme3BCvSMBu%2FCzvh%2FYbHF0Kr%2B%2B%2BCKxrLF2drgO6tG1qFuYVlazJoB4Njfp%2B0QuQLodZ6O%2B43UC9paiesC%2F7gkYF2Rm%2BMD3jAmkTpWsaMhOmsxMqcDZxa%2FD9GYSq%2BYhwKTcd%2BHGhP9fzLHCdeNAgE4qf81hsYl%2F8bOFqfuYSSt1XKw32fy7p%2BYZYtZ59nMJpRHs4x4%2Fkd5DU%2FV%2BOo0xO8FmvCckLJeDdoxz%2FNQCyWqUkHNlX74hHBNo%2F%2FCaJuo%2B34fWfMCs015i9z%2FfVHPvmCx5mpoBGKW%2FVQQzKyFdXfcbulg2tuPldqqYGJEvKl%2Fedia7VPzHKllaCHqTq1E4CfNQb81EE7RUndT%2F2MMqMtIcpFtRybGWpERKmZ3f2F1uvBH0Do2VQB%2BqYw2Ec2AaM58xEIxsfBWTTCK7vWPYaNTtIk34XFKFcFiqh%2FxZ5vrX0tnv2CujHHomO7a4lLCYJ87yCyzPNPf5t4LM7pMAMSOBCr8MVbWQii44XquMS&vid=1795470284780.f374Dpr1iB6h&cid=09034125114820098403",
+   "status": 200,
+   "type": "text/plain;charset=UTF-8",
+   "body": "TR4TUtqVEpQugPdFAxr6+26y9omY0t2btqgoU+fOwLGglC4C1La+/bzZll1FUU25zUzStuKM6sP+45rYS8hhC1R6yjsxPwsoh3XS8qo1aWdZSyYtHF7xjjEfRQWqeCzGTKiOZP1WcMvxMENOXcTqBNbxAVDlCySwGPaRBk49ZLQ0432z85LGq/rMQMUit41EmaKghDC4gLLCzHAdYC5P7S1WlzfO6RpdjUhKwhYd2ueZU7Vr2G5nt1vloOWMuZbBAhpcnltjsHCLORFPiicbQF+QViDziLD7IiFlc9k8bFR5cY8gXNuUCBqfrGoZmfAmer+Fm7lm0FE21ZGeFlk="
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290812-7505350",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290813-1700083",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290937-2669766",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470290938-6308476",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291064-3455595",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291065-3846592",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291195-43518",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291196-7559332",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291323-4748744",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291324-4780375",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291448-3406683",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291449-8248013",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291577-4594892",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291579-6339495",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291703-2935064",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291704-9516499",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://cdid.trip.com/v5/b",
+   "post": "payload=9bPDDlFqsoFN0tVY1%2FbkbkysPWRduqewYLBRwPIITiFFtQxRYfuZhgTzsLYdV8FihLXIGxQIbiO%2B8Do3CxOZiQ1LippwDGMZ%2B%2BZbvpqbl44RoTjwy5CZo2NwFtyTgpfgBNGPB5eRVrsrYdojrzSCrcUTaVgS%2BWDZQ2y5LeyDCSxAOo1cCupqBvgX82h4i3TWhnhhPlqGyfbRgfqiY0bDlIcCqDoA8LwgUyWm7G%2BtRxf0M3jfHeOE7LbdkCp21tTG14yCEiLH2d%2Fm1Bu6skTaeDQNn6umHECU6TqWC6LVjoLDwejQ60%2FPSe%2BoGNMau0RYtm1h887%2BTNdCuo8HYuA2i4WqSax6ld0rgttLy4QUOUpqG5AxMADCr9Q7AfANriSkDy7LNle0NoFjqjUy3f6Px9OkGT8KP19wypTEx%2FZKSQ7p6ZxzLQkRKT%2F4jAWrH8PdiaukPtKxp63iaJUFqPgg28klV4RHhScx47T4hzpGzbIUKJejdlES&vid=1795470284780.f374Dpr1iB6h&cid=09034125114820098403",
+   "status": 200,
+   "type": "text/plain;charset=UTF-8",
+   "body": "Uk8Am+mvT4cTh1eEb2llEt4gJBUmP4mN4DeKJBR9ocL3nT8yLzV+BkYOYY7vmu1XZycV6LaJwOcBuqOK9Vq4lq2E68Nqs0AFBH9TvFcLxt5zs/3GB5ajP1X7C0R0EgfaTYNLsjy4i/Xec7dfmhWbxbtALVFWHGfcnjcUTMDSW/KnpD/G77iV4wUr0WlTxxMwJadTEQKVfraytAWjv4qc8d9XUlI3mzTcanShNM2A6sSDoR3b4oXuuyK23w3CFn10wtBfq0G13XPMGuK51lNKBQ3iX3L5ERLKOPabDMmNZJPQY72UFc/3MFp4OtSewpnnNFDCqLp0HWvPL9sSVA=="
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291831-7274904",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291833-6473971",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291960-8465165",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470291961-4432651",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470292089-735285",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470292090-573995",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470292218-2437863",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470292220-2729440",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470292348-2275126",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470292349-4888071",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470292474-3059317",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470292475-8292294",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470292604-1229986",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}",
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": "{\"ResponseStatus\":{\"Timestamp\":\"/Date(1795470292740+0800)/\",\"Ack\":\"Success\",\"Errors\":[],\"Extension\":[{\"Id\":\"CLOGGING_TRACE_ID\",\"Value\":\"9052836985397728758\"},{\"Id\":\"RootMessageId\",\"Value\":\"100025527-0a8e63ce-498741-3756048\"}]},\"ResultCode\":-2,\"BizList\":[],\"BizListAll\":[]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/10108/json/GetBizCityList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470292606-6524985",
+   "post": "{\"UID\":\"09034125114820098403\",\"FilterInfoFlow\":0,\"QueryBizInfoList\":[{\"BizType\":\"HOTEL\"}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}",
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": "{\"ResponseStatus\":{\"Timestamp\":\"/Date(1795470292716+0800)/\",\"Ack\":\"Failure\",\"Errors\":[{\"ErrorCode\":\"AccountsMobileRequestFilterException\",\"SeverityCode\":\"Error\",\"ErrorFields\":[{\"ErrorCode\":\"101\",\"Message\":\"OperationName: getbizcitylist. No auth for authentication. Message: Token\u4e3a\u7a7a.\"}],\"ErrorClassification\":\"FrameworkError\"}],\"Extension\":[{\"Id\":\"CLOGGING_TRACE_ID\",\"Value\":\"5218030911248639192\"},{\"Id\":\"RootMessageId\",\"Value\":\"100025527-0a8e9088-498741-3752594\"}]},\"ResultCode\":0}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/34951/getHotelKeywords",
+   "post": "{\"queryInfo\":{\"keyword\":\"Hotel Artemide Rome\",\"actionType\":\"destination\"},\"head\":{\"platform\":\"PC\",\"cver\":\"0\",\"cid\":\"1795470284780.f374Dpr1iB6h\",\"bu\":\"IBU\",\"group\":\"trip\",\"aid\":\"\",\"sid\":\"\",\"ouid\":\"\",\"locale\":\"en-XX\",\"region\":\"XX\",\"timezone\":\"0\",\"currency\":\"EUR\",\"pageId\":\"10320668150\",\"vid\":\"1795470284780.f374Dpr1iB6h\",\"guid\":\"\",\"isSSR\":false,\"extension\":[{\"name\":\"cityId\",\"value\":\"\"},{\"name\":\"checkIn\",\"value\":\"\"},{\"name\":\"checkOut\",\"value\":\"\"}]}}",
+   "status": 200,
+   "type": "application/json; charset=utf-8",
+   "body": "{\"data\":{\"mainKeywordList\":{\"headerModel\":{\"spellCheckModel\":{}},\"keywords\":[{\"keyword\":{\"keywordContentInfo\":{\"keywordId\":760667,\"keywordCode\":\"760667\",\"keyword\":\"Hotel Artemide\",\"keywordDesc\":\"Hotel Artemide\",\"matchedWord\":[\"Rome\",\"Artemide\",\"Hotel\"],\"highlightExplainWord\":\"\",\"displayTexts\":[{\"key\":\"TITLE\",\"value\":\"Hotel Artemide\"},{\"key\":\"MAIN_TITLE\",\"value\":\"Hotel Artemide\"},{\"key\":\"SUB_TITLE\",\"value\":\"Rome, Lazio, Italy\"},{\"key\":\"ALIAS\",\"value\":\"Property in Rome City Centre\"},{\"key\":\"DISTANCE\"},{\"key\":\"CONTENT\",\"value\":\"Rome, Lazio, Italy\"},{\"key\":\"EXPLAINABILITY\",\"value\":\"\"},{\"key\":\"ADDRESS\"}],\"displayStyleType\":\"\",\"coordinateItemList\":[{\"coordinateType\":\"BAIDU\",\"latitude\":\"-1\",\"longitude\":\"-1\"},{\"coordinateType\":\"GAODE\",\"latitude\":\"-1\",\"longitude\":\"-1\"},{\"coordinateType\":\"GOOGLE\",\"latitude\":\"41.900819\",\"longitude\":\"12.493655\"},{\"coordinateType\":\"NORMAL\",\"latitude\":\"41.900819\",\"longitude\":\"12.493655\"}],\"tripType\":\"H\",\"searchType\":0,\"medalIcon\":\"\",\"countryClickable\":0,\"position\":1,\"recommendTag\":\"\",\"recallChannels\":[\"TEXT_HOTEL\",\"TYPE_ID\"],\"recallSources\":[\"TEXT\"],\"familyFriendlyInfo\":{}},\"hotelInfo\":{\"hotelId\":\"760667\"},\"subItemType\":\"\",\"keywordSubItem\":[],\"metrolineList\":[]},\"controlInfo\":{\"keywordFilterItem\":{\"data\":{\"filterID\":\"31|760667\",\"type\":\"31\",\"title\":\"Hotel Artemide\",\"value\":\"760667\",\"subType\":\"1\",\"scenarioType\":\"DestinationSearch\",\"wordTypeId\":\"2020\"},\"extra\":{\"formattedCoordinateInfo\":\"41.900819|12.493655|1\"},\"operation\":{}},\"regionInfo\":{\"displayCityModel\":{\"cityName\":\"Rome\",\"provinceName\":\"Lazio\",\"countryName\":\"Italy\",\"districtName\":\"\"},\"basicCityModel\":{\"cityId\":343,\"districtId\":0,\"provinceId\":10151,\"countryId\":106,\"countryType\":2,\"timeOffset\":3600,\"cityType\":\"OVERSEA\"}}}},{\"keyword\":{\"keywordContentInfo\":{\"keywordId\":57044331,\"keywordCode\":\"57044331\",\"keyword\":\"Showroom Artemide Roma\",\"keywordDesc\":\"Showroom Artemide Roma\",\"matchedWord\":[\"Rome\",\"Artemide\"],\"highlightExplainWord\":\"\",\"displayTexts\":[{\"key\":\"TITLE\",\"value\":\"Showroom Artemide Roma\"},{\"key\":\"MAIN_TITLE\",\"value\":\"Showroom Artemide Roma\"},{\"key\":\"SUB_TITLE\",\"value\":\"Rome, Lazio, Italy\"},{\"key\":\"ALIAS\"},{\"key\":\"DISTANCE\"},{\"key\":\"CONTENT\",\"value\":\"Rome, Lazio, Italy\"},{\"key\":\"EXPLAINABILITY\",\"value\":\"\"},{\"key\":\"ADDRESS\"}],\"displayStyleType\":\"\",\"coordinateItemList\":[{\"coordinateType\":\"BAIDU\",\"latitude\":\"41.9093263\",\"longitude\":\"12.4786891\"},{\"coordinateType\":\"GAODE\",\"latitude\":\"41.9093263\",\"longitude\":\"12.4786891\"},{\"coordinateType\":\"GOOGLE\",\"latitude\":\"41.9093263\",\"longitude\":\"12.4786891\"},{\"coordinateType\":\"NORMAL\",\"latitude\":\"41.9093263\",\"longitude\":\"12.4786891\"}],\"tripType\":\"LM\",\"searchType\":0,\"medalIcon\":\"\",\"countryClickable\":0,\"position\":2,\"recommendTag\":\"\",\"recallChannels\":[\"TEXT_GEO\"],\"recallSources\":[\"TEXT\"],\"familyFriendlyInfo\":{}},\"hotelInfo\":{},\"subItemType\":\"\",\"keywordSubItem\":[],\"metrolineList\":[]},\"controlInfo\":{\"keywordFilterItem\":{\"data\":{\"filterID\":\"13|57044331\",\"type\":\"13\",\"title\":\"Showroom Artemide Roma\",\"value\":\"41.9093263|12.4786891|Showroom Artemide Roma|57044331|1\",\"subType\":\"1\",\"sceneBitMap\":1,\"scenarioType\":\"DestinationSearch\",\"wordTypeId\":\"2003\"},\"extra\":{\"scenarios\":[\"22\"],\"formattedCoordinateInfo\":\"41.9093263|12.4786891|1\"},\"operation\":{\"selfMutexIds\":[\"LANDMARK\"],\"otherMutexIds\":[\"COMMERCIAL\",\"CANTON\",\"AIRPORT_AND_STATION\",\"METRO_STATION\",\"SUB_LANDMARK\",\"DISTRICT\",\"CITY\",\"SUB_CITY\",\"COUNTY\",\"RESTAURANT\",\"SHOPPING\",\"UNIVERSITY\",\"HOSPITAL\",\"METRO_LINE\",\"HOT_POI\",\"COMMENT_FILTER_TAG\",\"NEIGHBORHOOD\",\"TRIP_SEASIDE_BEACHES_LANDMARK\"]}},\"regionInfo\":{\"displayCityModel\":{\"cityName\":\"Rome\",\"provinceName\":\"Lazio\",\"countryName\":\"Italy\",\"districtName\":\"\"},\"basicCityModel\":{\"cityId\":343,\"districtId\":0,\"provinceId\":10151,\"countryId\":106,\"countryType\":2,\"timeOffset\":3600,\"cityType\":\"OVERSEA\"}}}},{\"keyword\":{\"keywordContentInfo\":{\"keywordId\":79535471,\"keywordCode\":\"79535471\",\"keyword\":\"IL CIRCOLO DI ARTEMIDE\",\"keywordDesc\":\"IL CIRCOLO DI ARTEMIDE\",\"matchedWord\":[\"ARTEMIDE\"],\"highlightExplainWord\":\"\",\"displayTexts\":[{\"key\":\"TITLE\",\"value\":\"IL CIRCOLO DI ARTEMIDE\"},{\"key\":\"MAIN_TITLE\",\"value\":\"IL CIRCOLO DI ARTEMIDE\"},{\"key\":\"SUB_TITLE\",\"value\":\"Monte Porzio Catone, Lazio, Italy\"},{\"key\":\"ALIAS\"},{\"key\":\"DISTANCE\"},{\"key\":\"CONTENT\",\"value\":\"Monte Porzio Catone, Lazio, Italy\"},{\"key\":\"EXPLAINABILITY\",\"value\":\"\"},{\"key\":\"ADDRESS\"}],\"displayStyleType\":\"\",\"coordinateItemList\":[{\"coordinateType\":\"BAIDU\",\"latitude\":\"41.8155715\",\"longitude\":\"12.7208534\"},{\"coordinateType\":\"GAODE\",\"latitude\":\"41.8155715\",\"longitude\":\"12.7208534\"},{\"coordinateType\":\"GOOGLE\",\"latitude\":\"41.8155715\",\"longitude\":\"12.7208534\"},{\"coordinateType\":\"NORMAL\",\"latitude\":\"41.8155715\",\"longitude\":\"12.7208534\"}],\"tripType\":\"LM\",\"searchType\":0,\"medalIcon\":\"\",\"countryClickable\":0,\"position\":3,\"recommendTag\":\"\",\"recallChannels\":[\"TEXT_GEO\"],\"recallSources\":[\"TEXT\"],\"familyFriendlyInfo\":{}},\"hotelInfo\":{},\"subItemType\":\"\",\"keywordSubItem\":[],\"metrolineList\":[]},\"controlInfo\":{\"keywordFilterItem\":{\"data\":{\"filterID\":\"13|79535471\",\"type\":\"13\",\"title\":\"IL CIRCOLO DI ARTEMIDE\",\"value\":\"41.8155715|12.7208534|IL CIRCOLO DI ARTEMIDE|79535471|1\",\"subType\":\"1\",\"sceneBitMap\":1,\"scenarioType\":\"DestinationSearch\",\"wordTypeId\":\"2003\"},\"extra\":{\"scenarios\":[\"22\"],\"formattedCoordinateInfo\":\"41.8155715|12.7208534|1\"},\"operation\":{\"selfMutexIds\":[\"LANDMARK\"],\"otherMutexIds\":[\"COMMERCIAL\",\"CANTON\",\"AIRPORT_AND_STATION\",\"METRO_STATION\",\"SUB_LANDMARK\",\"DISTRICT\",\"CITY\",\"SUB_CITY\",\"COUNTY\",\"RESTAURANT\",\"SHOPPING\",\"UNIVERSITY\",\"HOSPITAL\",\"METRO_LINE\",\"HOT_POI\",\"COMMENT_FILTER_TAG\",\"NEIGHBORHOOD\",\"TRIP_SEASIDE_BEACHES_LANDMARK\"]}},\"regionInfo\":{\"displayCityModel\":{\"cityName\":\"Monte Porzio Catone\",\"provinceName\":\"Lazio\",\"countryName\":\"Italy\",\"districtName\":\"\"},\"basicCityModel\":{\"cityId\":33015,\"districtId\":0,\"provinceId\":10151,\"countryId\":106,\"countryType\":2,\"timeOffset\":3600,\"cityType\":\"OVERSEA\"}}}},{\"keyword\":{\"keywordContentInfo\":{\"keywordId\":113482027,\"keywordCode\":\"113482027\",\"keyword\":\"Artemide Domus Romae\",\"keywordDesc\":\"Artemide Domus Romae\",\"matchedWord\":[\"Rome\",\"Artemide\"],\"highlightExplainWord\":\"\",\"displayTexts\":[{\"key\":\"TITLE\",\"value\":\"Artemide Domus Romae\"},{\"key\":\"MAIN_TITLE\",\"value\":\"Artemide Domus Romae\"},{\"key\":\"SUB_TITLE\",\"value\":\"Rome, Lazio, Italy\"},{\"key\":\"ALIAS\",\"value\":\"Property in Rome City Centre\"},{\"key\":\"DISTANCE\"},{\"key\":\"CONTENT\",\"value\":\"Rome, Lazio, Italy\"},{\"key\":\"EXPLAINABILITY\",\"value\":\"\"},{\"key\":\"ADDRESS\"}],\"displayStyleType\":\"\",\"coordinateItemList\":[{\"coordinateType\":\"BAIDU\",\"latitude\":\"-1\",\"longitude\":\"-1\"},{\"coordinateType\":\"GAODE\",\"latitude\":\"-1\",\"longitude\":\"-1\"},{\"coordinateType\":\"GOOGLE\",\"latitude\":\"41.903267\",\"longitude\":\"12.485213\"},{\"coordinateType\":\"NORMAL\",\"latitude\":\"41.903267\",\"longitude\":\"12.485213\"}],\"tripType\":\"H\",\"searchType\":0,\"medalIcon\":\"\",\"countryClickable\":0,\"position\":4,\"recommendTag\":\"\",\"recallChannels\":[\"TEXT_HOTEL\"],\"recallSources\":[\"TEXT\"],\"familyFriendlyInfo\":{}},\"hotelInfo\":{\"hotelId\":\"113482027\"},\"subItemType\":\"\",\"keywordSubItem\":[],\"metrolineList\":[]},\"controlInfo\":{\"keywordFilterItem\":{\"data\":{\"filterID\":\"31|113482027\",\"type\":\"31\",\"title\":\"Artemide Domus Romae\",\"value\":\"113482027\",\"subType\":\"1\",\"scenarioType\":\"DestinationSearch\",\"wordTypeId\":\"2020\"},\"extra\":{\"formattedCoordinateInfo\":\"41.903267|12.485213|1\"},\"operation\":{}},\"regionInfo\":{\"displayCityModel\":{\"cityName\":\"Rome\",\"provinceName\":\"Lazio\",\"countryName\":\"Italy\",\"districtName\":\"\"},\"basicCityModel\":{\"cityId\":343,\"districtId\":0,\"provinceId\":10151,\"countryId\":106,\"countryType\":2,\"timeOffset\":3600,\"cityType\":\"OVERSEA\"}}}}]},\"customKeywordList\":{\"keywords\":[]},\"traceInfoModel\":{\"keywordTraceLogId\":\"100025527-0a8e70f8-498741-3756668\",\"userTraceInfo\":[]},\"confusedScene\":false},\"ResponseStatus\":{\"Timestamp\":\"/Date(1795470293221+0800)/\",\"Ack\":\"Success\",\"Errors\":[],\"Build\":\"\",\"Version\":\"1.0.0\",\"Extension\":[{\"Id\":\"CLOGGING_TRACE_ID\",\"Value\":\"\"},{\"Id\":\"TraceLogId\",\"Value\":\"100025527-0a8e70f8-498741-3756668\"},{\"Id\":\"XRequestId\",\"Value\":\"ea6b53c0-9612-905a-9571-701466cada15\"},{\"Id\":\"RootMessageId\",\"Value\":\"100025527-0a143151-498741-1180713\"}]}}"
+  },
+  {
+   "method": "POST",
+   "url": "https://cdid.trip.com/v5/b",
+   "post": "payload=%2BlQUGcoJe8h0Qjh8ygmxhwhGWamF6w1%2FI2rTRJrPJNY67%2FxBO67b2QNmFd5noKGEDKDctX12tBKTZc4YhJfxHNQRSkVgEZYcemE7Gc5Ba91lAaW8KC%2BzzX4wfEalkPXaIGgqfVuWld8G4ogHegRlSKiroFs9Fw7Sppe4I0vp3ouWqA9T75zVG6kenc5tcu5Dwx76h252BCgbyBNlKVvgQaUkw88oq9v0GNBESI2nJtMntaSMFAYzk4%2BxvDJ7hx4FP4ti9X6RhKmnp%2FNebebrWU3crJCdvZvLl5enHcbikjLVHmJlKYqVf%2FihdoNDm2e3IEnibD8rSGBLJQ6JtLN8y3nz6glRhF7Of25sw477U8snvrHuD4nqsImjc8L17ui61Gc%2Fdy%2FUdiWwsTgYYLo%2BNZBfMrNAXm8pmTS0BCkc%2BgtGJTW9WFYt%2BsFU%2FyTkYC26hU500x2RjBX%2BPhGgBSi7xS6ZQax%2Fdvqr%2FtF%2BumWc6dL2O%2B54U%2BbojCK%2BTTg%2F7TTmuhDjnmxqjVY5Fv%2B8vw6XrJmqOvot9WpGM8h%2Buw7CC%2BOrCCNXm3HWkPZQh760WCT%2FZq9fCvuTc%2BB7mDuzV8dqgG3rqeK03j8TP7Vzo4sE0wH7%2BUBgpF1JnvXwLw%2BvpDWr5QuGN9nS2SYjkScj6CCyDs4GevmBjnViUATpBMJGp%2FBKG3qn63sAxg6RDR5DhoAIzKhv8qjFz%2FVXayObCSZ8TMwXH7OmrmH4dNsMHCglGAUXqrgx&vid=1795470284780.f374Dpr1iB6h&cid=09034125114820098403",
+   "status": 200,
+   "type": "text/plain;charset=UTF-8",
+   "body": "X/P+PBFnvjb7VGbfniAgO6X7UqsfUzKpaH9vstL9mKkWqIbyCzqeYKNFEL7FPqsVTOyg9gMRTvxs0fZaGk/IWggQaUpJ5G2cFypk1+ZMnCLWlj4QBW2k6p/TH1tPdEM7r4PgjgDaTKcDf/ksq0CPbxZbIfEqCmGQTSHDiyhSqvoHt/EXKFnpY52YXr3CX41ru/P3ZZUbbVIQNpZvYmlewyu5tGoJIFsiN4yh+v94qhXngggu9MdeYka1GmDxUoA2ilF0/SHQy8/m+KxqxDiDk1T55ylmk93FvnXFs3UPVCTQp2tjPQqEkSHIOJP8Fgh6sjMicQDUTZvvpOR+Ig=="
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470293882-5822434",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}",
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": "{\"ResponseStatus\":{\"Timestamp\":\"/Date(1795470293990+0800)/\",\"Ack\":\"Success\",\"Errors\":[],\"Extension\":[{\"Id\":\"CLOGGING_TRACE_ID\",\"Value\":\"4077550343111208271\"},{\"Id\":\"RootMessageId\",\"Value\":\"100025527-0a8fd645-498741-3763018\"}]},\"ResultCode\":-2,\"BizList\":[],\"BizListAll\":[]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470295076-4446251",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}",
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": "{\"ResponseStatus\":{\"Timestamp\":\"/Date(1795470295188+0800)/\",\"Ack\":\"Success\",\"Errors\":[],\"Extension\":[{\"Id\":\"CLOGGING_TRACE_ID\",\"Value\":\"2322116030551384546\"},{\"Id\":\"RootMessageId\",\"Value\":\"100025527-0a8eb3b0-498741-3756091\"}]},\"ResultCode\":-2,\"BizList\":[],\"BizListAll\":[]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=1&ae=g&auid=1289790712.1795470296&dt=Hotel%20Deals%20%26%20Discounts%20-%20Book%20Cheap%20Hotel%20Rooms%20%7C%20Trip.com&en=page_view&dl=https%3A%2F%2Fwww.trip.com%2Fhotels%2F%3Fcurr%3DEUR%26locale%3Den-GB&scrsrc=www.googletagmanager.com&rnd=1144721305.1795470296&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6bh1v6109556za200zd6109556xeaxf1&gcd=13",
+   "post": "",
+   "status": 200,
+   "type": "",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1289790712.1795470296&gtm=45He6bh1v6109556za200zd6109556xeaxf1&fmt=8",
+   "post": "",
+   "status": 204,
+   "type": "",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/37521/getTripUserType",
+   "post": "{\"id\":\"1795470284780.f374Dpr1iB6h\"}",
+   "status": 200,
+   "type": "application/json",
+   "body": "{\"result\":{\"ResponseStatus\":{\"Timestamp\":\"/Date(1795470295899+0800)/\",\"Ack\":\"Success\",\"Errors\":[],\"Extension\":[{\"ContentType\":\"CAT_MESSAGE_ID\",\"Value\":\"310005677-0a2918d8-498741-683047\"}]},\"responseHead\":{\"timeSpan\":1795470295899,\"errorCode\":\"Success\",\"showErrorMsg\":\"\"},\"resultCode\":0,\"value\":0},\"ResponseStatus\":{\"Timestamp\":\"/Date(1795470295900+0800)/\",\"Ack\":\"Success\",\"Errors\":[],\"Extension\":[{\"Id\":\"CLOGGING_TRACE_ID\",\"Value\":\"97986b4f-d204-96b6-80de-08855d9894f4\"},{\"Id\":\"RootMessageId\",\"Value\":\"100025527-0a8e9031-498741-3758975\"}]}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.facebook.com/x/oauth/status?client_id=891889767495675&input_token&origin=1&redirect_uri=https%3A%2F%2Fwww.trip.com%2Fhotels%2F%3Fcurr%3DEUR%26locale%3Den-GB&sdk=joey&wants_cookie_data=true",
+   "post": "",
+   "status": 200,
+   "type": "text/plain; charset=UTF-8",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://mpc-prod-28-1053047382554.us-central1.run.app/events?cee=no",
+   "post": "{\"event_name\":\"PageView\",\"smart_setup\":{\"auto_web_details_data\":\"{\\\"promotion\\\":[{\\\"rid\\\":\\\"1014730198361634\\\",\\\"v\\\":[\\\"Snag a promo code and save up to 10%\\\"]},{\\\"rid\\\":\\\"1174504955117959\\\",\\\"v\\\":[\\\"Snag a promo code and save up to 10%\\\",\\\"Download the app for another promo code to save 5% (max. \u20ac6)\\\"]},{\\\"rid\\\":\\\"1446827520947446\\\",\\\"v\\\":[\\\"Use your promo code\\\"]}],\\\"room_occupancy\\\":[{\\\"rid\\\":\\\"1192039209830864\\\",\\\"v\\\":[\\\"1 room, 2 adults, 0 children\\\"]}],\\\"currencies_accepted\\\":[{\\\"rid\\\":\\\"1436943704757923\\\",\\\"v\\\":[\\\"Snag a promo code and save up to 10%\\\",\\\"Download the app for another promo code to save 5% (max. \u20ac6)\\\"]}],\\\"event_date\\\":[{\\\"rid\\\":\\\"1665668978300285\\\",\\\"v\\\":[\\\"23\\\",\\\"10\\\",\\\"25\\\",\\\"13\\\",\\\"29\\\",\\\"31\\\",\\\"17\\\",\\\"11\\\"]}],\\\"article_name\\\":[{\\\"rid\\\":\\\"1875526516965723\\\",\\\"v\\\":[\\\"11\\\",\\\"26\\\",\\\"23\\\",\\\"19\\\",\\\"18\\\",\\\"7\\\",\\\"22\\\",\\\"16\\\"]}],\\\"article_type\\\":[{\\\"rid\\\":\\\"2157103794933974\\\",\\\"v\\\":[\\\"Hotel Artemide Rome\\\\nHotel Artemide\\\\nProperty in Rome City Centre\\\\nRome, Lazio, Italy\\\\nShowroom Artemide Roma\\\\nRome, Lazio, Italy\\\\nIL CIRCOLO DI ARTEMIDE\\\\nMonte Porzio Catone, Lazio, Italy\\\\nArtemide Domus Romae\\\\nProperty in Rome City Centre\\\\nRome, Lazio, Italy\\\"]}],\\\"price_range\\\":[{\\\"rid\\\":\\\"2520133758513416\\\",\\\"v\\\":[\\\"1 night\\\"]}],\\\"room_type\\\":[{\\\"rid\\\":\\\"3805362892937233\\\",\\\"v\\\":[\\\"1 room, 2 adults, 0 children\\\"]}]}\",\"is_auto_web_details\":true,\"auto_web_details_filtered_fields\":\"{\\\"currency\\\":{\\\"tv\\\":1,\\\"rules\\\":{\\\"2032318144308241\\\":1}}}\"},\"event_id\":\"ob3_plugin-set_1d94a27cf2b7e0791cf0c9dd0656cd842191579cfafe2b252c1ea5f0cf5069cc\",\"fb.pixel_id\":\"1732864117623401\",\"website_context\":{\"location\":\"https://www.trip.com/hotels/?curr=EUR&locale=en-GB\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1795470295905.443436369981553955\"}",
+   "status": 200,
+   "type": "application/json",
+   "body": ""
+  },
+  {
+   "method": "GET",
+   "url": "https://nam.veta.naver.com/nac/2",
+   "post": "",
+   "status": 200,
+   "type": "application/json",
+   "body": "{\"nac\":\"RBmgBUBSM8Y7\"}\n"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.trip.com/restapi/soa2/26974/json/GetBizList?_fxpcqlniredt=09034125114820098403&x-traceID=09034125114820098403-1795470296275-8334021",
+   "post": "{\"QueryList\":[{\"BizType\":\"ALL\",\"Citys\":[0]}],\"Locale\":\"en-XX\",\"Currency\":\"EUR\",\"ClientVersion\":\"99.99\",\"Channel\":\"IBUOnline\",\"aid\":\"\",\"sid\":\"\",\"head\":{\"cid\":\"1795470284780.f374Dpr1iB6h\",\"ctok\":\"\",\"cver\":\"1.0\",\"lang\":\"01\",\"sid\":\"8888\",\"syscode\":\"09\",\"auth\":\"\",\"xsid\":\"\",\"extension\":[{\"name\":\"allianceid\",\"value\":\"\"},{\"name\":\"sid\",\"value\":\"\"}],\"Locale\":\"en-XX\",\"Language\":\"en\",\"Currency\":\"EUR\",\"ClientID\":\"1795470284780.f374Dpr1iB6h\"}}",
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": "{\"ResponseStatus\":{\"Timestamp\":\"/Date(1795470296386+0800)/\",\"Ack\":\"Success\",\"Errors\":[],\"Extension\":[{\"Id\":\"CLOGGING_TRACE_ID\",\"Value\":\"1192706448451167067\"},{\"Id\":\"RootMessageId\",\"Value\":\"100025527-0a8f32a1-498741-3758583\"}]},\"ResultCode\":-2,\"BizList\":[],\"BizListAll\":[]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/789926500/?random=1795470295809&cv=11&fst=1795470295809&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bh1v876607279za20ozb6109556zd6109556xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~119317811~120213116~120385423~120469145~120469153~121246026~121246034~123322202~123785234&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.trip.com%2Fhotels%2F%3Fcurr%3",
+   "post": "",
+   "status": 200,
+   "type": "",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=0&ae=g&auid=1289790712.1795470296&dt=Hotel%20Deals%20%26%20Discounts%20-%20Book%20Cheap%20Hotel%20Rooms%20%7C%20Trip.com&en=page_view&dl=https%3A%2F%2Fwww.trip.com%2Fhotels%2F%3Fcurr%3DEUR%26locale%3Den-GB&scrsrc=www.trip.com&rnd=1144721305.1795470296&navt=n&npa=0&ep.ads_data_redaction=0&gdid=dNWVlNT&_tu=CA&gtb=2&gtm=45E92e6bh1v835431442za204zd83",
+   "post": "",
+   "status": 200,
+   "type": "",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=1289790712.1795470296&dt=Hotel%20Deals%20%26%20Discounts%20-%20Book%20Cheap%20Hotel%20Rooms%20%7C%20Trip.com&tid=AW-789926500&en=page_view&dl=https%3A%2F%2Fwww.trip.com%2Fhotels%2F%3Fcurr%3DEUR%26locale%3Den-GB&scrsrc=www.googletagmanager.com&rnd=1144721305.1795470296&navt=n&npa=0&_tu=CA&gtm=45be6bh1v876607279za20ozb6109556zd6109556xecxf1&",
+   "post": "",
+   "status": 200,
+   "type": "",
+   "body": ""
+  }
+ ],
+ "dom": [
+  {
+   "tag": "DIV",
+   "attrs": [
+    "id=hp_container",
+    "class="
+   ],
+   "text": "Hotels & Homes\nFlights\nTrains\nCars\nApp\nList your property\nEUR\nCustomer support\nFind bookings\nSign in/register\nHotels & H"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=content"
+   ],
+   "text": "Hotels & Homes\nHotel Artemide Rome\nHotel Artemide\nProperty in Rome City Centre\nRome, Lazio, Italy\nShowroom Artemide Roma"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=topBackground_top-background__fg2Mx"
+   ],
+   "text": "Hotels & Homes\nHotel Artemide Rome\nHotel Artemide\nProperty in Rome City Centre\nRome, Lazio, Italy\nShowroom Artemide Roma"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=topBackground_main-content__hP624"
+   ],
+   "text": "Hotels & Homes\nHotel Artemide Rome\nHotel Artemide\nProperty in Rome City Centre\nRome, Lazio, Italy\nShowroom Artemide Roma"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "id=trip_main_content",
+    "class=topBackground_home-search__0Pvnl"
+   ],
+   "text": "Hotel Artemide Rome\nHotel Artemide\nProperty in Rome City Centre\nRome, Lazio, Italy\nShowroom Artemide Roma\nRome, Lazio, I"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=style_search-wraper__XqrH4",
+    "role=region",
+    "aria-label=Search properties"
+   ],
+   "text": "Hotel Artemide Rome\nHotel Artemide\nProperty in Rome City Centre\nRome, Lazio, Italy\nShowroom Artemide Roma\nRome, Lazio, I"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=style_search-content__c2RHS"
+   ],
+   "text": "Hotel Artemide Rome\nHotel Artemide\nProperty in Rome City Centre\nRome, Lazio, Italy\nShowroom Artemide Roma\nRome, Lazio, I"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "dir=ltr",
+    "class=z5SApYdkQdnm44Bv3aS2 iDq6Di_3shbyxr8Ai2_i"
+   ],
+   "text": "Hotel Artemide Rome\nHotel Artemide\nProperty in Rome City Centre\nRome, Lazio, Italy\nShowroom Artemide Roma\nRome, Lazio, I"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=gPrFynXbrAlCWdgIsgkf",
+    "style=border:1px solid #C5C5C5;box-shadow:none"
+   ],
+   "text": "Hotel Artemide Rome\nHotel Artemide\nProperty in Rome City Centre\nRome, Lazio, Italy\nShowroom Artemide Roma\nRome, Lazio, I"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=MneKxPLLYlY2ydmuc6DA vrNTPxzGLfqcm5vog446",
+    "aria-label="
+   ],
+   "text": "Hotel Artemide Rome\nHotel Artemide\nProperty in Rome City Centre\nRome, Lazio, Italy\nShowroom Artemide Roma\nRome, Lazio, I"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=Fn4fWm_XyUGw_0GGERTu i3XpAECLlYNJ7UAf7qPF"
+   ],
+   "text": "Hotel Artemide Rome"
+  },
+  {
+   "tag": "DIV",
+   "attrs": [
+    "class=lJLLbTeDbQ3RcCuzdvY9"
+   ],
+   "text": "Hotel Artemide Rome"
+  }
+ ]
+}
