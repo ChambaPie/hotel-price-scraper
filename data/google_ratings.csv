@@ -1,5 +1,6 @@
 pid,google_name,google_rating,google_reviews,google_class,amenities,similarity,query,status,checked_at
 ta:g1024764-d4564528,,,,,,0.0,Dolomitengolf Suites Lavant,not found,2026-11-23T14:37:32+00:00
+ta:g1025600-d290126,,,,,,0.0,Wellness & Spa Pirmin Zurbriggen Saas-Fee,not found,2026-11-23T17:07:41+00:00
 ta:g1048250-d1567726,Alpinhotel Jesacherhof,4.7,370,4,Breakfast|Free Wi-Fi|Free parking|Pools|Pet-friendly|Fitness centre|Spa|Bar,0.9,(with) Defereggental Hotel & Resort Innervillgraten,ok,2026-11-23T14:37:32+00:00
 ta:g1055468-d1584454,Hotel - Restaurant Grimmingblick,4.7,676,4,Breakfast ($)|Free Wi-Fi|Free parking|Pools|Hot tub|Air conditioning|Pet-friendly|Fitness centre,1.0,Hotel-Restaurant Grimmingblick Tauplitz,ok,2026-11-23T14:37:32+00:00
 ta:g1055481-d599886,Naturhotel Waldklause,4.9,1100,5,,1.0,Naturhotel Waldklause Umhausen,ok,2026-11-23T15:46:35+00:00
@@ -7,8 +8,13 @@ ta:g1056049-d1006044,,,,,,0.0,Kinder- & Gletscherhotel Hintertuxerhof Schmirn,no
 ta:g1056049-d1006824,Adler Inn Tyrol Mountain Resort,4.9,371,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,Adler Inn Tyrol Mountain Resort Superior Schmirn,ok,2026-11-23T14:37:32+00:00
 ta:g1056049-d1145033,Hotel Alpenhof,4.9,483,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,1.0,Hotel Alpenhof Schmirn,ok,2026-11-23T14:37:32+00:00
 ta:g1060376-d2686895,,,,,,0.0,Alpinhotel Monte ***superior Galtur,not found,2026-11-23T15:46:35+00:00
+ta:g1071604-d26657180,,,,,,0.0,Hotel Freigold ****Superior Freistadt,not found,2026-11-23T17:07:41+00:00
+ta:g1096327-d1115666,,,,,,0.0,Hotel Slalom Fiesch,not found,2026-11-23T17:07:41+00:00
+ta:g1096327-d1234412,,,,,,0.625,Hotel Waldhaus Fiesch,not found,2026-11-23T17:07:41+00:00
 ta:g1101280-d1730915,Hotel Stadler am Attersee,4.7,920,4,Breakfast ($)|Free Wi-Fi|Free parking|Bar|Restaurant|Airport shuttle|Golf|Accessible,0.9,Hotel Stadler Steinbach am Attersee,ok,2026-11-23T14:37:32+00:00
 ta:g1115025-d288749,Hotel Singer – Relais und Châteaux,4.8,391,4,Breakfast|Free Wi-Fi|Free parking|Pools|Pet-friendly|Fitness centre|Spa|Bar,0.93,Hotel Singer - Relais & Chateaux Berwang,ok,2026-11-23T15:46:35+00:00
+ta:g1130522-d2641903,,,,,,0.44,Chalet-gafri Bnb - Frühstückspension Wilderswil,not found,2026-11-23T17:07:41+00:00
+ta:g1133410-d1134896,,,,,,0.0,Auberge de la Gare Cully,not found,2026-11-23T17:07:41+00:00
 ta:g1156007-d1195050,,,,,,0.412,Hotel Salzburger Hof Zauchensee Untertauern,not found,2026-11-23T14:37:32+00:00
 ta:g1156007-d1930694,,,,,,0.0,Hotel Alpenhof Untertauern,not found,2026-11-23T14:37:32+00:00
 ta:g1164730-d938946,,,,,,0.0,Family & Sport Resort Brennseehof Feld am See,not found,2026-11-23T14:37:32+00:00
@@ -16,19 +22,75 @@ ta:g1165314-d289073,,,,,,0.37,Interalpen-Hotel Tyrol Pettnau,not found,2026-11-2
 ta:g1171460-d1730625,Romantik & Spa Alpen-Herz,4.9,677,4,,1.0,Romantik & Spa Alpen-herz Ladis,ok,2026-11-23T15:46:35+00:00
 ta:g1171460-d1810072,,,,,,0.0,Alpine Resort Goies Superior Ladis,not found,2026-11-23T15:46:35+00:00
 ta:g1171611-d1182300,,,,,,0.143,Hotel Sonnenpark Lutzmannsburg,not found,2026-11-23T15:46:35+00:00
+ta:g1172212-d3807287,,,,,,0.0,Das Naturhotel Chesa Valisa Mittelberg,not found,2026-11-23T17:07:41+00:00
 ta:g1183708-d1188651,Aktiv Panoramahotel Daniel & Restaurant,4.8,585,4,Free breakfast|Free Wi-Fi|Free parking|Outdoor pool|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,(with) Hotel Ritzlerhof Sautens,ok,2026-11-23T15:46:35+00:00
 ta:g1183708-d1189951,Hotel Ritzlerhof,4.8,523,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Pet-friendly|Fitness centre|Spa|Bar,1.0,Hotel Ritzlerhof Sautens,ok,2026-11-23T15:46:35+00:00
+ta:g1190193-d10826651,The Onya Resort & Spa,4.5,154,,,1.0,The Onya Resort & Spa Fiesch,ok,2026-11-23T17:07:41+00:00
 ta:g1194193-d1209188,Andy Hotel & Apartments mit Wellness - Pitztal,4.5,227,4,Breakfast ($)|Free Wi-Fi|Free parking|Indoor pool|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,Hotel Andy Jerzens,ok,2026-11-23T15:46:35+00:00
 ta:g1194203-d2282791,Hotel und Restaurant Oberwirt,4.9,506,4,Free breakfast|Free Wi-Fi|Free parking|Hot tub|Pet-friendly|Fitness centre|Spa|Bar,0.9,Hotel Oberwirt Viehhofen,ok,2026-11-23T14:37:32+00:00
 ta:g1194229-d1054217,Hotel Schöne Aussicht,4.8,365,,Free breakfast|Free Wi-Fi|Free parking|Outdoor pool|Hot tub|Fitness centre|Spa|Bar|Restaurant,1.0,Hotel Schöne Aussicht Soelden,ok,2026-11-23T15:46:35+00:00
 ta:g1194354-d1194435,,,,,,0.0,Almwellness-Resort Tuffbad Untertilliach,not found,2026-11-23T14:37:32+00:00
 ta:g1194565-d1977580,,,,,,0.645,Zum Senner Zillertal Schlitters,not found,2026-11-23T14:37:32+00:00
 ta:g1195111-d1184631,Der Brandstetterhof - Adults Only Hotel,4.8,245,4,Free breakfast|Free Wi-Fi|Free parking|Outdoor pool|Hot tub|Spa|Bar|Restaurant,0.9,Der Brandstetterhof Stans,ok,2026-11-23T14:37:32+00:00
+ta:g1195534-d1195537,VILA VITA Pannonia,4.7,967,4,,1.0,Vila Vita Pannonia Pamhagen,ok,2026-11-23T17:07:41+00:00
 ta:g1196910-d2231250,Hotel Kleißl,4.9,215,4,,0.833,Hotel Kleissl Oberperfuss,ok,2026-11-23T15:46:35+00:00
+ta:g1197017-d25185293,,,,,,0.524,Alpenhotel Heimspitze Sankt Gallenkirch,not found,2026-11-23T17:07:41+00:00
 ta:g1197052-d1485364,,,,,,0.353,Habachklause Bramberg am Wildkogel,not found,2026-11-23T14:37:32+00:00
 ta:g1197052-d1586671,Hotel Senningerbräu Bramberg,4.7,255,4,,0.9,Hotel Senningerbräu Bramberg am Wildkogel,ok,2026-11-23T14:37:32+00:00
+ta:g1498253-d1229345,Sonne Mellau - Feel good Hotel,4.6,484,4,,0.9,Sonne Mellau Reuthe,ok,2026-11-23T17:07:41+00:00
+ta:g1633631-d575226,La Val Hotel & Spa,4.7,453,4,,1.0,La Val Hotel & Spa Breil,ok,2026-11-23T17:07:41+00:00
 ta:g16876028-d1734890,,,,,,0.0,Gintherhof Ehenbichl,not found,2026-11-23T14:37:32+00:00
 ta:g1749064-d3536209,,,,,,0.444,Hotel Muhr Poellauberg,not found,2026-11-23T14:37:32+00:00
+ta:g188049-d234218,Grand Hotel Les Trois Rois,4.7,2000,5,,1.0,Grand Hotel les Trois Rois Basel,ok,2026-11-23T17:07:41+00:00
+ta:g188052-d228162,,,,,,0.4,Hotel Savoy Bern,not found,2026-11-23T17:07:41+00:00
+ta:g188052-d236358,,,,,,0.375,Bellevue Palace Bern,not found,2026-11-23T17:07:41+00:00
+ta:g188052-d267307,,,,,,0.462,Hotel Schweizerhof Bern & Spa Bern,not found,2026-11-23T17:07:41+00:00
+ta:g188064-d1160988,Hotel Schweizerhof Luzern,4.6,2900,5,Breakfast|Free Wi-Fi|Parking ($)|Air conditioning|Pet-friendly|Fitness centre|Spa|Restaurant,1.0,Hotel Schweizerhof Luzern Luzern,ok,2026-11-23T17:07:41+00:00
+ta:g188064-d206048,,,,,,0.364,Hotel des Balances Luzern,not found,2026-11-23T17:07:41+00:00
+ta:g188064-d206049,,,,,,0.24,Art Deco Hotel Montana Luzern,not found,2026-11-23T17:07:41+00:00
+ta:g188068-d228151,B&B Hotel St. Gallen,4.5,1800,3,,0.9,Einstein St. Gallen Sankt Gallen,ok,2026-11-23T17:07:41+00:00
+ta:g188076-d229944,La Couronne Hotel Restaurant,4.7,970,4,Breakfast|Free Wi-Fi|Parking ($)|Air conditioning|Pet-friendly|Bar|Restaurant|Room service,0.9,La Couronne Hotel Solothurn,ok,2026-11-23T17:07:41+00:00
+ta:g188079-d244787,,,,,,0.353,Le Grand Bellevue Gstaad,not found,2026-11-23T17:07:41+00:00
+ta:g188079-d3345157,The Alpina Gstaad,4.7,604,5,,1.0,The Alpina Gstaad Gstaad,ok,2026-11-23T17:07:41+00:00
+ta:g188080-d236385,,,,,,0.261,Hotel Gletschergarten Grindelwald,not found,2026-11-23T17:07:41+00:00
+ta:g188080-d24981975,,,,,,0.348,Hotel Fiescherblick Grindelwald,not found,2026-11-23T17:07:41+00:00
+ta:g188080-d253751,Belvedere Swiss Quality Hotel Grindelwald,4.7,1200,4,Breakfast ($)|Free Wi-Fi|Free parking|Pools|Hot tub|Air conditioning|Pet-friendly|Spa,0.769,Hotel Belvedere Grindelwald Grindelwald,ok,2026-11-23T17:07:41+00:00
+ta:g188084-d252429,,,,,,0.629,Eiger Murren Swiss Quality Hotel Lauterbrunnen,not found,2026-11-23T17:07:41+00:00
+ta:g188087-d231845,Waldhotel Arosa,4.7,705,4,,1.0,(with) Hotel Hohe Promenade Arosa,ok,2026-11-23T17:07:41+00:00
+ta:g188087-d233002,,,,,,0.323,Tschuggen Grand Hotel Arosa,not found,2026-11-23T17:07:41+00:00
+ta:g188087-d266531,,,,,,0.444,Hotel Hohe Promenade Arosa,not found,2026-11-23T17:07:41+00:00
+ta:g188087-d266532,Valsana Hotel Arosa,4.7,392,4,,1.0,Valsana Hotel Arosa Arosa,ok,2026-11-23T17:07:41+00:00
+ta:g188087-d632738,BelArosa Suiten & Wellness,4.9,209,4,Breakfast|Free Wi-Fi|Free parking|Indoor pool|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,BelArosa Hotel Arosa,ok,2026-11-23T17:07:41+00:00
+ta:g188088-d228245,,,,,,0.0,Hotel Chesa Rosatsch - Home of Food Celerina,not found,2026-11-23T17:07:41+00:00
+ta:g188088-d244788,Cresta Palace Hotel,4.8,560,4,Free breakfast|Free Wi-Fi|Free parking|Indoor pool|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,Cresta Palace Celerina Celerina,ok,2026-11-23T17:07:41+00:00
+ta:g188090-d290100,Waldhotel Davos,4.6,278,4,Free breakfast|Free Wi-Fi|Free parking|Indoor pool|Pet-friendly|Fitness centre|Spa|Bar,0.9,Waldhotel Davos for Body & Soul Davos,ok,2026-11-23T17:07:41+00:00
+ta:g188091-d196851,,,,,,0.333,Suvretta House Saint Moritz,not found,2026-11-23T17:07:41+00:00
+ta:g188091-d206213,,,,,,0.558,Badrutt's Palace Hotel St.Moritz Saint Moritz,not found,2026-11-23T17:07:41+00:00
+ta:g188091-d206269,,,,,,0.69,Carlton Hotel St. Moritz Saint Moritz,not found,2026-11-23T17:07:41+00:00
+ta:g188091-d228155,Art Boutique Hotel Monopol,4.7,382,4,Breakfast|Free Wi-Fi|Parking|Indoor pool|Hot tub|Pet-friendly|Fitness centre|Spa,1.0,(with) Carlton Hotel St. Moritz Saint Moritz,ok,2026-11-23T17:07:41+00:00
+ta:g188091-d233005,Kulm Hotel St. Moritz,4.7,935,5,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Air conditioning|Pet-friendly|Fitness centre,0.9,(with) Carlton Hotel St. Moritz Saint Moritz,ok,2026-11-23T17:07:41+00:00
+ta:g188091-d2332172,Hotel Giardino Mountain - St Moritz,4.6,249,5,,0.9,Hotel Giardino Mountain Silvaplana,ok,2026-11-23T17:07:41+00:00
+ta:g188095-d228201,LUGANODANTE Boutique & Lifestyle Hotel,4.8,1300,4,,1.0,Luganodante Boutique & Lifestyle Hotel Lugano,ok,2026-11-23T17:07:41+00:00
+ta:g188098-d1107788,Matterhorn FOCUS Design Hotel,4.9,639,4,Free breakfast|Free Wi-Fi|Pools|Hot tub|Spa|Parking|Bar|Room service,1.0,(with) Panorama Ski Lodge Zermatt,ok,2026-11-23T17:07:41+00:00
+ta:g188098-d1163050,,,,,,0.385,Christiania Mountain & Spa Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d1237798,,,,,,0.286,Hotel Firefly Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d1582687,,,,,,0.444,CERVO Mountain Resort Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d230196,,,,,,0.273,Hotel Metropol & Spa Zermatt Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d236181,,,,,,0.5,Europe Hotel & Spa Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d236182,,,,,,0.429,Hotel Monte Rosa Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d238057,,,,,,0.316,Schloss  Zermatt Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d261007,,,,,,0.308,BEAUSiTE Zermatt Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d264708,,,,,,0.4,Hotel Sonne Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d278486,,,,,,0.375,Hotel Bellerive Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d498083,,,,,,0.273,Silvana Mountain Hotel Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d561189,,,,,,0.273,Hotel Eden Wellness Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d576872,,,,,,0.273,Hotel Chesa Valese Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188098-d619925,THE OMNIA,4.9,704,5,,1.0,(with) CERVO Mountain Resort Zermatt,ok,2026-11-23T17:07:41+00:00
+ta:g188098-d9807905,,,,,,0.516,Panorama Ski Lodge Zermatt,not found,2026-11-23T17:07:41+00:00
+ta:g188107-d228247,,,,,,0.429,Hôtel Angleterre Lausanne,not found,2026-11-23T17:07:41+00:00
+ta:g188113-d12105934,,,,,,0.421,25hours Hotel Zurich Langstrasse Zuerich (Kreis 4) / Langstrasse,not found,2026-11-23T17:07:41+00:00
+ta:g188113-d196061,,,,,,0.286,The Dolder Grand Zuerich (Kreis 7),not found,2026-11-23T17:07:41+00:00
+ta:g188113-d483104,Park Hyatt Zurich,4.5,2300,5,Breakfast ($)|Free Wi-Fi|Parking ($)|Air conditioning|Pet-friendly|Fitness centre|Spa|Bar,1.0,Park Hyatt Zurich Zuerich (Kreis 1) / City,ok,2026-11-23T17:07:41+00:00
 ta:g190432-d195611,,,,,,0.231,Schlossberghotel Graz,not found,2026-11-23T14:37:32+00:00
 ta:g190440-d1459469,,,,,,0.348,Hotel Das Seekarhaus Untertauern,not found,2026-11-23T14:37:32+00:00
 ta:g190440-d2166753,Hotel Schneider Obertauern,4.8,223,4,Breakfast ($)|Free Wi-Fi|Free parking|Indoor pool|Hot tub|Fitness centre|Spa|Bar,0.9,Hotel Schneider Tweng,ok,2026-11-23T14:37:32+00:00
@@ -37,21 +99,93 @@ ta:g190441-d228064,,,,,,0.588,Hotel  Bristol Salzburg Salzburg,not found,2026-11
 ta:g190441-d228068,Hotel Schloss Mönchstein,4.8,623,5,Breakfast|Free Wi-Fi|Parking ($)|Outdoor pool|Hot tub|Air conditioning|Pet-friendly|Fitness centre,1.0,Hotel Schloss Monchstein Salzburg,ok,2026-11-23T14:37:32+00:00
 ta:g190441-d237748,,,,,,0.0,The Little Guesthouse Salzburg Salzburg,not found,2026-11-23T14:37:32+00:00
 ta:g190441-d253252,,,,,,0.0,Hotel Sacher Salzburg Salzburg,not found,2026-11-23T14:37:32+00:00
+ta:g190454-d16811712,Hyatt Regency Vienna,4.6,2000,,Breakfast ($)|Free Wi-Fi|Parking ($)|Air conditioning|Pet-friendly|Fitness centre|Spa|Bar|Restaurant,1.0,Hyatt Regency Vienna Vienna,ok,2026-11-23T17:07:41+00:00
+ta:g190454-d206598,,,,,,0.333,Hotel Sacher Wien Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d227171,,,,,,0.4,Hotel Stefanie Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d227176,,,,,,0.364,Hotel Kaiserhof Wien Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d227177,,,,,,0.453,"The Harmonie Vienna, BW Premier Collection Vienna",not found,2026-11-23T17:07:41+00:00
+ta:g190454-d227180,,,,,,0.244,Hotel Am Parkring Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d228035,,,,,,0.286,Boutique Hotel Am Stephansplatz Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d228057,,,,,,0.182,Hotel Capricorno Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d23255413,,,,,,0.467,Zoku Vienna Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d263905,,,,,,0.412,Hotel Altstadt Vienna Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d264915,Henriette Stadthotel Vienna,4.7,1700,4,Breakfast ($)|Free Wi-Fi|Parking ($)|Air conditioning|Pet-friendly|Bar|Restaurant|Airport shuttle,1.0,Henriette Stadthotel Vienna Vienna,ok,2026-11-23T17:07:41+00:00
+ta:g190454-d272580,,,,,,0.258,Hotel Erzherzog Rainer Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d294500,,,,,,0.32,Boutique Hotel Spiess & Spiess Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d3346123,,,,,,0.48,Hotel Sans Souci Wien Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d4406564,The Guesthouse Vienna,4.6,1100,,Breakfast ($)|Free Wi-Fi|Air conditioning|Pet-friendly|Parking|Bar|Restaurant|Room service|Airport shuttle,1.0,(with) Boutiquehotel Das Tyrol Vienna,ok,2026-11-23T17:07:41+00:00
+ta:g190454-d482579,,,,,,0.444,Buxbaum Boutique Hotel Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d577354,,,,,,0.526,Boutiquehotel Das Tyrol Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g190454-d6603500,,,,,,0.478,Park Hyatt Vienna Vienna,not found,2026-11-23T17:07:41+00:00
+ta:g1915616-d7392744,Chesa Staila,4.8,58,,Breakfast|Free Wi-Fi|Free parking|Pet-friendly|Child-friendly,1.0,Chesa Staila Hotel B&B Ponte,ok,2026-11-23T17:07:41+00:00
+ta:g198795-d4608234,The Chedi Andermatt,4.6,2800,5,,1.0,The Chedi Andermatt Andermatt,ok,2026-11-23T17:07:41+00:00
+ta:g198810-d1235875,,,,,,0.5,LeCrans Hotel & Spa Montana,not found,2026-11-23T17:07:41+00:00
+ta:g198810-d1590856,,,,,,0.564,Guarda Golf Hotel & Residences Montana,not found,2026-11-23T17:07:41+00:00
+ta:g198815-d788225,,,,,,0.533,Romantik Hotel Schweizerhof & Spa Flims,not found,2026-11-23T17:07:41+00:00
+ta:g198827-d206145,Grand Hôtel du Lac,4.6,1300,5,Breakfast ($)|Free Wi-Fi|Parking ($)|Outdoor pool|Air conditioning|Pet-friendly|Spa|Bar,1.0,Grand Hôtel du Lac La Tour-de-Peilz,ok,2026-11-23T17:07:41+00:00
+ta:g198827-d254210,Hotel des Trois Couronnes,4.6,1000,5,Breakfast ($)|Free Wi-Fi|Parking ($)|Pool|Air conditioning|Pet-friendly|Fitness centre|Spa,0.9,Hôtel des Trois Couronnes - The Leading Hotels of the World Vevey,ok,2026-11-23T17:07:41+00:00
+ta:g198830-d236137,Ambassador Boutique Hotel,4.6,175,4,,1.0,Ambassador Boutique Hotel Nyon,ok,2026-11-23T17:07:41+00:00
+ta:g198832-d236315,Grand Hotel Kronenhof Pontresina,4.8,534,5,,0.9,(with) Hotel Garni Chesa Mulin Pontresina,ok,2026-11-23T17:07:41+00:00
+ta:g198832-d253630,,,,,,0.462,Hotel Garni Chesa Mulin Pontresina,not found,2026-11-23T17:07:41+00:00
+ta:g198833-d620985,Hotel Donatz,4.7,251,3,,1.0,Hotel Donatz Samedan,ok,2026-11-23T17:07:41+00:00
+ta:g198834-d233004,Waldhaus Sils,4.8,570,5,Breakfast|Free Wi-Fi|Parking|Indoor pool|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,Hotel Waldhaus Silvaplana,ok,2026-11-23T17:07:41+00:00
+ta:g198834-d236354,Parkhotel Margna,4.8,202,4,,1.0,Parkhotel Margna Silvaplana,ok,2026-11-23T17:07:41+00:00
+ta:g198839-d1179800,,,,,,0.462,Hotel Etoile Saas-Fee,not found,2026-11-23T17:07:41+00:00
+ta:g198839-d244809,The Capra,4.8,477,5,,1.0,(with) Hotel Etoile Saas-Fee,ok,2026-11-23T17:07:41+00:00
+ta:g198839-d646572,,,,,,0.435,Hotel Allalin Saas-Fee,not found,2026-11-23T17:07:41+00:00
+ta:g198842-d253998,,,,,,0.343,Ermitage Wellness- & Spa-hotel Gstaad,not found,2026-11-23T17:07:41+00:00
+ta:g198849-d1176209,Chalet RoyAlp Hôtel & Spa,4.7,752,5,,1.0,Chalet RoyAlp Hotel & Spa Villars-sur-Ollon,ok,2026-11-23T17:07:41+00:00
+ta:g198858-d291829,Hotel Schweizerhof Lenzerheide,4.7,1100,4,Breakfast ($)|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,Hotel Schweizerhof Churwalden,ok,2026-11-23T17:07:41+00:00
+ta:g198858-d676005,,,,,,0.682,Hotel Lenzerhorn Spa & Wellness Churwalden,not found,2026-11-23T17:07:41+00:00
+ta:g198861-d233224,,,,,,0.273,Park Hotel Vitznau Vitznau,not found,2026-11-23T17:07:41+00:00
+ta:g198863-d1825517,,,,,,0.0,The Hayloft Kandersteg,not found,2026-11-23T17:07:41+00:00
+ta:g198865-d231846,,,,,,0.267,Giardino Ascona Ascona,not found,2026-11-23T17:07:41+00:00
+ta:g198865-d234214,,,,,,0.242,Castello del Sole Beach Resort & SPA Ascona,not found,2026-11-23T17:07:41+00:00
+ta:g198865-d234215,,,,,,0.552,Hotel Eden Roc Ascona Ascona,not found,2026-11-23T17:07:41+00:00
 ta:g1988927-d1986522,Defereggental Hotel & Resort,4.9,452,4,Breakfast|Free Wi-Fi|Free parking|Indoor pool|Fitness centre|Spa|Bar|Restaurant,1.0,Defereggental Hotel & Resort Innervillgraten,ok,2026-11-23T14:37:32+00:00
+ta:g199033-d1500234,Hotel Zeit & Traum,4.9,500,,,1.0,(with) Hotel Fassbind (Beausite) Beatenberg Beatenberg,ok,2026-11-23T17:07:41+00:00
+ta:g199033-d291722,,,,,,0.35,Hotel Fassbind (Beausite) Beatenberg Beatenberg,not found,2026-11-23T17:07:41+00:00
+ta:g2145201-d941761,,,,,,0.303,Hotel Pilatus-Kulm Alpnach,not found,2026-11-23T17:07:41+00:00
 ta:g2274029-d2301591,,,,,,0.0,Berghotel Presslauer Kirchbach,not found,2026-11-23T14:37:32+00:00
 ta:g227585-d1342682,,,,,,0.0,Die Hochkönigin - Mountain Resort Maria Alm am Steinernen Meer,not found,2026-11-23T14:37:32+00:00
 ta:g227585-d3490094,,,,,,0.0,Berg & Spa Hotel Urslauerhof Dienten am Hochkonig,not found,2026-11-23T14:37:32+00:00
+ta:g2276793-d2548947,Hotel Hirschen,4.8,291,4,,1.0,Hotel Hirschen Silbertal,ok,2026-11-23T17:07:41+00:00
+ta:g2276853-d2347462,INNs HOLZ,4.4,1300,4,,1.0,INNs Holz Ulrichsberg,ok,2026-11-23T17:07:41+00:00
 ta:g229452-d1222305,,,,,,0.0,Hotel die Barbara Schladming,not found,2026-11-23T14:37:32+00:00
 ta:g229452-d1832991,,,,,,0.0,Hotel Schutterhof Schladming,not found,2026-11-23T14:37:32+00:00
+ta:g229458-d1237673,Hotel Gädi,4.9,268,,Breakfast|Free Wi-Fi|Free parking|Hot tub|Restaurant|Child-friendly,1.0,Hotel Gadi Grachen,ok,2026-11-23T17:07:41+00:00
 ta:g230011-d1208213,Parkhotel Tristachersee,4.7,908,4,,1.0,Parkhotel Tristachersee Tristach,ok,2026-11-23T14:37:32+00:00
 ta:g230011-d1514263,,,,,,0.0,Grand Hotel Lienz Lienz,not found,2026-11-23T14:37:32+00:00
+ta:g262035-d1228068,,,,,,0.296,Hotel Mohnenfluh Lech,not found,2026-11-23T17:07:41+00:00
+ta:g262035-d1605341,,,,,,0.353,Hotel Auenhof Lech,not found,2026-11-23T17:07:41+00:00
+ta:g262035-d1734862,,,,,,0.333,Hotel Garni Schneider Lech,not found,2026-11-23T17:07:41+00:00
+ta:g262035-d263524,Hotel Arlberg Lech,4.7,278,5,Breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,1.0,(with) Hotel Erzberg Lech,ok,2026-11-23T17:07:41+00:00
+ta:g262035-d282368,,,,,,0.421,Hotel Haldenhof Lech,not found,2026-11-23T17:07:41+00:00
+ta:g262035-d291954,,,,,,0.429,Burg Vital Resort Lech,not found,2026-11-23T17:07:41+00:00
+ta:g262035-d295434,,,,,,0.364,Hotel Aurora Lech,not found,2026-11-23T17:07:41+00:00
+ta:g262035-d315708,Hotel Berghof,4.7,252,4,Free breakfast|Free Wi-Fi|Free parking|Pet-friendly|Fitness centre|Spa|Bar|Restaurant,0.9,(with) Hotel Erzberg Lech,ok,2026-11-23T17:07:41+00:00
+ta:g262035-d316306,,,,,,0.308,Hotel Gotthard Lech,not found,2026-11-23T17:07:41+00:00
+ta:g262035-d316316,,,,,,0.286,Hotel Jagdhaus Monzabon Lech,not found,2026-11-23T17:07:41+00:00
+ta:g262035-d316322,,,,,,0.364,Hotel Sandhof Lech,not found,2026-11-23T17:07:41+00:00
+ta:g262035-d850390,Hotel Auriga Lech,4.9,91,4,Breakfast|Free Wi-Fi|Free parking|Pool|Pet-friendly|Fitness centre|Spa|Bar,0.857,(with) Hotel Erzberg Lech,ok,2026-11-23T17:07:41+00:00
+ta:g294450-d8321681,Hotel VIP,4.5,312,4,Free Wi-Fi|Free parking|Air conditioning|Restaurant|Airport shuttle|Child-friendly|Smoke-free property,1.0,Hotel VIP Kobilja Glava,ok,2026-11-23T17:07:41+00:00
+ta:g295388-d1801954,,,,,,0.0,Villa Cardak Mostar,not found,2026-11-23T17:07:41+00:00
 ta:g296672-d579480,,,,,,0.385,Hotel Cortisen am See Sankt Wolfgang im Salzkammergut,not found,2026-11-23T14:37:32+00:00
 ta:g319732-d1140276,,,,,,0.087,Hotel Princess Bergfrieden Seefeld in Tirol,not found,2026-11-23T15:46:35+00:00
 ta:g319732-d291520,,,,,,0.133,Alpin Resort Sacher Seefeld in Tirol,not found,2026-11-23T15:46:35+00:00
 ta:g319732-d315538,,,,,,0.133,Hotel Klosterbräu & SPA Seefeld in Tirol,not found,2026-11-23T15:46:35+00:00
 ta:g319732-d500144,,,,,,0.167,Hotel Central Seefeld in Tirol,not found,2026-11-23T15:46:35+00:00
 ta:g319732-d646259,,,,,,0.286,Parkhotel Seefeld Seefeld in Tirol,not found,2026-11-23T15:46:35+00:00
+ta:g4022298-d597953,Gasthaus Alpenblick,4.8,301,,Breakfast|Free Wi-Fi|Parking|Pet-friendly|Restaurant|Child-friendly,1.0,Gasthaus Alpenblick Appenzell,ok,2026-11-23T17:07:41+00:00
 ta:g580116-d575322,,,,,,0.0,Villa Excelsior Hotel & Kurhaus Bad Gastein,not found,2026-11-23T14:37:32+00:00
+ta:g580339-d631970,,,,,,0.552,Hotel Eden Spiez Spiez,not found,2026-11-23T17:07:41+00:00
+ta:g580344-d637840,,,,,,0.0,Märchenhotel Linthal,not found,2026-11-23T17:07:41+00:00
+ta:g580350-d1233030,,,,,,0.308,Lenk Lodge Lenk,not found,2026-11-23T17:07:41+00:00
+ta:g580350-d278510,,,,,,0.303,Lenkerhof Gourmet Spa Resort Lenk,not found,2026-11-23T17:07:41+00:00
+ta:g580354-d236355,Relais & Châteaux Schlosshotel Chastè - Scuol Tarasp,4.9,280,4,Breakfast|Free Wi-Fi|Free parking|Pet-friendly|Restaurant|Room service|Full-service laundry|Child-friendly,0.9,Schlosshotel Chaste Scuol,ok,2026-11-23T17:07:41+00:00
+ta:g580355-d1234359,Rivabella au Lac,4.8,160,,,1.0,Rivabella au Lac Brissago,ok,2026-11-23T17:07:41+00:00
+ta:g580359-d10537485,Hotel Alte Post Bonaduz,4.7,709,,Free breakfast|Free Wi-Fi|Free parking|Pet-friendly|Bar|Restaurant|Airport shuttle|Full-service laundry|Accessible,1.0,Hotel Alte Post Bonaduz Saas-Fee,ok,2026-11-23T17:07:41+00:00
+ta:g580360-d8127631,Guarda Lodge,4.9,161,3,,1.0,Guarda Lodge Zernez,ok,2026-11-23T17:07:41+00:00
 ta:g608658-d1170227,Hotel Neubergerhof,4.8,481,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Pet-friendly|Fitness centre|Spa|Bar,0.9,Hotel... mein Neubergerhof Filzmoos,ok,2026-11-23T14:37:32+00:00
 ta:g608661-d10533258,,,,,,0.0,AlpenParks Hotel & Apartment Orgler Kaprun Kaprun,not found,2026-11-23T14:37:32+00:00
 ta:g608661-d17784391,Mountain Hotel Luis,4.8,419,4,Breakfast ($)|Free Wi-Fi|Free parking|Outdoor pool|Air conditioning|Spa|Bar|Restaurant,0.9,MOUNTAIN HOTEL LUIS inkl Zell am See-Kaprun Sommerkarte Kaprun,ok,2026-11-23T14:37:32+00:00
@@ -79,20 +213,30 @@ ta:g608670-d2315695,,,,,,0.235,Hotel Garni Martina Ischgl,not found,2026-11-23T1
 ta:g608670-d500880,Hotel Post Ischgl,4.6,519,4,,1.0,Hotel Post Ischgl Ischgl,ok,2026-11-23T15:46:35+00:00
 ta:g608675-d1583560,Feelfree Nature Resort,4.8,440,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Air conditioning|Pet-friendly|Fitness centre,1.0,(with) Posthotel Kassl Oetz,ok,2026-11-23T15:46:35+00:00
 ta:g608675-d618971,Posthotel Kassl,4.7,610,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,1.0,Posthotel Kassl Oetz,ok,2026-11-23T15:46:35+00:00
-ta:g608676-d1500821,,,,,,0.0,Hotel Gletscherblick Sankt Anton am Arlberg,not found,2026-11-23T15:46:35+00:00
+ta:g608676-d1465876,Hotel Alpenland,4.7,43,4,Free breakfast|Free Wi-Fi|Parking ($)|Child-friendly|Smoke-free property,1.0,Hotel Alpenland Sankt Anton am Arlberg,ok,2026-11-23T17:07:41+00:00
+ta:g608676-d1500821,Hotel Gletscherblick,4.9,280,4,Free breakfast|Free Wi-Fi|Free parking|Indoor pool|Pet-friendly|Fitness centre|Spa|Bar,1.0,(with) Hotel Alpenland Sankt Anton am Arlberg,ok,2026-11-23T17:07:41+00:00
+ta:g608676-d1581564,,,,,,0.632,Arlen Lodge Sankt Anton am Arlberg,not found,2026-11-23T17:07:41+00:00
+ta:g608676-d1647036,,,,,,0.211,Der Waldhof Sankt Anton am Arlberg,not found,2026-11-23T17:07:41+00:00
+ta:g608676-d2293485,m3,4.8,224,4,Breakfast|Free Wi-Fi|Parking|Pet-friendly|Spa|Bar|Restaurant|Room service,0.9,m3Hotel Sankt Anton am Arlberg,ok,2026-11-23T17:07:41+00:00
+ta:g608676-d282478,,,,,,0.5,Himmlhof Sankt Anton am Arlberg,not found,2026-11-23T17:07:41+00:00
+ta:g608676-d500789,Hotel Tannenhof,4.9,61,5,Free breakfast|Free Wi-Fi|Free parking|Pool|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,(with) Hotel Alpenland Sankt Anton am Arlberg,ok,2026-11-23T17:07:41+00:00
+ta:g608676-d5533711,,,,,,0.435,PETE Alpine Boutique Hotel Sankt Anton am Arlberg,not found,2026-11-23T17:07:41+00:00
 ta:g608676-d672331,,,,,,0.0,Hotel Zur Pfeffermühle Sankt Anton am Arlberg,not found,2026-11-23T15:46:35+00:00
+ta:g608676-d943527,Hotel Garni Rundeck,4.9,170,4,Free breakfast|Free Wi-Fi|Free parking|Fitness centre|Spa|Bar|Kitchen in some rooms|Child-friendly,1.0,(with) m3Hotel Sankt Anton am Arlberg,ok,2026-11-23T17:07:41+00:00
 ta:g608679-d1142979,Pension Sportalm,5.0,232,,Breakfast|Free Wi-Fi|Free parking|Pet-friendly|Restaurant|Kitchen in some rooms|Child-friendly,1.0,Pension Sportalm Soelden,ok,2026-11-23T14:37:32+00:00
 ta:g608679-d1143015,Hotel Das Central - Alpine. Luxury. Life.,4.7,572,5,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,Hotel Das Central Soelden,ok,2026-11-23T15:46:35+00:00
 ta:g608679-d659782,Bergland Sölden Design- und Wellnesshotel,4.7,433,5,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,0.75,Bergland Design and Wellness Hotel Sölden Soelden,ok,2026-11-23T15:46:35+00:00
 ta:g608680-d498793,Der Postwirt,4.7,860,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Air conditioning|Pet-friendly|Fitness centre,1.0,Der Postwirt Soll,ok,2026-11-23T14:37:32+00:00
 ta:g608680-d535058,DER GREIL Wein & Gourmethotel,4.8,165,4,Free breakfast|Free Wi-Fi|Free parking|Indoor pool|Pet-friendly|Spa|Bar|Restaurant,0.9,Hotel Greil Soll,ok,2026-11-23T14:37:32+00:00
 ta:g608681-d500831,Landhotel Schermer,4.7,721,4,,1.0,Landhotel Schermer Westendorf,ok,2026-11-23T14:37:32+00:00
+ta:g608682-d1018711,Erzberg Hotel,4.9,49,,Breakfast|Free Wi-Fi|Spa|Bar|Restaurant|Airport shuttle|Child-friendly,1.0,Hotel Erzberg Lech,ok,2026-11-23T17:07:41+00:00
 ta:g616041-d195362,,,,,,0.5,THERESA Wellness Geniesser Hotel Zell am Ziller,not found,2026-11-23T14:37:32+00:00
 ta:g616043-d653842,Hotel Gridlon,4.9,245,4,Breakfast|Free Wi-Fi|Parking|Pools|Pet-friendly|Fitness centre|Spa|Bar,0.9,Hotel Gridlon Wellness am Arlberg Flirsch,ok,2026-11-23T15:46:35+00:00
 ta:g616044-d583396,,,,,,0.484,Posthotel Achenkirch Achenkirch,not found,2026-11-23T15:46:35+00:00
 ta:g635546-d1017772,,,,,,0.0,Hotel Alpina Rauris Rauris,not found,2026-11-23T14:37:32+00:00
 ta:g635546-d571954,,,,,,0.0,Hotel Rauriserhof Rauris,not found,2026-11-23T14:37:32+00:00
 ta:g635758-d510312,Hotel-Restaurant Laschenskyhof,3.9,292,5,Breakfast ($)|Free Wi-Fi|Free parking|Pools|Hot tub|Air conditioning|Pet-friendly|Fitness centre,0.9,Hotel Laschenskyhof Salzburg,ok,2026-11-23T14:37:32+00:00
+ta:g635894-d1006394,,,,,,0.364,Boutique Hotel Schlüssel Beckenried,not found,2026-11-23T17:07:41+00:00
 ta:g641721-d565732,Evident Hotel Prägant,4.8,571,4,Breakfast ($)|Free Wi-Fi|Free parking|Indoor pool|Pet-friendly|Spa|Bar|Restaurant,1.0,(with) Hotel Die Post - Ronacher Kleinkirchheim,ok,2026-11-23T14:37:32+00:00
 ta:g641721-d575597,Hotel Die Post - Familie Ronacher,4.6,464,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,0.811,Hotel Die Post - Ronacher Kleinkirchheim,ok,2026-11-23T14:37:32+00:00
 ta:g641721-d575598,Das Ronacher - Thermal Spa Hotel,4.6,876,5,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,1.0,(with) Hotel Die Post - Ronacher Kleinkirchheim,ok,2026-11-23T14:37:32+00:00
@@ -135,10 +279,17 @@ ta:g651667-d7018173,Alps Lodge,4.8,242,,,1.0,(with) Hotel Gebhard Fiss,ok,2026-1
 ta:g656477-d645309,,,,,,0.556,Hotel Ritzenhof Saalfelden am Steinernen Meer,not found,2026-11-23T14:37:32+00:00
 ta:g658285-d2241394,Hotel Das Köhle,4.8,172,4,,0.9,Hotel & Garni Das Kohle Serfaus,ok,2026-11-23T15:46:35+00:00
 ta:g658716-d1367444,Familienresort Buchau am Achensee,4.7,838,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|All-inclusive available,0.9,Familienresort Buchau Jenbach,ok,2026-11-23T15:46:35+00:00
+ta:g659640-d1027842,,,,,,0.714,Löwen Hotel Montafon Schruns,not found,2026-11-23T17:07:41+00:00
 ta:g660756-d1184847,Reduce Hotel Thermal Bad Tatzmannsdorf,4.7,709,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,(with) Reduce Hotel Vital Bad Tatzmannsdorf,ok,2026-11-23T15:46:35+00:00
 ta:g660756-d1373883,Reduce Hotel Vital Bad Tatzmannsdorf,4.5,881,3,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Air conditioning|Pet-friendly|Fitness centre,0.9,Reduce Hotel Vital Bad Tatzmannsdorf,ok,2026-11-23T15:46:35+00:00
+ta:g664160-d254104,Boutique-Hotel Remorino,4.7,199,4,,1.0,Boutique-Hotel Remorino Minusio,ok,2026-11-23T17:07:41+00:00
+ta:g664160-d291795,Smart-HOTEL MINUSIO,4.7,203,3,Breakfast|Free Wi-Fi|Free parking|Outdoor pool|Pet-friendly|Restaurant|Full-service laundry|Child-friendly,1.0,Smart-Hotel Minusio Minusio,ok,2026-11-23T17:07:41+00:00
+ta:g665890-d858417,,,,,,0.0,Hotel der Engel Graen,not found,2026-11-23T17:07:41+00:00
 ta:g666530-d1020558,,,,,,0.48,Landhaus Koller Bad Goisern,not found,2026-11-23T14:37:32+00:00
 ta:g667020-d1236658,,,,,,0.0,Hotel Schwaigerhof Schladming,not found,2026-11-23T14:37:32+00:00
+ta:g670544-d645367,Wellnesshotel Erlebach Riezlern - Kleinwalsertal,4.6,231,4,Breakfast ($)|Free Wi-Fi|Free parking|Outdoor pool|Pet-friendly|Spa|Bar|Restaurant,0.9,Hotel Erlebach Mittelberg,ok,2026-11-23T17:07:41+00:00
+ta:g670877-d669912,,,,,,0.186,Hotel Turmhof Gumpoldskirchen,not found,2026-11-23T17:07:41+00:00
+ta:g676125-d866526,,,,,,0.312,Hotel Tyrol am Haldensee Graen,not found,2026-11-23T17:07:41+00:00
 ta:g676650-d1500608,Wanderhotel Taurerwirt,4.8,538,4,Breakfast|Free Wi-Fi|Free parking|Indoor pool|Hot tub|Pet-friendly|Fitness centre|Spa,1.0,Wanderhotel Taurerwirt Matrei in Osttirol,ok,2026-11-23T14:37:32+00:00
 ta:g676650-d3749911,,,,,,0.303,Gradonna Mountain Resort Châlets & Hotel Matrei in Osttirol,not found,2026-11-23T14:37:32+00:00
 ta:g793515-d1966743,,,,,,0.0,Hotel Gesser Sillian,not found,2026-11-23T14:37:32+00:00
@@ -153,5 +304,7 @@ ta:g811451-d1682047,,,,,,0.0,Hotel Babymio **** Kirchdorf in Tirol,not found,202
 ta:g811455-d1186178,,,,,,0.0,Hotel Kristall - Adults Only Leutasch,not found,2026-11-23T15:46:35+00:00
 ta:g811455-d575300,Hotel Quellenhof Leutasch,4.8,859,4,,1.0,Hotel Quellenhof Leutasch Leutasch,ok,2026-11-23T15:46:35+00:00
 ta:g811462-d1595255,,,,,,0.0,Premium Wanderhotel Steirerhof Schladming,not found,2026-11-23T14:37:32+00:00
+ta:g8553459-d19806813,Hotel de l'Ours Preles,4.9,319,,Free breakfast|Free Wi-Fi|Free parking|Pet-friendly|Bar|Restaurant|Accessible|Business centre|Smoke-free property,1.0,Hotel de l’Ours Preles La Neuveville,ok,2026-11-23T17:07:41+00:00
 ta:g939822-d286609,,,,,,0.286,Hotel Schloss Seefels Schiefling am See,not found,2026-11-23T14:37:32+00:00
 ta:g939841-d1153220,,,,,,0.429,Hotel Garni Frohnatur Langkampfen,not found,2026-11-23T15:46:35+00:00
+ta:g954021-d582835,7132 House of Architects,4.2,251,5,,0.9,7132 Hotel Hinterrhein,ok,2026-11-23T17:07:41+00:00
