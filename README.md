@@ -10,6 +10,7 @@ files below.
 |---|---|---|
 | Refresh catalog (daily) | 03:41 | `data/catalog.csv` (TripAdvisor properties via Xotelo, drive times, official stars), `data/watchlist.csv` |
 | Refresh official stars and landscape (weekly) | Mon 02:11 | `data/osm_catalog.csv`, `data/landscape.csv` (elevation, sea, beach, lake, ski area, city) |
+| Place details (daily) | 10:29 | `data/places.csv` (type of place around each watched property: mountain, ski, sea, beach, lake, old town, major city, city, vineyards, thermal, countryside), `data/google_ratings.csv` (Google rating, number of reviews, class, amenities) |
 | Scan (TripAdvisor heatmap) | 05:17, 17:17 | `data/heatmap.csv`, `data/heatmap_changes.csv` |
 | Booking.com collection | 11:47, 23:47 | `data/booking_ids.csv`, `data/last_minute_cards.csv`; every night's price for 12 months in `booking_calendars.csv` on the `snapshots` branch |
 

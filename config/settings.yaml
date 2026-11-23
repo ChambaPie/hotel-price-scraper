@@ -57,6 +57,8 @@ paths:
   booking_calendars: data/booking_calendars.csv  # every night's Booking.com price for 12 months per property (snapshots branch)
   watchlist: data/watchlist.csv    # what the scanner watches = selection rules + include - exclude
   drive_times: data/drive_times.csv  # cache: each property is routed once
+  google_ratings: data/google_ratings.csv   # Google rating, reviews, class, amenities per watched property
+  places: data/places.csv          # type of place around each watched property (old town, vineyards, ...)
   tile_state: data/tile_state.json   # when each map tile was last refreshed
   selection: config/selection.yaml
   include: config/include.txt
@@ -149,7 +151,38 @@ ops:                         # Phase 8: daily health check (workflow file -> max
     booking.yml: 14
     catalog.yml: 30
     osm.yml: 200
+    places.yml: 30
 
 catalog_changes:             # optional public issue listing new / gone properties after each catalog refresh
   issue: false
   max_listed: 150
+
+google_ratings:              # Google rating, number of reviews, class and amenities per watched property (Google Hotels)
+  refresh_days: 30           # each property re-checked after this
+  retry_days: 7              # a property not found is tried again after this
+  max_per_run: 250
+  max_minutes: 20
+  min_similarity: 0.72       # name match between the watched property and the Google card
+  min_similarity_others: 0.85   # other watched properties filled from the same results need a closer match
+  wait_ms: 2500
+  pause_seconds: 2
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+places:                      # type of place around each watched property (filters: mountain spa, old town, ...)
+  mountain_min_elevation_m: 800
+  ski_km: 5
+  sea_km: 2
+  beach_km: 1.5
+  lake_km: 1
+  city_km: 8
+  major_city_km: 15
+  major_city_population: 250000
+  vineyard_km: 1.5
+  old_town_radius_m: 700     # historic sites with a Wikidata entry counted within this distance...
+  old_town_min: 8            # ...at least this many make an old town
+  unesco_km: 1.0             # or the centre of a UNESCO World Heritage site this close
+  thermal_km: 3
+  batch: 25                  # watched properties per Overpass query
+  refresh_days: 120
+  max_minutes: 12
+  elevation_points_per_run: 1000
