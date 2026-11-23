@@ -193,3 +193,66 @@ places:                      # type of place around each watched property (filte
   refresh_days: 120
   max_minutes: 45
   elevation_points_per_run: 1000
+
+seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the sellers' own websites)
+  hotels: 6                  # watched hotels per seller (one per country first)
+  checkin_offset_days: 21
+  sellers:                   # search page per seller; {q} hotel name + town, {checkin} YYYY-MM-DD, {checkin_slash} YYYY/MM/DD
+    hotels_com: "https://www.hotels.com/Hotel-Search?destination={q}&startDate={checkin}&endDate={checkout}&adults={adults}&rooms=1"
+    expedia: "https://www.expedia.it/Hotel-Search?destination={q}&startDate={checkin}&endDate={checkout}&adults={adults}&rooms=1"
+    agoda: "https://www.agoda.com/search?textToSearch={q}&checkIn={checkin}&checkOut={checkout}&adults={adults}&rooms=1&currencyCode=EUR"
+    trip_com: "https://www.trip.com/hotels/list?keyword={q}&checkin={checkin_slash}&checkout={checkout_slash}&adult={adults}&crn=1&curr=EUR"
+  block_phrases: ["Bot or Not", "Show us your human side", "Access Denied", "captcha", "are you a robot", "unusual traffic",
+                  "Pardon Our Interruption", "verify you are human", "Request unsuccessful", "Just a moment",
+                  "Attention Required", "Please enable JS and disable any ad blocker"]
+  json_url_pattern: "graphql|/api/|search|availability|rates|price"
+  json_per_page: 6
+  wait_ms: 8000
+  pause_seconds: 3
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+  accept_language: "en-GB,en;q=0.9"
+  site_workers: 8            # official sites fetched in parallel (each site gets 1-3 requests)
+  site_timeout: 20
+  follow_links: 2            # booking links opened when the home page names no engine
+  booking_words: ["book", "buchen", "prenot", "reserv", "anfrage", "availab", "disponibil", "verfügbar", "rezerv", "foglal"]
+  not_engines: ["booking.com", "expedia", "hotels.com", "agoda", "trip.com", "tripadvisor", "trivago", "holidaycheck",
+                "facebook", "instagram", "google", "youtube", "linkedin", "twitter", "pinterest", "airbnb"]
+  engines:                   # booking engine -> patterns in the page (links, scripts); the first match wins
+    simplebooking: ["simplebooking\\.(?:it|travel)"]
+    vertical_booking: ["vertical-?booking"]
+    siteminder: ["thebookingbutton\\.com", "direct-book\\.com", "siteminder"]
+    seekda: ["seekda"]
+    easybooking: ["easybooking\\.(?:at|eu)", "easy-booking\\.at"]
+    bookassist: ["bookassist"]
+    synxis: ["synxis\\.com", "travelclick"]
+    d_edge: ["availpro\\.com", "secure-hotel-booking\\.com", "d-edge"]
+    reservit: ["reservit\\.com"]
+    hotel_spider: ["hotel-spider"]
+    ericsoft: ["ericsoft"]
+    blastness: ["blastness"]
+    bedzzle: ["bedzzle"]
+    passepartout: ["passepartout\\.(?:net|cloud)", "5stelle"]
+    octorate: ["octorate"]
+    krossbooking: ["krossbooking"]
+    slope: ["slope\\.it"]
+    quovai: ["quovai"]
+    wubook: ["wubook"]
+    cloudbeds: ["cloudbeds\\.com"]
+    mews: ["mews\\.(?:li|com)/distributor", "app\\.mews\\.com"]
+    beds24: ["beds24\\.com"]
+    smoobu: ["smoobu"]
+    lodgify: ["lodgify"]
+    profitroom: ["profitroom"]
+    guestcentric: ["guestcentric"]
+    mirai: ["mirai\\.com"]
+    roiback: ["roiback"]
+    dirs21: ["dirs21"]
+    hotelnetsolutions: ["hotelnetsolutions"]
+    casablanca: ["casablanca\\.at"]
+    gastrodat: ["gastrodat"]
+    feratel: ["feratel", "deskline"]
+    hotelrunner: ["hotelrunner"]
+    omnibees: ["omnibees"]
+    little_hotelier: ["littlehotelier"]
+    apaleo: ["apaleo"]
+    net_affinity: ["netaffinity"]

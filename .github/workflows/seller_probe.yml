@@ -1,0 +1,46 @@
+name: Seller probe
+# Schedules run as the account that last committed this file; keep it a real GitHub account.
+
+# Probe S0 (owner, 2026-11-23: prices only from the sellers' own websites): can an automated browser on GitHub's
+# servers read prices on Expedia, Hotels.com, Agoda and Trip.com, and which booking engines do the watched hotels'
+# official websites use. Manual only; results on the reports branch (reports/sellers/latest/).
+on:
+  workflow_dispatch:
+    inputs:
+      part:
+        description: "sellers, engines or all"
+        default: "all"
+      hotels:
+        description: "Hotels per seller"
+        default: "6"
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04   # pinned: ubuntu-latest is migrating to 26.04 (Playwright browser deps)
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-browser.txt
+      - run: bash scripts/install_browser.sh
+      - name: Probe
+        env:
+          PART: ${{ inputs.part }}
+          HOTELS: ${{ inputs.hotels }}
+        run: |
+          set -o pipefail
+          mkdir -p out/sellers
+          python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --out out/sellers 2>&1 | tee out/sellers/probe.log
+          cat out/sellers/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Publish reports
+        if: always()
+        run: bash scripts/publish_reports.sh sellers
