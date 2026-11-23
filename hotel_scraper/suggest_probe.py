@@ -43,9 +43,16 @@ def main(argv=None) -> int:
             accept_cookies(page, sp["cookie_buttons"])
             reqs = []
             page.on("request", lambda r: reqs.append(r))
+            page.screenshot(path=str(out / f"{args.seller}_{slug(q)}_before.png"))
             box = page.locator(spec["input"] + " >> visible=true").first
-            box.click()
-            box.type(q, delay=120)
+            if not box.count():
+                log(f"{q}: no search box")
+                continue
+            try:
+                box.click(timeout=8000)
+            except Exception:  # noqa: BLE001
+                box.focus()
+            page.keyboard.type(q, delay=120)
             page.wait_for_timeout(4000)
             word = q.split()[-2 if len(q.split()) > 1 else 0].lower()
             dom = page.evaluate(DOM_JS, word)

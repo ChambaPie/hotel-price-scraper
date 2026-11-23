@@ -275,7 +275,10 @@ def search_box(page, spec: dict, query: str, wait_ms: int) -> str:
     box = page.locator(spec["input"] + " >> visible=true").first
     if not box.count():
         return "search box not found"
-    box.click()
+    try:
+        box.click(timeout=8000)
+    except Exception:  # noqa: BLE001  (something over it, e.g. a cookie banner left open: focus it instead)
+        box.focus()
     page.wait_for_timeout(800)
     if box.evaluate("e => ['INPUT', 'TEXTAREA'].includes(e.tagName)"):
         box.fill("")
