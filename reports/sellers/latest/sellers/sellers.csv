@@ -1,0 +1,25 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+hotels_com,ta:g274887-d285437,Corinthia Budapest,HU,0,chromewebdata,,,0,False,0,0,0.2,Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hotels.com/Hotel-Search?destination=Corinthia%20Budapest%20Budapest%20VI.%20keruelet&startDate=2026-12-1
+hotels_com,ta:g187791-d205044,Hotel Artemide,IT,0,chromewebdata,,,0,False,0,0,0.1,Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hotels.com/Hotel-Search?destination=Hotel%20Artemide%20Rome&startDate=2026-12-14&endDate=2026-12-15&adul
+hotels_com,ta:g274707-d658737,Hotel Residence Agnes,CZ,0,chromewebdata,,,0,False,0,0,0.1,Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hotels.com/Hotel-Search?destination=Hotel%20Residence%20Agnes%20Prague&startDate=2026-12-14&endDate=2026
+hotels_com,ta:g295371-d559522,Hilton Imperial Dubrovnik,HR,0,chromewebdata,,,0,False,0,0,0.1,Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hotels.com/Hotel-Search?destination=Hilton%20Imperial%20Dubrovnik%20Dubrovnik&startDate=2026-12-14&endDa
+hotels_com,ta:g190454-d263905,Hotel Altstadt Vienna,AT,0,chromewebdata,,,0,False,0,0,0.1,Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hotels.com/Hotel-Search?destination=Hotel%20Altstadt%20Vienna%20Vienna&startDate=2026-12-14&endDate=2026
+hotels_com,ta:g188064-d206048,Hotel des Balances,CH,0,chromewebdata,,,0,False,0,0,0.1,Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hotels.com/Hotel-Search?destination=Hotel%20des%20Balances%20Luzern&startDate=2026-12-14&endDate=2026-12
+expedia,ta:g274887-d285437,Corinthia Budapest,HU,429,expedia.it,Sei un robot?,,0,False,120,1,8.5,
+expedia,ta:g187791-d205044,Hotel Artemide,IT,429,expedia.it,Sei un robot?,,0,False,120,1,8.2,
+expedia,ta:g274707-d658737,Hotel Residence Agnes,CZ,429,expedia.it,Sei un robot?,,0,False,120,1,8.2,
+expedia,ta:g295371-d559522,Hilton Imperial Dubrovnik,HR,429,expedia.it,Sei un robot?,,0,False,120,1,8.1,
+expedia,ta:g190454-d263905,Hotel Altstadt Vienna,AT,429,expedia.it,Sei un robot?,,0,False,120,1,8.1,
+expedia,ta:g188064-d206048,Hotel des Balances,CH,429,expedia.it,Sei un robot?,,0,False,120,1,8.2,
+agoda,ta:g274887-d285437,Corinthia Budapest,HU,200,agoda.com,Agoda Official Site | Free Cancellation & Booking Deals | Over 2 Million Hotels,,0,False,5802,6,9.5,
+agoda,ta:g187791-d205044,Hotel Artemide,IT,200,agoda.com,Agoda Official Site | Free Cancellation & Booking Deals | Over 2 Million Hotels,,0,False,5802,6,9.3,
+agoda,ta:g274707-d658737,Hotel Residence Agnes,CZ,200,agoda.com,Agoda Official Site | Free Cancellation & Booking Deals | Over 2 Million Hotels,,0,False,5802,6,9.5,
+agoda,ta:g295371-d559522,Hilton Imperial Dubrovnik,HR,200,agoda.com,Agoda Official Site | Free Cancellation & Booking Deals | Over 2 Million Hotels,,0,False,5802,6,9.3,
+agoda,ta:g190454-d263905,Hotel Altstadt Vienna,AT,200,agoda.com,Agoda Official Site | Free Cancellation & Booking Deals | Over 2 Million Hotels,,0,False,5802,6,10.0,
+agoda,ta:g188064-d206048,Hotel des Balances,CH,200,agoda.com,Agoda Official Site | Free Cancellation & Booking Deals | Over 2 Million Hotels,,0,False,5802,6,9.3,
+trip_com,ta:g274887-d285437,Corinthia Budapest,HU,200,trip.com,"Trip.com – Book cheap flights, hotels & train tickets",,3,False,2023,0,8.7,
+trip_com,ta:g187791-d205044,Hotel Artemide,IT,200,trip.com,"Trip.com – Book cheap flights, hotels & train tickets",,3,False,2023,0,8.6,
+trip_com,ta:g274707-d658737,Hotel Residence Agnes,CZ,200,trip.com,"Trip.com – Book cheap flights, hotels & train tickets",,3,False,2023,0,8.6,
+trip_com,ta:g295371-d559522,Hilton Imperial Dubrovnik,HR,200,trip.com,"Trip.com – Book cheap flights, hotels & train tickets",,3,False,2023,0,8.5,
+trip_com,ta:g190454-d263905,Hotel Altstadt Vienna,AT,200,trip.com,"Trip.com – Book cheap flights, hotels & train tickets",,3,False,2023,0,8.6,
+trip_com,ta:g188064-d206048,Hotel des Balances,CH,200,trip.com,"Trip.com – Book cheap flights, hotels & train tickets",,3,False,2023,0,8.5,

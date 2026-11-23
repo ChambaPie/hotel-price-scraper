@@ -1,0 +1,3 @@
+#URL https://www.hotels.com/Hotel-Search?destination=Hotel%20Artemide%20Rome&startDate=2026-12-14&endDate=2026-12-15&adults=2&rooms=1
+#FINAL chrome-error://chromewebdata/
+#TITLE 

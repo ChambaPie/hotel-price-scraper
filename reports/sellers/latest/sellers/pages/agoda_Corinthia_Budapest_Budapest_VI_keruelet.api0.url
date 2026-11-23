@@ -1,0 +1,2 @@
+POST https://www.agoda.com/api/card/campaigns
+{"userSettings":{"currencyCode":"USD","languageId":1,"languageLocale":"en-gb"},"clientInfo":{"userId":"38e2bc39-c47c-4f03-8d5a-a1011db3a4ce","memberId":0,"clientVersion":"1.0","applicationName":3},"platformInfo":{"platform":"web-desktop","pageTypeId":1,"sections":["home_contents"]},"sessionInfo":{"cid":-1,"origin":"US"},"extraProperties":{}}
