@@ -243,7 +243,8 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
   follow_links: 2            # booking links opened when the home page names no engine
   booking_words: ["book", "buchen", "prenot", "reserv", "anfrage", "availab", "disponibil", "verfügbar", "rezerv", "foglal"]
   not_engines: ["booking.com", "expedia", "hotels.com", "agoda", "trip.com", "tripadvisor", "trivago", "holidaycheck",
-                "facebook", "instagram", "google", "youtube", "linkedin", "twitter", "pinterest", "airbnb"]
+                "facebook", "instagram", "google", "youtube", "linkedin", "twitter", "pinterest", "airbnb",
+                "opentable", "sevenrooms", "aleno", "tably", "volvocars"]   # restaurant tables, not rooms
   engines:                   # booking engine -> patterns in the page (links, scripts); the first match wins
     simplebooking: ["simplebooking\\.(?:it|travel)"]
     vertical_booking: ["vertical-?booking"]
@@ -283,3 +284,9 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
     little_hotelier: ["littlehotelier"]
     apaleo: ["apaleo"]
     net_affinity: ["netaffinity"]
+    bookingexpert: ["bookingexpert\\.it"]     # survey 2026-11-23: the most common unrecognised booking site (10)
+    iperbooking: ["iperbooking"]
+    scidoo: ["scidoo\\.com"]
+    capcorn: ["capcorn\\.net"]
+    zimres: ["zimres\\.com"]
+    reconline: ["reconline\\.com"]
