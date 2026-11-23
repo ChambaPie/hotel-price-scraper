@@ -296,8 +296,11 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
         write_csv(sorted(others + list(known.values()), key=lambda r: (r["seller"], r["pid"])), p["seller_ids"], ID_FIELDS)
 
     if part in ("prices", "all"):
-        if page.template is None:      # one search gives the page's own citySearch request to repeat
-            page.search(ac["warm_up_query"])
+        if page.template is None:      # one search gives the page's own citySearch request to repeat: a hotel search
+            # (a city search's request answered 502 when repeated with a hotel pinned, run 45253285417)
+            by_pid = {w["pid"]: w for w in watch}
+            first = next((by_pid[r["pid"]] for r in known.values() if r["status"] == "ok" and r["pid"] in by_pid), None)
+            page.search(f"{first['name']} {first.get('city', '')}".strip() if first else ac["warm_up_query"])
         state_path = Path(p["agoda_state"])
         state = json.loads(state_path.read_text()) if state_path.exists() else {}
         cities: dict[str, list[dict]] = {}

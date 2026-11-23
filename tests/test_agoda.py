@@ -128,4 +128,5 @@ def test_run_finds_ids_then_prices_nights(tmp_path):
     assert ids["ta:art"]["seller_id"] == "1081" and ids["ta:x"]["status"] == "not found"
     page2 = FakePage()                                                               # next pass: ids reused, next nights
     agoda.run(cfg, "all", 5, page2, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
-    assert page2.searches == ["Trieste"] and page2.calls[0][1] == date(2026, 11, 26)
+    # a mapped hotel's search, not a city's, gives the request to repeat (regression: run 45253285417, HTTP 502)
+    assert page2.searches == ["Hotel Artemide Rome"] and page2.calls[0][1] == date(2026, 11, 26)
