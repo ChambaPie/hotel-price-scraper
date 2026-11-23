@@ -1,0 +1,80 @@
+21:44:42 Hotel Artemide Rome: 24 calls while typing; 12 suggestion-like elements
+21:44:42   200 HEAD https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-1/original/ef838e5e-251c-424a-85f image/avif
+21:44:42   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:42   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:42   200 POST https://d0a7e.airbnb.com/js/ application/json;charset=utf-8
+21:44:55 Hotel Schloss Seefels: 54 calls while typing; 12 suggestion-like elements
+21:44:55   200 HEAD https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-2/original/624b6ee0-c248-41b7-aa6 image/avif
+21:44:55   200 HEAD https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-hawaii-autosuggest-destination-icons-2/original/624b6ee0-c248-41b7-aa6 image/avif
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 POST https://insight.adsrvr.org/track/realtimeconversion application/json
+21:44:55   200 POST https://insight.adsrvr.org/track/realtimeconversion application/json
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   200 GET https://www.airbnb.it/api/v2/autocompletes-personalized?locale=it&currency=EUR&country=US&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=it&locale=it&n application/json;charset=utf-8
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   204 POST https://www.airbnb.it/tracking/jitney/logging/messages 
+21:44:55   200 POST https://d0a7e.airbnb.com/js/ application/json;charset=utf-8
+21:44:55   200 POST https://d0a7e.airbnb.com/js/ application/json;charset=utf-8
