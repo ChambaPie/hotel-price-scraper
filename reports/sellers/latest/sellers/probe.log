@@ -1,19 +1,20 @@
-16:13:58 agoda      Corinthia Budapest             200 blocked=- prices=0 name=True json=8
-16:14:28 agoda      Hotel Artemide                 200 blocked=- prices=0 name=True json=9
-16:14:59 agoda      Hotel Residence Agnes          200 blocked=- prices=0 name=True json=9
-16:15:30 agoda      Hilton Imperial Dubrovnik      200 blocked=- prices=0 name=True json=10
-16:16:07 trip_com   Corinthia Budapest             200 blocked=- prices=52 name=True json=1
-16:16:37 trip_com   Hotel Artemide                 200 blocked=- prices=51 name=True json=0
-16:17:08 trip_com   Hotel Residence Agnes          200 blocked=- prices=53 name=True json=0
-16:17:40 trip_com   Hilton Imperial Dubrovnik      200 blocked=- prices=49 name=True json=0
+16:20:23 replay: no property id in the address
+16:20:23 agoda      Corinthia Budapest             200 blocked=- prices=0 name=True json=10
+16:20:53 replay 0 {'propertyId': '{id}', 'currency': 'EUR'}: HTTP 200, 104 bytes
+16:20:53 replay 1 {'propertyId': '{id}', 'currency': 'EUR', 'searchType': 'PropertySearch'}: HTTP 200, 104 bytes
+16:20:53 replay 2 {'propertyId': '{id}', 'currency': 'EUR', 'startDate': '2027-05-01T00:00:00.000Z', 'endDate': '2027-06-30T00:00:00.000Z'}: HTTP 200, 104 bytes
+16:20:53 agoda      Hotel Artemide                 200 blocked=- prices=0 name=True json=9
+16:21:24 replay 0 {'propertyId': '{id}', 'currency': 'EUR'}: HTTP 200, 1688 bytes
+16:21:24 replay 1 {'propertyId': '{id}', 'currency': 'EUR', 'searchType': 'PropertySearch'}: HTTP 200, 1688 bytes
+16:21:24 replay 2 {'propertyId': '{id}', 'currency': 'EUR', 'startDate': '2027-05-01T00:00:00.000Z', 'endDate': '2027-06-30T00:00:00.000Z'}: HTTP 200, 108 bytes
+16:21:24 agoda      Hotel Residence Agnes          200 blocked=- prices=0 name=True json=9
 # Sellers' own websites: probe S0
 
 ## Sellers (one night, search page)
 
 | seller | pages | blocked | with prices | hotel found | JSON saved |
 |---|---|---|---|---|---|
-| agoda | 4 | 0 | 0 | 4 | 36 |
-| trip_com | 4 | 0 | 4 | 4 | 1 |
+| agoda | 3 | 0 | 0 | 3 | 28 |
 
 Block phrases seen: none
 

@@ -1,16 +1,16 @@
 #URL https://www.agoda.com/en-gb/
-#FINAL https://www.agoda.com/en-gb/search?guid=13a56bd9-2702-4e20-95eb-8e85982554a6&lastSearchedCity=0&asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb96jF3Z%2B7QlME9wzxq0b7R8RIIFl%2BRMysYJDDqpj2wi3fzjoikfnhxvOxwKwzuxGW3Jlvq7Fpf8amI59WeJvD8K3fmG1btJ4rXIGquB6HLlWMeNnle%2Fzp5yzs2iR2yCu1K54oa%2BmA4Z2d4A0ENPb2B8m5YHxOT5ivn%2FtRjaVAA%2Brg%3D&poi=123165&tick=639310724214&locale=en-gb&ckuid=0d30300d-ed2c-434d-b42b-5a5c2a79c3ef&prid=0&currency=USD&correlationId=3621ff55-5ac4-4c4b-b49b-d2b2b241c775&analyticsSessionId=1098855789564400459&pageTypeId=1&realLanguageId=16&languageId=1&origin=US&stateCode=AZ&cid=-1&userId=0d30300d-ed2c-434d-b42b-5a5c2a79c3ef&whitelabelid=1&loginLvl=0&storefrontId=3&currencyId=7&currencyCode=USD&htmlLanguage=en-gb&cultureInfoName=en-gb&machineName=as-pc-3f-cronos-spa-acm-web-6fb6cf486f-rsc9h&trafficGroupId=4&trafficSubGroupId=4&aid=130243&useFullPageLogin=true&cttp=4&isRealUser=true&mode=production&browserFamily=Chrome&cdnDomain=agoda.net&checkIn=2026-12-02&checkOut=2026-12-03&rooms=1&adults=2&children=0&priceCur=USD&los=1&textToSearch=Corinthia+Hotel+Budapest&productType=-1&travellerType=1&familyMode=off&city=10647&ds=gcU%2B5pCGoNJ6qu6O
+#FINAL https://www.agoda.com/en-gb/search?guid=ee45f3ae-2624-46c8-ad86-932f0470bc74&lastSearchedCity=0&asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb96jF3Z%2B7QlME9wzxq0b7R8RIIFl%2BRMysYJDDqpj2wi3fzjoikfnhxvOxwKwzuxGW3Jlvq7Fpf8amI59WeJvD8K3fmG1btJ4rXIGquB6HLlWMeNnle%2Fzp5yzs2iR2yCu1K54oa%2BmA4Z2d4A0ENPb2B8m5YHxOT5ivn%2FtRjaVAA%2Brg%3D&poi=123165&tick=639310728063&locale=en-gb&ckuid=e8bddcee-340e-474e-8f68-a664a4bc7d00&prid=0&currency=USD&correlationId=55088f06-bae7-4a45-bbdc-dfec0017d37f&analyticsSessionId=-6156521463863732416&pageTypeId=1&realLanguageId=16&languageId=1&origin=US&stateCode=VA&cid=-1&userId=e8bddcee-340e-474e-8f68-a664a4bc7d00&whitelabelid=1&loginLvl=0&storefrontId=3&currencyId=7&currencyCode=USD&htmlLanguage=en-gb&cultureInfoName=en-gb&machineName=as-pc-3i-cronos-spa-acm-web-7f7bfdd685-brvd5&trafficGroupId=4&trafficSubGroupId=4&aid=130243&useFullPageLogin=true&cttp=4&isRealUser=true&mode=production&browserFamily=Chrome&cdnDomain=agoda.net&checkIn=2026-12-02&checkOut=2026-12-03&rooms=1&adults=2&children=0&priceCur=USD&los=1&textToSearch=Corinthia+Hotel+Budapest&travellerType=1&familyMode=off&city=10647&ds=dfcy9DZSWMZt%2FDAj&productType=-1&sort=agodaRecommended
 #TITLE Agoda | Hotels near Corinthia Hotel Budapest | Best Price Guarantee!
                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                                                                                                                    
 Manage Cookie Preference
 Agoda only uses cookies and other tracking technologies that are strictly necessary for functionality. We do not use analytical or marketing cookies. For more details, click here
 Dismiss
-Flight + Hotel
-Hotels & Homes
+Bundle and save!
+Flight + HotelHotels & Homes
+New!
 Transport
-Activities
-Coupons & Deals
+ActivitiesCoupons & Deals
 Select your language
 USD
 Select your currency
@@ -24,7 +24,10 @@ Thursday
 2 adults
 1 room
 SEARCH
-SEE AREA
+Looking for instant coupons?
+Check out our Coupons & Deals page for today's discounts
+See all coupons
+SEARCH ON MAP
 Filter by
 0 results found
 
@@ -47,21 +50,21 @@ Front desk [24-hour]
 Availability
 Show only available properties
 Property type
-Entire homes & apartments
-Apartment/Flat
-Hotel
-Serviced apartment
-Entire House
-Guesthouse/bed and breakfast
-Hostel
+Entire homes & apartments (106)
+Apartment/Flat (97)
+Hotel (42)
+Serviced apartment (10)
+Entire House (9)
+Guesthouse/bed and breakfast (5)
+Hostel (5)
 What guests loved
-Ideal location
-Professional guest services
-Great breakfast
-Attentive host service
-Sparkling clean
+Ideal location (8)
+Professional guest services (6)
+Great breakfast (3)
+Attentive host service (3)
+Sparkling clean (3)
 Neighborhood
-07. Erzsébetváros
+07. Erzsébetváros (145)
 tooltip
 Most popular area
 
@@ -77,7 +80,7 @@ New York Palace
 
 Location score
 
-Terézváros
+Terézváros (22)
 tooltip
 
 Terézváros area has:
@@ -92,126 +95,171 @@ Hungarian State Opera House (Magyar Allami Operahaz)
 
 Location score
 
-City Center - Belváros
+City Center - Belváros (2)
 City center, Shopping
+tooltip
+
+City Center - Belváros area has:
+
+Hungarian Parliament Building
+
+St. Stephen's Basilica (Szent Istvan Bazilika)
+
+City center
+
+Shopping
+
+9.2
+
+/10
+
+Location score
+
 Payment options
-Free cancellation
-Pay at the hotel
-Book now, pay later
-Pay now
+Free cancellation (79)
+Pay at the hotel (17)
+Book now, pay later (34)
+Pay now (116)
 Star rating
-Agoda Luxe
+Agoda Luxe (2)
 New
 New
 tooltip
 Luxury stays rated 'Exceptional' by our users
-5-Star rating
-4-Star rating
-3-Star rating
-2-Star rating
-1-Star rating
+5-Star rating 4 items
+(4)
+4-Star rating 54 items
+(54)
+3-Star rating 80 items
+(80)
+2-Star rating 21 items
+(21)
+1-Star rating 6 items
+(6)
 Room offers
-Breakfast included
-Vegetarian
-Gluten-free
+Breakfast included (24)
+Vegetarian (1)
+Gluten-free (1)
 Property facilities
 Swimming pool
+(2)
 Internet
+(118)
 Car park
+(65)
 Airport transfer
+(76)
 Gym/fitness
+(6)
 Front desk [24-hour]
+(24)
 Family/child friendly
+(89)
 Non-smoking
+(110)
 Spa/sauna
+(5)
 Restaurants
+(16)
 Smoking area
+(31)
 Pets allowed
+(26)
 Show 3 more
 Guest rating
 
 9+
 
-Exceptional
+Exceptional (50)
 
 8+
 
-Excellent
+Excellent (99)
 
 7+
 
-Very good
+Very good (121)
 
 6+
 
-Good
+Good (123)
 Room amenities
 Heating
+(114)
 Refrigerator
+(99)
 TV
+(91)
 Coffee/tea maker
+(87)
 Washing machine
+(81)
 Kitchen
+(66)
 Balcony/terrace
+(38)
 Bathtub
+(35)
 Air conditioning
+(27)
 Ironing facilities
+(22)
 Internet access
+(7)
 Pets allowed in room
+(1)
 Distance to center
-Inside city center
+Inside city center (169)
 <2 km to center
 2-5 km to center
 5-10 km to center
 >10 km to center
 Bed type
-Double
-Queen
-Single/twin
-King
-Bunk bed
+Double (112)
+Queen (84)
+Single/twin (31)
+King (17)
+Bunk bed (3)
 Popular with families
 Kids stay for free
 Location rating
 
 9+
 
-Exceptional
+Exceptional (85)
 
 8+
 
-Excellent
+Excellent (119)
 
 7+
 
-Very good
+Very good (121)
 Looking for something special?
 Great for Families
 Pets Allowed
 Great for Groups
 Workation Friendly
 Number of bedrooms
-1 bedroom/studio
-2 bedrooms
-3+ bedrooms
+1 bedroom/studio (101)
+2 bedrooms (25)
+3+ bedrooms (17)
 Popular hotel brands
-Corinthia Hotels International
-A&O Hotels and Hostels
-Vagabond
-Looking for instant coupons?
-Check out our Coupons & Deals page for today's discounts
-See all coupons
+Corinthia Hotels International (1)
+A&O Hotels and Hostels (1)
+Vagabond (1)
 Additional discounts up to 12% on Agoda Homes
 
 More spacious. More local. More of why you travel.
 
 Show more Homes
-167 properties nearby
+166 properties nearby
 Sort by: Best match
 Eurostars Ambassador opens in a new tab
 1/10
 Eurostars Ambassador
 4 stars out of 5
+4-star Hotel
 tooltip
 
 Star rating
@@ -220,9 +268,9 @@ Gold star ratings are provided by the property to reflect the comfort, facilitie
 
 Terézváros, Budapest - City center
 174 m from Oktogon Metro Station • 186 m from House of Terror Museum • 968 m from St. Stephen's Basilica (Szent Istvan Bazilika)
-Central Location Near Metro, On-site Sauna
 1 still available
-Last booked 1 hr ago
+Last booked 28 mins ago
+Central Location Near Metro, On-site Sauna
 
 9.2
 
@@ -233,14 +281,14 @@ Exceptional
 9.1
 Location score
 
+USD 142
 Per night before taxes
-USD
- 
-154
++ FREE CANCELLATION
 Metropolis Budapest Boutique Hotel opens in a new tab
 1/10
 Metropolis Budapest Boutique Hotel
 4 stars out of 5
+4-star Guesthouse/bed and breakfast
 tooltip
 
 Star rating
@@ -262,19 +310,17 @@ Exceptional
 9.6
 Location score
 
+USD 72
 Per night before taxes
-USD
- 
-73
-HOTEL UNIO BUDAPEST opens in a new tab
+Queen's Court Hotel & Residence opens in a new tab
 1/10
-Boosted
 tooltip
 
-This property is trending upward in views by travelers with similar searches to yours.
+Luxury stays rated 'Exceptional' by our users
 
-HOTEL UNIO BUDAPEST
-3 stars out of 5
+Queen's Court Hotel & Residence
+5 stars out of 5
+5-star Hotel
 tooltip
 
 Star rating
@@ -282,31 +328,30 @@ Star rating
 Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
 
 07. Erzsébetváros, Budapest - City center
-506 m from Oktogon Metro Station • 557 m from House of Terror Museum • 1.1 km from St. Stephen's Basilica (Szent Istvan Bazilika)
-Central Location Near Attractions, Spacious Bathrooms with Bathtubs
+487 m from Budapest Metro • 623 m from House of Terror Museum • 967 m from St. Stephen's Basilica (Szent Istvan Bazilika)
 1 still available
+Best price for 5-star properties
+10-Minute Walk to Central Budapest, Breakfast with Made-to-Order Omelettes
 
-8.4
+9.2
 
-Excellent
+Exceptional
 
-1,757 reviews
+5,725 reviews
 
-8.8
+8.6
 Location score
 
+USD 184
 Per night before taxes
-USD
- 
-66
 Downtown Andrassy Rooms opens in a new tab
-Queen's Court Hotel & Residence opens in a new tab
+HOTEL UNIO BUDAPEST opens in a new tab
 Up Hotel Budapest opens in a new tab
 KVi Hotel Budapest opens in a new tab
 City Hotel Budapest opens in a new tab
-Three Corners Avenue Hotel opens in a new tab
 Vagabond Broadway opens in a new tab
 Corinthia Hotel Budapest opens in a new tab
+Three Corners Avenue Hotel opens in a new tab
 Search results updated. 49 properties found.
 Page 1 of 2
 Next

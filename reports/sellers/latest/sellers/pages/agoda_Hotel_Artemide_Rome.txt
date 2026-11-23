@@ -1,16 +1,16 @@
 #URL https://www.agoda.com/en-gb/
-#FINAL https://www.agoda.com/en-gb/search?guid=66565c90-3490-4910-8b90-835962159937&lastSearchedCity=10647&hotel=1081&selectedproperty=1081&asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb9llsBwTeX1BwmdRkdsE%2FHZQhSFG1m7YA3wqqIOBaJ5XmmwvigRmRCpDZeyk%2BQ0FtdBb%2BZ58XrzTZovriM0y21pgB40DVY9EsxrbLmCQtjbqO5s9S2eIhbUdiq%2BRH%2BJne5eRFZE0vshgGiDtrCELZ56uGYcgCk9S7u%2BTVfCdqrZQTUVEaFShtQtbE0WcZYVHSz&tick=639310724516&locale=en-gb&ckuid=0d30300d-ed2c-434d-b42b-5a5c2a79c3ef&prid=0&currency=USD&correlationId=fdeb56b4-9908-4248-9cc2-efe1d8c11132&analyticsSessionId=1098855789564400459&pageTypeId=1&realLanguageId=16&languageId=1&origin=US&stateCode=AZ&cid=-1&userId=0d30300d-ed2c-434d-b42b-5a5c2a79c3ef&whitelabelid=1&loginLvl=0&storefrontId=3&currencyId=7&currencyCode=USD&htmlLanguage=en-gb&cultureInfoName=en-gb&machineName=as-pc-3f-cronos-spa-acm-web-6fb6cf486f-5bxfv&trafficGroupId=4&trafficSubGroupId=4&aid=130243&useFullPageLogin=true&cttp=4&isRealUser=true&mode=production&browserFamily=Chrome&cdnDomain=agoda.net&checkIn=2026-12-02&checkOut=2026-12-03&rooms=1&adults=2&children=0&priceCur=USD&los=1&textToSearch=Hotel+Artemide&productType=-1&travellerType=1&familyMode=off&ds=gcU%2B5pCGoNJ6qu6O
+#FINAL https://www.agoda.com/en-gb/search?guid=7b0bc518-3a0b-4bcb-8ebb-04d4afd97b29&lastSearchedCity=10647&hotel=1081&selectedproperty=1081&asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb9llsBwTeX1BwmdRkdsE%2FHZQhSFG1m7YA3wqqIOBaJ5XmmwvigRmRCpDZeyk%2BQ0FtdBb%2BZ58XrzTZovriM0y21pgB40DVY9EsxrbLmCQtjbqO5s9S2eIhbUdiq%2BRH%2BJne5eRFZE0vshgGiDtrCELZ56uGYcgCk9S7u%2BTVfCdqrZQTUVEaFShtQtbE0WcZYVHSz&tick=639310728366&locale=en-gb&ckuid=e8bddcee-340e-474e-8f68-a664a4bc7d00&prid=0&currency=USD&correlationId=645bba38-5c79-4709-a205-997e3988186c&analyticsSessionId=-6156521463863732416&pageTypeId=1&realLanguageId=16&languageId=1&origin=US&stateCode=VA&cid=-1&userId=e8bddcee-340e-474e-8f68-a664a4bc7d00&whitelabelid=1&loginLvl=0&storefrontId=3&currencyId=7&currencyCode=USD&htmlLanguage=en-gb&cultureInfoName=en-gb&machineName=as-pc-3i-cronos-spa-acm-web-7f7bfdd685-cwgkt&trafficGroupId=4&trafficSubGroupId=4&aid=130243&useFullPageLogin=true&cttp=4&isRealUser=true&mode=production&browserFamily=Chrome&cdnDomain=agoda.net&checkIn=2026-12-02&checkOut=2026-12-03&rooms=1&adults=2&children=0&priceCur=USD&los=1&textToSearch=Hotel+Artemide&productType=-1&travellerType=1&familyMode=off&ds=dfcy9DZSWMZt%2FDAj
 #TITLE Agoda | Hotels in Rome | Best Price Guarantee!
                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                                                                                                                    
 Manage Cookie Preference
 Agoda only uses cookies and other tracking technologies that are strictly necessary for functionality. We do not use analytical or marketing cookies. For more details, click here
 Dismiss
-Flight + Hotel
-Hotels & Homes
+Bundle and save!
+Flight + HotelHotels & Homes
+New!
 Transport
-Activities
-Coupons & Deals
+ActivitiesCoupons & Deals
 Select your language
 USD
 Select your currency
@@ -24,7 +24,10 @@ Thursday
 2 adults
 1 room
 SEARCH
-SEE AREA
+Looking for instant coupons?
+Check out our Coupons & Deals page for today's discounts
+See all coupons
+SEARCH ON MAP
 Filter by
 0 results found
 
@@ -47,42 +50,28 @@ Pay now
 Availability
 Show only available properties
 Property type
-Entire homes & apartments
-Apartment/Flat
-Guesthouse/bed and breakfast
-Hotel
-Entire House
-Serviced apartment
-Homestay
-Hostel
-Villa
-Resort villa
-Country house
-Farm stay
+Entire homes & apartments (3508)
+Apartment/Flat (3126)
+Guesthouse/bed and breakfast (2951)
+Hotel (1562)
+Entire House (292)
+Serviced apartment (67)
+Homestay (63)
+Hostel (40)
+Villa (17)
+Resort villa (4)
+Country house (3)
+Farm stay (3)
 Show 10 more
 What guests loved
-Ideal location
-Sparkling clean
-Attentive host service
-Great breakfast
-Professional guest services
+Ideal location (95)
+Sparkling clean (72)
+Attentive host service (49)
+Great breakfast (44)
+Professional guest services (38)
 Neighborhood
-Vatican
-tooltip
-
-Vatican area has:
-
-Museo Nazionale di Castel Sant'Angelo
-
-Ponte Sant'Angelo
-
-8.9
-
-/10
-
-Location score
-
-Termini Central Station
+Vatican (1739)
+Termini Central Station (1114)
 City center
 tooltip
 Most popular area
@@ -101,7 +90,7 @@ City center
 
 Location score
 
-Spagna
+Spagna (480)
 Shopping, City center
 tooltip
 
@@ -121,8 +110,8 @@ City center
 
 Location score
 
-Trastevere
-Navona
+Trastevere (442)
+Navona (360)
 City center, Nightlife
 tooltip
 
@@ -142,8 +131,8 @@ Nightlife
 
 Location score
 
-Appio Latino
-Fiumicino Airport
+Appio Latino (356)
+Fiumicino Airport (324)
 tooltip
 
 Fiumicino Airport area has:
@@ -158,7 +147,7 @@ Il Moro | Ristorante di Pesce Fiumicino
 
 Location score
 
-Monti
+Monti (309)
 City center
 tooltip
 
@@ -176,9 +165,9 @@ City center
 
 Location score
 
-Rome East
+Rome East (304)
 Cheap eats
-Colosseum and Foro Romano
+Colosseum and Foro Romano (281)
 Top attractions
 tooltip
 
@@ -196,8 +185,22 @@ Top attractions
 
 Location score
 
-Eur and Garbatella
-Pantheon
+Eur and Garbatella (272)
+tooltip
+
+Eur and Garbatella area has:
+
+Basilica di San Paolo Fuori le Mura
+
+Basilica Papale San Paolo Fuori le Mura
+
+7.5
+
+/10
+
+Location score
+
+Pantheon (265)
 City center, Shopping
 tooltip
 
@@ -219,150 +222,176 @@ Location score
 
 Show 36 more
 Payment options
-Free cancellation
-Pay at the hotel
-Book now, pay later
-Pay now
-Book without credit card
+Free cancellation (5289)
+Pay at the hotel (1017)
+Book now, pay later (2492)
+Pay now (6452)
+Book without credit card (14)
 Star rating
-Agoda Luxe
+Agoda Luxe (55)
 New
 New
 tooltip
 Luxury stays rated 'Exceptional' by our users
-5-Star rating
-4-Star rating
-3-Star rating
-2-Star rating
-1-Star rating
+5-Star rating 197 items
+(197)
+4-Star rating 3875 items
+(3875)
+3-Star rating 2837 items
+(2837)
+2-Star rating 638 items
+(638)
+1-Star rating 181 items
+(181)
 Room offers
-Breakfast included
-Dinner included
-Early check-in
-Late check-out
-Espresso machine with pods
-Complimentary snacks
-Outside food delivery allowed
-Lunch included
-Afternoon tea
-Vegetarian
-Gluten-free
-Delivery from family and relatives allowed
+Breakfast included (1584)
+Dinner included (38)
+Early check-in (7)
+Late check-out (6)
+Espresso machine with pods (5)
+Complimentary snacks (2)
+Outside food delivery allowed (2)
+Lunch included (1)
+Afternoon tea (1)
+Vegetarian (1)
+Gluten-free (1)
+Delivery from family and relatives allowed (1)
 Show 3 more
 Property facilities
 Swimming pool
+(126)
 Internet
+(7180)
 Car park
+(2679)
 Airport transfer
+(3130)
 Gym/fitness
+(239)
 Front desk [24-hour]
+(1253)
 Family/child friendly
+(5912)
 Non-smoking
+(6137)
 Spa/sauna
+(186)
 Restaurants
+(596)
 Smoking area
+(1338)
 Pets allowed
+(2287)
 Show 4 more
 Guest rating
 
 9+
 
-Exceptional
+Exceptional (3234)
 
 8+
 
-Excellent
+Excellent (5611)
 
 7+
 
-Very good
+Very good (6559)
 
 6+
 
-Good
+Good (6908)
 Room amenities
 Heating
+(6455)
 TV
+(5240)
 Coffee/tea maker
+(4971)
 Refrigerator
+(4711)
 Balcony/terrace
+(3076)
 Kitchen
+(2881)
 Washing machine
+(2471)
 Bathtub
+(1247)
 Air conditioning
+(1113)
 Ironing facilities
+(541)
 Internet access
+(509)
 Pets allowed in room
+(106)
 Show 2 more
 Distance to center
-Inside city center
-<2 km to center
-2-5 km to center
-5-10 km to center
->10 km to center
+Inside city center (4024)
+<2 km to center (2218)
+2-5 km to center (866)
+5-10 km to center (330)
+>10 km to center (700)
 Bed type
-Double
-Queen
-Single/twin
-King
-Bunk bed
+Double (4763)
+Queen (4604)
+Single/twin (3101)
+King (1357)
+Bunk bed (237)
 Popular with families
 Kids stay for free
 Location rating
 
 9+
 
-Exceptional
+Exceptional (4155)
 
 8+
 
-Excellent
+Excellent (5996)
 
 7+
 
-Very good
+Very good (6522)
 Looking for something special?
 Great for Families
 Great for Groups
 Pets Allowed
 Workation Friendly
 Near popular attractions
-Basilica di Santa Maria Maggiore
-Trevi Fountain
-Pantheon
-Piazza Navona
-Spanish Steps (Piazza di Spagna)
-Roman Forum
-Santa Maria in Trastevere
-Colosseum
-Palatine Hill
-Galleria Borghese
+Basilica di Santa Maria Maggiore (1331)
+Trevi Fountain (1258)
+Pantheon (1156)
+Piazza Navona (1107)
+Spanish Steps (Piazza di Spagna) (1031)
+Roman Forum (633)
+Santa Maria in Trastevere (568)
+Colosseum (558)
+Palatine Hill (505)
+Galleria Borghese (240)
 Number of bedrooms
-1 bedroom/studio
-2 bedrooms
-3+ bedrooms
+1 bedroom/studio (5349)
+2 bedrooms (1260)
+3+ bedrooms (495)
 Beach access
-Private beach
+Private beach (21)
 Popular hotel brands
-Hilton Worldwide
-Accor Hotels
-Best Western International
-NH Hoteles
-Eviivo
-Marriott Hotels and Resorts
-Bzar Hotels
-Leonardi Hotels
-B&B Hotels
-Your.Rentals A/S_C
-Looking for instant coupons?
-Check out our Coupons & Deals page for today's discounts
-See all coupons
+Hilton Worldwide (10)
+Accor Hotels (16)
+Best Western International (14)
+NH Hoteles (6)
+Eviivo (17)
+Marriott Hotels and Resorts (15)
+Bzar Hotels (12)
+Leonardi Hotels (7)
+B&B Hotels (6)
+Your.Rentals A/S_C (6)
 Additional discounts up to 12% on Agoda Homes
 
 More spacious. More local. More of why you travel.
 
 Show more Homes
-8,151 properties in Rome
+8,149 properties in Rome
 Sort by: Best match
 Hotel Artemide opens in a new tab
 
@@ -371,6 +400,7 @@ Excellent choice! Book now to secure your room at the lowest guaranteed price.
 1/10
 Hotel Artemide
 4 stars out of 5
+4-star Hotel
 tooltip
 
 Star rating
@@ -379,9 +409,9 @@ Gold star ratings are provided by the property to reflect the comfort, facilitie
 
 Termini Central Station, Rome - City center
 248 m from Repubblica - Teatro dell'Opera Metro Station • 640 m from Basilica di Santa Maria Maggiore • 844 m from Trevi Fountain
-Rooftop Bar with Prosecco Vouchers, Complimentary Minibar Stocked Daily
 1 still available
 Last booked 3 hrs ago
+Rooftop Bar with Prosecco Vouchers, Complimentary Minibar Stocked Daily
 
 9.2
 
@@ -392,10 +422,8 @@ Exceptional
 9.3
 Location score
 
+USD 183
 Per night before taxes
-USD
- 
-183
 Opera Italian Suite opens in a new tab
 1/10
 Boosted
@@ -410,6 +438,7 @@ Agoda Preferred recommends trusted and verified properties that have a long-stan
 
 Opera Italian Suite
 3 stars out of 5
+3-star Guesthouse/bed and breakfast
 tooltip
 
 Star rating
@@ -430,8 +459,8 @@ Very good
 9.4
 Location score
 
+1
 USD 55 applied
-Per night before taxes
 
 -44%
 
@@ -439,54 +468,43 @@ Original price: 132
 132
 tooltip
 The bookable price of this room type, before we apply any discounts or promotions.
-USD
- 
-62
+USD 62
+Per night before taxes
 + FREE CANCELLATION
-NH Collection Palazzo Cinquecento opens in a new tab
+Hilton Rome Airport opens in a new tab
 1/10
-Best rated 5-star hotels
-tooltip
-
-This property has the best overall guest rating in its category
-
-NH Collection Palazzo Cinquecento
-5 stars out of 5
+Hilton Rome Airport
+4 stars out of 5
+4-star Hotel
 tooltip
 
 Star rating
 
 Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
 
-Termini Central Station, Rome - City center
-44 m from Leonardo Express • 614 m from Basilica di Santa Maria Maggiore • 1.5 km from Trevi Fountain
-Steps from Roma Termini, Free luggage storage for 7 days
-1 still available
-Last booked 1 hr ago
+Fiumicino Airport, Rome - 20.4 km to center
+485 m from Leonardo da Vinci–Fiumicino Airport Train Station
+5 still available
+Last booked 8 hrs ago
+Covered Walkway to Airport, Spacious Family Suite
 Limited Time Offer.
 
-8.9
+8.3
 
 Excellent
 
-1,786 reviews
+11,067 reviews
 
-9.5
+8.9
 Location score
 
+USD 221
 Per night before taxes
-USD
- 
-301
-Hilton Rome Airport opens in a new tab
-Hotel Tempio Di Pallade opens in a new tab
-Fendi Private Suites opens in a new tab
 Hotel Concorde opens in a new tab
-UNA Hotels Decò Roma opens in a new tab
-
-Black Friday Sale
-
-Special Price - Limited time only!
+Hotel Tempio Di Pallade opens in a new tab
+The RomeHello opens in a new tab
+Hilton Garden Inn Rome Airport opens in a new tab
+Hotel Dorica opens in a new tab
 Limited Time Sale
 
 Gioberti Hotel
@@ -630,12 +648,12 @@ USD 74
 USD
 55
 Per night before taxes (2 adults)
-The RomeHello opens in a new tab
-Radisson Collection Hotel, Roma Antica opens in a new tab
+UNA Hotels Decò Roma opens in a new tab
 
-MEGA SALE
+Black Friday Sale
 
 Special Price - Limited time only!
+Giglio Dell'opera Hotel opens in a new tab
 Search results updated. 50 properties found.
 Page 1 of 91
 Next
