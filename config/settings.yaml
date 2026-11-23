@@ -307,15 +307,15 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       home: "https://www.hrs.com/en/"
       input: "text=/Location, hotel, region, address, post code/i"
       suggestion: "[role='option'], [role='listbox'] li, [data-testid*='uggest'] li, [class*='uggest'] li, [class*='utocomplete'] li"
-      search: "button:has-text('Search hotels')"
-      json_url_pattern: "/api/|graphql|search|availability|offer"
+      search: "button:has-text('Search hotels'), a:has-text('Search hotels'), :text-is('Search hotels')"
+      json_url_pattern: "/api/|graphql|search|availability|offer|hrs-api"
     hotel_de: {<<: *hrs_box, home: "https://www.hotel.de/", input: "text=/Ort, Hotel, Region, Adresse, PLZ/i",
-               search: "button:has-text('Hotels suchen')"}
+               search: "button:has-text('Hotels suchen'), a:has-text('Hotels suchen'), :text-is('Hotels suchen')"}
     check24:                 # its own autocomplete (api/autocomplete.data, Remix "turbo-stream") answers while typing
       home: "https://hotels.check24.de/"
       input: "input[type='search'], [role='combobox'], input[placeholder*='Wohin' i], input[placeholder*='Reiseziel' i], input[placeholder*='Hotel' i]"
-      suggestion: "[role='option'], [role='listbox'] li, [class*='uggest'] li"
-      search: "button:has-text('Suchen'), button:has-text('Hotels finden'), button[type='submit']"
+      suggestion: "[role='option'], [role='listbox'] li, li:has-text('Unterkunft in'), [class*='uggest'] li"
+      search: "button:text-is('Suche'), button:has-text('Suchen'), button[type='submit']"
       json_url_pattern: "\\.data|/api/"
     agoda: &agoda_box        # the search address alone opens the home page (2026-11-23): use the search box
       home: "https://www.agoda.com/en-gb/"
@@ -348,7 +348,8 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
     search: "button[type='submit'], button:has-text('Search'), button:has-text('Cerca'), button:has-text('Suchen'), button:has-text('Rechercher'), button:has-text('Buscar')"
   cookie_buttons: &cookies ["Accept all", "Accept All", "Accept all cookies", "Allow all", "Accept", "Accetta tutto",
                    "Accetta tutti", "Accetta", "Alle akzeptieren", "Alle Cookies akzeptieren", "Alle zulassen", "Zustimmen",
-                   "Einverstanden", "Akzeptieren", "Tout accepter", "Accepter", "Aceptar", "Agree", "I agree", "OK", "Got it"]
+                   "Einverstanden", "Akzeptieren", "Geht klar", "Tout accepter", "Accepter", "Aceptar", "Agree", "I agree", "OK",
+                   "Got it"]   # "Geht klar": CHECK24 (2026-11-23)
   block_phrases: ["Bot or Not", "Show us your human side", "Access Denied", "captcha", "are you a robot", "unusual traffic",
                   "Pardon Our Interruption", "verify you are human", "Request unsuccessful", "Just a moment",
                   "Attention Required", "Please enable JS and disable any ad blocker", "Sei un robot"]

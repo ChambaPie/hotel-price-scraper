@@ -97,15 +97,16 @@ def probe_specs(cfg: dict, catalog: list[str] = ()) -> dict:
 
 
 def accept_cookies(page, labels: list[str]) -> bool:
-    for label in labels:
-        try:
-            b = page.get_by_role("button", name=re.compile(rf"^\s*{re.escape(label)}\s*$", re.I))   # "Accept All Cookies"
-            if b.count() and b.first.is_visible():
-                b.first.click(timeout=3000)
-                page.wait_for_timeout(1000)
-                return True
-        except Exception:  # noqa: BLE001
-            continue
+    for role in ("button", "link"):            # CHECK24's "Geht klar" is a link (2026-11-23)
+        for label in labels:
+            try:
+                b = page.get_by_role(role, name=re.compile(rf"^\s*{re.escape(label)}\s*$", re.I))   # "Accept All Cookies"
+                if b.count() and b.first.is_visible():
+                    b.first.click(timeout=3000)
+                    page.wait_for_timeout(1000)
+                    return True
+            except Exception:  # noqa: BLE001
+                continue
     return False
 
 
