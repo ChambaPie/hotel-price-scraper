@@ -1,0 +1,8 @@
+#URL https://www.expedia.it/Hotel-Search?destination=Hotel%20Artemide%20Rome&startDate=2026-12-14&endDate=2026-12-15&adults=2&rooms=1
+#FINAL https://www.expedia.it/Hotel-Search?destination=Hotel%20Artemide%20Rome&startDate=2026-12-14&endDate=2026-12-15&adults=2&rooms=1
+#TITLE Sei un robot?
+Mostraci il tuo lato umano...
+
+Non siamo sicuri se sei un essere umano o un robot.
+
+5e31eece-7d0c-4485-aa59-865b3bf2c3bd

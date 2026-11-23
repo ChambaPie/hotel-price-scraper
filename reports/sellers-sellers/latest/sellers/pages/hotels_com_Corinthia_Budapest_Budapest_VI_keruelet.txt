@@ -1,0 +1,8 @@
+#URL https://www.hotels.com/Hotel-Search?destination=Corinthia%20Budapest%20Budapest%20VI.%20keruelet&startDate=2026-12-14&endDate=2026-12-15&adults=2&rooms=1
+#FINAL https://www.hotels.com/Hotel-Search?destination=Corinthia%20Budapest%20Budapest%20VI.%20keruelet&startDate=2026-12-14&endDate=2026-12-15&adults=2&rooms=1
+#TITLE Bot or Not?
+Show us your human side...
+
+We can't tell if you're a human or a bot.
+
+e29db8aa-6ab7-4a9f-84ef-3fd250153c09

@@ -1,0 +1,7 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+hotels_com,ta:g274887-d285437,Corinthia Budapest,HU,429,hotels.com,Bot or Not?,Bot or Not,0,False,107,1,13.4,
+hotels_com,ta:g187791-d205044,Hotel Artemide,IT,429,hotels.com,Bot or Not?,Bot or Not,0,False,107,1,12.2,
+hotels_com,ta:g274707-d658737,Hotel Residence Agnes,CZ,429,hotels.com,Bot or Not?,Bot or Not,0,False,107,1,13.8,
+expedia,ta:g274887-d285437,Corinthia Budapest,HU,429,expedia.it,Sei un robot?,Sei un robot,0,False,120,1,13.0,
+expedia,ta:g187791-d205044,Hotel Artemide,IT,429,expedia.it,Sei un robot?,Sei un robot,0,False,120,1,12.3,
+expedia,ta:g274707-d658737,Hotel Residence Agnes,CZ,429,expedia.it,Sei un robot?,Sei un robot,0,False,120,1,13.6,
