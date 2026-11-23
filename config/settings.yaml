@@ -439,8 +439,14 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   hotel_url: "https://www.agoda.com/partners/partnersearch.aspx?hid={id}&checkin={checkin}&checkout={checkout}&adults={adults}&rooms=1&currency=EUR"
 
 engines:                     # hotels' own booking engines (hotel_scraper/engines.py; owner, 2026-11-23: every vendor)
-  live: [seekda, d_edge]     # engines with a reader; more as they are built (survey: data/official_sites.csv)
+  live: [seekda, d_edge, simplebooking]   # engines with a reader; more as they are built (survey: data/official_sites.csv)
   seekda: {calendar_url: "https://s.seekda.com/api/calendar.json"}
+  simplebooking:
+    search_url: "https://www.simplebooking.it/graphql/ibe2/graphql?opname=StandardAvailabilitySearchIO&hid={hid}"
+    request_template: config/simplebooking_search.json   # its own request, captured from a booking page (2026-11-23)
+    book_url: "https://www.simplebooking.it/ibe2/hotel/{hid}?lang=EN&cur=EUR&in={checkin}&out={checkout}&guests=A,A"
+    nights_per_pass: 8       # one stay search per night: 8 nights per hotel per pass...
+    night_stride: 46         # ...about 6 weeks apart, shifting a day each pass
   d_edge: {bestprice_url: "https://websdk.d-edge.com/bestprice"}
   horizon_days: 365
   min_lead_days: 1

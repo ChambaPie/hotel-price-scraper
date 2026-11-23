@@ -4,8 +4,9 @@ sells the room itself, the hotel's official site first among them.
 Many official sites take bookings through the same few engines (data/official_sites.csv, from the seller probe's
 survey). Each engine has its own price calendar, the one its booking page shows:
 
-    seekda   s.seekda.com/api/calendar.json        price per night for the party, a month per call
-    d_edge   websdk.d-edge.com/bestprice           cheapest room per night, with the booking link, a month per call
+    seekda         s.seekda.com/api/calendar.json        price per night for the party, a month per call
+    d_edge         websdk.d-edge.com/bestprice           cheapest room per night, with the booking link, a month per call
+    simplebooking  simplebooking.it GraphQL availability one stay per call: a few nights per hotel per pass, rotating
 
     ids     once per hotel: open its booking page in a browser and note the engine's own hotel code from the calls the
             page makes (seller_ids.csv, seller "official", seller_id "<engine>:<code>...")
@@ -44,6 +45,10 @@ def code_from_requests(engine: str, urls: list[str]) -> dict | None:
         if engine == "seekda":
             m = re.search(r"[?&]propertyCode=([A-Z0-9_]+)", u) or re.search(r"/properties/([A-Z0-9_]+)/", u) \
                 or re.search(r"skd-property-code=([A-Z0-9_]+)", u)
+            if m:
+                return {"code": m.group(1)}
+        elif engine == "simplebooking":
+            m = re.search(r"simplebooking\.(?:it|travel)/.*?(?:[?&]hid=|/ibe2/hotel/|/hotel/)(\d+)", u)
             if m:
                 return {"code": m.group(1)}
         elif engine == "d_edge":
@@ -112,8 +117,53 @@ def dedge_nights(doc: dict) -> dict[str, dict]:
     return out
 
 
-def calendar(engine: str, p: dict, ec: dict, get, today: date, days: int, adults: int, sleep=time.sleep) -> dict[str, dict]:
+def simplebooking_body(template: dict, hotel_id: str, night: date, adults: int) -> dict:
+    """SimpleBooking's own availability search (captured from its booking page) for another hotel and night."""
+    import copy
+    b = copy.deepcopy(template)
+    v = b["variables"]
+    v["hotelId"] = str(hotel_id)
+    v["query"].update(checkIn=night.isoformat(), checkOut=(night + timedelta(days=1)).isoformat(),
+                      allocations=[{"adults": adults, "children": []}])
+    return b
+
+
+def simplebooking_night(doc: dict) -> dict | None:
+    """The cheapest room for the night (taxes included), or None when nothing is bookable."""
+    res = (((doc.get("data") or {}).get("hotel") or {}).get("result") or {})
+    prices = [o["price"]["amount"] for o in res.get("options") or []
+              if (o.get("price") or {}).get("amount") and (o.get("price") or {}).get("currencyCode", "EUR") == "EUR"]
+    return {"price": float(min(prices)), "min_stay": 1, "url": ""} if prices else None
+
+
+def rotating_nights(key: str, start: date, days: int, per_pass: int, stride: int, now: datetime) -> list[date]:
+    """A few nights per pass without stored state: each 4-hour pass shifts the walk by a day, so every night of the
+    horizon comes round; the hotel's key spreads hotels over different nights."""
+    import zlib
+    shift = (int(now.timestamp() // (4 * 3600)) + zlib.crc32(key.encode())) % max(1, days)
+    return sorted({start + timedelta(days=(shift + i * stride) % days) for i in range(per_pass)})
+
+
+def calendar(engine: str, p: dict, ec: dict, get, today: date, days: int, adults: int, sleep=time.sleep,
+             post=None, now: datetime | None = None) -> dict[str, dict]:
     nights = {}
+    if engine == "simplebooking":
+        sb = ec["simplebooking"]
+        template = json.loads(Path(sb["request_template"]).read_text())
+        for night in rotating_nights(p["code"], today, days, sb["nights_per_pass"], sb["night_stride"],
+                                     now or datetime.now(timezone.utc)):
+            r = post(sb["search_url"].format(hid=p["code"]), simplebooking_body(template, p["code"], night, adults))
+            if r.status != 200:
+                raise RuntimeError(f"simplebooking HTTP {r.status} {r.error[:80]}")
+            got = simplebooking_night(r.json())
+            if got:
+                got["url"] = sb["book_url"].format(hid=p["code"], checkin=night.isoformat(),
+                                                   checkout=(night + timedelta(days=1)).isoformat())
+                nights[night.isoformat()] = got
+            else:
+                nights[night.isoformat()] = None     # asked, nothing bookable
+            sleep(ec["pause_seconds"])
+        return nights
     for first, last in months(today, days):
         url = seekda_url(ec, p["code"], first, last, adults) if engine == "seekda" else dedge_url(ec, p, first, last, adults)
         r = get(url)
@@ -177,10 +227,11 @@ def find_codes(sites: list[dict], ec: dict, log=log, clock=time.monotonic, budge
 
 
 def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, today: date | None = None, log=log,
-        clock=time.monotonic, sleep=time.sleep) -> dict:
+        clock=time.monotonic, sleep=time.sleep, post=None, now_dt: datetime | None = None) -> dict:
     ec, p = cfg["engines"], cfg["paths"]
     today = today or date.today()
-    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    now_dt = now_dt or datetime.now(timezone.utc)
+    now = now_dt.isoformat(timespec="seconds")
     watched = {w["pid"] for w in read_csv(p["watchlist"]) if not w.get("gone_since")}
     sites = [s for s in read_csv(p["official_sites"]) if s["pid"] in watched]
     by_pid = {s["pid"]: s for s in sites}
@@ -191,7 +242,11 @@ def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, t
     if part in ("ids", "all"):
         todo = ids_due(sites, known, ec["live"], today, ec["retry_days"])[: ec["ids_per_run"]]
         stats["ids_due"] = len(todo)
-        codes = finder(todo, ec, log=log, budget_s=max_minutes * 60 * (0.5 if part == "all" else 1)) if todo else {}
+        direct = {s["pid"]: code_from_requests(s["engine"], [s.get("booking_link") or "", s.get("website") or ""])
+                  for s in todo}                     # some links name the engine's hotel code already
+        need = [s for s in todo if not direct.get(s["pid"])]
+        codes = finder(need, ec, log=log, budget_s=max_minutes * 60 * (0.5 if part == "all" else 1)) if need else {}
+        codes.update({k: v for k, v in direct.items() if v})
         for s in todo:
             if s["pid"] not in codes:
                 continue
@@ -205,6 +260,7 @@ def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, t
     if part in ("prices", "all"):
         sess = Session(ec["user_agent"], timeout=30)
         get = get or (lambda u: sess.request("GET", u))
+        post = post or (lambda u, body: sess.post_json(u, body))
         adults = cfg["scan"]["adults"]
         new = []
         for r in sorted((r for r in known.values() if r["status"] == "ok" and r["pid"] in watched),
@@ -214,15 +270,20 @@ def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, t
             engine, prm = parse_seller_id(r["seller_id"])
             try:
                 nights = calendar(engine, prm, ec, get, today + timedelta(days=ec["min_lead_days"]), ec["horizon_days"],
-                                  adults, sleep)
+                                  adults, sleep, post=post, now=now_dt)
             except Exception as e:  # noqa: BLE001
                 stats["errors"] += 1
                 log(f"{r['seller_name'][:35]}: {str(e)[:120]}")
                 continue
             stats["hotels_priced"] += 1
-            stats["nights"] += len(nights)
+            stats["nights"] += sum(1 for v in nights.values() if v)
             for night, v in nights.items():
                 d = date.fromisoformat(night)
+                if v is None:                        # asked and not bookable (per-stay engines)
+                    new.append({"pid": r["pid"], "seller": SELLER, "seller_id": engine, "night": night, "price": "",
+                                "price_excl": "", "price_total": "", "currency": "EUR", "available": "no",
+                                "cancellation": "", "rooms_left": "", "url": "", "seen_at": now})
+                    continue
                 new.append({"pid": r["pid"], "seller": SELLER, "seller_id": engine, "night": night, "price": v["price"],
                             "price_excl": "", "price_total": "", "currency": "EUR", "available": "yes",
                             "cancellation": "", "rooms_left": "",
@@ -232,8 +293,9 @@ def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, t
         old_all = read_csv(p["seller_prices"])
         mine = [x for x in old_all if x.get("seller") == SELLER]
         others = [x for x in old_all if x.get("seller") != SELLER]
-        priced = {x["pid"] for x in new}            # a fresh calendar replaces the hotel's old rows entirely
-        merged = merge_prices([x for x in mine if x["pid"] not in priced], new, today)
+        # a fresh full calendar replaces the hotel's old rows; per-stay engines add to them (a few nights per pass)
+        full = {x["pid"] for x in new if x["seller_id"] in ("seekda", "d_edge")}
+        merged = merge_prices([x for x in mine if x["pid"] not in full], new, today)
         write_csv(sorted(others + merged, key=lambda x: (x["seller"], x["pid"], x["night"])), p["seller_prices"], PRICE_FIELDS)
     stats["ids_coverage"] = f"{sum(1 for r in known.values() if r['status'] == 'ok')}/" \
                             f"{sum(1 for s in sites if s.get('engine') in ec['live'])} hotels on {', '.join(ec['live'])}"

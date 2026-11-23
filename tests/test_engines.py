@@ -50,18 +50,20 @@ def test_run_ids_then_calendars(tmp_path):
     with open(cfg["paths"]["watchlist"], "w", newline="") as f:
         w = csv.DictWriter(f, ["pid", "gone_since"])
         w.writeheader()
-        w.writerows([{"pid": "a", "gone_since": ""}, {"pid": "b", "gone_since": ""}, {"pid": "c", "gone_since": ""}])
+        w.writerows([{"pid": x, "gone_since": ""} for x in "abcd"])
     with open(cfg["paths"]["official_sites"], "w", newline="") as f:
         w = csv.DictWriter(f, ["pid", "name", "engine", "booking_link", "website"])
         w.writeheader()
         w.writerows([{"pid": "a", "name": "Adler Inn", "engine": "seekda", "booking_link": "https://adlerinn.officialbookings.com", "website": ""},
                      {"pid": "b", "name": "Domaine", "engine": "d_edge", "booking_link": "https://domaine.example/booking", "website": ""},
-                     {"pid": "c", "name": "Other", "engine": "simplebooking", "booking_link": "https://x", "website": ""}])
+                     {"pid": "c", "name": "Other", "engine": "vertical_booking", "booking_link": "https://x", "website": ""},
+                     {"pid": "d", "name": "Albafiorita", "engine": "simplebooking", "website": "",
+                      "booking_link": "https://www.simplebooking.it/ibe/hotelbooking/search?hid=8930&lang=it"}])
     seek = (FX / "seekda_calendar_adler_inn_2026-12.json").read_bytes()
     dedge = (FX / "dedge_bestprice_domaine_montagne_2026-12.json").read_bytes()
 
     def finder(sites, ec, log=None, budget_s=0):
-        assert {s["pid"] for s in sites} == {"a", "b"}                               # only engines with a reader
+        assert {s["pid"] for s in sites} == {"a", "b"}   # engines with a reader whose code isn't in the link already
         return {"a": {"code": "AT_TUX_BERGLAND"},
                 "b": engines.code_from_requests("d_edge", [req("d_edge_Domaine_de_Montagne_Chalet_Fr_re_Joseph.api2")])}
     calls = []
@@ -73,8 +75,19 @@ def test_run_ids_then_calendars(tmp_path):
         if "d-edge" in url and "fromDate=2026-12-01" in url:
             return Response(200, {}, dedge)
         return Response(200, {}, b'{"result": [], "data": {"data": []}}')
-    res = engines.run(cfg, "all", 5, get=get, finder=finder, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
-    assert res["ids_found"] == 2 and res["hotels_priced"] == 2 and res["ids_coverage"].startswith("2/2")
+    sb = (FX / "simplebooking_search_albafiorita_2026-12-14.json").read_bytes()
+    posted = []
+
+    def post(url, body):
+        posted.append((url, body["variables"]["query"]["checkIn"]))
+        return Response(200, {}, sb if len(posted) % 2 else b'{"data": {"hotel": {"result": {"options": []}}}}')
+    res = engines.run(cfg, "all", 5, get=get, finder=finder, today=date(2026, 11, 24), log=lambda m: None,
+                      sleep=lambda s: None, post=post)
+    assert res["ids_found"] == 3 and res["hotels_priced"] == 3 and res["ids_coverage"].startswith("3/3")
+    assert len(posted) == 8 and all("hid=8930" in u for u, _ in posted)             # 8 nights per pass
+    d = [r for r in csv.DictReader(open(cfg["paths"]["seller_prices"])) if r["pid"] == "d"]
+    assert len(d) == 8 and sum(r["available"] == "yes" for r in d) == 4 and {r["price"] for r in d if r["price"]} == {"84.0"}
+    assert all("/ibe2/hotel/8930?" in r["url"] for r in d if r["available"] == "yes")
     rows = list(csv.DictReader(open(cfg["paths"]["seller_prices"])))
     a = [r for r in rows if r["pid"] == "a"]
     assert len(a) == 19 and a[0]["seller"] == "official" and a[0]["seller_id"] == "seekda" and a[0]["price"] == "354.0"
@@ -82,3 +95,25 @@ def test_run_ids_then_calendars(tmp_path):
     b = {r["night"]: r for r in rows if r["pid"] == "b"}
     assert b["2026-12-01"]["price"] == "230.0" and "secure-hotel-booking.com" in b["2026-12-01"]["url"]
     assert sum(1 for u in calls if "seekda" in u) == 13                              # a month per call, 12 months ahead
+
+
+def test_simplebooking_real_search_and_request():
+    doc = json.loads((FX / "simplebooking_search_albafiorita_2026-12-14.json").read_text())
+    assert engines.simplebooking_night(doc) == {"price": 84.0, "min_stay": 1, "url": ""}       # cheapest of 5 rooms
+    assert engines.simplebooking_night({"data": {"hotel": {"result": {"options": []}}}}) is None
+    tpl = json.loads((FX / "simplebooking_search_request_2026-11.json").read_text())
+    b = engines.simplebooking_body(tpl, "1234", date(2027, 3, 1), 3)
+    assert b["variables"]["hotelId"] == "1234" and b["variables"]["query"]["checkIn"] == "2027-03-01"
+    assert b["variables"]["query"]["checkOut"] == "2027-03-02" and b["variables"]["query"]["allocations"][0]["adults"] == 3
+    assert tpl["variables"]["hotelId"] == "8930"                                     # template untouched
+    assert engines.code_from_requests("simplebooking", ["https://www.simplebooking.it/ibe/hotelbooking/search?hid=8930&lang=it"]) == {"code": "8930"}
+    assert engines.code_from_requests("simplebooking", ["https://www.simplebooking.it/ibe2/hotel/5715?lang=DE"]) == {"code": "5715"}
+
+
+def test_rotating_nights_cover_the_horizon():
+    from datetime import datetime, timedelta, timezone
+    start, seen = date(2026, 11, 25), set()
+    t = datetime(2026, 11, 24, tzinfo=timezone.utc)
+    for k in range(46):
+        seen.update(engines.rotating_nights("8930", start, 365, 8, 46, t + timedelta(hours=4 * k)))
+    assert len(seen) >= 360 and min(seen) >= start and max(seen) < start + timedelta(days=365)
