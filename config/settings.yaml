@@ -62,6 +62,9 @@ paths:
   locations: data/locations.csv    # checked position of each watched hotel (the small store every run reuses)
   location_fixes: config/location_fixes.csv   # positions set by hand: pid,lat,lon,note (always win)
   official_sites: data/official_sites.csv   # official website and booking engine per watched hotel (seller probe)
+  seller_ids: data/seller_ids.csv       # each watched hotel's id on each other seller (Agoda...), checked by name and place
+  seller_prices: data/seller_prices.csv # other sellers' prices per hotel and night (published to branch seller-snapshots)
+  agoda_state: data/agoda_state.json    # which nights each city had last (branch seller-snapshots)
   tile_state: data/tile_state.json   # when each map tile was last refreshed
   selection: config/selection.yaml
   include: config/include.txt
@@ -160,6 +163,7 @@ ops:                         # Phase 8: daily health check (workflow file -> max
     catalog.yml: 30
     osm.yml: 200
     places.yml: 30
+    sellers.yml: 8
 
 catalog_changes:             # optional public issue listing new / gone properties after each catalog refresh
   issue: false
@@ -281,7 +285,7 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       suggestion: "[data-stid='destination_form_field-result-item-button'], [data-stid*='result-item'] button, [role='option']"
       search: "button#search_button, [data-testid='submit-button'], button[type='submit']"
       browser: {<<: *person, warm_up: "https://www.expedia.it/"}
-    agoda:                   # the search address alone opens the home page (2026-11-23): use the search box
+    agoda: &agoda_box        # the search address alone opens the home page (2026-11-23): use the search box
       home: "https://www.agoda.com/en-gb/"
       input: "[data-selenium='textInput'], input[placeholder*='destination' i], input[placeholder*='Where' i]"
       suggestion: "[data-selenium='autosuggest-item'], [role='option'], li[data-element-name*='suggest']"
@@ -307,7 +311,7 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
     input: "input[type='search'], input[placeholder*='estination' i], input[placeholder*='where' i], input[placeholder*='dove' i], input[placeholder*='wohin' i], input[placeholder*='ziel' i], input[placeholder*='città' i], input[placeholder*='city' i], input[placeholder*='hotel' i], input[name*='dest' i], input[id*='dest' i], input[aria-label*='destination' i]"
     suggestion: "[role='option'], [role='listbox'] li, [class*='uggest'] li, [class*='utocomplete'] li"
     search: "button[type='submit'], button:has-text('Search'), button:has-text('Cerca'), button:has-text('Suchen'), button:has-text('Rechercher'), button:has-text('Buscar')"
-  cookie_buttons: ["Accept all", "Accept All", "Accept", "Accetta tutto", "Accetta tutti", "Accetta", "Alle akzeptieren",
+  cookie_buttons: &cookies ["Accept all", "Accept All", "Accept", "Accetta tutto", "Accetta tutti", "Accetta", "Alle akzeptieren",
                    "Akzeptieren", "Tout accepter", "Accepter", "Aceptar", "I agree", "OK", "Got it"]
   block_phrases: ["Bot or Not", "Show us your human side", "Access Denied", "captcha", "are you a robot", "unusual traffic",
                   "Pardon Our Interruption", "verify you are human", "Request unsuccessful", "Just a moment",
@@ -377,3 +381,27 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
     capcorn: ["capcorn\\.net"]
     zimres: ["zimres\\.com"]
     reconline: ["reconline\\.com"]
+
+agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner, 2026-11-23: every seller counts)
+  home: "https://www.agoda.com/en-gb/"
+  search_box: *agoda_box     # the same search box as the probe
+  cookie_buttons: *cookies
+  warm_up_query: "Trieste"   # one search at the start of a prices-only pass, to get the page's own city-search request
+  wait_ms: 6000
+  currency: EUR
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+  accept_language: "en-GB,en;q=0.9"
+  max_km: 3.0                # Agoda's hotel is ours when within max_km with a name this alike...
+  min_similarity: 0.8
+  near_km: 1.0               # ...or within near_km with a looser name match (names differ between sites)
+  min_similarity_near: 0.5
+  retry_days: 30             # a hotel not found is searched again after this
+  ids_per_run: 120
+  ids_share: 0.5             # when ids and prices run together, at most this share of the time goes to ids
+  nights_per_city: 4         # nights priced per city per pass...
+  night_stride: 182          # ...this many days apart, so one pass spans the 24 months and every night comes round
+  hotels_per_call: 20        # watched hotels pinned in one city search
+  pause_seconds: 1.5
+  stop_after_errors: 8
+  max_minutes: 30
+  hotel_url: "https://www.agoda.com/partners/partnersearch.aspx?hid={id}&checkin={checkin}&checkout={checkout}&adults={adults}&rooms=1&currency=EUR"
