@@ -84,3 +84,24 @@ def test_engine_url_from_the_booking_link_or_the_link_itself():
     assert sp.engine_url({"booking_link": "https://be.synxis.com/?hotel=22859&amp;adult=2"}, None, date(2026, 12, 14), 2) \
         == "https://be.synxis.com/?hotel=22859&adult=2"
     assert sp.engine_url({"booking_link": "", "website": "https://x.at"}, tpl, date(2026, 12, 14), 2) == "https://x.at"
+
+
+def test_replay_asks_the_page_api_for_one_property(tmp_path):
+    import json
+    from types import SimpleNamespace as NS
+    body = {"operationName": "priceTrendSearch", "variables": {"PriceTrendSearchRequest": {"cityId": 16594, "currency": "USD"}}}
+    req = NS(post_data=json.dumps(body), headers={"content-type": "application/json", "cookie": "x", "ag-language-id": "1"})
+    sent = []
+
+    class Page:
+        url = "https://www.agoda.com/en-gb/search?hotel=1081&selectedproperty=1081&checkIn=2026-12-02"
+
+        def evaluate(self, js, args):
+            sent.append(args)
+            return [200, '{"data": {}}']
+    rp = CFG["seller_probe"]["sellers"]["agoda"]["replay"]
+    sp.replay(Page(), [NS(url="https://www.agoda.com/graphql/search", request=req)], rp, tmp_path / "agoda_x", log=lambda m: None)
+    url, b, headers = sent[0]
+    got = json.loads(b)["variables"]["PriceTrendSearchRequest"]
+    assert url.endswith("/graphql/search") and got == {"cityId": 16594, "currency": "EUR", "propertyId": 1081}
+    assert "cookie" not in headers and len(sent) == len(rp["variants"]) and (tmp_path / "agoda_x.replay0.json").exists()

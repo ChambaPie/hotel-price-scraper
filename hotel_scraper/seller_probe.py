@@ -131,6 +131,8 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                 except Exception:  # noqa: BLE001
                     pass
                 api = save_json(seen, base, sp["json_url_pattern"], sp["json_per_page"], name_words(w["name"]))
+                if isinstance(spec, dict) and spec.get("replay"):
+                    replay(page, seen, spec["replay"], base, log)
                 facts = page_facts(text, title, w["name"], sp["block_phrases"])
                 if not facts["blocked"] and (status in (403, 429) or "ERR_HTTP2_PROTOCOL_ERROR" in err):
                     facts["blocked"] = f"HTTP {status}" if status else "connection refused (HTTP/2 error)"
@@ -179,6 +181,35 @@ def search_box(page, spec: dict, query: str, wait_ms: int) -> str:
             pass
     page.wait_for_timeout(wait_ms)
     return "" if sug.count() else "no suggestion list (pressed Enter)"
+
+
+def replay(page, responses, rp: dict, base: Path, log=log) -> None:
+    """Send one of the page's own API requests again with changes (e.g. Agoda's price trend for one property rather
+    than the whole city), from inside the page so it carries the page's own headers and cookies; save each answer."""
+    import copy
+    prop = re.search(rp["id_from_url"], page.url)
+    src = next((r for r in responses if rp["match"] in (r.request.post_data or "")), None)
+    if not prop or not src:
+        log(f"replay: {'no property id in the address' if not prop else 'request not seen'}")
+        return
+    body = json.loads(src.request.post_data)
+    headers = {k: v for k, v in src.request.headers.items() if k.lower() not in ("content-length", "cookie", "host")}
+    for i, patch in enumerate(rp["variants"]):
+        b = copy.deepcopy(body)
+        node = b
+        for key in rp["path"]:
+            node = node[key]
+        for k, v in patch.items():
+            node[k] = int(prop.group(1)) if v == "{id}" else v
+        try:
+            res = page.evaluate("""async ([url, body, headers]) => {
+                const r = await fetch(url, {method: 'POST', body, headers, credentials: 'include'});
+                return [r.status, await r.text()]; }""", [src.url, json.dumps(b), headers])
+        except Exception as e:  # noqa: BLE001
+            res = [0, str(e)[:300]]
+        (base.parent / f"{base.name}.replay{i}.json").write_text(res[1][:400_000], encoding="utf-8")
+        (base.parent / f"{base.name}.replay{i}.url").write_text(f"{res[0]} POST {src.url}\n{json.dumps(patch)}", encoding="utf-8")
+        log(f"replay {i} {patch}: HTTP {res[0]}, {len(res[1])} bytes")
 
 
 def save_json(responses, base: Path, pattern: str, limit: int, words: list[str] = ()) -> int:

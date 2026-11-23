@@ -225,6 +225,14 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       input: "[data-selenium='textInput'], input[placeholder*='destination' i], input[placeholder*='Where' i]"
       suggestion: "[data-selenium='autosuggest-item'], [role='option'], li[data-element-name*='suggest']"
       search: "[data-selenium='searchButton'], button:has-text('SEARCH'), button:has-text('Search')"
+      replay:                # the page's price-trend call (61 nights, whole city) asked for one property instead
+        match: priceTrendSearch
+        id_from_url: "selectedproperty=(\\d+)"
+        path: [variables, PriceTrendSearchRequest]
+        variants:
+          - {propertyId: "{id}", currency: EUR}
+          - {propertyId: "{id}", currency: EUR, searchType: PropertySearch}
+          - {propertyId: "{id}", currency: EUR, startDate: "2027-05-01T00:00:00.000Z", endDate: "2027-06-30T00:00:00.000Z"}
     trip_com:
       home: "https://www.trip.com/hotels/?curr=EUR&locale=en-GB"
       input: "input#hotels-destination, input[placeholder*='City' i], input[placeholder*='destination' i], input[placeholder*='Where' i]"
