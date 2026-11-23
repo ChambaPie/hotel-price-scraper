@@ -224,12 +224,18 @@
   {
    "method": "POST",
    "url": "https://hotels.check24.de/api/autocomplete.data",
-   "post": "term=Hotel+Schloss+Seefels+P"
+   "post": "term=Hotel+Schloss+Seefels+P",
+   "status": 200,
+   "type": "text/x-script; charset=utf-8",
+   "body": "[{\"_1\":2},\"data\",{\"_3\":4,\"_1\":5},\"ok\",true,{\"_6\":7,\"_8\":9,\"_10\":11},\"term\",\"Hotel Schloss Seefels P\",\"suggestions\",[12],\"filteredSuggestions\",[],{\"_13\":14,\"_15\":16,\"_17\":18,\"_19\":20,\"_21\":22,\"_23\":24,\"_25\":26,\"_27\":28,\"_29\":30},\"$typeName\",\"journey.autocompleter.Suggestion\",\"id\",\"019ab52a7154727ba37e72eec1ec1ec4\",\"name\",\"Hotel Schloss Seefels\",\"shortDescription\",\"Unterkunft in P\u00f6rtschach am W\u00f6rthersee, Alpen, \u00d6sterreich\",\"type\",2,\"parentLocationId\",\"0199c8d1238074da9b1cc92e77990cb5\",\"parentLocationName\",\"P\u00f6rtschach am W\u00f6rthersee\",\"debugInfo\",\"fallback score = OpenSearch full-text score boosted by sqrt(relevance_desktop) * 0.5, x2 for locations, x0.5 for landmarks\\nscore = 20,486\",\"entryType\",\"suggestion\"]\n"
   },
   {
    "method": "POST",
    "url": "https://hotels.check24.de/api/autocomplete.data",
-   "post": "term=Hotel+Schloss+Seefels+P"
+   "post": "term=Hotel+Schloss+Seefels+P",
+   "status": 200,
+   "type": "text/x-script; charset=utf-8",
+   "body": "[{\"_1\":2},\"data\",{\"_3\":4,\"_1\":5},\"ok\",true,{\"_6\":7,\"_8\":9,\"_10\":11},\"term\",\"Hotel Schloss Seefels P\",\"suggestions\",[12],\"filteredSuggestions\",[],{\"_13\":14,\"_15\":16,\"_17\":18,\"_19\":20,\"_21\":22,\"_23\":24,\"_25\":26,\"_27\":28,\"_29\":30},\"$typeName\",\"journey.autocompleter.Suggestion\",\"id\",\"019ab52a7154727ba37e72eec1ec1ec4\",\"name\",\"Hotel Schloss Seefels\",\"shortDescription\",\"Unterkunft in P\u00f6rtschach am W\u00f6rthersee, Alpen, \u00d6sterreich\",\"type\",2,\"parentLocationId\",\"0199c8d1238074da9b1cc92e77990cb5\",\"parentLocationName\",\"P\u00f6rtschach am W\u00f6rthersee\",\"debugInfo\",\"fallback score = OpenSearch full-text score boosted by sqrt(relevance_desktop) * 0.5, x2 for locations, x0.5 for landmarks\\nscore = 20,486\",\"entryType\",\"suggestion\"]\n"
   },
   {
    "method": "POST",
@@ -369,21 +375,21 @@
    "attrs": [
     "class=app:mb-safe-neg relative overflow-x-hidden pb-8 md:pb-12"
    ],
-   "text": "Hotel BlackDeals\n\nBis zu 55% sparen und gratis BlackTrikot sichern\n\nNoch 39.631 Trikots\nHotel\nFlug + Hotel\nPauschalreise"
+   "text": "Hotel BlackDeals\n\nBis zu 55% sparen und gratis BlackTrikot sichern\n\nNoch 39.630 Trikots\nHotel\nFlug + Hotel\nPauschalreise"
   },
   {
    "tag": "DIV",
    "attrs": [
     "class=md:max-xl:px-4 px-4"
    ],
-   "text": "Hotel BlackDeals\n\nBis zu 55% sparen und gratis BlackTrikot sichern\n\nNoch 39.631 Trikots\nHotel\nFlug + Hotel\nPauschalreise"
+   "text": "Hotel BlackDeals\n\nBis zu 55% sparen und gratis BlackTrikot sichern\n\nNoch 39.630 Trikots\nHotel\nFlug + Hotel\nPauschalreise"
   },
   {
    "tag": "DIV",
    "attrs": [
     "class=mx-auto w-full max-w-7xl flex flex-col gap-6 pb-0 md:gap-8 md:pb-8 pt-8 md:pt-8"
    ],
-   "text": "Hotel BlackDeals\n\nBis zu 55% sparen und gratis BlackTrikot sichern\n\nNoch 39.631 Trikots\nHotel\nFlug + Hotel\nPauschalreise"
+   "text": "Hotel BlackDeals\n\nBis zu 55% sparen und gratis BlackTrikot sichern\n\nNoch 39.630 Trikots\nHotel\nFlug + Hotel\nPauschalreise"
   },
   {
    "tag": "DIV",

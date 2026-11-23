@@ -1,0 +1,28 @@
+[
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "data-slot=command-input",
+   "class=placeholder:text-dove-grey flex rounded-md bg-transparent py",
+   "data-test-id-qa=search-destination-input",
+   "enterkeyhint=search",
+   "aria-expanded=true",
+   "aria-controls=radix-_r_1b_",
+   "autocomplete=off",
+   "placeholder=Reiseziel eingeben",
+   "required=",
+   "maxlength=100",
+   "id=radix-_r_1d_",
+   "cmdk-input=",
+   "autocorrect=off",
+   "spellcheck=false",
+   "aria-autocomplete=list",
+   "role=combobox",
+   "aria-labelledby=radix-_r_1c_",
+   "type=text",
+   "value=",
+   "name=term",
+   "style="
+  ]
+ }
+]
