@@ -223,7 +223,7 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
     trip_com: "https://www.trip.com/hotels/list?keyword={q}&checkin={checkin_slash}&checkout={checkout_slash}&adult={adults}&crn=1&curr=EUR"
   block_phrases: ["Bot or Not", "Show us your human side", "Access Denied", "captcha", "are you a robot", "unusual traffic",
                   "Pardon Our Interruption", "verify you are human", "Request unsuccessful", "Just a moment",
-                  "Attention Required", "Please enable JS and disable any ad blocker"]
+                  "Attention Required", "Please enable JS and disable any ad blocker", "Sei un robot"]
   json_url_pattern: "graphql|/api/|search|availability|rates|price"
   json_per_page: 6
   wait_ms: 8000

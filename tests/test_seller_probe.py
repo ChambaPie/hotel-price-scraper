@@ -54,3 +54,22 @@ def test_report_counts():
                     {"status": "200", "engine": "", "booking_host": "ibe.new.com", "website": "https://b.at"},
                     {"status": "error: timed out", "engine": "", "booking_host": "", "website": "https://c.at"}], 1500)
     assert "| expedia | 1 | 1 | 0 | 0 | 0 |" in md and "| seekda | 1 |" in md and "- ibe.new.com: 1" in md
+
+
+def test_http_body_cut_off_midway_is_a_failed_response_not_a_crash(monkeypatch):
+    """Regression (seller probe run 45211139318): an official site cut its chunked body off (IncompleteRead) and the
+    exception stopped the whole survey."""
+    import http.client
+    from hotel_scraper.http import Session
+    s = Session("ua")
+
+    def boom(req, timeout=0):
+        raise http.client.IncompleteRead(b"x" * 10)
+    monkeypatch.setattr(s.opener, "open", boom)
+    r = s.request("GET", "https://cut.example/")
+    assert r.status == 0 and r.error
+
+
+def test_bot_walls_seen_on_github():
+    """Expedia answered 429 'Sei un robot?' and Hotels.com refused the connection (2026-11-23 probe)."""
+    assert sp.page_facts("Mostraci il tuo lato umano...", "Sei un robot?", "X", CFG["seller_probe"]["block_phrases"])["blocked"]

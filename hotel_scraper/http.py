@@ -7,6 +7,7 @@ import json
 import time
 import zlib
 from dataclasses import dataclass, field
+from http.client import HTTPException
 from http.cookiejar import CookieJar
 from urllib.error import HTTPError, URLError
 from urllib.request import HTTPCookieProcessor, Request, build_opener
@@ -61,8 +62,8 @@ class Session:
         except HTTPError as e:
             body = _decode(e.read() or b"", e.headers.get("Content-Encoding") if e.headers else None)
             return Response(e.code, dict(e.headers or {}), body, time.monotonic() - t0, url, f"HTTP {e.code}")
-        except (URLError, TimeoutError, OSError) as e:
-            return Response(0, {}, b"", time.monotonic() - t0, url, str(getattr(e, "reason", e)))
+        except (URLError, TimeoutError, OSError, HTTPException) as e:   # HTTPException: e.g. a body cut off midway
+            return Response(0, {}, b"", time.monotonic() - t0, url, str(getattr(e, "reason", e)) or type(e).__name__)
 
     def get(self, url: str, headers: dict | None = None) -> Response:
         return self.request("GET", url, headers=headers)

@@ -127,6 +127,8 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                     pass
                 api = save_json(seen, base, sp["json_url_pattern"], sp["json_per_page"])
                 facts = page_facts(text, title, w["name"], sp["block_phrases"])
+                if not facts["blocked"] and (status in (403, 429) or "ERR_HTTP2_PROTOCOL_ERROR" in err):
+                    facts["blocked"] = f"HTTP {status}" if status else "connection refused (HTTP/2 error)"
                 row = {"seller": seller, "pid": w["pid"], "hotel": w["name"], "country": w.get("country", ""),
                        "status": status, "final_host": host(page.url), "title": title[:80], **facts, "json_saved": api,
                        "seconds": round(time.monotonic() - t0, 1), "error": err}
