@@ -251,7 +251,7 @@ sellers:                     # every travel website that sells the room and take
   travelocity: {name: Travelocity, group: Expedia Group, status: blocked, note: "same system as Expedia"}
   wotif: {name: Wotif, group: Expedia Group, status: blocked, note: "same system as Expedia"}
   hotwire: {name: Hotwire, group: Expedia Group, status: blocked, note: "same system as Expedia; hotel name hidden until paid"}
-  trip_com: {name: Trip.com, group: Trip.com Group, status: probe}
+  trip_com: {name: Trip.com, group: Trip.com Group, status: live, note: "its own search-box and results-list calls, repeated from inside its page (hotel_scraper/tripcom.py)"}
   airbnb: {name: Airbnb, status: probe, home: "https://www.airbnb.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   lastminute: {name: lastminute.com, group: lastminute.com group, status: probe, home: "https://www.lastminute.com/", note: "Cloudflare check on 1 of 2 pages from GitHub (probe 2026-11-23)"}
   edreams: {name: eDreams, group: eDreams ODIGEO, status: probe, home: "https://www.edreams.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
@@ -440,6 +440,36 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   stop_after_errors: 25
   max_minutes: 30
   hotel_url: "https://www.agoda.com/partners/partnersearch.aspx?hid={id}&checkin={checkin}&checkout={checkout}&adults={adults}&rooms=1&currency=EUR"
+
+tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; owner, 2026-11-23: every vendor)
+  home: "https://www.trip.com/hotels/?curr=EUR&locale=en-GB"
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+  accept_language: "en-GB,en;q=0.9"
+  # browser: *person_browser # if Trip.com starts refusing the hidden browser (needs xvfb-run in the workflow)
+  wait_ms: 5000
+  currency: EUR
+  keywords_url: "https://www.trip.com/restapi/soa2/34951/getHotelKeywords"        # what its search box asks
+  list_url: "https://www.trip.com/restapi/soa2/34951/fetchDynamicRefreshList"     # what its results list asks
+  keywords_template: config/tripcom_keywords.json   # its own requests, captured from the page (2026-11-23)
+  list_template: config/tripcom_list.json
+  queries: ["{name} {city}", "{name}"]
+  max_km: 3.0                # same name-and-place rules as Agoda (positions from Trip.com's suggestions)
+  min_similarity: 0.8
+  near_km: 1.0
+  min_similarity_near: 0.5
+  same_place_km: 0.15
+  retry_days: 30
+  ids_per_run: 300
+  ids_share: 0.5             # when ids and prices run together, at most this share of the time goes to ids
+  hotels_per_pass: 150       # each pass starts this many hotels further on, so every hotel comes round
+  nights_per_pass: 4         # nights priced per hotel per pass...
+  night_stride: 91           # ...about 3 months apart, shifting a day each pass
+  min_lead_days: 1
+  horizon_days: 365
+  pause_seconds: 1.0
+  stop_after_errors: 25
+  max_minutes: 30
+  hotel_url: "https://www.trip.com/hotels/detail/?hotelId={id}&cityId={city}&checkIn={checkin}&checkOut={checkout}&adult={adults}&crn=1&curr=EUR&locale=en-GB"
 
 engines:                     # hotels' own booking engines (hotel_scraper/engines.py; owner, 2026-11-23: every vendor)
   live: [seekda, d_edge, simplebooking]   # engines with a reader; more as they are built (survey: data/official_sites.csv)
