@@ -219,13 +219,21 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
   sellers:                   # search page per seller; {q} hotel name + town, {checkin} YYYY-MM-DD, {checkin_slash} YYYY/MM/DD
     hotels_com: "https://www.hotels.com/Hotel-Search?destination={q}&startDate={checkin}&endDate={checkout}&adults={adults}&rooms=1"
     expedia: "https://www.expedia.it/Hotel-Search?destination={q}&startDate={checkin}&endDate={checkout}&adults={adults}&rooms=1"
-    agoda: "https://www.agoda.com/search?textToSearch={q}&checkIn={checkin}&checkOut={checkout}&adults={adults}&rooms=1&currencyCode=EUR"
-    trip_com: "https://www.trip.com/hotels/list?keyword={q}&checkin={checkin_slash}&checkout={checkout_slash}&adult={adults}&crn=1&curr=EUR"
+    agoda:                   # the search address alone opens the home page (2026-11-23): use the search box
+      home: "https://www.agoda.com/en-gb/"
+      input: "[data-selenium='textInput'], input[placeholder*='destination' i], input[placeholder*='Where' i]"
+      suggestion: "[data-selenium='autosuggest-item'], [role='option'], li[data-element-name*='suggest']"
+      search: "[data-selenium='searchButton'], button:has-text('SEARCH'), button:has-text('Search')"
+    trip_com:
+      home: "https://www.trip.com/hotels/?curr=EUR&locale=en-GB"
+      input: "input#hotels-destination, input[placeholder*='City' i], input[placeholder*='destination' i], input[placeholder*='Where' i]"
+      suggestion: "[role='option'], [class*='associative'] li, [class*='suggest'] li"
+      search: "button:has-text('Search'), [class*='search-btn']"
   block_phrases: ["Bot or Not", "Show us your human side", "Access Denied", "captcha", "are you a robot", "unusual traffic",
                   "Pardon Our Interruption", "verify you are human", "Request unsuccessful", "Just a moment",
                   "Attention Required", "Please enable JS and disable any ad blocker", "Sei un robot"]
   json_url_pattern: "graphql|/api/|search|availability|rates|price"
-  json_per_page: 6
+  json_per_page: 10
   wait_ms: 8000
   pause_seconds: 3
   user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"

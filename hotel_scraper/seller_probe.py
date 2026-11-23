@@ -85,7 +85,7 @@ def sample_hotels(watch: list[dict], ids: dict[str, dict], n: int) -> list[dict]
     return out
 
 
-def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=log) -> list[dict]:
+def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=log, only: list[str] | None = None) -> list[dict]:
     from playwright.sync_api import sync_playwright
     from .booking_session import launch_browser
     sp = cfg["seller_probe"]
@@ -93,7 +93,10 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
     rows = []
     with sync_playwright() as pw:
         br = launch_browser(pw, True)
-        for seller, tpl in sp["sellers"].items():
+        for seller, spec in sp["sellers"].items():
+            if only and seller not in only:
+                continue
+            tpl = spec["home"] if isinstance(spec, dict) else spec
             ctx = br.new_context(user_agent=sp["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900},
                                  extra_http_headers={"Accept-Language": sp["accept_language"]})
             page = ctx.new_page()
@@ -110,6 +113,8 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                     r = page.goto(url, wait_until="domcontentloaded", timeout=60000)
                     status = r.status if r else 0
                     page.wait_for_timeout(sp["wait_ms"])
+                    if isinstance(spec, dict):
+                        err = search_box(page, spec, q, sp["wait_ms"])
                 except Exception as e:  # noqa: BLE001
                     err = str(e)[:160]
                 text, title = "", ""
@@ -125,7 +130,7 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                     page.screenshot(path=str(base.with_suffix(".png")))
                 except Exception:  # noqa: BLE001
                     pass
-                api = save_json(seen, base, sp["json_url_pattern"], sp["json_per_page"])
+                api = save_json(seen, base, sp["json_url_pattern"], sp["json_per_page"], name_words(w["name"]))
                 facts = page_facts(text, title, w["name"], sp["block_phrases"])
                 if not facts["blocked"] and (status in (403, 429) or "ERR_HTTP2_PROTOCOL_ERROR" in err):
                     facts["blocked"] = f"HTTP {status}" if status else "connection refused (HTTP/2 error)"
@@ -141,20 +146,63 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
     return rows
 
 
-def save_json(responses, base: Path, pattern: str, limit: int) -> int:
-    """JSON the page loaded from its own APIs (search, graphql...), to build a reader from a real response."""
-    rx, n = re.compile(pattern, re.I), 0
-    for i, r in enumerate(responses):
-        if n >= limit:
-            break
+def name_words(name: str) -> list[str]:
+    return [x.lower() for x in re.findall(r"[A-Za-zÀ-ÿ]{5,}", name) if x.lower() not in {"hotel", "resort", "garni"}][:2]
+
+
+def search_box(page, spec: dict, query: str, wait_ms: int) -> str:
+    """Use the site's own search box: type the hotel, take the first suggestion, search. Returns "" or what failed."""
+    box = page.locator(spec["input"] + " >> visible=true").first
+    if not box.count():
+        return "search box not found"
+    box.click()
+    box.fill("")
+    box.type(query, delay=60)
+    page.wait_for_timeout(3000)
+    sug = page.locator(spec["suggestion"] + " >> visible=true")
+    if sug.count():
+        sug.first.click()
+    else:
+        page.keyboard.press("ArrowDown")
+        page.keyboard.press("Enter")
+    page.wait_for_timeout(1500)
+    btn = page.locator(spec["search"] + " >> visible=true")
+    if btn.count():
         try:
-            if "json" not in (r.headers.get("content-type") or "") or not rx.search(r.url):
+            with page.context.expect_page(timeout=4000) as new:   # some sites open results in a new tab
+                btn.first.click()
+            np = new.value
+            np.wait_for_load_state("domcontentloaded")
+            page.goto(np.url, wait_until="domcontentloaded")
+            np.close()
+        except Exception:  # noqa: BLE001  (same tab)
+            pass
+    page.wait_for_timeout(wait_ms)
+    return "" if sug.count() else "no suggestion list (pressed Enter)"
+
+
+def save_json(responses, base: Path, pattern: str, limit: int, words: list[str] = ()) -> int:
+    """JSON the page loaded from its own APIs (search, graphql...), to build a reader from a real response. Responses
+    that mention the hotel's name come first."""
+    rx, n = re.compile(pattern, re.I), 0
+    found = []
+    for r in responses:
+        try:
+            if "json" not in (r.headers.get("content-type") or ""):
                 continue
             body = r.body()
         except Exception:  # noqa: BLE001
             continue
         if len(body) < 500:
             continue
+        low = body[:2_000_000].decode("utf-8", "replace").lower()
+        named = bool(words) and any(w in low for w in words)
+        if named or rx.search(r.url):
+            found.append((not named, r, body))
+    found.sort(key=lambda x: x[0])
+    for _, r, body in found:
+        if n >= limit:
+            break
         p = base.parent / f"{base.name}.api{n}.json"
         p.write_bytes(body[:400_000])
         p.with_suffix(".url").write_text(r.request.method + " " + r.url[:500] + "\n" + (r.request.post_data or "")[:4000],
@@ -288,6 +336,7 @@ def main(argv=None) -> int:
     ap.add_argument("--config", default=str(config.DEFAULT_PATH))
     ap.add_argument("--part", choices=["sellers", "engines", "all"], default="all")
     ap.add_argument("--hotels", type=int)
+    ap.add_argument("--sellers", default="", help="comma-separated seller keys (default: all in the settings)")
     ap.add_argument("--checkin", help="YYYY-MM-DD (default: settings seller_probe.checkin_offset_days from today)")
     ap.add_argument("--out", default="out/sellers")
     args = ap.parse_args(argv)
@@ -301,7 +350,7 @@ def main(argv=None) -> int:
         ids = {r["pid"]: r for r in read_csv(p["booking_ids"])}
         hotels = sample_hotels(watch, ids, args.hotels or sp["hotels"])
         checkin = date.fromisoformat(args.checkin) if args.checkin else date.today() + timedelta(days=sp["checkin_offset_days"])
-        seller_rows = probe_sellers(cfg, hotels, out, checkin)
+        seller_rows = probe_sellers(cfg, hotels, out, checkin, only=[x for x in args.sellers.split(",") if x])
         write_rows(out / "sellers.csv", seller_rows)
     if args.part in ("engines", "all"):
         osm = {r["pid"]: r for r in read_csv(p["osm_catalog"])}

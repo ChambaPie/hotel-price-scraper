@@ -13,6 +13,9 @@ on:
       hotels:
         description: "Hotels per seller"
         default: "6"
+      sellers:
+        description: "Sellers (comma-separated keys from settings seller_probe.sellers; empty = all)"
+        default: ""
 
 permissions:
   contents: write
@@ -36,10 +39,11 @@ jobs:
         env:
           PART: ${{ inputs.part }}
           HOTELS: ${{ inputs.hotels }}
+          SELLERS: ${{ inputs.sellers }}
         run: |
           set -o pipefail
           mkdir -p out/sellers
-          python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --out out/sellers 2>&1 | tee out/sellers/probe.log
+          python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --sellers "$SELLERS" --out out/sellers 2>&1 | tee out/sellers/probe.log
           cat out/sellers/report.md >> "$GITHUB_STEP_SUMMARY"
       - name: Publish reports
         if: always()
