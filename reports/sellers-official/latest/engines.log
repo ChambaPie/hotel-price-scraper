@@ -1,0 +1,125 @@
+21:43:51 seekda   Adler Inn Tyrol Mountain Resort Sup {'code': 'AT_TUX_BERGLAND'}
+21:43:59 seekda   Hotel Alpenhof                      {'code': 'AT_HINTER_ALPEN'}
+21:44:07 d_edge   L'Aiguille Grive Chalets Hotel      None
+21:44:15 seekda   Hotel Sonnenpark                    {'code': 'AT_LUTZ_SONNENPA'}
+21:44:24 seekda   Hotel Andy                          {'code': 'S001318'}
+21:44:32 seekda   Alpenhotel Heimspitze               {'code': 'S001320'}
+21:44:40 d_edge   Domaine de Montagne - Chalet Frère  {'code': 'J1I6-29552', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
+21:44:46 d_edge   Hotel et Spa du Castellet           None
+21:44:55 d_edge   Hotel Cour Du Corbeau Strasbourg MG None
+21:45:03 d_edge   Hotel Tandem                        None
+21:45:12 d_edge   Hotel Le Bouclier D'or              None
+21:45:20 d_edge   Hôtel Barrière Le Gray d'Albion     None
+21:45:27 d_edge   La Chèvre D'Or                      {'code': 'J2DL-23601', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
+21:45:36 d_edge   Îlot du Golf                        None
+21:45:45 d_edge   Palais Saleya                       None
+21:45:52 d_edge   Hotel Le Roosevelt                  None
+21:45:59 d_edge   Hôtel Saint-Georges                 None
+21:46:06 d_edge   Hotel San Gallo                     None
+21:46:15 d_edge   Park Hotel Ai Cappuccini            None
+21:46:22 d_edge   Hotel D Geneva                      {'code': '2QWU-21819', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
+21:46:28 d_edge   Hôtel Bristol Genève                None
+21:46:37 seekda   Waldhotel Arosa                     {'code': 'S003878'}
+21:46:45 seekda   Hotel  Bristol Salzburg             {'code': 'AT_SALZ_BRISTOL'}
+21:46:54 seekda   Hotel Stefanie                      None
+21:47:02 seekda   Hotel Am Parkring                   None
+21:47:10 seekda   Hotel Capricorno                    None
+21:47:18 seekda   Hotel Erzherzog Rainer              None
+21:47:27 d_edge   Du Lac et Du Parc Grand Resort      None
+21:47:37 seekda   Naturhotel Leitlhof                 {'code': 'S003910'}
+21:47:46 seekda   Granbaita Dolomites                 {'code': 'S003096'}
+21:47:53 d_edge   St-Alban Hotel & Spa                {'code': '2Q19-21139', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
+21:48:00 d_edge   Hôtel & Spa Le Dahu                 None
+21:48:09 d_edge   Hotel La Bergerie                   None
+21:48:17 seekda   Grand Hotel Lienz                   {'code': 'S003228'}
+21:48:25 seekda   Hotel Arlberg Lech                  {'code': 'S000058'}
+21:48:33 seekda   Der Berghof                         {'code': 'S000887'}
+21:48:41 seekda   Hotel Gotthard                      {'code': 'S000085'}
+21:48:49 seekda   Hotel Austria Lech                  {'code': 'AT_LECH_AUST'}
+21:48:57 d_edge   Le Palais Art Hotel Prague          None
+21:49:05 d_edge   Unitas Hotel                        None
+21:49:12 d_edge   Hotel Golden Star                   {'code': '2P6F-17152', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
+21:49:20 d_edge   Hotel Hastal Prague Old Town        None
+21:49:27 d_edge   Opera Garden Hotel & Apartments     None
+21:49:36 d_edge   Bohem Art Hotel                     None
+21:49:45 d_edge   Hotel Danubia Gate Bratislava       None
+21:49:54 d_edge   Arcadia Boutique Hotel              None
+21:50:02 seekda   Hotel Cortisen am See               {'code': 'S005617'}
+21:50:11 seekda   Hotel Central                       {'code': 'AT_SEEFE_CENTRAL'}
+21:50:18 seekda   Parkhotel Seefeld                   {'code': 'S005928'}
+21:50:28 d_edge   Hôtel Le Savoy Méribel              None
+21:50:35 seekda   Excelsior Dolomites Life Resort     {'code': 'IT_STV_EXCELSIOR'}
+21:50:43 seekda   AlpenParks Hotel & Apartment Orgler {'code': 'S001236'}
+21:50:51 seekda   Der Kapruner Hof                    {'code': 'AT_KAPRUNER_HOF'}
+21:51:00 seekda   Hotel Stadt Wien                    {'code': 'S000126'}
+21:51:08 seekda   POP-UP Living Zell am See           {'code': 'AT_GIA_0088'}
+21:51:17 seekda   Hotel Das Central                   {'code': 'AT_SOEL_CENTRAL'}
+21:51:25 seekda   Bergland Design and Wellness Hotel  {'code': 'AT_SW_BERGLAND'}
+21:51:33 d_edge   RockyPop Flaine                     None
+21:51:42 seekda   Hotel Alpina Rauris                 {'code': 'S002996'}
+21:51:50 seekda   Evident Hotel Prägant               {'code': 'AT_KLEIN_PRAEGA'}
+21:51:58 seekda   Hotel Salzburger Hof                {'code': 'AT_SALZ_BURGER'}
+21:52:08 seekda   Seehotel Einwaller                  {'code': 'S000894'}
+21:52:16 seekda   Auenhotel                           {'code': 'AT_TUX_AUENHOF'}
+21:52:25 seekda   Alpinhotel Berghaus Spa             {'code': 'AT_TUX_BERGHAUS'}
+21:52:33 seekda   Hotel Eden                          {'code': 'S002347'}
+21:52:41 seekda   Hotel Alpin Spa Tuxerhof            {'code': 'S000369'}
+21:52:49 seekda   Das Alois                           {'code': 'AT_ET_VITA'}
+21:52:58 seekda   Alpeiner Nature Resort              {'code': 'AT_NEU_SCHLOESSL'}
+21:53:06 seekda   Premium Activehotel Bergkonig       {'code': 'AT_NEU_BERGKOENI'}
+21:53:14 seekda   Hotel Der Stubaierhof               {'code': 'AT_NEU_STUBAI'}
+21:53:23 seekda   Hotel Fisserhof                     {'code': 'S002969'}
+21:53:32 seekda   Familienresort Buchau               {'code': 'AT_KH_0016'}
+21:53:40 seekda   Landhaus Koller                     {'code': 'AT_SHH_037'}
+21:53:49 seekda   Wanderhotel Taurerwirt              {'code': 'S000108'}
+21:53:57 seekda   Hotel Valserhof                     None
+21:54:05 seekda   Hotel Grossarler Hof                None
+21:54:13 seekda   Hotel Babymio ****                  {'code': 'S005568'}
+21:54:21 seekda   Premium Wanderhotel Steirerhof      None
+21:54:37 seekda   Adler Inn Tyrol Mountain Resort Sup 117 nights priced
+21:54:54 seekda   Hotel Alpenhof                      265 nights priced
+21:55:21 seekda   Hotel Sonnenpark                    330 nights priced
+21:55:35 seekda   Hotel Andy                          194 nights priced
+21:55:50 seekda   Alpenhotel Heimspitze               84 nights priced
+21:56:05 d_edge   Domaine de Montagne - Chalet Frère  339 nights priced
+21:56:21 d_edge   La Chèvre D'Or                      196 nights priced
+21:56:37 d_edge   Hotel D Geneva                      278 nights priced
+21:56:56 seekda   Waldhotel Arosa                     123 nights priced
+21:57:11 seekda   Hotel  Bristol Salzburg             324 nights priced
+21:57:28 seekda   Naturhotel Leitlhof                 314 nights priced
+21:57:43 seekda   Granbaita Dolomites                 190 nights priced
+21:57:58 d_edge   St-Alban Hotel & Spa                262 nights priced
+21:58:13 seekda   Grand Hotel Lienz                   351 nights priced
+21:58:27 seekda   Hotel Arlberg Lech                  29 nights priced
+21:58:42 seekda   Der Berghof                         146 nights priced
+21:58:56 seekda   Hotel Gotthard                      134 nights priced
+21:59:09 seekda   Hotel Austria Lech                  84 nights priced
+21:59:26 d_edge   Hotel Golden Star                   359 nights priced
+21:59:40 seekda   Hotel Cortisen am See               232 nights priced
+21:59:54 seekda   Hotel Central                       234 nights priced
+22:00:08 seekda   Parkhotel Seefeld                   227 nights priced
+22:00:23 seekda   Excelsior Dolomites Life Resort     238 nights priced
+22:00:45 seekda   AlpenParks Hotel & Apartment Orgler 346 nights priced
+22:01:02 seekda   Der Kapruner Hof                    305 nights priced
+22:01:21 seekda   Hotel Stadt Wien                    213 nights priced
+22:01:49 seekda   POP-UP Living Zell am See           364 nights priced
+22:02:10 seekda   Hotel Das Central                   239 nights priced
+22:02:24 seekda   Bergland Design and Wellness Hotel  227 nights priced
+22:02:42 seekda   Hotel Alpina Rauris                 241 nights priced
+22:03:00 seekda   Evident Hotel Prägant               249 nights priced
+22:03:21 seekda   Hotel Salzburger Hof                237 nights priced
+22:03:40 seekda   Seehotel Einwaller                  248 nights priced
+22:03:54 seekda   Auenhotel                           89 nights priced
+22:04:12 seekda   Alpinhotel Berghaus Spa             204 nights priced
+22:04:27 seekda   Hotel Eden                          187 nights priced
+22:04:41 seekda   Hotel Alpin Spa Tuxerhof            167 nights priced
+22:04:56 seekda   Das Alois                           98 nights priced
+22:05:12 seekda   Alpeiner Nature Resort              272 nights priced
+22:05:29 seekda   Premium Activehotel Bergkonig       319 nights priced
+22:06:02 seekda   Hotel Der Stubaierhof               325 nights priced
+22:06:17 seekda   Hotel Fisserhof                     228 nights priced
+22:06:40 seekda   Familienresort Buchau               289 nights priced
+22:06:54 seekda   Landhaus Koller                     209 nights priced
+22:07:07 seekda   Wanderhotel Taurerwirt              30 nights priced
+22:07:23 seekda   Hotel Babymio ****                  212 nights priced
+22:07:23 engines: {'ids_due': 78, 'ids_found': 46, 'hotels_priced': 46, 'nights': 10348, 'errors': 0, 'ids_coverage': '46/78 hotels on seekda, d_edge'}
