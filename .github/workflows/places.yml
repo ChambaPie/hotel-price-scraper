@@ -32,14 +32,14 @@ env:
 jobs:
   places:
     runs-on: ubuntu-24.04   # pinned: ubuntu-latest is migrating to 26.04 (Playwright browser deps)
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -r requirements-browser.txt
+      - run: pip install -r requirements-places.txt
       - name: Type of place (OpenStreetMap)
         env:
           MIN: ${{ inputs.places_minutes }}

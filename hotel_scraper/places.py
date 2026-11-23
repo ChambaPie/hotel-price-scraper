@@ -6,138 +6,178 @@
     lake         shore of a named lake within lake_km
     city         a city (place=city) within city_km
     major_city   a city of at least major_city_population within major_city_km
-    old_town     at least old_town_min historic sites with a Wikidata entry within old_town_radius_m, or the centre of
-                 a UNESCO World Heritage site (heritage=1) within unesco_km
+    old_town     at least old_town_min historic sites with a Wikidata entry within old_town_radius_m, or a UNESCO
+                 World Heritage site (heritage=1) within unesco_km
     vineyards    vineyards (landuse=vineyard) within vineyard_km
     thermal      a hot spring or a thermal bath within thermal_km
     countryside  none of the above
 
-OpenStreetMap through Overpass: one query per batch of nearby watched properties, each with a small radius around it
-(`around`), so only what is near the properties comes back. Elevation from the landscape file, or Open Topo Data for
-properties it doesn't have yet. Rolling: never processed first, then older than refresh_days.
+Source: OpenStreetMap extracts from Geofabrik (download.geofabrik.de), read locally with pyosmium: for each watched
+property the smallest extract that contains it (Italy north-east, Austria, ...), one download per extract, deleted
+after use. The public Overpass servers were too overloaded for this (2026-11-23: every batch timed out).
+Elevation from the landscape file, or Open Topo Data for properties it doesn't have. Rolling: never processed first,
+then older than refresh_days.
 
-    python -m hotel_scraper.places [--max-minutes 10]
+    python -m hotel_scraper.places [--max-minutes 45]
 """
 from __future__ import annotations
 
 import argparse
 import json
-import random
 import re
+import shutil
 import sys
+import tempfile
 import time
 from datetime import date, datetime, timezone
 from pathlib import Path
+from urllib.request import Request, urlopen
 
-from . import config, discover_osm, geo
+from . import config, geo
 from .landscape import elevations
 from .scan import read_csv, write_csv
 
 FIELDS = ["pid", "lat", "lon", "elevation_m", "sea_km", "beach_km", "lake_km", "ski_km", "city_km", "major_city_km",
-          "vineyard_km", "historic_n", "unesco_km", "thermal_km", "tags", "updated"]
+          "vineyard_km", "historic_n", "unesco_km", "thermal_km", "extract", "tags", "updated"]
 THERMAL_NAME = re.compile(r"therm|terme|toplice|fürd|furdo|lázn|lazne|bagni|kúpe|kupe", re.I)
 TAG_ORDER = ["mountain", "ski", "sea", "beach", "lake", "old_town", "major_city", "city", "vineyards", "thermal"]
+KINDS = ("sea", "lake", "beach", "ski", "city", "vineyard", "historic", "unesco", "thermal")
+UA = "hotel-deal-radar/0.8 (personal project)"
 
 
 def log(msg: str) -> None:
     print(f"{datetime.now(timezone.utc):%H:%M:%S} {msg}", flush=True)
 
 
-def _m(km: float) -> int:
-    return int(round(km * 1000))
+# ---------- which extract holds each property (pure) ----------
+
+def _in_ring(lat: float, lon: float, ring: list) -> bool:
+    inside, j = False, len(ring) - 1
+    for i in range(len(ring)):
+        xi, yi = ring[i][0], ring[i][1]
+        xj, yj = ring[j][0], ring[j][1]
+        if (yi > lat) != (yj > lat) and lon < (xj - xi) * (lat - yi) / ((yj - yi) or 1e-12) + xi:
+            inside = not inside
+        j = i
+    return inside
 
 
-def query(points: list[tuple[float, float]], pc: dict, timeout: int) -> str:
-    """One Overpass query for a batch: outlines (coast, lakes) with geometry, everything else as centre points."""
-    geom, centre = [], []
-    city_m = _m(max(pc["city_km"], pc["major_city_km"]))
-    for la, lo in points:
-        a = f"{la:.5f},{lo:.5f}"
-        geom += [f'way["natural"="coastline"](around:{_m(pc["sea_km"])},{a});',
-                 f'way["natural"="water"]["water"="lake"]["name"](around:{_m(pc["lake_km"])},{a});',
-                 f'relation["natural"="water"]["water"="lake"]["name"](around:{_m(pc["lake_km"])},{a});']
-        centre += [f'nwr["natural"="beach"](around:{_m(pc["beach_km"])},{a});',
-                   f'nwr["landuse"="winter_sports"](around:{_m(pc["ski_km"])},{a});',
-                   f'node["place"="city"](around:{city_m},{a});',
-                   f'nwr["landuse"="vineyard"](around:{_m(pc["vineyard_km"])},{a});',
-                   f'nwr["historic"]["wikidata"](around:{pc["old_town_radius_m"]},{a});',
-                   f'nwr["heritage"="1"](around:{_m(pc["unesco_km"])},{a});',
-                   f'nwr["natural"="hot_spring"](around:{_m(pc["thermal_km"])},{a});',
-                   f'nwr["amenity"="public_bath"](around:{_m(pc["thermal_km"])},{a});']
-    return (f"[out:json][timeout:{timeout}];\n(\n" + "\n".join(geom) + "\n);\nout geom;\n(\n" + "\n".join(centre)
-            + "\n);\nout center;")
+def _contains(geom: dict, lat: float, lon: float) -> bool:
+    polys = geom["coordinates"] if geom["type"] == "MultiPolygon" else [geom["coordinates"]]
+    for poly in polys:
+        if poly and _in_ring(lat, lon, poly[0]) and not any(_in_ring(lat, lon, h) for h in poly[1:]):
+            return True
+    return False
 
 
-def features(elements: list[dict], step: int = 3) -> dict[str, list]:
-    """Overpass elements -> points per kind (cities as (lat, lon, population))."""
-    out = {k: [] for k in ("sea", "lake", "beach", "ski", "city", "vineyard", "historic", "unesco", "thermal")}
-    seen = set()
-
-    def pts(geom):
-        return [(g["lat"], g["lon"]) for g in (geom or [])[::step]]
-
-    def centre(el):
-        if "lat" in el:
-            return el["lat"], el["lon"]
-        c = el.get("center") or {}
-        return (c.get("lat"), c.get("lon")) if c else (None, None)
-    for el in elements:
-        k = (el.get("type"), el.get("id"))
-        if k in seen:      # the same object comes back once per property it is near
+def extracts_from_index(index: dict) -> list[dict]:
+    """Geofabrik index-v1.json -> [{id, url, bbox (w, s, e, n), area, geometry}], extracts with a .pbf only."""
+    out = []
+    for f in index.get("features", []):
+        pr, g = f.get("properties") or {}, f.get("geometry")
+        url = (pr.get("urls") or {}).get("pbf")
+        if not url or not g or not pr.get("parent"):   # continents (no parent) are far too big to download
             continue
-        seen.add(k)
-        t = el.get("tags") or {}
-        if t.get("natural") == "coastline":
-            out["sea"] += pts(el.get("geometry"))
-            continue
-        if t.get("water") == "lake":
-            for m in el.get("members") or [el]:    # a lake relation's outline is in its members
-                out["lake"] += pts(m.get("geometry"))
-            continue
-        la, lo = centre(el)
-        if la is None:
-            continue
-        if t.get("natural") == "beach":
-            out["beach"].append((la, lo))
-        elif t.get("landuse") == "winter_sports":
-            out["ski"].append((la, lo))
-        elif t.get("place") == "city":
-            try:
-                pop = int(re.sub(r"[^\d]", "", t.get("population", "")) or 0)
-            except ValueError:
-                pop = 0
-            out["city"].append((la, lo, pop))
-        elif t.get("landuse") == "vineyard":
-            out["vineyard"].append((la, lo))
-        elif t.get("natural") == "hot_spring" or (t.get("amenity") == "public_bath" and (
-                t.get("bath:type") == "thermal" or THERMAL_NAME.search(t.get("name", "")))):
-            out["thermal"].append((la, lo))
-        if t.get("heritage") == "1":
-            out["unesco"].append((la, lo))
-        if t.get("historic") and t.get("wikidata"):
-            out["historic"].append((la, lo))
+        pts = [c for poly in (g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]]) for c in poly[0]]
+        w, e = min(p[0] for p in pts), max(p[0] for p in pts)
+        s, n = min(p[1] for p in pts), max(p[1] for p in pts)
+        out.append({"id": pr["id"], "url": url, "bbox": (w, s, e, n), "area": (e - w) * (n - s), "geometry": g})
     return out
 
 
-def _nearest(la, lo, pts, max_km):
-    best = None
-    for p in pts:
-        d = geo.haversine_km(la, lo, p[0], p[1])
-        if d <= max_km and (best is None or d < best):
-            best = d
-    return "" if best is None else round(best, 2)
+def choose_extracts(rows: list[dict], extracts: list[dict], skip: set[str] = frozenset()) -> dict[str, list[dict]]:
+    """{extract id: properties}: for each property the smallest extract (by bounding box) that contains it."""
+    by_size = sorted((x for x in extracts if x["id"] not in skip), key=lambda x: x["area"])
+    groups: dict[str, list[dict]] = {}
+    for r in rows:
+        la, lo = float(r["lat"]), float(r["lon"])
+        for x in by_size:
+            w, s, e, n = x["bbox"]
+            if w <= lo <= e and s <= la <= n and _contains(x["geometry"], la, lo):
+                groups.setdefault(x["id"], []).append(r)
+                break
+    return groups
 
 
-def measure(la: float, lo: float, f: dict, pc: dict) -> dict:
-    big = [c for c in f["city"] if c[2] >= pc["major_city_population"]]
-    return {"sea_km": _nearest(la, lo, f["sea"], pc["sea_km"]), "beach_km": _nearest(la, lo, f["beach"], pc["beach_km"]),
-            "lake_km": _nearest(la, lo, f["lake"], pc["lake_km"]), "ski_km": _nearest(la, lo, f["ski"], pc["ski_km"]),
-            "city_km": _nearest(la, lo, f["city"], pc["city_km"]),
-            "major_city_km": _nearest(la, lo, big, pc["major_city_km"]),
-            "vineyard_km": _nearest(la, lo, f["vineyard"], pc["vineyard_km"]),
-            "historic_n": sum(1 for p in f["historic"] if geo.haversine_km(la, lo, p[0], p[1]) * 1000 <= pc["old_town_radius_m"]),
-            "unesco_km": _nearest(la, lo, f["unesco"], pc["unesco_km"]),
-            "thermal_km": _nearest(la, lo, f["thermal"], pc["thermal_km"])}
+# ---------- what is around (pure) ----------
+
+def classify(tags: dict) -> list[str]:
+    """The feature kinds an OpenStreetMap object counts as (an object can be several, e.g. a UNESCO castle)."""
+    t = tags
+    kinds = []
+    if t.get("natural") == "coastline":
+        kinds.append("sea")
+    if t.get("water") == "lake" and t.get("name"):
+        kinds.append("lake")
+    if t.get("natural") == "beach":
+        kinds.append("beach")
+    if t.get("landuse") == "winter_sports":
+        kinds.append("ski")
+    if t.get("place") == "city":
+        kinds.append("city")
+    if t.get("landuse") == "vineyard":
+        kinds.append("vineyard")
+    if t.get("natural") == "hot_spring" or (t.get("amenity") == "public_bath" and (
+            t.get("bath:type") == "thermal" or THERMAL_NAME.search(t.get("name", "")))):
+        kinds.append("thermal")
+    if t.get("heritage") == "1":
+        kinds.append("unesco")
+    if t.get("historic") and (t.get("wikidata") or t.get("wikipedia")):
+        kinds.append("historic")
+    return kinds
+
+
+def population(tags: dict) -> int:
+    try:
+        return int(re.sub(r"[^\d]", "", tags.get("population", "")) or 0)
+    except ValueError:
+        return 0
+
+
+class Grid:
+    """Points on a 0.05-degree grid (4-5 km cells): nearest distance and count within a radius."""
+    def __init__(self, points, cell: float = 0.05):
+        self.cell, self.cells = cell, {}
+        for p in points:
+            self.cells.setdefault((int(p[0] // cell), int(p[1] // cell)), []).append(p)
+
+    def _near(self, lat, lon, km):
+        r = int(km / (111 * self.cell)) + 1
+        ci, cj = int(lat // self.cell), int(lon // self.cell)
+        for i in range(ci - r, ci + r + 1):
+            for j in range(cj - r, cj + r + 1):
+                yield from self.cells.get((i, j), [])
+
+    def nearest_km(self, lat, lon, max_km):
+        best = None
+        for p in self._near(lat, lon, max_km):
+            d = geo.haversine_km(lat, lon, p[0], p[1])
+            if d <= max_km and (best is None or d < best):
+                best = d
+        return "" if best is None else round(best, 2)
+
+    def count_within(self, lat, lon, km):
+        return sum(1 for p in self._near(lat, lon, km) if geo.haversine_km(lat, lon, p[0], p[1]) <= km)
+
+
+def measure(la: float, lo: float, grids: dict, cities: list[tuple], pc: dict) -> dict:
+    def near(points, km):
+        best = None
+        for p in points:
+            d = geo.haversine_km(la, lo, p[0], p[1])
+            if d <= km and (best is None or d < best):
+                best = d
+        return "" if best is None else round(best, 2)
+    return {"sea_km": grids["sea"].nearest_km(la, lo, pc["sea_km"]),
+            "beach_km": grids["beach"].nearest_km(la, lo, pc["beach_km"]),
+            "lake_km": grids["lake"].nearest_km(la, lo, pc["lake_km"]),
+            "ski_km": grids["ski"].nearest_km(la, lo, pc["ski_km"]),
+            "city_km": near(cities, pc["city_km"]),
+            "major_city_km": near([c for c in cities if c[2] >= pc["major_city_population"]], pc["major_city_km"]),
+            "vineyard_km": grids["vineyard"].nearest_km(la, lo, pc["vineyard_km"]),
+            "historic_n": grids["historic"].count_within(la, lo, pc["old_town_radius_m"] / 1000),
+            "unesco_km": grids["unesco"].nearest_km(la, lo, pc["unesco_km"]),
+            "thermal_km": grids["thermal"].nearest_km(la, lo, pc["thermal_km"])}
 
 
 def tags_for(r: dict, pc: dict) -> str:
@@ -164,32 +204,95 @@ def tags_for(r: dict, pc: dict) -> str:
     return ",".join(x for x in TAG_ORDER + ["countryside"] if x in t)
 
 
-def batches(rows: list[dict], size: int) -> list[list[dict]]:
-    """Nearby properties together (0.5-degree cells, west to east), so each query covers one small area."""
-    rows = sorted(rows, key=lambda r: (int(float(r["lat"]) * 2), float(r["lon"])))
-    return [rows[i:i + size] for i in range(0, len(rows), size)]
+# ---------- reading an extract (pyosmium) ----------
 
+def read_features(path: str, bbox: tuple, step: int = 3) -> tuple[dict, list]:
+    """Points per kind near the properties (bbox = s, w, n, e, already padded) and cities as (lat, lon, population).
+    Coastlines and lake shores keep every `step`-th vertex; other areas and lines their first vertex."""
+    import osmium
+    from osmium.filter import KeyFilter, TagFilter
+    s, w, n, e = bbox
+    pts = {k: [] for k in KINDS}
+    cities = []
+
+    def keep(lat, lon):
+        return s <= lat <= n and w <= lon <= e
+
+    def add(kinds, coords, tags):
+        coords = [c for c in coords if keep(*c)]
+        if not coords:
+            return
+        for k in kinds:
+            if k == "city":
+                cities.append((coords[0][0], coords[0][1], population(tags)))
+            elif k in ("sea", "lake"):
+                pts[k] += coords
+            else:
+                pts[k].append(coords[0])
+
+    def loc(nd):
+        return (nd.location.lat, nd.location.lon) if nd.location.valid() else None
+
+    def handle(o, areas: bool):
+        tags = dict(o.tags)
+        kinds = classify(tags)
+        if not kinds:
+            return
+        if o.is_node():
+            if o.location.valid():
+                add(kinds, [(o.location.lat, o.location.lon)], tags)
+        elif o.is_way():
+            if areas and o.is_closed() and "sea" not in kinds:
+                return                     # its area comes separately
+            add(kinds, [c for c in (loc(nd) for nd in list(o.nodes)[::step]) if c], tags)
+        elif o.is_area():
+            ring = next(iter(o.outer_rings()), None)
+            if ring is None:
+                return
+            nodes = [c for c in (loc(nd) for nd in list(ring)[:: step if "lake" in kinds else 10 ** 9]) if c]
+            add(kinds, nodes, tags)
+
+    main = TagFilter(("natural", "coastline"), ("natural", "water"), ("natural", "beach"), ("natural", "hot_spring"),
+                     ("landuse", "winter_sports"), ("landuse", "vineyard"), ("place", "city"), ("heritage", "1"),
+                     ("amenity", "public_bath"))
+    for o in osmium.FileProcessor(path).with_locations().with_areas().with_filter(main):
+        handle(o, True)
+    for o in osmium.FileProcessor(path).with_locations().with_filter(KeyFilter("historic")):
+        if not o.is_relation():
+            handle(o, False)
+    return pts, cities
+
+
+def download(url: str, dest: Path, log=log) -> int:
+    with urlopen(Request(url, headers={"User-Agent": UA}), timeout=120) as r, open(dest, "wb") as f:
+        shutil.copyfileobj(r, f, length=1 << 20)
+    return dest.stat().st_size
+
+
+# ---------- run ----------
 
 def due(watch: list[dict], known: dict, today: date, refresh_days: int) -> list[dict]:
     out = []
     for w in watch:
         k = known.get(w["pid"], {})
-        if not k.get("updated"):
-            out.append(w)
-        elif (today - date.fromisoformat(k["updated"][:10])).days >= refresh_days:
+        if not k.get("updated") or (today - date.fromisoformat(k["updated"][:10])).days >= refresh_days:
             out.append(w)
     return out
 
 
-def run(cfg: dict, max_minutes: float, fetch=None, elev=None, today: date | None = None, log=log,
-        clock=time.monotonic, sample: Path | None = None, sleep=time.sleep) -> dict:
-    pc, p, op, lc = cfg["places"], cfg["paths"], cfg["overpass"], cfg["landscape"]
+def run(cfg: dict, max_minutes: float, index=None, read=read_features, fetch=download, elev=None,
+        today: date | None = None, log=log, clock=time.monotonic, workdir: Path | None = None) -> dict:
+    pc, p, lc = cfg["places"], cfg["paths"], cfg["landscape"]
     today = today or date.today()
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     watch = [w for w in read_csv(p["watchlist"]) if not w.get("gone_since") and w.get("lat")]
     known = {r["pid"]: r for r in read_csv(p["places"])}
     land = {r["pid"]: r for r in read_csv(p["landscape"])}
     todo = due(watch, known, today, pc["refresh_days"])
+    started = clock()
+    stats = {"due": len(todo), "done": 0, "extracts": 0, "failed_extracts": 0, "downloaded_mb": 0}
+    if not todo:
+        return {**stats, "coverage": f"{len(watch)}/{len(watch)}", "tags": {}}
     # elevation: from the landscape file, else Open Topo Data (within its daily budget)
     need = [w for w in todo if land.get(w["pid"], {}).get("elevation_m") in (None, "")
             and known.get(w["pid"], {}).get("elevation_m") in (None, "")][: pc["elevation_points_per_run"]]
@@ -201,39 +304,51 @@ def run(cfg: dict, max_minutes: float, fetch=None, elev=None, today: date | None
                 elev_of[w["pid"]] = "" if v is None else round(v)
         except Exception as e:  # noqa: BLE001
             log(f"elevation lookup stopped: {e}")
-    fetch = fetch or (lambda q: discover_osm.overpass_fetch(q, op["endpoints"], op["timeout_seconds"], op["retries"], log=log))
-    started, done, failed = clock(), 0, 0
-    for b in batches(todo, pc["batch"]):
+    if index is None:
+        with urlopen(Request(pc["extracts_index"], headers={"User-Agent": UA}), timeout=120) as r:
+            index = json.load(r)
+    extracts = extracts_from_index(index)
+    groups = choose_extracts(todo, extracts, set(pc.get("skip_extracts") or []))
+    urls = {x["id"]: x["url"] for x in extracts}
+    workdir = Path(workdir or tempfile.mkdtemp(prefix="osm-"))
+    pad = pc["pad_km"] / 111
+    for xid, rows in sorted(groups.items(), key=lambda kv: -len(kv[1])):   # most properties first
         if clock() - started > max_minutes * 60:
             break
-        pts = [(float(w["lat"]), float(w["lon"])) for w in b]
+        lats, lons = [float(r["lat"]) for r in rows], [float(r["lon"]) for r in rows]
+        bbox = (min(lats) - pad, min(lons) - pad * 1.5, max(lats) + pad, max(lons) + pad * 1.5)
+        dest = workdir / f"{xid.replace('/', '_')}.osm.pbf"
+        t0 = clock()
         try:
-            data = fetch(query(pts, pc, op["timeout_seconds"]))
-        except Exception as e:  # noqa: BLE001
-            failed += 1
-            log(f"batch of {len(b)} near {pts[0]}: {str(e)[:120]}")
+            size = fetch(urls[xid], dest, log=log)
+            stats["downloaded_mb"] += round(size / 1e6)
+            pts, cities = read(str(dest), bbox, lc["line_step"])
+        except Exception as e:  # noqa: BLE001  (one extract failing must not stop the others)
+            stats["failed_extracts"] += 1
+            log(f"{xid}: {str(e)[:150]}")
             continue
-        if sample and not sample.exists():   # one real response per run, for the parser's regression test
-            sample.parent.mkdir(parents=True, exist_ok=True)
-            sample.write_text(json.dumps({"points": pts[:3], "elements": [e for e in data.get("elements", [])
-                                          if not e.get("geometry")][:400]}), encoding="utf-8")
-        f = features(data.get("elements", []), lc["line_step"])
-        for w, (la, lo) in zip(b, pts):
+        finally:
+            dest.unlink(missing_ok=True)
+        grids = {k: Grid(v) for k, v in pts.items()}
+        for w in rows:
+            la, lo = float(w["lat"]), float(w["lon"])
             r = {"pid": w["pid"], "lat": w["lat"], "lon": w["lon"],
                  "elevation_m": land.get(w["pid"], {}).get("elevation_m") or elev_of.get(w["pid"])
                  or known.get(w["pid"], {}).get("elevation_m", ""),
-                 **measure(la, lo, f, pc), "updated": now}
+                 **measure(la, lo, grids, cities, pc), "extract": xid, "updated": now}
             r["tags"] = tags_for(r, pc)
             known[w["pid"]] = r
-        done += len(b)
-        log(f"batch {len(b)} near {pts[0][0]:.2f},{pts[0][1]:.2f}: {len(data.get('elements', []))} elements")
-        sleep(random.uniform(*op["pause_seconds"]))
+        stats["done"] += len(rows)
+        stats["extracts"] += 1
+        log(f"{xid}: {len(rows)} properties, {sum(len(v) for v in pts.values())} feature points, "
+            f"{len(cities)} cities, {round(clock() - t0)} s")
     write_csv(sorted(known.values(), key=lambda r: r["pid"]), p["places"], FIELDS)
     from collections import Counter
     counts = Counter(t for w in watch for t in (known.get(w["pid"], {}).get("tags") or "").split(",") if t)
-    return {"due": len(todo), "done": done, "failed_batches": failed,
-            "coverage": f"{sum(1 for w in watch if known.get(w['pid'], {}).get('updated'))}/{len(watch)}",
-            "tags": dict(counts.most_common())}
+    left = sum(1 for w in watch if not known.get(w["pid"], {}).get("updated"))
+    stats.update(coverage=f"{len(watch) - left}/{len(watch)}", tags=dict(counts.most_common()),
+                 not_in_any_extract=len(todo) - sum(len(v) for v in groups.values()))
+    return stats
 
 
 def main(argv=None) -> int:
@@ -243,10 +358,11 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
     cfg = config.load(args.config)
     out = Path(cfg["paths"]["out_dir"])
-    res = run(cfg, args.max_minutes or cfg["places"]["max_minutes"], sample=out / "places_sample.json")
+    res = run(cfg, args.max_minutes or cfg["places"]["max_minutes"])
     out.mkdir(parents=True, exist_ok=True)
-    md = (f"## Type of place\n\nProcessed {res['done']} of {res['due']} due ({res['failed_batches']} batches failed); "
-          f"coverage {res['coverage']}.\n\nTags: " + ", ".join(f"{k} {v}" for k, v in res["tags"].items()) + "\n")
+    md = (f"## Type of place\n\nProcessed {res['done']} of {res['due']} due from {res['extracts']} OpenStreetMap "
+          f"extracts ({res['downloaded_mb']} MB, {res['failed_extracts']} failed); coverage {res['coverage']}.\n\nTags: "
+          + ", ".join(f"{k} {v}" for k, v in res["tags"].items()) + "\n")
     (out / "places_summary.md").write_text(md, encoding="utf-8")
     print(md, flush=True)
     return 0

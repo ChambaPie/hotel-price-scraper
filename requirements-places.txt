@@ -1,0 +1,2 @@
+-r requirements-browser.txt
+osmium>=4.0   # reads OpenStreetMap extracts (type of place)

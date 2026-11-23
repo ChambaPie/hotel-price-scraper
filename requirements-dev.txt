@@ -1,3 +1,4 @@
 -r requirements-catalog.txt
 pytest>=8,<10
 pytest-cov>=5
+osmium>=4.0   # reads OpenStreetMap extracts (places)

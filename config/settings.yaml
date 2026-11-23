@@ -182,7 +182,9 @@ places:                      # type of place around each watched property (filte
   old_town_min: 8            # ...at least this many make an old town
   unesco_km: 1.0             # or the centre of a UNESCO World Heritage site this close
   thermal_km: 3
-  batch: 25                  # watched properties per Overpass query
+  extracts_index: https://download.geofabrik.de/index-v1.json   # OpenStreetMap extracts (Geofabrik), smallest per property
+  skip_extracts: []          # extract ids never to download
+  pad_km: 16                 # features this far beyond the properties of an extract still count
   refresh_days: 120
-  max_minutes: 12
+  max_minutes: 45
   elevation_points_per_run: 1000

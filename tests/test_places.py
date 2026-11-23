@@ -1,6 +1,9 @@
-"""Type of place around watched properties (old town, vineyards, thermal, major city, plus the landscape tags)."""
+"""Type of place around watched properties, from OpenStreetMap extracts (old town, vineyards, thermal, major city,
+plus mountain, sea, lake...). The reader runs for real on a small OpenStreetMap file."""
 import csv
 from datetime import date
+
+import pytest
 
 from hotel_scraper import config, places
 
@@ -8,37 +11,49 @@ PC = config.load()["places"]
 LAT, LON = 45.6500, 13.7700
 
 
-def el(kind, lat, lon, eid, **tags):
-    e = {"type": kind, "id": eid, "tags": tags}
-    if kind == "node":
-        e.update(lat=lat, lon=lon)
-    else:
-        e["center"] = {"lat": lat, "lon": lon}
-    return e
+def osm_file(path):
+    hist = "".join(f'<node id="{100 + i}" lat="{LAT + i * 0.0005}" lon="{LON}"><tag k="historic" v="monument"/>'
+                   f'<tag k="wikidata" v="Q{i}"/></node>' for i in range(9))
+    path.write_text(f"""<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="test">
+  <node id="1" lat="45.65" lon="13.78"><tag k="place" v="city"/><tag k="population" v="200 000"/></node>
+  <node id="2" lat="45.80" lon="13.70"><tag k="place" v="city"/><tag k="population" v="300000"/></node>
+  {hist}
+  <node id="3" lat="{LAT}" lon="{LON + 0.02}"><tag k="amenity" v="public_bath"/><tag k="name" v="Terme Excelsior"/></node>
+  <node id="4" lat="{LAT}" lon="{LON - 0.02}"><tag k="amenity" v="public_bath"/><tag k="name" v="Hallenbad"/></node>
+  <node id="5" lat="{LAT}" lon="{LON + 0.001}"><tag k="amenity" v="cafe"/></node>
+  <node id="10" lat="{LAT + 0.005}" lon="{LON - 0.005}"/><node id="11" lat="{LAT + 0.006}" lon="{LON - 0.005}"/>
+  <node id="12" lat="{LAT + 0.006}" lon="{LON - 0.004}"/>
+  <way id="100"><nd ref="10"/><nd ref="11"/><nd ref="12"/><nd ref="10"/><tag k="landuse" v="vineyard"/></way>
+  <node id="20" lat="{LAT}" lon="{LON + 0.01}"/><node id="21" lat="{LAT + 0.01}" lon="{LON + 0.01}"/>
+  <node id="22" lat="{LAT + 0.02}" lon="{LON + 0.01}"/>
+  <way id="101"><nd ref="20"/><nd ref="21"/><nd ref="22"/><tag k="natural" v="coastline"/></way>
+  <node id="30" lat="{LAT - 0.003}" lon="{LON}"/><node id="31" lat="{LAT - 0.003}" lon="{LON + 0.001}"/>
+  <node id="32" lat="{LAT - 0.002}" lon="{LON + 0.001}"/>
+  <way id="102"><nd ref="30"/><nd ref="31"/><nd ref="32"/><nd ref="30"/><tag k="historic" v="castle"/><tag k="wikidata" v="Q99"/></way>
+  <node id="40" lat="46.30" lon="13.60"/><node id="41" lat="46.30" lon="13.62"/><node id="42" lat="46.32" lon="13.62"/>
+  <way id="200"><nd ref="40"/><nd ref="41"/><nd ref="42"/></way><way id="201"><nd ref="42"/><nd ref="40"/></way>
+  <relation id="300"><member type="way" ref="200" role="outer"/><member type="way" ref="201" role="outer"/>
+    <tag k="type" v="multipolygon"/><tag k="natural" v="water"/><tag k="water" v="lake"/><tag k="name" v="Lago"/></relation>
+</osm>""", encoding="utf-8")
+    return path
 
 
-def coast(eid, pts):
-    return {"type": "way", "id": eid, "tags": {"natural": "coastline"}, "geometry": [{"lat": a, "lon": b} for a, b in pts]}
+def test_reader_on_an_openstreetmap_file(tmp_path):
+    pytest.importorskip("osmium")
+    pts, cities = places.read_features(str(osm_file(tmp_path / "t.osm")), (45.0, 13.0, 47.0, 14.5), step=1)
+    assert len(pts["historic"]) == 10                     # 9 monuments + the castle outline (a closed way)
+    assert len(pts["thermal"]) == 1 and len(pts["vineyard"]) == 1 and len(pts["sea"]) == 3
+    assert len(pts["lake"]) >= 3                          # the lake relation's shore, assembled from its ways
+    assert sorted(c[2] for c in cities) == [200000, 300000]
 
 
-def elements():
-    hist = [el("node", LAT + i * 0.0005, LON, 100 + i, historic="monument", wikidata=f"Q{i}") for i in range(9)]
-    return hist + [
-        coast(1, [(LAT, LON + 0.01), (LAT + 0.01, LON + 0.01), (LAT + 0.02, LON + 0.01)]),   # ~0.8 km east
-        el("node", 45.65, 13.78, 2, place="city", population="200 000"),                     # Trieste-sized: city only
-        el("node", 45.80, 13.70, 3, place="city", population="300000"),                       # big, ~17 km: too far
-        el("way", LAT + 0.005, LON - 0.005, 4, landuse="vineyard"),
-        el("node", LAT, LON + 0.02, 5, amenity="public_bath", name="Terme Excelsior"),        # thermal by name
-        el("node", LAT, LON - 0.02, 6, amenity="public_bath", name="Hallenbad"),             # not thermal
-        el("node", 45.6501, 13.7701, 100, historic="monument", wikidata="Q0"),                # duplicate: counted once
-    ]
-
-
-def test_features_and_tags():
-    f = places.features(elements(), step=1)
-    assert len(f["historic"]) == 9 and len(f["thermal"]) == 1 and len(f["sea"]) == 3
-    r = {"elevation_m": "5", **places.measure(LAT, LON, f, PC)}
-    assert r["historic_n"] == 9 and r["major_city_km"] == "" and r["city_km"] != ""
+def test_measure_and_tags(tmp_path):
+    pytest.importorskip("osmium")
+    pts, cities = places.read_features(str(osm_file(tmp_path / "t.osm")), (45.0, 13.0, 47.0, 14.5), step=1)
+    grids = {k: places.Grid(v) for k, v in pts.items()}
+    r = {"elevation_m": "5", **places.measure(LAT, LON, grids, cities, PC)}
+    assert r["historic_n"] == 10 and r["major_city_km"] == "" and r["city_km"] != "" and r["lake_km"] == ""
     assert places.tags_for(r, PC) == "sea,old_town,city,vineyards,thermal"
 
 
@@ -47,41 +62,67 @@ def test_mountain_from_elevation_or_ski_and_countryside():
     assert places.tags_for({**base, "elevation_m": "1200", "historic_n": 0}, PC) == "mountain"
     assert places.tags_for({**base, "elevation_m": "300", "ski_km": "2.1", "historic_n": 0}, PC) == "mountain,ski"
     assert places.tags_for({**base, "elevation_m": "200", "vineyard_km": "0.4", "historic_n": 0}, PC) == "vineyards,countryside"
-    assert places.tags_for({**base, "elevation_m": "", "major_city_km": "3", "historic_n": 2}, PC) == "major_city,city"
+    assert places.tags_for({**base, "major_city_km": "3", "historic_n": 2}, PC) == "major_city,city"
     assert places.tags_for({**base, "unesco_km": "0.6", "historic_n": 1}, PC) == "old_town"
 
 
-def test_query_asks_only_around_the_properties():
-    q = places.query([(46.1, 13.2), (46.2, 13.3)], PC, 120)
-    assert q.count("around:") == 22 and "(around:1500,46.10000,13.20000)" in q and "out geom;" in q
+def test_classify():
+    assert places.classify({"historic": "castle", "wikidata": "Q1", "heritage": "1"}) == ["unesco", "historic"]
+    assert places.classify({"historic": "wayside_cross"}) == []            # no Wikidata entry: not counted
+    assert places.classify({"natural": "water", "water": "lake"}) == []    # unnamed pond
+    assert places.classify({"amenity": "public_bath", "bath:type": "thermal"}) == ["thermal"]
 
 
-def test_batches_keep_neighbours_together():
-    rows = [{"pid": str(i), "lat": str(la), "lon": str(lo)} for i, (la, lo) in
-            enumerate([(46.1, 13.0), (48.0, 11.0), (46.2, 13.1), (48.1, 11.2)])]
-    assert [[r["pid"] for r in b] for b in places.batches(rows, 2)] == [["0", "2"], ["1", "3"]]
+def square(w, s, e, n):
+    return {"type": "Polygon", "coordinates": [[[w, s], [e, s], [e, n], [w, n], [w, s]]]}
 
 
-def test_run_rolls_through_due_properties(tmp_path):
+INDEX = {"features": [
+    {"properties": {"id": "europe", "urls": {"pbf": "u/europe"}}, "geometry": square(-10, 35, 30, 60)},
+    {"properties": {"id": "italy", "parent": "europe", "urls": {"pbf": "u/italy"}}, "geometry": square(6, 36, 19, 47.1)},
+    {"properties": {"id": "italy/nord-est", "parent": "italy", "urls": {"pbf": "u/ne"}}, "geometry": square(10, 44, 14, 47.1)},
+    {"properties": {"id": "slovenia", "parent": "europe", "urls": {"pbf": "u/si"}}, "geometry": square(13.9, 45.4, 16.6, 46.9)},
+]}
+
+
+def test_smallest_extract_that_contains_each_property():
+    ex = places.extracts_from_index(INDEX)
+    assert {x["id"] for x in ex} == {"italy", "italy/nord-est", "slovenia"}     # never a continent
+    rows = [{"pid": "trieste", "lat": "45.65", "lon": "13.77"}, {"pid": "rome", "lat": "41.9", "lon": "12.5"},
+            {"pid": "bled", "lat": "46.37", "lon": "14.11"}, {"pid": "paris", "lat": "48.8", "lon": "2.3"}]
+    g = places.choose_extracts(rows, ex)
+    assert {k: [r["pid"] for r in v] for k, v in g.items()} == {"italy/nord-est": ["trieste"], "italy": ["rome"],
+                                                                 "slovenia": ["bled"]}
+    assert "italy/nord-est" not in places.choose_extracts(rows, ex, skip={"italy/nord-est"})
+
+
+def test_run_one_download_per_extract_and_rolling(tmp_path):
+    pytest.importorskip("osmium")
     cfg = config.load()
     for k in ("watchlist", "places", "landscape"):
         cfg["paths"][k] = str(tmp_path / f"{k}.csv")
     with open(cfg["paths"]["watchlist"], "w", newline="") as f:
         w = csv.DictWriter(f, ["pid", "lat", "lon", "gone_since"])
         w.writeheader()
-        w.writerow({"pid": "ta:1", "lat": str(LAT), "lon": str(LON), "gone_since": ""})
+        w.writerows([{"pid": "ta:1", "lat": str(LAT), "lon": str(LON), "gone_since": ""},
+                     {"pid": "ta:2", "lat": "45.66", "lon": "13.78", "gone_since": ""}])
     with open(cfg["paths"]["landscape"], "w", newline="") as f:
         w = csv.DictWriter(f, ["pid", "elevation_m"])
         w.writeheader()
-        w.writerow({"pid": "ta:1", "elevation_m": "12"})
-    asked = []
+        w.writerows([{"pid": "ta:1", "elevation_m": "12"}, {"pid": "ta:2", "elevation_m": "40"}])
+    src = osm_file(tmp_path / "src.osm")
+    got = []
 
-    def fetch(q):
-        asked.append(q)
-        return {"elements": elements()}
-    res = places.run(cfg, 5, fetch=fetch, elev=lambda pts: [], today=date(2026, 11, 23), log=lambda m: None,
-                     sleep=lambda s: None)
-    assert res["done"] == 1 and res["coverage"] == "1/1" and len(asked) == 1
-    row = next(csv.DictReader(open(cfg["paths"]["places"])))
-    assert row["elevation_m"] == "12" and "old_town" in row["tags"]
-    assert places.run(cfg, 5, fetch=fetch, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)["due"] == 0
+    def fetch(url, dest, log=None):
+        got.append(url)
+        dest.write_bytes(src.read_bytes())
+        return dest.stat().st_size
+    # the download is saved as .osm.pbf; pyosmium tells the format from the name, so read the .osm original
+    kw = dict(index=INDEX, fetch=fetch, elev=lambda pts: [], log=lambda m: None, workdir=tmp_path,
+              read=lambda path, bbox, step: places.read_features(str(src), bbox, step))
+    res = places.run(cfg, 5, today=date(2026, 11, 23), **kw)
+    assert got == ["u/ne"] and res["done"] == 2 and res["coverage"] == "2/2"
+    rows = {r["pid"]: r for r in csv.DictReader(open(cfg["paths"]["places"]))}
+    assert rows["ta:1"]["extract"] == "italy/nord-est" and "old_town" in rows["ta:1"]["tags"]
+    assert rows["ta:1"]["elevation_m"] == "12"
+    assert places.run(cfg, 5, today=date(2026, 11, 24), **kw)["due"] == 0 and got == ["u/ne"]

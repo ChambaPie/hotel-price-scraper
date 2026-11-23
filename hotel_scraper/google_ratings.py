@@ -17,7 +17,7 @@ import argparse
 import re
 import sys
 import time
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 from urllib.parse import quote
@@ -141,6 +141,10 @@ def due(watch: list[dict], known: dict[str, dict], today: date, refresh_days: in
     return [w for _, _, w in sorted(out, key=lambda x: (x[0], x[1]))]
 
 
+LABELS_JS = """() => Array.from(document.querySelectorAll('[aria-label]')).map(e => e.getAttribute('aria-label'))
+    .filter(t => /out of 5|reviews|rating|stars/i.test(t)).slice(0, 40)"""
+
+
 def search(page, query: str, wait_ms: int) -> str:
     page.goto(f"https://www.google.com/travel/search?q={quote(query)}&hl=en-GB&gl=it&curr=EUR",
               wait_until="domcontentloaded", timeout=60000)
@@ -152,7 +156,13 @@ def search(page, query: str, wait_ms: int) -> str:
             page.wait_for_timeout(2500)
             break
     page.wait_for_timeout(wait_ms)
-    return page.inner_text("body")
+    text = page.inner_text("body")
+    if "/entity/" in page.url:   # Google went straight to the hotel's own page: keep its rating labels too
+        try:
+            text += "\n#ENTITY " + page.url[:200] + "\n" + "\n".join(f"#LABEL {t}" for t in page.evaluate(LABELS_JS))
+        except Exception:  # noqa: BLE001
+            pass
+    return text
 
 
 def run(cfg: dict, max_minutes: float, search_fn, today: date | None = None, log=log,
@@ -183,11 +193,13 @@ def run(cfg: dict, max_minutes: float, search_fn, today: date | None = None, log
             known[w["pid"]] = row_for(w["pid"], None, 0.0, query, now, "error")
             continue
         cards = cards_from_text(text)
-        if samples and saved < 2:   # a couple of real pages per run, for the parser's regression tests
-            samples.mkdir(parents=True, exist_ok=True)
-            (samples / f"sample_{saved}.txt").write_text(text[:200_000], encoding="utf-8")
-            saved += 1
         card, sim = best_card(w["name"], cards, gc["min_similarity"])
+        if samples and not card and saved < gc.get("samples_per_run", 6):   # real misses, to improve the parser
+            samples.mkdir(parents=True, exist_ok=True)
+            slug = re.sub(r"[^A-Za-z0-9]+", "_", query)[:50]
+            (samples / f"miss_{saved}_{slug}.txt").write_text(f"#QUERY {query}\n#CARDS {len(cards)}\n" + text[:200_000],
+                                                             encoding="utf-8")
+            saved += 1
         known[w["pid"]] = row_for(w["pid"], card, sim, query, now, "ok" if card else "not found")
         stats["checked"] += 1
         stats["found"] += 1 if card else 0
