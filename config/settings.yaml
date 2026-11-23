@@ -302,6 +302,20 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       suggestion: "[data-stid='destination_form_field-result-item-button'], [data-stid*='result-item'] button, [role='option']"
       search: "button#search_button, [data-testid='submit-button'], button[type='submit']"
       browser: {<<: *person_browser, warm_up: "https://www.expedia.it/"}
+    hrs: &hrs_box            # the search field is a button that opens the real field (2026-11-23)
+      home: "https://www.hrs.com/en/"
+      input: "text=/Location, hotel, region, address, post code/i"
+      suggestion: "[role='option'], [role='listbox'] li, [data-testid*='uggest'] li, [class*='uggest'] li, [class*='utocomplete'] li"
+      search: "button:has-text('Search hotels')"
+      json_url_pattern: "/api/|graphql|search|availability|offer"
+    hotel_de: {<<: *hrs_box, home: "https://www.hotel.de/", input: "text=/Ort, Hotel, Region, Adresse, PLZ/i",
+               search: "button:has-text('Hotels suchen')"}
+    check24:                 # its own autocomplete (api/autocomplete.data, Remix "turbo-stream") answers while typing
+      home: "https://hotels.check24.de/"
+      input: "input[type='search'], [role='combobox'], input[placeholder*='Wohin' i], input[placeholder*='Reiseziel' i], input[placeholder*='Hotel' i]"
+      suggestion: "[role='option'], [role='listbox'] li, [class*='uggest'] li"
+      search: "button:has-text('Suchen'), button:has-text('Hotels finden'), button[type='submit']"
+      json_url_pattern: "\\.data|/api/"
     agoda: &agoda_box        # the search address alone opens the home page (2026-11-23): use the search box
       home: "https://www.agoda.com/en-gb/"
       input: "[data-selenium='textInput'], input[placeholder*='destination' i], input[placeholder*='Where' i]"

@@ -144,8 +144,10 @@ def test_seller_url_never_takes_the_search_button_selector():
 
 def test_catalogue_sellers_are_probed_through_the_generic_search_box():
     specs = sp.probe_specs(CFG, ["probe", "account"])
-    assert specs["check24"]["home"] == "https://hotel.check24.de/" and specs["check24"]["input"] == CFG["seller_probe"]["generic"]["input"]
+    # (CHECK24 was the example until it got its own entry, 2026-11-23; eDreams has none)
+    assert specs["edreams"]["home"] == "https://www.edreams.it/" and specs["edreams"]["input"] == CFG["seller_probe"]["generic"]["input"]
     assert specs["agoda"] is CFG["seller_probe"]["sellers"]["agoda"]                 # its own entry wins
+    assert specs["check24"] is CFG["seller_probe"]["sellers"]["check24"]
     assert "marriott" not in specs and "secret_escapes" in specs and "booking_com" not in specs   # no home page to search
     assert all(sp.seller_url(v).startswith("https://") for v in specs.values())
     assert not set(CFG["sellers"]) & {"trivago", "kayak", "google_hotels", "tripadvisor"}          # comparison sites
@@ -159,3 +161,24 @@ def test_engine_url_with_the_link_itself():
     sb = CFG["seller_probe"]["engine_pages"]["urls"]["simplebooking"]
     assert "/ibe2/hotel/8930?" in sp.engine_url({"booking_link": "https://www.simplebooking.it/ibe/hotelbooking/search?hid=8930&lang=it"},
                                                 sb, date(2026, 12, 14), 2)
+
+
+def test_save_json_keeps_remix_turbo_stream_data(tmp_path):
+    """CHECK24 answers its own search box with Remix "turbo-stream" data (text/x-script), not JSON (probe 2026-11-23):
+    the probe keeps it so a reader can be built from it."""
+    from hotel_scraper.seller_probe import save_json
+
+    class Req:
+        method, post_data = "POST", "term=Hotel+Artemide+Rom"
+
+    class Resp:
+        def __init__(self, url, ct, body):
+            self.url, self.headers, self._b, self.request = url, {"content-type": ct}, body, Req()
+
+        def body(self):
+            return self._b
+    body = ('[{"_1":2},"data",{"_3":4},"suggestions","Hotel Artemide",' + '"x",' * 300 + '"y"]').encode()
+    seen = [Resp("https://hotels.check24.de/api/autocomplete.data", "text/x-script; charset=utf-8", body),
+            Resp("https://hotels.check24.de/assets/app.css", "text/css", b"x" * 900)]
+    n = save_json(seen, tmp_path / "check24", r"\.data|/api/", 5, ["artemide"])
+    assert n == 1 and (tmp_path / "check24.api0.url").read_text().startswith("POST https://hotels.check24.de/api/")

@@ -379,7 +379,8 @@ def save_json(responses, base: Path, pattern: str, limit: int, words: list[str] 
     found = []
     for r in responses:
         try:
-            if "json" not in (r.headers.get("content-type") or ""):
+            ct = r.headers.get("content-type") or ""
+            if "json" not in ct and "x-script" not in ct:   # x-script: Remix "turbo-stream" data (CHECK24, 2026-11-23)
                 continue
             body = r.body()
         except Exception:  # noqa: BLE001
