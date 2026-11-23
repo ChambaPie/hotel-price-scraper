@@ -263,8 +263,38 @@ def read_features(path: str, bbox: tuple, step: int = 3) -> tuple[dict, list]:
     return pts, cities
 
 
+class _ipv4_only:
+    """GitHub's runners sometimes have no IPv6 route ("Network is unreachable" on 2026-11-23 for Geofabrik and the
+    main Overpass server): resolve to IPv4 addresses only while this is active."""
+    def __enter__(self):
+        import socket
+        self._orig = socket.getaddrinfo
+        socket.getaddrinfo = lambda *a, **k: [r for r in self._orig(*a, **k) if r[0] == socket.AF_INET] or self._orig(*a, **k)
+        return self
+
+    def __exit__(self, *exc):
+        import socket
+        socket.getaddrinfo = self._orig
+
+
+def fetch_url(url: str, timeout: int = 120, tries: int = 3, log=log, sleep=time.sleep):
+    """urlopen with retries; the second and later tries over IPv4 only."""
+    last = None
+    for i in range(tries):
+        try:
+            if i == 0:
+                return urlopen(Request(url, headers={"User-Agent": UA}), timeout=timeout)
+            with _ipv4_only():
+                return urlopen(Request(url, headers={"User-Agent": UA}), timeout=timeout)
+        except OSError as e:   # URLError, timeouts, unreachable networks
+            last = e
+            log(f"{url.split('/')[2]}: try {i + 1} failed: {e}")
+            sleep(5 * (i + 1))
+    raise RuntimeError(f"{url}: {last}")
+
+
 def download(url: str, dest: Path, log=log) -> int:
-    with urlopen(Request(url, headers={"User-Agent": UA}), timeout=120) as r, open(dest, "wb") as f:
+    with fetch_url(url, log=log) as r, open(dest, "wb") as f:
         shutil.copyfileobj(r, f, length=1 << 20)
     return dest.stat().st_size
 
@@ -305,8 +335,12 @@ def run(cfg: dict, max_minutes: float, index=None, read=read_features, fetch=dow
         except Exception as e:  # noqa: BLE001
             log(f"elevation lookup stopped: {e}")
     if index is None:
-        with urlopen(Request(pc["extracts_index"], headers={"User-Agent": UA}), timeout=120) as r:
-            index = json.load(r)
+        try:
+            with fetch_url(pc["extracts_index"], log=log) as r:
+                index = json.load(r)
+        except RuntimeError as e:
+            log(f"extract index not reachable: {e}")
+            return {**stats, "failed_extracts": -1, "coverage": f"{len(watch) - len(todo)}/{len(watch)}", "tags": {}}
     extracts = extracts_from_index(index)
     groups = choose_extracts(todo, extracts, set(pc.get("skip_extracts") or []))
     urls = {x["id"]: x["url"] for x in extracts}

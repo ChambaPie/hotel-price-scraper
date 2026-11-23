@@ -126,3 +126,34 @@ def test_run_one_download_per_extract_and_rolling(tmp_path):
     assert rows["ta:1"]["extract"] == "italy/nord-est" and "old_town" in rows["ta:1"]["tags"]
     assert rows["ta:1"]["elevation_m"] == "12"
     assert places.run(cfg, 5, today=date(2026, 11, 24), **kw)["due"] == 0 and got == ["u/ne"]
+
+
+def test_fetch_retries_then_ipv4(monkeypatch):
+    import socket
+    calls = []
+
+    def fake_urlopen(req, timeout=0):
+        calls.append(socket.getaddrinfo is not real)
+        if len(calls) == 1:
+            raise OSError(101, "Network is unreachable")
+        return "ok"
+    real = socket.getaddrinfo
+    monkeypatch.setattr(places, "urlopen", fake_urlopen)
+    assert places.fetch_url("https://example.org/x", log=lambda m: None, sleep=lambda s: None) == "ok"
+    assert calls == [False, True] and socket.getaddrinfo is real      # second try over IPv4 only, then restored
+
+
+def test_unreachable_index_is_reported_not_fatal(tmp_path, monkeypatch):
+    cfg = config.load()
+    for k in ("watchlist", "places", "landscape"):
+        cfg["paths"][k] = str(tmp_path / f"{k}.csv")
+    with open(cfg["paths"]["watchlist"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "lat", "lon", "gone_since"])
+        w.writeheader()
+        w.writerow({"pid": "ta:1", "lat": "45.6", "lon": "13.7", "gone_since": ""})
+
+    def down(*a, **k):
+        raise RuntimeError("unreachable")
+    monkeypatch.setattr(places, "fetch_url", down)
+    res = places.run(cfg, 5, elev=lambda pts: [], today=date(2026, 11, 23), log=lambda m: None)
+    assert res["failed_extracts"] == -1 and res["done"] == 0

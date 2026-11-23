@@ -40,6 +40,12 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements-places.txt
+      - name: Reachability of the map data servers (for the log)
+        continue-on-error: true
+        run: |
+          for u in https://download.geofabrik.de/index-v1-nogeom.json https://overpass-api.de/api/status; do
+            for v in 4 6; do echo "IPv$v $u: $(curl -$v -sS -o /dev/null -w '%{http_code} %{remote_ip} %{time_total}s' --max-time 20 "$u" 2>&1)"; done
+          done
       - name: Type of place (OpenStreetMap)
         env:
           MIN: ${{ inputs.places_minutes }}
