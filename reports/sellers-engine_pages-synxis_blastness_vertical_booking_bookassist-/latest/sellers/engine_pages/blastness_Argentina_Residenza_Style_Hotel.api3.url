@@ -1,0 +1,2 @@
+POST https://api.foxtechnologies.it/api/be-frontdoor/bookingengine/calendar
+{"Start":"2026-11-01T00:00:00.000Z","End":"2028-10-31T00:00:00.000Z"}

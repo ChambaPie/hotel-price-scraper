@@ -1,0 +1,11 @@
+{
+ "sec-ch-ua-platform": "\"Windows\"",
+ "referer": "https://bp.bookassist.com/hr/1110/GroupListing?action=results&bp=https%3A%2F%2Fwww.hotelplaza.hr%2Fhr%2Fbooking%2F&ca=center&cdt=no&cgs=1110&date_in=2026-11-23&date_out=2026-11-24&dw=900&price_group=2&referrer=&service_model=6&user_currency=EUR&user_language=hr",
+ "purpose": "prefetch",
+ "x-middleware-prefetch": "1",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "accept-language": "en-GB",
+ "sec-ch-ua-mobile": "?0",
+ "x-nextjs-data": "1",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+}

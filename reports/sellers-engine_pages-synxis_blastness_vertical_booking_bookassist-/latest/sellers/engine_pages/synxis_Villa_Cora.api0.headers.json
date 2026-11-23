@@ -1,0 +1,12 @@
+{
+ "context": "BE",
+ "x-business-context": "BE",
+ "sec-ch-ua-platform": "\"Windows\"",
+ "referer": "https://reservations.villacora.it/?chain=24447&hotel=6861&filter=SBE&arrive=2026-12-14&depart=2026-12-15&adult=2&rooms=1&currency=EUR",
+ "accept-language": "en-GB",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "sec-ch-ua-mobile": "?0",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+ "content-type": "application/json; charset=UTF-8",
+ "activityid": "YwKHBpaeX8VW32zj-Pkpu3qO"
+}

@@ -1,0 +1,190 @@
+{
+  "messages": {
+    "": {
+      "plural_form": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)"
+    },
+    "privacy_modal.content_cookies_tailored_advertising": [
+      "Ako imate omogućene kolačiće na svom uređaju, prikazat ćemo vam oglase relevantne za našu web stranicu. Google i treće strane prikazuju naše oglase na različitim internetskim stranicama. Ako imate omogućene kolačiće, možda ćete vidjeti oglase za ovu web lokaciju na drugim web stranicama."
+    ],
+    "privacy_modal.content_cookies_performance_cookies": [
+      "Kolačići za performanse su kolačići koji prikupljaju informacije o tome kako posjetitelji koriste web stranicu, tj. koje stranice posjetitelji najčešće posjećuju. Koristimo ove kolačiće kako bismo anonimno prikupljali informacije o stranicama koje ste posjetili."
+    ],
+    "privacy_modal.title": [
+      "Politika privatnosti Bookassist-a"
+    ],
+    "privacy_modal.subtitle_privacy_how_long_keep_data": [
+      "Koliko dugo ćemo čuvati vaše podatke?"
+    ],
+    "privacy_modal.title_legal_information_for_bookassist": [
+      "Pravne informacije za Bookassist"
+    ],
+    "privacy_modal.subtitle_privacy_who_has_access": [
+      "Tko ima pristup nekim ili svim informacijama koje prikuplja Bookassist?"
+    ],
+    "privacy_modal.content_cookies_advertising_cookies": [
+      "Kolačići za oglašavanje su kolačići koji se koriste za prikazivanje oglasa koji su relevantniji za interese korisnika. Pamte da je korisnik već posjetio web stranicu. Često su povezani s funkcionalnošću stranice. Koristimo ove kolačiće kako bismo prikupili informacije o vašim navikama pregledavanja kako bismo prilagodili oglašavanje vama i vašim interesima."
+    ],
+    "privacy_modal.content_privacy_how_long_keep_data": [
+      "<ul><li class=\"font-bold\">Online rezervacije i kupovina vaučera:</li><ul class=\"pl-6\"><li>Podaci o vašoj kreditnoj kartici bit će zadržani najviše mjesec dana od vašeg odlaska od pružatelja smještaja.</li><li>Vaši osobni podaci, osim podataka o kreditnoj kartici, prikupljeni tijekom postupka rezervacije, uključujući vaše ime, adresu, e-adresu i broj telefona, bit će zadržani najviše 12 mjeseci od vašeg odlaska od pružatelja smještaja. Vaš broj referentne rezervacije, izdvojen od ostalih osobnih podataka, bit će zadržan neograničeno u statističke svrhe.</li><li>Vaši osobni podaci, osim podataka o kreditnoj kartici, prikupljeni putem online kupovine vaučera bit će zadržani najviše 12 mjeseci nakon isteka vaučera.</li></ul><li class=\"font-bold\">Bookassistov bilten:</li><ul class=\"pl-6\"><li>Vaša e-adresa bit će uklonjena s Bookassistove liste za slanje po vašem zahtjevu za odjavu.</li><li>Vaši osobni podaci bit će potpuno uklonjeni iz naše baze podataka kada kliknete opciju da želite biti potpuno uklonjeni iz Bookassistove baze podataka.</li></ul><li class=\"font-bold\">Klijenti Bookassist-a:</li><ul class=\"pl-6\"><li>Svi osobni podaci koje smo primili od naših klijenata bit će zadržani dvije godine nakon datuma posljednjeg računa.</li></ul><li>Agregirane anonimizirane podatke zadržat ćemo neograničeno u statističke i administrativne svrhe.</li></ul>"
+    ],
+    "privacy_modal.subtitle_cookies_third_party_cookies": [
+      "Kolačići treće strane"
+    ],
+    "privacy_modal.back_to_top": [
+      "Natrag na vrh"
+    ],
+    "privacy_modal.content_modifications": [
+      "Bookassist zadržava pravo promjene ove politike u bilo kojem trenutku i objavljivanja promjena bez posebnog obavještavanja korisnika web stranice.<a target=\"_blank\" class=\"underline\" href=\"https://bookassist.org/cookieslist/\">https://bookassist.org/cookieslist/</a>Web stranica naših Klijenata (npr. hotela i drugih pružatelja smještaja) može koristiti druge kolačiće - molimo provjerite njihovu politiku kolačića za detalje."
+    ],
+    "privacy_modal.subtitle_cookies_performance_cookies": [
+      "Kolačići za performanse"
+    ],
+    "privacy_modal.subtitle_security_information_certificate": [
+      "Certifikat sigurnosti"
+    ],
+    "privacy_modal.subtitle_privacy_is_your_data_secure": [
+      "Je li vaši podaci sigurni?"
+    ],
+    "privacy_modal.title_modifications": [
+      "Promjene pravila"
+    ],
+    "privacy_modal.subtitle_cookies_advertising_cookies": [
+      "Kolačići za oglašavanje"
+    ],
+    "privacy_modal.subtitle_security_information_credit_card": [
+      "Sigurnost kreditne kartice"
+    ],
+    "privacy_modal.subtitle_modifications_who_controls_accesses": [
+      "Tko kontrolira/pristupa informacijama povezanima s kolačićima?"
+    ],
+    "privacy_modal.subtitle_privacy_what_are_your_rights": [
+      "Koja su vaša prava?"
+    ],
+    "privacy_modal.subtitle_modifications_right_to_privacy": [
+      "Vaše pravo na privatnost"
+    ],
+    "privacy_modal.subtitle_modifications_other_purposes": [
+      "Hoće li kolačići biti korišteni u druge svrhe osim navedenih gore?"
+    ],
+    "privacy_modal.content_cookies_third_party_cookies": [
+      "Možemo instalirati kolačiće treće strane na našoj web stranici. Kolačići treće strane su kolačići koji su postavljeni od strane domene koja nije web stranica koju korisnik posjećuje. Ako korisnik posjeti web stranicu i drugo tijelo postavi kolačić putem te web stranice, to bi bio kolačić treće strane."
+    ],
+    "privacy_modal.subtitle_modifications_consent_withdraw": [
+      "Kako se može povući pristanak za prikupljanje kolačića?"
+    ],
+    "privacy_modal.introduction": [
+      "Bookassist pruža usluge hotelima ili drugim pružateljima smještaja, uključujući web-stranicu za smještaj, online rezervacijski sustav i online kupnju vaučera. Pronađite sljedeće informacije ovdje:"
+    ],
+    "privacy_modal.content_cookies_cookies_bookassist_use": [
+      "<p>Bookassist koristi sljedeće kolačiće - kako biste se odjavili od bilo kojeg od ovih kolačića, pogledajte odjeljak u nastavku pod nazivom \"Kako se može povući pristanak za prikupljanje kolačića?\"</p><ul><li><strong>Bookassist Kolačići:</strong></li><ul class=\"pl-6\"><li><em>Bookassist sesijski kolačić</em> je strogo nužan kolačić, bitan je za uslugu, održava korisničku sesiju. Kontrolira ga Bookassist; istječe s sesijom.</li><li><em>Bookassist kolačić za praćenje konverzije</em> je kolačić performansi, bitan je za uslugu, prati statistiku konverzije. Kontrolira ga Bookassist; istječe za 1 godinu.</li><li><em>Bookassist kolačić za referencu rezervacije</em> je funkcionalni kolačić, nije bitan za uslugu, sprema korisničke postavke. Kontrolira/ga pristupa mu Bookassist i hotel; istječe za 1 godinu.</li><li><em>Bookassist kolačić politike kolačića</em> je funkcionalni kolačić, bitan je za uslugu, koristi se za prikazivanje politike kolačića pri prvom posjetu. Kontrolira ga Bookassist; istječe za 1 godinu.</li><li><em>Bookassist kolačići za početni i napušteni skočni prozor</em> su funkcionalni kolačići, bitni za uslugu, koriste se za prikupljanje informacija o skočnim prozorima. Kontrolira ih Bookassist; istječu s sesijom.</li><li><em>Bookassist cms kolačić</em> je funkcionalni kolačić, bitan je za uslugu, održava sesiju na web stranici hotela i održava korisničke postavke poput jezika. Kontrolira ga Bookassist; istječe za 1 godinu.</li><li><em>Bookassist novi cms kolačić</em> je funkcionalni kolačić, bitan je za uslugu, sprema korisničke postavke. Kontrolira ga Bookassist; istječe s sesijom.</li></ul><li><strong>Google Kolačići:</strong><br>Google Kolačići su kolačići treće strane kontrolirani od strane Googlea, i mogu im pristupiti Bookassist i hotel. Za informacije o Google kolačićima, pogledajte: <a target=\"_blank\" class=\"underline\" href=\"https://policies.google.com/technologies/cookies\">https://policies.google.com/technologies/cookies</a></li><ul class=\"pl-6\"><li><em>Google Analytics</em> je kolačić performansi treće strane, bitan je za uslugu, koristi se za prikupljanje informacija o tome kako se web stranica koristi. Više informacija o Google Analyticsu ovdje: <a href=\"https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=en\">https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=en</a></li><li><em>Google Remarketing</em> je kolačić oglašavanja treće strane ili prilagođenog oglašavanja, nije bitan za uslugu, koristi se za prikazivanje oglašavanja relevantnog za vaše interese.</li><li><em>Google Adwords</em> je kolačić performansi treće strane, nije bitan za uslugu, koristi se za prikupljanje statističkih informacija o korištenju i konverziji.</li></ul><li><strong>Ostali Kolačići Trećih Strana:</strong></li><ul class=\"pl-6\"><li><em>Facebook, Twitter i Google+</em> su svi kolačići treće strane, nisu bitni za uslugu, koriste se za dijeljenje društvenih medija. Kontroliraju ih te treće strane.</li><li><em>Vimeo i Youtube</em> su kolačići treće strane koji se koriste za pružanje videozapisa, nisu bitni za uslugu. Kontroliraju ih te treće strane.</li></ul></ul><p>Bookassist pruža detaljan popis kolačića koje koristi Bookassist ovdje: <a target=\"_blank\" class=\"underline\" href=\"https://bookassist.org/cookieslist/\">https://bookassist.org/cookieslist/</a></p><p>Web stranica naših klijenata (npr. hotela i drugih pružatelja smještaja) može koristiti druge kolačiće - molimo provjerite njihovu politiku kolačića za detalje.</p>"
+    ],
+    "privacy_modal.subtitle_privacy_use_the_information": [
+      "Kako Bookassist koristi informacije?"
+    ],
+    "privacy_modal.content_privacy_who_has_access": [
+      "<ul><li>Bookassist, njegova matična tvrtka, njezine podružnice i njezine podružnice.</li><li>Koristimo treće strane za pomoć u pohrani podataka i sigurnosnim kopijama.</li><li>Za sve e-poštanske komunikacije, uključujući prema našim klijentima ili pretplatnicima na naš bilten, koristimo treće strane za pomoć u administraciji e-pošte i praćenju.</li><li>Ako podaci trebaju biti preneseni izvan EU-a, Bookassist će osigurati da su na snazi odgovarajuće mjere zaštite podataka i sigurnosti.</li><li>Određene treće strane imaju pristup vašim kolačićima, pogledajte našu Politiku kolačića u nastavku za daljnje pojedinosti. Takve treće strane mogu pohraniti i obrađivati takve podatke izvan EU-a.</li><li>Pravne vlasti gdje su obavezne to učiniti.</li><li>Online rezervacije i kupnja vaučera:</li><ul class=\"pl-6\"><li>Ako vršite online rezervaciju ili kupnju vaučera za pružatelja smještaja putem Bookassist sustava, Bookassist pruža relevantne podatke pružatelju smještaja. Ti pružatelji smještaja možda ne dijele našu Politiku privatnosti pa svakako provjerite i njihovu Politiku privatnosti.</li><li>Financijske usluge čišćenja, uključujući pružatelje financijskih plaćanja, koji možda ne dijele našu Politiku privatnosti, povremeno će imati pristup podacima o kreditnoj kartici kako bi olakšali postupak rezervacije.</li></ul><li class=\"font-bold\">Bilten Bookassist:</li><ul class=\"pl-6\"><li>Koristimo treće strane za pomoć u našim marketinškim aktivnostima, poput našeg popisa za slanje.</li></ul></ul>"
+    ],
+    "privacy_modal.subtitle_cookies_tailored_advertising": [
+      "Prilagođeno Oglašavanje"
+    ],
+    "privacy_modal.content_privacy_is_your_data_secure": [
+      "Da, Bookassist ima sigurne sustave pohrane i procese na mjestu."
+    ],
+    "privacy_modal.title_privacy": [
+      "Pravilnik o privatnosti"
+    ],
+    "privacy_modal.content_cookies": [
+      "Ova politika opisuje kako Bookassist može koristiti Kolačiće na našoj web stranici i/ili na web stranicama naših klijenata. Kako bi web stranica pravilno funkcionirala, Bookassist ponekad postavlja male datoteke podataka nazvane Kolačići na vaš uređaj. Kolačići koje koristimo omogućuju nam poboljšanje web stranice i pružanje personaliziranije usluge za vas."
+    ],
+    "privacy_modal.content_privacy_what_are_your_rights": [
+      "<ul><li>Imate pravo zatražiti pristup svim podacima koje Bookassist posjeduje o vama.</li><li>Imate pravo zatražiti ispravak svih podataka koje Bookassist posjeduje o vama.</li><li>Imate pravo zatražiti brisanje svih podataka koji se odnose na vas; imajte na umu da brisanje određenih podataka može utjecati na pružanje naših usluga.</li><li>Imate pravo na prenosivost podataka; to znači da možete zatražiti da vam podaci budu pruženi u odgovarajućem formatu.</li><li>Gdje se dobije pristanak za prikupljanje i obradu određenih aspekata vaših podataka, imate pravo povući svoj pristanak u bilo kojem trenutku, na primjer, možete se odjaviti s naše mailing liste u bilo kojem trenutku klikom na gumb za odjavu na dnu e-pošte.</li><li>Imate pravo podnijeti pritužbu nadležnom nadzornom tijelu.</li></ul>"
+    ],
+    "privacy_modal.content_privacy": [
+      "Ovo postavlja pravila o zaštiti privatnosti koja se primjenjuju na web stranicu Bookassist, mailing listu i sustave tvrtke Automatic Netware Ltd. koja posluje pod nazivom Bookassist. Ova politika privatnosti objašnjava što se radi s vašim osobnim podacima. Osobni podaci (\"podaci\") su sve što se može povezati s vama. Svi osobni podaci koje nam pružite bit će obrađeni prema odgovarajućim standardima sigurnosti i povjerljivosti te u skladu s Općom uredbom o zaštiti podataka 2016/679 i pripadajućim nacionalnim propisima. Sve reference na \"vas\" ili \"vaše\" misle na vas, korisnika usluge Bookassist, a sve reference na \"nas\" ili \"naše\" odnose se na Bookassist."
+    ],
+    "privacy_modal.subtitle_cookies_cookies_bookassist_use": [
+      "Koje kolačiće koristi Bookassist?"
+    ],
+    "privacy_modal.subtitle_privacy_do_not_personal_data": [
+      "Što ako ne želite pružiti svoje osobne podatke?"
+    ],
+    "privacy_modal.title_cookies": [
+      "Pravilnik o kolačićima"
+    ],
+    "privacy_modal.content_modifications_right_to_privacy": [
+      "<p>Bookassist poštuje vaše pravo na privatnost. Sve osobne informacije koje pružite na ovoj web stranici bit će tretirane prema odgovarajućim standardima sigurnosti i povjerljivosti te u skladu s Općom uredbom o zaštiti podataka 2016/679 i pripadajućim nacionalnim zakonodavstvom.</p><p>Ako nakon pružanja osobnih informacija trebate kopiju ili želite raspraviti, ispraviti ili izbrisati informacije, molimo kontaktirajte nas. Pogledajte našu Politiku privatnosti gore za daljnje detalje.</p>"
+    ],
+    "privacy_modal.last_update": [
+      "Zadnje ažuriranje: 24. svibnja 2018."
+    ],
+    "privacy_modal.content_legal_information_for_bookassist": [
+      "<ul><li><strong>Naziv tvrtke:</strong> Automatic Netware Limited, poslovanje pod imenom Bookassist</li><li><strong>Broj tvrtke:</strong> IE312796</li><li><strong>Adresa sjedišta:</strong> 1. kat južni blok, Rockfield Central, Dublin D16 R6V0, Irska.</li><li><strong>Kontakt telefon:</strong> +353 1 676 2913</li><li><strong>Email adresa:</strong> <a class=\"underline\" href=\"mailto:ireland@bookassist.com\">ireland@bookassist.com</a></li><li><strong>Web stranica:</strong> <a target=\"_blank\" class=\"underline\" href=\"https://www.bookassist.com\">https://www.bookassist.com</a></li><li><strong>Kontakt za zaštitu podataka:</strong> email <aclass=\"underline\" href=\"mailto:dpo@bookassist.com\">dpo@bookassist.com</a></li></ul>"
+    ],
+    "privacy_modal.content_cookies_necessary_cookies": [
+      "<p>Strogo neophodni kolačići su ključni kako biste se mogli kretati po web stranici i koristiti njene funkcije. Koristimo ove kolačiće kako bismo omogućili usluge koje ste izričito zatražili.</p>"
+    ],
+    "privacy_modal.content_modifications_other_purposes": [
+      "Kolačići se neće koristiti u druge svrhe osim onih navedenih gore, bez obzira na to što se ovaj Pravilnik o kolačićima može mijenjati s vremena na vrijeme. Stoga je vaša dužnost osigurati da ste pročitali najnoviji Pravilnik o kolačićima svaki put kada koristite naše usluge ili posjetite našu web stranicu."
+    ],
+    "privacy_modal.subtitle_cookies_types_of_cookies": [
+      "Koje su različite vrste kolačića?"
+    ],
+    "privacy_modal.content_cookies_types_of_cookies": [
+      "Kolačići su tekstualne datoteke koje sadrže male količine informacija koje se preuzimaju na vaš uređaj prilikom posjete našoj web stranici. Kolačići se zatim ponovno šalju na izvornu web stranicu prilikom svake sljedeće posjete ili na drugu web stranicu koja prepoznaje taj kolačić. Kolačići su korisni jer omogućuju web stranici da prepozna korisnikov uređaj. To omogućuje web stranici da zapamti vaše radnje i preferencije (kao što su prijava, jezik, veličina fonta i druge postavke prikaza) tijekom određenog vremena, tako da ih ne morate ponovno unositi kad se vratite na stranicu ili prelazite s jedne stranice na drugu. Postoji nekoliko različitih vrsta kolačića, svaki s različitom svrhom. Na primjer, određeni kolačići se koriste za pamćenje korisnikove radnje, za identifikaciju korisnika ili za online ponašajnu reklamu."
+    ],
+    "privacy_modal.subtitle_cookies_what_are_cookies": [
+      "Što su kolačići?"
+    ],
+    "privacy_modal.content_cookies_functional_cookies": [
+      "Funkcionalni kolačići su kolačići koji omogućuju web stranici da zapamti odabire koje je korisnik napravio (ime, adresa, jezik). Koristimo ove kolačiće kako bismo zapamtili odabire napravljene radi poboljšanja iskustva naših korisnika."
+    ],
+    "privacy_modal.content_security_information_certificate": [
+      "Bookassist je potvrđen kao pružatelj usluga putem Thawte Certification Authority. Slijedite ovaj link za više informacija: o SSL certifikatima."
+    ],
+    "privacy_modal.content_modifications_consent_withdraw": [
+      "<p>Možete kontrolirati i/ili izbrisati kolačiće prema vašoj želji - za detalje, pogledajte <a target=\"_blank\" class=\"underline\" href=\"https://www.aboutcookies.org\">www.aboutcookies.org</a>. Možete izbrisati sve kolačiće koji se već nalaze na vašem računalu i možete postaviti većinu preglednika da spriječe njihovo postavljanje. Međutim, ako to učinite, možda ćete morati ručno prilagoditi neke postavke svaki put kad posjetite stranicu i neke usluge i funkcionalnosti možda neće raditi.</p><p>Ako želite odustati od Google Analyticsa posebno, posjetite stranicu za odustajanje od Google Analyticsa <a target=\"_blank\" class=\"underline\" href=\"https://tools.google.com/dlpage/gaoptout/\">https://tools.google.com/dlpage/gaoptout/</a></p><p>Ako želite odustati od Prilagođenog oglašavanja posebno, posjetite stranicu za odustajanje od Network Advertising Initiative <a target=\"_blank\" class=\"underline\" href=\"http://www.networkadvertising.org/choices/\">http://www.networkadvertising.org/choices/</a></p><p>Molimo imajte na umu da blokiranjem kolačića možda nećete moći koristiti punu funkcionalnost ove web stranice, posebno korištenje booking enginea za dovršetak rezervacije.</p>"
+    ],
+    "privacy_modal.content_privacy_exercise_your_rights": [
+      "Možete kontaktirati našeg kontakt za zaštitu podataka, vidite kontakte iznad.<br>Posebno, ako vjerujete da su naše web stranice ili sustavi prikupili netočne informacije ili ako želite osporiti bilo koje informacije, slobodno nas kontaktirajte."
+    ],
+    "privacy_modal.content_modifications_who_controls_accesses": [
+      "Bookassist kontrolira pristup informacijama povezanima s kolačićima i omogućujemo pristup ovlaštenim trećim stranama, uključujući, ali ne ograničavajući se na Google Analytics."
+    ],
+    "privacy_modal.content_privacy_use_the_information": [
+      "<ul><li class=\"font-bold\">Online rezervacije i kupovina vaučera:</li><ul class=\"pl-6\"><li>Za dovršetak ili podršku procesu online rezervacije ili kupovine vaučera.</li><li>Bookassist neće vas kontaktirati osim u izravnoj vezi s vašom rezervacijom ili kupovinom vaučera.</li></ul><li class=\"font-bold\">Bookassist-ov bilten:</li><ul class=\"pl-6\"><li>Ako se pretplatite na naš bilten, možemo vam poslati ažuriranja proizvoda ili druge vijesti.</li><li>Kada se pretplatite na naš bilten, primijetit ćemo jeste li već klijent i možda vam ili nećemo poslati posebno ciljane poruke u skladu s preferencijama vaše tvrtke.</li></ul><li class=\"font-bold\">Klijenti Bookassist-a:</li><ul class=\"pl-6\"><li>Za dovršetak ili podršku aktivnosti potrebne za pružanje naše usluge vama kao klijentu.</li></ul><li>Za statističku upotrebu radi olakšavanja poboljšanja.</li></ul>"
+    ],
+    "privacy_modal.subtitle_privacy_exercise_your_rights": [
+      "Što možete učiniti ako imate poteškoća ili želite ostvariti svoja prava?"
+    ],
+    "privacy_modal.title_security_information": [
+      "Informacije o sigurnosti"
+    ],
+    "privacy_modal.content_security_information_credit_card": [
+      "Ako vršite online rezervaciju ili kupovinu vaučera za hotel ili drugog pružatelja smještaja putem sustava Bookassist, tada Bookassist može zatražiti vaše podatke kreditne kartice.<br><br>Stranica s podacima kreditne kartice sustava Bookassist zaštićena je snažnom tehnologijom enkripcije Secure Sockets Layer (SSL). SSL enkriptira vaše podatke kreditne kartice prije nego što putuju preko Interneta. To osigurava da će vaši podaci kreditne kartice ostati potpuno povjerljivi dok su u tranzitu.<br><br>Dodatno, korištenje kreditne kartice provjerava se izravno putem sigurne veze u stvarnom vremenu s bankovnim sustavom prilikom zaduživanja. To osigurava da poznate ukradene kartice ne mogu biti korištene i da se prijevare minimiziraju."
+    ],
+    "privacy_modal.content_modifications_policy_modifications": [
+      "Bookassist zadržava pravo izmjene ove Politike u bilo kojem trenutku i objavljivanje promjena bez posebne obavijesti korisnicima web stranice."
+    ],
+    "privacy_modal.content_privacy_information_bookassist_collect": [
+      "<ul><li class=\"font-bold\">Online rezervacije i kupnja vaučera:</li><ul class=\"pl-6\"><li>Kako bismo proveli proces rezervacije i online kupnje vaučera, potrebne su nam sve informacije označene zvjezdicom, uključujući vaše ime, adresu, broj telefona, adresu e-pošte, ime primatelja (ako je kupnja vaučera) i podatke o kreditnoj kartici koji će se koristiti za plaćanje smještaja ili vaučera. Prikupit ćemo i druge podatke koje odlučite pružiti, a to može uključivati posebne kategorije osobnih podataka poput prehrambenih zahtjeva.</li><li>Tijekom online procesa rezervacije, pitat ćemo vas slažete li se da se vaši kontakt podaci koriste u budućnosti od strane pružatelja smještaja osim izravno u vezi s vašom rezervacijom, primjerice za posebne ponude ili druge komunikacije od pružatelja smještaja.</li><li>Takvi podaci se prikupljaju i obrađuju na temelju naše ugovorne obveze za obavljanje online rezervacije ili kupnje vaučera.</li></ul><li class=\"font-bold\">Bookassist-ov Newsletter:</li><ul class=\"pl-6\"><li>Ako ste pretplaćeni na Bookassist-ov Newsletter, prikupljamo vašu adresu e-pošte kako bismo vas informirali o vijestima Bookassist-a.</li><li>Ako ste pretplaćeni, možemo pratiti vašu interakciju s e-poštom, tj. jeste li otvorili e-poštu ili kliknuli na poveznicu, kako bismo pratili sviđa li vam se sadržaj koji se šalje. Također možemo prikupiti vašu IP adresu i vremensku oznaku kako bismo olakšali rad popisa za slanje.</li><li>Takvi podaci se prikupljaju na temelju vašeg zahtjeva i/ili pristanka za pretplatu na Bookassist-ov Newsletter.</li></ul><li class=\"font-bold\">Klijenti Bookassist-a:</li><ul class=\"pl-6\"><li>Kontakt informacije o našim klijentima prikupljaju se na temelju naše ugovorne obveze pružanja usluga klijentu. To može uključivati osobne kontakt podatke poput imena, adresa e-pošte i brojeva telefona.</li><li>Možemo pratiti vašu interakciju s e-poštom, tj. jeste li otvorili e-poštu ili kliknuli na poveznicu, kako bismo pratili sviđa li vam se sadržaj koji se šalje. Također možemo prikupiti vašu IP adresu i vremensku oznaku kako bismo olakšali rad popisa za slanje.</li></ul><li>Na našoj web stranici, tijekom online procesa rezervacije i online kupnje vaučera, možemo prikupljati Kolačiće. Molimo pogledajte detalje naše Politike kolačića u nastavku.</li></ul>"
+    ],
+    "privacy_modal.content_privacy_do_not_personal_data": [
+      "<ul><li class=\"font-bold\">Online rezervacije i kupovina vaučera:</li><ul class=\"pl-6\"><li>Ako ne želite pružiti podatke potrebne za postupak online rezervacije ili kupovine vaučera označene zvjezdicom, nećete moći nastaviti s postupkom i savjetujemo vam da kontaktirate pružatelja smještaja izravno.</li><li>Ako ne želite pružiti podatke tijekom postupka online rezervacije ili kupovine vaučera koji nisu obavezni, tj. koji nemaju zvjezdicu pored sebe, možete odlučiti ne pružiti takve informacije, a to neće utjecati na postupak.</li></ul><li>Bookassistov bilten:</li><ul class=\"pl-6\"><li>Ako ne želite pružiti informacije koje se traže prilikom prijave na Bookassistov bilten, nećete primati bilten. Ako se prijavite na početku i više ne želite primati bilten, možete u bilo kojem trenutku povući pristanak odjavom i/ili kontaktiranjem našeg kontakta za zaštitu podataka, vidi kontakte gore.</li></ul><li>Klijenti Bookassist-a:</li><ul class=\"pl-6\"><li>Ako ne želite pružiti nikakve kontakt podatke, molimo kontaktirajte Bookassist kako želite biti kontaktirani.</li></ul><li>Ako ne želite da prikupljamo informacije o kolačićima, pogledajte našu politiku kolačića u nastavku za daljnje detalje.</li></ul>"
+    ],
+    "privacy_modal.subtitle_modifications_policy_modifications": [
+      "Izmjene politike"
+    ],
+    "privacy_policy": [
+      "Pravila privatnosti"
+    ],
+    "privacy_modal.subtitle_cookies_functional_cookies": [
+      "Funkcionalni kolačići"
+    ],
+    "privacy_modal.subtitle_privacy_information_bookassist_collect": [
+      "Koje informacije Bookassist prikuplja i obrađuje o vama i zašto?"
+    ],
+    "privacy_modal.subtitle_cookies_necessary_cookies": [
+      "Strogo neophodni kolačići"
+    ]
+  }
+}

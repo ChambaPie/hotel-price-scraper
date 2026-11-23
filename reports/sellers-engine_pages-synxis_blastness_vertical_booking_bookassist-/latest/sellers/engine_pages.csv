@@ -1,0 +1,13 @@
+engine,pid,hotel,url,status,final_host,blocked,prices,name_found,chars,json_saved,seconds,error
+synxis,ta:g187791-d10553781,Hotel Monte Cenci,https://be.synxis.com/?adult=2&chain=5375&currency=EUR&hotel=71264&locale=en-US&arrive=2026-12-14&depart=2026-12-15&adult=2&rooms=1&currency=EUR,200,be.synxis.com,,18,True,3359,1,11.4,
+synxis,ta:g187864-d202793,Hermitage Hotel & Spa,https://gc.synxis.com/rez.aspx?Hotel=22894&Chain=8565&Lang=5&template=ResponsiveShared&shell=ResponsiveShared&adult=2&ggacc=UA-73901938-1&ggacc=UA-73901938-1&&arrive=2026-12-14&depart=2026-12-15&adult,200,be.synxis.com,,4,True,3175,1,13.2,
+synxis,ta:g187895-d195005,Villa Cora,https://reservations.villacora.it/?chain=24447&hotel=6861&filter=SBE&arrive=2026-12-14&depart=2026-12-15&adult=2&rooms=1&currency=EUR,200,reservations.villacora.it,,32,True,7620,4,13.6,
+blastness,ta:g187791-d531936,Argentina Residenza Style Hotel,https://book.blastness.com/results?lingua_int=eng&id_albergo=12102&dc=3546&id_stile=224&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=23&mm=11&aa=2026,200,book.blastness.com,,2,False,1408,6,13.5,
+blastness,ta:g187865-d3654148,Gran Baita Hotel & Wellness Resort,https://book.blastness.com/results?lingua_int=ita&id_albergo=11153&dc=5562147&id_stile=,200,book.blastness.com,,0,False,827,4,13.8,
+blastness,ta:g194796-d1473191,Monaco Suites Hotel,https://book.blastness.com/results?lingua_int=ita&id_albergo=30354&dc=3461&id_stile=571&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=23&mm=11&aa=2026,200,book.blastness.com,,0,False,6888,4,13.4,
+vertical_booking,ta:g1568268-d1736935,Hotel Le Grotte,https://my.hotellegrotte.it/it-IT/reservation/module,200,my.hotellegrotte.it,,0,True,379,0,12.2,
+vertical_booking,ta:g187849-d2417960,Château Monfort,https://www.hotelchateaumonfort.com/it/guestbook.html,200,hotelchateaumonfort.com,,0,True,35368,2,12.9,
+vertical_booking,ta:g187849-d3863490,Magna Pars L'Hotel A' Parfum,https://labsolue-bar.superbexperience.com/reserve/experience,200,labsolue-bar.superbexperience.com,,0,False,138,0,11.9,
+bookassist,ta:g1943241-d11616269,Hotel Plaza Duce,https://www.hotelplaza.hr/booking/,200,bp.bookassist.com,,1,False,2471,10,17.3,
+bookassist,ta:g194659-d485514,Hotel Première Abano Terme,https://bookassist.org,200,bookassist.com,,0,False,12856,0,11.5,
+bookassist,ta:g274707-d1231513,Buddha-Bar Hotel Prague,https://www.buddhabarhotelprague.com/en/reservations,200,buddhabarhotelprague.com,,0,True,966,6,12.9,

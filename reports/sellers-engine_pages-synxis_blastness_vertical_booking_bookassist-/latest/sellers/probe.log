@@ -1,0 +1,29 @@
+22:29:04 synxis           Hotel Monte Cenci              200 prices=18 json=1 
+22:29:21 synxis           Hermitage Hotel & Spa          200 prices=4 json=1 
+22:29:37 synxis           Villa Cora                     200 prices=32 json=4 
+22:29:54 blastness        Argentina Residenza Style Hote 200 prices=2 json=6 
+22:30:11 blastness        Gran Baita Hotel & Wellness Re 200 prices=0 json=4 
+22:30:27 blastness        Monaco Suites Hotel            200 prices=0 json=4 
+22:30:42 vertical_booking Hotel Le Grotte                200 prices=0 json=0 
+22:30:58 vertical_booking Château Monfort                200 prices=0 json=2 
+22:31:13 vertical_booking Magna Pars L'Hotel A' Parfum   200 prices=0 json=0 
+22:31:34 bookassist       Hotel Plaza Duce               200 prices=1 json=10 
+22:31:48 bookassist       Hotel Première Abano Terme     200 prices=0 json=0 
+22:32:04 bookassist       Buddha-Bar Hotel Prague        200 prices=0 json=6 
+# Booking-engine pages
+
+| engine | hotel | status | site | prices on the page | JSON saved |
+|---|---|---|---|---|---|
+| synxis | Hotel Monte Cenci | 200 | be.synxis.com | 18 | 1 |
+| synxis | Hermitage Hotel & Spa | 200 | be.synxis.com | 4 | 1 |
+| synxis | Villa Cora | 200 | reservations.villacora.it | 32 | 4 |
+| blastness | Argentina Residenza Style Hotel | 200 | book.blastness.com | 2 | 6 |
+| blastness | Gran Baita Hotel & Wellness Resort | 200 | book.blastness.com | 0 | 4 |
+| blastness | Monaco Suites Hotel | 200 | book.blastness.com | 0 | 4 |
+| vertical_booking | Hotel Le Grotte | 200 | my.hotellegrotte.it | 0 | 0 |
+| vertical_booking | Château Monfort | 200 | hotelchateaumonfort.com | 0 | 2 |
+| vertical_booking | Magna Pars L'Hotel A' Parfum | 200 | labsolue-bar.superbexperience.com | 0 | 0 |
+| bookassist | Hotel Plaza Duce | 200 | bp.bookassist.com | 1 | 10 |
+| bookassist | Hotel Première Abano Terme | 200 | bookassist.com | 0 | 0 |
+| bookassist | Buddha-Bar Hotel Prague | 200 | buddhabarhotelprague.com | 0 | 6 |
+

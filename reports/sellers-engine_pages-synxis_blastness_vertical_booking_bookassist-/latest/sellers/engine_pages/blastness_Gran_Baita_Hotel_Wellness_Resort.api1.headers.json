@@ -1,0 +1,12 @@
+{
+ "sec-ch-ua-platform": "\"Windows\"",
+ "authorization": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3OTU0NzQ3OTgsImlhdCI6MTc5NTQ3Mjk5OCwic2Vzc2lvbklkIjoiMWQwYjVkNDctMmEyNi00MjllLWFlY2YtYzliMzdhYjFiNjBiIiwiY2hlY2tDb2RlIjoiNTU2MjE0NyIsImhvdGVsQ29kZSI6IjExMTUzIiwiYWNjb21tb2RhdGlvbklkIjoxMTY3NiwiaXBBZGRyZXNzIjoiMy40Mi4xNTcuMjkiLCJkZXZpY2UiOjEsInN0eWxlSWQiOjAsImNvdW50cnkiOiJVUyIsImlzQUlFbmFibGVkIjp0cnVlfQ.6ptHJIqQ8-AE2ENvx_n5GUKVQ25z2dV_CJWIvXeuMeWkI82qPtGbaGsjag1TV7NkuMc8XlUOYZ7OjiqgM4BP8Q",
+ "referer": "https://book.blastness.com/",
+ "accept-language": "en-GB",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "sec-ch-ua-mobile": "?0",
+ "ocp-apim-subscription-key": "41f107bb56d14997956de305d6c7377a",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+ "x-hotel-code": "11153",
+ "content-type": "application/json"
+}
