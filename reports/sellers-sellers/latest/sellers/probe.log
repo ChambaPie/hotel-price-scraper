@@ -1,19 +1,15 @@
-16:32:04 warm-up https://www.hotels.com/: Bot or Not?
-16:32:51 warm-up: still checking after 45 s
-16:33:51 hotels_com Corinthia Budapest             429 blocked=Bot or Not prices=0 name=False json=1
-16:35:04 hotels_com Hotel Artemide                 429 blocked=Bot or Not prices=0 name=False json=1
-16:35:34 warm-up https://www.expedia.it/: Expedia.it: Hotel, Voli, Pacchetti Vacanze e Noleggio Auto -
-16:36:37 expedia    Corinthia Budapest             429 blocked=Sei un robot prices=0 name=False json=1
-16:37:48 expedia    Hotel Artemide                 429 blocked=Sei un robot prices=0 name=False json=1
+16:39:55 warm-up https://www.expedia.it/: Sei un robot?
+16:40:42 warm-up: still checking after 45 s
+16:40:42 expedia    Corinthia Budapest             0 blocked=Sei un robot prices=0 name=False json=0
+16:40:54 expedia    Hotel Artemide                 0 blocked=Sei un robot prices=0 name=False json=0
 # Sellers' own websites: probe S0
 
 ## Sellers (one night, search page)
 
 | seller | pages | blocked | with prices | hotel found | JSON saved |
 |---|---|---|---|---|---|
-| hotels_com | 2 | 2 | 0 | 0 | 2 |
-| expedia | 2 | 2 | 0 | 0 | 2 |
+| expedia | 2 | 2 | 0 | 0 | 0 |
 
-Block phrases seen: Bot or Not, Sei un robot
+Block phrases seen: Sei un robot
 
 

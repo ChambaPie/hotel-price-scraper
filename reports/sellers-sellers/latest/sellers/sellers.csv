@@ -1,5 +1,7 @@
 seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
-hotels_com,ta:g274887-d285437,Corinthia Budapest,HU,429,hotels.com,Bot or Not?,Bot or Not,0,False,107,1,60.2,still checking after 45 s
-hotels_com,ta:g187791-d205044,Hotel Artemide,IT,429,hotels.com,Bot or Not?,Bot or Not,0,False,107,1,60.6,still checking after 45 s
-expedia,ta:g274887-d285437,Corinthia Budapest,HU,429,expedia.it,Sei un robot?,Sei un robot,0,False,120,1,63.3,still checking after 45 s
-expedia,ta:g187791-d205044,Hotel Artemide,IT,429,expedia.it,Sei un robot?,Sei un robot,0,False,120,1,59.5,still checking after 45 s
+expedia,ta:g274887-d285437,Corinthia Budapest,HU,0,expedia.it,Sei un robot?,Sei un robot,0,False,120,0,0.0,"Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to ""button#search_button, [data-testid='submit-button'], butt"
+expedia,ta:g187791-d205044,Hotel Artemide,IT,0,expedia.it,Sei un robot?,Sei un robot,0,False,120,0,0.0,"Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to ""button#search_button, [data-testid='submit-button'], butt"
