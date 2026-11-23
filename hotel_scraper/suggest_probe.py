@@ -44,6 +44,10 @@ def main(argv=None) -> int:
             reqs = []
             page.on("request", lambda r: reqs.append(r))
             page.screenshot(path=str(out / f"{args.seller}_{slug(q)}_before.png"))
+            inputs = page.evaluate("""() => Array.from(document.querySelectorAll('input, [contenteditable=true], [role=combobox], [role=searchbox]'))
+                .filter(e => e.offsetParent !== null).slice(0, 15)
+                .map(e => ({tag: e.tagName, attrs: Array.from(e.attributes).map(a => a.name + '=' + a.value.slice(0, 60))}))""")
+            (out / f"{args.seller}_{slug(q)}_inputs.json").write_text(json.dumps(inputs, indent=1), encoding="utf-8")
             box = page.locator(spec["input"] + " >> visible=true").first
             if not box.count():
                 log(f"{q}: no search box")
