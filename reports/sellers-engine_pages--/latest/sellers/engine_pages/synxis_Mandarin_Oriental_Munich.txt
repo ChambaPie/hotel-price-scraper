@@ -1,0 +1,18 @@
+#URL https://be.synxis.com/signin?chain=507&arrive=2026-12-14&depart=2026-12-15&adult=2&rooms=1&currency=EUR
+#FINAL https://be.synxis.com/signin?adult=2&arrive=2026-12-14&chain=507&child=0&currency=EUR&depart=2026-12-15&level=chain&locale=en-US&rooms=1
+#TITLE Mandarin Oriental - Reservations - Search for a Reservation
+Skip Navigation
+Main Menu
+HOTELS
+MY BOOKINGS
+EUR
+ENGLISH - US
+SIGN IN
+View, change, or cancel your reservation or order
+With a number
+Enter itinerary, confirmation, or item number
+Email Address
+SEARCH
+Don't know your itinerary, confirmation, or item number?
+
+Your itinerary, confirmation, and/or item numbers were included in an email sent at the time of booking. Please check your email to recover the number.

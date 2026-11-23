@@ -1,0 +1,1802 @@
+{
+  "messages": {
+    "": {
+      "plural_form": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)"
+    },
+    "be_amenities.BED_3": [
+      "King Size krevet"
+    ],
+    "be_notification_banner.unavailable": [
+      "Nedostupno"
+    ],
+    "be_notification_banner.please_review": [
+      "Molimo pregledajte."
+    ],
+    "be_configure_room.price_for_x_nights_for_1_extra_adult": [
+      "Cijena za %1$s noći za 1 dodatnog odraslog"
+    ],
+    "be_cart.deposit": [
+      "Polog"
+    ],
+    "be_amenities.BED_1": [
+      "Bračni krevet"
+    ],
+    "be_room_card_a11y.select_room": [
+      "Odaberite sobu"
+    ],
+    "be_availability_calendar_a11y.calendar_next_month": [
+      "Idi na sljedeći mjesec"
+    ],
+    "be_amenities.HAC_76": [
+      "Restoran"
+    ],
+    "be_modify.new_terms": [
+      "Nova rezervacija podliježe cijenama i uvjetima koji vrijede na dan izmjene rezervacije."
+    ],
+    "be_amenities.BED_8": [
+      "Dva odvojena kreveta"
+    ],
+    "be_amenity_scope.bed_type": [
+      "Vrsta Kreveta"
+    ],
+    "be_amenities.BED_5": [
+      "Queen Size krevet"
+    ],
+    "be_amenities.BED_6": [
+      "Kauč na razvlačenje"
+    ],
+    "be_amenities.BED_16": [
+      "Dječji krevet"
+    ],
+    "be_amenities.BED_9": [
+      "Jednokrevetna postelja"
+    ],
+    "be_amenities.BED_15": [
+      "Krevet na kat"
+    ],
+    "be_general.booking_not_found_no_hotel": [
+      "Nismo pronašli ovu rezervaciju. Poveznica je možda istekla ili je već iskorištena. Obratite se izravno hotelu."
+    ],
+    "be_notification_banner.availability_check_failed": [
+      "Žao nam je, provjera dostupnosti nije uspjela. Molimo pokušajte s novim odabirom."
+    ],
+    "be_cart.adult_extra_bed_x_nights": [
+      "Dodatak odraslog kreveta %1$s noćenje",
+      "Dodatni krevet za odraslu osobu %1$s noći"
+    ],
+    "be_configure_room_a11y.close_config_room_menu": [
+      "Zatvori izbornik konfiguracije sobe"
+    ],
+    "be_group_hotel_card.select": [
+      "Odaberi"
+    ],
+    "be_master_rate.for_x_guests": [
+      "za %1$s odraslu osobu",
+      "za %1$s odrasle"
+    ],
+    "be_booking_summary.date_booked": [
+      "Datum rezervacije"
+    ],
+    "be_configure_room.price_for_1_day_for_1_adult": [
+      "Cijena za 1 dan za 1 odraslu osobu"
+    ],
+    "be_notification_banner.adjusted_adults_to_max": [
+      "Povećali smo broj odraslih osoba na maksimalno dopušteno."
+    ],
+    "be_availability_calendar.dates_no_availability": [
+      "Datumi bez raspoloživosti"
+    ],
+    "be_cart.city_tax_info": [
+      "Informacije o boravišnoj pristojbi"
+    ],
+    "be_cart.room_x": [
+      "Soba %1$s"
+    ],
+    "be_general.booking_not_found": [
+      "Nismo pronašli ovu rezervaciju. Poveznica je možda istekla ili je već iskorištena. Obratite se izravno hotelu %1$s."
+    ],
+    "be_notification_banner.not_enought_rooms": [
+      "Nema dovoljno raspoloživih soba za vaš odabir.<br><br>Maksimalan broj raspoloživih soba je %1$s."
+    ],
+    "be_amenities.HAC_84": [
+      "Spa i wellness centar"
+    ],
+    "be_configure_room.price_for_x_nights_for_1_adult": [
+      "Cijena za %1$s noći za 1 odraslu osobu"
+    ],
+    "be_guests_rooms_selector_a11y.guests_decrease_rooms": [
+      "Ukloni sobu"
+    ],
+    "be_availability_calendar_a11y.calendar_date_label_avail_with_price_best": [
+      "{date}, available, best price this month, {price} {currency}"
+    ],
+    "be_footer_a11y.open_security_privacy": [
+      "Otvorena sigurnost i privatnost"
+    ],
+    "be_contact_form.tick_consen_contact": [
+      "Da, želio bih primati dodatne informacije o posebnim ponudama, promocijama ili događajima koji bi me mogli zanimati. Potvrđujem da sam gost koji boravi u hotelu."
+    ],
+    "be_gift_voucher_a11y.voucher_field": [
+      "Unesite svoj kôd bona ovdje"
+    ],
+    "be_cart.hide_details": [
+      "Sakrij detalje"
+    ],
+    "be_cancel.accept_prompt": [
+      "Ako i dalje želite otkazati ili izmijeniti ovu rezervaciju, morate označiti okvir u nastavku kako biste potvrdili da prihvaćate ova pravila prije nastavka otkazivanja."
+    ],
+    "be_footer_a11y.close_security_privacy": [
+      "Zatvori sigurnost i privatnost"
+    ],
+    "be_notification_banner.payment_connection_issue": [
+      "Došlo je do problema s plaćanjem. Pokušajte ponovno kasnije."
+    ],
+    "be_cart.x_children_1_night": [
+      "%1$s Djeca x 1 noć"
+    ],
+    "be_contact_form.id_type": [
+      "Vrsta dokumenta"
+    ],
+    "be_configure_room.price_for_x_days_for_x_children": [
+      "Cijena za %1$s dana za %2$s djecu"
+    ],
+    "be_contact_form.contact_person_confirm_email": [
+      "Osoba za kontakt potvrdi e-poštu"
+    ],
+    "be_amenities.RMA_149A": [
+      "Perilica"
+    ],
+    "be_notification_banner.selection_not_available_selected_dates": [
+      "Vaš odabir nije dostupan za odabrane datume.<br>Molimo promijenite svoje datume ili odaberite alternativnu opciju u nastavku."
+    ],
+    "be_footer_a11y.close_t_c": [
+      "Zatvori Uvjete i odredbe"
+    ],
+    "be_booking_summary.guests": [
+      "Gosti"
+    ],
+    "be_amenities.RMA_149B": [
+      "Aparat za sušenje rublja"
+    ],
+    "be_booking_summary.how_to_get_there": [
+      "Kako doći tamo"
+    ],
+    "be_page_title.select_your_room": [
+      "Odaberite svoju sobu"
+    ],
+    "be_general.x_years_at_checkout": [
+      "Do  <span class=\"font-bold\">%1$s</span> godina pri odjavi"
+    ],
+    "be_contact_form.contac_arriving_guest": [
+      "Kontakt detalji dolaznog gosta"
+    ],
+    "be_configure_room_a11y.config_room_decrease_children": [
+      "Uklonite dijete"
+    ],
+    "be_contact_form.select_state": [
+      "Odaberite svoju saveznu državu"
+    ],
+    "be_configure_room.price_for_x_nights": [
+      "Cijena za %1$s noćenja"
+    ],
+    "be_general.sorry": [
+      "Žao nam je!"
+    ],
+    "be_contact_form.valid_phone_number": [
+      "Potreban je važeći broj telefona"
+    ],
+    "be_contact_form.reason_for_travel": [
+      "Razlog putovanja"
+    ],
+    "be_group_tabs.show_on_map": [
+      "Prikaži na karti"
+    ],
+    "be_cancel.reference_is": [
+      "Vaš broj otkazivanja je"
+    ],
+    "be_error_page.return_to_website": [
+      "...ili se vratite na web stranicu hotela"
+    ],
+    "be_configure_room.per_1_day_per_x_people": [
+      "Dnevno po 1 dan po %1$s osoba"
+    ],
+    "be_guests_rooms_selector.age_of_each_child": [
+      "Dob svakog djeteta pri odjavi"
+    ],
+    "be_configure_room.per_x_days_per_x_people": [
+      "Po %1$s dana po %2$s osoba"
+    ],
+    "be_gift_voucher.gift_voucher": [
+      "Poklon bon"
+    ],
+    "be_master_rate.not_arrive_chosen_date": [
+      "Moguće je da nećete stići na odabrani datum."
+    ],
+    "be_cart.x_adults_1_night": [
+      "%1$s Odrasli x 1 noć"
+    ],
+    "be_notification_banner.not_available_these_dates": [
+      "Nije dostupno za ove datume."
+    ],
+    "be_contact_form.zip_code": [
+      "Poštanski broj"
+    ],
+    "be_cart.1_adult_x_nights": [
+      "1 Odrasla osoba x %1$s noći"
+    ],
+    "be_promo_code.promo_code": [
+      "Promotivni kod"
+    ],
+    "be_footer_a11y.bookassist_logo": [
+      "Pokreće Bookassist - Posjetite web stranicu"
+    ],
+    "be_footer_a11y.close_faq": [
+      "Zatvori ČPP"
+    ],
+    "be_cart.advance_purchase": [
+      "Advance purchase: Reservations are final and require full prepayment for the entire stay. No refunds if cancelled or changed. Once a reservation is confirmed, your credit card will be charged for the total amount shown, regardless of whether or not the reservation is used"
+    ],
+    "be_contact_form.approx_arrival_time": [
+      "Približno vrijeme dolaska"
+    ],
+    "be_notification_banner.please_note": [
+      "Molimo obratite pažnju"
+    ],
+    "be_amenities.HAC_1": [
+      "Recepcija otvorena 24 sata"
+    ],
+    "be_room_detail_popup.room_details": [
+      "Detalji sobe"
+    ],
+    "be_group_delimiter.x_hotels": [
+      "%1$s objekt",
+      "%1$s objekata"
+    ],
+    "be_notification_banner.selected_room_removed": [
+      "Novim pretraživanjem, bilo koja odabrana soba bit će uklonjena."
+    ],
+    "be_scam_notice.title": [
+      "Zaštitite se od prijevara s rezervacijama"
+    ],
+    "be_notification_banner.link_rate_unavailable_named": [
+      "%1$s više nije dostupno za ove datume"
+    ],
+    "be_modify.chosen_booked": [
+      "Odabrali ste izmjenu rezervacije:<br>%1$s Rezervirano: %2$s"
+    ],
+    "be_availability_calendar.approximate_prices": [
+      "Približne cijene u %1$s po sobi. Cijene mogu biti podložne uvjetima."
+    ],
+    "be_amenities.GRR_23": [
+      "Parkiralište"
+    ],
+    "be_cookie_banner.cookie_statistics_text": [
+      "Ovi kolačići pomažu vlasnicima web stranica da razumiju kako posjetitelji stupaju u interakciju s web stranicama prikupljanjem i anonimnim prijavljivanjem podataka kao što su stranice kojima ste pristupili i poveznice na koje ste kliknuli."
+    ],
+    "be_cancel.error": [
+      "Nažalost, nismo mogli otkazati vašu rezervaciju. Pokušajte ponovno ili se obratite izravno hotelu."
+    ],
+    "be_cookie_banner.cookie_marketing": [
+      "Marketing"
+    ],
+    "be_contact_form.address": [
+      "Adresa"
+    ],
+    "be_contact_form.email": [
+      "E-mail"
+    ],
+    "be_general.more_details": [
+      "Više detalja"
+    ],
+    "be_general.no_credit_card_required": [
+      "Nije potrebna uplata kreditnom karticom"
+    ],
+    "be_scam_notice.body": [
+      "Nikada vas nećemo tražiti podatke o kartici niti plaćanje putem WhatsAppa, SMS-a ili telefonskog poziva. Ako primite takvu poruku, nemojte odgovarati."
+    ],
+    "be_room_card_a11y.next_photo": [
+      "Sljedeća Fotografija"
+    ],
+    "be_master_rate.last_room_in_the_cart": [
+      "Posljednja soba već je u košarici"
+    ],
+    "be_rate_details.rate_details": [
+      "Detalji tarife"
+    ],
+    "be_cart.city_tax_payable_on_arrival": [
+      "Plaća se u hotelu po dolasku."
+    ],
+    "be_cart_a11y.edit_room": [
+      "Uredi odabrani raspored soba"
+    ],
+    "be_modify.original_terms": [
+      "Imajte na umu da izvorna rezervacija i dalje podliježe svim uvjetima koje ste prihvatili u trenutku te rezervacije, osobito u pogledu depozita ili predujmova. Zbog tih izvornih uvjeta hotelu se mogu naplatiti troškovi."
+    ],
+    "be_group_listing_page.select_hotel": [
+      "Odaberi Smještaj"
+    ],
+    "be_booking_summary.approx_arrival_time": [
+      "Približno vrijeme dolaska"
+    ],
+    "be_general.check_in": [
+      "Prijava"
+    ],
+    "be_cancel.thank_you": [
+      "Hvala što ste koristili %1$s"
+    ],
+    "be_contact_form.provide_document_faster_check_in": [
+      "Osigurajte broj dokumenta za brži check-in. Provjerite Pravila o privatnosti u nastavku."
+    ],
+    "be_amenities.RMA_105A": [
+      "Staklokeramička ploča"
+    ],
+    "be_page_title.room_x": [
+      "Soba %1$s"
+    ],
+    "be_cancel_a11y.confirm_cancellation": [
+      "Potvrdi otkazivanje"
+    ],
+    "be_contact_form.selec_your_country": [
+      "Odaberite svoju zemlju"
+    ],
+    "be_cart.show_details": [
+      "Prikaži detalje"
+    ],
+    "be_contact_form.select_country": [
+      "Odaberite svoju zemlju"
+    ],
+    "be_modify.instructions": [
+      "Kako biste izmijenili rezervaciju, morate napraviti novu rezervaciju odabirom novih datuma dolaska i odlaska, gostiju, svih soba i svih dodataka koje trebate. Nakon dovršetka nove rezervacije, vaša izvorna rezervacija bit će automatski otkazana. Primit ćete novi potvrdni kod i e-poruku te dodatnu e-poruku u kojoj je izvorna rezervacija prikazana kao otkazana."
+    ],
+    "be_cart.booking_fee": [
+      "Naknada za rezervaciju"
+    ],
+    "be_configure_room.price_for_1_night_for_1_extra_adult": [
+      "Cijena za 1 noć za 1 dodatnog odraslog"
+    ],
+    "be_notification_banner.maximum_number_of_rooms_reached_remove_from_cart": [
+      "Premašili ste maksimalan broj soba koje se mogu rezervirati u jednoj rezervaciji.<br>Molimo uklonite sobe iz košarice dok ne dostignete maksimalno %1$s soba."
+    ],
+    "be_gift_voucher.voucher_applied": [
+      "Vaučer primijenjen"
+    ],
+    "be_promo_code_a11y.promo_close_modal": [
+      "Zatvori izbornik promotivnih kodova"
+    ],
+    "be_master_rate.x_rooms_left": [
+      "Preostala je 1 soba",
+      "Preostale su %1$s sobe"
+    ],
+    "be_contact_form.las_name": [
+      "Prezime"
+    ],
+    "be_contact_actions.accept_hotel_policy": [
+      "Prihvaćam da sam pročitao, razumio i prihvaćam <a href=\"#\" id=\"tc_cancel\" class=\"underline\">Hotel politiku i uvjete</a>, <a href=\"#\" id=\"tc_bkg\" class=\"underline\">Uvjete i odredbe rezervacije</a>, <a href=\"#\" id=\"tc_prvcy_htl\" class=\"underline\">Hotel politiku privatnosti</a>, i <a href=\"#\" id=\"tc_prvcy_bkg\" class=\"underline\">Politiku privatnosti rezervacije</a>"
+    ],
+    "be_guests_rooms_selector_a11y.guests_decrease_adults": [
+      "Uklonite odrasle"
+    ],
+    "be_group_hotel_card.for_x_nights": [
+      "Za %1$s noćenje",
+      "Za %1$s noći"
+    ],
+    "be_contact_form.select_an_option": [
+      "Odaberite opciju"
+    ],
+    "be_booking_summary.cancel_reservation": [
+      "Otkaži rezervaciju"
+    ],
+    "be_notification_banner.promo_code_not_available_selected_dates": [
+      "Nema raspoloživosti za %1$s Promo kod za odabrane datume.<br><br>Molimo promijenite svoje datume ili odaberite alternativnu opciju u nastavku."
+    ],
+    "be_notification_banner.link_rate_unavailable": [
+      "Cijena iz vaše poveznice više nije dostupna"
+    ],
+    "be_general.x_children": [
+      "%1$s Dijete",
+      "%1$s Djeca"
+    ],
+    "be_notification_banner.adjusted_children_to_max": [
+      "Prilagodili smo broj djece na maksimalno dopušteno."
+    ],
+    "be_cancel.email_sent": [
+      "Poslana je e-poruka na %1$s<br>i na %2$s<br>radi potvrde ovog otkazivanja"
+    ],
+    "be_configure_room.price_1_night_1_child": [
+      "Cijena za 1 noć za 1 dijete"
+    ],
+    "be_enhance_your_stay_a11y.close_menu": [
+      "Zatvori izbornik"
+    ],
+    "be_rooms_details.rooms_details": [
+      "Detalji soba"
+    ],
+    "be_availability_calendar.checkout_only": [
+      "Samo odjava"
+    ],
+    "be_amenities.EQP_55": [
+      "Besplatni WiFi"
+    ],
+    "be_configure_room.price_x_nights_x_children": [
+      "Cijena za %1$s noći za %2$s djecu"
+    ],
+    "be_general.total": [
+      "Ukupno"
+    ],
+    "be_footer.faq": [
+      "Česta pitanja"
+    ],
+    "be_date_checker.guests": [
+      "Gost",
+      "Gosti"
+    ],
+    "be_gift_voucher.enter_voucher_code": [
+      "Unesite svoj kôd za poklon bon ovdje"
+    ],
+    "be_booking_summary.departure": [
+      "Odlazak"
+    ],
+    "be_page_component.see_more_options": [
+      "Prikaži više opcija"
+    ],
+    "be_notification_banner.room_no_more_rooms_available": [
+      "Žao nam je, nema više dostupnih soba."
+    ],
+    "be_footer.security_and_privacy": [
+      "Sigurnost i privatnost"
+    ],
+    "be_contact_form.confirmation_email_will_be_sent": [
+      "Potvrda će biti poslana na ovu adresu"
+    ],
+    "be_languae_and_currency_a11y.close_lang_curr_menu": [
+      "Zatvori izbornik jezika i valute."
+    ],
+    "be_contact_form.company_address": [
+      "Adresa tvrtke"
+    ],
+    "be_notification_banner.no_availability_for_your_selection": [
+      "Nema raspoloživosti za vaš odabir."
+    ],
+    "be_amenities.RMA_2": [
+      "Klima uređaj"
+    ],
+    "be_policies.hotel_privacy_policy": [
+      "Pravilnik o zaštiti privatnosti hotela"
+    ],
+    "be_amenities.RMA_1": [
+      "Povezane sobe"
+    ],
+    "be_availability_calendar_a11y.calendar_date_label_avail_no_price": [
+      "{date}, available"
+    ],
+    "be_your_selection.your_selection": [
+      "Vaš odabir"
+    ],
+    "be_contact_form.prefix": [
+      "Prefiks"
+    ],
+    "be_contact_actions.continue_to_checkout": [
+      "Nastavite do odjave"
+    ],
+    "be_amenities.RMA_8": [
+      "Roštilj"
+    ],
+    "be_summary_bar_a11y.cart_empty": [
+      "Prazna košarica. Odaberite sobu za početak rezervacije."
+    ],
+    "be_amenities.RMA_7": [
+      "Balkon/Lanai/Terasa"
+    ],
+    "be_master_rate.x_days_before_arrival": [
+      "Morate rezervirati ovu cijenu barem %1$s dan prije dolaska",
+      "Morate rezervirati ovu cijenu najmanje %1$s dana prije dolaska."
+    ],
+    "be_cart.specific_event_rates": [
+      "Specific Event Rates: Please refer to specific event payment terms as noted above"
+    ],
+    "be_cart.add_another_room": [
+      "Dodajte još jednu sobu"
+    ],
+    "be_general.vat_excluded": [
+      "PDV nije uključen"
+    ],
+    "be_languae_and_currency_a11y.done_button_curr": [
+      "Potvrdi odabrani valutu."
+    ],
+    "be_amenities.RST_35": [
+      "Centar za fitness / Teretana"
+    ],
+    "be_cart.select_a_room": [
+      "Molimo odaberite sobu kako biste započeli svoju rezervaciju"
+    ],
+    "be_hamburger_menu_a11y.menu_open": [
+      "Otvori glavni izbornik"
+    ],
+    "be_notification_banner.specify_rooms_and_guests": [
+      "Molimo navedite broj soba i gostiju za vašu rezervaciju."
+    ],
+    "be_group_delimiter.x_hotels_in_y": [
+      "%1$s objekt",
+      "%1$s objekata"
+    ],
+    "be_cookie_banner.cookie_accept_all": [
+      "Prihvatiti Sve"
+    ],
+    "be_notification_banner.add_another_room": [
+      "Da, dodajte još jednu sobu"
+    ],
+    "be_cart.customer_full_address": [
+      "Guest's full address has to be supplied at the time of booking"
+    ],
+    "be_notification_banner.need_another_room": [
+      "Želite li dodati još jednu sobu?"
+    ],
+    "be_cart.x_children_x_nights": [
+      "%1$s Djeca x %2$s noći"
+    ],
+    "be_configure_room_a11y.config_room_decrease_adults": [
+      "Ukloni odraslu osobu"
+    ],
+    "be_cancel.confirmed": [
+      "Otkazivanje potvrđeno"
+    ],
+    "be_cookie_banner.cookie_statistics": [
+      "Statistika"
+    ],
+    "be_enhance_your_stay.maybe-next-time": [
+      "Možda idući put"
+    ],
+    "be_configure_room.price_for_1_day_for_x_children": [
+      "Cijena za 1 dan za %1$s dijete"
+    ],
+    "be_room_card.unable_to_book_this_room": [
+      "Nije moguće rezervirati ovu sobu"
+    ],
+    "be_date_checker_a11y.open_promo_code": [
+      "Otvori izbornik promotivnih kodova"
+    ],
+    "be_cart.for_x_nights_for_all_guests": [
+      "Za %1$s noćenja za sve goste"
+    ],
+    "be_notification_banner.no_rooms_above_the_fold": [
+      "Nažalost, sobe koje tražite nisu dostupne.<br>Molimo provjerite u nastavku za alternative koje bi mogle odgovarati vašim potrebama."
+    ],
+    "be_notification_banner.proceed_to_checkout": [
+      "Nastavite na blagajnu"
+    ],
+    "be_availability_calendar.are_your_dates_flexible": [
+      "Jesu li vaši datumi fleksibilni?"
+    ],
+    "be_notification_banner.book_x_hours_prior_to_arrival": [
+      "Morate rezervirati barem %1$s sati prije dolaska",
+      "Morate rezervirati barem 1 sat prije dolaska",
+      "Morate rezervirati barem %1$s sati prije dolaska"
+    ],
+    "be_group_map.zoom_all": [
+      "Sve Zoom"
+    ],
+    "be_cart.x_adults_x_nights": [
+      "%1$s Odraslih x %2$s noćenja"
+    ],
+    "be_notification_banner.adjusted_adults_to_one_per_room": [
+      "Prilagodili smo broj odraslih osoba tako da u svakoj sobi bude barem jedna osoba."
+    ],
+    "be_configure_room.price_for_x_nights_for_x_children": [
+      "Cijena za %1$s noći za %2$s djecu"
+    ],
+    "be_booking_summary.arrival": [
+      "Dolazak"
+    ],
+    "be_notification_banner.adjusted_adults_to_one": [
+      "Prilagodili smo broj odraslih osoba kako bismo osigurali da je barem jedna odabrana."
+    ],
+    "be_contact_form.special_request": [
+      "Poseban zahtjev"
+    ],
+    "be_cart_a11y.delete_room": [
+      "Ukloni sobu"
+    ],
+    "be_notification_banner.available_rooms_with_restrictions": [
+      "Ispričavamo se, sobe su dostupne, ali postoje posebni zahtjevi za njihovo rezerviranje."
+    ],
+    "be_summary_bar.my_dates_are_flexible": [
+      "Moji datumi su fleksibilni"
+    ],
+    "be_contact_form.state_county": [
+      "Država/Županija"
+    ],
+    "be_cart.1_night_1_adult_x_children": [
+      "1 Noć - 1 Odrasla osoba, %1$s Djeca"
+    ],
+    "be_configure_room_a11y.config_room_increase_adults": [
+      "Dodaj odraslu osobu"
+    ],
+    "be_configure_room.per_day": [
+      "Na dan"
+    ],
+    "be_configure_room.price_for_1_night_for_1_adult": [
+      "Cijena za 1 noć za 1 odraslu osobu"
+    ],
+    "be_booking_summary.booking_ref": [
+      "Broj rezervacije"
+    ],
+    "be_cart.for_1_night_for_all_guests": [
+      "Za 1 noć za sve goste"
+    ],
+    "be_general.adults": [
+      "Odrasla osoba",
+      "Odrasli"
+    ],
+    "be_general.meal_options": [
+      "Opcije obroka"
+    ],
+    "be_cart.n_nights_1_adult_1_child": [
+      "%1$s Noći - 1 odrasla osoba, 1 dijete"
+    ],
+    "be_amenities.REF_27": [
+      "Restoran"
+    ],
+    "be_notification_banner.see_room_descriptions": [
+      "Molimo pogledajte opise soba za više detalja"
+    ],
+    "be_booking_summary.thanks_customer": [
+      "Hvala %1$s!"
+    ],
+    "be_configure_room.extra_adults": [
+      "%1$s Dodatni odrasli"
+    ],
+    "be_general.from": [
+      "Od"
+    ],
+    "be_contact_form.confirm_email": [
+      "Potvrdi e-poštu"
+    ],
+    "be_contact_form.contact_person_mobile": [
+      "Kontakt osoba mobilni"
+    ],
+    "be_guests_rooms_selector_a11y.guests_increase_rooms": [
+      "Dodaj sobu"
+    ],
+    "be_policies.hotel_cancellation_policy": [
+      "Politika otkazivanja hotela"
+    ],
+    "be_amenity_scope.kitchen": [
+      "Kuhinja"
+    ],
+    "be_modify.policy_header": [
+      "Pravila %1$s"
+    ],
+    "be_date_checker.check_availability": [
+      "Provjeri dostupnost"
+    ],
+    "be_configure_room.price_for_1_day_for_1_child": [
+      "Cijena za 1 dan za 1 dijete"
+    ],
+    "be_summary_bar_a11y.close_menu": [
+      "Zatvori Pregled Rezervacije"
+    ],
+    "be_amenities.HAC_224": [
+      "Dopušteni ljubimci"
+    ],
+    "be_promo_code_a11y.promo_invalid_code": [
+      "Uneseni promotivni kod nije valjan. Molimo, izbrišite ili ispravite ga."
+    ],
+    "be_error_page.oops": [
+      "Ups"
+    ],
+    "be_footer.terms_and_conditions": [
+      "Uvjeti i odredbe"
+    ],
+    "be_page_component.see_fewer_options": [
+      "Vidi manje opcija"
+    ],
+    "be_cart.base_price": [
+      "Osnovna cijena"
+    ],
+    "be_configure_room.base_room_price": [
+      "Cijena osnovne sobe"
+    ],
+    "be_availability_calendar_a11y.close_avail_calendar": [
+      "Zatvori kalendar"
+    ],
+    "be_contact_form.resident_number": [
+      "Broj rezidenta"
+    ],
+    "be_cookie_banner.cookie_intro_2": [
+      "Ovi kolačići neophodni su za upotrebljivost web stranice jer omogućuju osnovne funkcije poput navigacije stranicama i pristupa sigurnim područjima web stranice. Web stranica ne može ispravno funkcionirati bez ovih kolačića."
+    ],
+    "be_cookie_banner.cookie_intro_1": [
+      "Naša web stranica koristi kolačiće za poboljšanje vašeg iskustva pregledavanja i za isporuku sadržaja prilagođenog vašim potrebama. Za više informacija pogledajte naša Pravila privatnosti."
+    ],
+    "be_guests_rooms_selector_a11y.open_rooms_selector": [
+      "Otvori izbornik odabira soba"
+    ],
+    "be_date_checker.departure": [
+      "Odlazak"
+    ],
+    "be_notification_banner.adjusted_rooms_to_max": [
+      "Povećali smo broj soba na maksimalno dopušteno."
+    ],
+    "be_page_component.flexible_dates": [
+      "Fleksibilni datumi"
+    ],
+    "be_configure_room.per_1_day_per_1_person": [
+      "Na 1 dan po 1 osoba"
+    ],
+    "be_master_rate.up_to_x_guests": [
+      "do %1$s odraslih"
+    ],
+    "be_booking_summary.room_details": [
+      "Detalji soba"
+    ],
+    "be_hamburger_menu.hotel_website": [
+      "Web stranica hotela"
+    ],
+    "be_general.max_x_people": [
+      "Maks. %1$s osoba",
+      "Maks. %1$s osoba"
+    ],
+    "be_page_component.room_list": [
+      "Popis soba"
+    ],
+    "be_general.rooms": [
+      "Soba",
+      "Sobe"
+    ],
+    "be_contact_form.country_region": [
+      "Zemlja/Region"
+    ],
+    "be_amenity_scope.room": [
+      "Soba"
+    ],
+    "be_notification_banner.no_proceed_to_checkout": [
+      "Ne, Nastavite na blagajnu"
+    ],
+    "be_cookie_banner.cookie_settings": [
+      "Postavke kolačića"
+    ],
+    "be_page_title.booking_completed": [
+      "Rezervacija Završena"
+    ],
+    "be_cart.room_setup": [
+      "Postavljanje sobe"
+    ],
+    "be_enhance_your_stay_a11y.decrease_addon": [
+      "Uklonite dodatak"
+    ],
+    "be_general.book_now": [
+      "Rezervirajte sada"
+    ],
+    "be_notification_banner.no_availability_change_dates_or_alternative_room": [
+      "Your selection is not available for the dates selected.<br>Please change your dates or choose an alternative option below."
+    ],
+    "be_modify_a11y.continue_to_modify": [
+      "Nastavi s izmjenom rezervacije"
+    ],
+    "be_cookie_banner.cookie_preferences": [
+      "Preferencije"
+    ],
+    "be_master_rate.not_book_less_1_night": [
+      "Nije moguće rezervirati ovu sobu/paket za manje od 1 noć"
+    ],
+    "be_policies.booking_policy_accepted": [
+      "Prihvaćena politika rezervacije"
+    ],
+    "be_cart.to_pay_now": [
+      "Plaćanje sada"
+    ],
+    "be_contact_form.type_country": [
+      "Unesite ime zemlje"
+    ],
+    "be_cart.vat": [
+      "PDV (%1$s%%)"
+    ],
+    "be_policies.booking_confirmed": [
+      "Ova rezervacija je potvrđena. Rezerviratelj je prihvatio pravila rezervacije, uključujući hotelsku politiku otkazivanja vezanu uz ovu rezervaciju."
+    ],
+    "be_master_rate.x_nights": [
+      "%1$s noć",
+      "%1$s noćenja"
+    ],
+    "be_languae_and_currency.no_currency": [
+      "Nije pronađena valuta, molimo pokušajte ponovno"
+    ],
+    "be_configure_room.price_for_1_night_for_1_child": [
+      "Cijena za 1 noć za 1 dijete"
+    ],
+    "be_cart.1_child_1_night": [
+      "1 Dijete x 1 noć"
+    ],
+    "be_master_rate.unavailable_dates": [
+      "Nedostupni datumi"
+    ],
+    "be_configure_room.price_for_x_nights_for_x_adults": [
+      "Cijena za %1$s noći za %2$s odraslih"
+    ],
+    "be_configure_room.price_x_nights_1_child": [
+      "Cijena za %1$s noći za 1 dijete"
+    ],
+    "be_booking_summary.booking_details": [
+      "Detalji rezervacije"
+    ],
+    "be_contact_form.business": [
+      "Poslovni"
+    ],
+    "be_amenities.RMA_183": [
+      "Čaše/stakleni pribor"
+    ],
+    "be_general.price_per_day": [
+      "Cijena po danu"
+    ],
+    "be_cart.less_voucher_contribution": [
+      "Manje doprinos vaučera"
+    ],
+    "be_amenities.RMA_185": [
+      "Sobe"
+    ],
+    "be_modify.button": [
+      "Izmijeni rezervaciju"
+    ],
+    "be_configure_room.price_for_1_day": [
+      "Cijena za 1 dan"
+    ],
+    "be_error_page.start_fresh_booking_here": [
+      "Započnite novu rezervaciju ovdje:"
+    ],
+    "be_guests_rooms_selector.as_many_adults_as_rooms": [
+      "Molimo odaberite barem jednako odraslih koliko i soba"
+    ],
+    "be_modify.request": [
+      "Zahtjev za izmjenu"
+    ],
+    "be_cart.vat_if_applicable": [
+      "PDV (ako je primjenjivo)"
+    ],
+    "be_contact_form.valid_email_address": [
+      "Potrebna je važeća e-adresa."
+    ],
+    "be_cart.vat_amount": [
+      "PDV"
+    ],
+    "be_configure_room.children_total": [
+      "Djeca ukupno"
+    ],
+    "be_amenities.HAC_157": [
+      "Švedski stol"
+    ],
+    "be_notification_banner.prices_have_been_adjusted": [
+      "Cijene su prilagođene za odabrane datume"
+    ],
+    "be_footer.bookassist_website": [
+      "Web stranica Bookassist-a"
+    ],
+    "be_amenities.RMA_88": [
+      "Hladnjak"
+    ],
+    "be_guests_rooms_selector.ages_needed_for_prices": [
+      "Cijene ovise o dobi djece"
+    ],
+    "be_gift_voucher.have_gift_voucher": [
+      "Imate li poklon bon?"
+    ],
+    "be_cart.not_confirmed_until_cc_verified": [
+      "Rezervacija nije potvrđena dok se ne provjere detalji kreditne kartice."
+    ],
+    "be_amenities.RMA_82": [
+      "Lonci i tave"
+    ],
+    "be_amenities.RMA_81": [
+      "Posuđe"
+    ],
+    "be_cart.1_night_x_adults_x_children": [
+      "1 Noć - %1$s Odraslih, %2$s Djeca"
+    ],
+    "be_page_title.your_details": [
+      "Vaši Podaci"
+    ],
+    "be_cart.extras": [
+      "Dodaci"
+    ],
+    "be_cart.n_nights_x_adults_1_child": [
+      "%1$s Noći - %2$s Odraslih, 1 Dijete"
+    ],
+    "be_contact_form.phone_number": [
+      "Broj telefona"
+    ],
+    "be_configure_room.configure": [
+      "Konfiguriraj"
+    ],
+    "be_amenities.HAC_141": [
+      "Besplatni kontinentalni doručak"
+    ],
+    "be_general.continue": [
+      "Nastavite"
+    ],
+    "be_cookie_banner.cookie_preference": [
+      "Prednost"
+    ],
+    "be_notification_banner.select_room_x": [
+      "Odaberite sobu %1$s"
+    ],
+    "be_notification_banner.book_up_to_x_months_in_advance": [
+      "Možete rezervirati najviše %1$s mjeseci unaprijed.",
+      "Voi varata enintään 1 kuukausi etukäteen",
+      "Možete rezervirati najviše %1$s mjeseci unaprijed."
+    ],
+    "be_configure_room.price_for_x_days_for_1_adult": [
+      "Cijena za %1$s dana za 1 odraslu osobu"
+    ],
+    "be_cart.n_nights_x_adults_x_children": [
+      "%1$s Noći - %2$s Odraslih, %3$s Djece"
+    ],
+    "be_room_card.hide_rates": [
+      "Sakrijte cijene"
+    ],
+    "be_notification_banner.please_select_new_dates": [
+      "Molimo odaberite nove datume ili odaberite alternativnu opciju u nastavku."
+    ],
+    "be_amenities.RMA_74": [
+      "Nepušački"
+    ],
+    "be_general.city_tax_excluded": [
+      "Porez na grad nije uključen"
+    ],
+    "be_date_checker.arrival": [
+      "Dolazak"
+    ],
+    "be_room_card.price_depends_on": [
+      "Cijena ovisi o datumu dolaska i dužini boravka."
+    ],
+    "be_amenities.RMA_77": [
+      "Pećnica"
+    ],
+    "be_availability_calendar_a11y.calendar_date_label_avail_with_price": [
+      "{date}, available, {price} {currency}"
+    ],
+    "be_rooms_details.room_price_per_night": [
+      "Cijena sobe po noći"
+    ],
+    "be_booking_summary.modify_reservation": [
+      "Izmijenite rezervaciju"
+    ],
+    "be_contact_form.company_name": [
+      "Ime tvrtke"
+    ],
+    "be_contact_form.select_document_type": [
+      "Odaberi Vrstu Dokumenta"
+    ],
+    "be_room_card_a11y.more_details_a11y": [
+      "Detalji sobe"
+    ],
+    "be_cancel.request_intro": [
+      "Zatražili ste otkazivanje rezervacije navedene u nastavku"
+    ],
+    "be_amenities.RMA_167": [
+      "Toster"
+    ],
+    "be_guests_rooms_selector_a11y.guests_error_too_few_adults": [
+      "Molimo odaberite barem jednako mnogo odraslih kao i soba"
+    ],
+    "be_footer_a11y.open_faq": [
+      "Otvori ČPP"
+    ],
+    "be_amenities.HAC_258": [
+      "Pristupačne sobe"
+    ],
+    "be_room_card_a11y.show_rates_a11y": [
+      "Prikaži Cijene"
+    ],
+    "be_amenities.HAC_138": [
+      "Besplatni buffet doručak"
+    ],
+    "be_booking_summary.print_page": [
+      "Ispiši ovu stranicu"
+    ],
+    "be_general.cancel": [
+      "Otkazati"
+    ],
+    "be_amenities.HAC_253": [
+      "Privatni bazen"
+    ],
+    "be_customer_details.customer_details": [
+      "Detalji kupca"
+    ],
+    "be_master_rate.not_book_more_1_nights": [
+      "Nije moguće rezervirati ovu sobu/paket za više od 1 noć."
+    ],
+    "be_general.apply": [
+      "Primijeni"
+    ],
+    "be_page_title.skip_to_checkout": [
+      "Preskoči i idi na Naplata"
+    ],
+    "be_notification_banner.Update_number_rooms": [
+      "Ažurirajte broj soba"
+    ],
+    "be_cancel.request": [
+      "Zahtjev za otkazivanje"
+    ],
+    "be_configure_room.price_1_night_x_children": [
+      "Cijena za 1 noć za %1$s djece"
+    ],
+    "be_error_page.something_went_wrong": [
+      "Žao nam je,<br>došlo je do greške"
+    ],
+    "be_notification_banner.not_enough_availability_try_again": [
+      "Žao nam je, nema dovoljno raspoloživosti za vaš zahtjev, molimo pokušajte ponovno."
+    ],
+    "be_guests_rooms_selector_a11y.guests_continue_button": [
+      "Nastavite s odabranim sobama i gostima"
+    ],
+    "be_room_card.show_rates": [
+      "Prikaži cijene"
+    ],
+    "be_booking_summary.nights": [
+      "Noćenja"
+    ],
+    "be_guests_rooms_selector_a11y.open_guest_selector": [
+      "Otvori izbornik odabira gostiju"
+    ],
+    "be_configure_room.add_child_age": [
+      "Molimo dodajte dob djeteta"
+    ],
+    "be_notification_banner.select_new_dates": [
+      "Odaberite nove datume"
+    ],
+    "be_amenities.RMA_98": [
+      "Pribor za jelo"
+    ],
+    "be_amenities.RMA_97": [
+      "Tuš"
+    ],
+    "be_general.room": [
+      "Popis Soba"
+    ],
+    "be_contact_form.mobile_number": [
+      "Broj mobitela"
+    ],
+    "be_cart.not_include_city_tax": [
+      "Rate does not include City Tax of {currency}%1$s - per person per night - to be paid on arrival at the hotel"
+    ],
+    "be_amenities.RMA_99": [
+      "Prostor za sjedenje"
+    ],
+    "be_enhance_your_stay_a11y.increase_addon": [
+      "Dodajte dodatak"
+    ],
+    "be_guests_rooms_selector_a11y.guests_decrease_children": [
+      "Uklonite dijete"
+    ],
+    "be_rate_recommender_a11y.select_rr_room": [
+      "Preporučena Soba {title} {price} {popust}"
+    ],
+    "be_notification_banner.remove_room_from_cart": [
+      "Jeste li sigurni da želite ukloniti sobu iz košarice?"
+    ],
+    "be_cart.n_nights_1_adult_x_children": [
+      "%1$s Noći - 1 Odrasla osoba, %2$s Djeca"
+    ],
+    "be_amenities.RMA_92": [
+      "Sigurnosni sef"
+    ],
+    "be_amenities.RMA_91": [
+      "Pomoćni krevet"
+    ],
+    "be_amenities.RMA_261": [
+      "Ploče/stakleni pribor"
+    ],
+    "be_general.max_x": [
+      "Maks. %1$s"
+    ],
+    "be_notification_banner.see_available_rooms": [
+      "Pogledajte dostupne sobe"
+    ],
+    "be_availability_calendar.nights": [
+      "1 noć",
+      "%1$s noćenja"
+    ],
+    "be_configure_room.meal_mandatory": [
+      "U ovoj sobi opcija obroka je obavezna"
+    ],
+    "be_general.check-out": [
+      "Odjava"
+    ],
+    "be_configure_room.price_for_1_night": [
+      "Cijena za 1 noć"
+    ],
+    "be_languae_and_currency_a11y.done_button_lang": [
+      "Potvrdi odabrani jezik"
+    ],
+    "be_notification_banner.promo_code_no_availability": [
+      "Nema raspoloživosti za %1$s Promo kod za odabrane datume.<br>Možete odabrati nove datume ili provjeriti druge raspoložive sobe."
+    ],
+    "be_amenities.RMA_149": [
+      "Perilica/sušilica"
+    ],
+    "be_notification_banner.no_rooms_above_the_fold_price_group": [
+      "Nažalost, za vaš odabir nema savršenog podudaranja.<br>Međutim, molimo provjerite u nastavku za alternative koje bi mogle odgovarati vašim potrebama."
+    ],
+    "be_booking_summary.show_on_map": [
+      "Prikaži na karti"
+    ],
+    "be_contact_form.required": [
+      "Obavezno"
+    ],
+    "be_cart.city_tax": [
+      "Boravišna pristojba"
+    ],
+    "be_cart.promo_code_applied": [
+      "Promo kod primijenjen"
+    ],
+    "be_configure_room.price_for_x_days_for_1_child": [
+      "Cijena za %1$s dana za 1 dijete"
+    ],
+    "be_notification_banner.discrepancy_between_search_and_cart": [
+      "Broj odraslih ili djece premašuje maksimalno dopušteno za ovu sobu. Molimo, prilagodite količinu ili razmotrite rezervaciju dodatnih soba."
+    ],
+    "be_cart.total_already_paid": [
+      "Ukupno već plaćeno"
+    ],
+    "be_footer_a11y.open_t_c": [
+      "Otvori Uvjete i Odredbe"
+    ],
+    "be_cart.1_child_x_nights": [
+      "1 Dijete x %1$s noći"
+    ],
+    "be_master_rate.for_x_nights": [
+      "Za %1$s noćenje",
+      "Za %1$s noći"
+    ],
+    "be_promo_code_a11y.promo_input_code": [
+      "Unesite svoj promotivni kod"
+    ],
+    "be_amenities.RMA_270": [
+      "Prostor za sjedenje s kaučem/stolcem"
+    ],
+    "be_promo_code.enter_promo_code": [
+      "Unesite svoj promotivni kod ovdje"
+    ],
+    "be_configure_room.price_for_1_night_for_x_extra_adults": [
+      "Cijena za 1 noć za %1$s dodatnih odraslih"
+    ],
+    "be_contact_form.leisure": [
+      "Slobodno vrijeme"
+    ],
+    "be_modify.accept_prompt": [
+      "Morate označiti okvir u nastavku kako biste potvrdili da razumijete navedeno i prihvaćate pravila %1$s prije nastavka izmjene rezervacije"
+    ],
+    "be_general.city_tax_included": [
+      "Boravišna pristojba uključena"
+    ],
+    "be_cart.total_room_x": [
+      "Ukupna soba %1$s"
+    ],
+    "be_master_rate.room_x_people": [
+      "Ova soba može primiti %1$s osobu",
+      "Ova soba može primiti %1$s ljudi"
+    ],
+    "be_amenities.RMA_32": [
+      "Perilica posuđa"
+    ],
+    "be_cart.1_night_1_adult_1_child": [
+      "1 Noć - 1 Odrasla osoba, 1 Dijete"
+    ],
+    "be_configure_room.adult_x": [
+      "Odrasla osoba %1$s"
+    ],
+    "be_gift_voucher.apply": [
+      "Primijeni"
+    ],
+    "be_cookie_banner.cookie_apply_settings": [
+      "Primjeni Postavke"
+    ],
+    "be_footer_a11y.open_cookie_preferences": [
+      "Otvori Postavke Kolačića"
+    ],
+    "be_general.children": [
+      "Dijete",
+      "Djeca"
+    ],
+    "be_contact_form.national_id_card": [
+      "Osobna iskaznica"
+    ],
+    "be_cart.cc_details_not_required": [
+      "Credit Card details are not required to complete your booking"
+    ],
+    "be_configure_room.configure_your_room": [
+      "Konfigurirajte svoju sobu"
+    ],
+    "be_guests_rooms_selector_a11y.guests_close_button": [
+      "Zatvori izbornik soba i gostiju"
+    ],
+    "be_configure_room_a11y.config_room_increase_children": [
+      "Dodaj dijete"
+    ],
+    "be_notification_banner.start_over": [
+      "Počni ispočetka"
+    ],
+    "be_notification_banner.check_other_dates": [
+      "Provjerite druge datume"
+    ],
+    "be_date_checker.book_your_stay": [
+      "Rezervirajte svoj boravak"
+    ],
+    "be_configure_room.extra_adult": [
+      "1 Dodatni odrasli"
+    ],
+    "be_contact_form.required_information": [
+      "Obavezne informacije"
+    ],
+    "be_languae_and_currency_a11y.select_lang_curr": [
+      "Odabir jezika i valute"
+    ],
+    "be_contact_form.emails_must_match": [
+      "E-mailovi se moraju podudarati"
+    ],
+    "be_availability_calendar_a11y.unavailable_date": [
+      "Nedostupan datum"
+    ],
+    "be_summary_bar.your_stay": [
+      "Vaš Boravak"
+    ],
+    "be_master_rate.some_not_available": [
+      "Neki datumi nisu dostupni"
+    ],
+    "be_notification_banner.yes_remove": [
+      "Da, molim vas uklonite"
+    ],
+    "be_amenities.RMA_69": [
+      "Mini bar"
+    ],
+    "be_amenities.RMA_68": [
+      "Mikrovalna pećnica"
+    ],
+    "be_notification_banner.adjusted_rooms_to_one": [
+      "Prilagodili smo broj soba kako bismo osigurali da je odabrana barem jedna."
+    ],
+    "be_title.book_your_stay": [
+      "Rezervirajte svoj boravak"
+    ],
+    "be_configure_room.price_for_x_days_for_x_adults": [
+      "Cijena za %1$s dana za %2$s odraslih"
+    ],
+    "be_page_title.select_an_alternative": [
+      "Odaberi alternativu"
+    ],
+    "be_amenities.RMA_61": [
+      "Kuhinjačica"
+    ],
+    "be_cancel.policy_notice": [
+      "Imajte na umu da je vaša izvorna rezervacija posredovana putem sustava Bookassist, ali je izvršena<i> izravno s %1$s</i>. Sukladno tome, otkazivanje podliježe pravilima otkazivanja %2$s kako slijedi:"
+    ],
+    "be_amenities.RMA_60": [
+      "Kuhinjska oprema"
+    ],
+    "be_amenities.HAC_282": [
+      "Prijevoz do zračne luke"
+    ],
+    "be_amenities.HAC_283": [
+      "Usluga prtljage"
+    ],
+    "be_amenities.RMA_251": [
+      "Televizor"
+    ],
+    "be_guests_rooms_selector_a11y.guests_increase_adults": [
+      "Dodaj odraslu osobu"
+    ],
+    "be_cancel.accept_label": [
+      "Prihvaćam pravila otkazivanja %1$s"
+    ],
+    "be_notification_banner.check_other_rooms_or_dates": [
+      "Ovdje možete provjeriti druge dostupne sobe ili provjeriti druge datume"
+    ],
+    "be_amenity_scope.bathroom": [
+      "Kupaonica"
+    ],
+    "be_amenities.RMA_59": [
+      "Kuhinja"
+    ],
+    "be_amenities.HAC_286": [
+      "Besplatni WiFi"
+    ],
+    "be_page_title.all_rooms": [
+      "Sve sobe"
+    ],
+    "be_configure_room.per_x_days_per_1_person": [
+      "Na %1$s dana po 1 osobi"
+    ],
+    "be_notification_banner.adjusted_rooms_adults_and_children": [
+      "Prilagodili smo broj soba, odraslih i djece kako bi se uklopili unutar dopuštenih ograničenja."
+    ],
+    "be_page_title.select": [
+      "Odaberi"
+    ],
+    "be_policies.click_here_to_see_policy": [
+      "Kliknite ovdje kako biste vidjeli Pravila o privatnosti"
+    ],
+    "be_summary_bar.booking_summary": [
+      "Sažetak rezervacije"
+    ],
+    "be_error_page.please_return_to_website": [
+      "Molimo vratite se na web stranicu hotela."
+    ],
+    "be_configure_room.price_for_1_day_for_x_adults": [
+      "Cijena za 1 dan za %1$s odraslih"
+    ],
+    "be_booking_summary.customer_details": [
+      "Detalji kupca"
+    ],
+    "be_amenities.RMA_50": [
+      "Sušilo za kosu"
+    ],
+    "be_general.cancel_with_hotel": [
+      "Ova rezervacija mora se otkazati izravno s %1$s jer je datum dolaska prošao."
+    ],
+    "be_contact_form.firs_name": [
+      "Ime"
+    ],
+    "be_contact_form.city_town": [
+      "Grad/Mjesto"
+    ],
+    "be_date_checker_a11y.open_avail_calendar": [
+      "Odaberite datume dolaska i odlaska"
+    ],
+    "be_notification_banner.maximum_number_of_rooms_reached": [
+      "Žao nam je, dosegnuli ste maksimalni broj soba koje se mogu rezervirati."
+    ],
+    "be_contact_form.earliest_check_in": [
+      "Najraniji dolazak:"
+    ],
+    "be_contact_form.vat_number": [
+      "Broj PDV-a"
+    ],
+    "be_amenities.RMA_105": [
+      "Štednjak"
+    ],
+    "be_amenities.RMA_228": [
+      "Papuče"
+    ],
+    "be_general.price_for_x_nights": [
+      "Cijena za %1$s noći",
+      "Cijena za %1$s noćenja"
+    ],
+    "be_rate_recommender.recommended_for_you": [
+      "Preporučeno za vas"
+    ],
+    "be_cart.vat_paid_at_hotel_note": [
+      "Nije uključen u ukupni iznos. Hotel potvrđuje primjenjuje li se."
+    ],
+    "be_availability_calendar.dates_best_price": [
+      "Najbolja cijena mjeseca"
+    ],
+    "be_master_rate.x_guests": [
+      "%1$s gost",
+      "%1$s gostiju"
+    ],
+    "be_cart.child_extra_bed_x_nights": [
+      "Dječji dodatni krevet %1$s noćenje",
+      "Dječji dodatni krevet %1$s noći"
+    ],
+    "be_promo_code_a11y.promo_clear_code": [
+      "Očisti uneseni promotivni kod"
+    ],
+    "be_guests_rooms_selector.select_rooms_guests": [
+      "Odaberite sobe i goste"
+    ],
+    "be_cookie_banner.cookie_marketing_text": [
+      "Ovi kolačići se koriste za praćenje posjetitelja na web-mjestima i za predstavljanje korisnicima relevantnih i zanimljivih oglasa koji bi mogli biti zanimljivi te za ograničavanje učestalosti tih oglasa."
+    ],
+    "be_amenities.RVT_12": [
+      "Pogled na bazen"
+    ],
+    "be_amenities.RVT_11": [
+      "Pogled na more"
+    ],
+    "be_amenities.RVT_10": [
+      "Pogled na planinu"
+    ],
+    "be_languae_and_currency.language": [
+      "Jezik"
+    ],
+    "be_configure_room.price_for_x_nights_for_1_child": [
+      "Cijena za %1$s noći za 1 dijete"
+    ],
+    "be_amenities.RVT_16": [
+      "Pogled na vrt"
+    ],
+    "be_promo_code.promo_code_error": [
+      "Promotivni kod koji ste unijeli nije važeći.<br>Molimo vas da ga obrišete ili ispravite."
+    ],
+    "be_cart.1_night_x_adults_1_child": [
+      "1 Noć - %1$s Odraslih, 1 Dijete"
+    ],
+    "be_availability_calendar_a11y.date_selection_calendar": [
+      "Kalendar odabira datuma"
+    ],
+    "be_availability_calendar_a11y.calendar_prev_month": [
+      "Idi na Prethodni Mjesec"
+    ],
+    "be_hamburger_menu.secure_page": [
+      "Ovo je sigurna stranica. Prijenos svih informacija je šifriran radi vaše sigurnosti."
+    ],
+    "be_cart.balance_due": [
+      "Preostali iznos"
+    ],
+    "be_general.edit": [
+      "Uredi"
+    ],
+    "be_cart.c_secures_booking": [
+      "Vaša kreditna kartica osigurava vašu rezervaciju samo i neće biti naplaćena u ovom trenutku."
+    ],
+    "be_modify.accept_label": [
+      "Prihvaćam pravila %1$s"
+    ],
+    "be_amenities.RMA_239": [
+      "Osvijetljeni ogledalo za šminkanje"
+    ],
+    "be_gift_voucher.total_less_gift_voucher": [
+      "Ukupno manje Darovnog Vaučera"
+    ],
+    "be_guests_rooms_selector_a11y.guests_increase_children": [
+      "Dodaj dijete"
+    ],
+    "be_booking_summary.booking_completed": [
+      "Rezervacija završena"
+    ],
+    "be_general.x_adults": [
+      "%1$s Odrasla osoba",
+      "%1$s Odrasli"
+    ],
+    "be_cookie_banner.cookie_value_privacy": [
+      "Poštujemo vašu privatnost."
+    ],
+    "be_notification_banner.room_no_longer_available": [
+      "Žao nam je, soba koju ste pokušavali rezervirati više nije dostupna. Molimo napravite novi odabir."
+    ],
+    "be_contact_form.passport": [
+      "Putovnica"
+    ],
+    "be_cookie_banner.cookie_preference_text": [
+      "Ovi kolačići omogućuju web stranici da zapamti informacije koje mijenjaju način na koji se web stranica ponaša ili izgleda, kao što je vaš željeni jezik, regija u kojoj se nalazite ili podaci za prijavu. Preferencijalni kolačići se ponekad nazivaju funkcionalnim kolačićima."
+    ],
+    "be_configure_room.adult_extra_bed": [
+      "Dodatni krevet za odraslu osobu %1$s"
+    ],
+    "be_booking_summary.website": [
+      "Web stranica"
+    ],
+    "be_cancel.policy_header": [
+      "Pravila otkazivanja %1$s"
+    ],
+    "be_modify.policy_notice": [
+      "Imajte na umu da je vaša izvorna rezervacija posredovana putem sustava Bookassist, ali je izvršena izravno s %1$s. Sukladno tome, svaka izmjena podliježe pravilima %1$s kako slijedi:"
+    ],
+    "be_cancel.contact_hotel": [
+      "Kontakt hotela"
+    ],
+    "be_general.select": [
+      "Odaberi"
+    ],
+    "be_date_checker_a11y.check_availability_for_selected_dates": [
+      "Provjerite dostupnost za odabrane datume i goste"
+    ],
+    "be_amenities.RMA_261B": [
+      "Stakloposuđe"
+    ],
+    "be_notification_banner.select_new_ones": [
+      "Molimo odaberite nove datume"
+    ],
+    "be_amenities.RMA_261A": [
+      "Ploče"
+    ],
+    "be_configure_room.no_thanks": [
+      "Nema hvala"
+    ],
+    "be_amenities.CSC_11": [
+      "Usluga u sobi"
+    ],
+    "be_amenities.RMA_28": [
+      "Recepcija"
+    ],
+    "be_amenities.RMA_326": [
+      "Stol za blagovanje"
+    ],
+    "be_amenities.RMA_26": [
+      "Dječji krevetići"
+    ],
+    "be_room_card_a11y.open_photo_gallery": [
+      "Otvori galeriju fotografija"
+    ],
+    "be_configure_room.x_years": [
+      "%1$s godina"
+    ],
+    "be_date_checker.edit_your_stay": [
+      "Uredi svoj boravak"
+    ],
+    "be_languae_and_currency.currencies": [
+      "Valute"
+    ],
+    "be_contact_form.address_line_2": [
+      "Adresa (linija 2)"
+    ],
+    "be_master_rate.no_cc_needed": [
+      "Nije potrebno plaćanje kreditnom karticom"
+    ],
+    "be_contact_form.address_line_1": [
+      "Adresa (linija 1)"
+    ],
+    "be_contact_form.contact_person_name": [
+      "Ime kontakta osobe"
+    ],
+    "be_amenities.RMA_22": [
+      "Povezane sobe"
+    ],
+    "be_master_rate.not_book_more_x_nights": [
+      "Nije moguće rezervirati ovu sobu/paket za više od %1$s noćenja."
+    ],
+    "be_configure_room.price_for_1_night_for_x_adults": [
+      "Cijena za 1 noć za %1$s odraslih"
+    ],
+    "be_configure_room.per_night": [
+      "Po noći"
+    ],
+    "be_configure_room.price_for_x_nights_for_x_extra_adults": [
+      "Cijena za %1$s noći za %2$s dodatne odrasle osobe"
+    ],
+    "be_cancel.hotel": [
+      "Hotel"
+    ],
+    "be_booking_summary.number_of_rooms": [
+      "Broj soba"
+    ],
+    "be_amenities.RMA_212": [
+      "Punjač za mobilni telefon"
+    ],
+    "be_cart.booking_fee_included": [
+      "%1$s Naknada za rezervaciju uključena"
+    ],
+    "be_amenities.RMA_17": [
+      "Voda u boci"
+    ],
+    "be_notification_banner.check_available_rooms": [
+      "Provjerite dostupne sobe"
+    ],
+    "be_amenities.RMA_16": [
+      "Bide"
+    ],
+    "be_amenity_scope.room_view": [
+      "Pogled"
+    ],
+    "be_amenities.RMA_19": [
+      "Aparat za kavu/čaj"
+    ],
+    "be_amenities.RMA_10": [
+      "Badekaputić"
+    ],
+    "be_amenities.RMA_13": [
+      "Kada"
+    ],
+    "be_amenities.RMA_11": [
+      "Kupaonski sadržaji"
+    ],
+    "be_cancel.voucher_created": [
+      "Vaučer %1$s izdan kao rezultat otkazivanja rezervacije smještaja"
+    ],
+    "be_cart.actual_costs_payable_are_in": [
+      "Stvarni troškovi koji se plaćaju iznose %1$s. Pokazateljni %2$s tečajevi temelje se na trenutnim tečajevima hotela koji podliježu fluktuacijama."
+    ],
+    "be_policy.hotel_cancellation_policy": [
+      "Pravila otkazivanja hotela"
+    ],
+    "be_cart.book_now_pay_later": [
+      "Book now pay later rates: No booking fees. Credit card taken as guarantee. Free cancellation up to 48hrs prior to arrival date"
+    ],
+    "be_promo_code.using_promo_code": [
+      "Korištenje promo koda %1$s"
+    ],
+    "be_promo_code.no_promo_code": [
+      "Nije primijenjen promo kod"
+    ],
+    "be_amenities.RVT_45": [
+      "Pogled na ulicu"
+    ],
+    "be_enhance_your_stay_a11y.enhance_stay": [
+      "Unaprijedite Vaš Boravak"
+    ],
+    "be_cart.1_adult_1_night": [
+      "1 Odrasla osoba x 1 noć"
+    ],
+    "be_guests_rooms_selector.select_age_for_every_child": [
+      "Odaberite dob za svako dijete kako biste nastavili."
+    ],
+    "be_customer_details.customer_name": [
+      "Ime gosta"
+    ],
+    "be_general.vat_included": [
+      "PDV uključen"
+    ],
+    "be_languae_and_currency.done": [
+      "Dovršeno"
+    ],
+    "be_master_rate.not_book_less_x_nights": [
+      "Nije moguće rezervirati ovu sobu/paket za manje od %1$s noćenja."
+    ],
+    "be_gift_voucher.validate_or_remove_voucher": [
+      "Kôd poklon bona je nevažeći. Molimo ažurirajte ili izbrišite prije nastavka."
+    ],
+    "be_amenities.HAC_35": [
+      "Centar za fitness / Teretana"
+    ],
+    "be_amenities.RMA_304": [
+      "Električni čajnik"
+    ],
+    "be_amenity_scope.general": [
+      "Za Vašu udobnost"
+    ],
+    "be_promo_code_a11y.promo_apply_code": [
+      "Primijeni promotivni kod"
+    ],
+    "be_enhance_your_stay.back-to-configure": [
+      "Natrag na konfiguriranje sobe"
+    ],
+    "be_scam_notice.body_with_phone": [
+      "Nikada vas nećemo tražiti podatke o kartici niti plaćanje putem WhatsAppa, SMS-a ili telefonskog poziva. Ako primite takvu poruku, nemojte odgovarati. Nazovite nas izravno na %1$s kako biste to provjerili."
+    ],
+    "be_notification_banner.boox_max_x_nights": [
+      "Možete rezervirati najviše 1 noć u jednoj rezervaciji",
+      "Maksimalno možete rezervirati %1$s noćenja u jednoj rezervaciji"
+    ],
+    "be_amenities.RVT_5": [
+      "Pogled na golf"
+    ],
+    "be_amenities.RVT_4": [
+      "Pogled na dvorište"
+    ],
+    "be_group_tabs.list": [
+      "Popis"
+    ],
+    "be_hamburger_menu_a11y.menu_close": [
+      "Zatvori glavni izbornik"
+    ],
+    "be_room_card_a11y.hide_rates_a11y": [
+      "Sakrij Cijene"
+    ],
+    "be_enhance_your_stay.enhance-your-stay": [
+      "Unaprijedite svoj boravak"
+    ],
+    "be_footer_a11y.close_cookie_preferences": [
+      "Zatvori postavke kolačića"
+    ],
+    "be_configure_room.price_for_1_night_for_x_children": [
+      "Cijena za 1 noć za %1$s djece"
+    ],
+    "be_customer_details.phone": [
+      "Telefon"
+    ],
+    "be_amenities.HAC_42": [
+      "Besplatno parkiranje"
+    ],
+    "be_amenities.RMA_311": [
+      "Aparat za espresso"
+    ],
+    "be_configure_room_a11y.configure_your_room_a11y": [
+      "Konfigurirajte svoju sobu"
+    ],
+    "be_cookie_banner.cookie_accept_necessary": [
+      "Neophodan"
+    ],
+    "be_cancel.button": [
+      "Otkaži rezervaciju"
+    ],
+    "be_gift_voucher.redeem_before_completing": [
+      "Ne brinite, moći ćete iskoristiti svoj Bon za gotovinu u posljednjem koraku postupka rezervacije."
+    ],
+    "be_room_card_a11y.previous_photo": [
+      "Prethodna fotografija."
+    ],
+    "be_cancel.fax": [
+      "Faks"
+    ],
+    "be_contact_form.contact_person_email": [
+      "E-pošta za kontakt osobe"
+    ],
+    "be_notification_banner.promo_code_not_valid": [
+      "Promotivni kôd %1$s koji ste unijeli nije važeći."
+    ],
+    "be_cart.cancellation_policy": [
+      "Politika otkazivanja hotela"
+    ],
+    "be_amenities.RVT_21": [
+      "Ograničen pogled"
+    ],
+    "be_general.x_rooms": [
+      "%1$s Soba",
+      "%1$s Sobe"
+    ],
+    "be_gift_voucher.remaining_voucher_balance": [
+      "Preostali iznos darovnog vaučera %1$s (od %2$s)"
+    ],
+    "be_footer_a11y.footer_navigation": [
+      "Navigacija podnožja"
+    ],
+    "be_cart.cc_not_required_to_complet_booking": [
+      "Podaci o kreditnoj kartici nisu potrebni za dovršetak vaše rezervacije."
+    ],
+    "be_cookie_banner.cookie_reject_all": [
+      "Odbij Sve"
+    ],
+    "be_your_selection.not_available": [
+      "Nije dostupno"
+    ],
+    "be_notification_banner.add_additional_room": [
+      "Biste li željeli dodati dodatnu sobu na svoju rezervaciju?"
+    ],
+    "be_notification_banner.no_more_rooms_available": [
+      "Žao nam je, nema više dostupnih soba."
+    ],
+    "be_contact_form.id_number": [
+      "Broj dokumenta"
+    ],
+    "be_notification_banner.no_availability_selected_dates": [
+      "Nema raspoloživosti za odabrane datume."
+    ],
+    "be_notification_banner.other_rooms_for_your_stay": [
+      "Ovo su ostale sobe za vaš boravak."
+    ],
+    "be_promo_code.promo_code_not_available": [
+      "Kôd za promociju nije dostupan."
+    ],
+    "be_error_page.start_fresh_booking": [
+      "Započni novu rezervaciju"
+    ],
+    "be_general.hide_details": [
+      "Sakrij pojedinosti"
+    ],
+    "be_contact_form.reques_canno_be_guaranteed": [
+      "Vaš zahtjev se ne može garantirati, ali učinit ćemo sve kako bismo udovoljili vašim potrebama."
+    ],
+    "be_configure_room.price_for_x_days": [
+      "Cijena za %1$s dana"
+    ],
+    "be_gift_voucher.voucher_validate": [
+      "Molimo potvrdite ili uklonite svoj kôd vaučera prije nastavka."
+    ],
+    "be_cart.basic_room_price_x_nights": [
+      "Osnovna cijena sobe %1$s noćenje",
+      "Osnovna cijena sobe %1$s noćenja"
+    ],
+    "be_amenities.HAC_68": [
+      "Parkiralište"
+    ],
+    "be_cart.a_deposit_of_xx": [
+      "Potrebna je uplata od %1$s i naknada za rezervaciju od %2$s kako bi se osigurala ova rezervacija. Ove uplate nisu povratne."
+    ],
+    "be_notification_banner.i_understand_continue": [
+      "Razumijem, nastavi."
+    ],
+    "be_cart.non_ref_deposit": [
+      "Nije moguće vratiti polog od {currency}%1$s potreban je za potvrdu ove rezervacije."
+    ],
+    "be_configure_room.child_x": [
+      "Dijete %1$s"
+    ],
+    "be_languae_and_currency.search_currency": [
+      "Pretraži valutu"
+    ],
+    "be_booking_summary.booking_confirmed": [
+      "Vaša rezervacija u %1$s je potvrđena.<br>Uskoro ćete primiti e-potvrdu."
+    ],
+    "be_cart.city_tax_paid_at_hotel": [
+      "Plaća se u hotelu"
+    ],
+    "be_configure_room.configure_guests": [
+      "Konfigurirajte Goste"
+    ],
+    "be_contact_form.mobile_number_no_prefix": [
+      "Upišite broj telefona bez prefiksa."
+    ],
+    "be_contact_form.mobile_prefix": [
+      "Unesite naziv zemlje za telefonski prefiks."
+    ]
+  }
+}

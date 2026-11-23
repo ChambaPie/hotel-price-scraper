@@ -1,0 +1,2 @@
+POST https://www.ericsoft.biz/api/book/GetResourcesAvailability
+{"languageType":1,"licenseIdh":"6F47713E95525FA7","startDate":"2026-11-23T00:00:00.000Z","endDate":"2026-12-12T00:00:00.000Z","conventionCode":""}

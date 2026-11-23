@@ -1,0 +1,2 @@
+POST https://v6.onepagebooking.com/api/faqs
+{"code":"hotel-victoria-nuernberg","languageCode":"en"}

@@ -1,0 +1,53 @@
+21:44:28 simplebooking    Hotel Executive La Fiorita     200 prices=0 json=1 
+21:44:43 simplebooking    Alloggio Agrituristico Albafio 200 prices=14 json=9 
+21:44:58 simplebooking    Hotel Artemide                 200 prices=0 json=4 
+21:45:12 synxis           Vila Vita Pannonia             200 prices=0 json=4 
+21:45:29 synxis           Hotel Cap Estel                200 prices=3 json=0 
+21:45:44 synxis           Mandarin Oriental, Munich      200 prices=0 json=0 
+21:46:00 vertical_booking Hotel Le Grotte                200 prices=0 json=0 
+21:46:16 vertical_booking Château Monfort                200 prices=0 json=2 
+21:46:31 vertical_booking Magna Pars L'Hotel A' Parfum   200 prices=0 json=0 
+21:46:48 hotelnetsolutions Das Naturhotel Chesa Valisa    200 prices=33 json=8 
+21:47:06 hotelnetsolutions Hotel Torbräu                  200 prices=4 json=2 
+21:47:22 hotelnetsolutions Hotel VICTORIA                 200 prices=13 json=5 
+21:47:39 blastness        Argentina Residenza Style Hote 200 prices=2 json=6 
+21:47:54 blastness        The Street Milano Duomo | a De 200 prices=0 json=4 
+21:48:11 blastness        Gran Baita Hotel & Wellness Re 200 prices=0 json=4 
+21:48:26 ericsoft         Hotel Mioni Pezzato & SPA      200 prices=2 json=4 
+21:48:41 ericsoft         Hotel Calissano                200 prices=7 json=4 
+21:48:56 ericsoft         Hotel La Maison Wellness & Spa 200 prices=0 json=4 
+21:49:17 bookassist       Hotel Plaza Duce               200 prices=1 json=10 
+21:49:31 bookassist       Hotel Première Abano Terme     200 prices=0 json=0 
+21:49:47 bookassist       Buddha-Bar Hotel Prague        200 prices=0 json=6 
+21:50:03 casablanca       Hotel-Restaurant Grimmingblick 200 prices=0 json=0 
+21:50:17 casablanca       Hotel Freigold ****Superior    200 prices=0 json=0 
+21:50:32 casablanca       Sonne Mellau                   200 prices=0 json=0 
+# Booking-engine pages
+
+| engine | hotel | status | site | prices on the page | JSON saved |
+|---|---|---|---|---|---|
+| simplebooking | Hotel Executive La Fiorita | 200 | simplebooking.it | 0 | 1 |
+| simplebooking | Alloggio Agrituristico Albafiorita | 200 | simplebooking.it | 14 | 9 |
+| simplebooking | Hotel Artemide | 200 | booking.resdiary.com | 0 | 4 |
+| synxis | Vila Vita Pannonia | 200 | bookings.travelclick.com | 0 | 4 |
+| synxis | Hotel Cap Estel | 200 captcha | capestel.com | 3 | 0 |
+| synxis | Mandarin Oriental, Munich | 200 | be.synxis.com | 0 | 0 |
+| vertical_booking | Hotel Le Grotte | 200 | my.hotellegrotte.it | 0 | 0 |
+| vertical_booking | Château Monfort | 200 | hotelchateaumonfort.com | 0 | 2 |
+| vertical_booking | Magna Pars L'Hotel A' Parfum | 200 | labsolue-bar.superbexperience.com | 0 | 0 |
+| hotelnetsolutions | Das Naturhotel Chesa Valisa | 200 | naturhotel.at | 33 | 8 |
+| hotelnetsolutions | Hotel Torbräu | 200 | vbooking.de | 4 | 2 |
+| hotelnetsolutions | Hotel VICTORIA | 200 | hotelvictoria.de | 13 | 5 |
+| blastness | Argentina Residenza Style Hotel | 200 | book.blastness.com | 2 | 6 |
+| blastness | The Street Milano Duomo | a Design Bouti | 200 | reservation.thestreetmilano.com | 0 | 4 |
+| blastness | Gran Baita Hotel & Wellness Resort | 200 | book.blastness.com | 0 | 4 |
+| ericsoft | Hotel Mioni Pezzato & SPA | 200 | booking.ericsoft.com | 2 | 4 |
+| ericsoft | Hotel Calissano | 200 | booking.ericsoft.com | 7 | 4 |
+| ericsoft | Hotel La Maison Wellness & Spa | 200 | ericsoft.biz | 0 | 4 |
+| bookassist | Hotel Plaza Duce | 200 | bp.bookassist.com | 1 | 10 |
+| bookassist | Hotel Première Abano Terme | 200 | bookassist.com | 0 | 0 |
+| bookassist | Buddha-Bar Hotel Prague | 200 | buddhabarhotelprague.com | 0 | 6 |
+| casablanca | Hotel-Restaurant Grimmingblick | 200 | hotelgrimmingblick.at | 0 | 0 |
+| casablanca | Hotel Freigold ****Superior | 200 | hotel-freigold.at | 0 | 0 |
+| casablanca | Sonne Mellau | 200 | bookingengine.casablanca.at | 0 | 0 |
+

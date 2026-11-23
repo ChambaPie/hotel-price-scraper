@@ -1,0 +1,367 @@
+#URL https://booking.ericsoft.com/BookingEngine/Book?idh=C4F7F3CFA10444AB&lang=it&cur=EUR&pax=2_0&acmp=RT0
+#FINAL https://booking.ericsoft.com/it/BookingEngine/Book?idh=C4F7F3CFA10444AB&lang=it&cur=EUR&pax=2_0&arrival=2026-11-23&departure=2026-11-24&guests=4182-18_4182-18
+#TITLE Hotel Calissano - Alba (CN) 12051 - Italia
+zbe_brand_facebook
+zbe_brand_twitter
+zbe_brand_instagram
+zbe_brand_tripadvisor
+€
+zbe_language IT
+zbe_star_ratezbe_star_ratezbe_star_ratezbe_star_rate
+Hotel Calissano
+zbe_call
+0173 364855
+zbe_mail
+info@hotelcalissano.it
+zbe_info
+Info
+zbe_calendar_today
+Check-in
+23 nov 2026
+zbe_calendar_today
+Check-out
+24 nov 2026
+Notti
+1
+novembre 2026
+zbe_chevron_left
+zbe_chevron_right
+lun	mar	mer	gio	ven	sab	dom
+
+
+26
+	
+27
+	
+28
+	
+29
+	
+30
+	
+31
+	
+nov
+1
+
+
+2
+	
+3
+	
+4
+	
+5
+	
+6
+	
+7
+	
+8
+
+
+9
+	
+10
+	
+11
+	
+12
+	
+13
+	
+14
+	
+15
+
+
+16
+	
+17
+	
+18
+	
+19
+	
+20
+	
+21
+	
+22
+
+
+23
+	
+24
+	
+25
+	
+26
+	
+27
+	
+28
+	
+29
+
+
+30
+	
+dic
+1
+	
+2
+	
+3
+	
+4
+	
+5
+	
+6
+
+
+Camere
+ 
+1
+zbe_remove
+zbe_add
+1
+2
+Adulti
+0
+Bambini
+Codice promozionale
+zbe_info
+Camera
+ 
+1
+ 
+Di
+ 
+1
+ 
+Queste sono le nostre proposte per te, scegli la tua preferita
+1 DISPONIBILE
+zbe_photo_library
+Classic - MIGLIOR PREZZO GARANTITO
+28 MQ 1 letto matrimoniale o 2 letti singoliSOLO SE PRENOTI SUL NOSTRO SITOFree Wi-Fi / Garage gratis / Colazione a buffet inclusa Servizi in camera: minibar, cassaforte, canali TV internazionali, telefono, aria condizionata, asciugacapelli, pantofole, radio, scrivania, vasca o doccia, cassaforte per PC portatile, TV a schermo piatto, insonorizzazione, parquet o pavimento in legno Si prega di specificare se si preferisce un letto matrimoniale o due letti singoli.
+Altro
+zbe_ac_unit
+Aria condizionata
+zbe_bathtub
+Vasca da bagno
+zbe_tv
+TV schermo piatto
+zbe_bathroom
+Bagno privato
+zbe_volume_off
+Camera insonorizzata
+zbe_shower
+Doccia
+zbe_home_max
+TV schermo piatto
+zbe_wifi
+Internet wireless
+zbe_location_city
+Vista città
+€ 148,00
+Per 1 notte
+INFO E PRENOTA
+zbe_photo_library
+Superior - MIGLIOR PREZZO GARANTITO
+35 MQ 1 letto matrimoniale o 2 letti singoliSOLO SE PRENOTI SUL NOSTRO SITOFree Wi-Fi / Garage gratis / Colazione a buffet inclusa Servizi in camera: minibar, cassaforte, canali TV internazionali, telefono, aria condizionata, asciugacapelli, pantofole, radio, scrivania, vasca o doccia, cassaforte per PC portatile, TV a schermo piatto, insonorizzazione, parquet o pavimento in legno Si prega di specificare se si preferisce un letto matrimoniale o due letti singoli.
+Altro
+zbe_ac_unit
+Aria condizionata
+zbe_bathtub
+Vasca da bagno
+zbe_tv
+TV schermo piatto
+zbe_bathroom
+Bagno privato
+zbe_volume_off
+Camera insonorizzata
+zbe_shower
+Doccia
+zbe_home_max
+TV schermo piatto
+zbe_wifi
+Internet wireless
+zbe_location_city
+Vista città
+€ 170,00
+Per 1 notte
+INFO E PRENOTA
+2 DISPONIBILE
+zbe_photo_library
+Suite - MIGLIOR PREZZO GARANTITO
+50 MQ 1 letto matrimoniale - 1 divano letto (su richiesta) e terrazzaSOLO SE PRENOTI SUL NOSTRO SITOFree Wi-Fi / Garage gratis / Colazione a buffet inclusa Servizi in camera: minibar, cassaforte, canali TV internazionali, telefono, aria condizionata, asciugacapelli, pantofole, radio, scrivania, vasca o doccia, cassaforte per PC portatile, TV a schermo piatto, insonorizzazione, parquet o pavimento in legno
+Altro
+zbe_ac_unit
+Aria condizionata
+zbe_bathtub
+Vasca da bagno
+zbe_tv
+TV schermo piatto
+zbe_bathroom
+Bagno privato
+zbe_volume_off
+Camera insonorizzata
+zbe_shower
+Doccia
+zbe_home_max
+TV schermo piatto
+zbe_wifi
+Internet wireless
+zbe_location_city
+Vista città
+zbe_balcony
+Balcone
+zbe_deck
+Terrazza
+€ 281,00
+Per 1 notte
+INFO E PRENOTA
+1 DISPONIBILE
+zbe_photo_library
+Suite Piemonte - MIGLIOR PREZZO GARANTITO
+70 MQ 1 letto matrimoniale con TerrazzaSOLO SE PRENOTI SUL NOSTRO SITOFree Wi-Fi / Garage gratis / Colazione a buffet inclusa Servizi in camera: minibar, cassaforte, canali TV internazionali, telefono, aria condizionata, asciugacapelli, pantofole, radio, scrivania, vasca o doccia, cassaforte per PC portatile, TV a schermo piatto, insonorizzazione, parquet o pavimento in legno
+Altro
+zbe_ac_unit
+Aria condizionata
+zbe_bathtub
+Vasca da bagno
+zbe_tv
+TV schermo piatto
+zbe_bathroom
+Bagno privato
+zbe_volume_off
+Camera insonorizzata
+zbe_shower
+Doccia
+zbe_home_max
+TV schermo piatto
+zbe_wifi
+Internet wireless
+zbe_location_city
+Vista città
+zbe_balcony
+Balcone
+zbe_deck
+Terrazza
+€ 370,00
+Per 1 notte
+INFO E PRENOTA
+zbe_photo_library
+Residence (II) - MIGLIOR PREZZO GARANTITO
+Appartamento di 45 MQ con soggiorno, 1 camera da letto e balconeFree Wi-Fi / Garage gratis / Colazione a buffet inclusa.Disponibili tutti i servizi Hotel Appartamento climatizzato a 20 metri dall'ingresso principale dell'Hotel, composto da soggiorno, 1 cucina con frigorifero e divano, camera da letto matrimoniale, bagno privato, balcone. Servizi: minibar, cassaforte, 1 TV a schermo piatto con canali internazionali, telefono, aria condizionata, asciugacapelli, pantofole, radio, scrivania, vasca o doccia, cassaforte per PC portatile, insonorizzazione.
+Altro
+zbe_ac_unit
+Aria condizionata
+zbe_bathtub
+Vasca da bagno
+zbe_tv
+TV schermo piatto
+zbe_bathroom
+Bagno privato
+zbe_volume_off
+Camera insonorizzata
+zbe_shower
+Doccia
+zbe_home_max
+TV schermo piatto
+zbe_wifi
+Internet wireless
+zbe_location_city
+Vista città
+zbe_balcony
+Balcone
+€ 159,00
+Per 1 notte
+INFO E PRENOTA
+2 DISPONIBILE
+zbe_photo_library
+Residence (III) - MIGLIOR PREZZO GARANTITO
+Appartemento di 55 MQ con soggiorno, 2 camere da letto e balcone Free Wi-Fi / Garage gratis / Colazione a buffet inclusa.Disponibili tutti i servizi Hotel. Appartamento climatizzato a 20 metri dall'ingresso principale dell'Hotel, composto da soggiorno con cucina con frigorifero e divano, camera da letto matrimoniale, camera con letto singolo, bagno privato, balcone. Servizi: minibar, cassaforte, 1 TV a schermo piatto con canali internazionali, telefono, aria condizionata, asciugacapelli, pantofole, radio, scrivania, vasca o doccia, cassaforte per PC portatile, insonorizzazione.
+Altro
+zbe_ac_unit
+Aria condizionata
+zbe_bathtub
+Vasca da bagno
+zbe_tv
+TV schermo piatto
+zbe_bathroom
+Bagno privato
+zbe_volume_off
+Camera insonorizzata
+zbe_shower
+Doccia
+zbe_home_max
+TV schermo piatto
+zbe_wifi
+Internet wireless
+zbe_location_city
+Vista città
+zbe_balcony
+Balcone
+€ 185,00
+Per 1 notte
+INFO E PRENOTA
+1 DISPONIBILE
+zbe_photo_library
+Residence (MXX) - MIGLIOR PREZZO GARANTITO
+Appartamento di 48 MQ con 2 camere da letto e balcone.Free Wi-Fi / Garage gratis / Colazione a buffet inclusa.Disponibili tutti i servizi Hotel. Appartamento climatizzato a 20 metri dall'ingresso principale dell'Hotel, composto da una camera da letto matrimoniale, una camera con due letti singoli, bagno privato e balcone. Servizi: minibar, cassaforte, 2 TV a schermo piatto con canali internazionali, telefono, aria condizionata, asciugacapelli, pantofole, radio, scrivania, vasca o doccia, cassaforte per PC portatile, insonorizzazione.
+Altro
+zbe_ac_unit
+Aria condizionata
+zbe_bathtub
+Vasca da bagno
+zbe_tv
+TV schermo piatto
+zbe_bathroom
+Bagno privato
+zbe_volume_off
+Camera insonorizzata
+zbe_shower
+Doccia
+zbe_home_max
+TV schermo piatto
+zbe_wifi
+Internet wireless
+zbe_location_city
+Vista città
+€ 196,00
+Per 1 notte
+INFO E PRENOTA
+VERIFICA DISPONIBILITÀ
+zbe_search
+zbe_arrow_back
+INDIETRO
+informativa sulla privacy
+cookie policy
+accessibilità
+Prima di continuare
+zbe_close
+Usiamo cookie e dati per
+zbe_shield
+Fornire e gestire i servizi Zucchetti Hospitality
+zbe_warning
+Monitorare le interruzioni dei servizi e proteggere da attività fraudolente e abusi
+zbe_insights
+Misurare le prestazioni del nostro sito
+Se scegli “Accetta tutto”, useremo cookie e dati anche per
+zbe_bar_chart
+Misurare il coinvolgimento del pubblico e le statistiche dei siti per capire come vengono usati i nostri servizi e per migliorarne la qualità
+zbe_bar_chart
+Pubblicare annunci e valutarne l'efficacia
+Se scegli “Rifiuta tutto”, non useremo i cookie per le finalità aggiuntive indicate.
+Seleziona “Altre opzioni” per avere ulteriori informazioni, inclusi dettagli sulla gestione delle impostazioni della privacy
+zbe_help
+Leggi di più sui cookies
+RIFIUTA TUTTO
+ALTRE OPZIONI
+ACCETTA TUTTO
+zbe_info
+L'ultima prenotazione risale a 46 minuti fa
+CHIUDI

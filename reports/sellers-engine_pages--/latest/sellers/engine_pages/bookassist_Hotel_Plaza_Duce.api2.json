@@ -1,0 +1,394 @@
+{
+  "messages": {
+    "": {
+      "plural_form": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)"
+    },
+    "faq.content.entry9.subtitle": [
+      "Općenito, Vaša kreditna/debitna kartica može biti terećena dvama troškovima za vrijeme rezerviranja:"
+    ],
+    "faq_modal.question_am_i_charged_if_i_dont_turn_up": [
+      "Jesam li naplaćen/a ako ne dođem?"
+    ],
+    "faq.content.entry3.subtitle": [
+      "Rezervacije su gotove nakon samo tri jednostavna koraka."
+    ],
+    "faq.content.entry10.paragraph1": [
+      "Svaki pojedinačni hotel kontrolira i uređuje vlastite informacije u sustavu Bookassist, u kojem mogu navesti broj soba koje imaju raspoložive u bilo kojem trenutku i cijene koje naplaćuju za te sobe (vidi <em>'<a href=\"#1\">Što je Bookassist?</a>'</em> gore). Osoblje Bookassista ne kontrolira ni ne uređuje te informacije. Kada koristite Bookassist za rezerviranje, Vašu transakciju omogućuje softver Bookassist, no <em>vi rezervirate na temelju onoga što sam nudi sam hotel</em>. Uvjeti i odredbe </a>izričito navode da sklapate ugovor s hotelom prilikom rezervacije, a ne s Bookassistom ili njegovim agentima. Stoga hotel izravno jamči za vašu rezervaciju kada je provedena putem Bookassista i odgovornost za to jamstvo leži isključivo na hotelu."
+    ],
+    "faq.content.entry10.paragraph3": [
+      "Molimo, primite na znanje da s obzirom na to da transakcijske i operativne troškove pokriva Bookassist, bilo da otkažete svoju rezervaciju ili ne, <em>polog i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratni.</em>"
+    ],
+    "faq.content.entry12.title": [
+      "Nisam primio e-mail s potvrdom. Što nije u redu?"
+    ],
+    "faq.content.entry3.paragraph1": [
+      "Nakon završetka, posljednja stranica prikazuje Vašu referenciju rezervacije koju biste trebali zabilježiti i zadržati. Trebali biste ispisati ovu posljednju stranicu kao evidenciju svoje rezervacije. Primit ćete i e-mail koji potvrđuje transakciju i koji ispisuje podatke o Vašoj rezervaciji."
+    ],
+    "faq.content.entry10.paragraph2": [
+      "Nakon što hotel odluči ponuditi sobu na sustavu Bookassist i nakon što je rezervacija uspješno izrađena na temelju te ponude, hotel je jedini odgovoran za poštovanje rezervacije."
+    ],
+    "faq.content.entry2.red": [
+      "Kada radite rezervaciju, sklapate ugovor s hotelom, a ne s Bookassistom."
+    ],
+    "faq.content.entry6.title": [
+      "Je li ovo sigurna stranica? Jesu li podaci o mojoj kreditnoj kartici sigurni?"
+    ],
+    "faq_modal.question_how_to_redeem_a_voucher": [
+      "Kako mogu iskoristiti vaučer?"
+    ],
+    "faq.content.entry9.paragraph1": [
+      "Molimo, primite na znanje da s obzirom na to da mi pokrivamo transakcijske i operativne troškove, bilo da otkažete svoju rezervaciju ili ne, <span class=\"style1\"> polog i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratni.</span>"
+    ],
+    "faq.content.entry9.title": [
+      "Koliko stoji online rezerviranje?"
+    ],
+    "faq_modal.question_why_credit_card_details": [
+      "Zašto trebam dati detalje kreditne kartice?"
+    ],
+    "faq": [
+      "često postavljana pitanja"
+    ],
+    "faq.content.entry15.title": [
+      "Hoće li mi biti naplaćeno ako otkažem?"
+    ],
+    "faq_modal.answer_is_this_a_secure_site": [
+      "Odsjek za detalje kreditne kartice Bookassist-a je zaštićen moćnom tehnologijom enkripcije Secure Sockets Layer (SSL). SSL enkriptira vaše ime, broj kreditne kartice i datum isteka prije nego što putuju preko interneta. To čini poslovanje preko interneta jednako sigurnim kao i kupovinu putem telefona. To osigurava da će detalji vaše kreditne kartice ostati potpuno povjerljivi. SSL sigurna veza i tehnologija sigurnih transakcija učinkovito su zaštitile tisuće klijenata Bookassist-a koji su prenijeli svoje brojeve kreditnih kartica online i obavili kupovinu od kada smo lansirani 1999."
+    ],
+    "faq.content.entry2.subtitle": [
+      "Bookassistom se upravlja na<em> dva</em> načina."
+    ],
+    "faq.content.entry18.title": [
+      "Kako mogu kontaktirati Bookassist tim?"
+    ],
+    "faq.content.entry16.paragraph1": [
+      "Vaš polog i naknada za rezervaciju, kada se plaćaju, neće biti povratni u slučaju nepojavljivanja. Dodatni troškovi uz Vaš polog i naknadu za rezervaciju mogući  su u slučaju nepojavljivanja ovisno o pravilniku pružatelja smještaja, čija Vam je kopija dana na uvid tijekom postupka rezervacije."
+    ],
+    "faq_modal.question_is_booking_really_guaranteed": [
+      "Je li moja rezervacija zaista zajamčena?"
+    ],
+    "faq_modal.question_i_have_a_complaint_about_hotel": [
+      "Imam pritužbu na hotel u kojem sam boravio."
+    ],
+    "faq.content.entry6.paragraph1": [
+      "Dio s podacima o kreditnoj kartici na Bookassistu zaštićen je pomoću snažne tehnologije šifriranja Secure Sockets Layer (SSL). SSL šifrira Vaše ime, broj kreditne kartice i datum isteka prije nego oni putuju internetom. To čini poslovanje putem interneta sigurnim kao kupovina putem telefona. To osigurava da će podaci o Vašoj kreditnoj kartici ostati potpuno povjerljivi. SSL sigurna veza i sigurna transakcijska tehnologija učinkovito je zaštitila tisuće korisnika Bookassista koji su prenijeli brojeve svojih kreditnih kartica online te obavili kupnju otkad je Bookassist pokrenuo svoje online usluge 1999. godine."
+    ],
+    "faq.content.entry8.paragraph3.link.part1": [
+      "Pogledajte"
+    ],
+    "faq.content.entry16.paragraph2": [
+      "Molimo, primite na znanje da s obzirom na to da transakcijske i operativne troškove pokriva Bookassist, bilo da otkažete svoju rezervaciju ili ne,<em> polog i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratni.</em>"
+    ],
+    "faq.content.entry8.paragraph3.link.part2": [
+      "Sigurnost</a> za više podataka."
+    ],
+    "faq_modal.question_what_is_bookassist": [
+      "Što je Bookassist?"
+    ],
+    "faq_modal.question_how_to_book_with_bookassist": [
+      "Kako napraviti rezervaciju s Bookassistom?"
+    ],
+    "faq.content.entry3.title": [
+      "Kako mogu rezervirati uz Bookassist?"
+    ],
+    "faq.content.entry2.subtitle.paragraph2": [
+      "Svaki pojedinačni hotel kontrolira vlastite informacije na sustavu Bookassist u kojem može navesti broj raspoloživih soba u bilo kojem trenutku, kao i cijene koje naplaćuje za te sobe. Prema tome, sam hotel ima potpunu kontrolu nad ponudom svojih soba za prodaju u sustavu."
+    ],
+    "faq.content.entry2.subtitle.paragraph1": [
+      "Sustavom i bazom podataka upravlja te iste održava Bookassistov tim u raznim uredima. Bookassist timovi odgovorni su za osiguravanje glatkog rada sustava koji Vam omogućava da s lakoćom završite svoju rezervaciju u hotelu. Drugim riječima, Bookassistov tim pruža digitalni okvir koji hotelu omogućava da posluje s Vama."
+    ],
+    "faq.index.title": [
+      "Često postavljana pitanja"
+    ],
+    "faq_modal.answer_how_to_contact_bookassist_team": [
+      "Bookassist olakšava rezervaciju između vas i pružatelja smještaja (vidi '<a class=\"underline\" href=\"#2\">Tko upravlja Bookassistom?</a>' gore). Ako imate problema s detaljima vaše rezervacije ili želite promijeniti rezervaciju, morate kontaktirati hotel izravno.<br><br>Ako imate problema s radom sustava samog, obratite nam se navodeći svoj referentni broj ako ga imate. Odgovorit ćemo u roku od 48 sati.<br><br>Za kontaktiranje Bookassist-a, molimo pogledajte kontakt detalje ureda na <a class=\"underline\" href=\"https://bookassist.org/contact/\" target=\"_blank\">Bookassist.org/contact/</a>"
+    ],
+    "faq.content.entry17.paragraph2": [
+      "Nakon boravka od Vas će se možda putem e-maila zatražiti da napišete komentare (recenzije korisnika) o svojem iskustvu kako bi Vaše mišljenje moglo poslužiti i drugim korisnicima. Iako zbog ograničenog prostora ne možemo objaviti sve komentare, pružatelj smještaja može vidjeti sve dobivene komentare i ocjene."
+    ],
+    "faq.content.entry17.paragraph1": [
+      "Bookassist je sustav koji omogućava rezervacije između Vas i pružatelja smještaja (vidi '<em><a href=\"#2\">Tko upravlja Bookassistom?</a></em>' gore). Mi ne posjedujemo hotele ni druge vrste smještaja, niti smo odgovorni za njihovo upravljanje. Prigovori vezani uz smještaj trebali biti upućeni pružatelju smještaja u prvom stupnju. Međutim, sve prigovore shvaćamo vrlo ozbiljno kako bismo svojim korisnicima osigurali kvalitetne usluge Bookassista te ćemo osigurati da se svi prigovori proslijede gdje je prikladno."
+    ],
+    "faq.content.entry1.title": [
+      "Što je Bookassist?"
+    ],
+    "faq_modal.question_how_change_my_booking": [
+      "Kako promijeniti svoju rezervaciju?"
+    ],
+    "faq.content.entry3.subtitle.paragraph1": [
+      "U prvom koraku određujete datume i broj osoba. Tada ćete vidjeti popis hotela/soba/paketa koji odgovaraju kriterijima Vaše pretrage, a moći ćete vidjeti i pojedinosti, cijene i popuste. Pružatelj smještaja može Vam ponuditi i neke dodatne usluge koje možete dodati svom ukupnom paketu za kupovinu."
+    ],
+    "faq_modal.answer_how_to_redeem_a_voucher": [
+      "<p>Vaš voucher treba biti predstavljen hotelu. Preporučuje se da unaprijed kontaktirate hotel kako biste rezervirali svoj paket. Kod vouchera treba navesti, a stvarni voucher mora biti predstavljen prilikom plaćanja računa.</p><p>Ako imate novčani voucher, možete ga alternativno iskoristiti online protiv troškova rezervacije. Da biste iskoristili svoj novčani voucher online, idite na stranicu rezervacija hotela, unesite kod vašeg novčanog vouchera, a trenutna vrijednost novčanog vouchera bit će uzeta u obzir nakon što provjerite sobe i datume koje trebate.</p><p>Ako trošak online rezervacije premašuje iznos novčanog vouchera koji koristite, preostali iznos za rezervaciju mora se platiti prilikom dolaska u hotel. Novčani vaučeri mogu se koristiti online za najraniji datum dolaska od 7 dana nakon datuma kupnje vouchera. Morate i dalje priložiti podatke o kreditnoj kartici prilikom rezervacije putem novčanog vouchera.</p><p><strong>U Republici Irskoj, prema irskom zakonu, vaučeri i neiskorišteni iznosi vaučera istječu 5 godina od datuma izdavanja originalnog vaučera i podliježu uvjetima i odredbama.</strong> To će se primjenjivati samo na vaučere kupljene od 2. prosinca 2019. godine. U drugim zemljama vaučeri i neiskorišteni iznosi vaučera istječu godinu dana od datuma izdavanja originalnog vaučera, ako je to primjenjivo prema zakonu.</p>"
+    ],
+    "faq.content.entry3.subtitle.paragraph2": [
+      "U drugom koraku potvrđujete svoj odabir i pristajete na uvjete."
+    ],
+    "faq.content.entry3.subtitle.paragraph3": [
+      "U trećem koraku putem sigurne poveznice nastavljate unositi podatke o svojoj kreditnoj kartici."
+    ],
+    "faq_modal.answer_why_credit_card_details": [
+      "Gdje je potreban polog kako bi se završila vaša rezervacija, sustav Bookassist zahtijeva podatke vaše kreditne kartice kako bi teretio vašu karticu s naznačenim iznosom pologa (i naknadom ako je primjenjivo). Ako polog nije potreban, tada hotel zahtijeva podatke vaše kreditne kartice kako bi osigurao vašu sobu. To je standardni zahtjev i jamči hotelu da u slučaju da se ne pojavite ili ne otkažete na vrijeme, mogu naplatiti dio ili cjelokupni trošak vaše rezervacije sukladno politici hotela."
+    ],
+    "faq_modal.answer_what_is_a_voucher": [
+      "<p>Možete kupiti vaučer za određeni paket ili određenu vrijednost za korištenje u hotelu. Gotovinski vaučer je vrsta vaučera s određenom vrijednošću koja je dodatno važeća za online rezervacije na web-stranici hotela.</p><p>Više vaučera može se kupiti u jednoj transakciji kupovine. Svaki vaučer može biti poslan različitom primatelju. Možete odabrati izbor dostavnih opcija:</p><ul><li>E-pošta kupcu: Vi kao kupac ćete primiti e-poštu za svaki vaučer, s punim detaljima i poveznicom na njegovu online stranicu statusa koja prikazuje detalje i trenutnu vrijednost.</li><li>E-pošta primatelju: Primit ćete e-poštu za svaki vaučer. Svaki primatelj vaučera također će primiti e-poštu s detaljima vaučera i poveznicom na njegovu online stranicu statusa, ali vrijednost nije prikazana (osim za gotovinski vaučer gdje prikazujemo vrijednost).</li><li>Pošta kupcu: Primit ćete e-poštu za svaki vaučer. Svaki vaučer bit će također poslan vama, ali vrijednost nije prikazana (osim za gotovinski vaučer gdje prikazujemo vrijednost).</li><li>Pošta primatelju: Primit ćete e-poštu za svaki vaučer. Svaki vaučer također će biti poslan svom primatelju, ali vrijednost nije prikazana (osim za gotovinski vaučer gdje prikazujemo vrijednost).</li></ul>"
+    ],
+    "faq_modal.answer_who_operates_bookassist": [
+      "<p>Bookassist se koristi na dva načina.</p><ol><li>Sustav i baza podataka upravljaju se i održavaju od strane timova Bookassist-a u njihovim različitim uredima. Timovi Bookassist-a odgovorni su za osiguravanje da sustav besprijekorno funkcionira i omogućava vam da jednostavno obavite svoju rezervaciju s hotelom. Drugim riječima, tim Bookassist-a pruža digitalni okvir koji omogućava hotelu da posluje s vama.</li><li>Svaki pojedinačni hotel kontrolira vlastite informacije na Bookassist sustavu gdje mogu naznačiti broj soba koje imaju dostupne u bilo kojem trenutku i cijene koje naplaćuju za te sobe. Hotel samim time ima potpunu kontrolu nad ponudom svojih soba na sustavu.</li></ol><p><strong>Kada napravite rezervaciju, stoga sklapate ugovor s hotelom, a ne s Bookassist-om.</strong></p><p>Sustav Bookassist samo olakšava taj ugovor. Hotel je potpuno odgovoran za održavanje informacija i cijena koje vidite ažurnima. Tim Bookassist-a ne kontrolira te informacije, pa kada napravite rezervaciju, to činite na temelju onoga što hotel nudi. Problemi s rezervacijom trebaju se prvo rješavati s pružateljem smještaja.</p>"
+    ],
+    "faq.content.entry2.title": [
+      "Tko upravlja Bookassistom?"
+    ],
+    "faq_modal.question_didnt_get_a_confirmation_email": [
+      "Nisam dobio potvrdnu e-poštu!"
+    ],
+    "faq.content.entry13.title": [
+      "Nisam primio SMS poruku s potvrdom. Što nije u redu?"
+    ],
+    "faq_modal.question_are_personal_details_private": [
+      "Čuvaju li se moji osobni podaci privatno?"
+    ],
+    "faq.content.entry18.paragraph2.link": [
+      "Kako biste kontaktirali Bookassist, molimo, pogledajte kontaktne podatke ureda na <a href=\"http://www.bookassist.org/contact.jsp\" target=\"_blank\">Bookassist.org/contact.jsp</a>"
+    ],
+    "faq_modal.question_what_is_a_voucher": [
+      "Što je vaučer ili gotovinski vaučer?"
+    ],
+    "faq.index.entry8": [
+      "Zašto moram dati podatke o kreditnoj kartici?"
+    ],
+    "faq.index.entry9": [
+      "Čuva li se privatnost mojih osobnih podataka?"
+    ],
+    "faq.index.entry6": [
+      "Je li ovo sigurna stranica?"
+    ],
+    "faq.index.entry7": [
+      "Jesu li podaci o mojoj kreditnoj kartici dobro čuvani i sigurni?"
+    ],
+    "faq_modal.answer_how_change_my_booking": [
+      "<p>Nakon što je rezervacija napravljena, sve upite vezane uz rezervaciju, uključujući potrebne promjene, treba izravno komunicirati s hotelom. Tim Bookassist ne kontrolira dostupnost hotela i cijene te ne može mijenjati rezervaciju koju napravite koristeći sustav Bookassist (vidjeti '<a class=\"underline\" href=\"#2\">Tko upravlja Bookassistom?</a>' gore).</p><p>Molimo imajte na umu da su troškovi transakcija i operativni troškovi snosi Bookassist bez obzira poništavate li svoju rezervaciju ili ne, polog i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratni.</p>"
+    ],
+    "faq.index.entry4": [
+      "Što je vaučer ili gotovinski vaučer?"
+    ],
+    "faq.index.entry5": [
+      "Kako mogu iskoristiti vaučer?"
+    ],
+    "faq.content.entry8.title": [
+      "Čuva li se privatnost mojih osobnih podataka?"
+    ],
+    "faq.index.entry2": [
+      "Tko upravlja Bookassistom?"
+    ],
+    "faq.index.entry3": [
+      "Kako mogu rezervirati uz Bookassist?"
+    ],
+    "faq.index.entry1": [
+      "Što je Bookassist?"
+    ],
+    "faq_modal.answer_are_personal_details_private": [
+      "Vaši osobni podaci, poput imena, podataka o rezervaciji i e-pošte, potpuno su privatni i neće se koristiti u vezi s bilo kojim pitanjem osim vaše rezervacije i korištenja Bookassist-a. Ti podaci poznati su samo Bookassist-u i pružatelju smještaja, hotelu i/ili hotelskoj grupi koju odaberete. Ti se podaci neće prenositi trećim stranama iz bilo kojeg razloga bez vašeg jasnog pristanka. Odjeljak s podacima o kreditnoj kartici Bookassist-a zaštićen je snažnom tehnologijom enkripcije Secure Sockets Layer (SSL). SSL enkriptira vaše ime, broj kreditne kartice i datum isteka prije nego što putuju preko interneta. To čini poslovanje putem interneta jednako sigurnim kao i kupovina telefonom. Time se osigurava da će vaši podaci o kreditnoj kartici ostati potpuno povjerljivi. SSL sigurna veza i tehnologija sigurne transakcije učinkovito su zaštitile tisuće Bookassist korisnika koji su prenijeli svoje brojeve kreditnih kartica putem interneta i obavili kupnju od kada smo pokrenuli uslugu 1999."
+    ],
+    "faq_modal.answer_is_booking_really_guaranteed": [
+      "Svaki pojedini hotel kontrolira i uređuje vlastite informacije na Bookassist sustavu gdje mogu naznačiti broj soba koje imaju dostupne u bilo koje vrijeme i cijene koje naplaćuju za te sobe (vidi '<a class=\"underline\" href=\"#1\">Što je Bookassist?</a>' gore). Osoblje u Bookassistu ne kontrolira ili uređuje ove informacije. Kada koristite Bookassist za rezervaciju, vaša transakcija se olakšava pomoću Bookassist softvera, ali rezervaciju obavljate na temelju onoga što hotel sam nudi. Uvjeti i odredbe jasno navode da sklapate ugovor s hotelom prilikom rezervacije, a ne s Bookassistom ili njegovim agentima. Hotel stoga izravno jamči vašu rezervaciju kada se obavi putem Bookassist i odgovornost za tu garanciju leži isključivo na hotelu.<br><br>Kada hotel odluči ponuditi sobu na Bookassist sustavu, i kada se uspješno obavi rezervacija na temelju te ponude, tada je hotel sam odgovoran za poštivanje rezervacije.<br><br>Imajte na umu da su troškovi transakcije i operativni troškovi pokriveni od strane Bookassist, bez obzira otkazujete li svoju rezervaciju ili ne, polog i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratni."
+    ],
+    "faq.index.entry19": [
+      "Kako mogu kontaktirati Bookassist tim?"
+    ],
+    "faq.content.entry18.paragraph2": [
+      "Ako imate probleme vezane uz rad samog sustava, kontaktirajte nas i navedite svoj referentni broj ako ga imate. Odgovorit ćemo Vam u roku od 48 sati."
+    ],
+    "faq.index.entry17": [
+      "Hoće li mi biti naplaćeno ako se ne pojavim?"
+    ],
+    "faq.content.entry18.paragraph1": [
+      "Bookassist omogućava rezervacije između Vas i pružatelja smještaja (vidi '<em><a href=\"#2\">Tko upravlja Bookassistom?</a></em>' gore). Ako imate problem s pojedinostima rezervacije ili želite promijeniti svoju rezervaciju, <em>morate izravno kontaktirati hotel.</em>"
+    ],
+    "faq.index.entry18": [
+      "Imam prigovor o hotelu u kojem sam odsjeo"
+    ],
+    "faq.index.entry15": [
+      "Kako mogu otkazati rezervaciju?"
+    ],
+    "faq_modal.question_who_operates_bookassist": [
+      "Tko upravlja Bookassistom?"
+    ],
+    "faq.index.entry16": [
+      "Hoće li mi biti naplaćeno?"
+    ],
+    "faq.index.entry13": [
+      "Nisam primio e-mail s potvrdom!"
+    ],
+    "faq.index.entry14": [
+      "Nisam primio SMS poruku s potvrdom!"
+    ],
+    "faq_modal.title": [
+      "Često postavljena pitanja"
+    ],
+    "faq_modal.answer_am_i_charged_if_i_dont_turn_up": [
+      "<p>Vaša uplata i naknada za rezervaciju, ako su plaćene, neće biti vraćene u slučaju nepojavljivanja. Troškovi koji se dodatno mogu naplatiti u slučaju nepojavljivanja ovise o politici pružatelja smještaja, primjerak koje vam je predočen tijekom postupka rezervacije.</p><p>Molimo imajte na umu da s obzirom na to da su transakcijski i operativni troškovi snositi od strane Bookassist, bilo da otkažete svoju rezervaciju ili ne, uplata i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratne.</p>"
+    ],
+    "faq.content.entry7.title": [
+      "Zašto moram dati podatke o svojoj kreditnoj kartici?"
+    ],
+    "faq_modal.question_am_i_charged_if_i_cancel": [
+      "Jesam li naplaćen ako rezerviram?"
+    ],
+    "faq.content.entry8.paragraph1": [
+      "Vaši osobni podaci, kao što su ime, podaci o rezervaciji i adresa elektroničke pošte, potpuno su privatni i neće se koristiti vezano ni uz koja pitanja osim Vaše rezervacije i korištenje Bookassista. Ti podaci poznati su samo Bookassistu i pružatelju smještaja, hotelu i/ili hotelskoj grupi koju odaberete. Ti se podaci neće proslijediti nikakvoj trećoj strani ni iz kojeg razloga bez Vašeg jasnog pristanka."
+    ],
+    "faq.content.entry5.paragraph4": [
+      "<strong>Vaučeri i neiskorišteni vaučerski tečajevi istječu u godinu dana (pet godina samo za hotele u Irskoj) od datuma izdavanja originalnog vaučera, ako je to primjenjivo po zakonu.</strong>"
+    ],
+    "faq.content.entry8.paragraph2": [
+      "Dio s podacima o kreditnoj kartici na Bookassistu zaštićen je pomoću snažne tehnologije šifriranja Secure Sockets Layer (SSL). SSL šifrira Vaše ime, broj kreditne kartice i datum isteka prije nego oni putuju internetom. To čini poslovanje putem interneta sigurnim kao kupovina putem telefona. To osigurava da će podaci o Vašoj kreditnoj kartici ostati potpuno povjerljivi. SSL sigurna veza i sigurna transakcijska tehnologija učinkovito je zaštitila tisuće korisnika Bookassista koji su prenijeli brojeve svojih kreditnih kartica online te obavili kupnju otkad je Bookassist pokrenuo svoje online usluge 1999. godine."
+    ],
+    "faq_modal.question_how_to_contact_bookassist_team": [
+      "Kako mogu kontaktirati tim Bookassist?"
+    ],
+    "faq.content.entry5.paragraph3": [
+      "Ako trošak online rezervacije premašuje iznos gotovinskog vaučera koji koristite, preostali iznos za rezervaciju mora se platiti po dolasku u hotel. Gotovinski vaučeri mogu se koristiti online s najranijim datumom dolaska 7 dana nakon datuma kupovine vaučera. Podatke o kreditnoj kartici morate upisati i prilikom rezervacije s gotovinskim vaučerom."
+    ],
+    "faq.content.entry5.paragraph2": [
+      "Ako imate gotovinski vaučer, možete ga alternativno iskoristiti online za trošak rezervacije. Kako biste iskoristili svoj gotovinski vaučer online, posjetite stranicu hotela za rezervacije, unesite kod svojeg gotovinskog vaučera i njegova će se trenutačna vrijednost uzeti u obzir prilikom potvrde sobe i datuma koje želite."
+    ],
+    "faq.content.entry5.paragraph1": [
+      "Vaš vaučer trebao bi se predočiti u hotelu. Preporučuje se da kontaktirate hotel unaprijed kako biste rezervirali svoj paket. Kod vaučera trebao bi se navesti, a stvarni vaučer treba se predočiti pri podmirivanju računa."
+    ],
+    "faq.index.entry11": [
+      "Je li moja rezervacija <em>uistinu</em> zajamčena?"
+    ],
+    "faq.index.entry12": [
+      "Kako mogu izmijeniti svoju rezervaciju?"
+    ],
+    "faq.content.entry15.paragraph1": [
+      "Nakon potvrde rezervacije, primit ćete e-mail s referencijom rezervacije. e-mail će sadržavati i podatke o online otkazivanju Vaše rezervacije. Vaš polog i naknada za rezervaciju, ako su plaćeni, bit će nepovratni u slučaju otkazivanja. Uz Vaš polog i naknadu za rezervaciju, mogući su troškovi otkazivanja plativi pružatelju smještaja ovisno o njegovu pravilniku, čija Vam je kopija prikazana tijekom postupka rezervacije."
+    ],
+    "faq_modal.answer_am_i_charged_if_i_cancel": [
+      "Nakon potvrde rezervacije, primit ćete e-poštu s referentnim brojem rezervacije. E-pošta također sadrži detalje kako otkazati svoju rezervaciju online. Vaša uplata i naknada za rezervaciju, ako su plaćeni, neće biti povratni u slučaju otkazivanja. Troškovi otkazivanja, uz vašu uplatu i naknadu za rezervaciju, mogu biti naplativi ovisno o politici pružatelja smještaja, kopija koje vam je predočena tijekom postupka rezervacije.<br><br>Imajte na umu da su budući da troškovi transakcija i operativni troškovi snose Bookassist bez obzira otkazujete li svoju rezervaciju ili ne, uplata i naknada za rezervaciju (ako su naplaćeni) uvijek nepovratni."
+    ],
+    "faq.content.entry15.paragraph2": [
+      "Molimo, primite na znanje da s obzirom na to da transakcijske i operativne troškove pokriva Bookassist, bilo da otkažete svoju rezervaciju ili ne, polog i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratni."
+    ],
+    "faq.index.entry10": [
+      "Koliko stoji online rezerviranje?"
+    ],
+    "faq_modal.answer_what_is_bookassist": [
+      "Bookassist je internetska usluga i softverski sustav koji omogućuje hotelima ili pružateljima smještaja da svoje sobe i cijene učine dostupnima online za javnost kako bi rezervirali ili putem web stranice pružatelja ili putem bilo kojeg broja povezanih web stranica koje preuzimaju \"feed\" inventara Bookassist. Bookassist sustav je velika baza podataka do koje pojedini hoteli imaju trenutni pristup i gdje mogu definirati broj soba koje imaju dostupne u bilo kojem trenutku i cijene koje naplaćuju za te sobe. Hotel ili pružatelj smještaja uvijek ima potpunu kontrolu nad svojom ponudom, a tim Bookassist samo pruža softversku platformu koja omogućuje pružatelju prodaju."
+    ],
+    "faq.content.entry14.title": [
+      "Kako mogu otkazati rezervaciju?"
+    ],
+    "faq.content.entry7.paragraph1": [
+      "Kada je polog potreban za završavanje vaše rezervacije, sustav Bookassist zahtijeva podatke o Vašoj kreditnoj kartici kako bi teretio Vašu karticu za navedeni iznos pologa (i naknadu kada je primjenjivo). Ako polog nije potreban, hotel će zahtijevati podatke o Vašoj kreditnoj kartici kako bi osigurao vašu sobu. To je standardni uvjet i jamči hotelu da u slučaju da se ne pojavite ili ne otkažete na vrijeme može naplatiti dio ili sve troškove Vaše rezervacije, u skladu s pravilnikom hotela."
+    ],
+    "faq.content.entry6.paragraph2.link.part2": [
+      "Sigurnost</a> za više podataka."
+    ],
+    "faq.content.entry6.paragraph2.link.part1": [
+      "Pogledajte"
+    ],
+    "faq.content.entry11.title": [
+      "Kako mogu izmijeniti svoju rezervaciju?"
+    ],
+    "faq.content.entry17.title": [
+      "Što ako imam prigovor o hotelu u kojem sam odsjeo?"
+    ],
+    "faq.content.entry10.title": [
+      "Je li moja rezervacija <em>uistinu</em> zajamčena?"
+    ],
+    "faq.content.entry9.subtitle.paragraph1": [
+      "<strong>Polog (kada je primjenjivo): </strong>Kada je moguće uplatiti <em>polog</em> kako biste potvrdili svoju rezervaciju, to ćeVam biti jasno napomenuto. Plativi polog obično je malen postotak od ukupnog troška rezervacije"
+    ],
+    "faq_modal.answer_how_to_book_with_bookassist": [
+      "Rezervacije se obavljaju u samo tri jednostavna koraka.<ol><li>U prvom koraku postavite datume i broj osoba. Zatim ćete vidjeti popis hotela/soba/paketa koji odgovaraju vašim kriterijima pretraživanja i možete pregledati pojedinosti, cijene i popuste. Također vam može biti ponuđeno nekoliko dodatnih usluga od pružatelja smještaja koje možete dodati svom ukupnom paketu za kupnju.</li><li>U drugom koraku potvrdite svoj odabir i pristajte na uvjete</li><li>U trećem koraku nastavite unijeti podatke svoje kreditne kartice na sigurnu poveznicu.</li></ol><p>Kada završite, konačna stranica prikazuje vašu referencu rezervacije koju biste trebali zabilježiti i sačuvati. Trebali biste ispisati ovu konačnu stranicu kao zapis vaše rezervacije. Također ćete primiti e-poštu koja potvrđuje transakciju i ponovno navodi detalje vaše rezervacije.</p>"
+    ],
+    "faq.content.entry4.paragraph5": [
+      "Poruka za kupca: Za svaki vaučer ćete primiti e-mail. Svaki vaučer također će Vam biti poslan, ali bez prikazane vrijednosti (osim za gotovinski vaučer na kojem prikazujemo vrijednost)."
+    ],
+    "faq_modal.question_cost_to_book_online": [
+      "Koliko košta rezervacija online?"
+    ],
+    "faq.content.entry4.paragraph6": [
+      "Poruka za primatelja:  Za svaki vaučer ćete primiti e-mail. Svaki vaučer također će Vam biti poslan, ali bez prikazane vrijednosti (osim za gotovinski vaučer na kojem prikazujemo vrijednost)."
+    ],
+    "faq.content.entry4.paragraph3": [
+      "e-mail kupcu: Vi, kupac, primit ćete e-mail za svaki vaučer sa svim podacima te poveznicu na online stranicu s njegovim statusom, koja pokazuje podatke i trenutačnu vrijednost."
+    ],
+    "faq.content.entry4.title": [
+      "Što je vaučer ili gotovinski vaučer?"
+    ],
+    "faq.content.entry4.paragraph4": [
+      "e-mail primatelju: Primit ćete e-mail za svaki vaučer. Svaki primatelj vaučera primit će i e-mail s podacima o vaučeru te poveznicu na online stranicu s njegovim statusom, no vrijednost nije prikazana (osim za gotovinske vaučere, za koje prikazujemo vrijednost)."
+    ],
+    "faq.content.entry4.paragraph1": [
+      "Možete kupiti vaučer ili za specifični <em>paket</em> ili za specifičnu <em>vrijednosti</em> za korištenje u hotelu. Gotovinski vaučer je vrsta vaučera sa specifičnom vrijednošću koja je dodatno valjana za online rezervacije na mrežnoj stranici hotela."
+    ],
+    "faq.content.entry4.paragraph2": [
+      "Nekoliko vaučera može se kupiti u jednoj kupovnoj transakciji. Svaki vaučer može se poslati drugom primatelju. Možete odabrati u nizu mogućnosti dostave"
+    ],
+    "faq.content.entry11.paragraph2": [
+      "Molimo, primite na znanje da s obzirom na to da transakcijske i operativne troškove pokriva Bookassist, bilo da otkažete svoju rezervaciju ili ne, <em>polog i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratni.</em>"
+    ],
+    "faq.content.entry11.paragraph1": [
+      "Nakon izrade rezervacije, svi upiti vezani uz rezervaciju, uključujući bilo kakve potrebne izmjene, moraju se uputiti <em>izravno hotelu</em>. Bookassist time ne kontrolira raspoloživost i cijene hotela i ne može mijenjati rezervaciju koju napravite putem sustava (vidi '<em><a href=\"#2\">.Tko upravlja Bookassistom?</a></em>' gore)."
+    ],
+    "faq_modal.answer_didnt_get_a_confirmation_email": [
+      "<p>Ako ste vidjeli svoju stranicu s potvrdom rezervacije na zaslonu, s navedenim referentnim brojem rezervacije, tada je vaša rezervacija sigurno potvrđena i pružatelj smještaja je obaviješten. Ako niste primili potvrdnu e-poštu, vrlo je vjerojatno da ste tijekom postupka rezervacije unijeli krivu adresu e-pošte i vaša je e-pošta zalutala, ili možda neki softver za blokiranje neželjene pošte ili filtriranje na vašem računalu blokira našu komunikaciju s vama. Potvrdna e-pošta služi samo za vašu praktičnost i nije obavezna za vašu rezervaciju nakon što imate referentni broj rezervacije.</p><p>Isto tako, potvrdna e-pošta poslana od strane sustava hotelu služi samo za njihovu praktičnost, rezervacija je pohranjena u bazi podataka i dostupna je i provjerljiva hotelu iz njihovog administrativnog sustava u svakom trenutku. Ako niste primili potvrdnu e-poštu u roku od 24 sata, <a class=\"underline\" href=\"#12\">kontaktirajte nas</a> navodeći vaš referentni broj ili pružajući dovoljno detalja o vašoj rezervaciji kako bismo ponovno potvrdili za vas.</p>"
+    ],
+    "faq.content.entry14.paragraph1": [
+      "Nakon potvrde rezervacije, primit ćete e-mail s referencijom rezervacije. e-mail sadrži i podatke o online otkazivanju Vaše rezervacije. Vaš polog i naknada za rezervaciju, kada su plaćeni, nepovratni su u slučaju otkazivanja. Uz Vaš polog i naknadu za rezervaciju, mogući su troškovi otkazivanja plativi pružatelju smještaja ovisno o njegovom pravilniku, čija kopija Vam je prikazana tijekom postupka rezervacije. <br>Naravno, prvobitnu rezervaciju možete otkazati slijedeći upute u e-mailu s potvrdom i potom napraviti novu rezervaciju s izmijenjenim uvjetima. Međutim, u tom slučaju odreći ćete se već plaćenog pologa za otkazanu rezervaciju. Zbog toga je najbolje da kontaktirate hotel kako biste napravili izmjene."
+    ],
+    "faq.content.entry14.paragraph2": [
+      "Molimo, primite na znanje da s obzirom na to da mi pokrivamo transakcijske i operativne troškove, bilo da otkažete svoju rezervaciju ili ne, polog i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratni."
+    ],
+    "faq_modal.answer_how_to_cancel_a_booking": [
+      "Nakon potvrde rezervacije, primit ćete e-poštu s referentnim brojem rezervacije. E-pošta također sadrži detalje o tome kako otkazati svoju rezervaciju putem interneta. Vaš polog i naknada za rezervaciju, ako su plaćeni, ne mogu se vratiti u slučaju otkazivanja. Troškovi otkazivanja, uz vaš polog i naknadu za rezervaciju, mogu biti plaćeni pružatelju smještaja ovisno o njihovoj politici, primjerak koje vam je predočen tijekom postupka rezervacije. Naravno, možete otkazati svoju početnu rezervaciju slijedeći upute u e-poruci potvrde, a zatim napraviti novu rezervaciju prema vašim izmijenjenim zahtjevima. Međutim, u tom slučaju izgubit ćete bilo koji već plaćeni polog na otkazanoj rezervaciji. Iz tog razloga, najbolje je kontaktirati hotel kako biste izvršili bilo kakve promjene koje su vam potrebne.<br>Napomena: Budući da mi snosimo troškove transakcije bez obzira na to otkazujete li svoju rezervaciju ili ne, polog i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratni."
+    ],
+    "faq_modal.answer_cost_to_book_online": [
+      "<p>Općenito, prilikom rezervacije mogu se napraviti dvije naplate na vašu kreditnu/debitnu karticu:</p><ol><li><strong>Depozit (ako je primjenjivo): </strong>Ako je potrebno uplatiti depozit za potvrdu rezervacije, to će vam biti jasno naznačeno. Depozit koji se plaća obično je mali postotak ukupnog troška rezervacije</li><li><strong>Naknada za rezervaciju (ako je primjenjivo): </strong>Budući da je ovo sustav uživo, sve kreditne/debitne kartice provjeravaju se izravno s bankovnim sustavom. Banka naplaćuje naknadu Bookassistu kako bi pokrila trošak svake provjere valjanosti kreditne kartice, bez obzira je li kartica valjana ili ne. Bookassist može dodati naknadu za rezervaciju na vaš depozit kako bi nadoknadio ovu bankovnu naknadu koju snosimo, a ako je tako, to će vam biti jasno naznačeno.</li></ol><p>Molimo imajte na umu da budući da troškove transakcije snosimo mi, bez obzira otkazujete li svoju rezervaciju ili ne, <span class=\"style1\">depozit i naknada za rezervaciju (ako se naplaćuju) uvijek su nepovratni</span></p>"
+    ],
+    "faq.content.entry12.paragraph2": [
+      "Isto tako, e-mail s potvrdom koju sustav šalje hotelu služi samo za njihove potrebe, a sama rezervacija pohranjena je u bazu podataka te je dostupna hotelu i može se provjeriti iz njegova administracijskog sustava u bilo kojem trenutku. Ako niste primili e-mail s potvrdom u roku od 24 sata, <a href=\"#14\">kontaktirajte nas</a> uz navođenje svojeg referentnog broja ili pružanje dovoljno podataka o Vašoj rezervaciji kako bismo je mogli ponovno potvrditi."
+    ],
+    "faq.content.entry1.paragraph1": [
+      "Bookassist je internetska usluga i softverski sustav koji hotelima ili pružateljima smještaja omogućava da svoje sobe i cijene učine javno raspoloživima online za rezervaciju ili putem vlastite mrežne stranice pružatelja ili putem bilo kojeg broja povezanih mrežnih stranica koje uzimaju &quot;feedove&quot; s inventara Bookassista. Sustav Bookassist velika je baza podataka kojoj pojedinačni hoteli imaju izravan pristup i u kojoj mogu definirati raspoloživi broj soba u bilo kojem trenutku i cijene tih soba. Hotel ili pružatelji smještaja uvijek ima potpunu kontrolu nad svojom ponudom, a Bookassistov tim samo pruža softversku platformu koja omogućava prodaju pružatelju."
+    ],
+    "faq_modal.question_how_to_cancel_a_booking": [
+      "Kako otkazati rezervaciju?"
+    ],
+    "faq.content.entry12.paragraph1": [
+      "Ako ste na ekranu vidjeli stranicu s potvrdom svoje rezervacije s navedenom referencijom rezervacije, <em>tada je vaša rezervacija sigurno potvrđena</em> i pružatelj smještaja je obaviješten. Ako ne primite e-mail s potvrdom, tada je vrlo vjerojatno da ste netočno unijeli svoju e-mail adresu tijekom postupka rezervacije pa se Vaša e-mail izgubila ili možda neki softver za blokiranje neželjenih elektroničke pošte ili filtriranje na vašem uređaju blokira našu komunikaciju s Vama. e-mail s potvrdom namijenjena je samo Vama i <em>nije</em> potrebna za rezervaciju kada dobijete svoj referentni broj rezervacije."
+    ],
+    "faq.content.entry2.paragraph3.link.part1": [
+      "Pogledajte"
+    ],
+    "faq_modal.question_is_this_a_secure_site": [
+      "Je li ovo sigurna stranica? Jesu li moji podaci kreditne kartice sigurni i zaštićeni?"
+    ],
+    "faq.content.entry2.paragraph3.link.part2": [
+      "uvjeti i odredbe </a> za daljnje informacije."
+    ],
+    "faq.content.entry5.title": [
+      "Kako mogu iskoristiti vaučer?"
+    ],
+    "faq.content.entry13.paragraph1": [
+      "Ako ste na ekranu vidjeli stranicu s potvrdom svoje rezervacije s navedenom referencijom rezervacije, <em>Vaša je rezervacija tada sigurno potvrđena</em>. Također biste trebali primiti e-mail s potvrdom. Ako ne primite SMS poruku s potvrdom, a zatražili ste je, moguće je da nije unesen potreban potpuni međunarodni broj. Ipak, slanje SMS poruke ne utječe na Vašu potvrđenu rezervaciju. Ako niste primili e-mail s potvrdom u roku od 24 sata, <a href=\"#14\">svojoj rezervaciji kako bismo je ponovno za Vas mogli potvrditi."
+    ],
+    "faq_modal.answer_i_have_a_complaint_about_hotel": [
+      "<p>Bookassist je sustav koji olakšava rezervaciju između vas i pružatelja smještaja (vidi '<a class=\"underline\" href=\"#2\">Tko upravlja Bookassistom?</a>' gore). Mi ne posjedujemo niti upravljamo hotelima ili drugim vrstama smještaja i nismo odgovorni za njihovo upravljanje. Prigovore vezane uz smještaj treba uputiti pružatelju smještaja u prvom redu. Međutim, sve prigovore vrlo ozbiljno shvaćamo kako bismo osigurali da je Bookassist ugledna usluga za naše korisnike i osigurat ćemo da se svi prigovori proslijede gdje je to primjereno.</p><p>Nakon vašeg boravka možda ćete također biti zamoljeni putem e-pošte da podnesete svoje komentare (recenzije korisnika) o vašem iskustvu kako bi i drugi korisnici mogli imati koristi od vašeg mišljenja. Iako ne možemo objaviti sve komentare zbog ograničenja prostora, pružatelj smještaja može vidjeti sve takve komentare i ocjene primljene.</p>"
+    ],
+    "faq.content.entry9.subtitle.paragraph2": [
+      "<strong>Naknada za rezervaciju (kada je primjenjivo): </strong>S obzirom na to da je ovo sustav za transakcije u realnom vremenu, sve kreditne/debitne kartice provjeravaju se izravno u bankarskom sustavu. Banka ubire naknadu od Bookassista kako bi se pokrio trošak svake provjere kreditne kartice, bilo da je kartica ocijenjena kao valjana ili ne. Bookassist na Vaš pologmože dodati naknadu za rezervaciju kako bi se nadoknadio ovaj bankovni trošak kojim smo opterećeni. U tom ćemo Vam slučaju isto jasno napomenuti."
+    ],
+    "faq.content.entry2.paragraph2": [
+      "Bookassist sustav samo omogućava raj ugovor. Hotel je u potpunosti odgovoran za ažurnost informacija i cijena koje vidite. Bookassist tim ne kontrolira ove informacije, tako da kada rezervirate, činite to na temelju onoga što hotel nudi. Problemi s rezerviranjem moraju se rješavati na prvom stupnju s pružateljem smještaja."
+    ],
+    "faq.content.entry16.title": [
+      "Hoće li mi biti naplaćeno ako se ne pojavim?"
+    ],
+    "faq_modal.back_to_top": [
+      "Natrag na vrh"
+    ]
+  }
+}

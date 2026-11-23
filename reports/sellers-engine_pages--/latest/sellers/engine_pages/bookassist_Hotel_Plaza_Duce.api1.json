@@ -1,0 +1,58 @@
+{
+  "messages": {
+    "": {
+      "plural_form": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)"
+    },
+    "ts_and_cs_modal.no_liability_on_bookassist": [
+      "U slučaju da Vi Kupac rezervirate smještaj putem Bookassist-a s Pružateljem smještaja i da Pružatelj smještaja naknadno ne uspije, odbije ili zanemari pružiti Vam Kupcu rezervirani smještaj, Bookassist neće snositi nikakvu odgovornost. Završetkom ovog Procesa rezervacije, Vi Kupac pristajete odustati od bilo kakvih zahtjeva protiv Bookassist-a za bilo kakve gubitke ili štete proizašle iz neuspjeha Pružatelja smještaja da Vam pruži bilo koji rezervirani smještaj, ili u slučaju da je pruženi smještaj neadekvatan, ili u slučaju da je pruženi smještaj pogrešno opisan, ili za bilo kakve gubitke ili štete (uključujući troškove) nastale tijekom Vašeg boravka."
+    ],
+    "ts_and_cs_modal.no_contract_with_bookassist": [
+      "<p> Prihvaćanjem ovih Uvjeta i završetkom ovog Procesa rezervacije, Bookassist se slaže pružiti vam, Klijentu, mogućnosti omogućiti vam, Klijentu, rezervaciju smještaja, kako je opisano i navedeno u ovom Procesu rezervacije, s Pružateljem smještaja. Bookassist se slaže dopustiti vam, Klijentu, korištenje ove usluge pod sljedećim Uvjetima i odredbama.</p><p>Za potpuno izbjegavanje svake sumnje, dogovoreno je da neće postojati ugovor o rezervaciji između vas, Klijenta, i Bookassist.</p>"
+    ],
+    "ts_and_cs_modal.authorize_cancellation_fee_charges": [
+      "Završetkom ovog Procesa Rezervacije, Vi kao Klijent ovlašćujete Pružatelja Smještaja da tereti Vašu dostavljenu kreditnu karticu za iznos bilo kakvih troškova otkazivanja koji su dužni, kako je navedeno gore."
+    ],
+    "ts_and_cs_modal.contract_with_provider": [
+      "U slučaju da Vi kao Klijent nastavite s rezervacijom smještaja kod Davatelja smještaja koristeći ovaj Proces rezervacije, tada svaki ugovor u koji Vi kao Klijent stupate sklapa se isključivo između Vas kao Klijenta i tog Davatelja smještaja podložno uvjetima i/ili politici rezervacija tog Davatelja smještaja. Vaša je odgovornost kao Klijenta potpuno se upoznati s uvjetima i/ili politikom tog Davatelja smještaja."
+    ],
+    "ts_and_cs_modal.provide_valid_credit_card": [
+      "Za osiguranje vaše rezervacije kod pružatelja smještaja, Vi kao Kupac možda ćete morati pružiti podatke o kreditnoj kartici. Ako je to slučaj, morate unijeti podatke o kreditnoj kartici koja je važeća i legalno u vašem vlasništvu. Gdje je potrebno polaganje depozita i naknade za rezervaciju kako bi se osigurala vaša rezervacija, pristajete da se ti iznosi skinu s vaše kreditne kartice u vrijeme rezervacije i prihvaćate da su ti iznosi nepovratni. Ako se podaci o kreditnoj kartici unesu radi osiguranja vaše rezervacije i/ili plaćanja početnog pologa za vašu rezervaciju, pristajete da ti podaci budu dostupni pružatelju smještaja radi osiguranja vaše rezervacije sukladno Uvjetima i/ili Politici pružatelja smještaja."
+    ],
+    "ts_and_cs_modal.contact_bookassist_online": [
+      "Za kontaktiranje Bookassist-a, molimo pogledajte detalje ureda za kontakt na <a target=\"_blank\" href=\"https://bookassist.org/contact/\" class=\"underline\">Bookassist.org/contact</a>"
+    ],
+    "ts_and_cs_modal.bookassist_may_refuse_reservation": [
+      "Bookassist zadržava pravo odbiti završiti rezervaciju za vas, Klijenta, u slučaju da uneseni detalji od strane vas, Klijenta, u ovom Procesu Rezervacije ne ispunjavaju zahtjeve kako ih postavlja Bookassist s vremena na vrijeme."
+    ],
+    "ts_and_cs_modal.provide_contact_details": [
+      "Za osiguranje vaše rezervacije s pružateljem smještaja, vi, Kupac, morate dostaviti kontaktne podatke poput imena, adrese, broja telefona, mobilnog broja, e-pošte itd. Slažete se da ovi detalji budu dostupni pružatelju smještaja radi osiguranja vaše rezervacije."
+    ],
+    "ts_and_cs_modal.notify_provider_of_changes": [
+      "Isključiva je odgovornost Kupca obavijestiti Pružatelja smještaja o svim novim ili promijenjenim zahtjevima, uključujući promjenu vremena dolaska ili otkazivanja. Vi, Kupac, trebate imati na umu da u slučaju otkazivanja Pružatelj smještaja može naplatiti naknadu za otkazivanje na vašu kreditnu karticu sukladno Uvjetima i/ili Politici Pružatelja smještaja. Detalji takvih naknada za otkazivanje sadržani su u Procesu rezervacije, u potvrdi na zaslonu nakon završetka Procesa rezervacije, te u e-pošti poslanoj vama nakon završetka Procesa rezervacije."
+    ],
+    "ts_and_cs_modal.reservation_by_bookassist": [
+      "Ovaj online postupak rezervacije pruža Bookassist/Automatic Netware Limited (u daljnjem tekstu \"Bookassist\") u ime pružatelja smještaja."
+    ],
+    "ts_and_cs_modal.bookassist_not_liable_for_changes": [
+      "Dok Bookassist koristi svoje najbolje napore kako bi osigurao da informacije koje su dostavljene Vama, Klijentu, i sadržane u Procesu Rezervacije budu točne i ažurirane, nijedna odgovornost neće biti povezana s Bookassistom, njegovim službenicima ili agentima, u slučaju da su informacije koje su dostavljene unutar Procesa Rezervacije izmijenjene ili izmijenjene od strane Pružatelja Smještaja."
+    ],
+    "ts_and_cs_modal.voucher_terms_apply": [
+      "Gdje se e-voucher koristi u dijelu ili punom iznosu tijekom Procesa rezervacije, primjenit će se dodatni Uvjeti i odredbe koji su komunicirani primatelju e-vouchera u vezi s korištenjem e-vouchera."
+    ],
+    "ts_and_cs_modal.pay_accommodation_costs_onsite": [
+      "Klijent je odgovoran za izvršenje plaćanja cijene smještaja u cijelosti kako je navedeno, po dolasku na lokaciju smještaja i za sve dodatne zahtjeve ili troškove koje Klijent ima s Pružateljem smještaja. Ako je uplaćen polog radi osiguranja rezervacije, tada će Klijent izvršiti plaćanje preostalog iznosa cijene smještaja kako je navedeno, po dolasku na lokaciju smještaja. Stvarni troškovi koji se plaćaju obično su u lokalnoj valuti hotela, kako je naznačeno u Procesu rezervacije. Indikativne alternativne tečajeve valuta koji se koriste za procjenu troškova i preostalih troškova temelje se na trenutnim tečajevima razmjene i podložni su fluktuacijama."
+    ],
+    "ts_and_cs_modal.insufficient_funds_void_reservation": [
+      "U slučaju nedostatka dovoljnih sredstava na vašoj kreditnoj kartici za izvršenje predložene rezervacije, takva će rezervacija biti ništavna. Ista odredba vrijedi ako je vaša kreditna kartica prešla datum isteka ili pređe datum isteka prije odabranog datuma dolaska u postupku rezervacije."
+    ],
+    "ts_and_cs_modal.irish_law_governs_terms": [
+      "Zakoni koji reguliraju pružanje ovih usluga bit će zakoni Republike Irske. Ako se ovi Uvjeti prikazuju na jeziku koji nije engleski, takve prijevode koriste se samo radi praktičnosti, a engleska verzija ovih Uvjeta ima pravnu prednost."
+    ],
+    "ts_and_cs_modal.title": [
+      "Uvjeti i odredbe rezervacije"
+    ],
+    "ts_and_cs_modal.bookassist_forwards_reservation": [
+      "Nakon završetka ovog Procesa Rezervacije, Bookassist se obvezuje što prije proslijediti vašu rezervaciju vašem odabranom Pružatelju Smještaja."
+    ]
+  }
+}

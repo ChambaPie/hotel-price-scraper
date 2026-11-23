@@ -1,0 +1,2073 @@
+{
+	"SEND": "Abschicken",
+	"SELECTION": "Auswählen",
+	"LANGUAGE": "Sprache",
+	"CURRENCY": "Währung",
+	"ARRIVAL": "Anreise",
+	"DEPARTURE": "Abreise",
+	"RESUME": "Weiter",
+	"TODAY": "Heute",
+	"IMPRINT": "Impressum",
+	"BOOKEDOUT": "ausgebucht",
+	"BOOKEDUP": "nur Abreise",
+	"ARRIVALCLOSED": "Anreise nicht möglich.",
+	"ARRIVALCLOSEDFULL": "Anreise nicht möglich",
+	"DEPARTURECLOSED": "Abreise nicht möglich",
+	"MINIMUM": "Mindestens",
+	"MAXIMUM": "Maximal",
+	"NIGHT": "Nacht",
+	"NIGHTS": "Nächte",
+	"FROMCOSTS": "ab",
+	"UPTO": "bis",
+	"PLUSCOST": "+",
+	"FOUNDON": "gefunden auf",
+	"NOTAVAILABLE": "Ausgebucht",
+	"NOTAVAILABLE2": "nicht verfügbar",
+	"AGE": "Alter",
+	"DATEOFBIRTH": "Geburtsdatum",
+	"READY": "Fertig",
+	"SLEEPS": "schläft",
+	"OCCUPANCY": "Belegung",
+	"CHILD": "Kind",
+	"CHILDREN": "Kinder",
+	"ADULT": "Erwachsener",
+	"ADULTS": "Erwachsene",
+	"PET": "Haustier",
+	"PETS": "Haustiere",
+	"ADULTGENITIV": "Erwachsenen",
+	"PERSON": "Person",
+	"PER_PERSON": "pro Person",
+	"CONTINUE": "Weiter",
+	"BOOKINGCODEAVAIBLE": "Buchungscode vorhanden?",
+	"BOOKINGCODEAVAIBLEMOBILE": "Buchungscode?",
+	"BOOKINGCODEFAILURE": "Code leider ungültig",
+	"DOYOUHAVEBOOKINGCODE": "Haben Sie einen Buchungscode?",
+	"MODIFY": "Ändern",
+	"APPLY": "Bestätigen",
+	"CANCEL": "Abbrechen",
+	"NOTICE": "Hinweis",
+	"EXPIRES": "Das Abrufkontingent verfällt am {{date}}",
+	"EXPIRED": "Das Abrufkontingent ist am {{date}} verfallen",
+	"EMAIL": "E-Mail-Adresse",
+	"CHANGE": "ändern",
+	"CHOOSE": "weiter",
+	"AND": "und",
+	"IN": "in",
+	"ROOMSIZE": "Größe",
+	"ADD": "Hinzufügen",
+	"CANCELCHANGES": "Änderungen abbrechen",
+	"BOOKINGCODESUCCESS": {
+		"1": "Rabatt pro Nacht",
+		"2": "{{value}} % Rabatt pro Nacht",
+		"3": "Rabatt auf Zimmerpreis",
+		"4": "Zusätzliches Angebot freigeschaltet",
+		"5": "{{value}} % Rabatt auf Zimmerpreis",
+		"6": "Gutschein",
+		"7": "Buchungscode nur im Hotel einlösbar. Bitte kontaktieren Sie uns"
+	},
+	"RECOMMENDED": "Unsere Empfehlung",
+	"SELECTDATE": "Datum auswählen",
+	"SELECTANOTHERDATE": "Neues Datum",
+	"SELECT": "Auswählen",
+	"SELECTED": "Ausgewählt",
+	"UNSELECT": "Abwählen",
+	"OFFER": "Weiter",
+	"YES": "Ja",
+	"NO": "Nein",
+	"NUMBER": "Anzahl",
+	"MOREINFO": "Weitere Information",
+	"OCLOCK": "Uhr",
+	"SSLINFO": "Buchung sicher und verschlüsselt.",
+	"MORE": "mehr",
+	"LOADMORE": "mehr laden",
+	"LESS": "weniger",
+	"SHOWDETAILS": "Details",
+	"HIDEDETAILS": "Details ausblenden",
+	"NOTPOSSIBLEADULTMIN": "Mindestens {{count}} Erwachsener pro Zimmer.",
+	"NOTPOSSIBLEADULTSMIN": "Mindestens {{count}} Erwachsene pro Zimmer.",
+	"NOTPOSSIBLEADULTSMAX": "Maximal {{count}} Erwachsene pro Zimmer.",
+	"NOTPOSSIBLECHILDRENMAX": "Maximal {{count}} Kinder möglich.",
+	"NOT_POSSIBLE_PETS_MAX": "Maximal {{count}} {{label}} pro Zimmer",
+	"NOTPOSSIBLE": "nicht möglich",
+	"CLOSE": "Schließen",
+	"FILTERALLROOMTYPES": "Alle Zimmertypen auswählen",
+	"FILTERALLRATETYPES": "Alle Angebotstypen auswählen",
+	"SUBMITFILTER": "Kalenderansicht ändern",
+	"CONFIRM": "Übernehmen",
+	"APPLYDURATION": "Anwenden",
+	"PRICEINBASECURRENCY": "Preis in der Basis-Währung",
+	"COMPAREALLROOMS": "Alle Zimmer vergleichen",
+	"FURTHERSTUFF": "Weitere Angaben",
+	"BOOKINGFINALSTEP": "Jetzt buchen",
+	"MODIFYMODE": "Bitte passen Sie Ihre Buchung an",
+	"CONTINUETOSUBMIT": "Weiter, um Buchung abzuschließen",
+	"ROOMSAVAILABLE": "Zimmer verfügbar",
+	"PACKAGE": "Unser Special",
+	"PERNIGHT": "pro Nacht",
+	"ROOMTYPE": "Zimmertyp",
+	"OF": "von",
+	"DAYS": "Tagen",
+	"VALIDITYBOOKINGCODE": "Gültigkeit des Buchungscodes",
+	"PREPAYMENT": "Anzahlung",
+	"WISHESHEADERNOHOTEL": "Unverbindliche Wünsche:",
+	"VOUCHERBOOKINGCODE": "Buchungscode Gutschein:",
+	"EXTRAPRICE": "Extrapreis",
+	"VOUCHERPAYMENT_WITH_VALUE": "Gutscheinzahlung: {{value}}",
+	"LOCALTAX": {
+		"0": "Kurtaxe",
+		"1": "Ortstaxe",
+		"2": "City Tax",
+		"3": "MwSt."
+	},
+	"SUBTOTAL": "Zwischensumme",
+	"LOGIN": {
+		"GETRESETLINK": "Link anfordern",
+		"EMAILADDRESS": "E-Mail-Adresse",
+		"RESETPASSWORD": "Passwort zurücksetzen",
+		"LOGIN": "Für Mitglieder",
+		"LOGINID": "Login-ID",
+		"FORGOTPASSWORD": "Passwort vergessen",
+		"PASSWORD": "Passwort",
+		"HEADLINE": "Hier können Sie sich mit<br/>Ihren Benutzerdaten anmelden",
+		"HEADLINEALLOTMENT": "Geben Sie hier Ihr Stichwort ein",
+		"HEADLINECORPORATE": "Geben Sie hier Ihre Benutzerdaten ein",
+		"ALLOTMENTCODE": "Stichwort",
+		"LOGOUT": "Log out"
+	},
+	"KUNLEISYS": {
+		"POINTS": {
+			"SINGULAR": "Punkt",
+			"PLURAL": "Punkte"
+		},
+		"CREDITS": "Guthaben",
+		"LOYALTY_POINTS": "Treuepunkte",
+		"REDEEM_CREDITS": "Treuepunkte einlösen",
+		"POINT_IN_AMOUNT": "Das entspricht einem Wert von {{amount}}",
+		"LOGIN": "Einloggen",
+		"LOGOUT": "Abmelden",
+		"HOW_MANY_CREDITS": "Wie viele Punkte wollen Sie einlösen?",
+		"CONFIRM_POINTS": "Einlösen & Buchung fortsetzen",
+		"POINTS_APPLY_SUCCESS": "Super! Treuepunkte im Warenkorb hinterlegt.",
+		"REMAINING_POINTS_TITLE": "Aktuell im Warenkorb hinterlegt",
+		"AFTER_BOOKING_CREDITS": "Aktuell verfügbar nach Buchung: {{points}} Punkte ({{value}}).",
+		"MAX_POINTS": "max. {{points}} Pkt.",
+		"MAXIMUM_EXCEEDED": "Ausgewähltes Guthaben überschreitet den maximal einlösbaren Betrag von {{maximum}}.",
+		"CART_DISCOUNT_NAME": "Vergünstigungen",
+		"ENTER_CREDITS": "Einzulösendes Guthaben eintragen",
+		"LOGIN_POPUP_HEADER": "Lösen Sie Ihre Treuepunkte ein"
+	},
+	"PACKAGESOVERVIEW": {
+		"HEADLINE": "Folgende Specials haben wir für Sie zusammengestellt"
+	},
+	"FOLLOWUP": "Bitte senden Sie mir aktuelle Informationen und Angebote zu meinem Aufenthalt.",
+	"AGBS": {
+		"PARTONE": "Mit Abschluss der Buchung akzeptieren Sie unsere",
+		"PARTTWO": "AGB",
+		"PARTTHREE": "und",
+		"PARTFOUR": "Datenschutzerklärung",
+		"PARTONEOPTIN": "Mit Abschluss der Buchung akzeptieren Sie unsere",
+		"PARTTHREEOPTIN": "",
+		"PARTTWOOPTIN": "und"
+	},
+	"ROOMSAMOUNTS": {
+		"FIRST": "erstes",
+		"SECOND": "zweites",
+		"THIRD": "drittes",
+		"FOURTH": "viertes",
+		"FIFTH": "fünftes",
+		"SIXTH": "sechstes",
+		"SEVENTH": "siebentes",
+		"EIGHTH": "achtes",
+		"NINTH": "neuntes",
+		"TENTH": "zehntes"
+	},
+	"YOURROOMS": {
+		"FIRST": "ersten",
+		"SECOND": "zweiten",
+		"THIRD": "dritten",
+		"FOURTH": "vierten",
+		"FIFTH": "fünften",
+		"SIXTH": "sechsten",
+		"SEVENTH": "siebenten",
+		"EIGHTH": "achten",
+		"NINTH": "neunten",
+		"TENTH": "zehnten"
+	},
+	"TRAVEL": {
+		"JOURNEY": "Aufenthalt",
+		"NEWJOURNEYADDED": "Ein neuer Aufenthalt wurde hinzugefügt",
+		"JOURNEYREMOVED": "Ein bestehender Aufenthalt wurde entfernt",
+		"YOUAREEDITING": "Sie bearbeiten nun Ihre",
+		"1": "erste Buchung",
+		"2": "zweite Buchung",
+		"3": "dritte Buchung",
+		"4": "vierte Buchung"
+	},
+	"ROOMSCOMPARES": {
+		"PRICEASC": "Preis aufsteigend",
+		"PRICEDESC": "Preis absteigend",
+		"SPACEASC": "Zimmergröße aufsteigend",
+		"SPACEDESC": "Zimmergröße absteigend",
+		"NAMEASC": "Zimmernamen aufsteigend",
+		"NAMEDESC": "Zimmernamen absteigend"
+	},
+	"CHILDRENOPTIONS": {
+		"YEAR": "Jahr",
+		"YEARS": "Jahre",
+		"INEXTRABED": "im Extrabett",
+		"INPARENTSBED": "im Elternbett",
+		"SEPARATEDROOM": "im einem separaten Zimmer",
+		"OFWHICH": "davon"
+	},
+	"NOTIFICATIONS": {
+		"DEPARTUREREMINDER": "Gemerkt! Jetzt noch den Abreisetag anklicken.",
+		"NODEPARTUREPOSSIBLE": "Am {{departure}} ist keine Abreise möglich. Versuchen Sie es mit einem anderen Abreisetag.",
+		"NOTICEDOVERNIGHTS": "{{nights}} Übernachtung. Haben wir notiert.",
+		"NOTICEDOVERNIGHTSPLURAL": "{{nights}} Übernachtungen. Haben wir notiert.",
+		"NOTBOOKABLEDAYSCHOICE": "In Ihrer Auswahl zwischen dem {{arrival}} und {{departure}} sind nicht buchbare Tage enthalten.",
+		"NOTBOOKABLEARRIVAL": "Die Anreise am {{arrival}} ist leider nicht möglich. Bitte versuchen Sie einen anderen Anreisetag.",
+		"NOTBOOKABLEDEPARTURE": "Die Abreise am {{departure}} ist leider nicht möglich. Bitte versuchen Sie einen anderen Abreisetag.",
+		"NOTBOOKABLEMAXSTAY": "Ihre Auswahl ist leider nicht möglich. Der Maximalaufenthalt beträgt {{amount}} Übernachtung.",
+		"NOTBOOKABLEMAXSTAYPLURAL": "Ihre Auswahl ist leider nicht möglich. Der Maximalaufenthalt beträgt {{amount}} Übernachtungen.",
+		"NOTBOOKABLEMINSTAY": "Ihre Auswahl ist leider nicht möglich. Der Mindestaufenthalt beträgt {{amount}} Nacht.",
+		"NOTBOOKABLEMINSTAYPLURAL": "Ihre Auswahl ist leider nicht möglich. Der Mindestaufenthalt beträgt {{amount}} Nächte.",
+		"NOTBOOKABLERESERVATIONPOLICY": "Auf Grund bestehender Reservierungsbedingungen ist dieser Zeitraum leider nicht buchbar.",
+		"NOTBOOKABLEMAXDEPARTUREDATE": "Ihr Reisezeitraum vom {{arrival}} bis {{departure}} ist leider nicht verfügbar. Bitte versuchen Sie einen anderen Zeitraum.",
+		"NORATEAVAILABLEANYMORE": "Es sind keine Angebote verfügbar, da sich zwischenzeitlich das Kontingent des Zimmers geändert hat.",
+		"MISSINGAGEOFCHILDREN": "Bitte geben Sie das Alter Ihres Kindes an.",
+		"MISSINGAGESFORCHILDREN": "Es wurden keine Kinder hinzugefügt, da es mehrere Altersgruppen gibt und die Kinder aufgrund der fehlenden Altersangabe nicht eindeutig zugewiesen werden konnten. Bitte fügen Sie die Kinder manuell hinzu.",
+		"MISSINGAGESFORCHILDRENMOBILE": "Bitte fügen Sie die Kinder manuell hinzu.",
+		"ATLEASTONECHILDDOESNTMATCHCHILDAGEGROUP": "Mindestens einem Kind konnte keine Altersgruppe zugeordnet werden - bitte geben Sie das korrekte Alter an.",
+		"ATLEASTONECHILDDOESNTMATCHCHILDAGEGROUPMOBILE": "Mindestens ein Kind konnte keiner Altersgruppe zugeordnet.",
+		"ROOMNOTBOOKABLEFORDURATION": "Das gewünschte Zimmer ist im ausgewählten Zeitraum nicht buchbar.",
+		"RATEFORROOMNOTBOOKABLEFORDURATION": "Das gewünschte Angebot ist im ausgewählten Zeitraum nicht buchbar.",
+		"ROOMADDEDTOBASKET": "Ausgezeichnet. Das Zimmer wurde Ihrem Warenkorb hinzugefügt.",
+		"ROOMREMOVEDFROMBASKET": "Das Zimmer wurde aus Ihrem Warenkorb entfernt.",
+		"SELECTIONROOMSAVAIBLE": "Für diese Auswahl steht Ihnen nur {{amount}} Zimmerkategorie zur Verfügung.",
+		"NOWCHOOSERATE": "Gute Wahl. Jetzt noch das passende Angebot wählen.",
+		"NOWCHOOSEROOM": "Gute Wahl. Jetzt noch das passende Zimmer wählen.",
+		"ENHANCEMENTADDED": "Super! {{title}} wurde Ihrem Warenkorb hinzugefügt",
+		"ENHANCEMENTREMOVED": "Schade! {{title}} wurde aus Ihrem Warenkorb entfernt.",
+		"SELECTROOMFIRST": "Bitte wählen Sie erst ein Zimmer aus.",
+		"SELECTRATETYPEFIRST": "Bitte wählen Sie erst ein Angebot aus.",
+		"PACKAGESAVAIBLE": "Für diesen Zeitraum sind Specials verfügbar",
+		"SELECTRATE": "Bitte wählen Sie für alle Zimmer ein Angebot aus.",
+		"SELECTRATEALLTRAVEL": "Bitte wählen Sie für alle Aufenthalte und deren Zimmer ein Angebot aus.",
+		"COMPLETEINPUTS": "Fehler: Bitte füllen Sie die Eingabefelder vollständig aus.",
+		"NOPERIODCHOSEN": "Kein Reisezeitraum ausgewählt",
+		"NOPERIODCHOSENALLTRAVEL": "Bitte wählen Sie für alle Aufenthalte einen Reisezeitraum",
+		"UPDATEDPEOPLE": "Die Anzahl der Gäste wurde angepasst",
+		"UPDATEDCHILDREN": "Die Anzahl der ausgewählten Kinder wurde zurückgesetzt",
+		"ROOMLOOKING": "Das Zimmer haben wir entfernt",
+		"ANOTHERROOMADDED": "Ein weiteres Zimmer wurde hinzugefügt",
+		"UPDATECOMPLETED": "Gute Wahl! Das Zimmerupgrade ist vermerkt.",
+		"REMOVEDSELECTION": "Auswahl gelöscht.",
+		"REMOVEDENHANCEMENTS": "Ihre Extras wurden entfernt",
+		"UPDATEDENHANCEMENTS": "Ihre Extras wurden angepasst, da sich die Verfügbarkeiten geändert haben.",
+		"AMAZONLOGIN": "Sie haben Amazon Pay ausgewählt, bitte loggen Sie sich unter Amazon Pay ein oder ändern Sie die Zahlungsart",
+		"LOGINFAILED": "Email oder Passwort falsch.",
+		"LOGINSUCCESSBUTNOBOOKINGS": "Es liegen keine Buchungen vor.",
+		"OPTINS": "Sie müssen den AGBs und den Datenschutzbestimmungen zustimmen.",
+		"WRONGEMAIL": "Bitte überprüfen sie die angegebene E-Mail-Adresse",
+		"LOGOUTSUCCEED": "Sie wurden erfolgreich ausgeloggt.",
+		"TOMANYDAYSBYSEARCHPARAM": "Maximal {{amount}} Tage möglich.",
+		"ARRIVALSAMEASDEPARTURE": "Anreisetag darf nicht gleich Abreisetag sein",
+		"DEPARTUREBEFOREARRIVAL": "Das Abreise darf nicht kleiner als das Abresiedatum sein",
+		"DEPARTURENOTPOSSIBLE": "Abreise nicht möglich, bitte wählen Sie mindestens {{amount}} Übernachtungen",
+		"ARRIVALINPAST": "Das ausgewählte Datum liegt in der Vergangenheit",
+		"ENHNACEMENTSCHANGED": "Bitte überprüfen Sie Ihre Auswahl. Durch die Änderung des Reisezeitraums oder der Zimmerkategorie wurden folgende Extras entfernt bzw. auf '0' gesetzt",
+		"CREDITCARDTYPENOTACCEPTED": "Die angegebene Kreditkarte wird nicht vom Hotel unterstützt",
+		"CLIMATEADDED": "Der CO²-Ausgleich in Höhe von {{amount}} wurde Ihrem Warenkorb hinzugefügt.",
+		"CHANGEDLANGUAGE": "Die Sprache wurde geändert.",
+		"CHANGEDCURRENCY": "Die Währung wurde geändert.",
+		"INPUTADDRESSMANUEL": "Die automatische Adress-Suche wurde deaktiviert, da die angegebene Adresse nicht gefunden wurde. Bitte geben Sie die Adresse manuell ein.",
+		"BOOKING_CODE_HAS_BEEN_REMOVED": "Der Buchungscode wurde entfernt.",
+		"PACKAGE_OVERNIGHTS_NOT_MATCHING": "Die Anzahl der gewählten Tage stimmt nicht mit denen des Specials überein.",
+		"ROOM_NOT_AVAILABLE_FOR_SELECTED_PERIOD": "Dieses Zimmer ist im ausgewählten Zeitraum nicht verfügbar.",
+		"MANDATORY_ENHANCEMENT": "Bitte wählen Sie Ihre Pflicht-Extras aus."
+	},
+	"NAVIGATION": {
+		"BOOKINGCODE": "Buchungscode",
+		"SAVING": "Ersparnis"
+	},
+	"BOOKING_CODE": {
+		"VALID_FOR_TOOLTIP": "Der benutzte Buchungcode gilt für:",
+		"OVERNIGHT_PERIOD_TOOLTIP": "Übernachtung im Zeitraum <br /> vom {{start}} bis {{ end }}"
+	},
+	"MASTHEAD": {
+		"HEADLINE": "Wie viele Gäste dürfen wir begrüßen?",
+		"HEADLINEMOBILE": "Willkommen im {{hotel}}",
+		"INYOURROOM": "In Ihrem Zimmer schlafen",
+		"PERSONSINROOMS": "Im {{roomIndex}}. Zimmer schlafen",
+		"AMOUNTOFGUESTS": "Anzahl der Gäste"
+	},
+	"LANGUAGES": {
+		"1": "Deutsch",
+		"2": "English",
+		"3": "Français",
+		"4": "Nederlands",
+		"5": "Русский",
+		"6": "Italiano",
+		"7": "Español",
+		"8": "やまと",
+		"9": "Slovenská",
+		"10": "Polska",
+		"11": "عربي",
+		"12": "中国",
+		"13": "Dansk",
+		"14": "Svenska",
+		"15": "Português",
+		"16": "Česky",
+		"17": "Magyar",
+		"18": "Kroatisch"
+	},
+	"CURRENCIES": {
+		"AUD": "Australischer Dollar",
+		"BGN": "Lew",
+		"BRL": "Brasilianischer Real",
+		"CAD": "Kanadischer Dollar",
+		"CHF": "Schweizer Franken",
+		"CNY": "Chinesischer Yuan",
+		"CZK": "Tschechische Krone",
+		"DKK": "Dänische Krone",
+		"EUR": "Euro",
+		"GBP": "Pfund Sterling",
+		"HKD": "Hongkong-Dollar",
+		"HRK": "Kroatische Kuna",
+		"HUF": "Forint",
+		"IDR": "Indonesische Rupiah",
+		"ILS": "Schekel",
+		"INR": "Indische Rupie",
+		"ISK": "Isländische Krone",
+		"JPY": "Yen",
+		"KRW": "Südkoreanischer Won",
+		"MXN": "Mexikanischer Peso",
+		"MYR": "Malaysischer Ringgit",
+		"NOK": "Norwegische Krone",
+		"NZD": "Neuseeland-Dollar",
+		"PHP": "Philippinischer Peso ",
+		"PLN": "Złoty",
+		"RON": "Rumänischer Leu",
+		"SEK": "Schwedische Krone",
+		"SGD": "Singapur-Dollar",
+		"THB": "Baht",
+		"TRY": "Türkische Lira",
+		"USD": "US-Dollar",
+		"ZAR": "Südafrikanischer Rand"
+	},
+	"LOCATION": {
+		"HEADLINE": "Hier finden Sie uns!",
+		"ADDRESS": "Adresse",
+		"ADDADDRESS": "Zum Adressbuch hinzufügen",
+		"GETTINGTHERE": "Anreisemöglichkeit"
+	},
+	"MODIFYBOOKING": {
+		"HEADLINE": "Passen Sie Ihre Buchung an!",
+		"PERIODNOTBOOKABLE": "Leider ist dieser Zeitraum nicht verfügbar."
+	},
+	"CALENDAR": {
+		"HEADLINEARRIVAL": "Anreisetag ",
+		"HEADLINEDEPARTURE": "Abreisetag",
+		"HEADLINEAFTER": " auswählen",
+		"HEADLINE": "Wählen Sie Ihren An- und Abreisetag",
+		"HEADLINEPACKAGES": "Wählen Sie Ihren Anreisetag",
+		"SUBHEADLINEPACKAGES": "Preise gelten für {{count}} Übernachtungen",
+		"SUBHEADLINEPACKAGESONENIGHT": "Preise gelten für eine Übernachtung",
+		"SUBHEADLINEPACKAGESPERPERSON": "Preise pro Person und {{count}} Übernachtungen",
+		"SUBHEADLINEPACKAGESONENIGHTPERPERSON": "Preise pro Person und einer Übernachtung",
+		"HEADLINEMOBILECLOSED": "An- und Abreisetag",
+		"HEADLINEMOBILE": "Bitte auswählen",
+		"HEADLINECLASSIC": "Wählen Sie Ihren Reisezeitraum",
+		"HEADLINECLASSICONERATE": "Wählen Sie Ihr Zimmer und Reisezeitraum aus",
+		"HEADLINECLASSICOVERNIGHTS": "Wählen Sie Ihren Anreisetag",
+		"HEADLINECLASSICONERATEOVERNIGHTS": "Wählen Sie Ihr Zimmer und Anreisetag aus",
+		"FURTHERPERIOD": "Weiterer Zeitraum",
+		"FILTERCALENDAR": "Filter",
+		"YEARSUMMARY": "Jahresübersicht",
+		"FILTERRATES": "Angebote",
+		"FILTERROOMS": "Zimmer",
+		"DURATION": "Zeitraum",
+		"SELECTEDNIGHT": "Sie haben eine Übernachtung ausgewählt",
+		"SELECTEDNIGHTS": "Sie haben {{count}} Übernachtungen ausgewählt",
+		"NODURATIONSELECTED": "Kein Zeitraum ausgewählt",
+		"ALLROOMS": "alle",
+		"ALLRATES": "alle",
+		"INFOPOPUP": {
+			"CATEGORY": "Kategorie",
+			"RATE": "Angebot",
+			"HOW": "Wie",
+			"STAY": "Aufenthalt",
+			"BOOKABLEATANYTIME": "jederzeit buchbar",
+			"BOOKABLE": "buchbar",
+			"DAY": "Tag",
+			"DAYS": "Tage",
+			"BEDROOM": "-Bett-Zimmer",
+			"LOWESTPRICE": "Günstigster Preis",
+			"LOWESTPRICEFORSELECTION": "Günstigster Preis Ihrer Auswahl"
+		},
+		"ATLEASTONERATEANDROOM": "Bitte wählen Sie mindestens ein Angebot und ein Zimmer aus.",
+		"ATLEASTONERATE": "Bitte wählen Sie mindestens ein Angebot aus.",
+		"ATLEASTONEROOM": "Bitte wählen Sie mindestens ein Zimmer aus."
+	},
+	"ARRANGEMENTS": {
+		"HEADLINE": "Im ausgewählten Zeitraum sind folgende Specials verfügbar:",
+		"DETAILS": "Details"
+	},
+	"ROOMSANDRATES": {
+		"HEADLINEMOBILECLOSED": "Zimmer",
+		"CHOSE": "Wählen Sie aus folgenden",
+		"THESE": "Diese",
+		"OR": "/",
+		"INWHICHROOM": "Im {{roomIndex}}. Zimmer",
+		"FORYOUAVAILABLE": "sind verfügbar",
+		"ROOMS": "Zimmer",
+		"ROOM": "Zimmer",
+		"RATES": "Angebote",
+		"NOTAVAILABLE": "Nicht verfügbar",
+		"ROOMDETAILS": "Zimmerdetails",
+		"EQUIPMENT": "Ausstattung",
+		"EQUIPMENT_EXTENDED": "Auf diese Ausstattung können Sie sich freuen:",
+		"PRICEDETAILS": "Preisdetails",
+		"NORATEAVAIBLE": "Kein Angebot verfügbar",
+		"OURRATES": "Unsere Angebote",
+		"SHOWAVAIBLEROOM": "Zimmer anzeigen",
+		"STILLROOMSAVAIBLE": "Noch {{iconBefore}}{{rooms}} Zimmer verfügbar",
+		"STILLMOREROOMSAVAIBLE": "Noch mehr als {{iconBefore}}{{rooms}} Zimmer verfügbar",
+		"NOROOMCHOSEN": "Kein Zimmer ausgewählt",
+		"COMPAREROOMS": "Zimmer vergleichen",
+		"COMPAREROOMSHEADLINE": "Vergleichen Sie unsere Zimmer",
+		"SORT": "Sortieren",
+		"SORTROOMS": "Sortieren nach",
+		"NOROOMSAVAILABLE": "Es ist kein Zimmer für die aktuelle Auswahl verfügbar. Bitte wählen Sie einen anderen Zeitraum.",
+		"COMPARE": "Vergleichen",
+		"COMPARENOW": "Vergleichen",
+		"COMPAREBUTTONPOPOVERTEXT": "Wählen Sie bitte mindestens 2 Zimmer um diese zu vergleichen, anderenfalls werden alle Räume verglichen.",
+		"PACKAGESTEASER": "Für Ihren Zeitraum gibt es spannende Packages.",
+		"INTERESTED": "Interessiert",
+		"SHOWNOTAVAILABLEROOMS": "Alle Zimmer anzeigen",
+		"CANCELABLEBEFORE": "Kostenfrei stornieren bis {{date}} um {{time}} Uhr",
+		"NONREFUNDABLE": "Kostenfreie Stornierung nicht möglich"
+	},
+	"PAYMENTMETHOD": {
+		"HEADLINE": "Wie möchten Sie bezahlen?",
+		"HEADLINE_NO_PAYMENT_TYPES": "Fakten auf einen Blick",
+		"BOOKING_CONDITIONS": "Buchungsbedingungen"
+	},
+	"CLIMATE": {
+		"SUMMARYLABEL": "Klimakompensation",
+		"HEADLINE": "Klimafreundlich schlafen?",
+		"SUBHEADING": "Spenden Sie einen Baum für unsere Erde",
+		"SELECTEDHEADLINE": "Danke, dass Sie Klimaneutral übernachten.",
+		"CLIMATECOST": "CO2-Ausgleich mit {{cost}}",
+		"CLIMATETHANKS": "Nein, danke",
+		"EMISSIONTEXT": "Bei Ihrer Übernachtung entstehen CO2-Emissionen in Höhe von {{ emissionValue }} kg die wir durch ein zertifiziertes Klimaschutzprojekt an anderer Stelle wieder einsparen."
+	},
+	"ERVTRAVELINSURANCE": {
+		"HEADLINE": "ERGO - Reiseversicherung",
+		"HEADLINEAT": "ERV - Reiseversicherung",
+		"TRAVELERNAME": "Reisender #{{num}} Vorname",
+		"TRAVELERSURNAME": "Reisender #{{num}} Nachname",
+		"TRAVELERAGE": "Alter des #{{num}} Reisenden",
+		"CHOOSE": "Bitte wählen Sie Ihre Reiseversicherung:",
+		"CHOOSEPAYMENT": "Zahlungsart auswählen",
+		"IBAN": "IBAN",
+		"BIC": "BIC",
+		"HOLDER": "Kontoinhaber",
+		"INSURANCETEXT": "Es kann immer etwas Unvorhergesehenes passieren. Damit Sie bei Stornierung oder Abbruch Ihrer Reise finanziell abgesichert sind, empfehlen wir Ihnen den zuverlässigen Reiseschutz der ERGO Reiseversicherung AG.",
+		"AT": {
+			"CREDITCARDINFO": "Damit Ihr Versicherungsschutz unmittelbar nach Abschluss Ihrer Buchung wirksam ist, wird Ihre Kreditkarte direkt durch die Europäische Reiseversicherung AG, 1220 Wien in der Höhe des angeführten Betrages belastet.",
+			"INSURANCETEXT": "Es kann immer etwas Unvorhergesehenes passieren. Damit Sie bei Stornierung oder Abbruch Ihrer Reise finanziell abgesichert sind, empfehlen wir Ihnen den zuverlässigen Reiseschutz der Europäischen Reiseversicherung AG."
+		},
+		"TRAVELINSURANCE": "Reiseversicherung",
+		"ZAHLUNGSART": "Zahlungsart",
+		"KREDITKARTE": "Kreditkarte",
+		"VERSICHERUNG": "Versicherer",
+		"VERSICHERER": "Europäische Reiseversicherung AG, 1220 Wien",
+		"MESSAGE": "Die Versicherungspolice erhalten Sie vom Versicherer als gesondertes E-Mail."
+	},
+	"ADDRESSFORM": {
+		"HOWTOPAY": "Wie lauten Ihre Daten?",
+		"WHATIS": "Wie lautet Ihre",
+		"OR": "oder",
+		"BILLINGADDRESS": "Rechnungsadresse",
+		"PRIVATE": "private",
+		"BUSINESS": "geschäftliche",
+		"PRIVATEMOBILE": "Privat",
+		"BUSINESSMOBILE": "Firma",
+		"HEADLINENOSWITCH": "Bitte nennen Sie uns Ihre Daten",
+		"SALUTATION": "Anrede",
+		"FIRSTNAME": "Vorname",
+		"OPTIONALEMAIL": "E-Mail-Adresse Buchungsbestätigung ",
+		"LASTNAME": "Nachname",
+		"EMAIL": "E-Mail",
+		"PHONENUMBER": "Telefonnummer",
+		"MOBILENUMBER": "Mobilnummer",
+		"FAX": "Fax",
+		"STREET": "Straße",
+		"HOMENUMBER": "Nr.",
+		"ZIPCODE": "PLZ",
+		"CITY": "Ort",
+		"COUNTRY": "Land",
+		"DEPARTAMENT": "Abteilung",
+		"OPTIONAL": "optional",
+		"WHATSYOURNAME": "Verraten Sie uns Ihren Namen?",
+		"WHATSYOURCOMPANYNAME": "Nennen Sie uns einen Ansprechpartner?",
+		"HOWWEREACHYOU": "Wie erreichen wir Sie?",
+		"LOOKFORADDRESS": "Suchen Sie nach Ihrer Adresse!",
+		"LOOKFORCOMPANYADDRESS": "Suchen Sie nach Ihrer Firmen-Adresse!",
+		"WHATSCOMPANY": "Wie heißt Ihre Firma",
+		"MORECOMPANYINFO": "Haben Sie weitere Firmen-Adress-Informationen parat?",
+		"NAMEOFGUEST": "Name des Gastes",
+		"GUESTSINROOM": "Name des {{guests}}. Gastes",
+		"GUESTSINROOMS": "Name des {{guests}}. Gastes im {{room}}. Zimmer",
+		"WHATSYOURADDRESS": "Wie lauten Ihre Daten?",
+		"WHATSYOURCOMPANYADDRESS": "Wie lautet Ihre Firmen-Adresse?",
+		"PASSWORD": "Passwort",
+		"REPEATPASSWORD": "Passwort wiederholen",
+		"CREATEACCOUNT": "Jetzt registrieren und Daten für künftige Buchungen speichern.",
+		"NEWSLETTERJOIN": "Ich möchte News und exklusive Angebote erhalten",
+		"PASSWORDINTRO": "Hier registrieren und Daten für künftige Buchungen speichern.",
+		"GIVEGUESTNAME": "Nennen Sie uns den Namen eines Gastes",
+		"GIVEGUESTNAMEFORONEGUEST": "Nennen Sie uns den Namen des Gastes",
+		"GIVEGUESTNAMEINDEX": "Nennen Sie uns den Namen des {{index}}. Gastes",
+		"INCATEGORY": "in der Kategorie",
+		"BOOKEDBY": "Gebucht durch",
+		"GUESTISPAYINGINCORPORATE": "Gast ist Selbstzahler bei Abreise",
+		"COMPANYISPAYINGINCORPORATE": "Firma übernimmt Übernachtungskosten mit folgender Rechnungsanschrift",
+		"COMPANYISPAYINGINCORPORATENOFORM": "Firma übernimmt Übernachtungskosten",
+		"COMPANY": "Firma",
+		"NAME": "Name",
+		"CONTACTPERSON": "Ansprechpartner",
+		"CANTFINDADDRESS": "Es konnte keine gültige Adresse gefunden werden",
+		"MENDATORYFIELD": "Pflichtfeld",
+		"CORPORATE": {
+			"COMPANYNAME": "Firmenname",
+			"COMPANYADDRESSSUFFIX": "Adresszusatz",
+			"COMPANYSTREET": "Firma Straße",
+			"COMPANYZIPCODE": "Firma PLZ",
+			"COMPANYCITY": "Firma Ort",
+			"COMPANYCOUNTRY": "Firma Land"
+		}
+	},
+	"DESIRES": {
+		"HEADLINE": "Können wir Ihnen noch einen Wunsch erfüllen?",
+		"DESIRES": "Anmerkungen",
+		"NOTBINDING": "(unverbindlich)",
+		"OTHERDESIRES": "Haben Sie weitere Anmerkungen an uns?",
+		"SELECTEDHEADLINE": "Diese Wünsche haben wir notiert",
+		"SELECTEDNOTHING": "Keine Wünsche ausgewählt"
+	},
+	"ENHANCEMENTS": {
+		"HEADLINE_INITIAL": "Unsere Extras",
+		"HEADLINE": "Wählen Sie Ihre Extras",
+		"HEADLINEMOBILE": "Lust auf Extras",
+		"HEADLINEMOBILECLOSED": "Extras",
+		"INCLUDED": "bereits inklusive",
+		"FORFREE": "kostenfrei",
+		"DESIRED_AMOUNT": "Wunschbetrag",
+		"ALLDAYSANDROOMS": "alle Tage",
+		"ALLDAYSANDADULTS": "alle Tage & Erwachsene",
+		"ALLDAYSANDCHILDREN": "alle Tage & Kinder",
+		"ALLDAYSANDPERSONS": "alle Tage & Gäste",
+		"SELECTEDHEADLINE": "Ihre ausgewählten Extras",
+		"SELECTEDNOTHING": "Keine Extras ausgewählt",
+		"NOTAVAILABLE": "“{{enhancementName}}” ist für diesem Tag nicht verfügbar.",
+		"NOTHANKS": "Nein, danke",
+		"ALLROOMS": "Alle Räume",
+		"SHOWALL": "Alle anzeigen",
+		"SHOWFURTHER": "Weitere anzeigen",
+		"SELECTED": "ausgewählt",
+		"MANDATORY_SELECTION": "Pflichtauswahl",
+		"MANDATORY": "verpflichtend",
+		"PLEASE_SELECT": "Wählen Sie bitte {{count}} aus.",
+		"CONFIGURATOR": {
+			"CHANGEFORALLDAYS": "Für alle Tage<br/>übernehmen"
+		},
+		"MODAL": {
+			"DESIREDTIME": "Wunsch-Uhrzeit",
+			"ALLDAYSANDROOMS": "für alle Tage",
+			"ALLDAYSANDADULTS": "für alle Tage und Erwachsene",
+			"ALLDAYSANDCHILDREN": "für alle Tage und Kinder",
+			"ALLDAYSANDPERSONS": "für alle Tage und Gäste",
+			"CHECKPERDAY": "einzeln pro Tag wählen",
+			"NOCHECKFORROOM": "für dieses Zimmer nicht wählen"
+		},
+		"TYPES": {
+			"PERROOM": "pro Zimmer",
+			"PERADULT": "pro Erwachsener",
+			"PERCHILD": "pro Kind",
+			"PERCHILD_AGE_LIMIT": "pro Kind ({{start}}-{{end}} Jahre)",
+			"PERPERSON": "pro Person",
+			"PERDAY": "pro Tag",
+			"PERVISIT": "pro Aufenthalt",
+			"PERNUMBER": "pro Stück",
+			"DAY": "Tag",
+			"VISIT": "Aufenthalt",
+			"NUMBER": "Stück"
+		}
+	},
+	"SUMMARY": {
+		"SUMMARY": "Zusammenfassung",
+		"JOURNEY": "Aufenthalt",
+		"YOURSTAY": "Ihr Aufenthalt",
+		"PERIOD": "Zeitraum",
+		"SLEEPOVER": "Übernachtung",
+		"SLEEPOVERS": "Aufenthalt",
+		"CHECKIN": "Check-in",
+		"CHECKOUT": "Check-out",
+		"FROM": "ab",
+		"TILL": "bis",
+		"PERSONS": "Gäste",
+		"ROOMPRICE": "Zimmerpreis",
+		"FOR": "für",
+		"FORCAPITALIZED": "Für",
+		"AND": "und",
+		"NIGHT": "Nacht",
+		"FORFREE": "(kostenlos)",
+		"EXTRA": "Extra",
+		"EXTRAS": "Extras",
+		"WISH": "Wunsch",
+		"WISHES": "Wünsche",
+		"COMMENT": "Anmerkung",
+		"ADDJOURNEY": "Weiteren Aufenthalt hinzufügen",
+		"ADDJOURNEYFULLTEXT": "Weiteren Aufenthalt zur Buchung hinzufügen",
+		"REMOVEJOURNEY": "Aufenthalt entfernen",
+		"ORDERVALUE": "Gesamtpreis",
+		"PAYMENT": "Bezahlung",
+		"PAYMENTPREPAIDVALUE": "{{value}} Anzahlung bei Buchung",
+		"PAYMENTPREPAID": "Im Voraus bei Buchung",
+		"PAYMENTPOSTPAID": "Zahlung in der Unterkunft",
+		"SAVEORDER": "Noch nicht bereit zu buchen? Diese Buchung parken und später abschließen?",
+		"ROOMSDISCOUNT": "Rabatt auf Zimmer",
+		"DISCOUNTINCLUSIVE": "Rabatt inclusive",
+		"NODURATION": "Kein Datum ausgewählt",
+		"ROOMSUMMARY": "Summe"
+	},
+	"CONFIRMATION": {
+		"BOOKINGCONFIRMATION": "Buchungsbestätigung",
+		"APPLEWALLET": "Apple Wallet",
+		"ADDTRAVELTOCALENDAR": "Reise in den Kalender eintragen",
+		"FORWARD": "Buchung weiterleiten",
+		"PRINT": "Buchung drucken",
+		"NEXTBOOKING": "Weitere Buchung",
+		"CALENDAR": "In Kalender eintragen",
+		"COMMENT": "Ihr Kommentar",
+		"YEAH": "Yeah!!!",
+		"BOOKINGNUMBER": "Buchungsnummer",
+		"BOOKINGHEADER": "Ihre Buchung auf einen Blick",
+		"ARRIVAL": "Anreise",
+		"DEPARTURE": "Abreise",
+		"CHECKIN": "Check-in bis",
+		"CHECKOUT": "Check-out",
+		"OCLOCK": "Uhr",
+		"STAYLONGER": "Sie möchten verlängern?",
+		"COMMINGLATER": "Sie kommen später?",
+		"GUESTNAME": "Gastname",
+		"ROOM": "Zimmer",
+		"GUEST": "Gast",
+		"GUESTS": "Gäste",
+		"RATETYPE": "Angebotstyp",
+		"RATE": "Angebot",
+		"DATE": "Datum",
+		"PRICEPERNIGHT": "pro Nacht",
+		"EXTRASSUMMARY": "Extras gesamt",
+		"PRICE": "Preis",
+		"WISHESHEADER": "Unverbindliche Wünsche an das Hotel",
+		"GIFTHEADER": "Als Dankeschön für Ihre Buchung",
+		"TOTAL": "Gesamtsumme",
+		"PAYMENT": "Zahlungsart",
+		"CARDOWNER": "Inhaber",
+		"ACCOUNTNAME": "Rechnungsname",
+		"BOOKINGTYPE": "Reservierungsbedingungen",
+		"INSURANCE": "Europäische Reiseversicherung AG",
+		"CHANGEBOOKING": "Diese Buchung ändern oder stornieren",
+		"FAQ": "Häufig gestellte Fragen",
+		"RATEBOOKINGHEADER": "Wie zufrieden waren Sie mit dieser Buchung?",
+		"RATEBOOKINGINTRO": "Dieser Bereich widmet sich Ihren Vorschlägen. Hinterlassen Sie uns eine Nachricht, die uns hilft,<br/>unseren Service für Sie zu verbessern und Ihren Wünschen entgegenzukommen.",
+		"WHATNEXTHEADER": "Was passiert als Nächstes?",
+		"WHATNEXTEMAILHEADLINE": "E-Mail-Bestätigung",
+		"WHATNEXTEMAILCONTENT": "Soeben haben wir Ihnen die Buchung auch noch mal an Ihre E-Mail-Adresse geschickt.",
+		"SENDSUGESTION": "Vorschlag absenden",
+		"THANKSFORRATING": "Danke für Ihre Bewertung",
+		"ROOMTYPESANDGUESTS": "Zimmertyp & Anzahl Gäste",
+		"BILL": "Rechnung",
+		"HELPDESK": "Helpdesk",
+		"GUESTNAMES": "Names Gäste",
+		"RATEPERNIGHT": "Preis pro Nacht",
+		"RATEPERDAY": "Preis pro Tag",
+		"FORYOUINCLUSIVE": "Für Sie inklusive",
+		"ADTOCALENDARTITLE": "Übernachtung im {{hotelName}}",
+		"ADTOCALENDARDESCRIPTION": "Aufenthalt im {{hotelName}} für {{count}}",
+		"RATINGHEADER": "Das freut uns zu hören!",
+		"RATINGHEADERBAD": "Danke für die Bewertung!",
+		"RATINGLIKE": "Was hat Ihnen gefallen?",
+		"RATINGFIX": "Was könnten wir besser machen?",
+		"FURTHERQUESTIONS": "Haben Sie noch Fragen",
+		"ALLBOOKINGSGLANCE": "Alle Buchungen auf einen Blick",
+		"SHAREVIAMAIL": "Teilen Sie diese Buchung via E-Mail",
+		"SHAREPASSBOOK": "Wallet teilen",
+		"SHAREBOOKING": "Buchung teilen",
+		"SHAREPASSBOOKAGAIN": "Apple Wallet nochmal teilen",
+		"SHAREBOOKINGAGAIN": "Booking nochmal teilen",
+		"DONEMAILONWAY": "Erledigt! E-Mail ist unterwegs!",
+		"ADDNEXTEMAIL": "weitere E-Mail hinzufügen",
+		"BOOKEDENHANCEMENTS": "gebuchte Zusatzleistungen",
+		"TODAY": "später"
+	},
+	"CANCELATION": {
+		"CANCEL": "Stornieren",
+		"CONFIRMHEADER": "Stornierungsdetails",
+		"CHARTHEADLINE": "Gebührenfreie Stornierung",
+		"LOGINHEADLINE": "Hier können Sie Ihre Buchung anpassen",
+		"BOOKINGCANCELATION": "Buchung stornieren",
+		"FREECANCELATION": "Kostenfrei stornieren",
+		"NOMOREFREECANCELATION": "Nicht mehr kostenfrei stornierbar",
+		"CANCELTHISBOOKING": "Diese Buchung stornieren",
+		"BACKTOBOOKINGMODIFICATION": "Zurück zum Bearbeiten der Buchung",
+		"CHANGEBOOKINGDATE": "Buchungsdatum ändern",
+		"CHANGEPAYMENT": "Zahlungsart ändern",
+		"CHANGECCDETAILS": "Kreditkartenangaben ändern",
+		"CHANGEROOMDETAILS": "Zimmerinformationen ändern",
+		"ROOMCATEGORYCHANGE": "Zimmerkategorie ändern",
+		"NOBOOKINGAVAILABLE": "Es existiert keine Buchung",
+		"BOOKINGDATE": "Buchungsdatum",
+		"BOOKINGNOTFOUND": "Buchung nicht gefunden",
+		"CANCELATIONSUCCESS": "Ihre Buchung wurde erfolgreich storniert.",
+		"NOFREECANCELATION": "Eine kostenfreie Stornierung ist nicht möglich.",
+		"CANCELATIONDETAILS": "Stornierungsdetails",
+		"MODAL": {
+			"DOYOUWANT": "Das Zimmer mit der Buchungsnummer",
+			"REALLYCANCEL": "wirklich stornieren?",
+			"CANCELOTHERS": "Möchten Sie andere Buchungen stornieren / ändern?",
+			"CANCELMORE": "Weitere stornieren",
+			"YESCANCELBOOKING": "Ja, Buchung stornieren"
+		},
+		"MODIFYGUESTNAMES": "Ändern Sie den Gastnamen",
+		"CHANGENAME": "Name ändern",
+		"BOOKINGCANCELED": "Your booking is canceled",
+		"EDITCOMPLETEBOOKING": "komplette Buchung bearbeiten",
+		"HEADLINEMODIFYBOOKING": "Ihre Buchung ändern",
+		"CHANGEDGUESTNAME": "Gastdaten wurden aktualisiert.",
+		"CHANGEDDURATION": "Ihr Zeitraum wurde erfolgreich angepasst.",
+		"CHANGEDCC": "Ihre Kreditkarte wurde erfolgreich angepasst.",
+		"CHANGEDROOM": "Ihr Zimmer wurde erfolgreich angepasst.",
+		"GOBACK": "Zurück zur Buchungsübersicht"
+	},
+	"BOOKING": {
+		"BOOKINGNUMBER": "Buchungsnummer",
+		"HEADLINEMOBILE": "Buchung abschließen",
+		"BOOKLIABLE": "Zahlungspflichtig buchen",
+		"BOOKMODIFY": "Ja, Buchung ändern",
+		"INFORMATIONABOUTTOUROPERATOR": "Informationen zum Reiseveranstalter",
+		"PACKAGETRIP": "Bei Ihrer aktuellen Auswahl von Reiseleistungen handelt es sich um eine Pauschalreise. Bitte laden Sie sich die <a href='{{ url }}' target='_blank'>„Informationen zum Reiseveranstalter“</a> hier herunter.",
+		"PACKAGETRIPPREPAID": "Bei Ihrer aktuellen Auswahl von Reiseleistungen handelt es sich um eine Pauschalreise. Bitte laden Sie sich die <a href='{{ url }}' target='_blank'>„Informationen zum Reiseveranstalter“</a> und Ihren <a href='{{ url2 }}' target='_blank'>„Reisepreis-Sicherungsschein“</a> hier herunter.",
+		"TRAVELPRICESECURITYCERT": "Reisepreis-Sicherungsschein",
+		"ERRORS": {
+			"0": "Die Buchung kann nicht durchgeführt werden, da sich der Gesamtpreis in den letzten Minuten durch gleichzeitig getätigte Kontingentbuchungen geändert hat. Bitte wiederholen Sie die Buchung.",
+			"1": "Ihre Kreditkarte konnte nicht belastet werden.",
+			"2": "Ihre Benutzerdaten sind falsch.",
+			"3": "Ihre Buchungsnummer ist leider nicht vorhanden.",
+			"4": "Die angegebene Kreditkarte ist nicht vallide",
+			"5": "Beim Abschluss der Buchung ist ein Fehler aufgetreten. Bitte wenden Sie sich an Ihre Unterkunft!",
+			"6": "Es ist ein unerwarteter Fehler aufgetreten - Der Versicherungsabschluss kam aufgrund technischer Probleme nicht zustande. Bitte wenden Sie sich an Ihre Unterkunft!",
+			"7": "Das ausgewählte Zahlungsmittel wird leider nicht unterstützt. Bitte wählen Sie ein anderes aus.",
+			"8": "Leider ist die Zahlung mit diesem Amazon Payments Account nicht möglich, bitte wählen Sie eine andere Zahlungsart aus.",
+			"9": "Fehler bei der Kreditkartenzahlung.",
+			"10": "Die Kreditkarte konnte nicht authorisiert werden.",
+			"11": "Zahlung kann nicht durchgeführt werden! Bitte wenden Sie sich an das Hotel.",
+			"12": "Die Buchung kann nicht durchgeführt werden, da sich die Verfügbarkeiten bei den Extras in den letzten Minuten durch gleichzeitig getätigte Buchungen geändert hat. Bitte wiederholen Sie die Buchung.",
+			"13": "Die angegebene Kreditkarte wird nicht vom Hotel unterstützt"
+		}
+	},
+	"ADDITIONALNIGHTS": {
+		"ADDITIONALNIGHT": "Zusatznacht",
+		"ADDITIONALNIGHTS": "Zusatznächte",
+		"HEADER": "Bleiben Sie doch gleich ein paar Tage länger.",
+		"NIGHTSBEFORE": "Nächte davor",
+		"NIGHTSAFTER": "Nächte danach",
+		"NIGHTBEFORE": "Nacht davor",
+		"NIGHTAFTER": "Nacht danach",
+		"ARRIVALAT": "Anreise am",
+		"DEPARTUREAT": "Abreise am"
+	},
+	"CREDITCARD": {
+		"CCNUMBER": "Kreditkarten-Nr.",
+		"MONTH": "MM",
+		"YEAR": "JJ",
+		"EXPIRYDATE": "Gültig bis",
+		"CVC": "CVC-Code",
+		"CCOWNER": "Inhaber der Karte",
+		"CCOWNER_PLACEHOLDER": "Vor- und Nachname"
+	},
+	"ALLOTMENTBOOKINGLIST": {
+		"DATE": "Buchungsdatum",
+		"BOOKINGNUMBER": "Buchungsnummer",
+		"ARRIVAL": "Anreisetag",
+		"DEPARTURE": "Abreisetag",
+		"NAME": "Zimmerkategorie",
+		"PRICE": "Gesamtpreis",
+		"GUESTNAME": "Gastname",
+		"EMAIL": "E-Mail",
+		"STATE": "Status",
+		"NOBOOKINGSFOUND": "Keine Buchung vorhanden",
+		"LOGIN": {
+			"HEADER": "Geben Sie hier Ihren Veranstalter-Login ein.",
+			"ORGANIZERLOGIN": "Veranstalter-Login",
+			"SUBMIT": "Login"
+		}
+	},
+	"CORPORATE": {
+		"ROOMBOOKING": "Zimmerbuchung",
+		"BOOKINGOVERVIEW": "Buchungsübersicht",
+		"ACCOUNTOVERVIEW": "Kontoübersicht",
+		"BONUS": "Prämien",
+		"PROFILEEDIT": "Profil bearbeiten",
+		"LOGOUT": "Abmelden",
+		"PROFILE": {
+			"NAME": "Name",
+			"OLDPASSWORD": "Altes Passwort",
+			"NEWPASSWORD": "Neues Passwort",
+			"NEWPASSWORDREPEAT": "Neues Passwort wiederholen",
+			"CONTACTDATA": "Kontakt",
+			"UPDATECONTACTDATA": "Ihre Daten aktualisieren",
+			"CONTACTCHANGED": "Ihre Daten wurden erfolgreich aktualisiert",
+			"CONTACTNOTCHANGED": "Bitte prüfen Sie Ihre Eingaben. Die Daten konnten nicht geändert werden.",
+			"PASSWORD": "Passwort",
+			"CHANGEPASSWORD": "Passwort ändern",
+			"PASSWORDCHANGED": "Ihr Passwort wurde erfolgreich geändert.",
+			"PASSWORDNOTCHANGED": "Bitte überprüfen Sie Ihre Eingabe. Das Passwort konnte nicht geändert werden.",
+			"DATASAFE": "Wir garantieren, dass Ihre persönlichen Daten mit äußerster Sorgfalt behandelt und sicher gespeichert werden."
+		},
+		"NOBOOKINGSFOUND": "Keine Buchung vorhanden",
+		"RESERVATIONLISTHEADLINE": "Übersicht der Buchungen",
+		"WASCANCELEDON": "Wurde am {{date}} storniert",
+		"WASBOOKEDON": "Wurde am {{date}} gebucht",
+		"INVOICEADDRESS": "Rechnungsanschrift für Kostenübernahme",
+		"COMPANY": "Vertragspartner",
+		"USER": "Benutzer"
+	},
+	"RATEMONITOR": {
+		"HEADLINE": "PREISVERGLEICH",
+		"BESTPRICE": "Günstigster Preis",
+		"OURPRICE": "Unser Preis",
+		"DIRECT_BOOKING": {
+			"SAVED_UPTO": "Bingo! Direkt buchen, bis zu {{price}} sparen",
+			"ADDONS": "Bingo! Direkt buchen und sparen",
+			"BEST_PRICE": "Bingo! Der beste Preis ist garantiert"
+		},
+		"LAST_ACTIVITY_INFO": "Preise verglichen vor {{duration}}",
+		"SECONDS": "Sekunden",
+		"MINUTE": "Minute",
+		"MINUTES": "Minuten",
+		"HOUR": "Stunde",
+		"HOURS": "Stunden",
+		"LOADING_TEXT": "Vergleiche Preise im Internet"
+	},
+	"CHATRATEMONITOR": {
+		"PERIODONLYHNS": "Dieser Termin ist nur bei uns verfügbar.",
+		"COMPARETIME": "Preise verglichen vor {{sec}} Sekunden",
+		"YOUSAVE": "Sie sparen",
+		"YOUSAVELAST": "wenn Sie bei uns direkt buchen.",
+		"ICOMPARE": "Ich vergleiche mal die Preise für Sie im Internet."
+	},
+	"CROSSSELLING": {
+		"BOOKEDOUTFOUND": "Wunschtermin nicht verfügbar? Besuchen Sie unser",
+		"BOOKEDOUTFOUNDMULTI": "Wunschtermin nicht verfügbar? Besuchen Sie unsere",
+		"PARTNERHOTELS": "Partnerhotels",
+		"PARTNERHOTEL": "Partnerhotel",
+		"TOHOTEL": "zum Hotel",
+		"AWAY": "entfernt",
+		"HEADER": "Alternative Unterkünfte",
+		"HEADER_SINGULAR": "Alternative Unterkunft",
+		"TRAVEL_INFO": "Für Ihren Reisezeitraum vom {{arrival}} - {{departure}}, für {{guests}} Personen",
+		"TITLE": "Wir haben noch freie Hotels ganz in der Nähe.",
+		"RATING_TEXT": "({{count}}) Bewertungen",
+		"RATING_TOOLTIP": "Bewertung auf Google"
+	},
+	"STOREORDER": {
+		"HEDALINE": "Noch nicht bereit zu buchen?",
+		"CONTENT": "Wir werden Ihre Anfrage für {{hours}} Stunden speichern.",
+		"CONTENTONEHOUR": "Wir werden Ihre Anfrage für 1 Stunde speichern.",
+		"EMAILTEXT": "Bitte geben Sie Ihre E-Mail-Adresse an und wir senden Ihnen einen Link, über den Sie Ihre Buchung an der Stelle fortsetzen können, wo Sie sie verlassen haben. Bitte beachten Sie, dass sich die Zimmerpreise jederzeit ändern können.",
+		"SUBMIT": "Ihre Anfrage unverbindlich speichern.",
+		"SUCCESS": "Wir haben Ihre Auswahl gespeichert und Ihnen einen Link an {{email}} gesendet. Über diesen Link können Sie Ihre Buchungsanfrage innerhalb der nächsten {{hours}} Stunden abschließen.",
+		"SUCCESSONEHOUR": "Wir haben Ihre Auswahl gespeichert und Ihnen einen Link an {{email}} gesendet. Über diesen Link können Sie Ihre Buchungsanfrage innerhalb der nächsten Stunde abschließen."
+	},
+	"AMAZONPAY": {
+		"CONFIRM": {
+			"HEADER": "Do You want to fill booking form with Amazon Pay address details?",
+			"SUBMIT": "Yes, Fill in the form",
+			"CANCEL": "Cancel"
+		},
+		"HEADER": "NEU: Zahlen Sie jetzt via Amazon Pay! Einfach einloggen und mit den Daten aus Ihrem Amazon-Konto schnell und sicher buchen.",
+		"LOGOUT": "Sie möchten nicht mit Amazon Pay zahlen?",
+		"CHANGEPAYMENT": "Zahlungsart wechseln"
+	},
+	"ADYEN": {
+		"CREDITCARD": "Kredit- oder Debitkarte",
+		"PAY_ONLINE": "Online Bezahlung mit {{ paymentName }}",
+		"PAY_ONLINE_AND_MORE": "Online Bezahlung mit {{ paymentName }} & Co."
+	},
+	"BASKETBAR": {
+		"PRICEWRAP": "Preis aller Buchungen in {{selectedCurrency}}"
+	},
+	"ROOMADDON": {
+		"RECOMMENDATION": "unsere Empfehlung für Sie",
+		"ROOMUPDATETO": "Zimmerupgrade auf",
+		"FORONLY": "für nur",
+		"YESUPDATE": "Ja, Zimmerupgrade buchen",
+		"NEWPRICE": "neuer Gesamtpreis"
+	},
+	"NATURALLANGUAGE": {
+		"AGED": "im Alter von",
+		"YEARS": "Jahre",
+		"SLEEPWITHPARENTS": "schlafen im Bett der Eltern",
+		"INNUMROOM": "Im {{num}} Zimmer schlafen",
+		"NUMROOMADD": "{{num}} ZIMMER HINZUFÜGEN"
+	},
+	"MULTIPROPERTY": {
+		"GUEST": "Gast",
+		"GUESTS": "Gäste",
+		"ROOM": "Zimmer",
+		"ROOMS": "Zimmer",
+		"ADULT": "Erwachsener",
+		"ADULTS": "Erwachsene",
+		"CHILD": "Kind",
+		"CHILDREN": "Kinder",
+		"NIGHT": "Nacht",
+		"NIGHTS": "Nächte",
+		"SELECTINTERVAL": "Zeitraum auswählen",
+		"SELECTNEWINTERVAL": "Neuen Zeitraum Wahlen",
+		"SHOWRATES": "Angebote anzeigen",
+		"HOTELCHOOSE": "Reiseziel",
+		"DESTINATION_FILTER": {
+			"CITY": "Alle Städte durchsuchen",
+			"COUNTRY": "Alle Länder durchsuchen",
+			"REGION": "Alle Regionen durchsuchen"
+		},
+		"ALLHOTELSSEARCH": "Alle Hotels durchsuchen ({{hotelsTotal}})",
+		"ALLHOTELSCITY": "Alle Hotels in {{cityName}}",
+		"HOTEL": "Hotel",
+		"HOTELS": "Hotels",
+		"CHANGEVIEW": "Ansicht ändern",
+		"PRICE": "Preis",
+		"PRICEASCENDING": "Preis aufsteigend",
+		"PRICEDESCENDING": "Preis absteigend",
+		"BOOKEDOUTBUBBLE": "leider ausgebucht",
+		"BOOK": "Buchen",
+		"BOOKEDOUT": "Ausgebucht",
+		"BOOKEDOUTBUTTON": "Wann frei?",
+		"NOTAVAILABLE": "Nicht verfügbar",
+		"GIVEINFO": "Verraten Sie uns Ihre Reisedaten",
+		"SEARCH": "Suchen",
+		"RESULT": "Ergebnis",
+		"RESULTS": "Ergebnisse",
+		"YOURFILTERS": "Ihre Filterübersicht",
+		"DOFILTERNOW": "Jetzt filtern?",
+		"FILTER": "Filtern nach",
+		"CANCELFILTER": "Zurücksetzen",
+		"APPLYFILTERS": "Filter anwenden",
+		"CANCELALLFILTERS": "Alle Filter zurücksetzen",
+		"BEST_PICK": "Beste Wahl",
+		"ALL_HOTELS": "Alle Hotels durchsuchen",
+		"CITIES": "Städte",
+		"CITY": "Stadt",
+		"ALL_CITIES": "Alle Städte",
+		"ALL_COUNTRIES": "Alle Länder",
+		"ALL_REGIONS": "Alle Regionen",
+		"SHOW_MORE": "weitere laden",
+		"SHOW_RESULTS": "Ergebnisse anzeigen",
+		"ACTIVE_FILTER": "aktive Filter",
+		"COUNTRIES": {
+			"DE": "Deutschland",
+			"CH": "Schweiz",
+			"IT": "Italien",
+			"AT": "Österreich",
+			"CZ": "Tschechische Republik",
+			"HU": "Hungary"
+		},
+		"BOOKABLEFROM": "buchbar ab",
+		"MAP_ALL_PROPERTIES_BUTTON": "Alle Hotels",
+		"OTHER_HOTELS": "Übrige Hotels",
+		"LIMITED_AVAILABLE": "nur noch {{availabilityCount}} verfügbar",
+		"MORE_THAN_LIMIT_AVAILABLE": "noch mehr als {{availabilityCount}} Zimmer verfügbar",
+		"HOTEL_TYPE": {
+			"STADTHOTEL": "Stadthotel",
+			"FERIENHOTEL": "Ferienhotel",
+			"TAGUNGSHOTEL": "Tagungshotel",
+			"SERVICED_APARTMENT": "Serviced Apartment",
+			"HOSTEL": "Hostel",
+			"CAMPING": "Campingplatz"
+		},
+		"FILTER_TITLE": "Filtern",
+		"FILTER_NO_RESULTS": "Keine Ergebnisse gefunden"
+	},
+	"V6": {
+		"CART": "Ihr Warenkorb",
+		"HELLO": "Hallo",
+		"MINIMUMSTAY": "Mindestaufenthalt",
+		"MAXIMUMSTAY": "Maximalaufenthalt",
+		"GO_TO_OFFER": "Zum Angebot",
+		"ALL_OFFERS": "Alle Angebote",
+		"CONTINUE_READING": "Weiterlesen",
+		"ARRIVAL_AND_DEPARTURE": "An- und Abreise",
+		"BACK": "Zurück",
+		"HEADLINE_TRAVEL_INSURANCE_OR_CLIMATE": "Noch besser schlafen",
+		"SELECT_LANGUAGE_HEADLINE": "Sprache wählen",
+		"SELECT_CURRENCY_HEADLINE": "Währung wählen",
+		"APPLY_SETTINGS": "Anwenden",
+		"AGE_AT_CHECKOUT_NUMBER_OF_CHILD": "Alter {{ count }}. Kind",
+		"NOTPOSSIBLECHILDRENMAXAGE": "Ein Kind ist bei uns maximal {{ maxAge }} Jahre alt",
+		"SECURITY": {
+			"SECURE": "Sicher",
+			"SECURE_SERVER_IN_GERMANY": "Sichere Server in Deutschland",
+			"ENCRYPTION": "2048 Bit SSL-Verschlüsselung",
+			"SHA_FINGERPRINT": "SHA 256 Fingerprint",
+			"DSGVO_COMPLIANT": "100% DSGVO-konform",
+			"CVV": "Die CVV-Prüfnummer ist drei oder vierstellig und befindet sich im Unterschriftenfeld auf der Rückseite Ihrer Kreditkarte."
+		},
+		"SHOPPING_CART": {
+			"TRAVEL_DATE": "Anreise / Abreise",
+			"DURATION": "Reisezeitraum",
+			"SELECT_DURATION": "Reisezeitraum wählen",
+			"NOTHINGSELECTED": "Nicht gewählt",
+			"EDIT": "Bearbeiten",
+			"TRAVEL_TIME": "Reisedauer",
+			"PACKAGE": "Angebot",
+			"ENHANCEMENT_PRICE_LABEL": "Der Preis setzt sich zusammen aus:"
+		},
+		"ECONOMY_PRICE": {
+			"UNLOCK_BUTTON": "Freundschaftspreise freischalten",
+			"UNLOCK_SUCCESS": "Freundschaftspreise freigeschaltet",
+			"UNLOCK": "Freischalten",
+			"MODAL": {
+				"LOGIN": "Login",
+				"REGISTER": "Neu registrieren",
+				"CREATE_ACCOUNT": "Konto erstellen",
+				"VERIFY_ACCOUNT": "Konto verifizieren",
+				"HEADER": "Freundschaftspreise freischalten",
+				"HEADER_LOGIN": "Freundschaftspreise freischalten",
+				"HEADER_MAIL_SENT": "Super, fast geschafft!",
+				"DESCRIPTION_LOGIN": "Unsere Freundschaftpreise sind nur noch wenige Klicks entfernt. Benutzerdaten angeben, einloggen und sparen!",
+				"DESCRIPTION_REGISTER": "Unsere Freundschaftpreise sind nur noch wenige Klicks entfernt. Konto anlegen, Link in E-Mail bestätigen und sparen!",
+				"DESCRIPTION_MAIL_SENT_BEFORE_MAIL_ADDRESS": "Wir haben eine E-Mail an",
+				"DESCRIPTION_MAIL_SENT_AFTER_MAIL_ADDRESS": "gesendet.",
+				"DESCRIPTION_MAIL_SENT_OPTIONAL": "Schauen Sie in Ihr Postfach und geben Sie den Code ein um Ihre E-Mail zu bestätigen.",
+				"NEWSLETTER_CONSENT": "Ich bin damit einverstanden, per E-Mail über besondere Angebote und Events informiert zu werden.",
+				"RESEND_MAIL": "E-Mail nicht erhalten?",
+				"NO_PERSONAL_OFFERS_FOUND": "Keine Angebote gefunden."
+			},
+			"ATTEMPTSREMAINING": {
+				"ONE": "Noch 1 Versuch",
+				"MULTIPLE": "Noch {{ attemps }} Versuche"
+			}
+		},
+		"CONFIRMATION": {
+			"HEADER": "Gebucht!",
+			"HEADER_SUBLINE": "Die Reise geht nach {{ city }}!",
+			"BUTTON_ADD_ROOM": "weiteres Zimmer buchen",
+			"BUTTON_OPEN_MAP": "Klicken um Karte zu öffnen",
+			"GUESTSANDROOMS": "Gäste & Zimmer",
+			"RESERVATION_NUMBER": "Reservierungsnummer",
+			"TRAVEL_INDEX": "{{ travelIndex }}. Reise",
+			"TAXES_AND_FEES_INCLUDED": "inklusive Steuern und Gebühren",
+			"TEXT_BLOCK_YOUR": "Ihrer",
+			"TEXT_BLOCK_TRAVEL": "Reise",
+			"NIGHT_NUMBER": "1 Nacht",
+			"NIGHTS_NUMBER": "{{number}} Nächte",
+			"EXTRAS_NUMBER": "{{number}} Extras",
+			"TOTAL_PRICE_ALL_TRAVELS": "Gesamtpreis aller Reisen",
+			"TOTAL_PRICE_AND_CONDITIONS": "Rechnungsbetrag & Reservierungbedingungen",
+			"LOCATION_MODAL_HEADER": "Erkunden Sie unsere Umgebung.",
+			"ACTION_SHARE": "Teilen",
+			"ACTION_PDF": "PDF",
+			"ACTION_WALLET": "Wallet",
+			"ACTION_CALENDAR": "Kalender",
+			"SELECT_TRAVEL_FOR_PDF": "Reise wählen",
+			"SHARE_SUCCESS_HEADER": "Erledigt!",
+			"SHARE_SUCCESS_SUBLINE": "E-Mail ist unterwegs.",
+			"CANCELED_ON": "storniert am {{date}} um {{time}} Uhr",
+			"CANCELLATION_TEXT": "Deine Buchung wurde storniert.",
+			"FEEDBACK": {
+				"HEADER": "Wie zufrieden waren Sie mit Ihrer Buchung?",
+				"RATING_1": "sehr unzufrieden",
+				"RATING_2": "unzufrieden",
+				"RATING_3": "okay",
+				"RATING_4": "zufrieden",
+				"RATING_5": "sehr zufrieden",
+				"INPUT_MOST_LIKED_MOBILE": "Was hat Ihnen gefallen?",
+				"INPUT_MOST_LIKED": "Was hat Ihnen am besten gefallen?",
+				"INPUT_IMPROVEMENTS_MOBILE": "Was geht besser?",
+				"INPUT_IMPROVEMENTS": "Was können wir besser machen?",
+				"SUBMIT": "Feedback absenden",
+				"MESSAGE_SUCCESS": "Vielen Dank für das Feedback!"
+			},
+			"BOOKING_ERROR": {
+				"HEADLINE": "Ups, etwas ist schief gegangen.",
+				"ERROR": "Ein Fehler ist aufgetreten.",
+				"COULD_NOT_BE_PROCESSED": "Leider konnte Ihre Buchung nicht durchgeführt werden. Bitte wenden Sie sich an das Hotel."
+			},
+			"PROCESSING": {
+				"HEADLINE": "In Bearbeitung",
+				"THANKS": "Vielen Dank für Ihre Zimmerreservierung im {{hotelName}} und die Angabe Ihrer Kreditkartendaten.",
+				"INFORMATION": "Sobald Ihre Zahlung/Anzahlung erfolgreich war, erhalten Sie die Bestätigung Ihrer Zimmerreservierung per E-Mail. Bitte beachten Sie, dass der Zahlungsvorgang bis zu einer Stunde dauern kann. Bitte kontaktieren Sie uns unter {{phone}}, wenn Sie keine E-Mail-Bestätigung erhalten.",
+				"SALUTATION": "Ihr Team vom {{hotelName}}"
+			}
+		},
+		"ADDRESSFORM": {
+			"INDIVIDUALCOMPANYSELECTION": "What?",
+			"SALUTATION": "Anrede",
+			"FIRSTNAME": "Vorname",
+			"LASTNAME": "Nachname",
+			"EMAIL": "E-Mail",
+			"PHONE": "Telefonnummer",
+			"MOBILE": "Mobilnummer",
+			"FAX": "Fax",
+			"STREET": "Straße",
+			"STREETNO": "Hausnummer",
+			"ZIPCODE": "PLZ",
+			"CITY": "Ort",
+			"COUNTRY": "Land",
+			"COMPANY_NAME": "Firmenname",
+			"COMPANYNAME": "Firmenname",
+			"COMPANY_DIVISION": "Firma Abteilung",
+			"COMPANY_FIRSTNAME": "Firma Vorname",
+			"COMPANY_LASTNAME": "Firma Nachname",
+			"COMPANY_STREET": "Firma Straße",
+			"COMPANY_ZIPCODE": "Firma PLZ",
+			"COMPANY_CITY": "Firma Ort",
+			"COMPANY_COUNTRY": "Firma Land",
+			"GUEST_SALUTATION": "Anrede",
+			"GUEST_FIRSTNAME": "Vorname",
+			"GUEST_LASTNAME": "Nachname",
+			"GUEST_EMAIL": "E-Mail",
+			"COMPANY_VATID": "Steuer-Nummer",
+			"ADD_COMPANY_NAME": "Firma hinzufügen",
+			"ADD_COMPANY_ADDRESS": "+ Firmenadresse hinzufügen?",
+			"MORE_COMPANY_INFO": "Mehr Firmenangaben",
+			"LESS_COMPANY_INFO": "Nur Firmenname",
+			"DELETE_COMPANY": "Firma entfernen",
+			"ADD_COMPANY_NAME_MOBILE": "Firma",
+			"BUTTON_ASK_FOR_GUEST": "Namen des Gastes angeben",
+			"BUTTON_ASK_FOR_GUESTS": "Namen der Gäste angeben",
+			"BUTTON_ASK_FOR_GUESTS_DESCRIPTION": "Wir wollen alle Gäste natürlich am liebsten persönlich begrüßen.",
+			"ASK_FOR_GUESTNAME": "Wie lautet der Gastname?",
+			"ASK_FOR_GUESTNAMES": "Wie lauten die Gastnamen?",
+			"ADD_ANOTHER_GUEST": "Name des {{value}}. Gastes hinzufügen?",
+			"GUEST_EMAIL_HINT": "Wir nutzen die E-Mail nur für Buchungsinformationen, nie für Werbemails. Ehrenwort.",
+			"FULLNAME": "Vollständiger Name",
+			"FEEDBACK_MESSAGES": {
+				"MOBILE": "!",
+				"TEXTS": {
+					"SALUTATION": "Bitte geben Sie Ihre Anrede an.",
+					"FIRSTNAME": "Bitte geben Sie Ihren Vornamen an.",
+					"LASTNAME": "Bitte geben Sie Ihren Nachnamen an.",
+					"EMAIL": "Bitte geben Sie Ihre E-Mail an.",
+					"PHONE": "Bitte geben Sie Ihre Telefon-Nummer an.",
+					"FAX": "Bitte geben Sie Ihre Fax-Nummer an.",
+					"MOBILE": "Bitte geben Sie Ihre Mobile-Nummer an.",
+					"STREET": "Bitte geben Sie Ihre Straße an.",
+					"STREETNO": "Bitte geben Sie Ihre Straße-Nummer an.",
+					"ZIPCODE": "Bitte geben Sie Ihre Postleitzahl an.",
+					"CITY": "Bitte geben Sie Ihre Stadt an.",
+					"COUNTRY": "Bitte geben Sie Ihr Land an.",
+					"COMPANY_NAME": "Bitte geben Sie Ihren Firmen-Namen an.",
+					"COMPANY_DIVISION": "Bitte geben Sie Ihre Abteilung an.",
+					"COMPANY_FIRSTNAME": "Bitte geben Sie Ihren Vornamen an.",
+					"COMPANY_LASTNAME": "Bitte geben Sie Ihren Nachnamen an.",
+					"COMPANY_VATID": "Bitte geben Sie Ihre USt-ID an.",
+					"COMPANY_STREET": "Bitte geben Sie Ihre Straße an.",
+					"COMPANY_ZIPCODE": "Bitte geben Sie Ihre Postleitzahl an.",
+					"COMPANY_CITY": "Bitte geben Sie Ihre Stadt an.",
+					"COMPANY_COUNTRY": "Bitte geben Sie Ihr Land an."
+				},
+				"SUCCESS": {
+					"0": "Angenehm.",
+					"1": "Toll.",
+					"2": "Sehr schön.",
+					"3": "Ausgezeichnet.",
+					"4": "Notiert.",
+					"5": "Yeah.",
+					"6": "Exzellent.",
+					"7": "Fantastisch.",
+					"8": "Herrlich.",
+					"9": "Umwerfend."
+				}
+			},
+			"SAVED": "gespeichert",
+			"HEADLINE_INVOICE_INFORMATIONS": "Rechnungsinformationen",
+			"HEADLINE_GUEST_INFORMATIONS": "Gastinformationen",
+			"GUEST_NAMES_HEADLINE": "Wen dürfen wir begrüßen?",
+			"ENTER_GUEST_NAMES": "Gastnamen",
+			"ENTER_GUEST_NAMES_TRAVEL_GROUP": "Gastnamen für Ihre Reisen eintragen",
+			"ENTER_GUEST_NAMES_TRAVEL_GROUP_MODAL": "Gastnamen {{travelIndex}}. Reise"
+		},
+		"SUMMARY": {
+			"CANCELATION": "Stornierung"
+		},
+		"DATENAMES": {
+			"NIGHT": "Tag",
+			"DAYS": "Tage",
+			"WEEK": "Woche",
+			"WEEKS": "Wochen",
+			"MONTH": "Monat",
+			"MONTHS": "Monate"
+		},
+		"BOOKEDAT": "gebucht am {{ date }} um {{ time }} Uhr",
+		"ROOMSANDRATES": {
+			"SWITCHTORATESVIEW": "Zur Ratenansicht wechseln?",
+			"SWITCHTOROOMSVIEW": "Zur Standardansicht wechseln?",
+			"SWITCHTOROOMSVIEWINITILA": "Zur Zimmeransicht wechseln?",
+			"MAX_COMPARABLE_ROOMS": "Maximal {{count}} Zimmer vergleichbar",
+			"ADD_ADDITIONAL_ROOM": "Weiteres Zimmer?"
+		},
+		"HIDDEN_ROOMS": {
+			"ROOMS_NOT_AVAILABLE": "{{ count }} Zimmer nicht verfügbar",
+			"ROOM_AND_ONE_MORE_NOT_AVAILABLE": "und ein weiteres Zimmer nicht verfügbar",
+			"ROOM_AND_MORE_NOT_AVAILABLE": "+{{ count }} weitere Zimmer nicht verfügbar",
+			"SHOW_NOT_AVAILABLE_ROOM_AND_MORE": "Trotzdem anzeigen",
+			"SHOW_NOT_AVAILABLE_ROOMS": "Alle Zimmer anzeigen"
+		},
+		"FOOTER": {
+			"POWEREDBY": "powered by"
+		},
+		"LOGIN": {
+			"ERROR_MODIFY": "Buchungsnummer oder E-Mail Adresse falsch",
+			"ERROR_CORPORATE": "Login-ID oder Passwort falsch",
+			"ERROR_ALLOTMENTS": "Stichwort nicht vorhanden"
+		},
+		"FORGOTPASSWORD": {
+			"FIND_ACCOUNT_HEADER": "Konto finden",
+			"FIND_ACCOUNT_CAPTION": "Lassen Sie uns nach Ihrem Konto suchen.",
+			"FIND_ACCOUNT_BUTTON_LABEL": "Suchen",
+			"CHANGE_PASSWORD_HEADER": "Gleich ist es geschafft.",
+			"CHANGE_PASSWORD_CAPTION": "Geben Sie Bitte ein neues Passwort ein.",
+			"CHANGE_PASSWORD_BUTTON_LABEL": "Passwort ändern",
+			"SUCCESS_HEADER": "Erledigt!",
+			"SUCCESS_MAIL_SENT": "Wenn wir Ihre Adresse kennen,<br/>erhalten Sie gleich eine E-Mail.",
+			"SUCCESS_PASSWORD_CHANGED": "Dieses neue Password haben Sie sich verdient."
+		},
+		"NAVIGATION_BAR": {
+			"TOOLTIP": {
+				"GALLERY": "Zur Galerie",
+				"LOCATION": "Lageplan",
+				"CURRENCY": "Zur Währungsauswahl",
+				"LANGUAGE": "Zur Sprachwahl",
+				"CURRENCY_AND_LANGUAGE": "Sprache & Währung",
+				"FAQ": "FAQ"
+			}
+		},
+		"ADDITIONAL_NIGHTS": {
+			"SELECTED_TRAVEL_DURATION": "Ihr ausgewählter Reisezeitraum:",
+			"CURRENT_NIGHT": "Aktuell eine Nacht",
+			"CURRENT_NIGHTS": "Aktuell {{nights}} Nächte",
+			"NEW_NIGHTS": "Neu {{nights}} Nächte",
+			"EARLY_CHECKIN": "Eher anreisen?",
+			"LATE_CHECKOUT": "Später abreisen?"
+		},
+		"ADDITIONAL_WISHES": {
+			"SEND_REQUEST": "Ihre Nachricht an uns",
+			"PERSONAL_MESSAGE": "persönliche Nachricht",
+			"MESSAGE": "Nachricht"
+		},
+		"BOOKING_CONCLUSION": {
+			"TEXT_BEFORE_TOTAL_PRICE": "{{ salutation }}, aktuell befindet sich in Ihrem Warenkorb eine Reise im Wert von",
+			"TEXT_BEFORE_TOTAL_PRICE_NO_SALUTION": "Aktuell befindet sich in Ihrem Warenkorb eine Reise im Wert von",
+			"TEXT_BEFORE_TOTAL_PRICE_MULTIPLE": "{{ salutation }}, aktuell befinden sich in Ihrem Warenkorb {{ travels }} Reisen im Wert von",
+			"TEXT_BEFORE_TOTAL_PRICE_NO_SALUTION_MULTIPLE": "Aktuell befinden sich in Ihrem Warenkorb {{ travels }} Reisen im Wert von",
+			"TEXT_AFTER_TOTAL_PRICE": ".",
+			"TEXT_BEFORE_TRAVEL_INSURANCE_COST": "zzgl.",
+			"TEXT_AFTER_TRAVEL_INSURANCE_COST": "Reiseversicherung, separat berechnet.",
+			"MAXIMUM_TRIPS_WARNING_MSG": "Es können maximal 5 Reisen in einem Vorgang gebucht werden.",
+			"OPTION": {
+				"ADD_TRAVEL": "Reise",
+				"SHARE": "Entwurf teilen",
+				"SAVE": "Speichern",
+				"CALL": "Anrufen",
+				"FAQ": "FAQ"
+			},
+			"SHARE": {
+				"HEADER": "Diesen Entwurf via E-Mail teilen",
+				"ERROR_DUPLICATE": "Mindestens eine E-Mail Adresse wurde mehrfach angegeben.",
+				"SUCCESS": "Erledigt! E-Mail ist unterwegs!"
+			},
+			"GIFT": {
+				"HEADER": "Hier ein kleines Dankeschön:",
+				"MIN_REQUIREMENT": "Verfügbar ab einem Gesamtpreis von {{ price }}."
+			},
+			"PAYMENT": {
+				"SUCCESSFUL": "Zahlung erfolgreich",
+				"FAILED": "Zahlung fehlgeschlagen"
+			}
+		},
+		"CALENDAR": {
+			"SELECT_RANGE_LABEL": "Ich bin flexibel",
+			"SELECT_RANGE_APPLY": "Anreisetage markieren",
+			"SELECT_RANGE_EMPTY": "keinen Tag gefunden",
+			"NO_ARRIVAL": "Keine Anreise",
+			"FILTER": {
+				"TRAVEL_DURATION_NOT_AVAILABLE": "Reisezeitraum für den gewählten Kalenderfilter nicht verfügbar",
+				"LABEL_TO_SHOW": "Filtern wie ein Profi",
+				"LABEL_ROOM_CATEGORIES": "Zimmerkategorien",
+				"LABEL_RATES": "Angebote",
+				"HINT_NO_CHANGE": "Keine Änderungen am Filter vorgenommen",
+				"BUTTON_APPLY": "Filter anwenden"
+			},
+			"SEARCH_STRINGS": {
+				"TODAY": "Heute",
+				"TOMORROW": "Morgen",
+				"DAY_AFTER_TOMORROW": "Übermorgen"
+			},
+			"FROM": "Von wann?",
+			"TILL": "Bis wann?",
+			"APPLY_DURATION": {
+				"SINGULAR": "Weiter mit 1 Nacht",
+				"PLURAL": "Weiter mit {{count}} Nächten"
+			},
+			"DURATION_SELECTED_SHORT_NOTIFICATION": "Gute Wahl",
+			"ERROR": {
+				"ARRIVAL_DATE_INVALID": "Das Anreisedatum ist ungültig.",
+				"ARRIVAL_DATE_IS_PAST": "Das Anreisedatum liegt in der Vergangenheit.",
+				"DEPARTURE_DATE_AFTER_MAX": "Das Abreisedatum liegt nach dem max. gültigen Abreisedatum für das gewählte Anreise-Datum.",
+				"DEPARTURE_DATE_NOT_AFTER_ARRAIVAL": "Das Abreisedatum ist nicht nach dem Anreisedatum.",
+				"DEPARTURE_DATE_INVALID": "Das Abreisedatum ist ungültig."
+			}
+		},
+		"PASSWORD_VALIDATION": {
+			"MIN_CHARS": "mindestens {{ count }} Zeichen",
+			"HAS_SPECIAL_CHAR": "ein Sonderzeichen",
+			"HAS_UPPERCASE_LETTER": "ein Großbuchstaben",
+			"HAS_DIGIT": "eine Nummer",
+			"ALLOWED_SPECIAL_CHARS": "Mögliche Sonderzeichen:"
+		},
+		"CHAT": {
+			"UPGRADE_AVAILABLE": "Zimmer-Upgrade verfügbar.",
+			"UPGRADE_HINT": "{{ roomName }} nur {{ difference }} mehr.",
+			"UPGRADE_BUTTON": "Ja, Upgrade durchführen",
+			"UPGRADE_SUCCEED": "Glückwunsch! Das Zimmer-Upgrade wurde vorgenommen.",
+			"WELCOME_TIPS": "Willkommen! Bevor Sie loslegen,<br/>hier ein paar kleine Spartips:",
+			"SAVE_HINT": "Sie sparen bis zu {{price}}, wenn<br/>Sie bei uns direkt buchen.",
+			"SAVE_HINT_NO_DIFF": "Für den gewünschten Termin können Sie Ihr Hotelzimmer nur noch über uns direkt buchen.",
+			"RATEMONITOR_HEADER": "Preisvergleich",
+			"RATEMONITOR_LOADING": "lädt...",
+			"PROMOTION_BUTTON": "Angebot anzeigen"
+		},
+		"CLIMATE": {
+			"COMPENSATE_BUTTON": "Mit {{ price }} ausgleichen",
+			"COMPENSATE_BUTTON_INITIAL": "CO2 Ausgleich verfügbar",
+			"COMPENSATE_STATUS": "Für {{ price }} Ausgleich gewählt",
+			"INFO_MODAL_HEADER": "Click a Tree",
+			"HEADLINE": "Klimafreundlich schlafen?",
+			"SUBHEADING": "Spenden Sie einen Baum für unsere Erde",
+			"EMISSION_TEXT": "Übernachten geht jetzt auch umweltbewusst. Wir pflanzen einen Wald für unsere Gäste. Schon für 5 Euro wird eine Mangrove gepflanzt. Helfen Sie uns dabei und tragen Sie aktiv zum Schutz der Natur bei!"
+		},
+		"MYCLIMATE": {
+			"INFO_MODAL_HEADER": "myClimate",
+			"HEADLINE": "Weil uns die Umwelt am Herzen liegt",
+			"EMISSION_TEXT": "Bei uns können Sie klimafreundlich Übernachten. Gemeinsam mit unserem Partner für Nachhaltigkeit und Klimaschutz unterstützen wir verschiedene Projekte, die zur Reduzierung der CO2-Emission beitragen. Helfen Sie uns dabei und unterstützen Sie aktiv den Schutz der Natur.",
+			"OPTOUT_ACTIVATED":{
+                "COMPENSATE_STATUS": "Für {{ price }} Ausgleich gewählt",
+			    "COMPENSATE_BUTTON_INITIAL": "CO2-Ausgleich wird hinzugefügt",
+			    "COMPENSATE_BUTTON": "Mit {{ price }} ausgleichen"
+			},
+			"OPTOUT_NOT_ACTIVATED": {
+				"COMPENSATE_BUTTON": "Mit {{ price }} ausgleichen",
+			    "COMPENSATE_BUTTON_INITIAL": "CO2-Ausgleich verfügbar",
+			    "COMPENSATE_STATUS": "Für {{ price }} Ausgleich gewählt"
+			}
+		},
+		"CORPORATE": {
+			"NAVIGATION": {
+				"BOOKING_OVERVIEW": "Buchungsübersicht",
+				"ACCOUNT_OVERVIEW": "Kontoübersicht",
+				"BONUS": "Prämien",
+				"EDIT_PROFILE": "Profil bearbeiten",
+				"LOGOUT": "Abmelden"
+			},
+			"DATE": "Datum",
+			"DESCRIPTION": "Beschreibung",
+			"POINTS": "Punkte",
+			"REEDEM": "Einlösen",
+			"REDEEM_CONFIRMATION_MSG": "Sie möchten {{points}} Punkte für die Prämie {{title}} einlösen?",
+			"YES_I_AM_SURE": "Ja, ich möchte einlösen!",
+			"NOT_CANCELABLE": "nicht stornierbar",
+			"CANCELABLE_UNTILL": "Kostenfreie Stornierung bis",
+			"CANCELED": "storniert",
+			"MISSING_POINTS_TO_REDEEM": "Es fehlen noch {{ value }} Punkte",
+			"BOOKING_OVERVIEW": {
+				"HEADLINE": "Übersicht der bisherigen Buchungen",
+				"LABEL_ROOM_CATEGORIES": "ZimmerKategorie",
+				"PAST_BOOKINGS": "Vergangene Buchungen",
+				"BILLING_ADDRESS_LABEL": "Rechnungsanschrift",
+				"ROOM_IMAGES": "Zimmerbilder",
+				"WAS_BOOKED_ON": "Gebucht am {{ date }} um {{ time }} Uhr",
+				"DAYS_COUNT_CHECKIN": "Tage bis zum Check-in"
+			},
+			"BONUS_HEADLINE": {
+				"TEXT_BEFORE_BOOKING_AMOUNT": "Großartig {{ firstName }}, tauschen Sie jetzt Ihre gesammelten Punkte aus",
+				"BOOKING_AMOUNT": "einer Buchung",
+				"BOOKING_AMOUNTS": "{{ bookingCount }} Buchungen",
+				"TEXT_AFTER_BOOKING_AMOUNT": "gegen schöne Prämien ein."
+			},
+			"BONUS_SUBHEADLINE": {
+				"TEXT_BEFORE_CURRENT_POINTS": "Ihr aktueller Prämien Kontostand",
+				"CURRENT_POINT": "einen Punkt",
+				"CURRENT_POINTS": "{{ points }} Punkte"
+			},
+			"EDIT_PROFLE": {
+				"CONTACT_DETAILS": "Kontaktdaten"
+			}
+		},
+		"GUEST_CONFIG": {
+			"MAXIMUM_REACHED": "Maximal {{ roomsMax }} Zimmer",
+			"SLEEPS_SEPARATELY": "eigenes Bett",
+			"SLEEP_IN_PARENTS_BED": "im Elternbett",
+			"WHERE_DOES_CHILD_SLEEPS": "Wo schläft das Kind?",
+			"WHERE_DOES_CHILD_GROUP_SLEEPS_ONE_CHILD": "Bitte Schlafplatz wählen",
+			"WHERE_DOES_CHILD_GROUP_SLEEPS": "{{ childIndex }}. Schlafplatz wählen",
+			"AGE_OF_CHILD": "Alter des Kindes?",
+			"AGE_OF_CHILD_WITH_INDEX": "Alter {{ value }}. Kind?",
+			"AGE_AT_CHECKOUT": "Alter bei Abreise",
+			"ASK_FOR_AGE": "Alter",
+			"SELECT_TOOLTIP": "Bitte auswählen"
+		},
+		"ENHANCEMENTS": {
+			"UNAVAILABLE_ENHANCEMENT": "Für Ihre Auswahl sind keine Extras verfügbar",
+			"SELECT_EXTRAS": "Extras wählen?",
+			"GO_TO_SELECTION": "Zur Auswahl",
+			"IS_MENDATORY": "Verpflichtend durch gewähltes Angebot",
+			"PER_PREFIX": "pro",
+			"SELF_DEFINED": "selbst definierbar",
+			"ONCE": "Einmalig",
+			"ALL_DAYS": "Alle Tage",
+			"INSTEAD": "{{now}} anstatt {{before}}",
+			"CONFIGURATOR": {
+				"SELECT_ROOM": "Bitte Zimmer auswählen",
+				"SELECT_ROOM_AND_DATE": "Bitte Datum und Zimmer auswählen",
+				"INFOS": "Alle Infos",
+				"AMOUNT": "Betrag",
+				"SELECTED": "Ausgewählt",
+				"NOT_SELECTED": "Bitte Tage wählen",
+				"CUSTOMIZE": "Anpassen",
+				"DEFINE_AMOUNT": "Anzahl wählen",
+				"UPDATE_CONFIG": "Aktualisieren",
+				"NOT_AVAILABLE": "Nicht verfügbar",
+				"MIN_VALIDATION_ERROR": "Bitte beachten Sie den Mindestwert in Höhe von {{price}}"
+			},
+			"OCCUPANCIES": {
+				"ALL_ADULTS": "Alle Erwachsenen gewählt",
+				"ALL_CHILDREN": "Alle Kinder gewählt",
+				"ALL_ADULTS_AND_CHILDREN": "Alle Erwachsenen und Kinder gewählt",
+				"ALL_DAYS": "Alle Tage gewählt",
+				"ALL_DAYS_AND_ADULTS": "Alle Tage und Erwachsenen gewählt",
+				"ALL_DAYS_AND_CHILDREN": "Alle Tage und Kinder gewählt",
+				"ALL_DAYS_AND_ADULTS_AND_CHILDREN": "Alle Tage, Erwachsenen und Kinder gewählt",
+				"ALL_CHILDREN_WITH_AGE_GROUP": "Alle Kinder ({{start}}-{{end}} Jahre) gewählt",
+				"ALL_ADULTS_AND_CHILDREN_WITH_AGE_GROUP": "Alle Erwachsenen und Kinder ({{start}}-{{end}} Jahre) gewählt",
+				"ALL_DAYS_AND_CHILDREN_WITH_AGE_GROUP": "Alle Tage und Kinder ({{start}}-{{end}} Jahre) gewählt",
+				"ALL_DAYS_AND_ADULTS_AND_CHILDREN_WITH_AGE_GROUP": "Alle Tage, Erwachsenen und Kinder ({{start}}-{{end}} Jahre) gewählt"
+			},
+			"MANDATORY_ENHANCEMENT_CATEGORY": {
+				"0": {
+					"HEADLINES": {
+						"INITIAL": "Unsere Pflicht-Extras",
+						"SELECT_NOW": "Unsere Pflicht-Extras: Bitte {{count}} auswählen",
+						"SELECTED": "Alle Pflicht-Extras ausgewählt"
+					},
+					"MOBILE": {
+						"HEADLINES": {
+							"SINGULAR": "Pflicht-Extra wählen",
+							"PLURAL": "Pflicht-Extras wählen"
+						},
+						"BUTTON_ADD": {
+							"NOTHING_SELECTED": {
+								"SINGULAR": "Ein Pflicht-Extra hinzufügen",
+								"PLURAL": "{{count}} Pflicht-Extras hinzufügen"
+							},
+							"SOMETHING_SELECTED": {
+								"SINGULAR": "Noch ein Pflicht-Extras hinzufügen",
+								"PLURAL": "Noch {{count}} Pflicht-Extras hinzufügen"
+							}
+						}
+					},
+					"NOTIFICATIONS": {
+						"SELECTED_COUNT": "{{inUse}} von {{required}} ausgewählt",
+						"MAXIMUM_REACHED": "Maximale Anzahl an Pflicht-Extras erreicht"
+					},
+					"BUTTON_EDIT": "Bearbeiten Sie Ihre Auswahl"
+				}
+			}
+		},
+		"ROOMS_AND_RATES": {
+			"SHOW_AVAILABLE_RATES": "Verfügbare Raten anzeigen",
+			"NEED_MORE_ROOMS_TO_COMPARE": "Bitte mindestens ein weiteres Zimmer zum Vergleichen wählen.",
+			"EDIT_YOUR_SELECTION": "Bearbeiten Sie Ihre Auswahl",
+			"CHOSE_YOUR_ROOM_CATEGORY": "Wählen Sie Ihre Zimmerkategorie",
+			"ALL_DETAILS": "Alle Details",
+			"TO_THE_RATE": "Zur Rate",
+			"TO_THE_RATES": "Zu den Raten",
+			"BOOKABLE_FROM_PRICE": "ab {{ price }} buchen",
+			"SHOW_ALL_FACTS": "Alle {{ count }} anzeigen",
+			"UPGRADE_ROOM_FOR_AMOUNT": "Zimmer für {{ amount }} upgraden.",
+			"PACKAGES_AVAIBLE": "{{ amount }} Specials für den Zeitraum verfügbar",
+			"PACKAGE_AVAIBLE": "Ein Special für den Zeitraum verfügbar",
+			"PACKAGES_HIDE": "Specials ausblenden",
+			"MORE_RATES_AVAILABLE": "Weitere Raten verfügbar",
+			"MORE_RATES_AND_SPECIALS_AVAILABLE": "Weitere Raten und Specials verfügbar",
+			"UNLOCKED_OFFER": "Zusätzliche Rate",
+			"YOUR_PACKAGES": "Verfügbare Specials",
+			"TAX_INCLUSIVE": "inkl. {{ taxName }}",
+			"ECONOMY_PRICE_OFFER": "Freundschaftsangebot",
+			"VALIDITY": "Gültigkeit",
+			"RATE_AVAILABLE": "Eine Rate verfügbar.",
+			"RATES_AVAILABLE": "{{ count }} Raten verfügbar!",
+			"UP_TO_RATES_AVAILABLE": "Bis zu {{ count }} Raten verfügbar!",
+			"FOR_EXAMPLE": "z.B.",
+			"MORE": "Mehr",
+			"FOR_SOME_NIGHTS": "für {{ count }} Nächte",
+			"FOR_ONE_NIGHT": "für eine Nacht",
+			"PROMOTION_TAG": {
+				"ALLOTMENT_COUNT_AVAILABLE": "Nur noch {{ roomAllotment }} verfügbar",
+				"ALLOTMENT_FEW_AVAILABLE": "Nur noch wenige verfügbar",
+				"NEW": "neu",
+				"TOPSELLER": "Topseller",
+				"HIGHLIGHT": "Highlight",
+				"OFFER": "Angebot",
+				"EXCLUSIVE": "Exklusiv"
+			},
+			"ROOMS_HEADLINE": {
+				"CHOOSE_FROM_AVAILABLE": "Diese Zimmer sind verfügbar",
+				"NO_ROOMS_AVAILABLE": "Zu diesem Datum gibt es einen Mindestaufenthalt. Bitte kontaktieren Sie die Rezeption, ob es noch Lücken gibt.",
+				"CHOOSE_FROM_AVAILABLE_MOBILE": "Unsere Zimmer",
+				"AVAILABLE_CATEGORIES": "Wählen Sie aus {{ amount }} Kategorien",
+				"AVAILABLE_CATEGORY": "1 Kategorie verfügbar",
+				"ZERO_AVAILABLE_CATEGORIES": "Schade, alles belegt",
+				"OUR_ROOM_CATEGORIES": "Rückzugsorte zum Träumen.",
+				"AVAILABLE_ROOMS_NUMBER": {
+					"DEFAULT": "{{ roomIndex }}. Zimmer wählen",
+					"1": "{{ roomIndex }}. Zimmer wählen",
+					"2": "{{ roomIndex }}. Zimmer wählen",
+					"3": "{{ roomIndex }}. Zimmer wählen"
+				},
+				"SELECT_ROOMS_NUMBER": {
+					"DEFAULT": "{{ roomIndex }}. Zimmer wählen",
+					"1": "{{ roomIndex }}. Zimmer wählen",
+					"2": "{{ roomIndex }}. Zimmer wählen",
+					"3": "{{ roomIndex }}. Zimmer wählen"
+				},
+				"CHOOSE_A_RATE": "Wählen Sie bitte eine Rate.",
+				"INDEX_OF_ROOM": "{{ roomIndex }}. Zimmer",
+				"ROOM_CATEGORIE_SELECTED": "Ihre Zimmerwahl",
+				"ROOM_CATEGORIE_SELECTED_WITH_INDEX": "Ihre {{ roomIndex }}. Zimmerauswahl",
+				"ROOM_CATEGORIE_SELECTED_WITH_INDEX_IN_WORDS": {
+					"DEFAULT": "Ihr {{ roomIndex }}. Zimmer",
+					"1": "Ihr {{ roomIndex }}. Zimmer",
+					"2": "Ihr {{ roomIndex }}. Zimmer",
+					"3": "Ihr {{ roomIndex }}. Zimmer"
+				}
+			},
+			"RELEASE_DAY": "Buchbar bis 1 Tag vor Anreise",
+			"RELEASE_DAYS": "Buchbar bis {{days}} Tage vor Anreise",
+			"WHEN_AVAILABLE": "Wann frei?"
+		},
+		"ERV_TRAVEL_INSURANCE": {
+			"HEADLINE": "Reiseversicherung",
+			"SUBHEADING": "Machen Sie Ihre Reise sicher.",
+			"AVAILABLE_INITIAL": "Reiseversicherung verfügbar",
+			"NOT_AVAILABLE": "Reiseversicherung nicht verfügbar",
+			"AVAILABLE_EXACT": "Reiseversicherung für {{ price }}",
+			"AVAILABLE_FROM": "Reiseversicherung ab {{ price }}",
+			"SELECTED_TEXT": "Reiseversicherung für {{ price }} hinzugefügt",
+			"UPDATED_TEXT": "Die Reiseversicherung wurde auf {{ price }} angepasst",
+			"NO_INSURANCE": "Keine Versicherung",
+			"STEP_ONE": "Bitte wählen Sie Ihre Reiseversicherung",
+			"STEP_TWO": "Bitte tragen Sie alle Namen der reisenden Gäste ein",
+			"STEP_THREE": "SEPA Lastschrift",
+			"STEP_FOUR": "Abschluss",
+			"DONE_CLOSE_NOW": "Hinzugefügt - jetzt schließen"
+		},
+		"CANCELLATION": {
+			"POLICIES": "Stornierungsbedingungen",
+			"CANCELABLE_FOR_FREE_BEFORE": "Kostenfrei stornieren bis {{ date }}, {{ time }}",
+			"CANCELABLE_FOR_FREE_BEFORE_WITHOUT_TIME": "Kostenfrei stornieren bis {{ date }}",
+			"CANCELABLE_TILL": "Bei Stornierung bis {{ date }}, {{ time }}",
+			"CANCELABLE_TILL_WITHOUT_TIME": "Bei Stornierung bis {{ date }}",
+			"CANCELABLE_TILL_IS_ARRIVAL_DAY": "Bei Stornierung bis {{ time }} am Anreisetag",
+			"CANCELABLE_TILL_IS_ARRIVAL_DAY_WITHOUT_TIME": "Bei Stornierung bis zum Anreisetag",
+			"CANCELABLE_FROM_NOW": "Bei Stornierung",
+			"FEE_FIXED": "{{ currency}} Stornierungsgebühr vom Reisepreis",
+			"FEE_PERCENT": "% Stornierungsgebühr vom Reisepreis",
+			"TEXT_BLOCK_UNTIL": "bis",
+			"TEXT_BLOCK_FROM": "ab",
+			"ON_THE_DAY_OF_ARRIVAL": "am Anreisetag",
+			"CANCELABLE_NO_DATE_MONTH": "{{value}} Monat vor Anreise",
+			"CANCELABLE_NO_DATE_MONTHS": "{{value}} Monate vor Anreise",
+			"CANCELABLE_NO_DATE_DAY": "{{value}} Tag vor Anreise",
+			"CANCELABLE_NO_DATE_DAYS": "{{value}} Tage vor Anreise",
+			"CANCELABLE_BEFORE_NODATE": "Kostenfrei stornieren bis {{ time }} am Anreisetag",
+			"CANCELABLE_AT_ANY_TIME": "Jederzeit kostenlos stornieren",
+			"CANCELABLE_DAY": "1 Tag lang kostenlos stornieren",
+			"CANCELABLE_DAYS": "Noch {{value}} Tage kostenlos stornieren",
+			"CANCELABLE_FOR_FREE_NO_DATE_DAY": "Kostenfrei stornieren bis {{ days }} Tag vor Anreise",
+			"CANCELABLE_FOR_FREE_NO_DATE_DAYS": "Kostenfrei stornieren bis {{ days }} Tage vor Anreise",
+			"CANCELABLE_FOR_FREE_NO_DATE_HOURS": "Kostenfreie Stornierung bis {{ hours }} Stunden vor Ankunft",
+			"CANCELLABLE_DATE": "Kostenfreie Stornierung bis {{date}}"
+		},
+		"MODIFY": {
+			"BUTTON_CONFIRM_TEXT": "Okay, Buchung ändern",
+			"ADDITIONAL_COSTS_AMOUNT": "Fällige Zusatzkosten",
+			"MONEY_BACK_AMOUNT": "Sie erhalten eine Rückerstattung von",
+			"EDIT_GIFT": "Geschenk anpassen",
+			"UPDATE_CONFIRMED": "Okay, Ihre Reise wurde erfolgreich geändert.",
+			"CANCELLATION_CONFIRMED": "Okay, Ihre Reise wurde erfolgreich storniert.",
+			"TEXT_EMAIL": "Sie erhalten in Kürze eine Bestätigung per Mail.",
+			"LINK_TEXT_TO_HOMEPAGE": "Zu unserer Website",
+			"BACK_TO_BOOKING": "Zurück zur Buchung",
+			"INDEX_OF_TRAVEL": "{{ travelIndex }}. Reise",
+			"USER_OPTIONS": {
+				"DISCART_CHANGES": "Änderung<br />verwerfen",
+				"CHANGE_DATE": "Datum<br />ändern",
+				"CHANGE_ROOMS": "Zimmer<br />anpassen",
+				"CHANGE_ENHANCEMENTS": "Extras<br />ändern",
+				"CHANGE_CREDITCARD": "Kreditkarte<br />aktualisieren",
+				"CHANGE_PERSONAL_INFORMATION": "Persönliche<br />Daten ändern",
+				"GET_SUPPORT": "Support<br />erhalten",
+				"CANCEL_BOOKING": "Buchung<br />stornieren"
+			},
+			"MASTHEAD": {
+				"INTRO": "{{ firstName }}, hier können Sie Ihre Buchung ändern.",
+				"INTRO_ONLINE_NOT_POSSIBLE": "{{ firstName }}, hier können Sie Ihre Buchungsdaten einsehen.",
+				"YOUR_BOOKING_NUMBER": "Ihre Buchungsnummer lautet",
+				"CANCELATION_ONLINE_NOT_POSSIBLE": "Stornierung online nicht möglich, bitte kontaktieren Sie das Hotel."
+			},
+			"ADDITIONALS_OVERVIEW": {
+				"ONE_GIFT": "1 Geschenk",
+				"ONE_MESSAGE": "1 Nachricht an den Hotelier",
+				"NOTHING_SELECTED": "Keine Zusatzoptionen ausgewählt",
+				"EDIT": "Zusatzoptionen anpassen"
+			},
+			"CANCELLATION": {
+				"BUTTON_TEXT": "Reise stornieren",
+				"ARE_YOU_SURE": "Sie wollen wirklich stornieren?",
+				"ARE_YOU_SURE_MULTIPLE": "Sie wollen wirklich alle Buchungen stornieren?",
+				"YES_I_AM_SURE": "Ja, ich möchte stornieren"
+			},
+			"DURATION": {
+				"MY_STAY": "Ihr Reisezeitraum"
+			},
+			"ENHANCEMENTS": {
+				"MY_ENHANCEMENTS": "Ihre Extras",
+				"ADD_ENHANCEMENT": "Extra hinzufügen",
+				"THESE_ENHANCEMENTS_ARE_AVAILABLE": "Diese Extras sind verfügbar",
+				"HAS_CONFLICT_TOOLTIP": "Aufgrund des gewählten Reisetermins oder der gewählten Zimmerkategorie ist diese Extraleistung nicht mehr verfügbar."
+			},
+			"ADDITIONALS": {
+				"HEADLINE": "Zusätzliche Optionen",
+				"ADD_CLIMATE": "CO2-Ausgleich für {{ climatePrice }} hinzufügen",
+				"CLIMATE_SELECTED": "CO2-Ausgleich für {{ climatePrice }} gewählt",
+				"ADD_TRAVEL_INSURANCE_EXACT": "Reiseversicherung für {{ price }} hinzufügen",
+				"ADD_TRAVEL_INSURANCE_FROM": "Reiseversicherung ab {{ price }} hinzufügen",
+				"TRAVEL_INSURANCE_SELECTED": "Reiseversicherung für {{ price }} hinzugefügt"
+			},
+			"PAYMENT": {
+				"HEADLINE": "Ihre Zahlungsart",
+				"BUTTON_TEXT": "Zahlungsart anpassen"
+			},
+			"PERSONAL_INFORMATION": {
+				"HEADLINE": "Persönliche Angaben",
+				"BUTTON_TEXT": "Persönliche Angaben ändern",
+				"BUTTON_TEXT_CONFIRM": "Persönliche Angaben aktualisieren"
+			},
+			"WISHES": {
+				"BUTTON_TEXT": "Wünsche anpassen"
+			},
+			"ROOMS": {
+				"HEADLINE": "Ihre Zimmerauswahl",
+				"ADD_ROOM": "Zimmer hinzufügen",
+				"GUEST_HEADLINE": "Wie viele Gäste dürfen wir begrüßen?",
+				"GUEST_HEADLINE_FOR_THIS_ROOM": "Wie viele Gäste im {{index}}. Zimmer?",
+				"CONTINUE_TO_ROOMS": "Weiter zur Zimmerauswahl",
+				"THESE_ROOMS_ARE_AVAILABLE": "Diese Zimmer sind verfügbar",
+				"GUEST_NAME_EDIT_BUTTON_TEXT": "Gastnamen anpassen",
+				"NOT_AVAILABLE_ANYMORE": "Nicht mehr verfügbar",
+				"EDIT_SELECTED": "Auswahl anpassen",
+				"EDIT_GUESTNAME": "Gastnamen ändern",
+				"ADD_GUESTNAME": "Gastnamen angeben"
+			},
+			"UPDTAE_FAILED": "Beim modifizieren Ihrer Buchung ist etwas schief gegangen. Bitte versuchen später."
+		},
+		"CHECK-IN-AND-OUT": {
+			"CHECK_IN": "Check-in",
+			"CHECK_OUT": "Check-out",
+			"ARRIVAL_FROM_DATE": "am {{ date }} ab {{ time }} Uhr",
+			"ARRIVAL_FROM_TIME": "ab {{ time }} Uhr",
+			"DEPARTURE_TILL_DATE": "am {{ date }} bis {{ time }} Uhr",
+			"DEPARTURE_TILL_TIME": "bis {{ time }} Uhr",
+			"OFFER_BOTTONS": {
+				"TEXT_BEFORE": "Sie möchten",
+				"TEXT_EARLY_CHECKIN": "eher anreisen?",
+				"TEXT_MIDDLE": "oder",
+				"TEXT_LATE_CHECKOUT": "später abreisen?",
+				"TEXT_AFTER": "?"
+			}
+		},
+		"ARRANGEMENTS": {
+			"EXPIRES": "Hinweis: Diese Special verfällt am {{date}}",
+			"EXPIRED": "Dieses Special ist am {{date}} verfallen"
+		},
+		"ALLOTMENTS": {
+			"EXPIRES": "Hinweis: Dieses Abrufkontingent verfällt am {{date}}",
+			"EXPIRED": "Dieses Abrufkontingent ist am {{date}} verfallen"
+		},
+		"ALERTS": {
+			"NEWS": "Aktuelles"
+		},
+		"POIS": {
+			"DISTANCES": "Entfernungen (Luftlinie)",
+			"DISTANCE_TO_HOTEL": "Entfernung zum Hotel (Luftlinie)"
+		},
+		"CATEGORIES_FILTER": {
+			"LABEL": "Unterkunft",
+			"SELECT_ACCOMMODATION_TYPE": "Art der Unterkunft wählen",
+			"SHOW_ALL_ACCOMMODATIONS": "Alle"
+		},
+		"MEMBERS": {
+			"ACCOUNT_CREATED_SUCCESS": "Ihr Konto wurde erfolgreich erstellt",
+			"ACCOUNT_CREATED_FAILED": "Beim Erstellen Ihres Kontos ist etwas schief gegangen. Bitte versuchen später.",
+			"EMAIL_ALREADY_EXIST": "Ein Konto mit dieser E-Mail Adresse existiert bereits",
+			"LOGIN_HERE": "Jetzt anmelden",
+			"LOGIN": "Login für Mitglieder",
+			"LOGIN_WITH_SUCCESS": "Erfolgreich angemeldet"
+		},
+		"LOYALTY_MEMBER": {
+			"BUTTON_LOGIN": "Treuekarte",
+			"LOGIN": "Anmeldung für Treuekarten-Inhaber",
+			"CARD_NUMBER": "Treuekarten-Nr."
+		},
+		"INFOS": "Leistungen",
+		"OUR_MOST_POPULAR": "Unsere Beliebtesten",
+		"UNSAVED_BOOKING_MODAL": {
+			"INTRO": "Wollen Sie die Seite wirklich verlassen? Ihr Warenkorb im Wert von {{value}} ginge verloren.",
+			"BUTTON_LEAVE": "Seite verlassen",
+			"BUTTON_RESUME_BOOKING": "Weiterbuchen"
+		},
+		"RESTORE_ORDER_MODAL": {
+			"INTRO": "Buchung fortsetzen oder neu starten?",
+			"BUTTON_YES_RESTORE": "Fortsetzen",
+			"BUTTON_NEW_BOOKING": "Neu starten"
+		},
+		"BROWSER_OUTDATED": {
+			"TITLE": "Zeit für einen neuen Internetbrowser?",
+			"DESCRIPTION": "Onepagebooking.com verabschiedet sich vom Internet Explorer.<br/>Um unsere Webseite weiterhin optimal nutzen zu können, empfehlen wir eine dieser Optionen:",
+			"NOT_READY_TO_UPGRADE": "Noch nicht bereit für ein Upgrade?",
+			"RESUME": "Weiter zur Zimmerbuchung"
+		},
+		"PACKAGES": {
+			"PRICE_FOR_NIGHTS": "ab {{price}} für {{nights}} Nächte",
+			"PRICE_FOR_NIGHTS_PER_PERSON": "ab {{price}} pro Person für {{nights}} Nächte"
+		},
+		"NOTIFICATIONS": {
+			"BOOKING_RESTORED_FROM_SAVED_ORDER": "Ihre Buchung wurde erfolgreich hergestellt.",
+			"BOOKING_RESTORED_AFTER_EXTERNAL_PAYMENT_PROVIDER_CANCELED_BY_USER": "Die Zahlung wurde abgebrochen!",
+			"BOOKING_RESTORED_AFTER_EXTERNAL_PAYMENT_PROVIDER_FAILED": "Die Zahlung konnte nicht durchgeführt werden!",
+			"PROMOTION_VALID_PERIOD_RANGE": "Das Angebot ist buchbar vom {{startDate}} bis zum {{endDate}}.",
+			"PROMOTION_VALID_PERIOD_DAY": "Das Angebot ist nur am {{startDate}} buchbar.",
+			"PROMOTION_EXPIRED": "Das Angebot ist nicht mehr gültig."
+		},
+		"OPTIONAL_BOOKING_SECTIONS_MOBILE": {
+			"FURTHER_ITEMS": "+{{count}} weitere",
+			"LABEL_FINALIZE_BOOKING": "Kontakt, Zahlungsart",
+			"LABEL_FINALIZE_BOOKING_WITH_A_GIFT": "Kontakt, Zahlungsart, Dankeschön",
+			"SHOW_FURTHER_ENHANCEMENTS_WITH_COUNT": {
+				"SINGULAR": "{{count}} weiteres Extra entdecken",
+				"PLURAL": "{{count}} weitere Extras entdecken"
+			},
+			"HEADLINES": {
+				"WISHES": "Besondere Wünsche?",
+				"EXTRAS": "Extras",
+				"TRAVEL_INSURANCE": "Reiseversicherung?",
+				"WISHES_SELECTED": "Ihre Wünsche",
+				"EXTRAS_SELECTED": "Extras wählen?",
+				"TRAVEL_INSURANCE_SELECTED": "Ihre Reiseversicherung",
+				"ROOMS_SELECTED": "Bearbeiten Sie Ihre Auswahl."
+			}
+		},
+		"DAY_USE": {
+			"DAY": "Tag",
+			"DAYS": "Tage",
+			"FOR_SOME_DAYS": "für {{ count }} Tage",
+			"FOR_ONE_DAY": "einen Tag lang",
+			"CALENDAR": {
+				"APPLY_DURATION": {
+					"SINGULAR": "Weiter mit einem Tag",
+					"PLURAL": "Weiter mit {{count}} Tagen"
+				}
+			}
+		},
+		"PET_SETTING": {
+			"LABEL_DOG": "Hund",
+			"LABEL_DOGS": "Hunde",
+			"LABEL_PET": "Haustier",
+			"LABEL_PETS": "Haustiere"
+		},
+		"PAY_AFTER_BOOKING": {
+			"HEADLINE": "Zahlungsmethoden wählen",
+			"PAY_NOW": "Jetzt bezahlen",
+			"PAYMENT_NECESSARY": "Zur Bezahlung",
+			"UPDATE_PAYMENT_METHOD": "Zahlungsmethode aktualisieren",
+			"PREPAY_PAY_NOW_LABEL": "Jetzt zu zahlen",
+			"PREPAY_FROM_TOTAL": "Von insgesamt: {{ priceTotal }}",
+			"SHOW_ALL_PAYMENT_METHODS": "Alle Zahlmethoden anzeigen",
+			"CHOSE_FROM_ALL_PAYMENT_METHODS_LABEL": "Oder wählen Sie aus folgenden",
+			"CHOSE_FROM_ALL_PAYMENT_METHODS_HEADLINE": "Bezahl-Methoden"
+		},
+		"BOOKING_CODE_MODAL": {
+			"TITLE": "Ihr Buchungscode",
+			"TITLE_ACTIVATED": "Buchungscode aktiv",
+			"BUTTON_ADD": "Buchungscode aktivieren",
+			"BUTTON_REMOVE": "Buchungscode entfernen"
+		}
+	},
+	"TIMEPICKER": {
+		"DOESNTMATTER": "egal"
+	},
+	"ANNOUNCE": {
+		"RATE_VIEW": {
+			"TOGGLE_RATE_VIEW": "{{text}}.",
+			"SELECT_RATE": "{{name}} auswählen."
+		},
+		"MODIFY_BOOKING": {
+			"CANCELL_BOOKING": "Buchung stornieren.",
+			"CLOSE_CANCELL_BOOKING": "Stornierung schließen.",
+			"CONFIRM_CANCELL_BOOKING": "Buchung stornieren.",
+			"RESET_MODIFICATION": "Änderungen verwerfen."
+		},
+		"ORDER_FORM": {
+			"ENTER_CORPORATE_DATA": "Firmenangaben eingeben.",
+			"MORE_CORPORATE_DATA": "Mehr Firmenangaben.",
+			"DELETE_CORPORATE_DATA": "Firmenangaben löschen."
+		},
+		"WELCOME_ADD": {
+			"PREVIOUS_BUTTON": "Vorheriges Angebot.",
+			"NEXT_BUTTON": "Nächstes Angebot.",
+			"CLOSE_BUTTON": "Angebot schließen.",
+			"OPEN_EXTERNAL_LINK": "Öffne {{name}}.",
+			"OPEN_CROSS_SELLING_MAP": "Öffne {{name}}."
+		},
+		"HEADER_BAR": {
+			"LOGO": "Startseite.",
+			"OPEN_NAVIGATION_BAR": "Menü öffnen.",
+			"CLOSE_NAVIGATION_BAR": "Menü schließen.",
+			"OPEN_FAQ": "FAQ öffnen.",
+			"OPEN_GALLERY": "Galerie öffnen.",
+			"OPEN_MAP": "Karte öffnen.",
+			"OPEN_LANGUAGE_CURRENCY": "Sprache & Währung öffnen.",
+			"TOGGLE_CONTRAST_MODE": "Kontrastmodus umschalten.",
+			"OPEN_LOGIN": "Login öffnen.",
+			"OPEN_KUNLYSIS_LOGIN": "Kunlysis-Login öffnen.",
+			"OPEN_WELCOME_ADD_BAR": "Öffne {{name}}.",
+			"LOGIN": {
+				"CLOSE": "Login schließen.",
+				"RESUME": "Fortsetzen.",
+				"BUTTON_TEXT": "Anmelden.",
+				"SHOW_PASSWORD": "Passwort anzeigen",
+				"HIDE_PASSWORD": "Passwort verbergen"
+			},
+			"MPV_FILTER": {
+				"FILTER_PROPERTY": "Filtereigenschaft.",
+				"SELECT_MPV": "Auswählen."
+			},
+			"CATEGORY_FILTER": {
+				"OPEN_CATEGORY_FILTER": "Öffne {{name}}.",
+				"CLOSE_CATEGORY_FILTER": "Schließe {{name}}.",
+				"SELECT_CATEGORY": "{{category}} auswählen."
+			},
+			"CALENDAR": {
+				"SELECT_DURATION": "{{name}} auswählen.",
+				"TYPE_ARRIVAL_DATE": "{{name}} eingeben.",
+				"TYPE_DEPARTURE_DATE": "{{name}} eingeben.",
+				"NEXT_MONTH": "Nächster Monat.",
+				"PREVIOUS_MONTH": "Vorheriger Monat."
+			},
+			"BOOKING_CODE": {
+				"ENTER_BOOKING_CODE": "{{name}} eingeben.",
+				"SUBMIT_BOOKING_CODE": "{{name}} absenden."
+			},
+			"GUEST_CONFIG": {
+				"OPEN_GUEST_CONFIG": "Gäste & Zimmer öffnen.",
+				"CLOSE_GUEST_CONFIG": "Gäste & Zimmer schließen.",
+				"CURRENT_ROOM": "Zimmer {{roomNumber}}.",
+				"ADD_NEW_ROOM": "{{text}}.",
+				"SAVE_ROOM_CONFIG": "{{text}}.",
+				"DELETE_ROOM": "Zimmer {{roomNumber}} löschen.",
+				"INCREASE_ADULT_COUNT": "{{typePerson}} anpassen (erhöhen).",
+				"DECREASE_ADULT_COUNT": "{{typePerson}} anpassen (verringern).",
+				"INCREASE_CHILD_COUNT": "{{typePerson}} anpassen (erhöhen).",
+				"DECREASE_CHILD_COUNT": "{{typePerson}} anpassen (verringern).",
+				"CHANGE_CHILD_BED": "Schlafplatz auswählen.",
+				"CHANGE_CHILD_AGE": "Alter des Kindes auswählen.",
+				"INCREASE_PET_COUNT": "{{typePerson}} hinzufügen.",
+				"DECREASE_PET_COUNT": "{{typePerson}} entfernen."
+			},
+			"LANGUAGE_CURRENCY": {
+				"CLOSE": "Sprache & Währung schließen.",
+				"APPLY": "Sprache & Währung übernehmen.",
+				"SELECT_LANGUAGE": "{{name}} auswählen.",
+				"SELECT_CURRENCY": "{{name}} auswählen."
+			},
+			"GALLERY": {
+				"CLOSE": "Galerie schließen."
+			},
+			"MAP": {
+				"CLOSE": "Karte schließen."
+			},
+			"CART": {
+				"OPEN_CART": "Warenkorb öffnen."
+			},
+			"KUNLEISYS": {
+				"CLOSE": "Kunleysis schließen.",
+				"EDIT": "Bearbeiten",
+				"REDEEM_CREDITS": "Treuepunkte einlösen",
+				"CONFIRM_POINTS": "Einlösen & Buchung fortsetzen",
+				"REMOVE": "Entfernen"
+			}
+		},
+		"CALENDAR": {
+			"SELECT_START_DATE": "{{date}} auswählen. Anreise.",
+			"SELECT_END_DATE": "{{date}} auswählen. Abreise.",
+			"SELECT_DATE_RANGE": "{{date}} als Startdatum wählen.",
+			"SELECTED_DATE": "{{date}} ausgewählt.",
+			"CLEAR_SELECTED_DATE": "Auswahl löschen.",
+			"OPEN_FILTER": "Filter öffnen: Filter wie ein Profi.",
+			"OPEN_RANGE_FILTER": "Flexibler Filter öffnen.",
+			"SET_RANGE_FILTER": "Mögliche Anreisedaten markieren.",
+			"DELETE_RANGE_FILTER": "Markierung möglicher Anreisedaten löschen.",
+			"FILTER": {
+				"SELECT_ITEM": "{{name}} auswählen.",
+				"APPLY_FILTER": "{{text}}."
+			}
+		},
+		"CORPORATE_LOGIN_FORM": {
+			"LOGIN_ID_FIELD": "{{text}} eingeben.",
+			"PASSWORD_FIELD": "{{text}} eingeben.",
+			"SHOW_PASSWORD": "{{text}} anzeigen.",
+			"Hide_PASSWORD": "{{text}} verbergen.",
+			"LOGIN_BUTTON": "{{text}}."
+		},
+		"MODIFY_BOOKING_LOGIN_FORM": {
+			"BOOKING_NUMBER_FIELD": "{{text}} eingeben.",
+			"EMAIL_ADDRESS_FIELD": "{{text}} eingeben.",
+			"LOGIN_BUTTON": "{{text}}."
+		},
+		"ALLOTMENT_LOGIN_FORM": {
+			"KEYWORD_FIELD": "{{text}} eingeben.",
+			"LOGIN_BUTTON": "{{text}}."
+		},
+		"ROOM_GRID": {
+			"SORT_ROOMS": "Sortieren nach"
+		},
+		"ROOM_ITEM": {
+			"ROOM_NAME": "{{name}}.",
+			"ADD_TO_COMPARER": "{{name}} vergleichen.",
+			"OPEN_DETAILS": "Details zu {{name}} öffnen.",
+			"HIDE_DETAILS": "Details zu {{name}} schließen.",
+			"CHOOSE_ROOM": "Weiter mit {{name}}.",
+			"CLOSE_ROOM": "{{name}} schließen.",
+			"MORE_FACTS": "Weitere Fakten",
+			"RATE_DETAILS": {
+				"OPEN_CALENDAR": "{{text}}: Datum auswählen.",
+				"SHOW_DETAILS": "Preisinformationen anzeigen.",
+				"CHOOSE_RATE": "Tarif auswählen.",
+				"UNLOCK_RATE": "{{text}} freischalten.",
+				"CLOSE_DETAILS": "Preisinformationen anzeigen."
+			},
+			"SELECTED": {
+				"EDIT_SELECTED_ROOM": "{{text}}: Auswahl bearbeiten.",
+				"CLOSE_MODAL": "Schließen: Auswahl bearbeiten."
+			},
+			"ECONOMY_PRICE_LOGIN": {
+				"CLOSE_MODAL": "Login schließen: Freundschaftstarif.",
+				"GO_BACK": "Zurück.",
+				"AGREE_ON_AGREEMENT": "Einverstanden.",
+				"ENTER_CODE": "Code eingeben.",
+				"RESEND_MAIL": "Mail erneut senden."
+			}
+		},
+		"CROSSBOOKING": {
+			"OPEN": "Verfügbare Hotels suchen.",
+			"CLOSE": "Hotelsuche schließen."
+		},
+		"ENHANCEMENTS": {
+			"SELECT": "{{name}}: Auswahl öffnen.",
+			"EDIT_SELECTION": "{{name}}: Auswahl bearbeiten.",
+			"REMOVE_SELECTED": "Auswahl entfernen.",
+			"CLOSE_MODAL": "Modus schließen.",
+			"INCREASE_COUNT": "Hinzufügen.",
+			"DECREASE_COUNT": "Entfernen.",
+			"ADD": "Enhancement hinzufügen: {{amount}}.",
+			"SAVE_CHANGES": "Änderung speichern.",
+			"UPDATE_CHANGES": "Änderung anpassen: {{difference}}.",
+			"SELECT_ROOM": "Zimmer wählen.",
+			"SELECT_ROOM_AND_DATE": "Zimmer & Datum wählen.",
+			"MORE_INFO": "Weitere Informationen",
+			"SHOW_MORE": "weitere laden",
+			"MANDATORY_ENHANCEMENT": {
+				"EDIT_SELECTED": "Auswahl bearbeiten.",
+				"CLOSE_MODAL": "Modal schließen: Auswahl bearbeiten.",
+				"CONFIRM_CHANGES": "Änderung bestätigen."
+			}
+		},
+		"ADDITIONAL_WISHES": {
+			"SELECT_WISH": "{{wish}} auswählen.",
+			"ADD_CUSTOM_WISH": "{{text}} hinzufügen.",
+			"DELETE_CUSTOM_WISH": "{{text}} entfernen."
+		},
+		"PAYMENT_METHODS": {
+			"SELECT_METHOD": "{{name}} auswählen."
+		},
+		"BOOKING_CONCLUSION": {
+			"FOLLOW_UP": "Mit der Buchung akzeptierst du unsere Bedingungen.",
+			"READ_AGREEMENT": "Nutzungsbedingungen öffnen: {{text}}.",
+			"BOOKING_BUTTON": "{{text}}. Buchung mit Zahlungsverpflichtung.",
+			"OPEN_CART": "Warenkorb öffnen.",
+			"SELECT_GIFT": "{{label}} auswählen"
+		},
+		"BOOKING_OPTION_ICONS": {
+			"ADD_TRAVEL": "{{text}} hinzufügen.",
+			"SHARE": "{{text}} teilen.",
+			"SAVE": "{{text}} speichern.",
+			"CALL": "{{text}} anrufen.",
+			"FAQ": "FAQ öffnen."
+		},
+		"GALLERY": {
+			"CLOSE": "Galerie schließen."
+		},
+		"PACKAGES": {
+			"ALL_PACKAGES": "{{text}}.",
+			"VISIT": "{{name}} besuchen."
+		},
+		"TRAVEL_INSURANCE": {
+			"OPEN_TRAVEL_INSURANCE": "Reiseversicherung öffnen",
+			"CLOSE_TRAVEL_INSURANCE": "Reiseversicherung schließen",
+			"REMOVE_TRAVEL_INSURANCE": "Reiseversicherung entfernen",
+			"SAVE_TRAVEL_INSURANCE": "Reiseversicherung speichern"
+		},
+		"BOOKING_FORM": {
+			"GUEST_LIST": {
+				"SAVE": "Speichern",
+				"EDIT_GUEST": "Gäste bearbeiten",
+				"CLOSE_EDIT_GUEST": "Bearbeiten der Gäste schließen"
+			}
+		},
+		"CONFIRMATION": {
+			"BOOK_ANOTHER": "Eine weitere Buchung vornehmen."
+		},
+		"MPV": {
+			"OPEN_FILTER": "Filter öffnen.",
+			"CLOSE_FILTER": "Filter schließen.",
+			"REMOVE_FILTER": "Filter entfernen.",
+			"RESET_FILTER": "Filter zurücksetzen.",
+			"SHOW_RESULTS": "Ergebnisse anzeigen"
+		}
+	}
+}

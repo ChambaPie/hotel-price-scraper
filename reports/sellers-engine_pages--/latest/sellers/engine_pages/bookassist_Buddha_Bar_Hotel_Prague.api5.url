@@ -1,0 +1,1 @@
+GET https://api.bookoloengine.com/desktop/v1/rooms?checkInDate=2026-11-23&checkOutDate=2026-11-24&adults=2&promoCode=&voucherCode=

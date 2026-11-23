@@ -1,0 +1,2 @@
+POST https://v6.onepagebooking.com/api/Property
+{"languageCode":"en","sessionID":"b2c8cf2a-bf48-45e4-8cbd-718555068ec3","code":"hotel-victoria-nuernberg","children":0,"bookingDirect":"","currencyCode":"","module":"Public","moduleID":0,"rateType":[],"referrer":"","trivagoDirectReference":null,"url":"https://www.hotelvictoria.de/hotel-victoria-nuernberg","sessionStart":true,"source":"","bookingID":null,"bookingNumber":null,"isPromotion":false,"userID":0}

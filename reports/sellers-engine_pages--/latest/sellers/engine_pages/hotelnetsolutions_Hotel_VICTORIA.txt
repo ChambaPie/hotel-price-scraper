@@ -1,0 +1,992 @@
+#URL https://www.hotelvictoria.de/buchen/
+#FINAL https://www.hotelvictoria.de/buchen/
+#TITLE Hotel VICTORIA Nürnberg
+invert_colors
+location_on
+language
+Login
+person
+People & Room
+1 Adult
+calendar_today
+Travel Period
+Arrival?
+ 
+ 
+Departure?
+Open Cart.
+trip
+0,00 €
+arrow_downward
+
+Arrive & Dream – in Nuremberg
+
+Our Rooms at a Glance
+Switch to rate view?
+Sort
+A new angle
+person
+1
+fullscreen
+14 m²
+star
+All details
+
+Comfort and history combined: A well thought-out room concept
+
+from 104,00 €
+CONTINUE
+A twist on tradition
+person
+1-2
+face
+1
+fullscreen
+16-18 m²
+star
+All details
+
+Coziness that lives up to our motto: Tradition made modern
+
+from 113,00 €
+CONTINUE
+A hum of creativity
+person
+1-2
+face
+1
+fullscreen
+20-22 m²
+star
+All details
+
+Harmonious combination of comfort and creative inspiration
+
+from 121,00 €
+CONTINUE
+A dash of culture
+person
+1-2
+face
+1
+fullscreen
+18-20 m²
+star
+All details
+
+Pure inspiration: A perfect mix of culture and enjoyment
+
+from 121,00 €
+CONTINUE
+A step up
+person
+1-2
+face
+1
+fullscreen
+22 m²
+star
+All details
+
+A step closer to the sky: Your favorite spot above the rooftops of Nuremberg
+
+from 139,00 €
+CONTINUE
+A sense of space
+person
+1-4
+face
+1 - 3
+fullscreen
+27-30 m²
+star
+All details
+
+A spacious and versatile solution both for business travelers and families
+
+from 157,00 €
+CONTINUE
+Junior Suite Klarissenplatz
+person
+1-2
+face
+1
+fullscreen
+50 m²
+star
+All details
+
+A sight to see: An exclusive and unique atmosphere close to art
+
+from 209,00 €
+CONTINUE
+Junior Suite Königstor
+person
+1-2
+face
+1
+fullscreen
+45 m²
+star
+All details
+
+A sight to see: A spacious and classy accommodation in the heart of the Old Town
+
+from 209,00 €
+CONTINUE
+Our Extras
+No, thank you
+Our most popular (2)
+(8)
+Underground Parking
+
+Please let us know if you are traveling by car. We are happy to take note of your request.
+
+20,00 €
+per day 
+GO TO SELECTION
+Late Check-Out until 2 p.m.
+
+Would you like to enjoy your stay a little longer?
+
+25,00 €
+ 
+GO TO SELECTION
+Do You Have Any Other Requests? (not-binding)
+star
+Lower floor
+close
+check
+star
+Higher floor
+close
+check
+bathtub
+A step up room with designer bathtub for 20€ extra per night
+close
+check
+star
+Twin beds
+close
+check
+single_bed
+Extra rollaway bed for 30€ per night
+close
+check
+add_circle
+Your message to us
+What Are Your Contact Details?
+Add company details
+Salutation
+Salutation
+Mr.
+Mrs.
+Ms.
+Dr.
+First name*
+Surname*
+Afghanistan (+93)
+Albania (+355)
+Algeria (+213)
+American Samoa (+1)
+Andorra (+376)
+Angola (+244)
+Anguilla (+1)
+Antarctica (+672)
+Antigua and Barbuda (+1)
+Argentina (+54)
+Armenia (+374)
+Aruba (+297)
+Australia (+61)
+Austria (+43)
+Azerbaijan (+994)
+Bahamas (+1)
+Bahrain (+973)
+Bangladesh (+880)
+Barbados (+1)
+Belarus (+375)
+Belgium (+32)
+Belize (+501)
+Benin (+229)
+Bermuda (+1)
+Bhutan (+975)
+Bolivia (Plurinational State of) (+591)
+Bonaire, Sint Eustatius and Saba (+599)
+Bosnia and Herzegovina (+387)
+Botswana (+267)
+Bouvet Island
+Brazil (+55)
+British Indian Ocean Territory (+246)
+Brunei Darussalam (+673)
+Bulgaria (+359)
+Burkina Faso (+226)
+Burundi (+257)
+Cabo Verde (+238)
+Cambodia (+855)
+Cameroon (+237)
+Canada (+1)
+Cayman Islands (+1)
+Central African Republic (+236)
+Chad (+235)
+Chile (+56)
+China (+86)
+Christmas Island (+61)
+Cocos (Keeling) Islands (+61)
+Colombia (+57)
+Comoros (+269)
+Congo (+242)
+Congo (Democratic Republic of the) (+243)
+Cook Islands (+682)
+Costa Rica (+506)
+Croatia (+385)
+Cuba (+53)
+Curaçao (+599)
+Cyprus (+357)
+Czech Republic (+420)
+Côte d'Ivoire (+225)
+Denmark (+45)
+Djibouti (+253)
+Dominica (+1)
+Dominican Republic (+1)
+Ecuador (+593)
+Egypt (+20)
+El Salvador (+503)
+Equatorial Guinea (+240)
+Eritrea (+291)
+Estonia (+372)
+Ethiopia (+251)
+Falkland Islands (Malvinas) (+500)
+Faroe Islands (+298)
+Fiji (+679)
+Finland (+358)
+France (+33)
+French Guiana (+594)
+French Polynesia (+689)
+French Southern Territories
+Gabon (+241)
+Gambia (+220)
+Georgia (+995)
+Germany (+49)
+Ghana (+233)
+Gibraltar (+350)
+Greece (+30)
+Greenland (+299)
+Grenada (+1)
+Guadeloupe (+590)
+Guam (+1)
+Guatemala (+502)
+Guernsey (+44)
+Guinea (+224)
+Guinea-Bissau (+245)
+Guyana (+592)
+Haiti (+509)
+Heard Island and McDonald Islands
+Holy See (+39)
+Honduras (+504)
+Hong Kong (+852)
+Hungary (+36)
+Iceland (+354)
+India (+91)
+Indonesia (+62)
+Iran (Islamic Republic of) (+98)
+Iraq (+964)
+Ireland (+353)
+Isle of Man (+44)
+Israel (+972)
+Italy (+39)
+Jamaica (+1)
+Japan (+81)
+Jersey (+44)
+Jordan (+962)
+Kazakhstan (+7)
+Kenya (+254)
+Kiribati (+686)
+Korea (Democratic People's Republic of) (+850)
+Korea (Republic of) (+82)
+Kuwait (+965)
+Kyrgyzstan (+996)
+Lao People's Democratic Republic (+856)
+Latvia (+371)
+Lebanon (+961)
+Lesotho (+266)
+Liberia (+231)
+Libya (+218)
+Liechtenstein (+423)
+Lithuania (+370)
+Luxembourg (+352)
+Macao (+853)
+Macedonia (the former Yugoslav Republic of) (+389)
+Madagascar (+261)
+Malawi (+265)
+Malaysia (+60)
+Maldives (+960)
+Mali (+223)
+Malta (+356)
+Marshall Islands (+692)
+Martinique (+596)
+Mauritania (+222)
+Mauritius (+230)
+Mayotte (+262)
+Mexico (+52)
+Micronesia (Federated States of) (+691)
+Moldova (Republic of) (+373)
+Monaco (+377)
+Mongolia (+976)
+Montenegro (+382)
+Montserrat (+500)
+Morocco (+212)
+Mozambique (+258)
+Myanmar (+95)
+Namibia (+264)
+Nauru (+674)
+Nepal (+977)
+Netherlands (+31)
+New Caledonia (+687)
+New Zealand (+64)
+Nicaragua (+505)
+Niger (+227)
+Nigeria (+234)
+Niue (+683)
+Norfolk Island (+672)
+Northern Mariana Islands (+1)
+Norway (+47)
+Oman (+968)
+Pakistan (+92)
+Palau (+680)
+Palestine, State of (+970)
+Panama (+507)
+Papua New Guinea (+675)
+Paraguay (+595)
+Peru (+51)
+Philippines (+63)
+Pitcairn (+64)
+Poland (+48)
+Portugal (+351)
+Puerto Rico (+1)
+Qatar (+974)
+Republic of Kosovo (+383)
+Romania (+40)
+Russian Federation (+7)
+Rwanda (+250)
+Réunion (+262)
+Saint Barthélemy (+590)
+Saint Helena, Ascension and Tristan da Cunha (+290)
+Saint Kitts and Nevis (+1)
+Saint Lucia (+1)
+Saint Martin (French part) (+590)
+Saint Pierre and Miquelon (+508)
+Saint Vincent and the Grenadines (+1)
+Samoa (+685)
+San Marino (+378)
+Sao Tome and Principe (+239)
+Saudi Arabia (+966)
+Senegal (+221)
+Serbia (+381)
+Seychelles (+248)
+Sierra Leone (+232)
+Singapore (+65)
+Sint Maarten (Dutch part) (+1)
+Slovakia (+421)
+Slovenia (+386)
+Solomon Islands (+677)
+Somalia (+252)
+South Africa (+27)
+South Georgia and the South Sandwich Islands (+500)
+South Sudan (+211)
+Spain (+34)
+Sri Lanka (+94)
+Sudan (+249)
+Suriname (+597)
+Svalbard and Jan Mayen (+47)
+Swaziland (+268)
+Sweden (+46)
+Switzerland (+41)
+Syrian Arab Republic (+963)
+Taiwan (+886)
+Tajikistan (+992)
+Tanzania, United Republic of (+255)
+Thailand (+66)
+Timor-Leste (+670)
+Togo (+228)
+Tokelau (+690)
+Tonga (+676)
+Trinidad and Tobago (+1)
+Tunisia (+216)
+Turkey (+90)
+Turkmenistan (+993)
+Turks and Caicos Islands (+1)
+Tuvalu (+688)
+Uganda (+256)
+Ukraine (+380)
+United Arab Emirates (+971)
+United Kingdom of Great Britain and Northern Ireland (+44)
+United States Minor Outlying Islands
+United States of America (+1)
+Uruguay (+598)
+Uzbekistan (+998)
+Vanuatu (+678)
+Venezuela (Bolivarian Republic of) (+58)
+Viet Nam (+84)
+Virgin Islands (British) (+1)
+Virgin Islands (U.S.) (+1)
+Wallis and Futuna (+681)
+Western Sahara (+212)
+Yemen (+967)
+Zambia (+260)
+Zimbabwe (+263)
+Åland Islands (+358)
+Phone number*
+Email*
+Afghanistan (+93)
+Albania (+355)
+Algeria (+213)
+American Samoa (+1)
+Andorra (+376)
+Angola (+244)
+Anguilla (+1)
+Antarctica (+672)
+Antigua and Barbuda (+1)
+Argentina (+54)
+Armenia (+374)
+Aruba (+297)
+Australia (+61)
+Austria (+43)
+Azerbaijan (+994)
+Bahamas (+1)
+Bahrain (+973)
+Bangladesh (+880)
+Barbados (+1)
+Belarus (+375)
+Belgium (+32)
+Belize (+501)
+Benin (+229)
+Bermuda (+1)
+Bhutan (+975)
+Bolivia (Plurinational State of) (+591)
+Bonaire, Sint Eustatius and Saba (+599)
+Bosnia and Herzegovina (+387)
+Botswana (+267)
+Bouvet Island
+Brazil (+55)
+British Indian Ocean Territory (+246)
+Brunei Darussalam (+673)
+Bulgaria (+359)
+Burkina Faso (+226)
+Burundi (+257)
+Cabo Verde (+238)
+Cambodia (+855)
+Cameroon (+237)
+Canada (+1)
+Cayman Islands (+1)
+Central African Republic (+236)
+Chad (+235)
+Chile (+56)
+China (+86)
+Christmas Island (+61)
+Cocos (Keeling) Islands (+61)
+Colombia (+57)
+Comoros (+269)
+Congo (+242)
+Congo (Democratic Republic of the) (+243)
+Cook Islands (+682)
+Costa Rica (+506)
+Croatia (+385)
+Cuba (+53)
+Curaçao (+599)
+Cyprus (+357)
+Czech Republic (+420)
+Côte d'Ivoire (+225)
+Denmark (+45)
+Djibouti (+253)
+Dominica (+1)
+Dominican Republic (+1)
+Ecuador (+593)
+Egypt (+20)
+El Salvador (+503)
+Equatorial Guinea (+240)
+Eritrea (+291)
+Estonia (+372)
+Ethiopia (+251)
+Falkland Islands (Malvinas) (+500)
+Faroe Islands (+298)
+Fiji (+679)
+Finland (+358)
+France (+33)
+French Guiana (+594)
+French Polynesia (+689)
+French Southern Territories
+Gabon (+241)
+Gambia (+220)
+Georgia (+995)
+Germany (+49)
+Ghana (+233)
+Gibraltar (+350)
+Greece (+30)
+Greenland (+299)
+Grenada (+1)
+Guadeloupe (+590)
+Guam (+1)
+Guatemala (+502)
+Guernsey (+44)
+Guinea (+224)
+Guinea-Bissau (+245)
+Guyana (+592)
+Haiti (+509)
+Heard Island and McDonald Islands
+Holy See (+39)
+Honduras (+504)
+Hong Kong (+852)
+Hungary (+36)
+Iceland (+354)
+India (+91)
+Indonesia (+62)
+Iran (Islamic Republic of) (+98)
+Iraq (+964)
+Ireland (+353)
+Isle of Man (+44)
+Israel (+972)
+Italy (+39)
+Jamaica (+1)
+Japan (+81)
+Jersey (+44)
+Jordan (+962)
+Kazakhstan (+7)
+Kenya (+254)
+Kiribati (+686)
+Korea (Democratic People's Republic of) (+850)
+Korea (Republic of) (+82)
+Kuwait (+965)
+Kyrgyzstan (+996)
+Lao People's Democratic Republic (+856)
+Latvia (+371)
+Lebanon (+961)
+Lesotho (+266)
+Liberia (+231)
+Libya (+218)
+Liechtenstein (+423)
+Lithuania (+370)
+Luxembourg (+352)
+Macao (+853)
+Macedonia (the former Yugoslav Republic of) (+389)
+Madagascar (+261)
+Malawi (+265)
+Malaysia (+60)
+Maldives (+960)
+Mali (+223)
+Malta (+356)
+Marshall Islands (+692)
+Martinique (+596)
+Mauritania (+222)
+Mauritius (+230)
+Mayotte (+262)
+Mexico (+52)
+Micronesia (Federated States of) (+691)
+Moldova (Republic of) (+373)
+Monaco (+377)
+Mongolia (+976)
+Montenegro (+382)
+Montserrat (+500)
+Morocco (+212)
+Mozambique (+258)
+Myanmar (+95)
+Namibia (+264)
+Nauru (+674)
+Nepal (+977)
+Netherlands (+31)
+New Caledonia (+687)
+New Zealand (+64)
+Nicaragua (+505)
+Niger (+227)
+Nigeria (+234)
+Niue (+683)
+Norfolk Island (+672)
+Northern Mariana Islands (+1)
+Norway (+47)
+Oman (+968)
+Pakistan (+92)
+Palau (+680)
+Palestine, State of (+970)
+Panama (+507)
+Papua New Guinea (+675)
+Paraguay (+595)
+Peru (+51)
+Philippines (+63)
+Pitcairn (+64)
+Poland (+48)
+Portugal (+351)
+Puerto Rico (+1)
+Qatar (+974)
+Republic of Kosovo (+383)
+Romania (+40)
+Russian Federation (+7)
+Rwanda (+250)
+Réunion (+262)
+Saint Barthélemy (+590)
+Saint Helena, Ascension and Tristan da Cunha (+290)
+Saint Kitts and Nevis (+1)
+Saint Lucia (+1)
+Saint Martin (French part) (+590)
+Saint Pierre and Miquelon (+508)
+Saint Vincent and the Grenadines (+1)
+Samoa (+685)
+San Marino (+378)
+Sao Tome and Principe (+239)
+Saudi Arabia (+966)
+Senegal (+221)
+Serbia (+381)
+Seychelles (+248)
+Sierra Leone (+232)
+Singapore (+65)
+Sint Maarten (Dutch part) (+1)
+Slovakia (+421)
+Slovenia (+386)
+Solomon Islands (+677)
+Somalia (+252)
+South Africa (+27)
+South Georgia and the South Sandwich Islands (+500)
+South Sudan (+211)
+Spain (+34)
+Sri Lanka (+94)
+Sudan (+249)
+Suriname (+597)
+Svalbard and Jan Mayen (+47)
+Swaziland (+268)
+Sweden (+46)
+Switzerland (+41)
+Syrian Arab Republic (+963)
+Taiwan (+886)
+Tajikistan (+992)
+Tanzania, United Republic of (+255)
+Thailand (+66)
+Timor-Leste (+670)
+Togo (+228)
+Tokelau (+690)
+Tonga (+676)
+Trinidad and Tobago (+1)
+Tunisia (+216)
+Turkey (+90)
+Turkmenistan (+993)
+Turks and Caicos Islands (+1)
+Tuvalu (+688)
+Uganda (+256)
+Ukraine (+380)
+United Arab Emirates (+971)
+United Kingdom of Great Britain and Northern Ireland (+44)
+United States Minor Outlying Islands
+United States of America (+1)
+Uruguay (+598)
+Uzbekistan (+998)
+Vanuatu (+678)
+Venezuela (Bolivarian Republic of) (+58)
+Viet Nam (+84)
+Virgin Islands (British) (+1)
+Virgin Islands (U.S.) (+1)
+Wallis and Futuna (+681)
+Western Sahara (+212)
+Yemen (+967)
+Zambia (+260)
+Zimbabwe (+263)
+Åland Islands (+358)
+Mobile number
+search
+Please search for your address!
+Street*
+Number*
+Post code*
+Location*
+Country*
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia (Plurinational State of)
+Bonaire, Sint Eustatius and Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cabo Verde
+Cambodia
+Cameroon
+Canada
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo (Democratic Republic of the)
+Cook Islands
+Costa Rica
+Croatia
+Cuba
+Curaçao
+Cyprus
+Czech Republic
+Côte d'Ivoire
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Holy See
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran (Islamic Republic of)
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea (Democratic People's Republic of)
+Korea (Republic of)
+Kuwait
+Kyrgyzstan
+Lao People's Democratic Republic
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia (the former Yugoslav Republic of)
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia (Federated States of)
+Moldova (Republic of)
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestine, State of
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Republic of Kosovo
+Romania
+Russian Federation
+Rwanda
+Réunion
+Saint Barthélemy
+Saint Helena, Ascension and Tristan da Cunha
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin (French part)
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten (Dutch part)
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Syrian Arab Republic
+Taiwan
+Tajikistan
+Tanzania, United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom of Great Britain and Northern Ireland
+United States Minor Outlying Islands
+United States of America
+Uruguay
+Uzbekistan
+Vanuatu
+Venezuela (Bolivarian Republic of)
+Viet Nam
+Virgin Islands (British)
+Virgin Islands (U.S.)
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Åland Islands
+Whom can we expect? (optional)
+Salutation
+Salutation
+Mr.
+Mrs.
+Ms.
+Dr.
+First name
+Surname
+How Would You Like to Pay?
+Secure
+Guaranteed by credit card
+check
+Booking guaranteed by credit card
+check
+Arrival after 6 PM possible
+
+Regardless of the arrival time, the room will be held. Therefore, the booking can only be guaranteed with a credit card. In the event of a non-free cancellation or no-show, this card will be charged.
+
+Credit Card Number
+Valid until
+CVC code
+?
+Card owner
+
+By completing the booking, you accept our terms.
+
+lock
+Book with obligation to pay
+Best Price Guaranteed Online.
+Book Directly, More Choices.
+No prepayment - pay at the accommodation
+Booking Secure and Encrypted.
+add
+Trip
+send
+Share draft
+link
+Save
+phone
+Call
+question_mark
+FAQ
+Hotel VICTORIA NürnbergKönigstrasse 8090402 Nürnberg+49 911 240 50book@hotelvictoria.deImprintPrivacy Policypowered by HotelNetSolutions
+1

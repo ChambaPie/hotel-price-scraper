@@ -1,0 +1,20 @@
+#URL https://booking.resdiary.com/widget/Standard/AmbrosiaRooftopRestaurantBar/51079
+#FINAL https://booking.resdiary.com/widget/Standard/AmbrosiaRooftopRestaurantBar/51079
+#TITLE ResDiary Widget
+23 November 2026 | 2 | No Time Selected
+Party size
+2
+	November 2026	
+Mo	Tu	We	Th	Fr	Sa	Su
+26	27	28	29	30	31	1
+2	3	4	5	6	7	8
+9	10	11	12	13	14	15
+16	17	18	19	20	21	22
+23	24	25	26	27	28	29
+30	1	2	3	4	5	6
+Time
+
+None Available
+
+Next 
+ 

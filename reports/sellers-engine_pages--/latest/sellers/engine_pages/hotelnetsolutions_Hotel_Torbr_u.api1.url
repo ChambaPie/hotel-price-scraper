@@ -1,0 +1,2 @@
+POST https://www.vbooking.de/v3/Booking.aspx/getCategoryVoucherList
+{'hotelcode':'torbraeu', 'languageId':'1'}

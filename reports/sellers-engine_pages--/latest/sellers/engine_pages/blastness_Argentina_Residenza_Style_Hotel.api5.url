@@ -1,0 +1,2 @@
+POST https://dbt.blastness.info/api/comparators/service
+{"makePriceRequest":true,"makeBrandRequest":true,"makeDirectRequest":false,"hotelId":313,"people":2,"arrivalDate":"2026-11-23","departureDate":"2026-11-24","los":1}

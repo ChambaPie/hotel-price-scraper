@@ -1,0 +1,1 @@
+GET https://secure.ermeshotels.com/customersflash/hotellist.do?method=hotelList&domain=reservation.thestreetmilano.com&ca_id=752&ho_id=1352&language=1&ln_id=1&type=json
