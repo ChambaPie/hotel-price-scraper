@@ -77,3 +77,73 @@ def test_town_search_maps_several_properties_at_once(cfg):
     assert res.mapped == 2 and res.not_found == 1
     town_searches = [s for s in sess.searches if s[0] == "Bled"]
     assert len(town_searches) == 2 and town_searches[0][1].startswith("class")      # filtered town searches first
+
+
+def test_shards_split_every_property_once():
+    pids = [f"ta:g1-d{i}" for i in range(400)]
+    parts = [[p for p in pids if bc.shard_of(p, 4) == k] for k in range(4)]
+    assert sum(len(x) for x in parts) == 400 and all(60 < len(x) < 140 for x in parts)
+    assert bc.shard_of("ta:g1-d7", 4) == bc.shard_of("ta:g1-d7", 4)          # stable between runs
+
+
+def test_near_refresh_keeps_far_months_and_full_refresh_daily(cfg):
+    cfg["booking_scan"].update(windows=4, near_windows=2, far_every_hours=24, shards=1)
+    with open(cfg["paths"]["booking_ids"], "w", newline="") as f:
+        w = csv.DictWriter(f, bc.ID_FIELDS); w.writeheader()
+        w.writerow({"pid": "ta:g1-d1", "booking_id": "si/alpha", "booking_name": "Alpha Hotel", "similarity": 1,
+                    "status": "ok", "checked_at": "2099-01-01T00:00:00+00:00"})
+
+    class Windows(FakeSession):
+        def year(self, cc, slug, today, windows):
+            self.asked = getattr(self, "asked", []) + [windows]
+            return {(today + timedelta(days=d)).isoformat(): {"price": 100.0 + windows, "available": True, "min_stay": 1}
+                    for d in range(0, 61 * windows, 30)}
+    s = Windows({}, {})
+    bc.run(cfg, s, TODAY, log=lambda m: None, part="calendars")
+    s2 = Windows({}, {})
+    bc.run(cfg, s2, TODAY, log=lambda m: None, part="calendars")
+    assert s.asked == [4] and s2.asked == [2]                       # all 24 months first, then only the near ones
+    row = next(csv.DictReader(open(cfg["paths"]["booking_calendars"])))
+    n = bc.decode_nights(row["first_date"], row["nights"])
+    assert n[TODAY.isoformat()]["price"] == 102.0                    # near: this pass
+    assert n[(TODAY + timedelta(days=180)).isoformat()]["price"] == 104.0   # far: kept from the full pass
+    assert len(row["nights"].split(";")) == 61 * 4
+
+
+def test_stops_when_booking_blocks(cfg):
+    cfg["booking_scan"].update(stop_after_failures=3, shards=1)
+    with open(cfg["paths"]["watchlist"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "name", "city"]); w.writeheader()
+        for i in range(8):
+            w.writerow({"pid": f"ta:g1-d{i}", "name": f"H{i}", "city": "X"})
+    with open(cfg["paths"]["booking_ids"], "w", newline="") as f:
+        w = csv.DictWriter(f, bc.ID_FIELDS); w.writeheader()
+        for i in range(8):
+            w.writerow({"pid": f"ta:g1-d{i}", "booking_id": f"si/h{i}", "booking_name": f"H{i}", "similarity": 1,
+                        "status": "ok", "checked_at": "2099-01-01T00:00:00+00:00"})
+
+    class Blocked(FakeSession):
+        def year(self, *a):
+            self.n = getattr(self, "n", 0) + 1
+            raise RuntimeError("challenge")
+    s = Blocked({}, {})
+    res = bc.run(cfg, s, TODAY, log=lambda m: None, part="calendars")
+    assert s.n == 3 and res.failed == 3 and "stopped after repeated failures" in res.errors
+
+
+def test_due_and_merge(tmp_path):
+    from datetime import datetime, timezone
+    now = datetime(2026, 11, 23, 16, 0, tzinfo=timezone.utc)
+    rows = [{"pid": "a", "status": "ok", "scanned_at": "2026-11-23T12:30:00+00:00"},
+            {"pid": "b", "status": "error", "scanned_at": "2026-11-23T15:00:00+00:00"}]
+    assert bc.is_due(rows, now, 4) is False                 # newest good calendar 3.5 h old
+    assert bc.is_due(rows, now.replace(hour=17), 4) is True and bc.is_due([], now, 4) is True
+    a, b = tmp_path / "a.csv", tmp_path / "b.csv"
+    for path, rs in ((a, [{"pid": "x", "status": "ok", "scanned_at": "2026-11-23T10:00:00+00:00", "nights": "1"},
+                          {"pid": "y", "status": "ok", "scanned_at": "2026-11-23T14:00:00+00:00", "nights": "y-new"}]),
+                     (b, [{"pid": "x", "status": "ok", "scanned_at": "2026-11-23T15:00:00+00:00", "nights": "x-new"},
+                          {"pid": "y", "status": "error", "scanned_at": "2026-11-23T15:30:00+00:00", "nights": ""}])):
+        with open(path, "w", newline="") as f:
+            w = csv.DictWriter(f, ["pid", "status", "scanned_at", "nights"]); w.writeheader(); w.writerows(rs)
+    merged = {r["pid"]: r["nights"] for r in bc.merge_files([str(a), str(b)])}
+    assert merged == {"x": "x-new", "y": "y-new"}             # a failure never replaces a good calendar

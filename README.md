@@ -12,7 +12,7 @@ files below.
 | Refresh official stars and landscape (weekly) | Mon 02:11 | `data/osm_catalog.csv`, `data/landscape.csv` (elevation, sea, beach, lake, ski area, city) |
 | Place details (daily) | 10:29 | `data/places.csv` (type of place around each watched property: mountain, ski, sea, beach, lake, old town, major city, city, vineyards, thermal, countryside), `data/google_ratings.csv` (Google rating, number of reviews, class, amenities) |
 | Scan (TripAdvisor heatmap) | 05:17, 17:17 | `data/heatmap.csv`, `data/heatmap_changes.csv` |
-| Booking.com collection | 11:47, 23:47 | `data/booking_ids.csv`, `data/last_minute_cards.csv`; every night's price for 12 months in `booking_calendars.csv` on the `snapshots` branch |
+| Booking.com collection | hourly check, a full pass every 4 h | `data/booking_ids.csv`, `data/last_minute_cards.csv`; every night's price for 24 months (months 13-24 refreshed daily) in `booking_calendars.csv` on the `snapshots` branch; 4 parallel jobs |
 
 ## Data contract (read by the private repo)
 - `main/data/*.csv` as above; `snapshots/booking_calendars.csv`: one row per property, `nights` = one token per night

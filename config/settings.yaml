@@ -128,7 +128,7 @@ last_minute:                 # Booking.com's own deal badges ("Late Escape Deal"
   scrolls: 2                 # load more result cards per search
   max_minutes: 4
 
-booking_scan:                # Phase 9: Booking.com via headless browser (calendar = every night's price for 12 months)
+booking_scan:                # Phase 9: Booking.com via headless browser (calendar = every night's price for 24 months)
   map_per_run: 300           # one-by-one id searches per run, after the town searches
   map_share: 0.3             # share of the time budget for mapping...
   map_share_backlog: 0.75    # ...or this much while more than map_backlog watched properties have no id yet
@@ -139,16 +139,21 @@ booking_scan:                # Phase 9: Booking.com via headless browser (calend
   warm_up_page: it/grand-duchi-d-aosta   # a known hotel page opened first: passes the challenge, sets the session token
   match_min_similarity: 0.6
   remap_after_days: 30       # retry 'not found' after this
-  properties_per_run: 800    # coverage drives finds like Haus Hepi (#28); public repo minutes are free
-  windows: 6                 # 61-night calendar calls per property (6 = 12 months, ~0.35 s each)
-  max_minutes: 45            # mapping gets the first 30% of the budget, calendars the rest
+  properties_per_run: 2000   # per job; coverage drives finds like Haus Hepi (#28); public repo minutes are free
+  windows: 12                # 61-night calendar calls per property for the whole horizon (12 = 24 months, ~1.3 s each)
+  near_windows: 6            # refreshed on every pass (12 months)...
+  far_every_hours: 24        # ...the rest (months 13-24, which few hotels sell yet) once a day
+  every_hours: 4             # a full pass is due when the newest calendar is this old (owner, 2026-11-23)
+  shards: 4                  # parallel calendar jobs; must match the matrix in .github/workflows/booking.yml
+  stop_after_failures: 12    # this many calendars failing in a row: Booking.com is probably blocking; the job stops
+  max_minutes: 55            # per job (the map job: mapping gets the first 30%, last-minute searches the rest)
 
 
 
 ops:                         # Phase 8: daily health check (workflow file -> max hours since its last successful run)
   max_hours_since_success:
     scan.yml: 14
-    booking.yml: 14
+    booking.yml: 8
     catalog.yml: 30
     osm.yml: 200
     places.yml: 30

@@ -1,15 +1,23 @@
 name: Booking.com collection
 # Schedules run as the account that last committed this file; keep it a real GitHub account.
 
-# Maps watched properties to Booking.com ids, collects every night's price for 12 months (published to the
-# `snapshots` branch) and the deal badges for the next nights. Deal identification runs in the private repo.
+# Every watched property's Booking.com price for every night of the next 24 months, a full pass every 4 hours
+# (owner, 2026-11-23): months 1-12 on every pass, 13-24 once a day. GitHub starts scheduled runs hours late, so the
+# trigger is hourly and the first job checks whether a pass is due (settings booking_scan.every_hours).
+#   map        new Booking.com ids for watched properties, last-minute deal badges (one browser)
+#   calendars  4 parallel jobs, each a share of the properties (settings booking_scan.shards)
+#   publish    newest calendar per property -> `snapshots` branch (read by the private repo)
 on:
   schedule:
-    - cron: "47 11,23 * * *"   # 11:47 and 23:47 UTC (between the TripAdvisor scans)
+    - cron: "23 * * * *"   # hourly; most runs find no pass due and stop after a few seconds
   workflow_dispatch:
     inputs:
+      force:
+        description: "Run a pass even if the last one is recent"
+        type: boolean
+        default: true
       minutes:
-        description: "Time budget (empty = settings)"
+        description: "Time budget per job (empty = settings)"
         required: false
         default: ""
 
@@ -25,9 +33,30 @@ env:
   PYTHONUNBUFFERED: "1"
 
 jobs:
-  booking:
+  due:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      due: ${{ steps.check.outputs.due }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - id: check
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          git fetch -q origin snapshots && git show origin/snapshots:booking_calendars.csv > data/booking_calendars.csv || echo "no snapshot yet"
+          if [ "$FORCE" = "true" ]; then echo "due=true" >> "$GITHUB_OUTPUT"; else python -m hotel_scraper.booking_collect --due | tee -a "$GITHUB_OUTPUT"; fi
+
+  map:
+    needs: due
+    if: needs.due.outputs.due == 'true'
     runs-on: ubuntu-24.04   # pinned: ubuntu-latest is migrating to 26.04 (Playwright browser deps)
-    timeout-minutes: 70
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -36,18 +65,11 @@ jobs:
           cache: pip
       - run: pip install -r requirements-browser.txt
       - run: bash scripts/install_browser.sh
-      - name: Previous calendars (snapshots branch)
-        run: git fetch -q origin snapshots && git show origin/snapshots:booking_calendars.csv > data/booking_calendars.csv || echo "no snapshot yet"
-      - name: Collect
-        env:
-          MINUTES: ${{ inputs.minutes }}
+      - name: Map new properties, last-minute badges
         run: |
           set -o pipefail
           mkdir -p out
-          python -m hotel_scraper.booking_collect ${MINUTES:+--minutes "$MINUTES"} 2>&1 | tee out/booking_collect.log
-      - name: Summary
-        if: always()
-        run: cat out/booking_summary.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+          python -m hotel_scraper.booking_collect --part map --minutes 20 2>&1 | tee out/booking_collect.log
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
@@ -55,15 +77,86 @@ jobs:
           git add data/booking_ids.csv data/last_minute_cards.csv data/last_minute_state.json
           git diff --cached --quiet || git commit -m "Booking.com scan $(date -u +%FT%H:%MZ)"
           for i in 1 2 3; do git pull --rebase && git push && break; sleep $((i * 5)); done
+      - uses: actions/upload-artifact@v7
+        with:
+          name: booking-ids
+          path: data/booking_ids.csv
+          retention-days: 1
+      - name: Publish reports
+        if: always()
+        run: bash scripts/publish_reports.sh booking-map
+
+  calendars:
+    needs: [due, map]
+    if: always() && needs.due.outputs.due == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]   # = settings booking_scan.shards
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-browser.txt
+      - run: bash scripts/install_browser.sh
+      - uses: actions/download-artifact@v7
+        continue-on-error: true   # map job failed: use the ids in the repository
+        with:
+          name: booking-ids
+          path: data
+      - name: Previous calendars (snapshots branch)
+        run: git fetch -q origin snapshots && git show origin/snapshots:booking_calendars.csv > data/booking_calendars.csv || echo "no snapshot yet"
+      - name: Collect this share
+        env:
+          MINUTES: ${{ inputs.minutes }}
+          SHARD: ${{ matrix.shard }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -m hotel_scraper.booking_collect --part calendars --shard "$SHARD" ${MINUTES:+--minutes "$MINUTES"} 2>&1 | tee out/booking_collect.log
+          cp data/booking_calendars.csv "out/calendars-$SHARD.csv"
+      - uses: actions/upload-artifact@v7
+        with:
+          name: calendars-${{ matrix.shard }}
+          path: out/calendars-${{ matrix.shard }}.csv
+          retention-days: 1
+      - name: Summary
+        if: always()
+        run: cat out/booking_summary.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+
+  publish:
+    needs: [due, calendars]
+    if: always() && needs.due.outputs.due == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: calendars-*
+          path: out/shards
+          merge-multiple: true
+      - name: Merge the shares
+        run: |
+          set -o pipefail
+          git fetch -q origin snapshots && git show origin/snapshots:booking_calendars.csv > out/shards/previous.csv || echo "no snapshot yet"
+          python -m hotel_scraper.booking_collect --merge out/shards/*.csv | tee out/merge.log
+          echo "## Booking.com collection: $(cat out/merge.log)" >> "$GITHUB_STEP_SUMMARY"
       - name: Publish calendars snapshot
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: bash scripts/publish_snapshot.sh snapshots data/booking_calendars.csv
-      - name: Publish reports
-        if: always()
-        run: bash scripts/publish_reports.sh booking-scan
       - name: Report failure
-        if: failure()
+        if: failure() || contains(needs.calendars.result, 'failure')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

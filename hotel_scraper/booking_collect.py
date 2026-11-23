@@ -2,11 +2,16 @@
 
 1. Map: watched properties without a Booking.com id get a search ("name town", then name, then the town's results),
    best name match kept (data/booking_ids.csv; 'not found' retried after remap_after_days).
-2. Calendars: properties collected longest ago, 6 calendar calls each = every night's price for 12 months, written
-   to paths.booking_calendars (one row per property; published to the `snapshots` branch).
+2. Calendars: properties collected longest ago first, 61 nights per call: the first near_windows calls (12 months)
+   on every pass, all `windows` (24 months) once every far_every_hours; written to paths.booking_calendars (one row
+   per property; published to the `snapshots` branch). Runs as `shards` parallel jobs, each its own browser.
 3. Last-minute: Booking.com deal badges / advertised discounts for the next nights (last_minute.py).
 
-    python -m hotel_scraper.booking_collect
+    python -m hotel_scraper.booking_collect                       # everything in one job
+    python -m hotel_scraper.booking_collect --part map            # 1 and 3
+    python -m hotel_scraper.booking_collect --part calendars --shard 2   # 2, for one share of the properties
+    python -m hotel_scraper.booking_collect --merge a.csv b.csv   # newest row per property -> paths.booking_calendars
+    python -m hotel_scraper.booking_collect --due                 # prints due=true|false (a full pass every_hours)
 """
 from __future__ import annotations
 
@@ -14,6 +19,7 @@ import argparse
 import statistics
 import sys
 import time
+import zlib
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta, timezone
 from difflib import SequenceMatcher
@@ -27,7 +33,41 @@ from .discover_osm import _norm_name
 from .scan import read_csv, write_csv
 
 ID_FIELDS = ["pid", "booking_id", "booking_name", "similarity", "status", "checked_at"]
-CAL_FIELDS = ["pid", "booking_id", "scanned_at", "first_date", "currency", "nights", "status", "error"]
+CAL_FIELDS = ["pid", "booking_id", "scanned_at", "first_date", "currency", "nights", "status", "error", "far_scanned_at"]
+
+
+def shard_of(pid: str, shards: int) -> int:
+    """Stable share of the properties for one of `shards` parallel jobs."""
+    return zlib.crc32(pid.encode()) % max(1, shards)
+
+
+def merge_far(new: dict[str, dict], prev_row: dict | None, near_end: date) -> dict[str, dict]:
+    """A near-only refresh keeps the previous pass's nights from near_end on (months 13-24)."""
+    if not prev_row or prev_row.get("status") != "ok" or not prev_row.get("first_date"):
+        return new
+    old = decode_nights(prev_row["first_date"], prev_row.get("nights", ""))
+    return {**{k: v for k, v in old.items() if k >= near_end.isoformat()}, **new}
+
+
+def is_due(rows: list[dict], now: datetime, every_hours: float) -> bool:
+    """A full pass is due when the newest calendar is older than every_hours (minus a quarter hour of slack)."""
+    times = [r["scanned_at"] for r in rows if r.get("status") == "ok" and r.get("scanned_at")]
+    if not times:
+        return True
+    newest = datetime.fromisoformat(max(times))
+    return (now - newest).total_seconds() >= (every_hours - 0.25) * 3600
+
+
+def merge_files(paths: list[str]) -> list[dict]:
+    """Newest successful row per property across the shard outputs (each a full copy of the calendars file)."""
+    best: dict[str, dict] = {}
+    for path in paths:
+        for r in read_csv(path):
+            cur = best.get(r["pid"])
+            ok, cur_ok = r.get("status") == "ok", (cur or {}).get("status") == "ok"
+            if cur is None or (ok and not cur_ok) or (ok == cur_ok and r.get("scanned_at", "") > cur.get("scanned_at", "")):
+                best[r["pid"]] = r
+    return sorted(best.values(), key=lambda r: r["pid"])
 
 
 def log(msg: str) -> None:
@@ -91,7 +131,7 @@ class Result:
     errors: dict = field(default_factory=dict)
 
 
-def run(cfg: dict, session, today: date, log=log, clock=time.monotonic) -> Result:
+def run(cfg: dict, session, today: date, log=log, clock=time.monotonic, part: str = "all", shard: int = 0) -> Result:
     p, b = cfg["paths"], cfg["booking_scan"]
     started = clock()
     now_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -112,6 +152,8 @@ def run(cfg: dict, session, today: date, log=log, clock=time.monotonic) -> Resul
 
     retry_before = (datetime.now(timezone.utc) - timedelta(days=b["remap_after_days"])).isoformat(timespec="seconds")
     todo = [pid for pid in watched if pid not in ids or (ids[pid]["status"] != "ok" and ids[pid]["checked_at"] < retry_before)]
+    if part == "calendars":
+        todo = []                    # the map job does the mapping
     share = b["map_share_backlog"] if len(todo) > b["map_backlog"] else b["map_share"]
     checkin = today + timedelta(days=30)
 
@@ -162,31 +204,50 @@ def run(cfg: dict, session, today: date, log=log, clock=time.monotonic) -> Resul
         record(pid, card, sim)
         res.mapped += 1 if card else 0
         res.not_found += 0 if card else 1
-    write_csv(sorted(ids.values(), key=lambda r: r["pid"]), p["booking_ids"], ID_FIELDS)
-    log(f"mapping: {res.mapped} found, {res.not_found} not found; {sum(1 for r in ids.values() if r['status'] == 'ok')} mapped")
+    if part != "calendars":
+        write_csv(sorted(ids.values(), key=lambda r: r["pid"]), p["booking_ids"], ID_FIELDS)
+        log(f"mapping: {res.mapped} found, {res.not_found} not found; {sum(1 for r in ids.values() if r['status'] == 'ok')} mapped")
+    if part == "map":
+        res.calls, res.seconds = session.calls, round(clock() - started)
+        return res
 
     cals = {r["pid"]: r for r in read_csv(p["booking_calendars"])}
-    mapped = [pid for pid in watched if ids.get(pid, {}).get("status") == "ok"]
+    shards = b.get("shards", 1) if part == "calendars" else 1
+    mapped = [pid for pid in watched if ids.get(pid, {}).get("status") == "ok" and shard_of(pid, shards) == shard % shards]
     order = sorted(mapped, key=lambda pid: cals.get(pid, {}).get("scanned_at", ""))[: b["properties_per_run"]]
     if not session.token and order:
         session.search("Trieste", today + timedelta(days=30))
-    days = 61 * b["windows"]
+    total, near = b["windows"], b.get("near_windows", b["windows"])
+    days, near_end = 61 * total, today + timedelta(days=61 * near)
+    far_before = (datetime.now(timezone.utc) - timedelta(hours=b.get("far_every_hours", 0))).isoformat(timespec="seconds")
+    streak = 0
     for pid in order:
         if not left(1.0):  # calendars get whatever the mapping left
             log("time budget reached")
             break
+        if streak >= b.get("stop_after_failures", 10 ** 9):
+            log(f"stopping: {streak} calendars in a row failed (Booking.com may be blocking this server)")
+            res.errors["stopped after repeated failures"] = 1
+            break
         bid = ids[pid]["booking_id"]
         cc, slug = bid.split("/", 1)
+        prev = cals.get(pid, {})
+        full = near >= total or prev.get("status") != "ok" or (prev.get("far_scanned_at") or "") < far_before
         try:
-            nights = session.year(cc, slug, today, b["windows"])
+            nights = session.year(cc, slug, today, total if full else near)
         except Exception as e:  # noqa: BLE001
             res.failed += 1
+            streak += 1
             res.errors[str(e)[:80]] = res.errors.get(str(e)[:80], 0) + 1
-            cals[pid] = {**cals.get(pid, {}), "pid": pid, "booking_id": bid, "scanned_at": now_iso, "status": "error",
+            cals[pid] = {**prev, "pid": pid, "booking_id": bid, "scanned_at": now_iso, "status": "error",
                          "error": str(e)[:120]}
             continue
+        streak = 0
+        if not full:
+            nights = merge_far(nights, prev, near_end)
         cals[pid] = {"pid": pid, "booking_id": bid, "scanned_at": now_iso, "first_date": today.isoformat(),
-                     "currency": session.currency_seen, "nights": encode_nights(nights, today, days), "status": "ok", "error": ""}
+                     "currency": session.currency_seen, "nights": encode_nights(nights, today, days), "status": "ok",
+                     "error": "", "far_scanned_at": now_iso if full else prev.get("far_scanned_at", "")}
         res.collected += 1
     res.calls, res.seconds = session.calls, round(clock() - started)
     keep = set(watched)
@@ -199,10 +260,25 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--config", default=str(config.DEFAULT_PATH))
     ap.add_argument("--minutes", type=float)
+    ap.add_argument("--part", choices=["all", "map", "calendars"], default="all")
+    ap.add_argument("--shard", type=int, default=0)
+    ap.add_argument("--merge", nargs="+", metavar="CSV")
+    ap.add_argument("--due", action="store_true")
     args = ap.parse_args(argv)
     cfg = config.load(args.config)
+    b = cfg["booking_scan"]
+    if args.due:
+        due = is_due(read_csv(cfg["paths"]["booking_calendars"]), datetime.now(timezone.utc), b.get("every_hours", 4))
+        print(f"due={'true' if due else 'false'}")
+        return 0
+    if args.merge:
+        watched = {r["pid"] for r in cat.read(cfg["paths"]["watchlist"])}
+        rows = [r for r in merge_files(args.merge) if r["pid"] in watched]   # properties no longer watched drop out
+        write_csv(rows, cfg["paths"]["booking_calendars"], CAL_FIELDS)
+        print(f"merged {len(args.merge)} files: {len(rows)} properties")
+        return 0
     if args.minutes:
-        cfg["booking_scan"]["max_minutes"] = args.minutes
+        b["max_minutes"] = args.minutes
     bk = yaml.safe_load(Path(cfg["paths"]["spike"]).read_text(encoding="utf-8"))["booking"]
     s = cfg["scan"]
     out = Path(cfg["paths"]["out_dir"])
@@ -210,15 +286,16 @@ def main(argv=None) -> int:
     with BookingSession(bk["base_url"], bk["user_agent"], bk["accept_language"], s["adults"], s["rooms"], s["currency"],
                         log=log) as session:
         session.diag_dir = out
-        res = run(cfg, session, date.today())
+        res = run(cfg, session, date.today(), part=args.part, shard=args.shard)
         lm = 0
-        if cfg.get("last_minute", {}).get("enabled"):
+        if cfg.get("last_minute", {}).get("enabled") and args.part != "calendars":
             from . import last_minute
             try:
                 lm = last_minute.collect(cfg, session, date.today(), log=log)
             except Exception as e:  # noqa: BLE001
                 log(f"last-minute collection failed: {e}")
-    md = (f"## Booking.com collection: {res.collected} calendars, {res.calls} calls, {res.seconds} s\n\n"
+    what = {"all": "", "map": " (mapping, last-minute)", "calendars": f" (calendars, share {args.shard + 1})"}[args.part]
+    md = (f"## Booking.com collection{what}: {res.collected} calendars, {res.calls} calls, {res.seconds} s\n\n"
           f"Mapping: {res.mapped} found, {res.not_found} not found. Failed: {res.failed}. Last-minute cards: {lm}.\n")
     if res.errors:
         md += "\nErrors: " + "; ".join(f"{k} ×{v}" for k, v in res.errors.items()) + "\n"
