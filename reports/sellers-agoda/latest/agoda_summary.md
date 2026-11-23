@@ -1,12 +1,13 @@
-## Agoda
+## Agoda (prices)
 
-- ids_due: 120
-- ids_found: 15
-- ids_missed: 14
-- calls: 52
-- priced: 52
-- available: 1
-- errors: 4
-- cities: 14 with mapped hotels
-- stored_nights: 52
-- ids_coverage: 15/1500
+- ids_due: 0
+- ids_found: 0
+- ids_missed: 0
+- calls: 1
+- priced: 1
+- available: 0
+- errors: 8
+- available_by_lead: {'181-365 days': [0, 1]}
+- cities: 47 with mapped hotels
+- stored_nights: 53
+- ids_coverage: 58/1500

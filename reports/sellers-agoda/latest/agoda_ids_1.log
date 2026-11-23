@@ -1,0 +1,36 @@
+19:52:22 id Haus Hirt: ok 70436276 Haus Hirt - Alpine Spa Designh 0.03 km
+19:52:45 id Wanderhotel Taurerwirt: ok 321172 Wanderhotel Taurerwirt 0.01 km
+19:53:31 id Alpinhotel Jesacherhof Gourmet & Sp: not found    km
+19:53:52 id Hotel Schneider: not found 473843 Ferienhof Schneiderweg 103.97 km
+19:54:15 id Hotel Das Seekarhaus: ok 176788 Hotel das Seekarhaus 0.02 km
+19:54:36 id Hotel Rauriserhof: ok 81176823 Hotel Rauriserhof****S 0.03 km
+19:54:58 id Hotel Alpina Rauris: ok 272666 Hotel Alpina Rauris 0.02 km
+19:55:23 id Sonnhof Alpendorf - An Adults Only : ok 160386 Sonnhof Alpendorf - an adults  0.01 km
+19:55:45 id Hotel die Barbara: ok 130196 Hotel Die Barbara 0.01 km
+19:56:31 id Natur und Wellnesshotel Hoeflehner: not found    km
+19:57:14 id Aparthotel Schloss Thannegg: not found    km
+19:57:57 id POP-UP Living Zell am See: not found    km
+19:58:19 id Hotel Berner Zell am See: ok 111942 Hotel Berner 0.01 km
+19:59:00 id Hotel Stadt Wien: not found 6885545 Flemings Hotel Wien-Stadthalle 282.49 km
+19:59:25 id Die Hochkönigin - Mountain Resort: ok 152303 die HOCHKONIGIN - Mountain Res 0.06 km
+19:59:49 id Hotel Ritzenhof: ok 241870 Ritzenhof - Hotel und Spa am S 0.08 km
+20:00:10 id Hotel Sonnegg: ok 254744 Hotel Sonnegg 0.04 km
+20:00:54 id Hotel-Restaurant Grimmingblick: not found    km
+20:01:37 id Alpinresort ValSaa - Adults Only: not found    km
+20:02:20 id Talheimer Grias di & Hoamat: not found    km
+20:03:04 id Dachsteinkönig - Familux Resort: not found    km
+20:03:45 id Wohlfuhlhotel Platzer: not found    km
+20:04:25 id Schoenruh: not found    km
+20:05:08 id Alpin Hotel Garni Eder: not found    km
+20:05:30 id Hotel Garni Glockenstuhl: ok 128486 Hotel Garni Glockenstuhl 0.01 km
+20:06:11 id Hotel Alpenhof: not found    km
+20:06:53 id Hotel Alpin Spa Tuxerhof: ok 10286379 Hotel Alpin Spa Tuxerhof 0.01 km
+20:07:34 id Auenhotel: not found    km
+20:08:15 id POST - Family Resort: not found    km
+20:08:37 id Aparthotel Bergland: not found 309262 Aparthotel England 391.07 km
+20:09:21 id Bergwald Appartements Alpbach: not found    km
+20:10:04 id Hotel & Spa Der Steirerhof: ok 248874 Hotel & Spa Der Steirerhof 0.02 km
+20:10:46 id Hotel Laschenskyhof: ok 31437962 Laschenskyhof Hotel & Spa 0.02 km
+20:11:29 id Alpeiner Nature Resort: not found    km
+20:12:12 id Biohotel Rastbichlhof: not found    km
+20:12:14 agoda: {'ids_due': 150, 'ids_found': 15, 'ids_missed': 20, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 0, 'ids_coverage': '30/1500'}
