@@ -59,6 +59,8 @@ paths:
   drive_times: data/drive_times.csv  # cache: each property is routed once
   google_ratings: data/google_ratings.csv   # Google rating, reviews, class, amenities per watched property
   places: data/places.csv          # type of place around each watched property (old town, vineyards, ...)
+  locations: data/locations.csv    # checked position of each watched hotel (the small store every run reuses)
+  location_fixes: config/location_fixes.csv   # positions set by hand: pid,lat,lon,note (always win)
   tile_state: data/tile_state.json   # when each map tile was last refreshed
   selection: config/selection.yaml
   include: config/include.txt
@@ -187,12 +189,29 @@ places:                      # type of place around each watched property (filte
   old_town_min: 8            # ...at least this many make an old town
   unesco_km: 1.0             # or the centre of a UNESCO World Heritage site this close
   thermal_km: 3
+  coast_km: 3                # land or water side of the nearest coastline within this (owner, 2026-11-23: no hotels in the sea)
   extracts_index: https://download.geofabrik.de/index-v1.json   # OpenStreetMap extracts (Geofabrik), smallest per property
   skip_extracts: []          # extract ids never to download
   pad_km: 16                 # features this far beyond the properties of an extract still count
   refresh_days: 120
   max_minutes: 45
   elevation_points_per_run: 1000
+
+locations:                   # where each watched hotel really is (owner, 2026-11-23: no hotels in the sea; reuse known ones)
+  name_match_km: 3           # an OpenStreetMap hotel with the same name this close to the listed position
+  min_similarity: 0.85
+  photon_url: https://photon.komoot.io/api/   # OpenStreetMap search; only for hotels the OSM catalog lacks
+  photon_keys: [tourism, building, amenity]
+  photon_max_km: 30          # a same-name result further than this from the listed position is another place
+  photon_per_run: 400
+  pause_seconds: 1.1         # Photon: keep it gentle
+  stop_after_errors: 5
+  agree_km: 0.5              # the listing agrees with a better source within this
+  water_margin_m: 60         # on the water side of the coastline by more than this = in the sea (listed in the summary)
+  refresh_days: 180
+  retry_days: 30             # hotels with only the listed position are searched again after this
+  max_minutes: 12
+  user_agent: "hotel-price-scraper/1.0 (personal project; github.com/ChambaPie/hotel-price-scraper)"
 
 seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the sellers' own websites)
   hotels: 6                  # watched hotels per seller (one per country first)

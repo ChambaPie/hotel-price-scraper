@@ -38,7 +38,7 @@ from .landscape import elevations
 from .scan import read_csv, write_csv
 
 FIELDS = ["pid", "lat", "lon", "elevation_m", "sea_km", "beach_km", "lake_km", "ski_km", "city_km", "major_city_km",
-          "vineyard_km", "historic_n", "unesco_km", "thermal_km", "extract", "tags", "updated"]
+          "vineyard_km", "historic_n", "unesco_km", "thermal_km", "coast_m", "coast_side", "extract", "tags", "updated"]
 THERMAL_NAME = re.compile(r"therm|terme|toplice|fürd|furdo|lázn|lazne|bagni|kúpe|kupe", re.I)
 TAG_ORDER = ["mountain", "ski", "sea", "beach", "lake", "old_town", "major_city", "city", "vineyards", "thermal"]
 KINDS = ("sea", "lake", "beach", "ski", "city", "vineyard", "historic", "unesco", "thermal")
@@ -160,6 +160,46 @@ class Grid:
         return sum(1 for p in self._near(lat, lon, km) if geo.haversine_km(lat, lon, p[0], p[1]) <= km)
 
 
+class Coast:
+    """Coastline segments in OpenStreetMap's direction (land on the left, water on the right): which side of the
+    nearest coastline a position is on. Owner, 2026-11-23: hotels must not sit in the sea."""
+    def __init__(self, lines, cell: float = 0.02):
+        self.cell, self.cells = cell, {}
+        for line in lines:
+            for a, b in zip(line, line[1:]):
+                for c in {self._key(*a), self._key(*b), self._key((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)}:
+                    self.cells.setdefault(c, []).append((a, b))
+
+    def _key(self, lat, lon):
+        return int(lat // self.cell), int(lon // self.cell)
+
+    def side(self, lat: float, lon: float, max_km: float) -> dict:
+        """{"coast_m": metres to the nearest coastline, "coast_side": land | water | ""} ("" = none within max_km,
+        or a corner where the two nearest segments disagree)."""
+        import math
+        r = int(max_km / (111 * self.cell)) + 1
+        ci, cj = self._key(lat, lon)
+        kx, ky = 111.32 * math.cos(math.radians(lat)), 110.57
+        best, sides = None, set()
+        for i in range(ci - r, ci + r + 1):
+            for j in range(cj - r, cj + r + 1):
+                for a, b in self.cells.get((i, j), []):
+                    ax, ay, bx, by = (a[1] - lon) * kx, (a[0] - lat) * ky, (b[1] - lon) * kx, (b[0] - lat) * ky
+                    dx, dy = bx - ax, by - ay
+                    ll = dx * dx + dy * dy
+                    t = 0.0 if ll == 0 else max(0.0, min(1.0, (-ax * dx - ay * dy) / ll))
+                    d = math.hypot(ax + t * dx, ay + t * dy)
+                    cross = dx * (0 - ay) - dy * (0 - ax)       # > 0: the position is left of a->b, on land
+                    if best is None or d < best - 1e-6:
+                        best, sides = d, {cross > 0}
+                    elif abs(d - best) <= 1e-6:
+                        sides.add(cross > 0)
+        if best is None or best > max_km:
+            return {"coast_m": "", "coast_side": ""}
+        side = "" if len(sides) != 1 else ("land" if sides.pop() else "water")
+        return {"coast_m": round(best * 1000), "coast_side": side}
+
+
 def measure(la: float, lo: float, grids: dict, cities: list[tuple], pc: dict) -> dict:
     def near(points, km):
         best = None
@@ -213,7 +253,7 @@ def read_features(path: str, bbox: tuple, step: int = 3) -> tuple[dict, list]:
     from osmium.filter import KeyFilter, TagFilter
     s, w, n, e = bbox
     pts = {k: [] for k in KINDS}
-    cities = []
+    cities, coast = [], []
 
     def keep(lat, lon):
         return s <= lat <= n and w <= lon <= e
@@ -245,6 +285,19 @@ def read_features(path: str, bbox: tuple, step: int = 3) -> tuple[dict, list]:
             if areas and o.is_closed() and "sea" not in kinds:
                 return                     # its area comes separately
             add(kinds, [c for c in (loc(nd) for nd in list(o.nodes)[::step]) if c], tags)
+            if tags.get("natural") == "coastline":   # in order, for the land/water side; split where it leaves the box
+                nodes = list(o.nodes)
+                part = []
+                for nd in nodes[::step] + ([nodes[-1]] if (len(nodes) - 1) % step else []):
+                    c = loc(nd)
+                    if c and keep(*c):
+                        part.append(c)
+                    else:
+                        if len(part) > 1:
+                            coast.append(part)
+                        part = []
+                if len(part) > 1:
+                    coast.append(part)
         elif o.is_area():
             ring = next(iter(o.outer_rings()), None)
             if ring is None:
@@ -260,6 +313,7 @@ def read_features(path: str, bbox: tuple, step: int = 3) -> tuple[dict, list]:
     for o in osmium.FileProcessor(path).with_locations().with_filter(KeyFilter("historic")):
         if not o.is_relation():
             handle(o, False)
+    pts["_coast"] = coast                  # polylines, not points: run() builds a Coast from them
     return pts, cities
 
 
@@ -302,12 +356,19 @@ def download(url: str, dest: Path, log=log) -> int:
 # ---------- run ----------
 
 def due(watch: list[dict], known: dict, today: date, refresh_days: int) -> list[dict]:
+    """Never measured, measured at another position (the hotel's position was corrected), or older than refresh_days."""
     out = []
     for w in watch:
         k = known.get(w["pid"], {})
-        if not k.get("updated") or (today - date.fromisoformat(k["updated"][:10])).days >= refresh_days:
+        if not k.get("updated") or (today - date.fromisoformat(k["updated"][:10])).days >= refresh_days \
+                or (k.get("lat"), k.get("lon")) != (w["lat"], w["lon"]) or k.get("coast_m") is None:   # before 2026-11-23
             out.append(w)
     return out
+
+
+def positions(cfg: dict) -> dict:
+    from .locations import positions as _positions
+    return _positions(cfg) if cfg["paths"].get("locations") else {}
 
 
 def run(cfg: dict, max_minutes: float, index=None, read=read_features, fetch=download, elev=None,
@@ -315,7 +376,9 @@ def run(cfg: dict, max_minutes: float, index=None, read=read_features, fetch=dow
     pc, p, lc = cfg["places"], cfg["paths"], cfg["landscape"]
     today = today or date.today()
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    watch = [w for w in read_csv(p["watchlist"]) if not w.get("gone_since") and w.get("lat")]
+    pos = positions(cfg)   # the checked position of each hotel (locations.py), else the listed one
+    watch = [{**w, **dict(zip(("lat", "lon"), pos.get(w["pid"], (w["lat"], w["lon"]))))}
+             for w in read_csv(p["watchlist"]) if not w.get("gone_since") and w.get("lat")]
     known = {r["pid"]: r for r in read_csv(p["places"])}
     land = {r["pid"]: r for r in read_csv(p["landscape"])}
     todo = due(watch, known, today, pc["refresh_days"])
@@ -363,13 +426,15 @@ def run(cfg: dict, max_minutes: float, index=None, read=read_features, fetch=dow
             continue
         finally:
             dest.unlink(missing_ok=True)
+        coast = Coast(pts.pop("_coast", []))
         grids = {k: Grid(v) for k, v in pts.items()}
         for w in rows:
             la, lo = float(w["lat"]), float(w["lon"])
             r = {"pid": w["pid"], "lat": w["lat"], "lon": w["lon"],
                  "elevation_m": land.get(w["pid"], {}).get("elevation_m") or elev_of.get(w["pid"])
                  or known.get(w["pid"], {}).get("elevation_m", ""),
-                 **measure(la, lo, grids, cities, pc), "extract": xid, "updated": now}
+                 **measure(la, lo, grids, cities, pc), **coast.side(la, lo, pc["coast_km"]), "extract": xid,
+                 "updated": now}
             r["tags"] = tags_for(r, pc)
             known[w["pid"]] = r
         stats["done"] += len(rows)

@@ -42,6 +42,7 @@ def osm_file(path):
 def test_reader_on_an_openstreetmap_file(tmp_path):
     pytest.importorskip("osmium")
     pts, cities = places.read_features(str(osm_file(tmp_path / "t.osm")), (45.0, 13.0, 47.0, 14.5), step=1)
+    assert pts["_coast"] == [[(LAT, LON + 0.01), (LAT + 0.01, LON + 0.01), (LAT + 0.02, LON + 0.01)]]   # in way order
     assert len(pts["historic"]) == 10                     # 9 monuments + the castle outline (a closed way)
     assert len(pts["thermal"]) == 1 and len(pts["vineyard"]) == 1 and len(pts["sea"]) == 3
     assert len(pts["lake"]) >= 3                          # the lake relation's shore, assembled from its ways
@@ -51,8 +52,11 @@ def test_reader_on_an_openstreetmap_file(tmp_path):
 def test_measure_and_tags(tmp_path):
     pytest.importorskip("osmium")
     pts, cities = places.read_features(str(osm_file(tmp_path / "t.osm")), (45.0, 13.0, 47.0, 14.5), step=1)
+    coast = places.Coast(pts.pop("_coast"))
     grids = {k: places.Grid(v) for k, v in pts.items()}
     r = {"elevation_m": "5", **places.measure(LAT, LON, grids, cities, PC)}
+    assert coast.side(LAT, LON, 3)["coast_side"] == "land"                # west of a northward coastline
+    assert coast.side(LAT + 0.01, LON + 0.02, 3)["coast_side"] == "water"
     assert r["historic_n"] == 10 and r["major_city_km"] == "" and r["city_km"] != "" and r["lake_km"] == ""
     assert places.tags_for(r, PC) == "sea,old_town,city,vineyards,thermal"
 
@@ -124,7 +128,7 @@ def test_run_one_download_per_extract_and_rolling(tmp_path):
     assert got == ["u/ne"] and res["done"] == 2 and res["coverage"] == "2/2"
     rows = {r["pid"]: r for r in csv.DictReader(open(cfg["paths"]["places"]))}
     assert rows["ta:1"]["extract"] == "italy/nord-est" and "old_town" in rows["ta:1"]["tags"]
-    assert rows["ta:1"]["elevation_m"] == "12"
+    assert rows["ta:1"]["elevation_m"] == "12" and rows["ta:1"]["coast_side"] == "land"
     assert places.run(cfg, 5, today=date(2026, 11, 24), **kw)["due"] == 0 and got == ["u/ne"]
 
 

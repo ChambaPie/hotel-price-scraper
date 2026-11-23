@@ -1,7 +1,7 @@
 name: Place details (daily)
 # Schedules run as the account that last committed this file; keep it a real GitHub account.
 
-# For every watched property: the type of place around it (OpenStreetMap: old town, vineyards, thermal baths, major
+# For every watched property: where it really is (locations.csv: checked position, reused by every run), the type of place around it (OpenStreetMap: old town, vineyards, thermal baths, major
 # city, mountain, sea, lake, ...) and its Google rating, number of reviews and amenities (Google Hotels).
 # Rolling, time-boxed: settings places.* and google_ratings.*.
 on:
@@ -9,6 +9,10 @@ on:
     - cron: "29 10 * * *"   # daily 10:29 UTC
   workflow_dispatch:
     inputs:
+      locations_minutes:
+        description: "Hotel positions time budget in minutes (empty = settings)"
+        required: false
+        default: ""
       places_minutes:
         description: "Type-of-place time budget in minutes (empty = settings)"
         required: false
@@ -46,6 +50,14 @@ jobs:
           for u in https://download.geofabrik.de/index-v1-nogeom.json https://overpass-api.de/api/status; do
             for v in 4 6; do echo "IPv$v $u: $(curl -$v -sS -o /dev/null -w '%{http_code} %{remote_ip} %{time_total}s' --max-time 20 "$u" 2>&1)"; done
           done
+      - name: Hotel positions (OpenStreetMap, Photon; known ones reused)
+        continue-on-error: true   # positions already checked stay as they are
+        env:
+          MIN: ${{ inputs.locations_minutes }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -m hotel_scraper.locations ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/locations.log
       - name: Type of place (OpenStreetMap)
         env:
           MIN: ${{ inputs.places_minutes }}
@@ -62,13 +74,13 @@ jobs:
           python -m hotel_scraper.google_ratings ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/google_ratings.log
       - name: Summary
         if: always()
-        run: cat out/places_summary.md out/google_ratings_summary.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+        run: cat out/locations_summary.md out/places_summary.md out/google_ratings_summary.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
       - name: Commit
         if: always()   # keep what the first step found even if the Google step fails
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/places.csv data/google_ratings.csv 2>/dev/null || true
+          git add data/locations.csv data/places.csv data/google_ratings.csv 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Place details $(date -u +%F)"
           for i in 1 2 3; do git pull --rebase && git push && break; sleep $((i * 5)); done
       - name: Publish reports
