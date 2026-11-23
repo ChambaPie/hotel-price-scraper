@@ -387,6 +387,7 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
   engine_pages:              # part engine_pages: a few hotels' booking-engine pages per engine, to build readers
     engines: [simplebooking, synxis, vertical_booking, bookingexpert, hotelnetsolutions, blastness, ericsoft, bookassist, casablanca]
     per_engine: 3
+    prefer: {synxis: "hotel=", blastness: "id_albergo=", vertical_booking: "verticalbooking", bookassist: "hotel_id="}
     wait_ms: 10000
     json_words: ["price", "rate", "amount", "total"]
     urls:                    # one night's page where the address pattern is known; else the hotel's booking link

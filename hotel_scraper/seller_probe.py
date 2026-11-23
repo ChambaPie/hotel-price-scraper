@@ -400,6 +400,11 @@ def save_json(responses, base: Path, pattern: str, limit: int, words: list[str] 
         p.write_bytes(body[:3_000_000])
         p.with_suffix(".url").write_text(r.request.method + " " + r.url[:500] + "\n" + (r.request.post_data or "")[:200_000],
                                          encoding="utf-8")
+        try:                                # some engines name the hotel only in a header (Blastness, 2026-11-23)
+            hdr = {k: v for k, v in r.request.headers.items() if k.lower() != "cookie"}   # anonymous visitors' tokens only
+            p.with_suffix(".headers.json").write_text(json.dumps(hdr, indent=1), encoding="utf-8")
+        except Exception:  # noqa: BLE001
+            pass
         n += 1
     return n
 
@@ -416,8 +421,10 @@ def engine_url(row: dict, tpl: str | None, checkin: date, adults: int) -> str:
     return link or row.get("website", "")
 
 
-def probe_engine_pages(cfg: dict, sites: list[dict], out: Path, checkin: date, log=log) -> list[dict]:
-    """Open a few hotels' booking-engine pages per engine and keep what they load (prices, availability JSON)."""
+def probe_engine_pages(cfg: dict, sites: list[dict], out: Path, checkin: date, log=log, engines: list[str] | None = None,
+                       per_engine: int | None = None) -> list[dict]:
+    """Open a few hotels' booking-engine pages per engine and keep what they load (prices, availability JSON). Hotels
+    whose link names the engine's hotel (settings engine_pages.prefer, e.g. SynXis "hotel=") first."""
     from playwright.sync_api import sync_playwright
     from .booking_session import launch_browser
     sp = cfg["seller_probe"]
@@ -425,10 +432,11 @@ def probe_engine_pages(cfg: dict, sites: list[dict], out: Path, checkin: date, l
     rows = []
     with sync_playwright() as pw:
         br = launch_browser(pw, True)
-        for engine in ep["engines"]:
+        for engine in engines or ep["engines"]:
             picks = [r for r in sites if r.get("engine") == engine and (r.get("booking_link") or r.get("website"))]
-            picks.sort(key=lambda r: (not r.get("booking_link"), r["pid"]))
-            for r in picks[: ep["per_engine"]]:
+            pref = re.compile((ep.get("prefer") or {}).get(engine) or "^$", re.I)
+            picks.sort(key=lambda r: (not pref.search(r.get("booking_link") or ""), not r.get("booking_link"), r["pid"]))
+            for r in picks[: per_engine or ep["per_engine"]]:
                 url = engine_url(r, (ep.get("urls") or {}).get(engine), checkin, cfg["scan"]["adults"])
                 ctx = br.new_context(user_agent=sp["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900})
                 page = ctx.new_page()
@@ -636,7 +644,8 @@ def main(argv=None) -> int:
         write_rows(Path(p["official_sites"]), sorted(({**r, "checked_at": stamp} for r in engine_rows), key=lambda r: r["pid"]))
     if args.part == "engine_pages":
         checkin = date.fromisoformat(args.checkin) if args.checkin else date.today() + timedelta(days=sp["checkin_offset_days"])
-        page_rows = probe_engine_pages(cfg, read_csv(p["official_sites"]), out, checkin)
+        page_rows = probe_engine_pages(cfg, read_csv(p["official_sites"]), out, checkin,
+                                       engines=[x for x in args.sellers.split(",") if x] or None, per_engine=args.hotels)
         write_rows(out / "engine_pages.csv", page_rows)
         (out / "report.md").write_text(engine_pages_md(page_rows), encoding="utf-8")
         print(engine_pages_md(page_rows))
