@@ -1,0 +1,2 @@
+POST https://sdk.fra-02.braze.eu/api/v3/content_cards/sync
+{"api_key":"b4243a80-61df-4400-a98b-74e6759cbe54","time":1795472739,"sdk_metadata":["wcd"],"sdk_version":"5.4.0","device_id":"3e95d5ac-e713-86ab-fe86-cb73bcec168d","last_full_sync_at":1795472715,"last_card_updated_at":0}

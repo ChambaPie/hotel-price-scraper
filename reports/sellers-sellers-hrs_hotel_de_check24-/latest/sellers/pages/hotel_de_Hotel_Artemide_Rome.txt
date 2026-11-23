@@ -1,584 +1,436 @@
 #URL https://www.hotel.de/
-#FINAL https://www.hotel.de/
+#FINAL https://www.hotel.de/de/list?hotelTeaserKey%5B0%5D=66796&location=%2554084&orderBy=Recommendations&startDateDay=23&startDateMonth=11&startDateYear=2026&endDateDay=24&endDateMonth=11&endDateYear=2026&currency=EUR&rooms=1&numberOfAdults%5B0%5D=1&type%5B0%5D=SINGLEROOM&adults=1&children=0&singleRooms=1&doubleRooms=0
 #TITLE HOTEL DE | Über 300.000 Top Hotels weltweit buchen!
 Direkt zum Hauptinhalt
 Einloggen
 Ihre Meinung
-Hotels schnell und einfach buchen auf HOTEL DE
-Suche
 Artemide, Rome, Italy Lazio
-Anreise
+Suche
 Mo., 23. Nov.
 1 Nacht
-Abreise
 Di., 24. Nov.
-Personen und Zimmer
+Anreise
+Abreise
 1 Person - 1 Zimmer
+Personen und Zimmer
 Hotels suchen
-Heute einchecken – bis zu 50% sparen
-Leipzig
--43%
+Auf Karte anzeigen
+Ergebnisse filtern
+
+342 passende Hotels gefunden
+
+Ihr Budget
+€
+Minimum
+€
+Maximum
+my
+Hotel DE
+Bis zu 50% sparen
+42
+Exklusiver Preis für myHOTEL DE-Mitglieder
+Beliebte Filter
+Frühstück inklusive
+99+
+Kostenfrei stornierbar
+0+
+Parkplatz
+99+
+Kostenloses WLAN
+99+
+Bewertung - Sehr gut
+52
+Bezahlung
+Ohne Vorauszahlung buchbar
+0
+Online zahlen
+Neu
+5
+Ohne Kreditkarte buchbar
+0
+Gutscheine akzeptiert
+5
 HOTEL DE-Sterne
-HYPERION Hotel Leipzig
-9,4
+37
+99+
+99+
+13
+Gäste-Bewertung
+9+
 Exzellent
-Standardpreis
-211 €
-my
-Hotel DE
-120 €
-Mehr Hotels in Leipzig
-München
--40%
-HOTEL DE-Sterne
-MASEVEN München Messe Trudering
-8,1
+14
+8+
 Sehr gut
-Standardpreis
-108 €
+52
+7+
+Gut
+69
+6+
+Ansprechend
+82
+Alle
+99+
+Nachhaltigkeit
+Green Stay Hotels
+
+Weitere Filter
+
+Hotelketten
+
+Hotelart
+
+Hotelausstattung
+
+Zimmerausstattung
+
+Zimmerart
+
+Zahlungsmittel im Hotel
+
+Serviceleistungen im Hotel
+
+Sortieren nach:
+
+Empfehlungen
+Preis
+Entfernung zu
+Bewertungen
+HOTEL DE-Sterne
+Artemide
+
+00184 
+Rom, RM
+
+1 km
+14 km
+Im gewählten Zeitraum sind leider keine Zimmer mehr verfügbar.
 my
 Hotel DE
-64 €
-Mehr Hotels in München
-München
--36%
+Sofort sparen mit dem myHOTEL DE Club
+Bis zu 50% günstiger buchen, Meilen oder Punkte sammeln und mehr.
+Einloggen
+Registrieren
 HOTEL DE-Sterne
 Promo
-AWA Hotel
+Moderno
+
+00185 
+Rom, RM
+
 8,7
 Sehr gut
-Standardpreis
-137 €
-my
-Hotel DE
-87 €
-Mehr Hotels in München
-Leipzig
--30%
-HOTEL DE-Sterne
-Victor's Residenz Hotel Leipzig
-9,1
-Exzellent
-Standardpreis
-133 €
-my
-Hotel DE
-92 €
-Mehr Hotels in Leipzig
-Leipzig
--30%
-HOTEL DE-Sterne
-H4 Hotel Leipzig
-9,0
-Exzellent
-Standardpreis
-187 €
-my
-Hotel DE
-130 €
-Mehr Hotels in Leipzig
-Berlin
--26%
-HOTEL DE-Sterne
-Adina Apartment Checkpoint Charlie
-8,6
-Sehr gut
-Standardpreis
-149 €
-my
-Hotel DE
-109 €
-Mehr Hotels in Berlin
-Berlin
--25%
-HOTEL DE-Sterne
-SANA Berlin Hotel
-8,9
-Sehr gut
-Standardpreis
-180 €
-my
-Hotel DE
-135 €
-Mehr Hotels in Berlin
-Unterföhring
--24%
-HOTEL DE-Sterne
-Feringapark Hotel by Coffee Fellows Hotels
-8,2
-Sehr gut
-Standardpreis
-91 €
-my
-Hotel DE
-69 €
-Mehr Hotels in Unterföhring
-Frankfurt am Main
--22%
-HOTEL DE-Sterne
-Adina Apartment Hotel Frankfurt Westend
-9,1
-Exzellent
-Standardpreis
-149 €
-my
-Hotel DE
-115 €
-Mehr Hotels in Frankfurt am Main
-Berlin
--20%
-HOTEL DE-Sterne
-Hotel H10 Berlin Ku'damm
-9,1
-Exzellent
-Standardpreis
-145 €
-my
-Hotel DE
-116 €
-Mehr Hotels in Berlin
-Köln
--19%
-HOTEL DE-Sterne
-Lyskirchen
-8,9
-Sehr gut
-Standardpreis
-120 €
-my
-Hotel DE
-97 €
-Mehr Hotels in Köln
-Frankfurt am Main
--18%
-HOTEL DE-Sterne
-Vienna House by Wyndham Frankfurt South
-8,7
-Sehr gut
-Standardpreis
-100 €
-my
-Hotel DE
-82 €
-Mehr Hotels in Frankfurt am Main
-Dresden
--17%
-HOTEL DE-Sterne
-Bayerischer Hof Dresden
-9,2
-Exzellent
-Standardpreis
-104 €
-my
-Hotel DE
-85 €
-Mehr Hotels in Dresden
-Berlin
--17%
-HOTEL DE-Sterne
-Adina Apartment Hotel Hackescher Markt
-8,0
-Sehr gut
-Standardpreis
-135 €
-my
-Hotel DE
-111 €
-Mehr Hotels in Berlin
-Dresden
--16%
-HOTEL DE-Sterne
-Promo
-Penck Hotel Dresden
-8,8
-Sehr gut
+Basierend auf 2 Bewertungen
+786 m
+14 km
+Frühstück inklusive
+Nur noch 3 Zimmer auf unserer Seite
 Standardpreis
 105 €
 my
 Hotel DE
-87 €
-Mehr Hotels in Dresden
-Berlin
--16%
+103 €
+Hoteldetails
 HOTEL DE-Sterne
-Arcotel Velvet
-8,0
-Sehr gut
-Standardpreis
-138 €
-my
-Hotel DE
-115 €
-Mehr Hotels in Berlin
-Hamburg
--15%
-HOTEL DE-Sterne
-Promo
-Leonardo Limited Edition The Nikolai Hotel Hamburg
-8,4
-Sehr gut
-Standardpreis
-214 €
-my
-Hotel DE
-180 €
-Mehr Hotels in Hamburg
-Berlin
--15%
-HOTEL DE-Sterne
-Pestana Berlin Tiergarten
-8,4
-Sehr gut
-Standardpreis
-138 €
-my
-Hotel DE
-117 €
-Mehr Hotels in Berlin
-Hamburg
--15%
-HOTEL DE-Sterne
-Reichshof Hotel Hamburg
-9,0
-Exzellent
-Standardpreis
-199 €
-my
-Hotel DE
-169 €
-Mehr Hotels in Hamburg
-Hamburg
--15%
-HOTEL DE-Sterne
-NYX Hamburg
-9,1
-Exzellent
-Standardpreis
-139 €
-my
-Hotel DE
-118 €
-Mehr Hotels in Hamburg
-Nach rechts scrollen
-Top Angebote des Monats - Top myHOTEL DE-Preise im Dezember
-München
--28%
-HOTEL DE-Sterne
-Promo
-AWA Hotel
-8,7
-Sehr gut
-Standardpreis
-167 €
-my
-Hotel DE
-120 €
-Mehr Hotels in München
-Berlin
--26%
-HOTEL DE-Sterne
-Gold Palais Hotel
-9,1
-Exzellent
-Standardpreis
-120 €
-my
-Hotel DE
-89 €
-Mehr Hotels in Berlin
-Köln
--23%
-HOTEL DE-Sterne
-Promo
-The New Yorker Hotel Köln-Messe
-8,4
-Sehr gut
-Standardpreis
-143 €
-my
-Hotel DE
-109 €
-Mehr Hotels in Köln
-Frankfurt am Main
--22%
-HOTEL DE-Sterne
-Promo
-Palmenhof
-8,6
-Sehr gut
-Standardpreis
-136 €
-my
-Hotel DE
-105 €
-Mehr Hotels in Frankfurt am Main
-Köln
--21%
-HOTEL DE-Sterne
-Promo
-The MIDTOWN HOTEL by The New Yorker
-8,4
-Sehr gut
-Standardpreis
-155 €
-my
-Hotel DE
-122 €
-Mehr Hotels in Köln
-Berlin
--20%
-HOTEL DE-Sterne
-Hotel H10 Berlin Ku'damm
-9,1
-Exzellent
-Standardpreis
-125 €
-my
-Hotel DE
-100 €
-Mehr Hotels in Berlin
-Berlin
--18%
-HOTEL DE-Sterne
-SANA Berlin Hotel
-8,9
-Sehr gut
-Standardpreis
-189 €
-my
-Hotel DE
-155 €
-Mehr Hotels in Berlin
-Berlin
--16%
-HOTEL DE-Sterne
-Adapt Apartments Berlin Berlin-Adlershof
-9,2
-Exzellent
-Standardpreis
-154 €
-my
-Hotel DE
-128 €
-Mehr Hotels in Berlin
-Leipzig
--15%
-HOTEL DE-Sterne
-Apartment Central Leipzig-City
-9,3
-Exzellent
-Standardpreis
-94 €
-my
-Hotel DE
-80 €
-Mehr Hotels in Leipzig
-Leipzig
--15%
-HOTEL DE-Sterne
-Promo
-Best Western Premier Royal Blue Adults Only
-8,9
-Sehr gut
-Standardpreis
-159 €
-my
-Hotel DE
-135 €
-Mehr Hotels in Leipzig
-Berlin
--15%
-HOTEL DE-Sterne
-Pestana Berlin Tiergarten
-8,4
-Sehr gut
-Standardpreis
-162 €
-my
-Hotel DE
-138 €
-Mehr Hotels in Berlin
-Hannover
--15%
-HOTEL DE-Sterne
-Promo
-Grand Palace
-8,0
-Sehr gut
-Standardpreis
-165 €
-my
-Hotel DE
-140 €
-Mehr Hotels in Hannover
-Düsseldorf
--15%
-HOTEL DE-Sterne
-Max Brown Hotel Midtown part of Sircle Collection
-8,8
-Sehr gut
-Standardpreis
-1.009 €
-my
-Hotel DE
-858 €
-Mehr Hotels in Düsseldorf
-München
--14%
-HOTEL DE-Sterne
-MASEVEN München Messe Trudering
-8,1
-Sehr gut
-Standardpreis
-98 €
-my
-Hotel DE
-84 €
-Mehr Hotels in München
-Leipzig
--13%
-HOTEL DE-Sterne
-Victor's Residenz Hotel Leipzig
-9,1
-Exzellent
-Standardpreis
-130 €
-my
-Hotel DE
-112 €
-Mehr Hotels in Leipzig
-Frankfurt am Main
--13%
-HOTEL DE-Sterne
-Promo
-Villa Westend Hotel an der Messe
+Forum
+
+00184 
+Rom, RM
+
 8,5
 Sehr gut
-Standardpreis
-114 €
+Basierend auf 8 Bewertungen
+930 m
+1 km
+14 km
+Frühstück inklusive
+Nur noch 2 Zimmer auf unserer Seite
+Der Green Stay Indikator basiert auf den von den Hotels bereitgestellten Daten; er stellt keine Umweltzertifizierung dar.
+175 €
 my
 Hotel DE
-99 €
-Mehr Hotels in Frankfurt am Main
-Leipzig
--11%
-HOTEL DE-Sterne
-HYPERION Hotel Leipzig
-9,4
-Exzellent
-Standardpreis
-158 €
-my
-Hotel DE
-140 €
-Mehr Hotels in Leipzig
-Düsseldorf
--10%
-HOTEL DE-Sterne
-Lessing
-8,1
-Sehr gut
-Standardpreis
-64 €
-my
-Hotel DE
-57 €
-Mehr Hotels in Düsseldorf
-Hamburg
--10%
+Jetzt sparen
+Hoteldetails
 HOTEL DE-Sterne
 Promo
-Apartment-Hotel ****G Hamburg Mitte
+Marcella Royal
+
+00187 
+Rom, Sallustiano
+
+8,5
+Sehr gut
+Basierend auf 3 Bewertungen
+844 m
+1 km
+14 km
+Frühstück inklusive
+Nur noch 4 Zimmer auf unserer Seite
+Der Green Stay Indikator basiert auf den von den Hotels bereitgestellten Daten; er stellt keine Umweltzertifizierung dar.
+
+169 €
+
+Last Minute
+152 €
+Hoteldetails
+HOTEL DE-Sterne
+Starhotels Metropole
+
+00185 
+Rom, RM
+
+8,7
+Sehr gut
+Basierend auf 3 Bewertungen
+283 m
+13 km
+Ohne Frühstück
+Nur noch 1 Zimmer auf unserer Seite
+250 €
+Hoteldetails
+HOTEL DE-Sterne
+Leonardo Boutique Rome Termini
+
+00185 
+Rom, RM
+
+7,7
+Gut
+Basierend auf 6 Bewertungen
+912 m
+14 km
+Frühstück inklusive
+Nur noch 3 Zimmer auf unserer Seite
+Der Green Stay Indikator basiert auf den von den Hotels bereitgestellten Daten; er stellt keine Umweltzertifizierung dar.
+177 €
+Hoteldetails
+HOTEL DE-Sterne
+The Social Hub Rome
+
+00185 
+Rom
+
+9,1
+Exzellent
+Basierend auf 7 Bewertungen
+2,2 km
+2 km
+32 km
+Frühstück inklusive
+186 €
+my
+Hotel DE
+Jetzt sparen
+Hoteldetails
+HOTEL DE-Sterne
+Best Western Plus Hotel Universo
+
+00185 
+Rom, RM
+
 8,8
 Sehr gut
-Standardpreis
-110 €
+Basierend auf 1 Bewertung
+318 m
+14 km
+Frühstück inklusive
+Nur noch 1 Zimmer auf unserer Seite
+Der Green Stay Indikator basiert auf den von den Hotels bereitgestellten Daten; er stellt keine Umweltzertifizierung dar.
+275 €
 my
 Hotel DE
-99 €
-Mehr Hotels in Hamburg
-Berlin
--10%
+Jetzt sparen
+Hoteldetails
 HOTEL DE-Sterne
-Hotel am Borsigturm
-8,4
+San Anselmo
+
+00153 
+Rom, RM
+
+8,0
 Sehr gut
+Basierend auf 4 Bewertungen
+2,4 km
+1 km
+13 km
+Frühstück inklusive
+Nur noch 1 Zimmer auf unserer Seite
+Der Green Stay Indikator basiert auf den von den Hotels bereitgestellten Daten; er stellt keine Umweltzertifizierung dar.
+104 €
+Hoteldetails
+HOTEL DE-Sterne
+St. Martin
+
+00185 
+Rom, RM
+
+9,6
+Exzellent
+Basierend auf 5 Bewertungen
+1,1 km
+16 km
+Frühstück optional (+18,00 €)
+Nur noch 2 Zimmer auf unserer Seite
+252 €
+Hoteldetails
+HOTEL DE-Sterne
+Best Western Premier Hotel Royal Santina
+
+00185 
+Rom, RM
+
+688 m
+14 km
+Frühstück inklusive
+Nur noch 1 Zimmer auf unserer Seite
+Der Green Stay Indikator basiert auf den von den Hotels bereitgestellten Daten; er stellt keine Umweltzertifizierung dar.
 Standardpreis
-116 €
+256 €
 my
 Hotel DE
-104 €
-Mehr Hotels in Berlin
-Nach rechts scrollen
-Es zahlt sich aus, myHOTEL DE Mitglied zu sein
+202 €
+Hoteldetails
+HOTEL DE-Sterne
+Promo
+Comfort Hotel Bolivar
 
-Kostenlos, mit vielen Vorteilen.
+00187 
+Rom, RM
 
-Einloggen
-Kostenlos registrieren
-Bis zu 50% sofort sparen
-Automatische Anpassung bei Preissenkung
-Sammeln Sie Meilen und Punkte mit jeder Buchung
-Sorgenlos reisen mit 24/7 Kulanzservice
-HOTELSUCHE FÜR GESCHÄFTSREISE ODER NÄCHSTEN URLAUB
+701 m
+1 km
+14 km
+Frühstück inklusive
+Nur noch 1 Zimmer auf unserer Seite
+135 €
+Hoteldetails
+HOTEL DE-Sterne
+citizenM Rome Isola Tiberina
 
-Suchen Sie das perfekte Hotel aus 300.000 Hotels weltweit. Ob Urlaub oder Geschäftsreise, bei HOTEL DE finden Sie das passende Hotel in Ihrem Reiseziel. Über 2 Mio. Hotelbewertungen von Gästen helfen Ihnen beim Hotelvergleich. So finden Sie immer das idealste Hotel und buchen das passendste Zimmer oder Appartement.
+00186 
+Rom
 
-HOTELANGEBOTE VON HOTEL DE
+1,7 km
+29 km
+165 €
+Hoteldetails
+HOTEL DE-Sterne
+La Griffe Hotel
 
-Ob Wellnesshotel, Tagungshotel, Businesshotel, Familienhotel, Landhotel, Stadthotel oder Aparthotel: HOTEL DE bietet eine intuitive erweiterte Hotelsuche. Nutzen Sie die zahlreichen Filtermöglichkeiten nach Preis, Hotel-Bewertung, Hotelart, Hotelausstattung, Zimmerausstattung, Serviceleistungen und vielem mehr. Profitieren Sie von unserer Preisgarantie mit Geld-zurück-Versprechen. Wir zeigen Ihnen immer die günstigsten Hotel Angebote – immer gebührenfrei. Sparen Sie auch mit unseren täglich neuen Deals bis zu 50% oder nutzen Sie unseren Businesstarif mit 50%. So sichern Sie sich immer günstige Hotels für Ihre Reise. Unseren Hotelgutschein können Sie in über 40.000 Hotels in Europa einlösen.
+00184 
+Rom, RM
 
-HOTELKETTEN
+5,4
+Ansprechend
+Basierend auf 2 Bewertungen
+81 m
+1 km
+14 km
+Frühstück inklusive
+Nur noch 2 Zimmer auf unserer Seite
+Standardpreis
+149 €
+my
+Hotel DE
+131 €
+Hoteldetails
+HOTEL DE-Sterne
+Promo
+Boutique Hotel Trevi
 
-In diesem Bereich finden Sie eine Übersicht von Hotels bekannter Hotelketten in den größten Städten in Deutschland. Unter den bekanntesten sind die Hotels der Ketten Motel One und Holiday Inn.
+00187 
+Rom, trevi
 
-THEMENHOTELS
+6,6
+Ansprechend
+Basierend auf 1 Bewertung
+902 m
+2 km
+15 km
+Frühstück inklusive
+Nur noch 5 Zimmer auf unserer Seite
+Standardpreis
+270 €
+my
+Hotel DE
+243 €
+Hoteldetails
+HOTEL DE-Sterne
+Mercure Roma Centro Colosseo
 
-Ein besonderes Highlight sind die eigens von HOTEL DE ausgewählten Themenhotels. Finden Sie hier das perfekte Hotel für Ihre individuellen Reiseansprüche. Die sorgfältige Prüfung unserer Redakteure garantiert einen Urlaub ganz nach Ihren Wünschen, Ansprüchen und Bedürfnissen. Entdecken Sie jetzt
+00184 
+Rom, RM
 
-Wellnesshotels: Wellnesshotels in Bayern, Wellnesshotels in NRW, Wellnesshotels Schwarzwald, alle Wellnesshotels in Deutschland
+1,3 km
+3 km
+29 km
+Ohne Frühstück
+Der Green Stay Indikator basiert auf den von den Hotels bereitgestellten Daten; er stellt keine Umweltzertifizierung dar.
+225 €
+Hoteldetails
+HOTEL DE-Sterne
+Regina Giovanna
 
-APP FÜR IHRE HOTELSUCHE
+00184 
+Rom, RM
 
-Holen Sie sich unsere App für IOS und Android und nutzen Sie diese Vorteile: Günstige Hotels finden, Lieblingshotels speichern, Buchungen einsehen, mobile Navigation starten und auf dem kürzesten Weg zum Hotel kommen, Hotel Umkreissuche und vieles mehr.
+6,7
+Ansprechend
+Basierend auf 1 Bewertung
+12 m
+30 km
+Frühstück optional (+6,00 €)
+Nur noch 4 Zimmer auf unserer Seite
+90 €
+my
+Hotel DE
+Jetzt sparen
+Hoteldetails
+HOTEL DE-Sterne
+Quirinale
 
-HOTEL ANGEBOTE IN DEUTSCHLAND
+00184 
+Rom, RM
 
-In Deutschland gibt es über 38.000 Hotels, Gasthöfe und Pensionen. Deutschland bietet sehr abwechslungsreiche Reiseziele. In den großen Städten wie Berlin, Hamburg, München, Köln, Frankfurt, Nürnberg, Düsseldorf, Dresden, Leipzig oder Stuttgart gibt es zahlreiche Tagungen, Messen und Business Events, aber auch eine Vielzahl an Sehenswürdigkeiten und interessanten Museen. Alpen und deutsche Mittelgebirge und Regionen wie Schwarzwald, Bayerischer Wald, Rhön, Harz, Thüringer Wald, Allgäu etc. eignen sich bestens zum Wandern und im Winter auch für Wintersporturlaub und Wellness. Hotels an Nordsee und Ostsee hingegen laden im Sommer zum Strandurlaub ein.
+7,3
+Gut
+Basierend auf 4 Bewertungen
+133 m
+1 km
+14 km
+Frühstück inklusive
+Nur noch 1 Zimmer auf unserer Seite
+214 €
+Hoteldetails
+HOTEL DE-Sterne
+Villa San Pio
 
-HOTELSUCHE IN EUROPA
+00153 
+Rom, RM
 
-Egal, ob Sie in Europa geschäftlich oder privat, für kurz oder lang verreisen: über die Hotelsuche von HOTEL DE finden Sie garantiert die richtigen Hotels zu günstigen Preisen! Ihr Reiseziel heißt London, Amsterdam, Barcelona, Paris, Dublin oder Budapest? Sie können über HOTEL DE online buchen, egal, wo Sie sich gerade in der Welt befinden.
+8,8
+Sehr gut
+Basierend auf 5 Bewertungen
+2,4 km
+1 km
+13 km
+Frühstück inklusive
+Nur noch 1 Zimmer auf unserer Seite
+Der Green Stay Indikator basiert auf den von den Hotels bereitgestellten Daten; er stellt keine Umweltzertifizierung dar.
+90 €
+Hoteldetails
+HOTEL DE-Sterne
+UNA Hotels Decò Roma
 
-HOTELS FINDEN WELTWEIT
+00185 
+Rom
 
-Bei HOTEL DE finden Sie auch zahlreiche günstige Hotels in Nordamerika, Südamerika, Australien und Asien und Afrika. Vergleichen Sie über unsere Hotelsuche Hotels in New York, Las Vegas, Miami, Chicago, Bangkok, Singapur, Dubai und vielen mehr.
-
-Top Städte in Deutschland und Europa
-Top Hotels in Deutschland und Europa
-Berlin
-Hamburg
-München
-Köln
-Leipzig
-Dresden
-Stuttgart
-Düsseldorf
-Nürnberg
-Hannover
-Wien
-Frankfurt am Main
-Bremen
-Dortmund
-Erfurt
-Essen
-Amsterdam
-Heidelberg
-Bonn
-Karlsruhe
-Rostock
-Kassel
-Mannheim
+522 m
+Ohne Frühstück
+Nur noch 1 Zimmer auf unserer Seite
+Der Green Stay Indikator basiert auf den von den Hotels bereitgestellten Daten; er stellt keine Umweltzertifizierung dar.
+167 €
+Hoteldetails
+Weitere Hotels anzeigen
 Unsere Services
 Kontakt
 Jobs und Karriere

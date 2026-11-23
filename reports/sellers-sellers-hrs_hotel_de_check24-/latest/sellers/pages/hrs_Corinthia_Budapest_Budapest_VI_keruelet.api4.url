@@ -1,0 +1,1 @@
+GET https://svl-sales-hoteldata.hrs.com/pec/v2/hotel-data/sales-hotel-data/hotel-pictures?hotelIds=440498&salesHotelDataServiceOptions.fetchPictures=true&picturesParameters.allPicturesCachedWidth=269&picturesParameters.allPicturesCachedHeight=213&salesHotelDataServiceOptions.pictureRequestParameter.language=en&limit=10

@@ -1,17 +1,17 @@
-22:18:41 hrs        Corinthia Budapest             200 blocked=- prices=81 name=False json=4
-22:19:07 hrs        Hotel Artemide                 200 blocked=- prices=81 name=True json=3
-22:19:36 hotel_de   Corinthia Budapest             200 blocked=- prices=80 name=False json=5
-22:20:02 hotel_de   Hotel Artemide                 200 blocked=- prices=80 name=True json=4
-22:21:09 check24    Corinthia Budapest             200 blocked=- prices=1 name=False json=0
-22:22:04 check24    Hotel Artemide                 200 blocked=- prices=1 name=True json=1
+22:25:35 hrs        Corinthia Budapest             200 blocked=- prices=26 name=True json=8
+22:26:06 hrs        Hotel Artemide                 200 blocked=- prices=26 name=True json=8
+22:26:39 hotel_de   Corinthia Budapest             200 blocked=- prices=26 name=True json=9
+22:27:09 hotel_de   Hotel Artemide                 200 blocked=- prices=26 name=True json=8
+22:28:16 check24    Corinthia Budapest             200 blocked=- prices=1 name=False json=0
+22:29:11 check24    Hotel Artemide                 200 blocked=- prices=1 name=True json=1
 # Sellers' own websites: probe S0
 
 ## Sellers (one night, search page)
 
 | seller | pages | blocked | with prices | hotel found | JSON saved |
 |---|---|---|---|---|---|
-| hrs | 2 | 0 | 2 | 1 | 7 |
-| hotel_de | 2 | 0 | 2 | 1 | 9 |
+| hrs | 2 | 0 | 2 | 2 | 16 |
+| hotel_de | 2 | 0 | 2 | 2 | 17 |
 | check24 | 2 | 0 | 0 | 1 | 1 |
 
 Block phrases seen: none
