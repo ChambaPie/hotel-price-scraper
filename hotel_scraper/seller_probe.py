@@ -85,7 +85,32 @@ def sample_hotels(watch: list[dict], ids: dict[str, dict], n: int) -> list[dict]
     return out
 
 
-def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=log, only: list[str] | None = None) -> list[dict]:
+def probe_specs(cfg: dict, catalog: list[str] = ()) -> dict:
+    """The sellers to probe: their own entries (seller_probe.sellers), plus every seller in the catalogue (settings
+    sellers) whose status is in `catalog` and that has a home page, through the generic search box."""
+    sp = cfg["seller_probe"]
+    specs = dict(sp["sellers"])
+    for key, reg in (cfg.get("sellers") or {}).items():
+        if key not in specs and reg.get("home") and reg.get("status") in catalog:
+            specs[key] = {"home": reg["home"], **sp["generic"]}
+    return specs
+
+
+def accept_cookies(page, labels: list[str]) -> bool:
+    for label in labels:
+        try:
+            b = page.get_by_role("button", name=label, exact=True)
+            if b.count() and b.first.is_visible():
+                b.first.click(timeout=3000)
+                page.wait_for_timeout(1000)
+                return True
+        except Exception:  # noqa: BLE001
+            continue
+    return False
+
+
+def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=log, only: list[str] | None = None,
+                  specs: dict | None = None) -> list[dict]:
     from playwright.sync_api import sync_playwright
     from .booking_session import launch_browser
     sp = cfg["seller_probe"]
@@ -93,7 +118,7 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
     rows = []
     with sync_playwright() as pw:
         default_br = launch_browser(pw, True)
-        for seller, spec in sp["sellers"].items():
+        for seller, spec in (specs or sp["sellers"]).items():
             if only and seller not in only:
                 continue
             bc = spec.get("browser", {}) if isinstance(spec, dict) else {}
@@ -120,6 +145,7 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                     if bc.get("wait_check_s"):
                         err = wait_out_check(page, sp["block_phrases"], bc["wait_check_s"], log)
                     if isinstance(spec, dict) and spec.get("input"):
+                        accept_cookies(page, sp.get("cookie_buttons") or [])
                         err = search_box(page, spec, q, sp["wait_ms"])
                 except Exception as e:  # noqa: BLE001
                     err = str(e)[:160]
@@ -530,6 +556,7 @@ def main(argv=None) -> int:
     ap.add_argument("--part", choices=["sellers", "engines", "engine_pages", "all"], default="all")
     ap.add_argument("--hotels", type=int)
     ap.add_argument("--sellers", default="", help="comma-separated seller keys (default: all in the settings)")
+    ap.add_argument("--catalog", default="", help="also every catalogued seller with these statuses, e.g. probe,account")
     ap.add_argument("--checkin", help="YYYY-MM-DD (default: settings seller_probe.checkin_offset_days from today)")
     ap.add_argument("--out", default="out/sellers")
     args = ap.parse_args(argv)
@@ -543,7 +570,10 @@ def main(argv=None) -> int:
         ids = {r["pid"]: r for r in read_csv(p["booking_ids"])}
         hotels = sample_hotels(watch, ids, args.hotels or sp["hotels"])
         checkin = date.fromisoformat(args.checkin) if args.checkin else date.today() + timedelta(days=sp["checkin_offset_days"])
-        seller_rows = probe_sellers(cfg, hotels, out, checkin, only=[x for x in args.sellers.split(",") if x])
+        specs = probe_specs(cfg, [x for x in args.catalog.split(",") if x])
+        only = [x for x in args.sellers.split(",") if x] or (
+            [k for k in specs if k not in sp["sellers"]] if args.catalog else None)
+        seller_rows = probe_sellers(cfg, hotels, out, checkin, only=only, specs=specs)
         write_rows(out / "sellers.csv", seller_rows)
     if args.part in ("engines", "all"):
         osm = {r["pid"]: r for r in read_csv(p["osm_catalog"])}

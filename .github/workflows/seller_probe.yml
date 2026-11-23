@@ -16,6 +16,9 @@ on:
       sellers:
         description: "Sellers (comma-separated keys from settings seller_probe.sellers; empty = all)"
         default: ""
+      catalog:
+        description: "Also every catalogued seller with these statuses (settings sellers), e.g. probe,account,official"
+        default: ""
 
 permissions:
   contents: write
@@ -26,7 +29,7 @@ env:
 jobs:
   probe:
     runs-on: ubuntu-24.04   # pinned: ubuntu-latest is migrating to 26.04 (Playwright browser deps)
-    timeout-minutes: 40
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -40,11 +43,12 @@ jobs:
           PART: ${{ inputs.part }}
           HOTELS: ${{ inputs.hotels }}
           SELLERS: ${{ inputs.sellers }}
+          CATALOG: ${{ inputs.catalog }}
         run: |
           set -o pipefail
           mkdir -p out/sellers
           command -v xvfb-run >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq xvfb; }
-          xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --sellers "$SELLERS" --out out/sellers 2>&1 | tee out/sellers/probe.log
+          xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --sellers "$SELLERS" --catalog "$CATALOG" --out out/sellers 2>&1 | tee out/sellers/probe.log
           cat out/sellers/report.md >> "$GITHUB_STEP_SUMMARY"
       - name: Commit the official sites list (engines survey)
         if: inputs.part == 'engines' || inputs.part == 'all'

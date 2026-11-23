@@ -140,3 +140,12 @@ def test_seller_url_never_takes_the_search_button_selector():
         assert sp.seller_url(spec).startswith("https://"), key
     assert sp.seller_url(sellers["agoda"]) == sellers["agoda"]["home"]
     assert "Hotel-Search" in sp.seller_url(sellers["hotels_com"])
+
+
+def test_catalogue_sellers_are_probed_through_the_generic_search_box():
+    specs = sp.probe_specs(CFG, ["probe", "account"])
+    assert specs["check24"]["home"] == "https://hotel.check24.de/" and specs["check24"]["input"] == CFG["seller_probe"]["generic"]["input"]
+    assert specs["agoda"] is CFG["seller_probe"]["sellers"]["agoda"]                 # its own entry wins
+    assert "marriott" not in specs and "secret_escapes" in specs and "booking_com" not in specs   # no home page to search
+    assert all(sp.seller_url(v).startswith("https://") for v in specs.values())
+    assert not set(CFG["sellers"]) & {"trivago", "kayak", "google_hotels", "tripadvisor"}          # comparison sites
