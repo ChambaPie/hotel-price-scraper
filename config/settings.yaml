@@ -258,8 +258,8 @@ sellers:                     # every travel website that sells the room and take
   edreams: {name: eDreams, group: eDreams ODIGEO, status: probe, home: "https://www.edreams.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   opodo: {name: Opodo, group: eDreams ODIGEO, status: probe, home: "https://www.opodo.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   check24: {name: CHECK24 Hotel, status: probe, home: "https://hotel.check24.de/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
-  hrs: {name: HRS, group: HRS Group, status: probe, home: "https://www.hrs.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
-  hotel_de: {name: hotel.de, group: HRS Group, status: probe, home: "https://www.hotel.de/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  hrs: {name: HRS, group: HRS Group, status: live, home: "https://www.hrs.com/", note: "its own search-box and hotel-search calls from inside its page (hotel_scraper/hrs.py)"}
+  hotel_de: {name: hotel.de, group: HRS Group, status: live, home: "https://www.hotel.de/", note: "same search and offers as HRS (probe 2026-11-23): read as HRS"}
   ehotel: {name: ehotel, status: probe, home: "https://www.ehotel.de/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   zenhotels: {name: ZenHotels, group: Emerging Travel Group, status: probe, home: "https://www.zenhotels.com/", note: "Cloudflare check on 1 of 2 pages from GitHub (probe 2026-11-23)"}
   prestigia: {name: Prestigia, status: probe, home: "https://www.prestigia.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
@@ -505,6 +505,33 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
   stop_after_errors: 25
   max_minutes: 30
   hotel_url: "https://www.trip.com/hotels/detail/?hotelId={id}&cityId={city}&checkIn={checkin}&checkOut={checkout}&adult={adults}&crn=1&curr=EUR&locale=en-GB"
+
+hrs:                         # HRS's own prices; hotel.de is the same company and search (hotel_scraper/hrs.py)
+  home: "https://www.hrs.com/en/"
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+  accept_language: "en-GB,en;q=0.9"
+  wait_ms: 5000
+  locations_url: "https://services.hrs-api.com/locations?query={q}&language=en&goog=2"   # what its search box asks
+  search_url: "https://svl-sales-hotelsearch.hrs.com/pec/v2/hotel-search/hotels"      # what its results list asks
+  search_template: config/hrs_search.json   # its own request, captured from the results page (2026-11-23)
+  queries: ["{name} {city}", "{name}"]
+  max_km: 3.0                # same name-and-place rules as Agoda (positions from HRS's suggestions)
+  min_similarity: 0.8
+  near_km: 1.0
+  min_similarity_near: 0.5
+  same_place_km: 0.15
+  retry_days: 30
+  ids_per_run: 300
+  ids_share: 0.5
+  hotels_per_call: 25        # one search prices this many hotels for one night
+  nights_per_pass: 6         # nights per pass for every hotel...
+  night_stride: 61           # ...two months apart, shifting a day each pass
+  min_lead_days: 1
+  horizon_days: 365
+  pause_seconds: 1.0
+  stop_after_errors: 25
+  max_minutes: 30
+  hotel_url: "https://www.hrs.com/en/list?hotelTeaserKey%5B0%5D={id}&startDateDay={d}&startDateMonth={m}&startDateYear={y}&endDateDay={d2}&endDateMonth={m2}&endDateYear={y2}&currency=EUR&rooms=1&numberOfAdults%5B0%5D={adults}&type%5B0%5D={room}&adults={adults}&children=0&singleRooms={singles}&doubleRooms={doubles}"
 
 engines:                     # hotels' own booking engines (hotel_scraper/engines.py; owner, 2026-11-23: every vendor)
   live: [seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft]   # engines with a reader (survey: data/official_sites.csv)

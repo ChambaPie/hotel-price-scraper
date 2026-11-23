@@ -7,6 +7,7 @@ name: Other sellers
 #   agoda     Agoda (ids: 3 searches in parallel until every hotel has been looked up; prices: Agoda's own search)
 #   official  hotels' own booking engines (seekda, D-EDGE...): a 12-month calendar per hotel over plain HTTP
 #   trip_com  Trip.com (its own search-box and results-list calls, from inside its page)
+#   hrs       HRS and hotel.de (same company and offers): its own search-box and hotel-search calls
 #   publish   each reader's rows replace that reader's rows in the shared files
 on:
   schedule:
@@ -14,8 +15,8 @@ on:
   workflow_dispatch:
     inputs:
       readers:
-        description: "Readers to run (JSON list): agoda, official, trip_com"
-        default: '["agoda", "official", "trip_com"]'
+        description: "Readers to run (JSON list): agoda, official, trip_com, hrs"
+        default: '["agoda", "official", "trip_com", "hrs"]'
       part:
         description: "ids, prices or all"
         default: "all"
@@ -41,7 +42,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        reader: ${{ fromJSON(inputs.readers || '["agoda", "official", "trip_com"]') }}
+        reader: ${{ fromJSON(inputs.readers || '["agoda", "official", "trip_com", "hrs"]') }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -93,6 +94,15 @@ jobs:
           set -o pipefail
           mkdir -p out
           python -m hotel_scraper.tripcom --part "$PART" ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/tripcom.log
+      - name: HRS (and hotel.de)
+        if: matrix.reader == 'hrs'
+        env:
+          PART: ${{ inputs.part || 'all' }}
+          MIN: ${{ inputs.minutes }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          python -m hotel_scraper.hrs --part "$PART" ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/hrs.log
       - name: This reader's rows
         if: always()
         env:
