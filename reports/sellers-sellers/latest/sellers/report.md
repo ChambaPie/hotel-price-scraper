@@ -4,8 +4,8 @@
 
 | seller | pages | blocked | with prices | hotel found | JSON saved |
 |---|---|---|---|---|---|
-| hotels_com | 3 | 3 | 0 | 0 | 3 |
-| expedia | 3 | 3 | 0 | 0 | 3 |
+| hotels_com | 2 | 2 | 0 | 0 | 2 |
+| expedia | 2 | 2 | 0 | 0 | 2 |
 
 Block phrases seen: Bot or Not, Sei un robot
 
