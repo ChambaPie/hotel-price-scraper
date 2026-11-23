@@ -97,10 +97,13 @@ def probe_specs(cfg: dict, catalog: list[str] = ()) -> dict:
 
 
 def accept_cookies(page, labels: list[str]) -> bool:
-    for role in ("button", "link"):            # CHECK24's "Geht klar" is a link (2026-11-23)
+    """Click the banner's accept button: a button or link with that name, else any element with exactly that text
+    (CHECK24's "Geht klar" is neither, 2026-11-23)."""
+    for how in ("button", "link", "text"):
         for label in labels:
             try:
-                b = page.get_by_role(role, name=re.compile(rf"^\s*{re.escape(label)}\s*$", re.I))   # "Accept All Cookies"
+                rx = re.compile(rf"^\s*{re.escape(label)}\s*$", re.I)                    # "Accept All Cookies"
+                b = page.get_by_text(rx) if how == "text" else page.get_by_role(how, name=rx)
                 if b.count() and b.first.is_visible():
                     b.first.click(timeout=3000)
                     page.wait_for_timeout(1000)
