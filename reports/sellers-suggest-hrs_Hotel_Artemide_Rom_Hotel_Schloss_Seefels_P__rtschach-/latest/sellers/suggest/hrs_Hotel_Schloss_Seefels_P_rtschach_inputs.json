@@ -1,0 +1,14 @@
+[
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "id=newsletter-email",
+   "placeholder=Your email address",
+   "autocomplete=on",
+   "aria-invalid=false",
+   "type=email",
+   "value=",
+   "style="
+  ]
+ }
+]
