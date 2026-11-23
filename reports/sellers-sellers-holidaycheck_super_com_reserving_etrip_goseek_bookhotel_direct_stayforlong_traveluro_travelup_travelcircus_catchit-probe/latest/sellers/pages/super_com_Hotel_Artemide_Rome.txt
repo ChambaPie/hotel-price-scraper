@@ -1,0 +1,10 @@
+#URL https://www.super.com/travel/
+#FINAL https://www.super.com/travel/
+#TITLE Just a moment...
+JUST A MOMENT
+
+Making sure you're human
+
+We're running a quick security check. It only takes a few seconds.
+
+Having trouble? Reference ID: a5f3990a38f5d6e3

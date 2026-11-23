@@ -1,0 +1,12 @@
+22:26:04 holidaycheck Corinthia Budapest             400 blocked=- prices=0 name=False json=0
+22:26:16 holidaycheck Hotel Artemide                 400 blocked=- prices=0 name=False json=0
+22:26:47 super_com  Corinthia Budapest             200 blocked=- prices=0 name=False json=1
+22:26:58 super_com  Hotel Artemide                 403 blocked=Just a moment prices=0 name=False json=0
+22:27:09 reserving  Corinthia Budapest             403 blocked=Just a moment prices=0 name=False json=0
+22:27:21 reserving  Hotel Artemide                 403 blocked=Just a moment prices=0 name=False json=0
+22:27:32 etrip      Corinthia Budapest             200 blocked=- prices=0 name=False json=10
+22:27:44 etrip      Hotel Artemide                 200 blocked=- prices=0 name=False json=10
+22:27:56 goseek     Corinthia Budapest             200 blocked=- prices=0 name=False json=10
+22:28:07 goseek     Hotel Artemide                 200 blocked=- prices=0 name=False json=10
+22:28:20 bookhotel_direct Corinthia Budapest             200 blocked=- prices=0 name=False json=0
+22:28:32 bookhotel_direct Hotel Artemide                 200 blocked=- prices=0 name=False json=0

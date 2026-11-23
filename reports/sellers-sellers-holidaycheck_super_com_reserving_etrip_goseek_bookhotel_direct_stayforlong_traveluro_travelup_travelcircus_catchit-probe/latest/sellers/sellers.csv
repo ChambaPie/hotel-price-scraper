@@ -1,0 +1,13 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+holidaycheck,ta:g274887-d285437,Corinthia Budapest,HU,400,holidaycheck.at,,,0,False,207,0,8.4,search box not found
+holidaycheck,ta:g187791-d205044,Hotel Artemide,IT,400,holidaycheck.at,,,0,False,207,0,8.1,search box not found
+super_com,ta:g274887-d285437,Corinthia Budapest,HU,200,super.com,"Las Vegas, Nevada, United States of America - Super.com Hotel Deals",,0,False,1023,1,28.4,no suggestion list (pressed Enter)
+super_com,ta:g187791-d205044,Hotel Artemide,IT,403,super.com,Just a moment...,Just a moment,0,False,155,0,8.2,search box not found
+reserving,ta:g274887-d285437,Corinthia Budapest,HU,403,reserving.com,Just a moment...,Just a moment,0,False,265,0,8.2,search box not found
+reserving,ta:g187791-d205044,Hotel Artemide,IT,403,reserving.com,Just a moment...,Just a moment,0,False,265,0,8.1,search box not found
+etrip,ta:g274887-d285437,Corinthia Budapest,HU,200,etrip.net,Etrip | Find the right hotel at the best price.,,0,False,936,10,8.8,search box not found
+etrip,ta:g187791-d205044,Hotel Artemide,IT,200,etrip.net,Etrip | Find the right hotel at the best price.,,0,False,717,10,8.6,search box not found
+goseek,ta:g274887-d285437,Corinthia Budapest,HU,200,goseek.com,goSeek.com | Find the right hotel at the best price.,,0,False,948,10,8.8,search box not found
+goseek,ta:g187791-d205044,Hotel Artemide,IT,200,goseek.com,goSeek.com | Find the right hotel at the best price.,,0,False,729,10,8.6,search box not found
+bookhotel_direct,ta:g274887-d285437,Corinthia Budapest,HU,200,bookhotel.direct,Book hotels DIRECT,,0,False,3058,0,9.8,search box not found
+bookhotel_direct,ta:g187791-d205044,Hotel Artemide,IT,200,bookhotel.direct,Book hotels DIRECT,,0,False,3058,0,9.1,search box not found
