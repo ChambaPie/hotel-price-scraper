@@ -1,0 +1,304 @@
+20:34:16 id Hotel Andy: not found 129899 Hotel Andy 4 Sterne Superior 0.02 km
+20:34:19 id Hotel Jerzner Hof: ok 241707 Hotel Jerzner Hof 4 Sterne Sup 0.03 km
+20:34:21 id Alpine Resort Goies Superior: ok 320810 Alpine Resort Goies Superior 0.01 km
+20:34:23 id Hotel Toalstock: ok 405050 ... mein romantisches Hotel To 0.02 km
+20:34:25 id Schlosshotel Fiss: ok 241660 Schlosshotel Fiss 0.06 km
+20:34:28 id Hotel Garni Martina: ok 4575668 Hotel Garni Martina 0.03 km
+20:34:32 id Hotel Gridlon Wellness am Arlberg: not found 37267580 1A Chalet "Wolke" Wandern, Gri 330.96 km
+20:34:34 id Hotel Alpenland: ok 153523 Hotel Alpenland 0.01 km
+20:34:36 id Hotel Mössmer: ok 9360747 Hotel Garni Mossmer 0.02 km
+20:34:38 id Hotel Garni Rundeck: not found    km
+20:34:40 id Hotel Garni Albona: ok 416425 Hotel Garni Albona 0.0 km
+20:34:42 id Hotel Lux Alpinae: ok 70435223 Hotel Lux Alpinae **** - St. A 0.01 km
+20:34:44 id Der Waldhof: ok 224542 Der Waldhof Hotel 0.1 km
+20:34:47 id Hotel Arlberghaus: ok 30723121 Arlberghaus Das Skihotel 0.01 km
+20:34:52 id Der Berghof: not found 2324349 Der Berghof 15.01 km
+20:34:55 id Hotel Arlberg Lech: ok 320876 Hotel Arlberg Lech 0.02 km
+20:34:57 id Hotel Jagdhaus Monzabon: ok 241753 Hotel Jagdhaus Monzabon 0.02 km
+20:34:59 id Hotel Auenhof: ok 279674 Hotel Auenhof 0.02 km
+20:35:01 id Hotel Rockenschaub: not found    km
+20:35:03 id Oberjoch - Familux Resort: not found    km
+20:35:05 id Hotel Kaiserhof Wien: ok 42883 Hotel Kaiserhof Wien 0.05 km
+20:35:08 id Hotel Sans Souci Wien: ok 416478 Hotel Sans Souci Wien 0.02 km
+20:35:10 id Kräuter & Spa Das Schäfer: ok 558411 Krauter & Spa-Hotel Das Schafe 0.06 km
+20:35:13 id Hotel Sacher Wien: not found 91155165 VILLA SACHER in Alliste 931.03 km
+20:35:15 id Hotel Capricorno: ok 13836522 Hotel Capricorno 0.02 km
+20:35:17 id Hotel Stefanie: ok 50381 Hotel Stefanie 0.05 km
+20:35:19 id Henriette Stadthotel Vienna: not found    km
+20:35:21 id Zoku Vienna: ok 18907892 Zoku Vienna 0.1 km
+20:35:24 id Damülser Hof - Wellness & Spa: ok 94440475 Damulser Hof 0.05 km
+20:35:26 id Chesa Staila Hotel B&B: ok 783623 Hotel Chesa Staila 0.01 km
+20:35:28 id Guarda Lodge: ok 958563 Guarda Lodge 0.02 km
+20:35:30 id Grand Hotel Kronenhof: ok 7298539 Grand Hotel Kronenhof 0.02 km
+20:35:32 id Hotel Chesa Rosatsch - Home of Food: ok 140298 Hotel Chesa Rosatsch - Home of 0.02 km
+20:35:34 id Cresta Palace Celerina: ok 22236373 Cresta Palace Hotel 0.02 km
+20:35:36 id Carlton Hotel St. Moritz: ok 99554 Carlton Hotel St Moritz - The  0.01 km
+20:35:39 id Badrutt's Palace Hotel St.Moritz: ok 10257199 Badrutt's Palace Hotel 0.01 km
+20:35:41 id Hotel Giardino Mountain: ok 3470839 Giardino Mountain 0.01 km
+20:35:44 id Hotel Waldhaus: ok 140513 Waldhaus Sils Hotel 0.0 km
+20:35:47 id Parkhotel Margna: ok 379809 Parkhotel Margna Superior 0.18 km
+20:35:49 id Valsana Hotel Arosa: ok 2736962 Valsana Hotel Arosa - Small Lu 0.06 km
+20:35:51 id BelArosa Hotel: ok 121447 BelArosa Suiten & Wellness 4 S 0.01 km
+20:35:53 id Tschuggen Grand Hotel: ok 73900 Tschuggen Grand Hotel - The Le 0.03 km
+20:35:55 id Hotel Prätschli: ok 72082707 Hotel Pratschli 0.02 km
+20:35:58 id 7132 Hotel: ok 9927145 7132 Hotel 1.02 km
+20:36:03 id Gasthaus Alpenblick: not found 236343 Gastehaus Alpenblick 97.31 km
+20:36:05 id Giardino Ascona: ok 3469895 Giardino Ascona 0.01 km
+20:36:07 id Park Hotel Vitznau: ok 9360433 Park Hotel Vitznau 0.01 km
+20:36:09 id The Dolder Grand: ok 10257490 The Dolder Grand 0.02 km
+20:36:13 id Park Hyatt Zurich: ok 145251 Park Hyatt Zurich 0.04 km
+20:36:16 id 25hours Hotel Zurich Langstrasse: ok 6759086 25hours Hotel Zurich Langstras 0.02 km
+20:36:18 id Art Deco Hotel Montana: ok 9117142 Art Deco Hotel Montana Luzern 0.02 km
+20:36:20 id Hotel Schweizerhof Luzern: ok 2002 Hotel Schweizerhof Luzern 0.0 km
+20:36:22 id Hotel des Balances: ok 6194 Hotel des Balances 0.01 km
+20:36:25 id Hotel Bettmerhof: ok 228042 Chalet-Hotel Bettmerhof 0.04 km
+20:36:27 id Hotel Slalom: ok 140275 Hotel Slalom 0.01 km
+20:36:29 Wellness & Spa Pirmin Zurbriggen Saas-Fe: citySearch HTTP 502: 
+20:36:29 Wellness & Spa Pirmin Zurbriggen: citySearch HTTP 502: 
+20:36:29 id Wellness & Spa Pirmin Zurbriggen: not found    km
+20:36:31 Elite Alpine Lodge Saas-Fee: citySearch HTTP 502: 
+20:36:31 Elite Alpine Lodge: citySearch HTTP 502: 
+20:36:31 id Elite Alpine Lodge: not found    km
+20:36:33 CERVO Mountain Resort Zermatt: citySearch HTTP 502: 
+20:36:33 CERVO Mountain Resort: citySearch HTTP 502: 
+20:36:33 id CERVO Mountain Resort: not found    km
+20:36:35 Hotel Monte Rosa Zermatt: citySearch HTTP 502: 
+20:36:36 Hotel Monte Rosa: citySearch HTTP 502: 
+20:36:36 id Hotel Monte Rosa: not found    km
+20:36:37 Matterhorn FOCUS Design Hotel Zermatt: citySearch HTTP 502: 
+20:36:38 Matterhorn FOCUS Design Hotel: citySearch HTTP 502: 
+20:36:38 id Matterhorn FOCUS Design Hotel: not found    km
+20:36:40 Hotel Zeit & Traum Beatenberg: citySearch HTTP 502: 
+20:36:40 id Hotel Zeit & Traum: ok 9927164 Hotel Zeit & Traum Privat SPA 0.0 km
+20:36:42 Guarda Golf Hotel & Residences Montana: citySearch HTTP 502: 
+20:36:42 Guarda Golf Hotel & Residences: citySearch HTTP 502: 
+20:36:42 id Guarda Golf Hotel & Residences: not found    km
+20:36:44 LeCrans Hotel & Spa Montana: citySearch HTTP 502: 
+20:36:45 LeCrans Hotel & Spa: citySearch HTTP 502: 
+20:36:45 id LeCrans Hotel & Spa: not found    km
+20:36:46 Lenk Lodge Lenk: citySearch HTTP 502: 
+20:36:47 Lenk Lodge: citySearch HTTP 502: 
+20:36:47 id Lenk Lodge: not found    km
+20:36:49 Bellevue Palace Bern: citySearch HTTP 502: 
+20:36:49 Bellevue Palace: citySearch HTTP 502: 
+20:36:49 id Bellevue Palace: not found    km
+20:36:51 id MAISON HORNBERG: not found    km
+20:36:53 The Alpina Gstaad Gstaad: citySearch HTTP 502: 
+20:36:54 id The Alpina Gstaad: ok 7298512 The Alpina Gstaad 0.12 km
+20:36:56 Le Grand Bellevue: citySearch HTTP 502: 
+20:36:56 id Le Grand Bellevue: not found    km
+20:36:58 Ermitage Wellness- & Spa-hotel Gstaad: citySearch HTTP 502: 
+20:36:58 Ermitage Wellness- & Spa-hotel: citySearch HTTP 502: 
+20:36:58 id Ermitage Wellness- & Spa-hotel: not found    km
+20:37:00 Hôtel des Trois Couronnes - The Leading : citySearch HTTP 502: 
+20:37:01 Hôtel des Trois Couronnes - The Leading : citySearch HTTP 502: 
+20:37:01 id Hôtel des Trois Couronnes - The Lea: not found    km
+20:37:03 Auberge de la Gare: citySearch HTTP 502: 
+20:37:03 id Auberge de la Gare: not found 363231 Auberge de la Gare 6064.09 km
+20:37:05 Ambassador Boutique Hotel Nyon: citySearch HTTP 502: 
+20:37:06 Ambassador Boutique Hotel: citySearch HTTP 502: 
+20:37:06 id Ambassador Boutique Hotel: not found    km
+20:37:08 Hôtel Beau-Rivage Genève Geneve: citySearch HTTP 502: 
+20:37:08 Hôtel Beau-Rivage Genève: citySearch HTTP 502: 
+20:37:08 id Hôtel Beau-Rivage Genève: not found    km
+20:37:11 The Ritz-Carlton Hotel de la Paix, Genev: citySearch HTTP 502: 
+20:37:11 The Ritz-Carlton Hotel de la Paix, Genev: citySearch HTTP 502: 
+20:37:11 id The Ritz-Carlton Hotel de la Paix, : not found 2460944 The Ritz-Carlton, Washington,  6544.94 km
+20:37:13 Hôtel Les Armures Geneve: citySearch HTTP 502: 
+20:37:13 Hôtel Les Armures: citySearch HTTP 502: 
+20:37:13 id Hôtel Les Armures: not found    km
+20:37:16 HOLIDAY HOME - Pension Stare Mesto: citySearch HTTP 502: 
+20:37:17 HOLIDAY HOME - Pension: citySearch HTTP 502: 
+20:37:17 id HOLIDAY HOME - Pension: not found 92670054 Amirtham Holiday Home 7418.08 km
+20:37:19 id Hotel Karlštejn & Spa: ok 247338 Hotel Karlstejn & SPA 0.01 km
+20:37:21 Aparthotel City 5 Vysehrad: citySearch HTTP 502: 
+20:37:21 Aparthotel City 5: citySearch HTTP 502: 
+20:37:21 id Aparthotel City 5: not found    km
+20:37:23 Numa I Flow Rooms & Apartments Vysehrad: citySearch HTTP 502: 
+20:37:23 Numa I Flow Rooms & Apartments: citySearch HTTP 502: 
+20:37:23 id Numa I Flow Rooms & Apartments: not found    km
+20:37:25 Hotel Julian Mala Strana: citySearch HTTP 502: 
+20:37:25 Hotel Julian: citySearch HTTP 502: 
+20:37:25 id Hotel Julian: not found    km
+20:37:27 Mosaic House Design Hotel Stare Mesto: citySearch HTTP 502: 
+20:37:27 Mosaic House Design Hotel: citySearch HTTP 502: 
+20:37:27 id Mosaic House Design Hotel: not found    km
+20:37:29 The Manes Boutique Hotel Prague Stare Me: citySearch HTTP 502: 
+20:37:30 The Manes Boutique Hotel Prague: citySearch HTTP 502: 
+20:37:30 id The Manes Boutique Hotel Prague: not found    km
+20:37:32 Fleur De Lis Hotel Karlin: citySearch HTTP 502: 
+20:37:33 id Fleur De Lis Hotel: ok 84956344 Fleur De Lis Hotel 0.0 km
+20:37:35 Hotel Cube: citySearch HTTP 502: 
+20:37:35 id Hotel Cube: not found    km
+20:37:37 Hotel Bishop's House Mala Strana: citySearch HTTP 502: 
+20:37:37 Hotel Bishop's House: citySearch HTTP 502: 
+20:37:37 id Hotel Bishop's House: not found    km
+20:37:40 id Hotel Pod Veží: ok 190653 Hotel Pod Vezi 0.03 km
+20:37:41 Alchymist Grand Hotel and Spa Mala Stran: citySearch HTTP 502: 
+20:37:42 Alchymist Grand Hotel and Spa: citySearch HTTP 502: 
+20:37:42 id Alchymist Grand Hotel and Spa: not found    km
+20:37:44 Four Seasons Hotel Prague Stare Mesto: citySearch HTTP 502: 
+20:37:44 Four Seasons Hotel Prague: citySearch HTTP 502: 
+20:37:44 id Four Seasons Hotel Prague: not found    km
+20:37:46 Hotel Golden Star Mala Strana: citySearch HTTP 502: 
+20:37:46 Hotel Golden Star: citySearch HTTP 502: 
+20:37:46 id Hotel Golden Star: not found    km
+20:37:48 Augustine Hotel, Prague Mala Strana: citySearch HTTP 502: 
+20:37:49 Augustine Hotel, Prague: citySearch HTTP 502: 
+20:37:49 id Augustine Hotel, Prague: not found    km
+20:37:50 Buddha-Bar Hotel Prague Prague: citySearch HTTP 502: 
+20:37:51 Buddha-Bar Hotel Prague: citySearch HTTP 502: 
+20:37:51 id Buddha-Bar Hotel Prague: not found    km
+20:37:53 Grand Hotel Bohemia Prague: citySearch HTTP 502: 
+20:37:53 Grand Hotel Bohemia: citySearch HTTP 502: 
+20:37:53 id Grand Hotel Bohemia: not found    km
+20:37:55 Hotel Waldstein: citySearch HTTP 502: 
+20:37:55 id Hotel Waldstein: not found    km
+20:37:57 Innside Prague Prague: citySearch HTTP 502: 
+20:37:57 Innside Prague: citySearch HTTP 502: 
+20:37:57 id Innside Prague: not found    km
+20:38:00 Hotel Schwaiger: citySearch HTTP 502: 
+20:38:00 id Hotel Schwaiger: not found 2280561 Schwaigeralm 336.63 km
+20:38:01 Wellness & Spa Boutique Hotel Villa Memo: citySearch HTTP 502: 
+20:38:02 Wellness & Spa Boutique Hotel Villa Memo: citySearch HTTP 502: 
+20:38:02 id Wellness & Spa Boutique Hotel Villa: not found    km
+20:38:04 Revelton Studios Františkovy Lázně Frant: citySearch HTTP 502: 
+20:38:04 Revelton Studios Františkovy Lázně: citySearch HTTP 502: 
+20:38:04 id Revelton Studios Františkovy Lázně: not found    km
+20:38:06 Karlsbad Grande Madonna Spa & Wellness H: citySearch HTTP 502: 
+20:38:06 Karlsbad Grande Madonna Spa & Wellness H: citySearch HTTP 502: 
+20:38:06 id Karlsbad Grande Madonna Spa & Welln: not found    km
+20:38:08 Chateau Mcely Loucen: citySearch HTTP 502: 
+20:38:09 Chateau Mcely: citySearch HTTP 502: 
+20:38:09 id Chateau Mcely: not found    km
+20:38:10 Hotel Davídek Trutnov: citySearch HTTP 502: 
+20:38:11 Hotel Davídek: citySearch HTTP 502: 
+20:38:11 id Hotel Davídek: not found    km
+20:38:12 Bed and Breakfast Zeevat Neubiberg: citySearch HTTP 502: 
+20:38:13 Bed and Breakfast Zeevat: citySearch HTTP 502: 
+20:38:13 id Bed and Breakfast Zeevat: not found    km
+20:38:15 Schloss Elmau Mittenwald: citySearch HTTP 502: 
+20:38:15 Schloss Elmau: citySearch HTTP 502: 
+20:38:15 id Schloss Elmau: not found    km
+20:38:17 id Das Graseck - Mountain Hideaway And: ok 32650124 Das Graseck - mountain hideawa 0.02 km
+20:38:19 Das König Ludwig Inspiration Spa Schwang: citySearch HTTP 502: 
+20:38:19 Das König Ludwig Inspiration Spa: citySearch HTTP 502: 
+20:38:19 id Das König Ludwig Inspiration Spa: not found    km
+20:38:21 Hotel Torbräu: citySearch HTTP 502: 
+20:38:21 id Hotel Torbräu: not found    km
+20:38:23 Hotel Metropol by Maier Privathotels Mun: citySearch HTTP 502: 
+20:38:23 Hotel Metropol by Maier Privathotels: citySearch HTTP 502: 
+20:38:23 id Hotel Metropol by Maier Privathotel: not found    km
+20:38:25 The Charles Hotel Munich: citySearch HTTP 502: 
+20:38:26 The Charles Hotel: citySearch HTTP 502: 
+20:38:26 id The Charles Hotel: not found    km
+20:38:27 Hotel Franks Oberstdorf: citySearch HTTP 502: 
+20:38:28 Hotel Franks: citySearch HTTP 502: 
+20:38:28 id Hotel Franks: not found    km
+20:38:30 Bichl 761 Bolsterlang: citySearch HTTP 502: 
+20:38:30 Bichl 761: citySearch HTTP 502: 
+20:38:30 id Bichl 761: not found    km
+20:38:32 Wellness & Naturresort Reischlhof Sonnen: citySearch HTTP 502: 
+20:38:33 Wellness & Naturresort Reischlhof: citySearch HTTP 502: 
+20:38:33 id Wellness & Naturresort Reischlhof: not found    km
+20:38:34 Asam Hotel Straubing: citySearch HTTP 502: 
+20:38:35 id Asam Hotel: ok 137248 Asam Hotel 0.03 km
+20:38:37 Hotel Arthus Aulendorf: citySearch HTTP 502: 
+20:38:38 Hotel Arthus: citySearch HTTP 502: 
+20:38:38 id Hotel Arthus: not found    km
+20:38:40 id Hotel Drei Raben: ok 136184 Hotel Drei Raben 0.01 km
+20:38:42 id Bomonti Hotel Nuremberg-West: not found    km
+20:38:44 Aribo Hotel Erbendorf: citySearch HTTP 502: 
+20:38:44 Aribo Hotel: citySearch HTTP 502: 
+20:38:44 id Aribo Hotel: not found    km
+20:38:46 Hotel Kral Erlangen: citySearch HTTP 502: 
+20:38:47 Hotel Kral: citySearch HTTP 502: 
+20:38:47 id Hotel Kral: not found    km
+20:38:49 Neumühle Resort & Spa Wartmannsroth: citySearch HTTP 502: 
+20:38:49 Neumühle Resort & Spa: citySearch HTTP 502: 
+20:38:49 id Neumühle Resort & Spa: not found    km
+20:38:51 Hilton Garden Inn Mannheim Mannheim: citySearch HTTP 502: 
+20:38:51 Hilton Garden Inn Mannheim: citySearch HTTP 502: 
+20:38:51 id Hilton Garden Inn Mannheim: not found    km
+20:38:53 Radisson Blu Hotel, Mannheim Mannheim: citySearch HTTP 502: 
+20:38:54 Radisson Blu Hotel, Mannheim: citySearch HTTP 502: 
+20:38:54 id Radisson Blu Hotel, Mannheim: not found    km
+20:38:56 id Hotel Ketschauer Hof: ok 162543 Hotel Ketschauer Hof 0.01 km
+20:38:58 The Grand Green - Familux Resort Oberhof: citySearch HTTP 502: 
+20:38:58 The Grand Green - Familux Resort: citySearch HTTP 502: 
+20:38:58 id The Grand Green - Familux Resort: not found    km
+20:39:01 id Hotel Domizil: ok 1111139 Hotel Domizil 0.01 km
+20:39:03 La Demeure Insoupçonnée Cassis: citySearch HTTP 502: 
+20:39:03 La Demeure Insoupçonnée: citySearch HTTP 502: 
+20:39:03 id La Demeure Insoupçonnée: not found    km
+20:39:05 Hotel Gabriel Menton: citySearch HTTP 502: 
+20:39:06 Hotel Gabriel: citySearch HTTP 502: 
+20:39:06 id Hotel Gabriel: not found    km
+20:39:08 Chilly Powder Morzine: citySearch HTTP 502: 
+20:39:08 Chilly Powder: citySearch HTTP 502: 
+20:39:08 id Chilly Powder: not found    km
+20:39:10 Hotel Cap Estel: citySearch HTTP 502: 
+20:39:10 id Hotel Cap Estel: not found    km
+20:39:12 Hôtel & Spa Le Dahu Morzine: citySearch HTTP 502: 
+20:39:13 Hôtel & Spa Le Dahu: citySearch HTTP 502: 
+20:39:13 id Hôtel & Spa Le Dahu: not found    km
+20:39:15 RockyPop Flaine Araches-la-Frasse: citySearch HTTP 502: 
+20:39:15 RockyPop Flaine: citySearch HTTP 502: 
+20:39:15 id RockyPop Flaine: not found    km
+20:39:17 id La Maison Des Tetes - Relais & Chât: not found    km
+20:39:19 Aparthotel AMMI Nice Lafayette Nice: citySearch HTTP 502: 
+20:39:20 Aparthotel AMMI Nice Lafayette: citySearch HTTP 502: 
+20:39:20 id Aparthotel AMMI Nice Lafayette: not found    km
+20:39:21 id Hotel De France, un hôtel AMMI: not found    km
+20:39:23 Hotel Cour Du Corbeau Strasbourg MGaller: citySearch HTTP 502: 
+20:39:24 Hotel Cour Du Corbeau Strasbourg MGaller: citySearch HTTP 502: 
+20:39:24 id Hotel Cour Du Corbeau Strasbourg MG: not found    km
+20:39:26 Altapura Val Thorens: citySearch HTTP 502: 
+20:39:26 Altapura: citySearch HTTP 502: 
+20:39:26 id Altapura: not found    km
+20:39:28 Lodji Hotel Saint-Martin-de-Belleville: citySearch HTTP 502: 
+20:39:28 Lodji Hotel: citySearch HTTP 502: 
+20:39:28 id Lodji Hotel: not found    km
+20:39:30 St-Alban Hotel & Spa La Clusaz: citySearch HTTP 502: 
+20:39:31 St-Alban Hotel & Spa: citySearch HTTP 502: 
+20:39:31 id St-Alban Hotel & Spa: not found    km
+20:39:33 Auberge du Pere Bise - Jean Sulpice Tall: citySearch HTTP 502: 
+20:39:33 Auberge du Pere Bise - Jean Sulpice: citySearch HTTP 502: 
+20:39:33 id Auberge du Pere Bise - Jean Sulpice: not found    km
+20:39:35 Hotel Chalet Mounier Les Deux Alpes: citySearch HTTP 502: 
+20:39:35 Hotel Chalet Mounier: citySearch HTTP 502: 
+20:39:35 id Hotel Chalet Mounier: not found    km
+20:39:37 TRIBE Lyon Croix Rousse Caluire-et-Cuire: citySearch HTTP 502: 
+20:39:37 TRIBE Lyon Croix Rousse: citySearch HTTP 502: 
+20:39:37 id TRIBE Lyon Croix Rousse: not found    km
+20:39:40 id Zrinka House: ok 2611085 Zrinka House 0.01 km
+20:39:42 Hyatt Regency Zadar Zadar: citySearch HTTP 502: 
+20:39:42 Hyatt Regency Zadar: citySearch HTTP 502: 
+20:39:42 id Hyatt Regency Zadar: not found    km
+20:39:44 Art Hotel Kalelarga Zadar: citySearch HTTP 502: 
+20:39:44 Art Hotel Kalelarga: citySearch HTTP 502: 
+20:39:44 id Art Hotel Kalelarga: not found    km
+20:39:47 Hotel Spongiola: citySearch HTTP 502: 
+20:39:47 id Hotel Spongiola: not found 23117575 Spongia Apartments and Suites  1198.49 km
+20:39:49 Hotel Plaza Duce Duce: citySearch HTTP 502: 
+20:39:50 Hotel Plaza Duce: citySearch HTTP 502: 
+20:39:50 id Hotel Plaza Duce: not found    km
+20:39:52 id Valamar Argosy Hotel: ok 60262 Valamar Argosy Hotel 0.1 km
+20:39:54 Wellness Hotel Katalin Gyenesdias: citySearch HTTP 502: 
+20:39:54 Wellness Hotel Katalin: citySearch HTTP 502: 
+20:39:54 id Wellness Hotel Katalin: not found    km
+20:39:56 Maison Bistro & Hotel Budapest II. kerue: citySearch HTTP 502: 
+20:39:57 Maison Bistro & Hotel: citySearch HTTP 502: 
+20:39:57 id Maison Bistro & Hotel: not found    km
+20:39:59 Hilton Budapest Budapest: citySearch HTTP 502: 
+20:39:59 Hilton Budapest: citySearch HTTP 502: 
+20:39:59 id Hilton Budapest: not found    km
+20:40:01 Leon Hotel & Lounge Budapest I. keruelet: citySearch HTTP 502: 
+20:40:02 Leon Hotel & Lounge: citySearch HTTP 502: 
+20:40:02 id Leon Hotel & Lounge: not found    km
+20:40:04 Hotel Vision Budapest Budapest I. keruel: citySearch HTTP 502: 
+20:40:04 Hotel Vision Budapest: citySearch HTTP 502: 
+20:40:04 id Hotel Vision Budapest: not found    km
+20:40:06 voco Budapest D8 by IHG Budapest: citySearch HTTP 502: 
+20:40:07 id voco Budapest D8 by IHG: ok 10257473 voco Budapest D8 by IHG 0.02 km
+20:40:09 agoda: {'ids_due': 150, 'ids_found': 59, 'ids_missed': 91, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 153, 'ids_coverage': '117/1500'}
