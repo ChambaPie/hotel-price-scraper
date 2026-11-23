@@ -1,0 +1,54 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/runner/work/hotel-price-scraper/hotel-price-scraper/hotel_scraper/suggest_probe.py", line 79, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/runner/work/hotel-price-scraper/hotel-price-scraper/hotel_scraper/suggest_probe.py", line 47, in main
+    box.click()
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 11045, in click
+    self._sync(
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 124, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/playwright/_impl/locator.py", line 222, in click
+    return await self._frame.click(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/playwright/_impl/frame.py", line 587, in click
+    return await self._channel.click(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/playwright/_impl/channel_owner.py", line 387, in finish
+    raise e from None
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/playwright/_impl/channel_owner.py", line 352, in finish
+    result = await zone.run_async(lambda: awaitable)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/playwright/_impl/utils/zones.py", line 58, in run_async
+    return await func()
+           ^^^^^^^^^^^^
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='search'], input[placeholder*='estination' i], input[placeholder*='where' i], input[placeholder*='dove' i], input[placeholder*='wohin' i], input[placeholder*='ziel' i], input[placeholder*='città' i], input[placeholder*='city' i], input[placeholder*='hotel' i], input[name*='dest' i], input[id*='dest' i], input[aria-label*='destination' i]").visible.first
+    - locator resolved to <input value="" required="" type="text" name="term" cmdk-input="" maxlength="100" role="combobox" id="radix-_r_1c_" autocorrect="off" autocomplete="off" spellcheck="false" aria-expanded="true" enterkeyhint="search" aria-autocomplete="list" data-slot="command-input" aria-controls="radix-_r_1a_" aria-labelledby="radix-_r_1b_" placeholder="Reiseziel eingeben" data-test-id-qa="search-destination-input" class="placeholder:text-dove-grey flex rounded-md bg-transparent py-3 outline-hidden disabled:cursor-no…/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="c24-strict-blocking-layer"></div> from <div id="wireframe-cookie-consent">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="c24-strict-blocking-layer"></div> from <div id="wireframe-cookie-consent">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="c24-strict-blocking-layer"></div> from <div id="wireframe-cookie-consent">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
