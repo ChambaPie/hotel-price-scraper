@@ -1,0 +1,20 @@
+14:24:45   overpass attempt 1 via overpass-api.de failed after 0s: <urlopen error [Errno 101] Network is unreachable>
+14:25:56   overpass attempt 1 via maps.mail.ru failed after 64s: HTTP Error 504: Gateway Time-out
+14:28:32   overpass attempt 1 via overpass.private.coffee failed after 150s: The read operation timed out
+14:28:38   overpass attempt 2 via overpass-api.de failed after 0s: <urlopen error [Errno 101] Network is unreachable>
+14:28:51   overpass attempt 2 via maps.mail.ru failed after 2s: HTTP Error 504: Gateway Time-out
+14:31:32   overpass attempt 2 via overpass.private.coffee failed after 150s: The read operation timed out
+14:31:44 batch of 25 near (38.54733, 14.827446): Overpass failed after 2 rounds: The read operation timed out
+14:31:44   overpass attempt 1 via overpass-api.de failed after 0s: <urlopen error [Errno 101] Network is unreachable>
+14:31:59   overpass attempt 1 via maps.mail.ru failed after 9s: HTTP Error 504: Gateway Time-out
+14:34:35   overpass attempt 1 via overpass.private.coffee failed after 150s: The read operation timed out
+14:34:41   overpass attempt 2 via overpass-api.de failed after 0s: <urlopen error [Errno 101] Network is unreachable>
+14:34:53   overpass attempt 2 via maps.mail.ru failed after 1s: HTTP Error 504: Gateway Time-out
+14:37:11   overpass attempt 2 via overpass.private.coffee failed after 126s: HTTP Error 504: Gateway Timeout
+14:37:23 batch of 25 near (40.84922, 14.258363): Overpass failed after 2 rounds: HTTP Error 504: Gateway Timeout
+## Type of place
+
+Processed 0 of 1500 due (2 batches failed); coverage 0/1500.
+
+Tags: 
+
