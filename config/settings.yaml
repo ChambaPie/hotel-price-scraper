@@ -62,6 +62,7 @@ paths:
   locations: data/locations.csv    # checked position of each watched hotel (the small store every run reuses)
   location_fixes: config/location_fixes.csv   # positions set by hand: pid,lat,lon,note (always win)
   official_sites: data/official_sites.csv   # official website and booking engine per watched hotel (seller probe)
+  hotel_vendors: data/hotel_vendors.csv   # who sells each watched hotel (Google Hotels' list of sellers; no prices)
   seller_ids: data/seller_ids.csv       # each watched hotel's id on each other seller (Agoda...), checked by name and place
   seller_prices: data/seller_prices.csv # other sellers' prices per hotel and night (published to branch seller-snapshots)
   agoda_state: data/agoda_state.json    # which nights each city had last (branch seller-snapshots)
@@ -164,6 +165,7 @@ ops:                         # Phase 8: daily health check (workflow file -> max
     osm.yml: 200
     places.yml: 30
     sellers.yml: 8
+    vendors.yml: 30
 
 catalog_changes:             # optional public issue listing new / gone properties after each catalog refresh
   issue: false
@@ -179,6 +181,21 @@ google_ratings:              # Google rating, number of reviews, class and ameni
   wait_ms: 2500
   pause_seconds: 2
   user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+google_vendors:              # who sells each watched hotel (owner, 2026-11-23: Google as the baseline for the list)
+  refresh_days: 30
+  retry_days: 7
+  max_per_run: 300
+  max_minutes: 20
+  offset_days: 30            # the night whose prices page is read (only the list of sellers is kept)
+  min_similarity: 0.72
+  wait_ms: 3000
+  pause_seconds: 2
+  samples_per_run: 4
+  known: [Official site, Booking.com, Expedia, Hotels.com, Agoda, Trip.com, Priceline, eDreams, Opodo, Vio.com, HRS,
+          Prestigia, Destinia, ZenHotels, Bookhotel.direct, lastminute.com, CHECK24]
+  aliases: {expedia.com: Expedia, "expedia.it": Expedia, agoda.com: Agoda, ctrip: Trip.com, tripcom: Trip.com,
+            "booking.com": Booking.com, "hotels.com": Hotels.com}
 
 places:                      # type of place around each watched property (filters: mountain spa, old town, ...)
   mountain_min_elevation_m: 800
