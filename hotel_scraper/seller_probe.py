@@ -315,8 +315,15 @@ def open_property(page, seen: list, spec: dict, base: Path, checkin: date, adult
     if not m:
         log("property page: no id in the address")
         return
-    url = spec["then_open"].format(id=m.group(1), checkin=checkin.isoformat(),
-                                   checkout=(checkin + timedelta(days=1)).isoformat(), adults=adults)
+    fill = dict(id=m.group(1), checkin=checkin.isoformat(), checkout=(checkin + timedelta(days=1)).isoformat(), adults=adults)
+    if spec["then_open"] == "{current}":      # the results page itself, for the probe's own night
+        from urllib.parse import parse_qsl, urlencode as _enc
+        parts = urlsplit(page.url)
+        q = dict(parse_qsl(parts.query, keep_blank_values=True))
+        q.update({k: v.format(**fill) for k, v in (spec.get("set_params") or {}).items()})
+        url = parts._replace(query=_enc(q)).geturl()
+    else:
+        url = spec["then_open"].format(**fill)
     seen.clear()
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=60000)
@@ -331,7 +338,8 @@ def open_property(page, seen: list, spec: dict, base: Path, checkin: date, adult
         page.screenshot(path=str(pb.with_suffix(".png")), full_page=True)
     except Exception:  # noqa: BLE001
         pass
-    n = save_json(seen, pb, sp["json_url_pattern"], sp["json_per_page"], name_words(w["name"]) + ["price"])
+    n = save_json(seen, pb, spec.get("json_url_pattern") or sp["json_url_pattern"], sp["json_per_page"],
+                  name_words(w["name"]) + ["price"])
     log(f"property page {page.url[:90]}: {title[:50]}, prices {len(PRICE.findall(text))}, json {n}")
 
 
