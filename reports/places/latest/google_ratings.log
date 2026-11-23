@@ -1,41 +1,140 @@
-15:46:44 Vitalhotel Edelweiss: - (-) sim 0.258, 2 cards
-15:46:53 Hotel Garni Frohnatur: - (-) sim 0.429, 18 cards
-15:47:02 Familienresort Buchau: 4.7 (838) sim 0.9, 17 cards
-15:47:13 Seehotel Einwaller: 4.6 (577) sim 1.0, 18 cards
-15:47:23 Sonnenhof Genusshotel & Appartements: 4.9 (416) sim 1.0, 18 cards
-15:47:31 Wellness & Kuschelhotel Winzer: - (-) sim 0.0, 0 cards
-15:47:40 Hotel Das Central: 4.7 (572) sim 0.9, 18 cards
-15:47:50 Bergland Design and Wellness Hotel Sölde: 4.7 (433) sim 0.75, 18 cards
-15:48:00 Hotel Schöne Aussicht: 4.8 (365) sim 1.0, 18 cards
-15:48:09 Posthotel Achenkirch: - (-) sim 0.484, 22 cards
-15:48:18 Hotel Kleissl: 4.9 (215) sim 0.833, 19 cards
-15:48:27 Reduce Hotel Vital: 4.5 (881) sim 0.9, 17 cards
-15:48:35 Naturhotel Waldklause: 4.9 (1100) sim 1.0, 20 cards
-15:48:44 Hotel Princess Bergfrieden: - (-) sim 0.087, 18 cards
-15:48:53 Hotel Klosterbräu & SPA: - (-) sim 0.133, 18 cards
-15:49:02 Hotel Central: - (-) sim 0.167, 19 cards
-15:49:11 Parkhotel Seefeld: - (-) sim 0.286, 19 cards
-15:49:20 Alpin Resort Sacher: - (-) sim 0.133, 19 cards
-15:49:29 Interalpen-Hotel Tyrol: - (-) sim 0.37, 2 cards
-15:49:38 Hotel Kristall - Adults Only: - (-) sim 0.0, 0 cards
-15:49:48 Hotel Quellenhof Leutasch: 4.8 (859) sim 1.0, 20 cards
-15:49:57 Posthotel Kassl: 4.7 (610) sim 1.0, 18 cards
-15:50:06 Hotel Ritzlerhof: 4.8 (523) sim 1.0, 18 cards
-15:50:16 Hotel Andy: 4.5 (227) sim 0.9, 18 cards
-15:50:25 Arabella Retreat & Spa: 4.9 (178) sim 1.0, 21 cards
-15:50:34 Alpine Resort Goies Superior: - (-) sim 0.0, 0 cards
-15:50:42 Romantik & Spa Alpen-herz: 4.9 (677) sim 1.0, 20 cards
-15:50:51 Hotel & Garni Das Kohle: 4.8 (172) sim 0.9, 18 cards
-15:50:59 Hotel Gebhard: 4.9 (250) sim 1.0, 19 cards
-15:51:08 Hotel Toalstock: - (-) sim 0.143, 1 cards
-15:51:17 Hotel Sonnenpark: - (-) sim 0.143, 20 cards
-15:51:26 Hotel Singer - Relais & Chateaux: 4.8 (391) sim 0.93, 18 cards
-15:51:35 Hotel Garni Martina: - (-) sim 0.235, 1 cards
-15:51:44 Hotel Olympia Ischgl: - (-) sim 0.111, 1 cards
-15:51:52 Hotel Post Ischgl: 4.6 (519) sim 1.0, 20 cards
-15:52:01 Hotel Sonne Ischgl: - (-) sim 0.667, 20 cards
-15:52:10 Hotel Gridlon Wellness am Arlberg: 4.9 (245) sim 0.9, 18 cards
-15:52:19 Alpinhotel Monte ***superior: - (-) sim 0.0, 0 cards
-15:52:28 Hotel Zur Pfeffermühle: - (-) sim 0.0, 0 cards
-15:52:37 Hotel Gletscherblick: - (-) sim 0.0, 0 cards
-15:52:39 google ratings: {'due': 250, 'checked': 40, 'found': 20, 'also_filled': 8, 'errors': 0, 'coverage': '63/1500'}
+17:07:48 Hotel Alpenland: 4.7 (43) sim 1.0, 18 cards
+17:07:57 Himmlhof: - (-) sim 0.5, 22 cards
+17:08:05 Arlen Lodge: - (-) sim 0.632, 18 cards
+17:08:15 m3Hotel: 4.8 (224) sim 0.9, 18 cards
+17:08:23 PETE Alpine Boutique Hotel: - (-) sim 0.435, 21 cards
+17:08:32 Der Waldhof: - (-) sim 0.211, 20 cards
+17:08:40 Hotel Tyrol am Haldensee: - (-) sim 0.312, 20 cards
+17:08:48 Hotel der Engel: - (-) sim 0.0, 0 cards
+17:08:56 Hotel Freigold ****Superior: - (-) sim 0.0, 0 cards
+17:09:05 Hotel Erzberg: 4.9 (49) sim 1.0, 17 cards
+17:09:14 Hotel Turmhof: - (-) sim 0.186, 22 cards
+17:09:23 Hotel Garni Schneider: - (-) sim 0.333, 21 cards
+17:09:31 Hotel Gotthard: - (-) sim 0.308, 21 cards
+17:09:40 Hotel Aurora: - (-) sim 0.364, 21 cards
+17:09:48 Hotel Jagdhaus Monzabon: - (-) sim 0.286, 21 cards
+17:09:57 Hotel Sandhof: - (-) sim 0.364, 22 cards
+17:10:05 Hotel Haldenhof: - (-) sim 0.421, 22 cards
+17:10:13 Hotel Auenhof: - (-) sim 0.353, 21 cards
+17:10:22 Burg Vital Resort: - (-) sim 0.429, 21 cards
+17:10:30 Hotel Mohnenfluh: - (-) sim 0.296, 20 cards
+17:10:39 Alpenhotel Heimspitze: - (-) sim 0.524, 18 cards
+17:10:48 Vila Vita Pannonia: 4.7 (967) sim 1.0, 19 cards
+17:10:56 Hotel Hirschen: 4.8 (291) sim 1.0, 20 cards
+17:11:04 Das Naturhotel Chesa Valisa: - (-) sim 0.0, 0 cards
+17:11:13 Hotel Erlebach: 4.6 (231) sim 0.9, 20 cards
+17:11:21 Löwen Hotel Montafon: - (-) sim 0.714, 21 cards
+17:11:31 INNs Holz: 4.4 (1300) sim 1.0, 20 cards
+17:11:39 Hyatt Regency Vienna: 4.6 (2000) sim 1.0, 18 cards
+17:11:48 Hotel Erzherzog Rainer: - (-) sim 0.258, 21 cards
+17:11:57 Hotel Altstadt Vienna: - (-) sim 0.412, 22 cards
+17:12:05 Hotel Kaiserhof Wien: - (-) sim 0.364, 20 cards
+17:12:14 Boutiquehotel Das Tyrol: - (-) sim 0.526, 18 cards
+17:12:23 Hotel Sans Souci Wien: - (-) sim 0.48, 21 cards
+17:12:32 Hotel Sacher Wien: - (-) sim 0.333, 21 cards
+17:12:41 Hotel Am Parkring: - (-) sim 0.244, 20 cards
+17:12:50 Boutique Hotel Am Stephansplatz: - (-) sim 0.286, 21 cards
+17:12:59 Park Hyatt Vienna: - (-) sim 0.478, 22 cards
+17:13:08 Boutique Hotel Spiess & Spiess: - (-) sim 0.32, 22 cards
+17:13:17 Buxbaum Boutique Hotel: - (-) sim 0.444, 18 cards
+17:13:26 The Harmonie Vienna, BW Premier Collecti: - (-) sim 0.453, 20 cards
+17:13:34 Hotel Capricorno: - (-) sim 0.182, 18 cards
+17:13:43 Hotel Stefanie: - (-) sim 0.4, 20 cards
+17:13:52 Henriette Stadthotel Vienna: 4.7 (1700) sim 1.0, 17 cards
+17:14:01 Zoku Vienna: - (-) sim 0.467, 22 cards
+17:14:10 Sonne Mellau: 4.6 (484) sim 0.9, 19 cards
+17:14:18 Villa Cardak: - (-) sim 0.0, 0 cards
+17:14:26 Hotel VIP: 4.5 (312) sim 1.0, 17 cards
+17:14:35 Chesa Staila Hotel B&B: 4.8 (58) sim 1.0, 17 cards
+17:14:43 Chalet-gafri Bnb - Frühstückspension: - (-) sim 0.44, 17 cards
+17:14:52 The Hayloft: - (-) sim 0.0, 0 cards
+17:15:00 Schlosshotel Chaste: 4.9 (280) sim 0.9, 18 cards
+17:15:09 Guarda Lodge: 4.9 (161) sim 1.0, 20 cards
+17:15:17 Hotel Garni Chesa Mulin: - (-) sim 0.462, 21 cards
+17:15:25 Hotel Chesa Rosatsch - Home of Food: - (-) sim 0.0, 0 cards
+17:15:34 Hotel Donatz: 4.7 (251) sim 1.0, 17 cards
+17:15:42 Cresta Palace Celerina: 4.8 (560) sim 0.9, 18 cards
+17:15:51 Carlton Hotel St. Moritz: - (-) sim 0.69, 18 cards
+17:16:00 Badrutt's Palace Hotel St.Moritz: - (-) sim 0.558, 22 cards
+17:16:09 Suvretta House: - (-) sim 0.333, 21 cards
+17:16:18 Hotel Giardino Mountain: 4.6 (249) sim 0.9, 21 cards
+17:16:26 Hotel Waldhaus: 4.8 (570) sim 0.9, 17 cards
+17:16:34 Parkhotel Margna: 4.8 (202) sim 1.0, 21 cards
+17:16:43 Waldhotel Davos for Body & Soul: 4.6 (278) sim 0.9, 18 cards
+17:16:52 Valsana Hotel Arosa: 4.7 (392) sim 1.0, 22 cards
+17:17:00 Hotel Hohe Promenade: - (-) sim 0.444, 21 cards
+17:17:09 BelArosa Hotel: 4.9 (209) sim 0.9, 16 cards
+17:17:18 Tschuggen Grand Hotel: - (-) sim 0.323, 22 cards
+17:17:26 Hotel Schweizerhof: 4.7 (1100) sim 0.9, 15 cards
+17:17:35 Hotel Lenzerhorn Spa & Wellness: - (-) sim 0.682, 18 cards
+17:17:44 Romantik Hotel Schweizerhof & Spa: - (-) sim 0.533, 20 cards
+17:17:52 7132 Hotel: 4.2 (251) sim 0.9, 21 cards
+17:18:01 Luganodante Boutique & Lifestyle Hotel: 4.8 (1300) sim 1.0, 22 cards
+17:18:10 Gasthaus Alpenblick: 4.8 (301) sim 1.0, 16 cards
+17:18:18 La Val Hotel & Spa: 4.7 (453) sim 1.0, 21 cards
+17:18:27 Smart-Hotel Minusio: 4.7 (203) sim 1.0, 16 cards
+17:18:35 Boutique-Hotel Remorino: 4.7 (199) sim 1.0, 19 cards
+17:18:44 Castello del Sole Beach Resort & SPA: - (-) sim 0.242, 19 cards
+17:18:52 Giardino Ascona: - (-) sim 0.267, 20 cards
+17:19:01 Einstein St. Gallen: 4.5 (1800) sim 0.9, 21 cards
+17:19:09 Hotel Eden Roc Ascona: - (-) sim 0.552, 20 cards
+17:19:17 Märchenhotel: - (-) sim 0.0, 0 cards
+17:19:25 Rivabella au Lac: 4.8 (160) sim 1.0, 21 cards
+17:19:33 The Chedi Andermatt: 4.6 (2800) sim 1.0, 21 cards
+17:19:42 Boutique Hotel Schlüssel: - (-) sim 0.364, 21 cards
+17:19:51 Park Hotel Vitznau: - (-) sim 0.273, 21 cards
+17:20:00 The Dolder Grand: - (-) sim 0.286, 22 cards
+17:20:08 The Onya Resort & Spa: 4.5 (154) sim 1.0, 20 cards
+17:20:17 Park Hyatt Zurich: 4.5 (2300) sim 1.0, 18 cards
+17:20:26 25hours Hotel Zurich Langstrasse: - (-) sim 0.421, 21 cards
+17:20:34 Art Deco Hotel Montana: - (-) sim 0.24, 20 cards
+17:20:43 Hotel Schweizerhof Luzern: 4.6 (2900) sim 1.0, 17 cards
+17:20:52 Hotel des Balances: - (-) sim 0.364, 19 cards
+17:21:00 Hotel Slalom: - (-) sim 0.0, 0 cards
+17:21:08 Hotel Waldhaus: - (-) sim 0.625, 18 cards
+17:21:18 Hotel Pilatus-Kulm: - (-) sim 0.303, 22 cards
+17:21:26 Wellness & Spa Pirmin Zurbriggen: - (-) sim 0.0, 0 cards
+17:21:34 Hotel Gletschergarten: - (-) sim 0.261, 20 cards
+17:21:43 Hotel Fiescherblick: - (-) sim 0.348, 22 cards
+17:21:51 Hotel Etoile: - (-) sim 0.462, 22 cards
+17:22:00 Hotel Allalin: - (-) sim 0.435, 21 cards
+17:22:08 Hotel Belvedere Grindelwald: 4.7 (1200) sim 0.769, 17 cards
+17:22:17 Hotel Alte Post Bonaduz: 4.7 (709) sim 1.0, 16 cards
+17:22:26 Hotel Gadi: 4.9 (268) sim 1.0, 16 cards
+17:22:35 Eiger Murren Swiss Quality Hotel: - (-) sim 0.629, 18 cards
+17:22:43 CERVO Mountain Resort: - (-) sim 0.444, 21 cards
+17:22:52 Christiania Mountain & Spa: - (-) sim 0.385, 22 cards
+17:23:01 Hotel Metropol & Spa Zermatt: - (-) sim 0.273, 21 cards
+17:23:10 Europe Hotel & Spa: - (-) sim 0.5, 21 cards
+17:23:18 BEAUSiTE Zermatt: - (-) sim 0.308, 22 cards
+17:23:27 Hotel Eden Wellness: - (-) sim 0.273, 21 cards
+17:23:36 Schloss  Zermatt: - (-) sim 0.316, 22 cards
+17:23:44 Hotel Bellerive: - (-) sim 0.375, 21 cards
+17:23:53 Hotel Chesa Valese: - (-) sim 0.273, 21 cards
+17:24:02 Panorama Ski Lodge: - (-) sim 0.516, 18 cards
+17:24:10 Hotel Firefly: - (-) sim 0.286, 21 cards
+17:24:20 Hotel Monte Rosa: - (-) sim 0.429, 20 cards
+17:24:28 Hotel Sonne: - (-) sim 0.4, 21 cards
+17:24:37 Silvana Mountain Hotel: - (-) sim 0.273, 20 cards
+17:24:45 Hotel Fassbind (Beausite) Beatenberg: - (-) sim 0.35, 21 cards
+17:24:54 Hotel Eden Spiez: - (-) sim 0.552, 21 cards
+17:25:03 Guarda Golf Hotel & Residences: - (-) sim 0.564, 20 cards
+17:25:12 LeCrans Hotel & Spa: - (-) sim 0.5, 18 cards
+17:25:20 Lenkerhof Gourmet Spa Resort: - (-) sim 0.303, 22 cards
+17:25:29 Lenk Lodge: - (-) sim 0.308, 20 cards
+17:25:38 Bellevue Palace: - (-) sim 0.375, 21 cards
+17:25:46 Hotel Savoy: - (-) sim 0.4, 21 cards
+17:25:55 Hotel Schweizerhof Bern & Spa: - (-) sim 0.462, 21 cards
+17:26:04 La Couronne Hotel: 4.7 (970) sim 0.9, 17 cards
+17:26:13 The Alpina Gstaad: 4.7 (604) sim 1.0, 20 cards
+17:26:21 Le Grand Bellevue: - (-) sim 0.353, 19 cards
+17:26:30 Ermitage Wellness- & Spa-hotel: - (-) sim 0.343, 21 cards
+17:26:38 Grand Hotel les Trois Rois: 4.7 (2000) sim 1.0, 20 cards
+17:26:47 Chalet RoyAlp Hotel & Spa: 4.7 (752) sim 1.0, 20 cards
+17:26:56 Hotel de l’Ours Preles: 4.9 (319) sim 1.0, 17 cards
+17:27:04 Grand Hôtel du Lac: 4.6 (1300) sim 1.0, 17 cards
+17:27:14 Hôtel des Trois Couronnes - The Leading : 4.6 (1000) sim 0.9, 18 cards
+17:27:22 Auberge de la Gare: - (-) sim 0.0, 0 cards
+17:27:31 Hôtel Angleterre: - (-) sim 0.429, 19 cards
+17:27:40 Ambassador Boutique Hotel: 4.6 (175) sim 1.0, 21 cards
+17:27:42 google ratings: {'due': 250, 'checked': 139, 'found': 46, 'also_filled': 15, 'errors': 0, 'coverage': '124/1500'}

@@ -1,0 +1,17 @@
+## Hotel positions
+
+Located 1500 of 1500 due; coverage 1500/1500. Status: confirmed 821, listing only 672, check 5, corrected 2. Source: osm 751, listing 677, photon 72. Photon searches 400 (0 failed).
+
+Moved furthest from the listed position:
+
+- Hotel Kral: 1.84 km (osm)
+- Salerno Centro Bed And Breakfast: 0.62 km (osm)
+
+Still in the water (sea side of the coastline, no better position found): 0
+
+To check (a same-name place elsewhere, not moved): 5
+- Hotel Salzburgerhof (ta:g608666-d291957): Salzburgerhof
+- Hotel Oberwirt (ta:g1194203-d2282791): Hotel Oberwirt
+- Alla Marina (ta:g187821-d2323647): Alla Marina
+- Castel Sant'Angelo Inn (ta:g187791-d3478675): Castel Sant’Angelo
+- Naplesuite (ta:g187785-d14003708): Napoli Suite
