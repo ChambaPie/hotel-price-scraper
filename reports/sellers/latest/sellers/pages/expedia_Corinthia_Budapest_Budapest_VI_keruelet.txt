@@ -1,8 +1,0 @@
-#URL https://www.expedia.it/Hotel-Search?destination=Corinthia%20Budapest%20Budapest%20VI.%20keruelet&startDate=2026-12-14&endDate=2026-12-15&adults=2&rooms=1
-#FINAL https://www.expedia.it/Hotel-Search?destination=Corinthia%20Budapest%20Budapest%20VI.%20keruelet&startDate=2026-12-14&endDate=2026-12-15&adults=2&rooms=1
-#TITLE Sei un robot?
-Mostraci il tuo lato umano...
-
-Non siamo sicuri se sei un essere umano o un robot.
-
-72e40017-95dc-4200-b061-cd291c25846b

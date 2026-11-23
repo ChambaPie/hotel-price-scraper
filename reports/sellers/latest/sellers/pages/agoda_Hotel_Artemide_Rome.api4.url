@@ -1,2 +1,0 @@
-POST https://www.agoda.com/api/cronos/home/GetTopDestinations
-{"languageId":16,"origin":"US","cultureCode":"en-gb","limit":20,"requestType":"Domestic"}
