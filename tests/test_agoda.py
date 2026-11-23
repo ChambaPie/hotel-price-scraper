@@ -92,9 +92,19 @@ def test_merge_keeps_latest_and_drops_past():
     assert agoda.merge_prices(old, new, date(2026, 11, 24)) == [{"pid": "a", "night": "2026-12-01", "price": "3"}]
 
 
+def test_suggestions_from_a_real_answer():
+    doc = json.loads((FX / "agoda_suggest_rastbichlhof_2026-11.json").read_text())
+    assert agoda.suggestions(doc) == [{"id": 231902, "name": "Biohotel Rastbichlhof", "city_id": 70626,
+                                        "where": "Neustift im Stubaital, Austria"}]   # the free-text line is not a hotel
+
+
 class FakePage:
     def __init__(self):
-        self.template, self.searches, self.calls = None, [], []
+        self.template, self.searches, self.calls, self.suggested = None, [], [], []
+
+    def suggest(self, q):
+        self.suggested.append(q)
+        return [{"id": 1081, "name": "Hotel Artemide", "city_id": 16594, "where": "Rome"}] if "Artemide" in q else []
 
     def search(self, q):
         self.searches.append(q)
@@ -120,6 +130,8 @@ def test_run_finds_ids_then_prices_nights(tmp_path):
     page = FakePage()
     res = agoda.run(cfg, "all", 5, page, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
     assert res["ids_found"] == 1 and res["ids_missed"] == 1 and res["ids_coverage"] == "1/2"
+    # the first hotel through the search box (gives the request to repeat), the next through suggestions
+    assert page.searches[0] == "Hotel Artemide Rome" and page.suggested == ["Unknown Inn Nowhere", "Unknown Inn"]
     assert len(page.calls) == 4 and {c[2] for c in page.calls} == {(1081,)} and page.calls[0][0] == 16594
     rows = list(csv.DictReader(open(cfg["paths"]["seller_prices"])))
     assert len(rows) == 4 and rows[0]["seller"] == "agoda" and rows[0]["price"] == "188.05" and rows[0]["available"] == "yes"

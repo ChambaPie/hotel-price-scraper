@@ -1,8 +1,8 @@
 """Agoda: each watched hotel's own price on Agoda (settings: agoda). Owner, 2026-11-23: every seller that sells the room
 itself counts, not only Booking.com.
 
-    ids     once per hotel: Agoda's own search box finds it (the results page then pins it first, with its Agoda id,
-            city and position); kept in data/seller_ids.csv and checked by name and distance
+    ids     once per hotel: Agoda's own search-box suggestions (what the box asks while you type) give candidates, each
+            checked by name and place through a city search with it pinned; kept in data/seller_ids.csv
     prices  Agoda's city search (the call its results page makes) asked again from inside the page for one city and one
             night, with every watched hotel of that city pinned: one call prices all of them. Nights rotate through the
             next 24 months, a few per city per pass. Rows go to seller_prices.csv (snapshots branch).
@@ -123,7 +123,7 @@ class AgodaPage:
         self.page = self.ctx.new_page()
         self.seen: list = []
         self.page.on("response", lambda r: self.seen.append(r))
-        self.template, self.endpoint, self.headers = None, "", {}
+        self.template, self.endpoint, self.headers, self.failed_saved = None, "", {}, False
 
     def close(self):
         self.br.close()
@@ -150,6 +150,15 @@ class AgodaPage:
                 continue
         return self.page.url, props
 
+    def suggest(self, query: str) -> list[dict]:
+        """Agoda's own search-box suggestions for the text (what the box asks while you type)."""
+        url = self.ac["suggest_url"].format(q=quote(query))
+        status, text = self.page.evaluate("""async (url) => {
+            const r = await fetch(url, {credentials: 'include'}); return [r.status, await r.text()]; }""", url)
+        if status != 200:
+            raise RuntimeError(f"suggest HTTP {status}")
+        return suggestions(json.loads(text))
+
     def city_prices(self, city_id: int, night: date, hotel_ids: list[int], adults: int) -> list[dict]:
         if self.template is None:
             raise RuntimeError("no citySearch request seen yet")
@@ -158,7 +167,13 @@ class AgodaPage:
             const r = await fetch(url, {method: 'POST', body, headers, credentials: 'include'});
             return [r.status, await r.text()]; }""", [self.endpoint, json.dumps(body), self.headers])
         if status != 200:
-            raise RuntimeError(f"citySearch HTTP {status}: {text[:120]}")
+            if not self.failed_saved:          # keep one failing request and answer to see what Agoda refused
+                out = Path(self.ac.get("debug_dir", "out"))
+                out.mkdir(parents=True, exist_ok=True)
+                (out / "agoda_failed_request.json").write_text(json.dumps({"status": status, "answer": text[:5000],
+                                                                          "body": body}, indent=1), encoding="utf-8")
+                self.failed_saved = True
+            raise RuntimeError(f"citySearch HTTP {status}: {text[:600]}")
         return properties(json.loads(text))
 
 
@@ -170,7 +185,26 @@ def match(w: dict, url: str, props: list[dict], ac: dict) -> dict | None:
     if not m:
         return None
     p = next((x for x in props if str(x["id"]) == m.group(1)), None)
-    if not p or p["lat"] is None:
+    return judge(w, p, ac) if p else None
+
+
+def suggestions(doc: dict) -> list[dict]:
+    """Hotels in Agoda's search-box suggestions (GetUnifiedSuggestResult): [{id, name, city_id, where}]."""
+    out, seen = [], set()
+    for v in doc.get("ViewModelList") or []:
+        dn = v.get("DisplayNames") or {}
+        is_hotel = v.get("PageTypeId") == 103 or dn.get("CategoryName") == "Property" or v.get("IsHotel")
+        if not is_hotel or not v.get("ObjectId") or not v.get("CityId") or v["ObjectId"] in seen:
+            continue
+        seen.add(v["ObjectId"])
+        out.append({"id": v["ObjectId"], "name": dn.get("Name") or v.get("Name") or "", "city_id": v["CityId"],
+                    "where": dn.get("GeoHierarchyName") or v.get("CityName") or ""})
+    return out
+
+
+def judge(w: dict, p: dict, ac: dict) -> dict | None:
+    """Agoda's hotel p is our watched hotel w when its name and place agree (settings: max_km, near_km...)."""
+    if not p or p.get("lat") is None:
         return None
     km = geo.haversine_km(float(w["lat"]), float(w["lon"]), float(p["lat"]), float(p["lon"]))
     sim = similarity(w["name"], p["name"])
@@ -185,6 +219,34 @@ def contains(a: str, b: str) -> bool:
     na, nb = _norm_name(a), _norm_name(b)
     short, long_ = sorted((na, nb), key=len)
     return len(short) >= 5 and short in long_
+
+
+def find_id(page, w: dict, ac: dict, today: date, adults: int, stats: dict, log=log) -> dict | None:
+    """Agoda's id for a watched hotel: its search-box suggestions (name and town, then the name alone), each candidate
+    checked by name and place through a city search with it pinned; the search box itself until the page has the
+    city-search request to repeat. Returns the best judged candidate (ok or not) or None."""
+    best = None
+    for tpl in ac["queries"]:
+        q = tpl.format(name=w["name"], city=w.get("city", "")).strip()
+        try:
+            if page.template is None:           # the first search also gives the request to repeat
+                url, props = page.search(q)
+                m = match(w, url, props, ac)
+                if m and m["ok"]:
+                    return m
+                best = best or m
+                continue
+            for c in page.suggest(q)[: ac["suggestions_checked"]]:
+                props = page.city_prices(int(c["city_id"]), today + timedelta(days=ac["verify_offset_days"]), [int(c["id"])], adults)
+                m = judge(w, next((x for x in props if str(x["id"]) == str(c["id"])), None), ac)
+                if m and m["ok"]:
+                    return m
+                if m and (best is None or m["km"] < best["km"]):
+                    best = m
+        except Exception as e:  # noqa: BLE001
+            stats["errors"] += 1
+            log(f"{q[:40]}: {str(e)[:100]}")
+    return best
 
 
 def ids_due(watch: list[dict], known: dict, today: date, ac: dict) -> list[dict]:
@@ -266,18 +328,7 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
         for w in todo:
             if clock() - started > budget:
                 break
-            m = None
-            for tpl in ac["queries"]:          # name and town first; the name alone if Agoda pinned nothing
-                q = tpl.format(name=w["name"], city=w.get("city", "")).strip()
-                try:
-                    url, props = page.search(q)
-                    m = match(w, url, props, ac)
-                except Exception as e:  # noqa: BLE001
-                    stats["errors"] += 1
-                    log(f"{q[:40]}: {str(e)[:100]}")
-                    m = None
-                if m is not None:
-                    break
+            m = find_id(page, w, ac, today, cfg["scan"]["adults"], stats, log)
             if m and m["ok"]:
                 stats["ids_found"] += 1
                 known[w["pid"]] = {"pid": w["pid"], "seller": SELLER, "seller_id": m["id"], "city_id": m["city_id"],

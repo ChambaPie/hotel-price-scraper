@@ -396,7 +396,10 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   near_km: 1.0               # ...or within near_km with a looser name match (names differ between sites)
   min_similarity_near: 0.5
   same_place_km: 0.15        # ...or practically the same spot with one name inside the other ("Hotel Gesser Sillian ...")
-  queries: ["{name} {city}", "{name}"]   # the name alone when Agoda pins nothing for name and town
+  queries: ["{name} {city}", "{name}"]   # the name alone when name and town find nothing
+  suggest_url: "/api/cronos/search/GetUnifiedSuggestResult/3/16/1/0/en-gb/?searchText={q}&origin=US&cid=-1&pageTypeId=1&logTypeId=1&isHotelLandSearch=true&lastSearchedCity=0"
+  suggestions_checked: 3     # hotel suggestions checked by name and place per query
+  verify_offset_days: 30     # the night used for that check (any night: only name and place matter)
   retry_days: 30             # a hotel not found is searched again after this
   ids_per_run: 150          # per id job (the workflow runs several in parallel until every hotel has been looked up)
   id_jobs: 3                 # parallel id jobs; must match the loop in .github/workflows/sellers.yml
