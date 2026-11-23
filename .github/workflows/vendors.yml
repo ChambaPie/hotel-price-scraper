@@ -6,7 +6,7 @@ name: Vendors per hotel
 # vendor readers come next (owner, 2026-11-23: every vendor that sells the room itself).
 on:
   schedule:
-    - cron: "47 11 * * *"   # daily
+    - cron: "47 5,11,17,23 * * *"   # 4 a day until every hotel has been looked up (public repo: free minutes)
   workflow_dispatch:
     inputs:
       minutes:

@@ -47,3 +47,33 @@ def test_run_rolls_and_counts(tmp_path):
     assert rows["a"]["website"] == "https://www.palazzobaj.com/" and rows["b"]["status"] == "not found"
     assert gv.run(cfg, 5, lambda w: pages[w["name"]], today=date(2026, 11, 25), log=lambda m: None,
                   sleep=lambda s: None)["due"] == 0
+
+
+def test_fewer_options_button_is_not_a_vendor():
+    """Regression (run 45271962537): once the list is opened up, its "Fewer options" button was counted as a vendor."""
+    text = (FX / "google_hotels_prices_palazzo_baj_2026-11.txt").read_text(encoding="utf-8")
+    text = text.replace("* \nThis price was customised", "Fewer options\n* \nThis price was customised")
+    vendors, _ = gv.vendors_from_text(text, CFG["google_vendors"]["known"])
+    assert "Fewer options" not in vendors and "Bluepillow.com" in vendors
+
+
+def test_no_sellers_that_night_tries_other_nights(tmp_path):
+    """Run 45271962537: most small hotels showed no sellers for the night asked ("availability for a 3-night stay",
+    Haus Patricia); similar hotels' sellers on that page are not this hotel's."""
+    miss = (FX / "google_hotels_prices_no_vendors_3night_2026-11.txt").read_text(encoding="utf-8")
+    assert gv.vendors_from_text(miss, CFG["google_vendors"]["known"]) == ([], False)
+    cfg = config.load()
+    for k in ("watchlist", "hotel_vendors"):
+        cfg["paths"][k] = str(tmp_path / f"{k}.csv")
+    with open(cfg["paths"]["watchlist"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "name", "city", "gone_since"])
+        w.writeheader()
+        w.writerow({"pid": "p", "name": "Haus Patricia", "city": "Lofer", "gone_since": ""})
+    text = (FX / "google_hotels_prices_palazzo_baj_2026-11.txt").read_text(encoding="utf-8")
+    asked = []
+
+    def open_fn(w, off=None):
+        asked.append(off)
+        return (miss if off is None else text), "Haus Patricia", "https://www.google.com/travel/hotels/entity/p", ""
+    res = gv.run(cfg, 5, open_fn, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+    assert asked == [None, CFG["google_vendors"]["retry_offsets_days"][0]] and res["coverage"] == "1/1"

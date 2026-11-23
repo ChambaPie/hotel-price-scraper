@@ -186,8 +186,9 @@ google_vendors:              # who sells each watched hotel (owner, 2026-11-23: 
   refresh_days: 30
   retry_days: 7
   max_per_run: 300
-  max_minutes: 20
+  max_minutes: 45
   offset_days: 30            # the night whose prices page is read (only the list of sellers is kept)
+  retry_offsets_days: [75, 150]   # no sellers that night (run 45271962537: 160 of 181): try these nights too
   min_similarity: 0.72
   wait_ms: 3000
   pause_seconds: 2
