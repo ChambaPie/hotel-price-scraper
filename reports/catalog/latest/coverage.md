@@ -1,4 +1,4 @@
-## Coverage: 3928 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3924 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -11,12 +11,12 @@
 | Nice | FR | 11 |
 | Scena | IT | 11 |
 | Katowice | PL | 9 |
+| Seefeld in Tirol | AT | 8 |
 | Wien | AT | 8 |
 | Ancona | IT | 8 |
 | Tivat | ME | 8 |
 | Zakopane | PL | 8 |
 | Timișoara | RO | 8 |
-| Seefeld in Tirol | AT | 7 |
 | Banja Luka | BA | 7 |
 | Lido di Iesolo | IT | 7 |
 | Brescia | IT | 7 |
