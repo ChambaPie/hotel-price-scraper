@@ -223,8 +223,11 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       browser: &person {headed: true, channel: chrome, native_user_agent: true, timezone: Europe/Rome, locale: en-GB,
                         accept_language: "en-GB,en;q=0.9,it;q=0.8", human: true, pause_seconds: 12, wait_check_s: 45,
                         warm_up: "https://www.hotels.com/"}
-    expedia:
-      search: "https://www.expedia.it/Hotel-Search?destination={q}&startDate={checkin}&endDate={checkout}&adults={adults}&rooms=1"
+    expedia:                 # deep links to the search are refused even in that browser: use the home page's search box
+      home: "https://www.expedia.it/"
+      input: "[data-stid='destination_form_field-menu-trigger'], input#destination_form_field, button[aria-label*='Dove'], button[aria-label*='Where']"
+      suggestion: "[data-stid='destination_form_field-result-item-button'], [data-stid*='result-item'] button, [role='option']"
+      search: "button#search_button, [data-testid='submit-button'], button[type='submit']"
       browser: {<<: *person, warm_up: "https://www.expedia.it/"}
     agoda:                   # the search address alone opens the home page (2026-11-23): use the search box
       home: "https://www.agoda.com/en-gb/"

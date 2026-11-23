@@ -240,8 +240,12 @@ def search_box(page, spec: dict, query: str, wait_ms: int) -> str:
     if not box.count():
         return "search box not found"
     box.click()
-    box.fill("")
-    box.type(query, delay=60)
+    page.wait_for_timeout(800)
+    if box.evaluate("e => ['INPUT', 'TEXTAREA'].includes(e.tagName)"):
+        box.fill("")
+        box.type(query, delay=60)
+    else:                                   # a button that opens the real search field: type where the focus went
+        page.keyboard.type(query, delay=60)
     page.wait_for_timeout(3000)
     sug = page.locator(spec["suggestion"] + " >> visible=true")
     if sug.count():
