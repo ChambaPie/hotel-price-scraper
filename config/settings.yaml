@@ -61,6 +61,7 @@ paths:
   places: data/places.csv          # type of place around each watched property (old town, vineyards, ...)
   locations: data/locations.csv    # checked position of each watched hotel (the small store every run reuses)
   location_fixes: config/location_fixes.csv   # positions set by hand: pid,lat,lon,note (always win)
+  official_sites: data/official_sites.csv   # official website and booking engine per watched hotel (seller probe)
   tile_state: data/tile_state.json   # when each map tile was last refreshed
   selection: config/selection.yaml
   include: config/include.txt
@@ -245,6 +246,13 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
   not_engines: ["booking.com", "expedia", "hotels.com", "agoda", "trip.com", "tripadvisor", "trivago", "holidaycheck",
                 "facebook", "instagram", "google", "youtube", "linkedin", "twitter", "pinterest", "airbnb",
                 "opentable", "sevenrooms", "aleno", "tably", "volvocars"]   # restaurant tables, not rooms
+  engine_pages:              # part engine_pages: a few hotels' booking-engine pages per engine, to build readers
+    engines: [simplebooking, seekda, synxis, d_edge, vertical_booking, bookingexpert, hotelnetsolutions, blastness]
+    per_engine: 2
+    wait_ms: 10000
+    json_words: ["price", "rate", "amount", "total"]
+    urls:                    # one night's page where the address pattern is known; else the hotel's booking link
+      simplebooking: "https://www.simplebooking.it/ibe2/hotel/{hotel_id}?lang=EN&cur=EUR&in={checkin}&out={checkout}&guests=A,A"
   engines:                   # booking engine -> patterns in the page (links, scripts); the first match wins
     simplebooking: ["simplebooking\\.(?:it|travel)"]
     vertical_booking: ["vertical-?booking"]

@@ -73,3 +73,14 @@ def test_http_body_cut_off_midway_is_a_failed_response_not_a_crash(monkeypatch):
 def test_bot_walls_seen_on_github():
     """Expedia answered 429 'Sei un robot?' and Hotels.com refused the connection (2026-11-23 probe)."""
     assert sp.page_facts("Mostraci il tuo lato umano...", "Sei un robot?", "X", CFG["seller_probe"]["block_phrases"])["blocked"]
+
+
+def test_engine_url_from_the_booking_link_or_the_link_itself():
+    from datetime import date
+    tpl = CFG["seller_probe"]["engine_pages"]["urls"]["simplebooking"]
+    row = {"booking_link": "https://www.simplebooking.it/ibe2/hotel/5715?lang=DE&amp;cur=CHF", "website": "https://margna.ch"}
+    u = sp.engine_url(row, tpl, date(2026, 12, 14), 2)
+    assert u.startswith("https://www.simplebooking.it/ibe2/hotel/5715?") and "in=2026-12-14" in u and "out=2026-12-15" in u
+    assert sp.engine_url({"booking_link": "https://be.synxis.com/?hotel=22859&amp;adult=2"}, None, date(2026, 12, 14), 2) \
+        == "https://be.synxis.com/?hotel=22859&adult=2"
+    assert sp.engine_url({"booking_link": "", "website": "https://x.at"}, tpl, date(2026, 12, 14), 2) == "https://x.at"

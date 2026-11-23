@@ -1,0 +1,580 @@
+pid,name,country,website,status,engine,evidence,booking_link,booking_host,pages,checked_at
+ta:g1009332-d1802173,Wellness Hotel Chopok,SK,https://www.hotelchopok.sk/,200,,,https://www.hotelchopok.sk/pobyty/zimny-pobyt/,hotelchopok.sk,2,2026-11-23T16:12:00Z
+ta:g1010307-d1458505,Erlebnisort Gassenhof,IT,https://www.gassenhof.com/,200,,,https://www.gassenhof.com/lieblingszimmer/buchen,gassenhof.com,3,2026-11-23T16:12:00Z
+ta:g1010803-d23160688,Karls Hotel,DE,https://karlshotel.de/,200,dirs21,dirs21,,,1,2026-11-23T16:12:00Z
+ta:g1020227-d565391,Family Hotel Gran Baita,IT,https://www.familyhotelgranbaita.it/,200,,,https://be.bookingexpert.it/book/simple/step2?checkin=1677798000000&checkout=1677884400000&hotel=18075&guesttypes[0][20463]=2&ages[0][20463]=18&ages[0][20463]=18&layout=15437&lang=it&currency=EUR&_ga=2.235319489.1974854652.1677683645-1858624583.1677683645&nsid=f78ac5a4-bcda-4824-b3fc-a0ff2ec6f303&wi,be.bookingexpert.it,2,2026-11-23T16:12:00Z
+ta:g1025600-d290126,Wellness & Spa Pirmin Zurbriggen,CH,https://www.wellnesshotel-zurbriggen.ch/en/,200,,,https://www.wellnesshotel-zurbriggen.ch/en/rooms-prices/room-availability/,wellnesshotel-zurbriggen.ch,3,2026-11-23T16:12:00Z
+ta:g1055468-d1584454,Hotel-Restaurant Grimmingblick,AT,https://www.hotelgrimmingblick.at/,200,casablanca,casablanca.at,https://www.hotelgrimmingblick.at/de/kontakt/kontakt.php,hotelgrimmingblick.at,2,2026-11-23T16:12:00Z
+ta:g1056049-d1006824,Adler Inn Tyrol Mountain Resort Superior,AT,https://www.adlerinn.com/,200,seekda,seekda,https://adlerinn.officialbookings.com?skd-language-code=de&amp;source=navigation,adlerinn.officialbookings.com,2,2026-11-23T16:12:00Z
+ta:g1056049-d1145033,Hotel Alpenhof,AT,https://www.alpenhof.at,200,seekda,seekda,https://booking.alpenhof.at/,booking.alpenhof.at,2,2026-11-23T16:12:00Z
+ta:g1056778-d260107,Das Achental,DE,http://www.golf-resort-achental.com/,503,,,,,1,2026-11-23T16:12:00Z
+ta:g1059870-d1449328,Hotel Terentnerhof,IT,https://www.terentnerhof.com/,200,,,https://www.terentnerhof.com/anfrageformular/,terentnerhof.com,3,2026-11-23T16:12:00Z
+ta:g1063626-d202631,Schlosshotel Kronberg,DE,http://www.schlosshotel-kronberg.de/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g1069848-d783916,Hotel Spongiola,HR,https://spongiola.com/,200,,,https://spongiola.com/rezerviraj/,spongiola.com,3,2026-11-23T16:12:00Z
+ta:g1071604-d26657180,Hotel Freigold ****Superior,AT,https://www.hotel-freigold.at/,200,casablanca,casablanca.at,https://www.hotel-freigold.at/aufenthalt/buchen-anfragen-1/,hotel-freigold.at,2,2026-11-23T16:12:00Z
+ta:g1077176-d10637353,Hotel Peteani,HR,https://hotel-peteani.hr/,200,,,https://hotel-peteani.hr/index.php?p=book,hotel-peteani.hr,2,2026-11-23T16:12:00Z
+ta:g1078285-d1458270,Hotel Hanswirt,IT,https://www.hanswirt.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g1078285-d1476614,Design Hotel Tyrol,IT,https://www.tyrol-hotel.it/,error: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1011),,,,,1,2026-11-23T16:12:00Z
+ta:g1078285-d2651853,Mair Am Ort Living Hotel B&B,IT,https://www.mairamort.it/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g1078285-d3947516,Hotel Niedermair,IT,https://www.hotel-niedermair.com/,200,,,https://hotel-niedermair-com.zimres.com/booking?cd=137841&id=7UAsmxiv&lang=en,hotel-niedermair-com.zimres.com,2,2026-11-23T16:12:00Z
+ta:g1079897-d2072897,Schloss Plars Wine & Suites,IT,https://www.schlossplars.com/,200,,,https://www.schlossplars.com/en/booking/,schlossplars.com,2,2026-11-23T16:12:00Z
+ta:g1079897-d2092815,Hotel Avidea,IT,https://www.hotel-avidea.com/,200,,,https://www.hotel-avidea.com/en/booking/,hotel-avidea.com,3,2026-11-23T16:12:00Z
+ta:g1079897-d667643,Hotel Wiesenhof,IT,https://www.wiesenhof.com/,200,,,https://booking.wiesenhof.com/booking?cd=137870&amp;id=EApQOAv6&amp;lang=en&amp;utm_source=www.wiesenhof.com&amp;utm_medium=direct&amp;utm_campaign=Homepage&amp;utm_bookingChannel=Webseite&amp;flex=0&amp;lm=true,booking.wiesenhof.com,3,2026-11-23T16:12:00Z
+ta:g1081114-d1091478,Ferien- & Wellness Hotel Windschar,IT,https://www.windschar.com/,200,,,https://booking.windschar.com/de,booking.windschar.com,3,2026-11-23T16:12:00Z
+ta:g1081261-d1876757,Hotel Kronblick,IT,https://www.kronhotels.com/,200,,,https://secure.iperbooking.net/be/en/kronblick/?canale=,secure.iperbooking.net,2,2026-11-23T16:12:00Z
+ta:g1081261-d2027180,Leitgam,IT,https://www.kronhotels.com/leitgam/,404,,,,,1,2026-11-23T16:12:00Z
+ta:g1095214-d1187860,Kristiania Pure Nature Hotel & Spa,IT,https://www.hotelkristiania.it/,200,,,https://booking.hotelkristiania.it/book/home/single?layout=15054&lang=it&currency=EUR,booking.hotelkristiania.it,3,2026-11-23T16:12:00Z
+ta:g1095838-d1863488,COMO Alpina Dolomites,IT,https://www.alpinadolomites.it/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g1095838-d6708917,ADLER Alpe,IT,https://www.adler-lodge.com/,error: [Errno 104] Connection reset by peer,,,,,1,2026-11-23T16:12:00Z
+ta:g1101280-d1730915,Hotel Stadler,AT,https://www.seegasthof-stadler.at,200,,,https://app.tably.at/api-widget/reservation/7osFB9eKmC,app.tably.at,3,2026-11-23T16:12:00Z
+ta:g1115025-d288749,Hotel Singer - Relais & Chateaux,AT,https://www.hotelsinger.com/en,200,,,,,1,2026-11-23T16:12:00Z
+ta:g1118194-d4875759,L'Aiguille Grive Chalets Hotel,FR,https://www.hotelaiguillegrive.com/fr,200,d_edge,secure-hotel-booking.com,https://www.hotelaiguillegrive.com/fr/booking/external,hotelaiguillegrive.com,1,2026-11-23T16:12:00Z
+ta:g1147559-d563683,Cyprianerhof Dolomit Resort,IT,https://www.cyprianerhof.com,200,seekda,seekda,https://booking.cyprianerhof.com/?skd-language-code=en,booking.cyprianerhof.com,2,2026-11-23T16:12:00Z
+ta:g1156007-d1195050,Hotel Salzburger Hof Zauchensee,AT,https://www.zauchenseehof.com,200,,,https://www.zauchenseehof.com/unverbindliche-anfrage,zauchenseehof.com,3,2026-11-23T16:12:00Z
+ta:g1156007-d1930694,Hotel Alpenhof,AT,https://www.zauchenseehof.com,200,,,https://www.zauchenseehof.com/unverbindliche-anfrage,zauchenseehof.com,3,2026-11-23T16:12:00Z
+ta:g1158641-d26241996,TRIBE Lyon Croix Rousse,FR,https://all.accor.com/hotel/B9R3/index.fr.shtml,200,,,https://all.accor.com/best-price-guarantee/index.fr.shtml,all.accor.com,3,2026-11-23T16:12:00Z
+ta:g1160467-d2476062,Boutique hotel RADUN,CZ,https://www.hotelradun.cz/,200,,,https://www.hotelradun.cz/rezervovat-pobyt/,hotelradun.cz,2,2026-11-23T16:12:00Z
+ta:g1164730-d938946,Family & Sport Resort Brennseehof,AT,http://www.brennseehof.com,200,,,https://at_kh_0027.officialbookings.com/,at_kh_0027.officialbookings.com,3,2026-11-23T16:12:00Z
+ta:g1165314-d289073,Interalpen-Hotel Tyrol,AT,https://www.interalpen.com/,200,,,https://www.interalpen.com/zimmer-suiten/anfrage/,interalpen.com,3,2026-11-23T16:12:00Z
+ta:g1169453-d483103,Kolfuschgerhof Mountain Resort,IT,https://www.kolfuschgerhof.com/,200,,,https://www.kolfuschgerhof.com/en/booking.asp,kolfuschgerhof.com,2,2026-11-23T16:12:00Z
+ta:g1169453-d776546,Mountain Hotel Mezdì,IT,https://www.mezdi.it/de/hotel-in-alta-badia.html,200,,,https://www.mezdi.it/de/zimmer-suiten/anfragen-buchen.html,mezdi.it,3,2026-11-23T16:12:00Z
+ta:g1171460-d1810072,Alpine Resort Goies Superior,AT,https://www.goies.at/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g1171611-d1182300,Hotel Sonnenpark,AT,https://www.sonnenpark.at/,200,seekda,seekda,https://booking.sonnenpark.at/,booking.sonnenpark.at,2,2026-11-23T16:12:00Z
+ta:g1172212-d3807287,Das Naturhotel Chesa Valisa,AT,https://www.naturhotel.at/,200,hotelnetsolutions,hotelnetsolutions,https://www.naturhotel.at/buchen/?lang=de,naturhotel.at,3,2026-11-23T16:12:00Z
+ta:g1179370-d1866591,Ratschingserhof,IT,https://www.ratschingserhof.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g1182946-d314585,Bad Ratzes,IT,https://www.badratzes.it/,200,,,https://www.badratzes.it/en/booking/,badratzes.it,2,2026-11-23T16:12:00Z
+ta:g1182982-d1532015,Hotel Edelweiss,IT,https://www.hotel-edelweiss.it/,200,,,https://www.hotel-edelweiss.it/en/rooms/last-minute-bookings.html,hotel-edelweiss.it,3,2026-11-23T16:12:00Z
+ta:g1183481-d1740798,Kontakt Wellness Hotel,SK,https://www.hotelkontakt.sk/,200,profitroom,profitroom,https://booking.profitroom.com/sk/kontaktwellnesshotel/,booking.profitroom.com,1,2026-11-23T16:12:00Z
+ta:g1183708-d1189951,Hotel Ritzlerhof,AT,https://www.ritzlerhof.at/,200,,,https://www.ritzlerhof.at/de/zimmer-angebote/anfragen/,ritzlerhof.at,3,2026-11-23T16:12:00Z
+ta:g1183879-d1830966,Hotel Executive La Fiorita,IT,https://www.executivelafiorita.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/portal?pid=107&tid=77&lang=IT,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g1185111-d2275555,Hotel Girlanerhof,IT,https://www.girlanerhof.it/,200,,,https://www.girlanerhof.it/anfragen,girlanerhof.it,3,2026-11-23T16:12:00Z
+ta:g1186291-d1802266,Hotel Muchele,IT,https://www.muchele.com/,200,,,https://booking.muchele.com/en,booking.muchele.com,2,2026-11-23T16:12:00Z
+ta:g1186760-d1194779,Quellenhof Luxury Resort Passeier,IT,https://www.quellenhof.it/,200,,,https://www.quellenhof.it/wohnen-angebote/anfrage,quellenhof.it,3,2026-11-23T16:12:00Z
+ta:g1186760-d23832453,Quellenhof See Lodge,IT,https://www.quellenhof-seelodge.it/,200,,,https://www.quellenhof-seelodge.it/wohnen-angebote/anfrage,quellenhof-seelodge.it,3,2026-11-23T16:12:00Z
+ta:g1186760-d28040768,Hotel | Chalet Das Alpenschlössel,IT,https://www.alpenschloessel.it/,200,,,https://www.alpenschloessel.it/anfrage,alpenschloessel.it,3,2026-11-23T16:12:00Z
+ta:g1186761-d1188564,Hotel Garberhof,IT,https://www.garberhof.com/,200,,,https://garberhof-booking.zimres.com/booking?cd=137959&amp;id=sn77ILFK,garberhof-booking.zimres.com,3,2026-11-23T16:12:00Z
+ta:g1190139-d228195,"La Reserve - Hotel, Spa And Villa",CH,https://www.lareserve-geneve.com,200,,,https://delivery.lareserve-geneve.com/,delivery.lareserve-geneve.com,3,2026-11-23T16:12:00Z
+ta:g1194193-d1209188,Hotel Andy,AT,https://www.hotelandy.com/,200,seekda,seekda,https://www.hotelandy.com/de/onlinebuchung/,hotelandy.com,2,2026-11-23T16:12:00Z
+ta:g1195111-d1184631,Der Brandstetterhof,AT,https://www.brandstetterhof.com/,200,,,https://www.brandstetterhof.com/de/zimmer-preise/anfragen/,brandstetterhof.com,3,2026-11-23T16:12:00Z
+ta:g1195534-d1195537,Vila Vita Pannonia,AT,https://www.vilavitapannonia.at/,200,synxis,travelclick,https://bookings.travelclick.com/107183?hotelId=107183&amp;&amp;LanguageID=7#/guestsandrooms,bookings.travelclick.com,1,2026-11-23T16:12:00Z
+ta:g11962484-d20160236,J44 Lifestyle Hotel,IT,https://www.j44hoteljesolo.it/,200,,,https://book.j44hoteljesolo.it/,book.j44hoteljesolo.it,2,2026-11-23T16:12:00Z
+ta:g1196910-d2231250,Hotel Kleissl,AT,https://www.kleissl.at/,200,,,https://www.kleissl.at/de/nc/de/anfragen-buchen/,kleissl.at,2,2026-11-23T16:12:00Z
+ta:g1197017-d25185293,Alpenhotel Heimspitze,AT,https://heimspitze.com/,200,seekda,seekda,https://booking.heimspitze.com/,booking.heimspitze.com,2,2026-11-23T16:12:00Z
+ta:g1197052-d1485364,Habachklause,AT,https://www.habachklause.com/de/,200,,,https://www.habachklause.com/de/service-info/unverbindliche-anfrage,habachklause.com,3,2026-11-23T16:12:00Z
+ta:g1197052-d1586671,Hotel Senningerbräu,AT,https://www.senningerbraeu.at/,200,,,https://www.senningerbraeu.at/anfrage/,senningerbraeu.at,3,2026-11-23T16:12:00Z
+ta:g12118336-d1095760,Post Alpina - Family Mountain Chalets,IT,https://www.posthotel.it,error: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1011),,,,,1,2026-11-23T16:12:00Z
+ta:g1223267-d32862259,Domaine de Montagne - Chalet Frère Joseph,FR,https://domainedemontagne.com/,200,d_edge,secure-hotel-booking.com,https://domainedemontagne.com/fr/reservation-en-ligne.html,domainedemontagne.com,3,2026-11-23T16:12:00Z
+ta:g1227212-d25009306,The Club House,IT,https://www.fontanellestate.com/hotel-the-club-house,200,,,https://reservations.fontanellestate.com/premium/index.html?id_albergo=25099&dc=6191&lingua_int=ita&id_stile=19325&_gl=1*1b7ltug*_gcl_au*MjgzNTAxNDYzLjE3MjgyOTg1NTg.*_ga*MTQxNzQyMjM0NS4xNzIwMTgyOTEw*_ga_HEE1L9YC80*MTcyODkxNjE1OC43My4xLjE3Mjg5MTYxODQuMzQuMC44NzQ4NzMzNjU,reservations.fontanellestate.com,3,2026-11-23T16:12:00Z
+ta:g1236093-d620351,Hotel Le Fontanelle,IT,https://www.fontanellestate.com/hotel-le-fontanelle,200,,,https://reservations.fontanellestate.com/premium/index.html?id_albergo=175&dc=251&lingua_int=ita&id_stile=17299&_gl=1*p5co49*_gcl_au*MjgzNTAxNDYzLjE3MjgyOTg1NTg.*_ga*MTQxNzQyMjM0NS4xNzIwMTgyOTEw*_ga_HEE1L9YC80*MTcyODkxNjE1OC43My4xLjE3Mjg5MTYxNjEuNTcuMC44NzQ4NzMzNjU,reservations.fontanellestate.com,3,2026-11-23T16:12:00Z
+ta:g1498253-d1229345,Sonne Mellau,AT,https://sonnemellau.com/,200,casablanca,casablanca.at,https://bookingengine.casablanca.at/de/14a10f44-f042-4993-9c32-c074d62ac1b3/sonne-mellau?numberOfRooms=1,bookingengine.casablanca.at,1,2026-11-23T16:12:00Z
+ta:g15010878-d279183,Gardena Grödnerhof,IT,https://www.valgardena.it/en/accommodation/base/hotel/ortisei-val-gardena/garni-hotel-snaltnerhof/824D85C329E711D599D20050DA7125DB/,200,,,https://www.valgardena.it/en/book-directly-with-best-price-guarantee-in-val-gardena/,valgardena.it,2,2026-11-23T16:12:00Z
+ta:g1568268-d1736935,Hotel Le Grotte,IT,https://www.hotellegrotte.it/,200,vertical_booking,verticalbooking,https://my.hotellegrotte.it/it-IT/reservation/module,my.hotellegrotte.it,1,2026-11-23T16:12:00Z
+ta:g1596637-d279305,Hotel et Spa du Castellet,FR,https://www.hotelducastellet.net/fr/,200,d_edge,secure-hotel-booking.com,https://ib.guestonline.fr/instabook/bookings/iUfQTHJ/selection,ib.guestonline.fr,1,2026-11-23T16:12:00Z
+ta:g1633631-d575226,La Val Hotel & Spa,CH,https://www.laval.ch/,200,,,https://simplebooking.laval.ch/ibe2/hotel/6903?cur=CHF&amp;lang=DE&amp;_gl=1*beox63*_ga*MTQxMTc5MTk1MS4xNzY0NjAxMzYx*_ga_C09Y34CSX5*czE3NjU4ODg2ODgkbzckZzAkdDE3NjU4ODg2ODgkajYwJGwwJGgw,simplebooking.laval.ch,3,2026-11-23T16:12:00Z
+ta:g1749064-d3536209,Hotel Muhr,AT,https://www.hotel-muhr.at,200,,,https://buchen.hotel-muhr.at/websLINE-ABM/Homepage/Booking/Preset,buchen.hotel-muhr.at,3,2026-11-23T16:12:00Z
+ta:g1786906-d1788330,Alloggio Agrituristico Albafiorita,IT,https://www.albafiorita.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=8930&lang=it,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g1808972-d7735522,Bomonti Hotel Nuremberg-West,DE,https://www.hotel-bomonti.de/,200,,,https://www.hotel-bomonti.de/de/kontakt-kontaktformular-anfrage-nuernberg-fuerth-oberasbach-zirndorf-stein/,hotel-bomonti.de,3,2026-11-23T16:12:00Z
+ta:g187075-d1436560,Hotel Cour Du Corbeau Strasbourg MGallery,FR,http://www.cour-corbeau.com,200,d_edge,d-edge,,,1,2026-11-23T16:12:00Z
+ta:g187075-d2297922,Hotel Tandem,FR,https://hotel-tandem.fr,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g187075-d2711798,Hotel Le Bouclier D'or,FR,https://www.lebouclierdor.com/,200,d_edge,secure-hotel-booking.com,https://www.lebouclierdor.com/social/facebook/,lebouclierdor.com,1,2026-11-23T16:12:00Z
+ta:g187217-d219370,"Hotel Du Cap-Eden-Roc, Oetker Hotels",FR,https://www.oetkerhotels.com/fr/hotels/hotel-du-cap-eden-roc/l-hotel/,429,,,,,1,2026-11-23T16:12:00Z
+ta:g187218-d195572,LA RÉSERVE DE BEAULIEU,FR,https://www.reservebeaulieu.com/,error: timed out,,,,,1,2026-11-23T16:12:00Z
+ta:g187218-d222930,Hotel Carlton,FR,http://www.carlton-beaulieu.com,error: timed out,,,,,1,2026-11-23T16:12:00Z
+ta:g187221-d197831,Hôtel Barrière Le Gray d'Albion,FR,https://www.hotelsbarriere.com/fr/cannes/le-majestic.html,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g187222-d197825,Hotel Cap Estel,FR,https://www.capestel.com/,200,synxis,synxis.com,https://www.capestel.com/fr/reservation-nuits-dime-on.html,capestel.com,1,2026-11-23T16:12:00Z
+ta:g187222-d207390,La Chèvre D'Or,FR,https://www.chevredor.com/,200,d_edge,secure-hotel-booking.com,https://www.chevredor.com/booking/,chevredor.com,2,2026-11-23T16:12:00Z
+ta:g187230-d229732,Îlot du Golf,FR,http://ilotdugolf.fr/,200,d_edge,secure-hotel-booking.com,https://experience-crm.groupelatour.com/reserve/idg?source=site-web&amp;medium=website,experience-crm.groupelatour.com,1,2026-11-23T16:12:00Z
+ta:g187234-d12506810,Palais Saleya,FR,https://www.palaissaleya.com/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g187234-d8118910,Hôtel Nice Côte d'Azur,FR,https://www.hotelnicecotedazur.com/en/,200,siteminder,direct-book.com,https://direct-book.com/properties/hotelselectdirect,direct-book.com,1,2026-11-23T16:12:00Z
+ta:g187237-d195666,"Grand-Hôtel du Cap-Ferrat, A Four Seasons Hotel",FR,https://www.fourseasons.com/capferrat/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187240-d530627,Le Domaine du Mas de Pierre,FR,https://www.lemasdepierre.com/,200,synxis,synxis.com,,,1,2026-11-23T16:12:00Z
+ta:g187242-d197819,Airelles Chateau de la Messardiere,FR,https://www.messardiere.com/,error: timed out,,,,,1,2026-11-23T16:12:00Z
+ta:g187245-d195571,Château Saint-Martin & Spa,FR,http://www.chateau-st-martin.com/,429,,,,,1,2026-11-23T16:12:00Z
+ta:g187265-d12214391,Villa Maïa,FR,https://www.lhw.com/hotel/Villa-Maia-Lyon-France,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187265-d231035,Hôtel Maison Lacassagne,FR,https://hotel-maisonlacassagne.fr/,200,vertical_booking,verticalbooking,,,1,2026-11-23T16:12:00Z
+ta:g187265-d530032,Hotel Le Roosevelt,FR,https://hotel-roosevelt.com/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g187266-d543540,Hôtel Saint-Georges,FR,https://www.hotelsaintgeorges-megeve.com,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g187272-d19102318,Hotel Victoria,FR,https://www.hotel-victoria-valence.fr,200,reservit,reservit.com,https://secure.reservit.com/reservit/reserhotel.php?lang=FR&id=2&hotelid=437296,secure.reservit.com,1,2026-11-23T16:12:00Z
+ta:g187272-d232567,Maison Pic,FR,https://anne-sophie-pic.com/lhotel-de-la-maison-pic/,200,synxis,synxis.com,,,1,2026-11-23T16:12:00Z
+ta:g187279-d238410,Hotel Bareiss,DE,https://www.bareiss.com,200,,,https://booking.bareiss.com/?culture=de,booking.bareiss.com,2,2026-11-23T16:12:00Z
+ta:g187286-d201302,Hotel Europäischer Hof Heidelberg,DE,https://www.europaeischerhof.com/,200,,,https://www.opentable.de/booking/restref/availability?lang=de-DE&#038;correlationId=2816d263-0dd8-4b4e-b43d-70f2bfdcf36e&#038;restRef=252900&#038;otSource=Restaurant%20website,opentable.de,3,2026-11-23T16:12:00Z
+ta:g187290-d10791143,"Radisson Blu Hotel, Mannheim",DE,https://www.radissonblu.com/de/hotel-mannheim,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187290-d16747376,Hilton Garden Inn Mannheim,DE,https://www.hilton.com/en/hotels/framagi-hilton-garden-inn-mannheim,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187291-d647452,Mövenpick Hotel Stuttgart Airport,DE,https://www.movenpick.com/en/europe/germany/stuttgart/hotel-stuttgart-airport/,200,,,https://all.accor.com/account/index.en.shtml?partner_id=movenpick#/my-bookings,all.accor.com,3,2026-11-23T16:12:00Z
+ta:g187299-d1826280,Hotel Edelweiss Berchtesgaden,DE,https://www.edelweiss-berchtesgaden.com/,200,,,https://buchen.edelweiss-berchtesgaden.com/booking?cd=137833&#038;id=DiQIJhgH&#038;lang=en,buchen.edelweiss-berchtesgaden.com,3,2026-11-23T16:12:00Z
+ta:g187302-d1166962,Staudacherhof,DE,https://www.staudacherhof.de/,200,,,https://staudacherhof.de/anfragen-unser-unverbindliches-angebot/,staudacherhof.de,2,2026-11-23T16:12:00Z
+ta:g187307-d3880713,Hotel Villa Ludwig,DE,https://www.suitehotel-neuschwanstein.de/,200,,,https://www.villa-ludwig.de/de/anfragen/,villa-ludwig.de,3,2026-11-23T16:12:00Z
+ta:g187309-d1410589,Hotel Metropol by Maier Privathotels,DE,https://www.maritim.com/en/hotels/germany/hotel-munich/hotel-overview,200,,,,,1,2026-11-23T16:12:00Z
+ta:g187309-d201931,Hotel Torbräu,DE,https://www.torbraeu.de/,200,hotelnetsolutions,hotelnetsolutions,https://www.vbooking.de/v3/booking.aspx?clientid=torbraeu,vbooking.de,2,2026-11-23T16:12:00Z
+ta:g187309-d217948,Hotel Muenchen Palace,DE,https://www.hotel-muenchen-palace.de/,200,synxis,synxis.com,,,1,2026-11-23T16:12:00Z
+ta:g187309-d233835,"Mandarin Oriental, Munich",DE,https://www.mandarinoriental.com/de/munich/altstadt,200,synxis,synxis.com,https://be.synxis.com/signin?chain=507,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g187309-d656270,The Charles Hotel,DE,https://www.roccofortehotels.com/hotels-and-resorts/the-charles-hotel/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187310-d202030,Hotel VICTORIA,DE,https://www.hotelvictoria.de/,200,hotelnetsolutions,hotelnetsolutions,https://www.hotelvictoria.de/buchen/,hotelvictoria.de,2,2026-11-23T16:12:00Z
+ta:g187310-d561896,Hotel Drei Raben,DE,https://www.hoteldreiraben.de,503,,,,,1,2026-11-23T16:12:00Z
+ta:g187319-d559512,Historikhotel Gotisches Haus,DE,https://gotisches-haus.de/,200,cloudbeds,cloudbeds.com,https://hotels.cloudbeds.com/de/reservation/4sOzLX,hotels.cloudbeds.com,1,2026-11-23T16:12:00Z
+ta:g187337-d32762385,Kimpton Main Frankfurt by IHG,DE,https://www.ihg.com/kimptonhotels/hotels/de/de/frankfurt/frajg/hoteldetail,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187343-d241859,Hotel Rosenpark,DE,https://www.rosenpark.com/,200,,,https://booking.rosenpark.com/recommendation?hc=GV728245&amp;lang=de&amp;bookingsrc=WEB&amp;cur=EUR,booking.rosenpark.com,3,2026-11-23T16:12:00Z
+ta:g187392-d281058,René Bohn,DE,https://www.basf.com/global/de/who-we-are/organization/locations/europe/german-sites/ludwigshafen/neighbor-basf/gastronomy/Hotel-Rene-Bohn.html,404,,,,,1,2026-11-23T16:12:00Z
+ta:g187399-d679585,Hotel Suitess,DE,https://suitess-hotel.com/,503,,,,,1,2026-11-23T16:12:00Z
+ta:g187419-d9698525,Hotel Domizil,DE,https://hotel-domizil-erfurt.de,200,dirs21,dirs21,https://hotel-domizil-erfurt.de/buchen.html,hotel-domizil-erfurt.de,1,2026-11-23T16:12:00Z
+ta:g187770-d12292269,G Hotel Pescara,IT,https://ghotelpescara.it,200,vertical_booking,verticalbooking,,,1,2026-11-23T16:12:00Z
+ta:g187770-d754487,Victoria Hotel,IT,https://www.victoriapescara.com/,200,,,https://be.bookingexpert.it/book/simple/noavail?&#038;hotel=5552&#038;lang=it&#038;currency=EUR&#038;nsid=6a8c6cd1-076c-472e-9269-b44a6925da83&#038;_ga=2.257587403.1553593666.1526889746-1145941721.1516891043,be.bookingexpert.it,3,2026-11-23T16:12:00Z
+ta:g187785-d10067502,Santa Chiara Boutique Hotel,IT,https://www.santachiarahotel.com/,200,,,https://secure.visioni.info/santachiarahotel.com/book/booking/quote_request.php?lang=en,secure.visioni.info,3,2026-11-23T16:12:00Z
+ta:g187791-d10314238,"The Tribune Hotel, Part Of Jdv By Hyatt",IT,https://www.hyatt.com/jdv-by-hyatt/en-US/romjd-the-tribune,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187791-d10553781,Hotel Monte Cenci,IT,https://montecenci.com/,200,synxis,synxis.com,https://be.synxis.com/?adult=2&#038;chain=5375&#038;currency=EUR&#038;hotel=71264&#038;locale=en-US,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g187791-d15327157,The First Roma Dolce,IT,https://www.pavilionshotels.com/rome/thefirstdolce,200,synxis,synxis.com,,,1,2026-11-23T16:12:00Z
+ta:g187791-d203164,InterContinental Rome Ambasciatori Palace by IHG,IT,http://www.royalgroup.it/ambasciatoripalace,error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: ,,,,,1,2026-11-23T16:12:00Z
+ta:g187791-d205044,Hotel Artemide,IT,https://www.hotelartemide.it/,200,simplebooking,simplebooking.it,https://booking.resdiary.com/widget/Standard/AmbrosiaRooftopRestaurantBar/51079,booking.resdiary.com,1,2026-11-23T16:12:00Z
+ta:g187791-d23700559,Sophie Terrace Hotel,IT,https://www.romehotelmediterraneo.it/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g187791-d270031,Aleph Rome Hotel Curio Collection by Hilton,IT,https://www.hilton.com/en/hotels/fcoahqq-aleph-rome-hotel/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187791-d3244512,The Independent Hotel,IT,https://www.independenthotel.it/,200,synxis,travelclick,https://reservations.travelclick.com/9877428?HotelId=9877428&languageid=1&rooms=1&adults=1&roomtypeid=544099,reservations.travelclick.com,1,2026-11-23T16:12:00Z
+ta:g187791-d33749842,Dimora Coppelle,IT,https://dimoracoppelle.com/,200,,,https://palazzodellecoppelle.reserve-online.net/?lang=en,palazzodellecoppelle.reserve-online.net,2,2026-11-23T16:12:00Z
+ta:g187791-d531936,Argentina Residenza Style Hotel,IT,https://www.torreargentinarelais.com/,200,blastness,blastness,https://book.blastness.com/results?lingua_int=eng&id_albergo=12102&dc=3546&id_stile=224&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=23&mm=11&aa=2026,book.blastness.com,1,2026-11-23T16:12:00Z
+ta:g187791-d7976127,A Roma Lifestyle Hotel,IT,https://www.hotel-aroma.com/en/,200,simplebooking,simplebooking.it,https://www.ldchotelsitaly.com/wp-content/uploads/2025/07/ArtBook-A.Roma_.pdf,ldchotelsitaly.com,1,2026-11-23T16:12:00Z
+ta:g187796-d1840420,Hotel Napoleon,IT,https://www.hotelnapoleonpesaro.it/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g187796-d567588,Hotel Villa Cattani Stuart,IT,https://www.villacattani.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/search?hid=5184&lang=IT&cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g187801-d601493,Savhotel Fiera Bologna,IT,https://www.savhotel.it/,200,simplebooking,simplebooking.it,"https://www.simplebooking.it/ibe2/hotel/2874/?guests=A,A&lang=IT&cur=EUR",simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g187807-d1566455,i-SUITE Hotel,IT,https://www.i-suite.it/,200,vertical_booking,verticalbooking,,,1,2026-11-23T16:12:00Z
+ta:g187813-d1406742,Victoria Hotel Letterario,IT,https://www.hotelvictoriatrieste.com/,200,,,https://be.bookingexpert.it/book/home/index?layout=13541&#038;nsid=b8114b89-c457-40e6-96ae-a2285674fa3b,be.bookingexpert.it,3,2026-11-23T16:12:00Z
+ta:g187842-d277407,Hotel Continental,IT,https://www.continentalsirmione.com,200,blastness,blastness,,,1,2026-11-23T16:12:00Z
+ta:g187842-d314146,Hotel Eden,IT,https://www.hoteledensirmione.it,200,,,https://be.bookingexpert.it/book/home/index?layout=10019218&lang=it,be.bookingexpert.it,2,2026-11-23T16:12:00Z
+ta:g187849-d194975,Principe di Savoia,IT,https://www.dorchestercollection.com/en/milan/hotel-principe-di-savoia/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187849-d194976,Hotel Spadari al Duomo True Stay,IT,https://www.spadarihotel.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/10049?lang=IT&#038;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g187849-d202857,Tivoli President Milano Hotel,IT,https://www.tivolihotels.com/en/tivoli-president-milano-hotel,200,,,,,1,2026-11-23T16:12:00Z
+ta:g187849-d204472,Urban Hive Milano,IT,https://www.urbanhivehotels.com/milano/,200,synxis,travelclick,,,1,2026-11-23T16:12:00Z
+ta:g187849-d2254113,Aethos Milan,IT,https://www.aethoshotels.com/milan/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187849-d229090,Hotel Berna,IT,https://hotelberna.com/,error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: ,,,,,1,2026-11-23T16:12:00Z
+ta:g187849-d231271,"Excelsior Hotel Gallia, a Luxury Collection Hotel, Milan",IT,http://www.excelsiorhotelgallia.com/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187849-d237329,Hotel Manzoni,IT,https://hotelmanzoni.com/,200,vertical_booking,verticalbooking,,,1,2026-11-23T16:12:00Z
+ta:g187849-d2417960,Château Monfort,IT,https://www.hotelchateaumonfort.com/it/,200,vertical_booking,verticalbooking,https://www.hotelchateaumonfort.com/it/guestbook.html,hotelchateaumonfort.com,1,2026-11-23T16:12:00Z
+ta:g187849-d275923,Casual Eclettico Milano,IT,https://www.galles.it/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187849-d289987,Park Hyatt Milano,IT,https://galleriavikmilano.com/it/,404,,,,,1,2026-11-23T16:12:00Z
+ta:g187849-d33216868,Hotel Milu Milano,IT,https://all.accor.com/hotel/5705/index.en.shtml,410,,,,,1,2026-11-23T16:12:00Z
+ta:g187849-d3561841,The Street Milano Duomo | a Design Boutique Hotel,IT,https://www.thestreetmilano.com/,200,blastness,blastness,https://reservation.thestreetmilano.com/hotel/1352/channel/752/language/1/rooms,reservation.thestreetmilano.com,2,2026-11-23T16:12:00Z
+ta:g187849-d3863490,Magna Pars L'Hotel A' Parfum,IT,https://www.magnapars.it/,200,vertical_booking,verticalbooking,https://labsolue-bar.superbexperience.com/reserve/experience,labsolue-bar.superbexperience.com,1,2026-11-23T16:12:00Z
+ta:g187849-d4552883,Palazzo Parigi Hotel & Grand Spa,IT,https://www.palazzoparigi.com/,200,synxis,synxis.com,,,1,2026-11-23T16:12:00Z
+ta:g187849-d563622,iQ Hotel Milano,IT,https://www.iqhotelmilano.it/it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5704?lang=IT&amp;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g187849-d7737531,"Mandarin Oriental, Milan",IT,https://www.mandarinoriental.com/milan/la-scala/luxury-hotel,404,,,,,1,2026-11-23T16:12:00Z
+ta:g187849-d9762116,Room Mate Giulia,IT,https://room-matehotels.com/en/giulia/,200,mirai,mirai.com,,,1,2026-11-23T16:12:00Z
+ta:g187855-d205797,Grand Hotel Sitea,IT,https://grandhotelsitea.it/,200,,,http://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/hotel/booking-account/,nicdarkthemes.com,3,2026-11-23T16:12:00Z
+ta:g187855-d228940,Principi di Piemonte | UNA Esperienze,IT,http://www.atahotels.it/principi-di-piemonte,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187855-d27153569,Be Mate Torino Centro,IT,https://www.hilton.com/en/hotels/trnithi-hilton-turin-centre/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187855-d534848,DoubleTree By Hilton Turin Lingotto,IT,https://www.hilton.com/en/hotels/trntldi-doubletree-turin-lingotto/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187859-d679198,Sonus Alpis,IT,https://www.sonus-alpis.com/,200,,,https://booking.sonus-alpis.com/book/home/single?layout=16726&amp;lang=en&amp;currency=EUR&amp;nsid=4c7f33ba-3c73-4c05-86c2-47d1e94f6143,booking.sonus-alpis.com,3,2026-11-23T16:12:00Z
+ta:g187860-d293272,Park Hotel Mignon & Spa,IT,https://www.hotelmignon.com,200,,,https://www.hotelmignon.com/en/rooms/book?ref=ratechecker,hotelmignon.com,3,2026-11-23T16:12:00Z
+ta:g187860-d529249,Hotel Windsor,IT,https://www.windsorhotel.it/,200,,,https://www.windsormerano.com/offerte/prenotazione-diretta/,windsormerano.com,2,2026-11-23T16:12:00Z
+ta:g187860-d529262,Hotel Sittnerhof,IT,https://www.sittnerhof.it/,200,,,https://www.merano-suedtirol.it/de/urlaubsplanung/unterkunft-suchen-buchen.html?component=DetailView&amp;detailid=11893A94C0CD11D2AE71004095429799,merano-suedtirol.it,3,2026-11-23T16:12:00Z
+ta:g187860-d600713,Hotel Therme Meran,IT,https://www.hotelthermemeran.it/,error: [Errno 104] Connection reset by peer,,,,,1,2026-11-23T16:12:00Z
+ta:g187861-d19101497,Be Place Hotel,IT,https://hotelbeplace.com/,200,vertical_booking,verticalbooking,,,1,2026-11-23T16:12:00Z
+ta:g187864-d202793,Hermitage Hotel & Spa,IT,https://hotelhermitage.com/en/,200,synxis,synxis.com,https://gc.synxis.com/rez.aspx?Hotel=22894&Chain=8565&Lang=5&template=ResponsiveShared&shell=ResponsiveShared&adult=2&ggacc=UA-73901938-1&ggacc=UA-73901938-1&,gc.synxis.com,1,2026-11-23T16:12:00Z
+ta:g187864-d502230,Hotel Excelsior Planet,IT,https://excelsiorplanet.com/it/home,200,,,https://excelsiorplanet.com/it/cervinia/prenota-lezione-sci,excelsiorplanet.com,2,2026-11-23T16:12:00Z
+ta:g187865-d3654148,Gran Baita Hotel & Wellness Resort,IT,https://www.alpissima.it/gran-baita-courmayeur/,200,blastness,blastness,https://book.blastness.com/results?lingua_int=ita&id_albergo=11153&dc=5562147&id_stile=,book.blastness.com,1,2026-11-23T16:12:00Z
+ta:g187870-d1547281,Hotel Canal Grande,IT,https://www.hotelcanalgrande.it/,200,,,https://book.hotelcanalgrande.it/accommodation/list?channelId=d3034c2f-8506-4c90-880d-6e6b5797d228&culture=en,book.hotelcanalgrande.it,3,2026-11-23T16:12:00Z
+ta:g187870-d16712010,Palazzo San Lorenzo,IT,https://www.palazzosanlorenzovenezia.com/,200,,,"https://booking.hotelincloud.com/it/show/287008?accid=%5B321453,321605,321656,321707,321758,321809%5D",booking.hotelincloud.com,2,2026-11-23T16:12:00Z
+ta:g187870-d202684,Hotel Papadopoli Venezia - MGallery,IT,https://www.accorhotels.com/gb/hotel-1313-hotel-papadopoli-venezia-mgallery-collection/index.shtml,200,,,https://events.accor.com/en.html,events.accor.com,3,2026-11-23T16:12:00Z
+ta:g187870-d202728,Londra Palace Venezia,IT,https://www.londrapalace.com/,200,,,https://www.londrapalace.com/en/#/booking/step-1,londrapalace.com,2,2026-11-23T16:12:00Z
+ta:g187870-d202737,U-Visionary Venezia Hotel,IT,https://www.uvisionaryvenezia.com/en/,200,,,https://www.hoteleasyreservations.it/herx/client/index.html?form=load&amp;hotel=611&amp;hlang=en&amp;clientId=MTIzMTA4MTc0My4xNzYwNTM3ODgz&amp;sessionId=MTc2MjE1NzI1NQ%3D%3D,hoteleasyreservations.it,2,2026-11-23T16:12:00Z
+ta:g187870-d239101,Hotel San Gallo,IT,https://www.hotelcavallettovenice.com/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g187870-d25333692,Palazzo Keller,IT,https://palazzoparuta.com/,200,synxis,travelclick,https://booking.palazzoparuta.com/book/home/single,booking.palazzoparuta.com,1,2026-11-23T16:12:00Z
+ta:g187870-d2558563,Carnival Palace Hotel,IT,https://www.carnivalpalace.com/,200,blastness,blastness,,,1,2026-11-23T16:12:00Z
+ta:g187870-d256010,Sina Palazzo Sant'angelo,IT,https://palazzoparuta.com/,200,synxis,travelclick,https://booking.palazzoparuta.com/book/home/single,booking.palazzoparuta.com,1,2026-11-23T16:12:00Z
+ta:g187870-d286614,Palazzo Barocci,IT,https://www.nh-collection.com/hotel/nh-collection-venezia-palazzo-barocci,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187870-d3348175,Hotel Moresco,IT,http://www.hotelmorescovenice.com/it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/1413?lang=IT&amp;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g187870-d488758,Hotel Dona Palace,IT,https://www.donapalace.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/search?hid=3466&#038;lang=IT&#038;cur=EUR#guests=A,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g187870-d555225,Ai Mori d'Oriente Hotel,IT,https://www.morihotel.com/de/,200,,,https://book2.nozio.com/accommodation/list?channelId=58a187f7-301b-4514-a67b-45966447145f&#038;culture=de,book2.nozio.com,3,2026-11-23T16:12:00Z
+ta:g187870-d7392736,Hotel L'Orologio,IT,https://www.hotelorologiovenezia.com/,200,blastness,blastness,,,1,2026-11-23T16:12:00Z
+ta:g187871-d232955,Hotel Accademia,IT,https://www.hotelaccademiaverona.it/,200,synxis,travelclick,,,1,2026-11-23T16:12:00Z
+ta:g187895-d1461957,Golden Tower Hotel & Spa,IT,https://www.goldentowerhotel.it/,200,vertical_booking,verticalbooking,https://www.goldentowerhotel.it/specialoffers/prenota-direttamente-conviene/,goldentowerhotel.it,1,2026-11-23T16:12:00Z
+ta:g187895-d1752811,Hotel Mulino di Firenze,IT,https://www.mulinodifirenze.com/,200,synxis,travelclick,https://reservations.travelclick.com/97883?HotelId=97883&languageid=8,reservations.travelclick.com,1,2026-11-23T16:12:00Z
+ta:g187895-d195005,Villa Cora,IT,https://www.villacora.it/,200,synxis,synxis.com,https://reservations.villacora.it/?chain=24447&amp;hotel=6861&amp;filter=SBE,reservations.villacora.it,2,2026-11-23T16:12:00Z
+ta:g187895-d195007,"The Excelsior, a Luxury Collection Hotel, Florence",IT,https://www.marriott.com/en-us/hotels/flrhe-the-excelsior-a-luxury-collection-hotel-florence/overview/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187895-d195855,Hotel Savoy,IT,http://www.hotelsavoy.it/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g187895-d228967,Room Mate Isabella,IT,https://room-matehotels.com/en/isabella/,200,mirai,mirai.com,,,1,2026-11-23T16:12:00Z
+ta:g187895-d235997,Hotel Il Tornabuoni,IT,https://www.hyatt.com/en-US/hotel/italy/il-tornabuoni/flrub,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187895-d250849,Room Mate Luca,IT,https://room-matehotels.com/en/luca/,200,mirai,mirai.com,,,1,2026-11-23T16:12:00Z
+ta:g187895-d32873561,Collegio alla Querce Auberge Collection,IT,https://aubergeresorts.com/collegioallaquerce/,200,synxis,synxis.com,https://reserve.auberge.com?chain=16237&amp;hotel=46302&amp;level=chain&amp;config=initial,reserve.auberge.com,1,2026-11-23T16:12:00Z
+ta:g187895-d518382,Palazzo Firenze By Baglioni Hotels & Resorts,IT,https://florence.baglionihotels.com/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187895-d866681,Four Seasons Hotel Firenze,IT,https://www.fourseasons.com/florence,403,,,,,1,2026-11-23T16:12:00Z
+ta:g187898-d232981,Hotel Ilaria,IT,https://www.hotelilaria.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/4952?lang=en,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g187900-d8387332,Torre Mozza,IT,http://www.relaistorremozza.com,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/search?hid=7748&lang=IT,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g187906-d202935,Park Hotel Ai Cappuccini,IT,https://parkhotelaicappuccini.it/,200,d_edge,d-edge,,,1,2026-11-23T16:12:00Z
+ta:g188052-d228162,Hotel Savoy,CH,http://www.hotel-savoy-bern.ch,error: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake f,,,,,1,2026-11-23T16:12:00Z
+ta:g188052-d236358,Bellevue Palace,CH,https://www.bellevue-palace.ch/,200,,,https://www.sevenrooms.com/explore/brasserievue/reservations/create/search/,sevenrooms.com,3,2026-11-23T16:12:00Z
+ta:g188052-d267307,Hotel Schweizerhof Bern & Spa,CH,http://www.schweizerhof-bern.ch,200,,,https://thespa.schweizerhof-bern.ch/reservations/category/,thespa.schweizerhof-bern.ch,3,2026-11-23T16:12:00Z
+ta:g188057-d15654431,Hotel D Geneva,CH,https://www.hoteld-geneva.ch/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g188057-d195980,Hôtel Les Armures,CH,https://www.lesarmures.ch/,200,siteminder,direct-book.com,,,1,2026-11-23T16:12:00Z
+ta:g188057-d237556,Hôtel Bristol Genève,CH,https://www.bristol.ch/en/,200,d_edge,secure-hotel-booking.com,https://module.lafourchette.com/fr_CH/module/23116-849c2,module.lafourchette.com,1,2026-11-23T16:12:00Z
+ta:g188064-d206048,Hotel des Balances,CH,https://www.balances.ch/,200,,,https://bookings.balances.ch/des-balances,bookings.balances.ch,3,2026-11-23T16:12:00Z
+ta:g188064-d206049,Art Deco Hotel Montana,CH,https://www.hotel-montana.ch/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=4270&amp;lang=DE#/,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g188068-d228151,Einstein St. Gallen,CH,https://www.einstein.ch/,200,synxis,synxis.com,https://www.einstein.ch/en/eating-drinking/book-a-table,einstein.ch,1,2026-11-23T16:12:00Z
+ta:g188076-d229944,La Couronne Hotel,CH,https://www.lacouronne-solothurn.ch,200,simplebooking,simplebooking.it,https://simplebooking.lacouronne-solothurn.ch/ibe2/hotel/4629?lang=DE&amp;cur=CHF,simplebooking.lacouronne-solothurn.ch,1,2026-11-23T16:12:00Z
+ta:g188080-d253751,Hotel Belvedere Grindelwald,CH,https://www.belvedere-grindelwald.ch/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/6812?lang=EN,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g188087-d231845,Waldhotel Arosa,CH,https://www.waldhotel.ch/,200,seekda,seekda,https://booking.waldhotel.ch/?skd-language-code=de,booking.waldhotel.ch,2,2026-11-23T16:12:00Z
+ta:g188087-d233002,Tschuggen Grand Hotel,CH,https://tschuggen.ch,200,,,https://tschuggencollection.ch/en/hotel/tschuggen-grand-hotel/booking?lang=en,tschuggencollection.ch,3,2026-11-23T16:12:00Z
+ta:g188087-d632738,BelArosa Hotel,CH,https://www.belarosa.ch/,200,hotelnetsolutions,hotelnetsolutions,https://www.cbooking.de/v4/booking.aspx?id=belarosa&amp;module=public&amp;lang=en,onepagebooking.com,2,2026-11-23T16:12:00Z
+ta:g188088-d228245,Hotel Chesa Rosatsch - Home of Food,CH,https://www.rosatsch.ch/,200,mews,mews.com/distributor,https://api.mews.com/distributor/737d727f-118c-4b61-a594-adce00627457,api.mews.com,1,2026-11-23T16:12:00Z
+ta:g188088-d244788,Cresta Palace Celerina,CH,https://www.crestapalace.ch/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g188090-d290100,Waldhotel Davos for Body & Soul,CH,https://www.waldhotel-davos.ch/,200,simplebooking,simplebooking.it,https://guest.foratable.com/restaurants/019e68a61fcf72d4ba4dd5136d4620ef?embed=inline,guest.foratable.com,1,2026-11-23T16:12:00Z
+ta:g188091-d196851,Suvretta House,CH,https://www.suvrettahouse.ch/,200,synxis,synxis.com,,,1,2026-11-23T16:12:00Z
+ta:g188091-d206213,Badrutt's Palace Hotel St.Moritz,CH,https://www.badruttspalace.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g188091-d228155,Art Boutique Hotel Monopol,CH,https://www.monopol.ch/,200,synxis,synxis.com,https://be.synxis.com/?chain=10237&config=ZRHHM&currency=CHF&hotel=27002&level=hotel&locale=de-DE&productcurrency=CHF&theme=ZRHHM&adult=2,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g188091-d233005,Kulm Hotel,CH,https://kulm.com,200,synxis,synxis.com,https://be.synxis.com/?adult=2&arrive=2026-11-24&chain=24447&child=0&currency=CHF&depart=2026-11-26&hotel=6921&level=hotel&locale=en-US&nocache=true&rooms=1,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g188095-d228201,Luganodante Boutique & Lifestyle Hotel,CH,https://www.hotel-luganodante.com/,200,vertical_booking,verticalbooking,,,1,2026-11-23T16:12:00Z
+ta:g188098-d1107788,Matterhorn FOCUS Design Hotel,CH,https://www.matterhorn-focus.ch/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/search?hid=3559&lang=EN,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g188098-d1163050,Christiania Mountain & Spa,CH,https://www.christiania-zermatt.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5030?lang=en&cur=CHF,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g188098-d1582687,CERVO Mountain Resort,CH,https://www.cervo.ch,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/portal?pid=50&lang=en&tid=44,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g188098-d230196,Hotel Metropol & Spa Zermatt,CH,https://www.metropol-zermatt.ch/,200,,,http://www.reconline.com/ibe/reco/directsearch?idhotel=30014&amp;bs=30003&amp;checkin=23.11.2026&amp;checkout=24.11.2026&amp;dateformat=dd.MM.yyyy&amp;numrooms=1&amp;adults=2&amp;children=0&amp;ratecode=Z3920,reconline.com,3,2026-11-23T16:12:00Z
+ta:g188098-d236182,Hotel Monte Rosa,CH,https://www.monterosazermatt.ch/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g188107-d228247,Hôtel Angleterre,CH,https://www.hotelangleterre.ch/,200,synxis,synxis.com,https://be.synxis.com/signIn?chain=10237&hotel=26958&level=hotel&locale=fr-FR&start=searchres,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g188113-d12105934,25hours Hotel Zurich Langstrasse,CH,https://www.25hours-hotels.com/hotels/zuerich/langstrasse,200,,,http://volvocars.com/de-ch/l/redirects/25hours/,volvocars.com,2,2026-11-23T16:12:00Z
+ta:g188113-d196061,The Dolder Grand,CH,https://www.thedoldergrand.com/,200,,,https://www.thedoldergrand.com/reservation/,thedoldergrand.com,3,2026-11-23T16:12:00Z
+ta:g188113-d483104,Park Hyatt Zurich,CH,https://www.hyatt.com/en-US/hotel/switzerland/park-hyatt-zurich/zurph,403,,,,,1,2026-11-23T16:12:00Z
+ta:g190432-d195611,Schlossberghotel,AT,https://www.schlossberg-hotel.at,error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: ,,,,,1,2026-11-23T16:12:00Z
+ta:g190441-d228064,Hotel  Bristol Salzburg,AT,https://www.bristol-salzburg.at,200,seekda,seekda,https://booking.bristol-salzburg.at/,booking.bristol-salzburg.at,2,2026-11-23T16:12:00Z
+ta:g190441-d253252,Hotel Sacher Salzburg,AT,https://www.sacher.com/de/salzburg/,200,synxis,synxis.com,https://reservations.salzburg.sacher.com/?Hotel=6724&#038;Chain=24447&#038;locale=de-DE&#038;adult=2,reservations.salzburg.sacher.com,2,2026-11-23T16:12:00Z
+ta:g190454-d16811712,Hyatt Regency Vienna,AT,https://www.hyatt.com/andaz/vieaz-andaz-vienna-am-belvedere,403,,,,,1,2026-11-23T16:12:00Z
+ta:g190454-d206598,Hotel Sacher Wien,AT,https://www.sacher.com/hotel-sacher-wien/,200,synxis,synxis.com,https://reservations.vienna.sacher.com/?Hotel=6725&#038;Chain=24447&#038;locale=de-DE&#038;adult=2,reservations.vienna.sacher.com,2,2026-11-23T16:12:00Z
+ta:g190454-d227171,Hotel Stefanie,AT,https://www.hotelstefanie.wien/,200,seekda,seekda,https://reservations.hotelstefanie.wien/book/dates-of-stay?HotelId&#61;9884815&languageid&#61;1,reservations.hotelstefanie.wien,1,2026-11-23T16:12:00Z
+ta:g190454-d227180,Hotel Am Parkring,AT,https://www.hotelamparkring.wien/,200,seekda,seekda,https://reservations.hotelamparkring.wien/de/book/dates-of-stay?HotelId&#61;9884814&languageid&#61;7,reservations.hotelamparkring.wien,1,2026-11-23T16:12:00Z
+ta:g190454-d228057,Hotel Capricorno,AT,https://www.hotelcapricorno.wien/,200,seekda,seekda,https://reservations.hotelcapricorno.wien/de/book/dates-of-stay?HotelId=9884816&languageid=7,reservations.hotelcapricorno.wien,1,2026-11-23T16:12:00Z
+ta:g190454-d264915,Henriette Stadthotel Vienna,AT,https://www.hotelhenriette.at/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g190454-d272580,Hotel Erzherzog Rainer,AT,https://www.hotelerzherzograiner.wien/,200,seekda,seekda,https://reservations.hotelerzherzograiner.wien/de/book/dates-of-stay?HotelID&#61;9884813&LanguageID&#61;7,reservations.hotelerzherzograiner.wien,1,2026-11-23T16:12:00Z
+ta:g190454-d294500,Boutique Hotel Spiess & Spiess,AT,https://www.spiess-vienna.at/,503,,,,,1,2026-11-23T16:12:00Z
+ta:g190454-d6603500,Park Hyatt Vienna,AT,https://www.hyatt.com/en-US/hotel/austria/park-hyatt-vienna/vieph,403,,,,,1,2026-11-23T16:12:00Z
+ta:g1931760-d1819144,Der Mohrenwirt,IT,https://www.der-mohrenwirt.com/,200,casablanca,casablanca.at,https://www.der-mohrenwirt.com/en/booking/,der-mohrenwirt.com,2,2026-11-23T16:12:00Z
+ta:g1931760-d2417997,Hotel Weisses Kreuz,IT,https://www.weisseskreuz.it,200,,,https://www.weisseskreuz.it/anfragen/,weisseskreuz.it,3,2026-11-23T16:12:00Z
+ta:g1943241-d11616269,Hotel Plaza Duce,HR,https://www.hotelplaza.hr/en/hotel-duce/,200,bookassist,bookassist,https://www.hotelplaza.hr/booking/,hotelplaza.hr,1,2026-11-23T16:12:00Z
+ta:g194659-d485514,Hotel Première Abano Terme,IT,https://www.premiereabano.it/,200,bookassist,bookassist,https://bookassist.org,bookassist.org,1,2026-11-23T16:12:00Z
+ta:g194659-d487705,Hotel Mioni Pezzato & SPA,IT,https://www.hotelmionipezzato.com/,200,ericsoft,ericsoft,https://booking.ericsoft.com/BookingEngine/book.aspx?idh=1E85423534B413F9&amp;lang=it&amp;cur=EUR,booking.ericsoft.com,1,2026-11-23T16:12:00Z
+ta:g194664-d1972023,Hotel Calissano,IT,https://www.hotelcalissano.com/,200,ericsoft,ericsoft,https://booking.ericsoft.com/BookingEngine/Book?idh=C4F7F3CFA10444AB&#038;lang=it&#038;cur=EUR&#038;pax=2_0&#038;acmp=RT0,booking.ericsoft.com,1,2026-11-23T16:12:00Z
+ta:g194667-d597186,Hotel La Maison Wellness & Spa,IT,https://www.hotellamaison.it/,200,ericsoft,ericsoft,https://www.ericsoft.biz/it/BookingEngine/Book?idh=6F47713E95525FA7&lang=it,ericsoft.biz,1,2026-11-23T16:12:00Z
+ta:g194683-d287934,Hotel Caesius Thermae & Spa Resort,IT,https://www.hotelcaesiusterme.com/,200,,,https://booking.hotelcaesiusterme.com/book/offer/details?rate=36298&layout=653&lang=it&currency=EUR,booking.hotelcaesiusterme.com,3,2026-11-23T16:12:00Z
+ta:g194691-d1027880,Hotel Montecarlo,IT,https://www.hotel-montecarlo.com,200,,,https://booking.hotel-montecarlo.com/book/simple/noavail?hotel=16753&layout=15418&lang=it&nsid=e837ec51-75cc-4cbe-850f-6dae0ba2c228,booking.hotel-montecarlo.com,2,2026-11-23T16:12:00Z
+ta:g194691-d616411,Hotel Bibione Palace,IT,https://www.hotelbibionepalace.it,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=2295&lang=en,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g194697-d619087,Hotel Baita dei Pini,IT,https://www.baitadeipini.com/,200,,,https://be.bookingexpert.it/book/simple/step1?hotel=19569&#038;lang=it,be.bookingexpert.it,3,2026-11-23T16:12:00Z
+ta:g194703-d1161956,Hotel Fischer,IT,https://www.hotel-fischer.it/,200,,,https://www.hotel-fischer.it/en/book.html,hotel-fischer.it,3,2026-11-23T16:12:00Z
+ta:g194709-d2157527,Locanda Degli Artisti Art Hotel ****,IT,https://www.locandadegliartisti.art/,200,,,https://be.bookingexpert.it/book/home/index?layout=15391&lang=it&currency=EUR,be.bookingexpert.it,2,2026-11-23T16:12:00Z
+ta:g194710-d12405653,AQA Palace,IT,https://www.aqapalace.com,200,vertical_booking,verticalbooking,https://hospitality-guest.teamsystem.cloud/booking-engine/aqa-palace-hotel,hospitality-guest.teamsystem.cloud,1,2026-11-23T16:12:00Z
+ta:g194710-d677856,Hotel Garden Sea,IT,https://www.hotelgardencaorle.it/,200,,,https://www.cbooking.it/b2/booking_page.php?id=79,cbooking.it,2,2026-11-23T16:12:00Z
+ta:g194723-d284449,Luxor Cattolica Beach Hotel,IT,https://www.hotelluxorcattolica.com/,200,,,https://hotelluxorcattolica.praenoto.it/booking-engine/,hotelluxorcattolica.praenoto.it,2,2026-11-23T16:12:00Z
+ta:g194729-d1583949,Hotel Bamby,IT,http://severihotels.com/hotel-bamby,200,,,,,1,2026-11-23T16:12:00Z
+ta:g194732-d1092378,Executive Hotel Evolution,IT,https://www.clubfamilyhotel.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g194745-d482242,Cristallo Resort & Spa,IT,http://cristallo.it,200,,,,,1,2026-11-23T16:12:00Z
+ta:g194752-d269332,Hotel Torino Wellness & Spa,IT,https://www.hoteltorinodiano.it/fr/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/1870?lang=FR&#038;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g194763-d2620786,Hotel La Baita,IT,https://www.hotellabaita.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=4147&lang=it,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g194789-d15675622,Quellenhof Luxury Resort Lazise,IT,https://www.quellenhof-lazise.it/,200,,,https://www.quellenhof-lazise.it/wohnen-angebote/anfrage,quellenhof-lazise.it,3,2026-11-23T16:12:00Z
+ta:g194796-d1074837,Hotel Europa,IT,https://www.h-europa.it/,200,simplebooking,simplebooking.it,,,1,2026-11-23T16:12:00Z
+ta:g194796-d1151812,Hotel Miramare,IT,https://www.miramare.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/9486?lang=IT&amp;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g194796-d1170642,Hotel Bellavista,IT,https://www.bellavistalignano.it/,200,ericsoft,ericsoft,https://booking.ericsoft.com/NewBooking/book.aspx?id=dpUqhc%2b%2fj4E%3d&lingua=it,booking.ericsoft.com,1,2026-11-23T16:12:00Z
+ta:g194796-d1473191,Monaco Suites Hotel,IT,https://www.hotelmonaco.net,200,blastness,blastness,https://book.blastness.com/results?lingua_int=ita&id_albergo=30354&dc=3461&id_stile=571&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=23&mm=11&aa=2026,book.blastness.com,1,2026-11-23T16:12:00Z
+ta:g194796-d506975,Hotel Daniele,IT,https://www.hoteldaniele.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=9093,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g194799-d314231,Hotel Amerikan,IT,https://hotelamerikanlivigno.com/,200,,,https://be.bookingexpert.it/book/home/index?layout=1893&amp;lang=it&amp;currency=EUR&amp;nsid=f25c9228-1e79-4d3b-a9cf-a9625f991503,be.bookingexpert.it,3,2026-11-23T16:12:00Z
+ta:g194799-d314262,Sport Hotel,IT,https://www.sporthotellivigno.it/,200,,,https://be.bookingexpert.it/book/simple/step2?hotel=19865&amp;lang=it&amp;currency=EUR,be.bookingexpert.it,3,2026-11-23T16:12:00Z
+ta:g194799-d602603,MOTA hotel,IT,https://www.hotelmota.com/,200,,,https://secure.iperbooking.net/be/en/hotel-mota-livigno/,secure.iperbooking.net,3,2026-11-23T16:12:00Z
+ta:g194805-d1519712,Hotel Chalet all'Imperatore,IT,https://www.chaletallimperatore.com/,200,ericsoft,ericsoft,https://booking.ericsoft.com/BookingEngine/Book?idh=125680A61DEFD80C&lang=it&cur=EUR&pax=2_0_0_0_0&acmp=RT0,booking.ericsoft.com,1,2026-11-23T16:12:00Z
+ta:g194805-d1636860,Hotel Maribel,IT,https://maribelhotel.it/,200,,,https://www.scidoo.com/preventivov2/?cod=52a23165-f91f-401f-a6c7-4b80c63dde1f,scidoo.com,2,2026-11-23T16:12:00Z
+ta:g194805-d529273,Style Grifone Hotel,IT,https://www.stylehotelgrifone.it/,200,vertical_booking,verticalbooking,https://www.stylehotelgrifone.it/it/assicura-la-tua-vacanza,stylehotelgrifone.it,1,2026-11-23T16:12:00Z
+ta:g194805-d529631,Hotel Crozzon,IT,https://www.hotelcrozzon.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/1955?lang=IT,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g194822-d17415406,"Staycity Aparthotels, Venice, Mestre",IT,https://www.staycity.com/venice/mestre/,200,,,"https://booking.staycity.com/?city=Venice&aparthotel=EUHI0015&arrivalDate=2026-11-23&departureDate=2026-11-24&apartments=a1,c0,b0",booking.staycity.com,3,2026-11-23T16:12:00Z
+ta:g194823-d2175614,Bellettini Hotel,IT,https://www.bellettinihotel.it/,200,simplebooking,simplebooking.it,https://my.bellettinihotel.it/it-IT/reservation/module,my.bellettinihotel.it,1,2026-11-23T16:12:00Z
+ta:g194825-d1168892,Hotel Alle Alpi Beauty & Relax,IT,https://www.hotelallealpi.it/,200,blastness,blastness,,,1,2026-11-23T16:12:00Z
+ta:g194825-d529191,Leading Relax Hotel Maria,IT,https://www.hotelmaria.com/,200,simplebooking,simplebooking.it,https://www.hotelmaria.com/ita/Prenota,hotelmaria.com,1,2026-11-23T16:12:00Z
+ta:g194825-d677729,Hotel Garden Moena,IT,https://www.hotelgardenmoena.it/,200,vertical_booking,verticalbooking,https://be.bookingexpert.it/book/home/index?layout=16809&amp;nsid=870ae225-f549-4864-b0e7-eff366152eb0,be.bookingexpert.it,1,2026-11-23T16:12:00Z
+ta:g194835-d1125876,Palazzo Seneca,IT,https://www.palazzoseneca.com,200,blastness,blastness,,,1,2026-11-23T16:12:00Z
+ta:g194841-d1389126,La Perla Hotel,IT,https://www.laperlahotel.info/,200,,,https://www.laperlahotel.info/anfrage-service/online-buchen.html,laperlahotel.info,3,2026-11-23T16:12:00Z
+ta:g194841-d269037,ADLER Dolomiti,IT,https://www.adler-dolomiti.com,error: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1011),,,,,1,2026-11-23T16:12:00Z
+ta:g194863-d195499,Le Sirenuse,IT,https://sirenuse.it/,200,,,https://sirenuse.it/en/booking/#/booking/step-1,sirenuse.it,2,2026-11-23T16:12:00Z
+ta:g194863-d229064,Hotel Eden Roc,IT,https://www.edenroc.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/983?lang=IT,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g194867-d276585,Hotel Tramonto D'oro,IT,https://www.tramontodoro.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/6972?lang=IT&#038;cur=EUR&#038;in=2027-04-19&#038;out=2027-04-20,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g194867-d571498,Casa Angelina,IT,https://www.casangelina.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g194878-d17760908,The Promenade Luxury Wellness Hotel,IT,http://www.hotelpromenade.it/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g194883-d233153,Hotel Luise,IT,https://www.hotelluise.com/,200,,,https://www.scidoo.com/preventivov2/?cod=1673&amp;lang=0,scidoo.com,3,2026-11-23T16:12:00Z
+ta:g194883-d233469,Du Lac et Du Parc Grand Resort,IT,https://dulacetduparc.com/,200,d_edge,d-edge,https://book.dulacetduparc.com/#/hotel/1970/channel/569/language/2/package/view/6516,book.dulacetduparc.com,1,2026-11-23T16:12:00Z
+ta:g194883-d314203,Lido Palace,IT,https://www.lido-palace.it/,200,synxis,synxis.com,https://be.synxis.com/?adult=2&amp;arrive=2023-02-01&amp;chain=24447&amp;child=0&amp;currency=EUR&amp;depart=2023-02-02&amp;hotel=6782&amp;level=hotel&amp;locale=en-US&amp;rooms=1&amp;src=30,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g194885-d1720878,Hotel Le Ortensie,IT,https://www.hotelleortensie.it/,200,,,https://www.hotelleortensie.it/it/contatti-richieste.html,hotelleortensie.it,2,2026-11-23T16:12:00Z
+ta:g194896-d1168513,Naturhotel Leitlhof,IT,https://www.leitlhof.com/,200,seekda,seekda,https://booking.leitlhof.com,booking.leitlhof.com,1,2026-11-23T16:12:00Z
+ta:g194896-d529349,Hotel Villa Stefania,IT,https://www.villastefania.com/,200,,,https://www.villastefania.com/en/rooms-prices/booking.html,villastefania.com,2,2026-11-23T16:12:00Z
+ta:g194907-d232506,Hotel Caravel Sorrento,IT,https://www.hotelcaravel.com/,200,,,https://www.hotelcaravel.com/en/reservations,hotelcaravel.com,2,2026-11-23T16:12:00Z
+ta:g194911-d1315068,Hotel Resmairhof,IT,https://www.resmairhof.it/,200,,,https://www.resmairhof.it/anfragen,resmairhof.it,3,2026-11-23T16:12:00Z
+ta:g194911-d962408,Baumgartner's Blumenhotel,IT,https://www.blumenhotel.it/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g194912-d1104983,Chalet S Dolomites,IT,https://www.chalet-s.eu/,200,,,https://www.chalet-s.eu/en/online-booking.asp,chalet-s.eu,2,2026-11-23T16:12:00Z
+ta:g194912-d314491,Alpenroyal Hotel,IT,https://www.alpenroyal.com/,200,,,https://www.alpenroyal.com/en/online-booking.asp,alpenroyal.com,2,2026-11-23T16:12:00Z
+ta:g194912-d951755,Granbaita Dolomites,IT,https://www.hotelgranbaita.com/,200,seekda,seekda,https://booking.hotelgranbaita.com,booking.hotelgranbaita.com,2,2026-11-23T16:12:00Z
+ta:g194922-d1846791,Hotel Marlet,IT,https://www.marlet.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g194924-d236083,Hotel San Luca,IT,https://www.hotelsanluca.com/,200,blastness,blastness,,,1,2026-11-23T16:12:00Z
+ta:g194933-d1370749,Hotel Patrizia,IT,https://hotel-patrizia.it,200,,,https://booking.hotel-patrizia.it/?language=de&#038;activeBookingEngine=KBE&#038;propertyCode=S005746&#038;skd-checkin=2025-10-31&#038;skd-checkout=2025-11-07&#038;skd-language-code=de&#038;skd-property-code=S005746,booking.hotel-patrizia.it,3,2026-11-23T16:12:00Z
+ta:g194933-d1594133,Hotel Küglerhof,IT,https://www.kueglerhof.it/,200,,,https://secure.iperbooking.net/be/en/kueglerhof-tirol/,secure.iperbooking.net,2,2026-11-23T16:12:00Z
+ta:g194933-d6975324,Hotel Krause,IT,https://www.hotel-krause.it/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g194933-d7274286,Somvita Suites,IT,https://www.somvita-suites.com/,200,,,https://www.somvita-suites.com/essen-trinken/tischreservierung,somvita-suites.com,3,2026-11-23T16:12:00Z
+ta:g194935-d314166,Hotel Lago di Garda,IT,https://www.hotellagodigarda.it/,200,,,https://booking.hotellagodigarda.it/book/manage/login?layout=12845&amp;lang=it&amp;currency=EUR&amp;nsid=c05c9281-d9e3-4696-880e-6574fd760603,booking.hotellagodigarda.it,3,2026-11-23T16:12:00Z
+ta:g194940-d1522818,Hotel Hubertus,IT,https://www.hotel-hubertus.com/,200,,,https://booking.hotel-hubertus.com/be/de/hotel-hubertus-valdaora,booking.hotel-hubertus.com,3,2026-11-23T16:12:00Z
+ta:g194940-d1535101,Das Bärenhotel,IT,https://www.baerenhotel.com,200,,,https://www.baerenhotel.com/anfragen,baerenhotel.com,2,2026-11-23T16:12:00Z
+ta:g196706-d14958929,St-Alban Hotel & Spa,FR,https://www.hotel-st-alban.com/,200,d_edge,secure-hotel-booking.com,https://www.hotelstalban.com/spa-booking,hotelstalban.com,1,2026-11-23T16:12:00Z
+ta:g196707-d314350,Hotel Chalet Mounier,FR,https://www.chalet-mounier.com/fr/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g196714-d1636523,Hôtel Les Suites - Maison Bouvier,FR,https://maison-bouvier.com/hotel-tignes-savoie/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g196716-d2324880,Altapura,FR,https://www.altapura.fr/,200,,,https://www.covermanager.com/reserve/module_restaurant/restaurant-casaalta/french,covermanager.com,3,2026-11-23T16:12:00Z
+ta:g198407-d234682,Hotel Franks,DE,https://www.parkhotel-frank.de,error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: ,,,,,1,2026-11-23T16:12:00Z
+ta:g198414-d1107424,Bio Thermalhotel Falkenhof,DE,https://www.hotel-falkenhof.de/,200,,,https://www.hotel-falkenhof.de/anfrage/,hotel-falkenhof.de,2,2026-11-23T16:12:00Z
+ta:g198471-d1757323,Parkhotel Stuttgart Messe-Airport,DE,http://www.parkhotel-stuttgart.de,200,synxis,synxis.com,https://be.synxis.com/?Hotel=3779&amp;Chain=21125,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g198501-d238111,Burghotel Auf Schönburg,DE,http://www.burghotel-schoenburg.de/,200,feratel,feratel,,,1,2026-11-23T16:12:00Z
+ta:g198559-d607704,Asam Hotel,DE,https://www.hotelasam.de/,200,,,https://www.opentable.de/restref/client/?restref=107757,opentable.de,3,2026-11-23T16:12:00Z
+ta:g198564-d557450,Das König Ludwig Inspiration Spa,DE,https://www.koenig-ludwig-hotel.de/,200,,,https://www.koenig-ludwig-hotel.de/,koenig-ludwig-hotel.de,3,2026-11-23T16:12:00Z
+ta:g198628-d1536361,Hotel Ketschauer Hof,DE,https://www.ketschauer-hof.com/,200,,,https://www.opentable.de/booking/restref/availability?rid=11625&lang=de-DE&correlationId=041cadbe-ce3e-4d25-a075-87117253e897&restRef=11625&partySize=0&dateTime=2025-11-22T19:00,opentable.de,3,2026-11-23T16:12:00Z
+ta:g198795-d4608234,The Chedi Andermatt,CH,https://www.thechediandermatt.com/de,403,,,,,1,2026-11-23T16:12:00Z
+ta:g198815-d788225,Romantik Hotel Schweizerhof & Spa,CH,https://www.schweizerhof-flims.ch/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/7065?lang=DE&amp;cur=CHF,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g198827-d206145,Grand Hôtel du Lac,CH,https://www.ghdl.ch,200,,,https://mytools.aleno.me/reservations/v2.0/reservations.html?k=eyJrIjoid2l2dTVrM2lsNm15cnBiOWlwdzZ4bmViajhycnVkaWRpZ280bGZwODBsbzlhNGlweTEiLCJyIjoiWlB2bkJtUlh5NVEyV1RkY28iLCJzIjoiaHR0cHM6Ly9teXRvb2xzLmFsZW5vLm1lLyJ9,mytools.aleno.me,3,2026-11-23T16:12:00Z
+ta:g198827-d254210,Hôtel des Trois Couronnes - The Leading Hotels of the World,CH,https://www.hoteltroiscouronnes.ch/,200,synxis,synxis.com,https://widget.thefork.com/fr/56b4cc8e-9ce0-427f-815b-95d0253106fd,widget.thefork.com,1,2026-11-23T16:12:00Z
+ta:g198830-d236137,Ambassador Boutique Hotel,CH,https://www.hotel-ambassador-nyon.ch/,200,mews,mews.com/distributor,https://api.mews.com/distributor/b6e13991-e4c4-4f1e-963a-ae150072c5d2,api.mews.com,1,2026-11-23T16:12:00Z
+ta:g198832-d236315,Grand Hotel Kronenhof,CH,https://www.kronenhof.com/,200,synxis,synxis.com,https://reservations.kronenhof.com/?adult=2&arrive=2026-11-24&chain=10205&child=0&currency=CHF&depart=2026-11-26&hotel=6058&level=hotel&locale=en-US&nocache=true&rooms=1,reservations.kronenhof.com,2,2026-11-23T16:12:00Z
+ta:g198834-d233004,Hotel Waldhaus,CH,https://waldhaus-sils.ch/,200,,,https://booking.waldhaus-sils.ch/waldhaus-sils,booking.waldhaus-sils.ch,3,2026-11-23T16:12:00Z
+ta:g198834-d236354,Parkhotel Margna,CH,https://www.margna.ch/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5715?lang=DE&amp;cur=CHF,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g198839-d646572,Hotel Allalin,CH,https://www.allalin.ch/,200,simplebooking,simplebooking.it,https://allalin.ch/booking/,allalin.ch,1,2026-11-23T16:12:00Z
+ta:g198842-d253998,Ermitage Wellness- & Spa-hotel,CH,http://www.ermitage.ch/,200,simplebooking,simplebooking.it,https://shop.tac.eu.com/hls/3/shop/reservations/category/,shop.tac.eu.com,1,2026-11-23T16:12:00Z
+ta:g198849-d1176209,Chalet RoyAlp Hotel & Spa,CH,https://www.royalp.ch/,200,synxis,synxis.com,https://be.synxis.com/?chain=24447&amp;hotel=6898&amp;SRC=30,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g198858-d291829,Hotel Schweizerhof,CH,http://www.schweizerhof-lenzerheide.ch,200,simplebooking,simplebooking.it,"https://www.simplebooking.it/ibe2/hotel/7205?lang=DE&cur=CHF&guests=A,A",simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g198858-d676005,Hotel Lenzerhorn Spa & Wellness,CH,https://hotel-lenzerhorn.ch/,200,simplebooking,simplebooking.it,https://reserve.foratable.com/?restaurantHash=6ea52d2a0ddea458904e2529be9008f8#!/room,reserve.foratable.com,1,2026-11-23T16:12:00Z
+ta:g198861-d233224,Park Hotel Vitznau,CH,https://www.parkhotel-vitznau.ch/,200,,,https://spa.parkhotel-vitznau.ch/,spa.parkhotel-vitznau.ch,3,2026-11-23T16:12:00Z
+ta:g198865-d231846,Giardino Ascona,CH,https://www.giardino-ascona.ch/,200,synxis,synxis.com,https://be.synxis.com/?_ga=2.264618191.1946620487.1737823753-945747624.1737823753&amp;_gac=1.189891033.1737823753.CjwKCAiAtNK8BhBBEiwA8wVt9w6uVHD8PtXiYgyXS7an3kEesNtOBl64lLkEShAyk8ZbeDh3dUyyHRoCsBIQAvD_BwE&amp;_gl=1*d99cqr*_gcl_aw*R0NMLjE3Mzc4MjM3NjAuQ2p3S0NBaUF0Tks4QmhCQkVpd0E4d1Z0OXc2dVZIRDhQdFhpW,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g198865-d234214,Castello del Sole Beach Resort & SPA,CH,https://www.castellodelsole.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/4556?lang=EN,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g207359-d500731,Hotel Champs Fleuris,FR,http://www.hotel-champs-fleuris.com/fr/,200,reservit,reservit.com,"https://secure.reservit.com/fo/booking/2/140274/availability?nbroom=1&specialMode=default&begindate=29%2F12%2F2023&tmonth=12&tyear=2023&hotelid=140274&numnight=1&m=booking&roomAge1=40,40&langcode=FR&enddate=30%2F12%2F2023&fyear=2023&custid=2&fmonth=12&tday=30",secure.reservit.com,1,2026-11-23T16:12:00Z
+ta:g207359-d500732,Hôtel & Spa Le Dahu,FR,https://www.dahu.com/,200,d_edge,secure-hotel-booking.com,https://www.dahu.com/fr/book.html,dahu.com,2,2026-11-23T16:12:00Z
+ta:g207359-d602571,Hotel La Bergerie,FR,https://www.hotel-bergerie.com/fr/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g2145201-d941761,Hotel Pilatus-Kulm,CH,https://pilatus.ch/hotels/hotel-pilatus-kulm,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5821/offer/237742?lang=DE&amp;cur=CHF,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g2223482-d8856193,Villa Rene Lalique,FR,https://villarenelalique.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g2269222-d1884306,Parc Hotel Am Kalterer See,IT,http://www.parchotel.cc/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g227585-d1342682,Die Hochkönigin - Mountain Resort,AT,https://www.hochkoenigin.com/,200,,,https://www.hochkoenig.at/de/buchen/maria-alm-die-hochkoenigin-mountain-resort.html,hochkoenig.at,3,2026-11-23T16:12:00Z
+ta:g227585-d3490094,Berg & Spa Hotel Urslauerhof,AT,https://www.urslauerhof.at/,200,,,https://www.urslauerhof.at/schnellanfrage.html,urslauerhof.at,3,2026-11-23T16:12:00Z
+ta:g2276853-d2347462,INNs Holz,AT,https://www.innsholz.at/,200,,,https://www.innsholz.at/schnellanfrage.html,innsholz.at,3,2026-11-23T16:12:00Z
+ta:g227888-d229037,Hotel Cenobio dei Dogi,IT,https://cenobio.it/,200,,,https://be.bookingexpert.it/book/home/single?layout=13402&#038;lang=it&#038;currency=EUR,be.bookingexpert.it,3,2026-11-23T16:12:00Z
+ta:g229452-d1222305,Hotel die Barbara,AT,https://diebarbara.at/,200,,,https://buchen.diebarbara.at/Websline-ABM/Homepage/Booking/Preset?CodeHash=54-3f0f25cae965a7749ad34f4d6cc7e615d6af48af,buchen.diebarbara.at,3,2026-11-23T16:12:00Z
+ta:g230011-d1514263,Grand Hotel Lienz,AT,https://www.grandhotel-lienz.com,200,seekda,seekda,https://booking.grandhotel-lienz.com/?skd-language-code=de,booking.grandhotel-lienz.com,2,2026-11-23T16:12:00Z
+ta:g262035-d1228068,Hotel Mohnenfluh,AT,https://www.mohnenfluh.com/,200,casablanca,casablanca.at,https://www.mohnenfluh.com/online-buchen?casapackage=PMS_YPNRTUOM,mohnenfluh.com,2,2026-11-23T16:12:00Z
+ta:g262035-d1605341,Hotel Auenhof,AT,https://www.auenhof.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g262035-d1734862,Hotel Garni Schneider,AT,https://schneider-lech.at/,error: The read operation timed out,,,,,1,2026-11-23T16:12:00Z
+ta:g262035-d263524,Hotel Arlberg Lech,AT,https://www.arlberghotel.at/,200,seekda,seekda,https://s000058.officialbookings.com/?activeBookingEngine=KBE&propertyCode=S000058,s000058.officialbookings.com,2,2026-11-23T16:12:00Z
+ta:g262035-d282368,Hotel Haldenhof,AT,https://www.haldenhof.at/,200,,,https://booking.haldenhof.at/websLINE-ABM/homepage/booking/index/de,booking.haldenhof.at,3,2026-11-23T16:12:00Z
+ta:g262035-d291954,Burg Vital Resort,AT,http://www.burgvitalhotel.at/,503,,,,,1,2026-11-23T16:12:00Z
+ta:g262035-d295434,Hotel Aurora,AT,https://www.aurora-lech.com/,200,,,https://www.aurora-lech.com/anfragen,aurora-lech.com,3,2026-11-23T16:12:00Z
+ta:g262035-d315708,Der Berghof,AT,https://www.derberghof.at/,200,seekda,seekda,https://bookings.derberghof.at,bookings.derberghof.at,1,2026-11-23T16:12:00Z
+ta:g262035-d316306,Hotel Gotthard,AT,https://www.gotthard.at/,200,seekda,seekda,https://book.gotthard.at/,book.gotthard.at,2,2026-11-23T16:12:00Z
+ta:g262035-d316316,Hotel Jagdhaus Monzabon,AT,https://www.monzabon.at/,200,,,https://www.monzabon.at/anfragen,monzabon.at,3,2026-11-23T16:12:00Z
+ta:g262035-d316322,Hotel Sandhof,AT,https://www.sandhof.at/,200,,,https://www.sandhof.at/anfrageformular,sandhof.at,2,2026-11-23T16:12:00Z
+ta:g262035-d850390,Hotel Austria Lech,AT,https://www.hotelaustria.com/,200,seekda,seekda,https://booking.hotelaustria.com/,booking.hotelaustria.com,2,2026-11-23T16:12:00Z
+ta:g274697-d276012,Hotel Romance,CZ,https://www.hotelromance.cz/,200,,,https://www.hotelromance.cz/booking.html,hotelromance.cz,3,2026-11-23T16:12:00Z
+ta:g274697-d630391,Karlsbad Grande Madonna Spa & Wellness Hotel,CZ,https://hotel-kgm.cz,455,,,,,1,2026-11-23T16:12:00Z
+ta:g274707-d1159286,"Augustine Hotel, Prague",CZ,https://www.augustinehotel.com/,error: timed out,,,,,1,2026-11-23T16:12:00Z
+ta:g274707-d1231513,Buddha-Bar Hotel Prague,CZ,https://www.buddhabarhotelprague.com/,200,bookassist,bookassist,https://www.buddhabarhotelprague.com/en/reservations,buddhabarhotelprague.com,1,2026-11-23T16:12:00Z
+ta:g274707-d1485015,Kings Court Prague Deluxe Hotel,CZ,https://www.hotelkingscourt.cz/,200,synxis,travelclick,https://reservations.travelclick.com/76050?ProdID=421167&LanguageID=1,reservations.travelclick.com,1,2026-11-23T16:12:00Z
+ta:g274707-d1986610,Hotel Klarov,CZ,https://hotelklarov.cz,200,synxis,travelclick,https://bookings.ihotelier.com/Hotel-Klarov-Prague/bookings.jsp?hotelId=95909&amp;LanguageID=1&amp;discount=ASTEN,reservations.astenhotels.com,2,2026-11-23T16:12:00Z
+ta:g274707-d23651163,"Andaz Prague, By Hyatt",CZ,https://www.hyatt.com/andaz/en-US/prgaz-andaz-prague,403,,,,,1,2026-11-23T16:12:00Z
+ta:g274707-d25397629,The Manes Boutique Hotel Prague,CZ,https://www.themanes.cz/,200,mews,mews.com/distributor,https://www.fresha.com/a/mosaic-house-hlavni-mesto-praha-odboru-278-4-ot5o52te/booking?menu=true,fresha.com,1,2026-11-23T16:12:00Z
+ta:g274707-d275239,Le Palais Art Hotel Prague,CZ,https://www.lepalaishotel.eu/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g274707-d275253,Hotel Paris Prague,CZ,https://www.buddhabarhotelprague.com/,200,bookassist,bookassist,https://www.buddhabarhotelprague.com/en/reservations,buddhabarhotelprague.com,1,2026-11-23T16:12:00Z
+ta:g274707-d275493,Maximilian Hotel,CZ,https://www.maximilianhotel.com/,200,,,https://www.brasseriemaximilian.com/en/online-reservation/,brasseriemaximilian.com,2,2026-11-23T16:12:00Z
+ta:g274707-d275498,Grand Hotel Bohemia,CZ,https://www.grandhotelbohemia.cz/,200,,,https://grandhotelbohemia.book-onlinenow.net/,grandhotelbohemia.book-onlinenow.net,3,2026-11-23T16:12:00Z
+ta:g274707-d275502,Unitas Hotel,CZ,https://www.unitas.cz,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g274707-d276538,Hotel Golden Star,CZ,https://www.hotelgoldenstar.cz/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g274707-d276604,Fleur De Lis Hotel,CZ,https://www.fleurdelis-hotel.cz/,error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: ,,,,,1,2026-11-23T16:12:00Z
+ta:g274707-d276609,Hotel Waldstein,CZ,https://www.augustinehotel.com/,error: timed out,,,,,1,2026-11-23T16:12:00Z
+ta:g274707-d280282,Aria Hotel Prague,CZ,https://www.ariahotel.net/,200,synxis,travelclick,https://reservations.travelclick.com/15760?HotelId=15760&languageid=1&rooms=1&adults=1&roomtypeid=83057,reservations.travelclick.com,1,2026-11-23T16:12:00Z
+ta:g274707-d280324,Hotel Schwaiger,CZ,http://www.hotelschwaiger.cz/,200,bookassist,bookassist,https://www.hotelschwaiger.cz/rezervace/,hotelschwaiger.cz,1,2026-11-23T16:12:00Z
+ta:g274707-d4326734,Innside Prague,CZ,https://www.melia.com,403,,,,,1,2026-11-23T16:12:00Z
+ta:g274707-d581385,Hotel Hastal Prague Old Town,CZ,https://www.hotelhastalprague.com/,200,d_edge,secure-hotel-booking.com,https://www.hastal.com/booking/,hastal.com,1,2026-11-23T16:12:00Z
+ta:g274707-d5897191,Dolce Vita Suites,CZ,https://www.irongatehotel.com/,200,,,https://deerprague.com/rezervace,deerprague.com,2,2026-11-23T16:12:00Z
+ta:g274707-d616395,"Mandarin Oriental, Prague",CZ,https://www.mandarinoriental.com/,200,synxis,synxis.com,https://be.synxis.com/signin?chain=507,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g274873-d3547110,G Design Hotel,SI,https://gdesignhotel.si/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g274884-d26146311,Hotel Vinifera Wine & Spa,HU,https://vinifera.hu,200,,,https://book.vinifera.hu/foglalas/kereses,book.vinifera.hu,2,2026-11-23T16:12:00Z
+ta:g274887-d1200734,Eurostars Palazzo Zichy,HU,https://www.eurostarshotels.co.uk/eurostars-palazzo-zichy.html,200,,,,,1,2026-11-23T16:12:00Z
+ta:g274887-d13392862,Hotel Clark Budapest,HU,https://hotelclarkbudapest.hu/,200,synxis,synxis.com,https://be.synxis.com/?adult=2&chain=5375&currency=EUR&hotel=1892&locale=hu-HU&arrive=YYYY-MM-DD&depart=YYYY-MM-DD,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g274887-d15141883,Hotel Collect,HU,https://hotelcollect.hu/,200,,,https://ibe.sabeeapp.com/properties/Hotel-Collect-booking/?p=bSp1688c95e30bebd05&amp;l=en,ibe.sabeeapp.com,3,2026-11-23T16:12:00Z
+ta:g274887-d1557739,Opera Garden Hotel & Apartments,HU,https://www.operagardenhotel.hu/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g274887-d17783358,Párisi Udvar Hotel Budapest,HU,https://www.hyatt.com/unbound-collection/en-US/budub-parisi-udvar-hotel,403,,,,,1,2026-11-23T16:12:00Z
+ta:g274887-d1977620,ESCALA Hotel & Suites,HU,https://escalabudapest.com,200,synxis,travelclick,https://reservations.travelclick.com/116214?Adults=2&Children=0&languageid=1,reservations.travelclick.com,1,2026-11-23T16:12:00Z
+ta:g274887-d2035671,Bohem Art Hotel,HU,https://www.bohemarthotel.hu/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g274887-d20767878,Hotel Vision Budapest,HU,https://www.hotelvision.hu,200,synxis,synxis.com,https://be.synxis.com/?chain=5375&currency=EUR&hotel=17478&locale=en-US&config=VisionCI,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g274887-d22120945,"Matild Palace, a Luxury Collection Hotel, Budapest",HU,https://www.marriott.com/en-us/hotels/budlc-matild-palace-a-luxury-collection-hotel-budapest,403,,,,,1,2026-11-23T16:12:00Z
+ta:g274887-d23394053,Crowne Plaza Budapest By IHG,HU,https://www.ihg.com/crowneplaza/hotels/us/en/budapest/budpb/hoteldetail,403,,,,,1,2026-11-23T16:12:00Z
+ta:g274887-d23959231,EST Grand Hotel Savoy,HU,https://www.est-hotels.com/grand-hotel-savoy/welcome/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g274887-d276362,Hilton Budapest,HU,https://www.hilton.com/en/hotels/budhitw-hilton-budapest/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g274887-d276381,Boutique Hotel Victoria Budapest,HU,https://www.victoria.hu/,200,synxis,synxis.com,https://be.synxis.com/?chain=5375&amp;currency=EUR&amp;hotel=67922&amp;locale=en-US,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g274887-d597800,Ikonik Parlament,HU,https://www.ikonikparlament.com,200,,,https://www.ikonikparlament.com/my-book.html,ikonikparlament.com,2,2026-11-23T16:12:00Z
+ta:g274887-d602514,Anantara New York Palace Budapest Hotel,HU,https://www.anantara.com/en/new-york-palace-budapest,200,siteminder,direct-book.com,https://www.anantara.com/en/my-booking?hc=HUBU.NYPAL,anantara.com,2,2026-11-23T16:12:00Z
+ta:g274887-d7392359,Bo33 Hotel Family & Suites,HU,https://www.bo33hotelbudapest.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g274887-d7818402,Prestige Hotel Budapest,HU,https://www.mamaisonhotelchainbridge.com/,200,,,https://www.mamaisonhotelchainbridge.com/en/reservations,mamaisonhotelchainbridge.com,2,2026-11-23T16:12:00Z
+ta:g274887-d9250207,Hotel Moments Budapest,HU,https://hotelmomentsbudapest.hu,200,synxis,synxis.com,https://be.synxis.com/?adult=2&chain=5375&hotel=67171&locale=en-US,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g274920-d276842,Silvanus Hotel Visegrad,HU,https://www.hotelsilvanus.hu/,200,,,https://hotelsilvanus.hu/ajanlataink/szobafoglalas/,hotelsilvanus.hu,2,2026-11-23T16:12:00Z
+ta:g274924-d1435845,Hotel Danubia Gate Bratislava,SK,https://www.danubiagate.sk/,200,d_edge,secure-hotel-booking.com,https://www.danubiagate.sk/en/reservations,danubiagate.sk,1,2026-11-23T16:12:00Z
+ta:g274924-d1592032,Sheraton Bratislava Hotel,SK,https://www.sheratonbratislava.sk/,200,,,https://www.marriott.com/hotels/travel/btssi-sheraton-bratislava-hotel/,marriott.com,3,2026-11-23T16:12:00Z
+ta:g274924-d276296,Hotel Marrol's,SK,https://www.hotelmarrols.sk/,200,,,https://hotelmarrols.book-onlinenow.net/index.aspx?Page=1&amp;src=1&amp;lan_id=sk-SK,hotelmarrols.book-onlinenow.net,2,2026-11-23T16:12:00Z
+ta:g274924-d669692,Arcadia Boutique Hotel,SK,https://www.arcadia-hotel.sk/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g285716-d11019402,Hotel Lomnica,SK,https://www.hotellomnica.sk/,200,,,https://booking.hotellomnica.sk/sk/,booking.hotellomnica.sk,3,2026-11-23T16:12:00Z
+ta:g294454-d301428,Esplanade Zagreb Hotel,HR,https://www.esplanade.hr/,200,synxis,travelclick,https://reservations.travelclick.com/77283?HotelID=77283&#038;languageid=1#/guestsandrooms%20,reservations.travelclick.com,1,2026-11-23T16:12:00Z
+ta:g294472-d6707465,"Radisson Collection Hotel, Old Mill Belgrade",RS,https://www.radissonhotels.com/en-us/hotels/radisson-collection-old-mill-belgrade,403,,,,,1,2026-11-23T16:12:00Z
+ta:g295370-d6871450,Cornaro Hotel,HR,https://cornarohotel.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g295371-d559522,Hilton Imperial Dubrovnik,HR,https://www.hilton.com/en/hotels/dbvhihi-hilton-imperial-dubrovnik/,403,,,,,1,2026-11-23T16:12:00Z
+ta:g295374-d32822737,Hyatt Regency Zadar,HR,https://www.hyatt.com/hyatt-regency/en-US/zadrz-hyatt-regency-zadar,403,,,,,1,2026-11-23T16:12:00Z
+ta:g296672-d579480,Hotel Cortisen am See,AT,http://www.cortisen.at/,200,seekda,seekda,https://buchen.cortisen.at,buchen.cortisen.at,2,2026-11-23T16:12:00Z
+ta:g319732-d1140276,Hotel Princess Bergfrieden,AT,https://www.oasisresorts.de/princessbergfrieden,410,,,,,1,2026-11-23T16:12:00Z
+ta:g319732-d291520,Alpin Resort Sacher,AT,https://seefeld.sacher.com/,200,synxis,synxis.com,,,1,2026-11-23T16:12:00Z
+ta:g319732-d315538,Hotel Klosterbräu & SPA,AT,https://www.klosterbraeu.com/,200,,,https://www.klosterbraeu.com/hotel-tirol/buchung,klosterbraeu.com,3,2026-11-23T16:12:00Z
+ta:g319732-d500144,Hotel Central,AT,https://www.central-seefeld.at/,200,seekda,seekda,https://booking.central-seefeld.com/,booking.central-seefeld.com,1,2026-11-23T16:12:00Z
+ta:g319732-d646259,Parkhotel Seefeld,AT,https://www.parkhotel-seefeld.at/,200,seekda,seekda,https://booking.parkhotel-seefeld.at/,booking.parkhotel-seefeld.at,1,2026-11-23T16:12:00Z
+ta:g3444827-d1476625,HOTEL MONTANA,IT,http://www.hotelmontana.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5477?lang=IT&#038;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g4758655-d2548715,Chateau Heralec - Boutique Hotel & Spa by L'OCCITANE,CZ,https://www.chateauheralec.cz/,200,,,https://www.chateauheralec.cz/en/booking,chateauheralec.cz,3,2026-11-23T16:12:00Z
+ta:g562747-d17415385,"Armancette Hôtel, Chalets & Spa",FR,https://www.armancette.com/,503,,,,,1,2026-11-23T16:12:00Z
+ta:g562790-d534850,Hotel Boehler,DE,https://www.hotel-boehler.com,200,siteminder,direct-book.com,https://www.hotel-boehler.com/reservierungsanfrage/,hotel-boehler.com,1,2026-11-23T16:12:00Z
+ta:g580182-d289833,Hôtel Le Savoy Méribel,FR,https://www.hotel-savoy-meribel.com/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g580223-d1554785,Park Hotel Argento,IT,https://www.parkhotelargento.com/,200,simplebooking,simplebooking.it,https://booking.slope.it/afe4dace-84a6-4796-90ce-104b7dbf0862,booking.slope.it,1,2026-11-23T16:12:00Z
+ta:g580235-d1457608,Tyrol Family Retreat,IT,https://www.tyrol.it/,200,,,https://www.tyrol.it/buchen,tyrol.it,3,2026-11-23T16:12:00Z
+ta:g580235-d1809073,Hotel Prokulus Family & Wellness,IT,https://www.tyrol.it/,200,,,https://www.tyrol.it/buchen,tyrol.it,3,2026-11-23T16:12:00Z
+ta:g580235-d654790,Feldhof DolceVita Resort,IT,https://www.feldhof.com/,200,seekda,seekda,https://booking.feldhof.com/,booking.feldhof.com,2,2026-11-23T16:12:00Z
+ta:g580235-d654794,Lindenhof,IT,http://www.lindenhof.it,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/10456?lang=EN&amp;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g580246-d1035722,Hotel delle Nazioni,IT,https://m.hotelnazionijesolo.it/,500,,,,,1,2026-11-23T16:12:00Z
+ta:g580246-d1109668,Milton Boutique Hotel,IT,https://www.hotelmiltonjesolo.com,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/10592?lang=EN&#038;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g580246-d1171946,Hotel Sirenetta,IT,https://www.hotel-sirenetta.it,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/search?hid=10161&amp;lang=IT&amp;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g580246-d1491197,Adriatic Palace Hotel,IT,https://www.hoteladriaticpalace.com,200,vertical_booking,verticalbooking,,,1,2026-11-23T16:12:00Z
+ta:g580246-d1641133,Hotel Galassia,IT,https://www.hotelgalassia.it/it/,200,ericsoft,ericsoft,https://booking.ericsoft.com/BookingEngine/Book?idh=BE53232EB0856075&#038;=it&#038;cur=EUR,booking.ericsoft.com,1,2026-11-23T16:12:00Z
+ta:g580246-d314797,Hotel Principe Palace,IT,https://www.principepalace.it,200,passepartout,passepartout.cloud,https://principepalace.it/prenota/,principepalace.it,2,2026-11-23T16:12:00Z
+ta:g580246-d454998,Park Hotel Brasilia,IT,https://www.parkhotelbrasilia.com,200,vertical_booking,verticalbooking,https://booking.parkhotelbrasilia.com/,booking.parkhotelbrasilia.com,1,2026-11-23T16:12:00Z
+ta:g580246-d529294,Hotel Orient & Pacific,IT,https://www.orient-pacific.net,200,vertical_booking,verticalbooking,https://www.orient-pacific.net/camere/camera-deluxe-spa-frontemare/,orient-pacific.net,1,2026-11-23T16:12:00Z
+ta:g580246-d529301,Cavalieri Palace,IT,https://www.hotelcavalieripalace.com,200,vertical_booking,verticalbooking,https://www.hotelcavalieripalace.com/perche-prenotare/,hotelcavalieripalace.com,1,2026-11-23T16:12:00Z
+ta:g580246-d567084,Hotel Victoria Frontemare,IT,https://www.victoriaprestige.com,200,,,https://www.secure-reservation.cloud/booking-engine/?lang=it,secure-reservation.cloud,3,2026-11-23T16:12:00Z
+ta:g580246-d584478,Hotel Bristol,IT,https://www.bristol-hotel.it,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/11023?lang=IT&cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g580246-d6207800,Almar Jesolo Resort & Spa,IT,https://www.almarjesolo.com,200,,,https://booking.almarjesolo.com/en,booking.almarjesolo.com,2,2026-11-23T16:12:00Z
+ta:g580339-d631970,Hotel Eden Spiez,CH,http://www.eden-spiez.ch,200,hotelnetsolutions,hotelnetsolutions,https://www.vbooking.de/v3/booking.aspx?clientid=edenspiez,vbooking.de,2,2026-11-23T16:12:00Z
+ta:g580344-d637840,Märchenhotel,CH,https://www.maerchenhotel.ch/,200,simplebooking,simplebooking.it,https://maerchenhotel.simplebooking.it/ibe2/hotel/5748?cur=CHF&amp;lang=DE&lang=DE,maerchenhotel.simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g580350-d278510,Lenkerhof Gourmet Spa Resort,CH,https://www.lenkerhof.ch,200,,,https://www.lenkerhof.ch/home/,lenkerhof.ch,3,2026-11-23T16:12:00Z
+ta:g5971121-d1166618,Excelsior Dolomites Life Resort,IT,https://www.myexcelsior.com/,200,seekda,seekda,https://myexcelsior.officialbookings.com/?activeBookingEngine=KBE&amp;propertyCode=IT_STV_EXCELSIOR,myexcelsior.officialbookings.com,2,2026-11-23T16:12:00Z
+ta:g5971121-d1236842,Hotel Condor,IT,http://www.hotelcondor.com,200,,,https://www.hotelcondor.com/en/rooms-and-rates/booking-conditions,hotelcondor.com,3,2026-11-23T16:12:00Z
+ta:g5971121-d1466782,Corona Kristall Hotel,IT,https://www.hotelcorona.net/,200,,,https://hotelcorona.net/de/buchen,hotelcorona.net,3,2026-11-23T16:12:00Z
+ta:g5971121-d252531,Hotel Monte Sella,IT,http://www.monte-sella.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g608658-d1170227,Hotel... mein Neubergerhof,AT,https://www.neubergerhof.at/,200,,,https://booking.neubergerhof.at/booking?cd=137847&id=KFGC5aJo&flex=2,booking.neubergerhof.at,3,2026-11-23T16:12:00Z
+ta:g608661-d10533258,AlpenParks Hotel & Apartment Orgler Kaprun,AT,https://www.alpenparks.at/de/hotel-apartment-orgler-kaprun/,200,seekda,seekda,https://booking-hotel-apartment-orgler-kaprun.alpenparks.at?skd-language-code=de,booking-hotel-apartment-orgler-kaprun.alpenparks.at,1,2026-11-23T16:12:00Z
+ta:g608661-d575343,Der Kapruner Hof,AT,https://www.kaprunerhof.at,200,seekda,seekda,https://booking.kaprunerhof.at,booking.kaprunerhof.at,2,2026-11-23T16:12:00Z
+ta:g608663-d2395722,Hotel Barbarahof,AT,https://www.barbarahof.at,200,,,https://www.capcorn.net/barbarahof-booking/Query?MB=1107&#038;FL=20&#038;LG=0,capcorn.net,3,2026-11-23T16:12:00Z
+ta:g608663-d500756,Saalbacher Hof,AT,https://www.saalbacherhof.at/,200,hotelnetsolutions,hotelnetsolutions,https://www.saalbacherhof.at/de/zimmer-suiten/online-buchung.html,onepagebooking.com,3,2026-11-23T16:12:00Z
+ta:g608663-d671011,Hotel das Zwolferhaus,AT,https://www.daszwoelferhaus.at,200,,,https://www.daszwoelferhaus.at/service-kontakt/anfrage/,daszwoelferhaus.at,2,2026-11-23T16:12:00Z
+ta:g608665-d655627,Aktivhotel Alpendorf,AT,https://www.hotel-alpendorf.at/,200,,,https://www.hotel-alpendorf.at/de/preise/anfrage.html,hotel-alpendorf.at,3,2026-11-23T16:12:00Z
+ta:g608665-d674833,Sonnhof Alpendorf - An Adults Only Place,AT,https://www.sonnhof-alpendorf.at/,200,,,https://booking.sonnhof-alpendorf.at/booking?cd=137857&id=3der9oU7&lang=de&occ[0][a]=2&flex=2,booking.sonnhof-alpendorf.at,3,2026-11-23T16:12:00Z
+ta:g608666-d313604,Hotel Berner Zell am See,AT,http://www.bernerhotel.com,200,,,https://www.bernerhotel.com/deutsch/deutsch/online-buchen.html,bernerhotel.com,3,2026-11-23T16:12:00Z
+ta:g608666-d500765,Hotel Stadt Wien,AT,https://www.hotel-stadt-wien.com/,200,seekda,seekda,https://booking.hotel-stadt-wien.com/?skd-language-code=en,booking.hotel-stadt-wien.com,2,2026-11-23T16:12:00Z
+ta:g608666-d647276,POP-UP Living Zell am See,AT,https://www.kinderhotelzellamsee.at,200,seekda,seekda,https://booking.mavida.at,booking.mavida.at,2,2026-11-23T16:12:00Z
+ta:g608668-d500481,Hotel Hochfilzer,AT,http://www.hotel-hochfilzer.com/,200,,,https://www.hotel-hochfilzer.com/anfrage/,hotel-hochfilzer.com,3,2026-11-23T16:12:00Z
+ta:g608668-d569037,Hotel LANDHOF,AT,http://www.landhof.com/,200,,,https://buchen.landhof.com/websLINE-ABM/Homepage/Booking/Index/de,buchen.landhof.com,3,2026-11-23T16:12:00Z
+ta:g608670-d500880,Hotel Post Ischgl,AT,https://www.post-ischgl.com/,200,hotelnetsolutions,hotelnetsolutions,https://www.vbooking.de/(S(zupx1t3czwva3gc4r11cs5ew))/v3/booking.aspx?clientid=post-ischgl&#038;lang=de,vbooking.de,2,2026-11-23T16:12:00Z
+ta:g608676-d1465876,Hotel Alpenland,AT,https://www.alpenland.tirol/,200,,,https://www.alpenland.tirol/buchen/,alpenland.tirol,3,2026-11-23T16:12:00Z
+ta:g608676-d1500821,Hotel Gletscherblick,AT,https://www.hotel-gletscherblick.at/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g608676-d1581564,Arlen Lodge,AT,https://www.arlenlodge.at/,200,,,https://www.arlenlodge.at/booking/,arlenlodge.at,3,2026-11-23T16:12:00Z
+ta:g608676-d1647036,Der Waldhof,AT,https://www.waldhof-stanton.com/,200,,,https://www.waldhof-stanton.com/de/hotel/anfrage,waldhof-stanton.com,3,2026-11-23T16:12:00Z
+ta:g608676-d282478,Himmlhof,AT,https://www.himmlhof.com,200,,,,,1,2026-11-23T16:12:00Z
+ta:g608676-d500789,Hotel & Restaurant Tannenhof,AT,https://www.hoteltannenhof.net/,200,synxis,synxis.com,https://be.synxis.com/?chain=22402&amp;hotel=78384&amp;locale=en-GB&amp;src=24C&amp;filter=HOTEL,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g608676-d672331,Hotel Zur Pfeffermühle,AT,https://www.zurpfeffermuehle.com,200,hotelnetsolutions,hotelnetsolutions,https://www.zurpfeffermuehle.com/buchen/?lang=en,zurpfeffermuehle.com,2,2026-11-23T16:12:00Z
+ta:g608676-d943527,Hotel Garni Rundeck,AT,https://www.hotelrundeck.at/,200,casablanca,casablanca.at,https://www.hotelrundeck.at/zimmer/anfrage-zimmer/,hotelrundeck.at,2,2026-11-23T16:12:00Z
+ta:g608679-d1143015,Hotel Das Central,AT,https://www.central-soelden.com/,200,seekda,seekda,https://booking.central-soelden.com?skd-language-code=DE,booking.central-soelden.com,2,2026-11-23T16:12:00Z
+ta:g608679-d659782,Bergland Design and Wellness Hotel Sölden,AT,http://www.bergland-soelden.at/,200,seekda,seekda,https://booking.bergland-soelden.at/?skd-language-code=en,booking.bergland-soelden.at,2,2026-11-23T16:12:00Z
+ta:g608680-d498793,Der Postwirt,AT,http://www.hotel-postwirt-soell.at/,200,,,https://www.derpostwirt.at/zimmer-preise/buchen,derpostwirt.at,3,2026-11-23T16:12:00Z
+ta:g608680-d535058,Hotel Greil,AT,http://www.hotelgreil.com/,200,,,https://www.hotelgreil.com/de/zimmer/anfragen/,hotelgreil.com,3,2026-11-23T16:12:00Z
+ta:g608681-d500831,Landhotel Schermer,AT,https://schermer.at/,200,,,https://www.schermer.at/de/anfrage/,schermer.at,3,2026-11-23T16:12:00Z
+ta:g608682-d1018711,Hotel Erzberg,AT,https://www.hotel-erzberg.at/,200,,,https://www.hotel-erzberg.at/en/contact-service/book-now/,hotel-erzberg.at,3,2026-11-23T16:12:00Z
+ta:g608721-d1473809,Aparthotel Tamaris,HR,http://www.hotel-tamaris.hr,200,,,https://hotel-tamaris.com/booking,hotel-tamaris.com,2,2026-11-23T16:12:00Z
+ta:g608815-d19614772,Hotel 16|150,FR,https://hotel16-150.com/,200,reservit,reservit.com,https://secure.reservit.com/fo/booking/2/1636/dates,secure.reservit.com,1,2026-11-23T16:12:00Z
+ta:g608931-d3152416,Hotel Ballguthof,IT,https://www.ballguthof.com/,200,,,https://www.ballguthof.com/buchung,ballguthof.com,3,2026-11-23T16:12:00Z
+ta:g608931-d637685,Hotel Schwarzschmied,IT,https://www.schwarzschmied.com/,200,hotelnetsolutions,hotelnetsolutions,https://www.schwarzschmied.com/en/booking,schwarzschmied.com,2,2026-11-23T16:12:00Z
+ta:g608931-d8116473,Garni Hotel Katzenthalerhof,IT,https://www.katzenthalerhof.com/,200,,,https://www.katzenthalerhof.com/anfrage-katzenthalerhof.html,katzenthalerhof.com,3,2026-11-23T16:12:00Z
+ta:g612437-d1114303,Corona Dolomites Hotel Andalo,IT,https://www.coronadolomiteshotel.com,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/2466?lang=IT&#038;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g612437-d571556,Cavallino Lovely Hotel,IT,http://www.hotelcavallino.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/4698?lang=IT&amp;cur=EUR,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g612437-d572375,Il Piccolo Dolomiti Resort,IT,http://www.piccolo.it/,200,,,https://www.piccolo.it/info-prenotazione/,piccolo.it,3,2026-11-23T16:12:00Z
+ta:g616044-d583396,Posthotel Achenkirch,AT,https://www.posthotel.at/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g616132-d23516147,RockyPop Flaine,FR,https://www.rockypop.com/flaine/,200,d_edge,secure-hotel-booking.com,,,1,2026-11-23T16:12:00Z
+ta:g616196-d247537,Castello di Spaltenna Exclusive Tuscan Resort & Spa,IT,http://www.spaltenna.it/,200,simplebooking,simplebooking.it,https://www.spaltenna.it/it/offerte/hotel/advance-booking,spaltenna.it,1,2026-11-23T16:12:00Z
+ta:g635546-d1017772,Hotel Alpina Rauris,AT,https://www.hotel-alpina-rauris.at/,200,seekda,seekda,https://booking.hotel-alpina-rauris.at/,booking.hotel-alpina-rauris.at,1,2026-11-23T16:12:00Z
+ta:g635546-d571954,Hotel Rauriserhof,AT,https://www.rauriserhof.at/,200,,,https://www.rauriserhof.at/anfragen,rauriserhof.at,3,2026-11-23T16:12:00Z
+ta:g635626-d229044,Grand Hotel Tremezzo,IT,https://www.grandhoteltremezzo.com/,200,synxis,synxis.com,https://be.synxis.com/?hotel=26937&amp;brand=PSSTR&amp;chain=10237&amp;adult=2&amp;locale=en-US,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g635634-d1147343,"Castiglion del Bosco, A Rosewood Hotel",IT,https://www.rosewoodhotels.com/en/castiglion-del-bosco,200,,,https://www.sevenrooms.com/reservations/rwcdbristorantecampodeldrago,sevenrooms.com,3,2026-11-23T16:12:00Z
+ta:g635634-d648286,Castello Banfi - Il Borgo,IT,https://www.castellobanfiwineresort.it/,200,vertical_booking,verticalbooking,"https://www.sevenrooms.com/reservations/lasaladeigrappoli?venues=lasaladeigrappoli,lataverna",sevenrooms.com,1,2026-11-23T16:12:00Z
+ta:g635642-d254925,Palazzo Ai Capitani Hotel,IT,https://www.palazzoaicapitani.it,200,,,https://www.secure-reservation.cloud/booking-engine/?portal=palazzoaicapitani-peschiera&#038;lang=it,secure-reservation.cloud,3,2026-11-23T16:12:00Z
+ta:g635758-d510312,Hotel Laschenskyhof,AT,https://www.laschensky.at/,200,,,https://booking.laschensky.at/Websline-ABM/Homepage/Booking/Index/de,booking.laschensky.at,3,2026-11-23T16:12:00Z
+ta:g635872-d279181,Hotel de la Ville,IT,https://www.hoteldelaville.com/,200,,,,,1,2026-11-23T16:12:00Z
+ta:g635894-d1006394,Boutique Hotel Schlüssel,CH,https://www.schluessel-beckenried.ch,200,,,https://booking.schluessel-beckenried.ch/de/rates?where=BHS&amp;view=cards,booking.schluessel-beckenried.ch,3,2026-11-23T16:12:00Z
+ta:g641721-d565732,Evident Hotel Prägant,AT,https://www.hotel-praegant.at,200,seekda,seekda,https://book.hotel-praegant.at/#breadcrumbList,book.hotel-praegant.at,1,2026-11-23T16:12:00Z
+ta:g641721-d575597,Hotel Die Post - Ronacher,AT,https://www.diepost.com,200,,,https://booking.diepost.com/websLINE-ABM/Homepage/Booking/Index/de,booking.diepost.com,3,2026-11-23T16:12:00Z
+ta:g641724-d1913776,Familienhotel Ramsi,AT,https://www.ramsi.at/,200,,,https://www.ramsi.at/angebote/ramsi-kurzurlaub-im-winter-inklusive-gratis-bambiniskikursstunde.html,ramsi.at,3,2026-11-23T16:12:00Z
+ta:g641727-d577737,Barry Memle Lakeside Resort,AT,https://www.barry.at/,200,,,https://www.barry.at/anfrage-reservierung_D.php?anfrage_reservierung=anfragen,barry.at,3,2026-11-23T16:12:00Z
+ta:g641736-d1015864,Hotel Salzburger Hof,AT,https://www.salzburgerhof.eu/,200,seekda,seekda,https://booking.salzburgerhof.eu/?skd-language-code=en,booking.salzburgerhof.eu,2,2026-11-23T16:12:00Z
+ta:g641739-d1553398,Biohotel Castello Konigsleiten,AT,https://www.castello-koenigsleiten.at/,200,,,https://booking.capcorn.net/castello-booking/Query?MB=3208&amp;FL=20&amp;LG=1,booking.capcorn.net,3,2026-11-23T16:12:00Z
+ta:g641748-d1098731,Seehotel Einwaller,AT,https://www.einwaller.at/,200,seekda,seekda,https://www.einwaller.at/en/rooms-prices/book,booking.einwaller.at,2,2026-11-23T16:12:00Z
+ta:g641748-d566024,Verwöhnhotel Kristall,AT,https://www.kristall-pertisau.at/,200,,,https://www.kristall-pertisau.at/en/online-buchen/,kristall-pertisau.at,2,2026-11-23T16:12:00Z
+ta:g641751-d1371216,Auenhotel,AT,https://www.auenhotel.at/,200,seekda,seekda,https://booking.auenhotel.at/property/AT_TUX_AUENHOF?skd-language-code=de,booking.auenhotel.at,2,2026-11-23T16:12:00Z
+ta:g641751-d1744344,Alpinhotel Berghaus Spa,AT,https://www.hotel-berghaus.at,200,seekda,seekda,https://hotel-berghaus.officialbookings.com/?skd-language-code=de,hotel-berghaus.officialbookings.com,1,2026-11-23T16:12:00Z
+ta:g641751-d2456419,Sporthotel Kirchler,AT,https://www.sporthotel-kirchler.at/,200,,,https://www.sporthotel-kirchler.at/service-kontakt/anfragen/,sporthotel-kirchler.at,3,2026-11-23T16:12:00Z
+ta:g641751-d585353,Hotel Eden,AT,https://www.eden.at/,200,seekda,seekda,https://booking.eden.at/,booking.eden.at,2,2026-11-23T16:12:00Z
+ta:g641751-d618900,Hotel Alpin Spa Tuxerhof,AT,https://www.tuxerhof.at/,200,seekda,seekda,https://booking.tuxerhof.at/?language=de,booking.tuxerhof.at,2,2026-11-23T16:12:00Z
+ta:g641751-d636899,Das Alois,AT,https://www.dasalois.at/,200,seekda,seekda,https://booking.dasalois.at/,booking.dasalois.at,2,2026-11-23T16:12:00Z
+ta:g641751-d668161,Hotel Tuxertal,AT,https://www.tuxertal.at/,200,,,https://www.tuxertal.at/buchen,tuxertal.at,3,2026-11-23T16:12:00Z
+ta:g641759-d2062225,Wilfinger Bio Thermen Hotel,AT,https://www.wilfinger-hotels.at/,200,,,https://www.wilfinger-hotels.at/ring-bio-hotel/anfrage/,wilfinger-hotels.at,3,2026-11-23T16:12:00Z
+ta:g641768-d292031,Wellness & Kuschelhotel Winzer,AT,https://www.hotel-winzer.at,200,,,,,1,2026-11-23T16:12:00Z
+ta:g641918-d1090519,Hotel St. Florian im Bayerischen Wald,DE,https://www.st-florian.de,200,,,https://www.st-florian.de/kontakt-und-extra/anfrage-und-kontakt,st-florian.de,3,2026-11-23T16:12:00Z
+ta:g642179-d1122313,Gran Paradiso Hotel Spa,IT,https://www.hotelgranparadiso.it/,200,ericsoft,ericsoft,https://booking.ericsoft.com/BookingEngine/book.aspx?idh=7014B60F0653DCEA&lang=it,booking.ericsoft.com,1,2026-11-23T16:12:00Z
+ta:g644054-d1500915,Biohotel Rastbichlhof,AT,https://www.rastbichlhof.at/,200,,,https://rastbichlhof.at/kontakt/unverbindlich-anfragen,rastbichlhof.at,3,2026-11-23T16:12:00Z
+ta:g644054-d292033,Spa Hotel Jagdhof,AT,https://www.hotel-jagdhof.at/,200,synxis,synxis.com,https://be.synxis.com/?adult=2&amp;config=spajgdconfig&amp;hotel=22859&amp;locale=de-DE&amp;theme=spajgdtheme,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g644054-d3748473,Alpeiner Nature Resort,AT,https://www.alpeiner.at/,200,seekda,seekda,https://booking.alpeiner.at/,booking.alpeiner.at,1,2026-11-23T16:12:00Z
+ta:g644054-d500371,Premium Activehotel Bergkonig,AT,https://www.activehotel.at/,200,seekda,seekda,https://booking.activehotel.at/,booking.activehotel.at,2,2026-11-23T16:12:00Z
+ta:g644054-d500767,Hotel Der Stubaierhof,AT,https://www.der-stubaierhof.com/,200,seekda,seekda,https://der-stubaierhof.officialbookings.com/,der-stubaierhof.officialbookings.com,2,2026-11-23T16:12:00Z
+ta:g644074-d1012255,Hotel Plaža,HR,http://www.hotelplaza.hr/,200,bookassist,bookassist,https://www.hotelplaza.hr/hr/booking/,hotelplaza.hr,1,2026-11-23T16:12:00Z
+ta:g644245-d275671,Grand Hotel Due Golfi,IT,https://www.grandhotelduegolfi.com,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=949&lang=IT,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g644268-d486886,Aktiv & Wellnesshotel Zentral,IT,https://www.zentral.it/,200,,,https://www.zentral.it/zimmer-preise/anfragen.html,zentral.it,3,2026-11-23T16:12:00Z
+ta:g651667-d1873486,Hotel Fisserhof,AT,https://www.fisserhof.com/,200,seekda,seekda,https://booking.fisserhof.com/,booking.fisserhof.com,2,2026-11-23T16:12:00Z
+ta:g651819-d1090419,Neumühle Resort & Spa,DE,https://www.romantikhotel-neumuehle.de/,200,,,https://neumuehle-resort.my-planer.de/myspa/spabooking.php,neumuehle-resort.my-planer.de,3,2026-11-23T16:12:00Z
+ta:g652030-d1096855,Hotel Ravelli,IT,http://www.palacehotelravelli.it,200,,,https://booking.scidoo.com/?shop-id=b8021da9-772a-4be1-bae0-a93abfb41898&amp;lang=1,booking.scidoo.com,3,2026-11-23T16:12:00Z
+ta:g656520-d646017,Kunzmann's Hotel | Spa,DE,http://www.kunzmanns.de/,200,,,https://kunzmanns.de/angebote/wellnessurlaub-kurzurlaub-hotel-bayern/,kunzmanns.de,3,2026-11-23T16:12:00Z
+ta:g656841-d1457592,Hotel Garnì Laurino,IT,http://hotelgarnilaurino.it,200,,,https://www.bioboutiquehotellaurino.it/en/booking.asp,bioboutiquehotellaurino.it,2,2026-11-23T16:12:00Z
+ta:g656842-d1552002,Hotel Alpen Tesitin,IT,https://www.alpentesitin.it/,200,,,https://www.alpentesitin.it/anfragen,alpentesitin.it,3,2026-11-23T16:12:00Z
+ta:g658716-d1367444,Familienresort Buchau,AT,https://buchau.com/,200,seekda,seekda,https://booking.buchau.com/?skd-language-code=de,booking.buchau.com,2,2026-11-23T16:12:00Z
+ta:g659640-d1027842,Löwen Hotel Montafon,AT,https://www.loewen-hotel.com/,200,seekda,seekda,https://S000242.officialbookings.com/?skd-language-code=de,s000242.officialbookings.com,2,2026-11-23T16:12:00Z
+ta:g660756-d1184847,Reduce Hotel Thermal,AT,https://www.reduce.at/reduce-thermal/,200,,,https://reservierung-thermal.reduce.at/websLINE-ABM/Homepage/Booking,reservierung-thermal.reduce.at,3,2026-11-23T16:12:00Z
+ta:g660756-d1373883,Reduce Hotel Vital,AT,https://www.reduce.at/reduce-vital/,200,,,https://reservierung-vital.reduce.at/websLINE-ABM/Homepage/Booking,reservierung-vital.reduce.at,3,2026-11-23T16:12:00Z
+ta:g663602-d1020679,Romantik Hotel Oberwirt,IT,https://www.oberwirt.com/,200,,,"https://booking.oberwirt.com/be/de/romantikhotel-oberwirt-marling/?FiltroListini=31192,31194,31195,31196,31197,31199,31200,31201,31202,31203,31204",booking.oberwirt.com,3,2026-11-23T16:12:00Z
+ta:g663602-d1230681,La Maiena Meran Resort,IT,https://www.lamaiena.it/,200,,,https://www.lamaiena.it/en/booking,lamaiena.it,2,2026-11-23T16:12:00Z
+ta:g664160-d254104,Boutique-Hotel Remorino,CH,https://www.remorino.ch/,200,synxis,synxis.com,https://be.synxis.com/?chain=5375&amp;hotel=74897&amp;locale=it-IT&amp;guestemail=REMORINO&amp;adult=2&amp;_ga=2.13404862.888918030.1775806640-134268614.1775806640&amp;_gl=1*1x1wmnm*_ga*MTM0MjY4NjE0LjE3NzU4MDY2NDA.*_ga_K0LEJ163B6*czE3NzU4MDY2NDAkbzEkZzEkdDE3NzU4MDgzNTkkajYwJGwwJGgw,be.synxis.com,1,2026-11-23T16:12:00Z
+ta:g664820-d1926308,Solea Dolomiti Boutique Hotel,IT,https://www.hotelsolea.com,200,,,https://www.hotelsolea.com/en/booking/,hotelsolea.com,2,2026-11-23T16:12:00Z
+ta:g665890-d858417,Hotel der Engel,AT,https://www.engel-tirol.com/,200,,,https://www.engel-tirol.com/en/booking,engel-tirol.com,3,2026-11-23T16:12:00Z
+ta:g666530-d1020558,Landhaus Koller,AT,https://www.hotel-koller.com/,200,seekda,seekda,https://booking.hotel-koller.com/?activeBookingEngine=KBE&amp;propertyCode=AT_SHH_037&amp;skd-checkin=2026-12-18&amp;skd-checkout=2026-12-19&amp;skd-property-code=AT_SHH_037,booking.hotel-koller.com,2,2026-11-23T16:12:00Z
+ta:g666969-d664228,Wellness & Naturresort Reischlhof,DE,https://www.reischlhof.de/,200,,,https://www.reischlhof.de/wellness/anwendungen-buchen,reischlhof.de,3,2026-11-23T16:12:00Z
+ta:g667020-d1236658,Hotel Schwaigerhof,AT,https://www.schwaigerhof.at,200,hotelnetsolutions,hotelnetsolutions,https://www.schwaigerhof.at/booking,schwaigerhof.at,3,2026-11-23T16:12:00Z
+ta:g667205-d1056987,Hotel Interalpen,IT,https://www.hotelinteralpen.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5444?lang=IT,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g668227-d9454866,Locanda in Tuscany,IT,http://www.locandaintuscany.com/,200,simplebooking,simplebooking.it,https://www.locandaintuscany.it/room/double-deluxe/,locandaintuscany.it,1,2026-11-23T16:12:00Z
+ta:g668546-d3836197,Hotel Ciarnadoi,IT,https://www.hotelciarnadoi.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/7338?lang=IT,simplebooking.it,1,2026-11-23T16:12:00Z
+ta:g668546-d633921,MyTime Hotels La Grotta,IT,https://www.mytimehotels.com/it/hotel-la-grotta/,200,bedzzle,bedzzle,,,1,2026-11-23T16:12:00Z
+ta:g669639-d5291539,Lodji Hotel,FR,https://lodji.fr/fr/,200,mews,mews.com/distributor,https://app.mews.com/events/be/lodji/booking?axeptio_token=AWhCye2NT00sNQ1Mk4BwEIgyy4,app.mews.com,1,2026-11-23T16:12:00Z
+ta:g670544-d645367,Hotel Erlebach,AT,https://www.erlebach.de/,200,,,https://www.erlebach.de/service/schnellanfrage-urlaub-kleinwalsertal.html,erlebach.de,3,2026-11-23T16:12:00Z
+ta:g670607-d1492510,Andreus Resort,IT,https://www.andreus.it/,200,,,https://www.andreus-resorts.it/de/zimmer-angebote/anfragen/,andreus-resorts.it,3,2026-11-23T16:12:00Z
+ta:g670607-d3673918,Wiesenhof Garden Resort,IT,https://www.wiesenhof.net/,200,,,https://www.wiesenhof-passeier.com/en/book,wiesenhof-passeier.com,2,2026-11-23T16:12:00Z
+ta:g670610-d17647663,ADLER Ritten,IT,https://www.adler-resorts.com/de/adler-lodge-ritten/73-0.html,error: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1011),,,,,1,2026-11-23T16:12:00Z
+ta:g670877-d669912,Hotel Turmhof,AT,https://www.hotel-turmhof.at/,200,,,https://www.hotel-turmhof.at/de/zimmer-suiten/anfrage.html,hotel-turmhof.at,3,2026-11-23T16:12:00Z
+ta:g676125-d866526,Hotel Tyrol am Haldensee,AT,https://www.tyrol-haldensee.com,200,,,,,1,2026-11-23T16:12:00Z
+ta:g676650-d1500608,Wanderhotel Taurerwirt,AT,https://www.taurerwirt.at/,200,seekda,seekda,https://www.taurerwirt.at/buchen.html,taurerwirt.at,3,2026-11-23T16:12:00Z
+ta:g676650-d3749911,Gradonna Mountain Resort Châlets & Hotel,AT,https://www.gradonna.at/osttirol/,404,,,,,1,2026-11-23T16:12:00Z
+ta:g676772-d1954803,Hotel Karlštejn & Spa,CZ,https://www.hotel-karlstejn.cz/,200,,,https://www.hotel-karlstejn.cz/cs/rezervace/,hotel-karlstejn.cz,2,2026-11-23T16:12:00Z
+ta:g677293-d676426,Hotel Valserhof,IT,https://www.valserhof.com/,200,seekda,seekda,https://booking.valserhof.com/?skd-language-code=de,booking.valserhof.com,2,2026-11-23T16:12:00Z
+ta:g677293-d833668,Familienhotel Huber,IT,https://www.hotelhuber.com/,200,,,https://www.hotelhuber.com/en/book.html,hotelhuber.com,2,2026-11-23T16:12:00Z
+ta:g681249-d4064587,Hyatt Centric Murano Venice,IT,https://www.hyatt.com/hyatt-centric/en-US/vcect-hyatt-centric-murano-venice,403,,,,,1,2026-11-23T16:12:00Z
+ta:g754051-d10033788,Castellum Hotel Hollókő,HU,https://hotelholloko.hu/,200,,,https://hotelholloko.hu/online-foglalas/,hotelholloko.hu,2,2026-11-23T16:12:00Z
+ta:g790182-d4162085,Hotel Davídek,CZ,https://www.hoteldavidek.cz/,200,bookassist,bookassist,https://www.hoteldavidek.cz/cs/sport/zruseni-rezervace/,hoteldavidek.cz,1,2026-11-23T16:12:00Z
+ta:g808076-d1094556,Gardenhotel Crystal,AT,https://www.gartenhotel-crystal.at/,200,,,https://gartenhotel-crystal-booking.zimres.com/booking?cd=137961&amp;id=l4WsVsL8&amp;lang=de,gartenhotel-crystal-booking.zimres.com,3,2026-11-23T16:12:00Z
+ta:g808078-d1015064,Hotel Kristall,AT,https://www.kristall.eu/,503,,,,,1,2026-11-23T16:12:00Z
+ta:g808078-d1728712,Hotel Grossarler Hof,AT,https://www.grossarlerhof.at/,200,seekda,seekda,https://grossarlerhof.officialbookings.com/?language=en,grossarlerhof.officialbookings.com,2,2026-11-23T16:12:00Z
+ta:g808084-d1208311,Natur und Wellnesshotel Hoeflehner,AT,https://www.hoeflehner.com/,200,,,https://urlaub.hoeflehner.com/websLINE-ABM/Homepage/Booking/Preset?TenantId=1-69abeabc288a70ba37bc815682a995991cea1505,urlaub.hoeflehner.com,3,2026-11-23T16:12:00Z
+ta:g811451-d1682047,Hotel Babymio ****,AT,https://www.babymio.com/,200,seekda,seekda,https://booking.babymio.com/?activeBookingEngine=KBE&propertyCode=S005568&adult_room1=2&child_room1_age5=1,booking.babymio.com,2,2026-11-23T16:12:00Z
+ta:g811455-d1186178,Hotel Kristall - Adults Only,AT,https://www.hotel-kristall.at/,200,,,https://www.hotel-kristall.at/de/service-kontakt/unverbindliche-anfrage,hotel-kristall.at,3,2026-11-23T16:12:00Z
+ta:g811455-d575300,Hotel Quellenhof Leutasch,AT,https://www.quellenhof.at/,200,,,https://www.quellenhof.at/de/online-buchen/request.php?page=6.page1,quellenhof.at,2,2026-11-23T16:12:00Z
+ta:g811462-d1595255,Premium Wanderhotel Steirerhof,AT,https://www.steirerhof.at/,200,seekda,seekda,https://booking.steirerhof.at,booking.steirerhof.at,2,2026-11-23T16:12:00Z
+ta:g812125-d651123,Hotel Schwarzenstein,IT,https://www.schwarzenstein.com/,200,,,https://www.schwarzenstein.com/preise-hotel-suedtirol/buchung,schwarzenstein.com,3,2026-11-23T16:12:00Z
+ta:g858371-d1224789,Hotel Mirabello - Slow Hotel Benessere,IT,https://www.hotelmirabello.it/,200,,,https://www.hotelmirabello.it/crea-la-tua-vacanza.html,hotelmirabello.it,3,2026-11-23T16:12:00Z
+ta:g939822-d286609,Hotel Schloss Seefels,AT,https://www.seefels.at/,200,,,https://www.seefels.at/anfrage/,seefels.at,2,2026-11-23T16:12:00Z
+ta:g939841-d1153220,Hotel Garni Frohnatur,AT,https://www.hotel-frohnatur.tirol/,200,feratel,deskline,https://direct.bookingandmore.com/accommodation/2d4bc222-77d7-49f8-8ec2-09915665ad3e?lang=de&#038;packageIds=79dba74e-0ad5-4ebe-b00f-630aefac7c8a,direct.bookingandmore.com,2,2026-11-23T16:12:00Z
+ta:g946050-d1499222,Tevini Resort,IT,https://www.teviniresort.com/,200,,,https://be.bookingexpert.it/book/home/single?hotel=6480&amp;lang=it&amp;nsid=a302798b-58a1-4138-b075-e5b6f697bd5c,be.bookingexpert.it,2,2026-11-23T16:12:00Z
+ta:g946905-d1892372,Seeleiten - Lake Spa Hotel,IT,http://www.seeleiten.it/,200,,,https://www.seeleiten.it/luxushotel-suedtirol/anfragen,seeleiten.it,3,2026-11-23T16:12:00Z
+ta:g947888-d1060987,Hotel Masl,IT,https://www.hotel-masl.com/,200,,,https://www.hotel-masl.com/en/photos/,hotel-masl.com,3,2026-11-23T16:12:00Z
+ta:g948560-d529642,Hotel Rudolf,IT,https://www.hotel-rudolf.com/,200,,,https://www.bookingsuedtirol.com/de/bruneck/hotel-rudolf,bookingsuedtirol.com,3,2026-11-23T16:12:00Z
+ta:g954021-d582835,7132 Hotel,CH,http://www.7132.ch,200,simplebooking,simplebooking.it,https://mytools.aleno.me/reservations/v2.0/reservations.html?k=eyJrIjoid2l2dTVrM2lsNm15cnBiOWlwdzZ4bmViajhycnVkaWRpZ280bGZwODBsbzlhNGlweTEiLCJyIjoieU1kc0xoZ3NMajRpTFhrZmMiLCJzIjoiaHR0cHM6Ly9teXRvb2xzLmFsZW5vLm1lLyJ9,mytools.aleno.me,1,2026-11-23T16:12:00Z
+ta:g982822-d1145370,Grand Hotel Kempinski High Tatras,SK,https://www.kempinski.com/sk/strba-strbske-pleso/grand-hotel-high-tatras/,200,,,https://www.kempinski.com/sk/grand-hotel-high-tatras/prehlad/ponuky/skora-rezervacia,kempinski.com,2,2026-11-23T16:12:00Z

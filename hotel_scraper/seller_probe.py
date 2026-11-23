@@ -211,6 +211,68 @@ def save_json(responses, base: Path, pattern: str, limit: int, words: list[str] 
     return n
 
 
+def engine_url(row: dict, tpl: str | None, checkin: date, adults: int) -> str:
+    """The hotel's booking-engine page for one night: from the settings' address pattern when the engine has one
+    (ids taken from the booking link), else the booking link itself, else the website."""
+    link = (row.get("booking_link") or "").replace("&amp;", "&").replace("&#038;", "&")
+    if tpl:
+        m = re.search(r"/hotel/(\d+)", link) if "{hotel_id}" in tpl else None
+        if m or "{hotel_id}" not in tpl:
+            return tpl.format(hotel_id=m.group(1) if m else "", checkin=checkin.isoformat(),
+                              checkout=(checkin + timedelta(days=1)).isoformat(), adults=adults)
+    return link or row.get("website", "")
+
+
+def probe_engine_pages(cfg: dict, sites: list[dict], out: Path, checkin: date, log=log) -> list[dict]:
+    """Open a few hotels' booking-engine pages per engine and keep what they load (prices, availability JSON)."""
+    from playwright.sync_api import sync_playwright
+    from .booking_session import launch_browser
+    sp = cfg["seller_probe"]
+    ep = sp["engine_pages"]
+    rows = []
+    with sync_playwright() as pw:
+        br = launch_browser(pw, True)
+        for engine in ep["engines"]:
+            picks = [r for r in sites if r.get("engine") == engine and (r.get("booking_link") or r.get("website"))]
+            picks.sort(key=lambda r: (not r.get("booking_link"), r["pid"]))
+            for r in picks[: ep["per_engine"]]:
+                url = engine_url(r, (ep.get("urls") or {}).get(engine), checkin, cfg["scan"]["adults"])
+                ctx = br.new_context(user_agent=sp["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900})
+                page = ctx.new_page()
+                seen: list = []
+                page.on("response", lambda x: seen.append(x))
+                status, err, t0 = 0, "", time.monotonic()
+                try:
+                    resp = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                    status = resp.status if resp else 0
+                    page.wait_for_timeout(ep["wait_ms"])
+                except Exception as e:  # noqa: BLE001
+                    err = str(e)[:160]
+                text, title = "", ""
+                try:
+                    title, text = page.title(), page.inner_text("body")
+                except Exception as e:  # noqa: BLE001
+                    err = err or str(e)[:160]
+                base = out / "engine_pages" / f"{engine}_{slug(r['name'])}"
+                base.parent.mkdir(parents=True, exist_ok=True)
+                base.with_suffix(".txt").write_text(f"#URL {url}\n#FINAL {page.url}\n#TITLE {title}\n{text[:300_000]}",
+                                                   encoding="utf-8")
+                try:
+                    page.screenshot(path=str(base.with_suffix(".png")), full_page=True)
+                except Exception:  # noqa: BLE001
+                    pass
+                api = save_json(seen, base, sp["json_url_pattern"], sp["json_per_page"], ep["json_words"])
+                facts = page_facts(text, title, r["name"], sp["block_phrases"])
+                rows.append({"engine": engine, "pid": r["pid"], "hotel": r["name"], "url": url[:200], "status": status,
+                             "final_host": host(page.url), **facts, "json_saved": api,
+                             "seconds": round(time.monotonic() - t0, 1), "error": err})
+                log(f"{engine:16} {r['name'][:30]:30} {status} prices={facts['prices']} json={api} {err[:60]}")
+                ctx.close()
+                time.sleep(sp["pause_seconds"])
+        br.close()
+    return rows
+
+
 # ---------- official sites: booking engines ----------
 
 def links(html: str, base: str) -> list[tuple[str, str]]:
@@ -334,7 +396,7 @@ def write_rows(path: Path, rows: list[dict]) -> None:
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--config", default=str(config.DEFAULT_PATH))
-    ap.add_argument("--part", choices=["sellers", "engines", "all"], default="all")
+    ap.add_argument("--part", choices=["sellers", "engines", "engine_pages", "all"], default="all")
     ap.add_argument("--hotels", type=int)
     ap.add_argument("--sellers", default="", help="comma-separated seller keys (default: all in the settings)")
     ap.add_argument("--checkin", help="YYYY-MM-DD (default: settings seller_probe.checkin_offset_days from today)")
@@ -356,6 +418,12 @@ def main(argv=None) -> int:
         osm = {r["pid"]: r for r in read_csv(p["osm_catalog"])}
         engine_rows = survey_engines(cfg, watch, osm)
         write_rows(out / "engines.csv", engine_rows)
+        stamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+        write_rows(Path(p["official_sites"]), sorted(({**r, "checked_at": stamp} for r in engine_rows), key=lambda r: r["pid"]))
+    if args.part == "engine_pages":
+        checkin = date.fromisoformat(args.checkin) if args.checkin else date.today() + timedelta(days=sp["checkin_offset_days"])
+        seller_rows = probe_engine_pages(cfg, read_csv(p["official_sites"]), out, checkin)
+        write_rows(out / "engine_pages.csv", seller_rows)
     md = report(seller_rows, engine_rows, sum(1 for w in watch if not w.get("gone_since")))
     (out / "report.md").write_text(md, encoding="utf-8")
     print(md)
