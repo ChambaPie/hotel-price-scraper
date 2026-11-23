@@ -1,0 +1,11 @@
+#URL https://www.lastminute.com/
+#FINAL https://www.lastminute.com/
+#TITLE Just a moment...
+www.lastminute.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: a5f290622eace8aa
+Performance and Security by Cloudflare
+Privacy

@@ -1,8 +1,0 @@
-#URL button#search_button, [data-testid='submit-button'], button[type='submit']
-#FINAL https://www.expedia.it/
-#TITLE Sei un robot?
-Mostraci il tuo lato umano...
-
-Non siamo sicuri se sei un essere umano o un robot.
-
-54ae2af0-cfc9-40a8-beef-e9e2d165a74f

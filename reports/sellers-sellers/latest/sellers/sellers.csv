@@ -1,7 +1,0 @@
-seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
-expedia,ta:g274887-d285437,Corinthia Budapest,HU,0,expedia.it,Sei un robot?,Sei un robot,0,False,120,0,0.0,"Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
-Call log:
-  - navigating to ""button#search_button, [data-testid='submit-button'], butt"
-expedia,ta:g187791-d205044,Hotel Artemide,IT,0,expedia.it,Sei un robot?,Sei un robot,0,False,120,0,0.0,"Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
-Call log:
-  - navigating to ""button#search_button, [data-testid='submit-button'], butt"

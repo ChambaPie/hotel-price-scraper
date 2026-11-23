@@ -1,0 +1,1 @@
+GET https://api.feefo.com/widgets-review-service/reviews/summary/product?locale=en_GB&product_sku=8498&origin=www.mrandmrssmith.com&merchant_identifier=mr-mrs-smith&since_period=YEAR&importedReviews=false

@@ -1,0 +1,2 @@
+POST https://sumome.com/api/load/
+{"href":"https://guide.michelin.com/en/hotels-stays?q=Corinthia+Budapest+Budapest+VI.+keruelet","ref":"https://guide.michelin.com/en/hotels-stays?q=Corinthia+Budapest+Budapest+VI.+keruelet","site_id":"fb34ce102c6ae6d56877c45adc0acc3e4c4a01b74f80a5c8073001fd8587fa62","visitor_id":"b57b1da0f72a7bf591c63bf6a401357f1ed58945bad159ee7e869711cb93d5df","loadScriptSource":"https://load.sumome.com/"}

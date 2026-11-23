@@ -1,0 +1,1 @@
+GET https://accor.webgeoservices.com/maps/api/search/geocode/?source=google_places&key=AIzaSyBbl6gcuSky-zngKf1xATiOj4xEudOC3rM&channel=test-newAutocomplete&language=en&address=budapest-district-vi-hungary

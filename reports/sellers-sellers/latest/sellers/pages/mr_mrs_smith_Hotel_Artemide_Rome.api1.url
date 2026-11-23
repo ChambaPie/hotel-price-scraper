@@ -1,0 +1,1 @@
+GET https://api.feefo.com/api/merchants/widgetintegration/all?merchant_identifier=mr-mrs-smith

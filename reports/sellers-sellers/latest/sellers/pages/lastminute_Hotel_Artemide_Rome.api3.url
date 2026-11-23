@@ -1,0 +1,2 @@
+POST https://secure.lastminute.com/cia-be/api/v1/handshake
+{"businessProfileId":"HOLIDAYSLASTMINUTECOUK","domain":"secure.lastminute.com"}
