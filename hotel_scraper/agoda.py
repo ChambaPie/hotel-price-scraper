@@ -150,6 +150,26 @@ class AgodaPage:
                 continue
         return self.page.url, props
 
+    def open_hotel(self, hotel_id, night: date, adults: int) -> bool:
+        """Open Agoda's page for one hotel and night (it redirects to a search with the hotel pinned, whose citySearch
+        request is the one to repeat). True when that request was seen."""
+        self.seen.clear()
+        url = self.ac["hotel_url"].format(id=hotel_id, checkin=night.isoformat(),
+                                          checkout=(night + timedelta(days=1)).isoformat(), adults=adults)
+        self.page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        self.page.wait_for_timeout(self.ac["wait_ms"] + 2000)
+        for r in self.seen:
+            try:
+                if "/graphql/search" in r.url and "citySearch" in (r.request.post_data or ""):
+                    self.template = json.loads(r.request.post_data)
+                    self.endpoint = r.url
+                    self.headers = {k: v for k, v in r.request.headers.items()
+                                    if k.lower() not in ("content-length", "cookie", "host")}
+                    return True
+            except Exception:  # noqa: BLE001
+                continue
+        return False
+
     def suggest(self, query: str) -> list[dict]:
         """Agoda's own search-box suggestions for the text (what the box asks while you type)."""
         url = self.ac["suggest_url"].format(q=quote(query))
@@ -218,7 +238,27 @@ def contains(a: str, b: str) -> bool:
     from .discover_osm import _norm_name
     na, nb = _norm_name(a), _norm_name(b)
     short, long_ = sorted((na, nb), key=len)
-    return len(short) >= 5 and short in long_
+    return len(short) >= 4 and short in long_   # "andy" in "andy4sternesuperior" (Hotel Andy, run 45260559478)
+
+
+def warm_up_template(page, mapped: list[dict], today: date, adults: int, ac: dict, by_pid: dict, log=log,
+                     skip: int = 0) -> bool:
+    """Get Agoda's own citySearch request: from a mapped hotel's page (tries a few), else the search box."""
+    for r in mapped[skip: skip + 3]:
+        try:
+            if page.open_hotel(r["seller_id"], today + timedelta(days=ac["verify_offset_days"]), adults):
+                return True
+        except Exception as e:  # noqa: BLE001
+            log(f"hotel page {r['seller_id']}: {str(e)[:100]}")
+    w = next((by_pid[r["pid"]] for r in mapped if r["pid"] in by_pid), None)
+    page.search(f"{w['name']} {w.get('city', '')}".strip() if w else ac["warm_up_query"])
+    return page.template is not None
+
+
+def town_matches(ours: str, theirs: str) -> bool:
+    from .discover_osm import _norm_name
+    a, b = _norm_name(ours), _norm_name(theirs)
+    return bool(a and b) and (a in b or b in a)
 
 
 def find_id(page, w: dict, ac: dict, today: date, adults: int, stats: dict, log=log) -> dict | None:
@@ -237,7 +277,14 @@ def find_id(page, w: dict, ac: dict, today: date, adults: int, stats: dict, log=
                 best = best or m
                 continue
             for c in page.suggest(q)[: ac["suggestions_checked"]]:
-                props = page.city_prices(int(c["city_id"]), today + timedelta(days=ac["verify_offset_days"]), [int(c["id"])], adults)
+                try:
+                    props = page.city_prices(int(c["city_id"]), today + timedelta(days=ac["verify_offset_days"]),
+                                             [int(c["id"])], adults)
+                except RuntimeError:       # Agoda refused the check (HTTP 502 now and then): name and town instead
+                    stats["errors"] += 1
+                    if similarity(w["name"], c["name"]) >= ac["min_similarity"] and town_matches(w.get("city", ""), c["where"]):
+                        return {**c, "lat": "", "lon": "", "km": "", "similarity": similarity(w["name"], c["name"]), "ok": True}
+                    continue
                 m = judge(w, next((x for x in props if str(x["id"]) == str(c["id"])), None), ac)
                 if m and m["ok"]:
                     return m
@@ -349,10 +396,11 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
     if part in ("prices", "all"):
         by_pid = {w["pid"]: w for w in watch}
         streak, refreshes = 0, 0
-        if page.template is None:      # one search gives the page's own citySearch request to repeat: a hotel search
-            # (a city search's request answered 502 when repeated with a hotel pinned, run 45253285417)
-            first = next((by_pid[r["pid"]] for r in known.values() if r["status"] == "ok" and r["pid"] in by_pid), None)
-            page.search(f"{first['name']} {first.get('city', '')}".strip() if first else ac["warm_up_query"])
+        if page.template is None:      # the page's own citySearch request to repeat, from a mapped hotel's own page
+            # (a city search's request answered 502 when repeated with a hotel pinned, run 45253285417; the search box
+            # sometimes made no request at all, run 45260559478)
+            warm_up_template(page, [r for r in known.values() if r["status"] == "ok" and r["pid"] in by_pid],
+                             today, cfg["scan"]["adults"], ac, by_pid, log)
         state_path = Path(p["agoda_state"])
         state = json.loads(state_path.read_text()) if state_path.exists() else {}
         cities: dict[str, list[dict]] = {}
@@ -384,8 +432,8 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
                             # runs 45253285417, 45258908611): take a fresh one from another hotel's search
                             refreshes += 1
                             page.template = None
-                            other = by_pid.get(rows[0]["pid"]) or {}
-                            page.search(f"{other.get('name', '')} {other.get('city', '')}".strip() or ac["warm_up_query"])
+                            warm_up_template(page, part_rows + [r for r in known.values() if r["status"] == "ok"],
+                                             today, cfg["scan"]["adults"], ac, by_pid, log, skip=refreshes)
                             log(f"took a fresh request from Agoda's page ({refreshes})")
                         if stats["errors"] >= ac["stop_after_errors"]:
                             break

@@ -98,9 +98,21 @@ def test_suggestions_from_a_real_answer():
                                         "where": "Neustift im Stubaital, Austria"}]   # the free-text line is not a hotel
 
 
+def test_same_spot_short_names_and_town_check():
+    assert agoda.contains("Hotel Andy", "Hotel Andy 4 Sterne Superior")          # regression: run 45260559478
+    assert not agoda.contains("Hotel", "Hotel Andy")
+    assert agoda.town_matches("Neustift im Stubaital", "Neustift im Stubaital, Austria")
+    assert not agoda.town_matches("Lienz", "Vienna, Austria")
+
+
 class FakePage:
     def __init__(self):
-        self.template, self.searches, self.calls, self.suggested = None, [], [], []
+        self.template, self.searches, self.calls, self.suggested, self.opened = None, [], [], [], []
+
+    def open_hotel(self, hotel_id, night, adults):
+        self.opened.append(hotel_id)
+        self.template = REQUEST
+        return True
 
     def suggest(self, q):
         self.suggested.append(q)
@@ -140,8 +152,8 @@ def test_run_finds_ids_then_prices_nights(tmp_path):
     assert ids["ta:art"]["seller_id"] == "1081" and ids["ta:x"]["status"] == "not found"
     page2 = FakePage()                                                               # next pass: ids reused, next nights
     agoda.run(cfg, "all", 5, page2, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
-    # a mapped hotel's search, not a city's, gives the request to repeat (regression: run 45253285417, HTTP 502)
-    assert page2.searches == ["Hotel Artemide Rome"] and page2.calls[0][1] == date(2026, 11, 26)
+    # a mapped hotel's own page gives the request to repeat (regressions: runs 45253285417 HTTP 502, 45260559478 none)
+    assert page2.searches == [] and page2.opened == ["1081"] and page2.calls[0][1] == date(2026, 11, 26)
 
 
 def test_a_request_that_cant_be_repeated_is_taken_again(tmp_path):
@@ -167,4 +179,25 @@ def test_a_request_that_cant_be_repeated_is_taken_again(tmp_path):
             return super().city_prices(city_id, night, ids, adults)
     page = Flaky()
     res = agoda.run(cfg, "prices", 5, page, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
-    assert page.searches == ["Hotel Artemide Rome", "Hotel Artemide Rome"] and res["priced"] >= 1
+    assert page.opened == ["1081", "1081"] and res["priced"] >= 1
+
+
+def test_id_by_name_and_town_when_agoda_refuses_the_check():
+    ac = config.load()["agoda"]
+
+    class Refusing(FakePage):
+        def __init__(self):
+            super().__init__()
+            self.template = REQUEST
+
+        def suggest(self, q):
+            return [{"id": 231902, "name": "Biohotel Rastbichlhof", "city_id": 70626, "where": "Neustift im Stubaital, Austria"}]
+
+        def city_prices(self, *a):
+            raise RuntimeError("citySearch HTTP 502")
+    w = {"name": "Biohotel Rastbichlhof", "city": "Neustift im Stubaital", "lat": "47.1", "lon": "11.3"}
+    stats = {"errors": 0}
+    m = agoda.find_id(Refusing(), w, ac, date(2026, 11, 24), 2, stats, log=lambda m: None)
+    assert m["ok"] and m["id"] == 231902 and m["km"] == "" and stats["errors"] == 1
+    other = agoda.find_id(Refusing(), {**w, "city": "Lienz"}, ac, date(2026, 11, 24), 2, {"errors": 0}, log=lambda m: None)
+    assert other is None                                                             # same name, other town: no
