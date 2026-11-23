@@ -142,3 +142,29 @@ def test_run_finds_ids_then_prices_nights(tmp_path):
     agoda.run(cfg, "all", 5, page2, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
     # a mapped hotel's search, not a city's, gives the request to repeat (regression: run 45253285417, HTTP 502)
     assert page2.searches == ["Hotel Artemide Rome"] and page2.calls[0][1] == date(2026, 11, 26)
+
+
+def test_a_request_that_cant_be_repeated_is_taken_again(tmp_path):
+    """Regression (runs 45253285417, 45258908611): Agoda answered 502 / 400 to every repeat of one captured request."""
+    cfg = config.load()
+    for k in ("watchlist", "seller_ids", "seller_prices", "agoda_state", "locations"):
+        cfg["paths"][k] = str(tmp_path / f"{k}.csv")
+    with open(cfg["paths"]["watchlist"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "name", "city", "lat", "lon", "gone_since"])
+        w.writeheader()
+        w.writerow({"pid": "ta:art", "name": "Hotel Artemide", "city": "Rome", "lat": "41.9005", "lon": "12.4930", "gone_since": ""})
+    agoda.run(cfg, "ids", 5, FakePage(), today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+
+    class Flaky(FakePage):
+        def __init__(self):
+            super().__init__()
+            self.bad = 2
+
+        def city_prices(self, city_id, night, ids, adults):
+            if self.bad:
+                self.bad -= 1
+                raise RuntimeError("citySearch HTTP 400")
+            return super().city_prices(city_id, night, ids, adults)
+    page = Flaky()
+    res = agoda.run(cfg, "prices", 5, page, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+    assert page.searches == ["Hotel Artemide Rome", "Hotel Artemide Rome"] and res["priced"] >= 1

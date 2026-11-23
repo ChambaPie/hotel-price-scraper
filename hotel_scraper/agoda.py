@@ -347,9 +347,10 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
         write_csv(sorted(others + list(known.values()), key=lambda r: (r["seller"], r["pid"])), p["seller_ids"], ID_FIELDS)
 
     if part in ("prices", "all"):
+        by_pid = {w["pid"]: w for w in watch}
+        streak, refreshes = 0, 0
         if page.template is None:      # one search gives the page's own citySearch request to repeat: a hotel search
             # (a city search's request answered 502 when repeated with a hotel pinned, run 45253285417)
-            by_pid = {w["pid"]: w for w in watch}
             first = next((by_pid[r["pid"]] for r in known.values() if r["status"] == "ok" and r["pid"] in by_pid), None)
             page.search(f"{first['name']} {first.get('city', '')}".strip() if first else ac["warm_up_query"])
         state_path = Path(p["agoda_state"])
@@ -373,9 +374,19 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
                     try:
                         got = page.city_prices(int(city), night, [int(r["seller_id"]) for r in part_rows], cfg["scan"]["adults"])
                         stats["calls"] += 1
+                        streak = 0
                     except Exception as e:  # noqa: BLE001
                         stats["errors"] += 1
-                        log(f"city {city} {night}: {str(e)[:120]}")
+                        streak += 1
+                        log(f"city {city} {night}: {str(e)[:200]}")
+                        if streak >= 2 and refreshes < ac["template_refreshes"]:
+                            # Agoda's page sometimes makes a variant of its request that can't be repeated (HTTP 400/502,
+                            # runs 45253285417, 45258908611): take a fresh one from another hotel's search
+                            refreshes += 1
+                            page.template = None
+                            other = by_pid.get(rows[0]["pid"]) or {}
+                            page.search(f"{other.get('name', '')} {other.get('city', '')}".strip() or ac["warm_up_query"])
+                            log(f"took a fresh request from Agoda's page ({refreshes})")
                         if stats["errors"] >= ac["stop_after_errors"]:
                             break
                         continue

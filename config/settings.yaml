@@ -405,11 +405,13 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   id_jobs: 3                 # parallel id jobs; must match the loop in .github/workflows/sellers.yml
   ids_share: 0.5             # when ids and prices run together, at most this share of the time goes to ids
   nights_per_city: 4         # nights priced per city per pass...
-  night_stride: 182          # ...this many days apart, so one pass spans the 24 months and every night comes round
+  night_stride: 91           # ...this many days apart, so one pass spans the horizon and every night comes round
   hotels_per_call: 1         # Agoda: "sending more than 1 extra property is not allowed" (2026-11-23)
   min_lead_days: 1           # tonight is often sold out or past the booking cut-off
-  horizon_days: 730          # 24 months, like Booking.com (owner, 2026-11-23); the summary shows how far Agoda sells
+  horizon_days: 365          # first passes (2026-11-23): nothing available on Agoda beyond a year (0 of 9 nights);
+                             # the summary's availability by lead time says when to widen it towards Booking.com's 730
+  template_refreshes: 3      # fresh requests taken from Agoda's page when its request can't be repeated
   pause_seconds: 1.5
-  stop_after_errors: 8
+  stop_after_errors: 12
   max_minutes: 30
   hotel_url: "https://www.agoda.com/partners/partnersearch.aspx?hid={id}&checkin={checkin}&checkout={checkout}&adults={adults}&rooms=1&currency=EUR"
