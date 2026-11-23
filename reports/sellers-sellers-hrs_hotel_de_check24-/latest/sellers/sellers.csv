@@ -1,0 +1,10 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+hrs,ta:g274887-d285437,Corinthia Budapest,HU,200,hrs.com,Book a Hotel: Find hotels with HRS and make your business trip easier.,,81,False,10074,4,25.7,no suggestion list (pressed Enter)
+hrs,ta:g187791-d205044,Hotel Artemide,IT,200,hrs.com,Book a Hotel: Find hotels with HRS and make your business trip easier.,,81,True,10058,3,23.1,no suggestion list (pressed Enter)
+hotel_de,ta:g274887-d285437,Corinthia Budapest,HU,200,hotel.de,HOTEL DE | Über 300.000 Top Hotels weltweit buchen!,,80,False,10162,5,25.6,no suggestion list (pressed Enter)
+hotel_de,ta:g187791-d205044,Hotel Artemide,IT,200,hotel.de,HOTEL DE | Über 300.000 Top Hotels weltweit buchen!,,80,True,10146,4,23.0,no suggestion list (pressed Enter)
+check24,ta:g274887-d285437,Corinthia Budapest,HU,200,hotels.check24.de,Hotels buchen bei Deutschlands größtem Reiseportal,,1,False,3729,0,63.9,no suggestion list (pressed Enter)
+check24,ta:g187791-d205044,Hotel Artemide,IT,200,hotels.check24.de,Hotels buchen bei Deutschlands größtem Reiseportal,,1,True,4200,1,51.9,"Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""[role='option'], [role='listbox'] li, [class*='uggest'] li"").visible.first
+    - loc"

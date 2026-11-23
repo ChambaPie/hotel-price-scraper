@@ -1,0 +1,2 @@
+POST https://hotels.check24.de/api/autocomplete.data
+term=Hotel+Artemide+Rome
