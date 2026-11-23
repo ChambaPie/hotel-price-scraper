@@ -149,3 +149,13 @@ def test_catalogue_sellers_are_probed_through_the_generic_search_box():
     assert "marriott" not in specs and "secret_escapes" in specs and "booking_com" not in specs   # no home page to search
     assert all(sp.seller_url(v).startswith("https://") for v in specs.values())
     assert not set(CFG["sellers"]) & {"trivago", "kayak", "google_hotels", "tripadvisor"}          # comparison sites
+
+
+def test_engine_url_with_the_link_itself():
+    from datetime import date
+    tpl = CFG["seller_probe"]["engine_pages"]["urls"]["synxis"]
+    u = sp.engine_url({"booking_link": "https://be.synxis.com/?adult=2&amp;config=x&amp;hotel=22859"}, tpl, date(2026, 12, 14), 2)
+    assert u == "https://be.synxis.com/?adult=2&config=x&hotel=22859&arrive=2026-12-14&depart=2026-12-15&adult=2&rooms=1&currency=EUR"
+    sb = CFG["seller_probe"]["engine_pages"]["urls"]["simplebooking"]
+    assert "/ibe2/hotel/8930?" in sp.engine_url({"booking_link": "https://www.simplebooking.it/ibe/hotelbooking/search?hid=8930&lang=it"},
+                                                sb, date(2026, 12, 14), 2)

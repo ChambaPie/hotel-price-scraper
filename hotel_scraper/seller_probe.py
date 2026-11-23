@@ -396,10 +396,10 @@ def engine_url(row: dict, tpl: str | None, checkin: date, adults: int) -> str:
     (ids taken from the booking link), else the booking link itself, else the website."""
     link = (row.get("booking_link") or "").replace("&amp;", "&").replace("&#038;", "&")
     if tpl:
-        m = re.search(r"/hotel/(\d+)", link) if "{hotel_id}" in tpl else None
-        if m or "{hotel_id}" not in tpl:
-            return tpl.format(hotel_id=m.group(1) if m else "", checkin=checkin.isoformat(),
-                              checkout=(checkin + timedelta(days=1)).isoformat(), adults=adults)
+        m = re.search(r"(?:/hotel/|[?&]hid=|[?&]hotel=|[?&]Hotel=)(\d+)", link) if "{hotel_id}" in tpl else None
+        if (m or "{hotel_id}" not in tpl) and (link or "{link}" not in tpl):
+            return tpl.format(hotel_id=m.group(1) if m else "", link=link, sep="&" if "?" in link else "?",
+                              checkin=checkin.isoformat(), checkout=(checkin + timedelta(days=1)).isoformat(), adults=adults)
     return link or row.get("website", "")
 
 

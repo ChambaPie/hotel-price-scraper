@@ -347,12 +347,13 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
                 "facebook", "instagram", "google", "youtube", "linkedin", "twitter", "pinterest", "airbnb",
                 "opentable", "sevenrooms", "aleno", "tably", "volvocars"]   # restaurant tables, not rooms
   engine_pages:              # part engine_pages: a few hotels' booking-engine pages per engine, to build readers
-    engines: [simplebooking, seekda, synxis, d_edge, vertical_booking, bookingexpert, hotelnetsolutions, blastness]
-    per_engine: 2
+    engines: [simplebooking, synxis, vertical_booking, bookingexpert, hotelnetsolutions, blastness, ericsoft, bookassist, casablanca]
+    per_engine: 3
     wait_ms: 10000
     json_words: ["price", "rate", "amount", "total"]
     urls:                    # one night's page where the address pattern is known; else the hotel's booking link
       simplebooking: "https://www.simplebooking.it/ibe2/hotel/{hotel_id}?lang=EN&cur=EUR&in={checkin}&out={checkout}&guests=A,A"
+      synxis: "{link}{sep}arrive={checkin}&depart={checkout}&adult={adults}&rooms=1&currency=EUR"
   engines:                   # booking engine -> patterns in the page (links, scripts); the first match wins
     simplebooking: ["simplebooking\\.(?:it|travel)"]
     vertical_booking: ["vertical-?booking"]
