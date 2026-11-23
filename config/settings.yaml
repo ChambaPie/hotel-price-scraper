@@ -411,7 +411,10 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   horizon_days: 365          # first passes (2026-11-23): nothing available on Agoda beyond a year (0 of 9 nights);
                              # the summary's availability by lead time says when to widen it towards Booking.com's 730
   template_refreshes: 3      # fresh requests taken from Agoda's page when its request can't be repeated
+  price_mode: replay         # replay = repeat the page's city search (fast); pages = open each hotel's page per night
+  replay_errors_before_pages: 4   # Agoda refusing repeated requests this often in a pass: switch to opening pages
+  page_wait_s: 8             # pages mode: wait at most this long for the page's own city search
   pause_seconds: 1.5
-  stop_after_errors: 12
+  stop_after_errors: 25
   max_minutes: 30
   hotel_url: "https://www.agoda.com/partners/partnersearch.aspx?hid={id}&checkin={checkin}&checkout={checkout}&adults={adults}&rooms=1&currency=EUR"

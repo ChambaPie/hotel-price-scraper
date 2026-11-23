@@ -201,3 +201,27 @@ def test_id_by_name_and_town_when_agoda_refuses_the_check():
     assert m["ok"] and m["id"] == 231902 and m["km"] == "" and stats["errors"] == 1
     other = agoda.find_id(Refusing(), {**w, "city": "Lienz"}, ac, date(2026, 11, 24), 2, {"errors": 0}, log=lambda m: None)
     assert other is None                                                             # same name, other town: no
+
+
+def test_prices_by_opening_pages_when_repeats_are_refused(tmp_path):
+    """Regression (runs 45260559478, 45262156252): Agoda refused every repeated request: open each hotel's page."""
+    cfg = config.load()
+    for k in ("watchlist", "seller_ids", "seller_prices", "agoda_state", "locations"):
+        cfg["paths"][k] = str(tmp_path / f"{k}.csv")
+    with open(cfg["paths"]["watchlist"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "name", "city", "lat", "lon", "gone_since"])
+        w.writeheader()
+        w.writerow({"pid": "ta:art", "name": "Hotel Artemide", "city": "Rome", "lat": "41.9005", "lon": "12.4930", "gone_since": ""})
+    agoda.run(cfg, "ids", 5, FakePage(), today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+
+    class Refusing(FakePage):
+        def city_prices(self, *a):
+            raise RuntimeError("citySearch HTTP 502")
+
+        def hotel_night(self, hotel_id, night, adults):
+            self.calls.append(("page", night, hotel_id))
+            return agoda.properties(CITY)
+    cfg["agoda"]["replay_errors_before_pages"] = 1          # switch at the first refusal (settings: 4)
+    page = Refusing()
+    res = agoda.run(cfg, "prices", 5, page, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+    assert res["priced"] == 4 and [c[0] for c in page.calls] == ["page"] * 4      # the refused night retried as a page

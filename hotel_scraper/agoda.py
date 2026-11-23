@@ -150,6 +150,33 @@ class AgodaPage:
                 continue
         return self.page.url, props
 
+    def hotel_night(self, hotel_id, night: date, adults: int) -> list[dict]:
+        """The hotel's price for one night the plain way: open its Agoda page for that night and read the city search
+        the page itself makes (slower than repeating the request, but nothing is repeated)."""
+        self.seen.clear()
+        url = self.ac["hotel_url"].format(id=hotel_id, checkin=night.isoformat(),
+                                          checkout=(night + timedelta(days=1)).isoformat(), adults=adults)
+        self.page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        props = []
+        for _ in range(int(self.ac["page_wait_s"] * 2)):
+            self.page.wait_for_timeout(500)
+            for r in list(self.seen):
+                try:
+                    if "/graphql/search" in r.url and "citySearch" in (r.request.post_data or ""):
+                        props = properties(r.json())
+                        if self.template is None:
+                            self.template = json.loads(r.request.post_data)
+                            self.endpoint = r.url
+                            self.headers = {k: v for k, v in r.request.headers.items()
+                                            if k.lower() not in ("content-length", "cookie", "host")}
+                except Exception:  # noqa: BLE001
+                    continue
+            if any(str(x["id"]) == str(hotel_id) for x in props):
+                return props
+        if not props:
+            raise RuntimeError(f"no city search on {self.page.url[:120]}")
+        return props
+
     def open_hotel(self, hotel_id, night: date, adults: int) -> bool:
         """Open Agoda's page for one hotel and night (it redirects to a search with the hotel pinned, whose citySearch
         request is the one to repeat). True when that request was seen."""
@@ -395,8 +422,8 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
 
     if part in ("prices", "all"):
         by_pid = {w["pid"]: w for w in watch}
-        streak, refreshes = 0, 0
-        if page.template is None:      # the page's own citySearch request to repeat, from a mapped hotel's own page
+        streak, refreshes, refused, mode = 0, 0, 0, ac.get("price_mode", "replay")
+        if page.template is None and mode == "replay":   # the page's own citySearch request, from a hotel's own page
             # (a city search's request answered 502 when repeated with a hotel pinned, run 45253285417; the search box
             # sometimes made no request at all, run 45260559478)
             warm_up_template(page, [r for r in known.values() if r["status"] == "ok" and r["pid"] in by_pid],
@@ -420,14 +447,26 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
                 for chunk in range(0, len(rows), ac["hotels_per_call"]):
                     part_rows = rows[chunk: chunk + ac["hotels_per_call"]]
                     try:
-                        got = page.city_prices(int(city), night, [int(r["seller_id"]) for r in part_rows], cfg["scan"]["adults"])
+                        got = None
+                        if mode == "replay":
+                            try:
+                                got = page.city_prices(int(city), night, [int(r["seller_id"]) for r in part_rows],
+                                                       cfg["scan"]["adults"])
+                            except Exception as e:  # noqa: BLE001
+                                refused += 1
+                                if refused < ac["replay_errors_before_pages"]:
+                                    raise
+                                mode = "pages"   # Agoda keeps refusing repeated requests: open the pages instead
+                                log(f"switching to opening each hotel's page ({str(e)[:80]})")
+                        if got is None:
+                            got = page.hotel_night(int(part_rows[0]["seller_id"]), night, cfg["scan"]["adults"])
                         stats["calls"] += 1
                         streak = 0
                     except Exception as e:  # noqa: BLE001
                         stats["errors"] += 1
                         streak += 1
                         log(f"city {city} {night}: {str(e)[:200]}")
-                        if streak >= 2 and refreshes < ac["template_refreshes"]:
+                        if mode == "replay" and streak >= 2 and refreshes < ac["template_refreshes"]:
                             # Agoda's page sometimes makes a variant of its request that can't be repeated (HTTP 400/502,
                             # runs 45253285417, 45258908611): take a fresh one from another hotel's search
                             refreshes += 1
