@@ -1,0 +1,34 @@
+19:35:11 id Sportpension Aichholzer: ok 355514 Sportpension Aichholzer 0.04 km
+19:35:38 id MoaAlm Mountain Retreat: not found    km
+19:36:04 id Pension St. Georg: ok 70435483 Pension St. Georg 0.02 km
+19:36:31 id Hotel Garni Pension Hubertus: not found 368427 Hotel Garni Pension zur Wacht 71.17 km
+19:36:57 id Landhaus Lilly: ok 10280423 Landhaus Lilly 0.07 km
+19:37:22 id Haus Patricia: ok 177728 Pension Haus Patricia 0.01 km
+19:37:48 id Gaestehaus Bramboeck: ok 284477 Gastehaus Brambock 0.01 km
+19:38:14 id Pension Sportalm: not found    km
+19:38:41 id Natuerlich. Hotel mit Charakter: not found 61085724 ALL IN naturlich MSR Rustikal  292.63 km
+19:39:07 id Stadtnest Bed & Breakfast: not found    km
+19:39:34 id das Moser - Hotel Garni am See: not found    km
+19:40:02 id Barry Memle Lakeside Resort: ok 94349828 Barry-Memle 0.02 km
+19:40:29 id Hotel Schloss Seefels: ok 130071 Hotel Schloss Seefels 0.06 km
+19:40:55 id Familienhotel Ramsi: ok 253569 RAMSI euer Familienhotel 0.02 km
+19:41:22 id Berghotel Presslauer: ok 254317 Berghotel Presslauer 0.02 km
+19:41:47 id Seehotel Enzian: not found    km
+19:42:15 id Genießerhotel Die Forelle: not found 38405836 Natur- & Genießerhotel Der Bir 263.66 km
+19:42:42 id Family & Sport Resort Brennseehof: not found    km
+19:43:08 id Biohotel Daberer: not found    km
+19:43:35 id Evident Hotel Prägant: ok 129684 Evident Hotel Pragant 0.02 km
+19:44:00 id KOLLER's Hotel: not found    km
+19:44:27 id Hotel Hochschober: not found    km
+19:44:54 id Almwellness-Resort Tuffbad: ok 349269 Almwellness-Resort Tuffbad 0.05 km
+19:45:20 id Dolomitengolf Suites: ok 636532 Dolomitengolf Suites 0.15 km
+19:45:46 id Parkhotel Tristachersee: ok 69819888 Parkhotel Tristachersee 0.02 km
+19:46:12 id Grand Hotel Lienz: not found 163074 Grandhotel Lienz Business-Well 0.02 km
+19:46:39 id Strasserwirt - Ansitz zu Tirol: ok 130250 Strasserwirt - Ansitz zu Tirol 0.03 km
+19:47:04 id Hotel Gesser: not found 70102578 Hotel Gesser Sillian Hochpuste 0.02 km
+19:47:32 id Villa Excelsior Hotel & Kurhaus: ok 111602 Villa Excelsior Hotel & Kurhau 0.02 km
+19:48:26 city 69659 2026-11-23: citySearch HTTP 400: {"errors":[{"message":"sending more than 1 extra property is not allowed"}]}
+19:48:26 city 69659 2027-05-24: citySearch HTTP 400: {"errors":[{"message":"sending more than 1 extra property is not allowed"}]}
+19:48:26 city 69659 2027-11-22: citySearch HTTP 400: {"errors":[{"message":"sending more than 1 extra property is not allowed"}]}
+19:48:26 city 69659 2027-05-23: citySearch HTTP 400: {"errors":[{"message":"sending more than 1 extra property is not allowed"}]}
+19:49:09 agoda: {'ids_due': 120, 'ids_found': 15, 'ids_missed': 14, 'calls': 52, 'priced': 52, 'available': 1, 'errors': 4, 'cities': '14 with mapped hotels', 'stored_nights': 52, 'ids_coverage': '15/1500'}
