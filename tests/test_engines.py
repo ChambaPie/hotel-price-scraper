@@ -117,3 +117,82 @@ def test_rotating_nights_cover_the_horizon():
     for k in range(46):
         seen.update(engines.rotating_nights("8930", start, 365, 8, 46, t + timedelta(hours=4 * k)))
     assert len(seen) >= 360 and min(seen) >= start and max(seen) < start + timedelta(days=365)
+
+
+def test_hns_code_and_calendar_real_answer():
+    """HNS onepagebooking (Das Naturhotel Chesa Valisa, 2026-11-23): the hotel's code is only in the body of its own
+    calendar call; the calendar gives the cheapest room per night for arrival that day."""
+    assert engines.code_from_requests("hotelnetsolutions", [req("hns_rateplan")]) == {"code": "naturhotel-chesa-valisa"}
+    assert engines.code_from_requests("hotelnetsolutions", ["https://www.naturhotel.at/buchen/?lang=de"]) is None
+    n = engines.hns_nights(json.loads((FX / "hns_rateplan_chesa_valisa_2026-11.json").read_text()))
+    assert len(n) == 16 and n["2026-12-11"] == {"price": 495.0, "min_stay": 1, "url": ""}
+    assert n["2026-12-18"]["min_stay"] == 3 and "2026-11-23" not in n             # not bookable: left out
+    tpl = json.loads((FX / "hns_rateplan_request_2026-11.json").read_text())
+    b = engines.hns_body(tpl, "hotel-victoria-nuernberg", date(2027, 1, 1), date(2027, 1, 31), 2)
+    assert b["code"] == "hotel-victoria-nuernberg" and (b["startDate"], b["endDate"]) == ("01.01.2027", "31.01.2027")
+    assert b["outputType"] == 4 and b["rooms"][0]["adults"] == 2 and b["sessionID"] != tpl["sessionID"]
+    assert tpl["code"] == "naturhotel-chesa-valisa"                                   # the template is left as it was
+
+
+def test_ericsoft_code_and_stay_search_real_answers():
+    """Ericsoft (Hotel Calissano, 2026-11-23): the code is in the booking link or in the body of its own calls; adults
+    are the hotel's own person type; the cheapest room for the night with VAT."""
+    link = "https://booking.ericsoft.com/BookingEngine/Book?idh=C4F7F3CFA10444AB&#038;lang=it&#038;cur=EUR"
+    assert engines.code_from_requests("ericsoft", [link]) == {"code": "C4F7F3CFA10444AB", "host": "booking.ericsoft.com"}
+    assert engines.code_from_requests("ericsoft", ["https://www.ericsoft.biz/it/BookingEngine/Book?idh=6F47713E95525FA7&lang=it"]) \
+        == {"code": "6F47713E95525FA7", "host": "www.ericsoft.biz"}
+    assert engines.code_from_requests("ericsoft", [req("ericsoft_solutions")])["code"] == "C4F7F3CFA10444AB"
+    conf = json.loads((FX / "ericsoft_configuration_calissano_2026-11.json").read_text())
+    assert engines.ericsoft_adult(conf) == 4182
+    b = engines.ericsoft_body("C4F7F3CFA10444AB", 4182, date(2026, 11, 23), 2)
+    assert b == json.loads(req("ericsoft_solutions").split("\n", 1)[1])               # the page's own request, rebuilt
+    n = engines.ericsoft_night(json.loads((FX / "ericsoft_solutions_calissano_2026-11-23.json").read_text()))
+    assert n == {"price": 148.0, "min_stay": 1, "url": ""}
+    assert engines.ericsoft_night({"operationStatus": 0, "data": {"solutions": []}}) is None
+
+
+def test_run_prices_hns_and_ericsoft(tmp_path):
+    cfg = config.load()
+    for k in ("watchlist", "official_sites", "seller_ids", "seller_prices"):
+        cfg["paths"][k] = str(tmp_path / f"{k}.csv")
+    with open(cfg["paths"]["watchlist"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "gone_since"])
+        w.writeheader()
+        w.writerows([{"pid": x, "gone_since": ""} for x in "he"])
+    with open(cfg["paths"]["official_sites"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "name", "engine", "booking_link", "website"])
+        w.writeheader()
+        w.writerows([{"pid": "h", "name": "Chesa Valisa", "engine": "hotelnetsolutions",
+                      "booking_link": "https://www.naturhotel.at/buchen/?lang=de", "website": ""},
+                     {"pid": "e", "name": "Calissano", "engine": "ericsoft", "website": "",
+                      "booking_link": "https://booking.ericsoft.com/BookingEngine/Book?idh=C4F7F3CFA10444AB&#038;lang=it"}])
+
+    def finder(sites, ec, log=None, budget_s=0):
+        assert [s["pid"] for s in sites] == ["h"]          # Ericsoft's code is in its link: no browser needed
+        return {"h": engines.code_from_requests("hotelnetsolutions", [req("hns_rateplan")])}
+    hns = (FX / "hns_rateplan_chesa_valisa_2026-11.json").read_bytes()
+    conf = (FX / "ericsoft_configuration_calissano_2026-11.json").read_bytes()
+    sol = (FX / "ericsoft_solutions_calissano_2026-11-23.json").read_bytes()
+    posted = []
+
+    def post(url, body):
+        posted.append((url, body))
+        if "onepagebooking" in url:
+            return Response(200, {}, hns if body["startDate"] == "01.12.2026" else b'{"RatePlans": []}')
+        if url.endswith("GetConfiguration"):
+            return Response(200, {}, conf)
+        return Response(200, {}, sol if body["startDate"] < "2027-03-01" else b'{"data": {"solutions": []}}')
+    res = engines.run(cfg, "all", 5, finder=finder, today=date(2026, 11, 24), log=lambda m: None,
+                      sleep=lambda s: None, post=post, get=lambda u: None)
+    assert res["ids_found"] == 2 and res["hotels_priced"] == 2 and res["errors"] == 0
+    hn = [b for u, b in posted if "onepagebooking" in u]
+    assert len(hn) == 13 and {b["code"] for b in hn} == {"naturhotel-chesa-valisa"}      # a month per call
+    es = [b for u, b in posted if u == "https://booking.ericsoft.com/api/book/GetSolutions"]
+    assert len(es) == 8 and {g["personTypeId"] for b in es for g in b["resources"][0]["guests"]} == {4182}
+    rows = list(csv.DictReader(open(cfg["paths"]["seller_prices"])))
+    h = [r for r in rows if r["pid"] == "h"]
+    assert len(h) == 16 and h[0]["seller_id"] == "hotelnetsolutions" and h[0]["price"] == "495.0"
+    assert h[0]["url"] == "https://www.naturhotel.at/buchen/?lang=de"
+    e = [r for r in rows if r["pid"] == "e"]
+    assert len(e) == 8 and {r["price"] for r in e if r["available"] == "yes"} == {"148.0"}
+    assert any(r["available"] == "no" for r in e) and "idh=C4F7F3CFA10444AB" in e[0]["url"]

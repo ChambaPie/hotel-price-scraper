@@ -486,7 +486,16 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
   hotel_url: "https://www.trip.com/hotels/detail/?hotelId={id}&cityId={city}&checkIn={checkin}&checkOut={checkout}&adult={adults}&crn=1&curr=EUR&locale=en-GB"
 
 engines:                     # hotels' own booking engines (hotel_scraper/engines.py; owner, 2026-11-23: every vendor)
-  live: [seekda, d_edge, simplebooking]   # engines with a reader; more as they are built (survey: data/official_sites.csv)
+  live: [seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft]   # engines with a reader (survey: data/official_sites.csv)
+  full_calendars: [seekda, d_edge, hotelnetsolutions]   # a pass prices the whole horizon (others: a few nights per pass)
+  hotelnetsolutions:         # HNS onepagebooking v6: its own calendar call (cheapest room per night), captured 2026-11-23
+    rateplan_url: "https://v6.onepagebooking.com/api/RatePlan"
+    request_template: config/hns_rateplan.json
+  ericsoft:                  # Ericsoft: the hotel's settings (its adult person type), then a stay search per night
+    configuration_path: /api/book/GetConfiguration
+    solutions_path: /api/book/GetSolutions
+    nights_per_pass: 8
+    night_stride: 46
   seekda: {calendar_url: "https://s.seekda.com/api/calendar.json"}
   simplebooking:
     search_url: "https://www.simplebooking.it/graphql/ibe2/graphql?opname=StandardAvailabilitySearchIO&hid={hid}"

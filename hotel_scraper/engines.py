@@ -51,6 +51,16 @@ def code_from_requests(engine: str, urls: list[str]) -> dict | None:
             m = re.search(r"simplebooking\.(?:it|travel)/.*?(?:[?&]hid=|/ibe2/hotel/|/hotel/)(\d+)", u)
             if m:
                 return {"code": m.group(1)}
+        elif engine == "hotelnetsolutions":        # its own calls carry the hotel's code in the body (2026-11-23)
+            if "onepagebooking.com/api/" in u:
+                m = re.search(r'"code"\s*:\s*"([A-Za-z0-9_.-]+)"', u)
+                if m:
+                    return {"code": m.group(1)}
+        elif engine == "ericsoft":                 # in the booking link (idh=) or its own calls (licenseIdh)
+            m = re.search(r'(?:[?&](?:amp;)?idh=|"licenseIdh"\s*:\s*")([0-9A-F]{16})', u)
+            if m:
+                h = re.search(r"https?://(booking\.ericsoft\.com|www\.ericsoft\.biz)/", u)
+                return {"code": m.group(1), "host": h.group(1) if h else "booking.ericsoft.com"}
         elif engine == "d_edge":
             if "websdk.d-edge.com/" in u and "property=" in u:
                 q = parse_qs(urlsplit(u).query)
@@ -136,6 +146,48 @@ def simplebooking_night(doc: dict) -> dict | None:
     return {"price": float(min(prices)), "min_stay": 1, "url": ""} if prices else None
 
 
+def hns_body(template: dict, code: str, first: date, last: date, adults: int) -> dict:
+    """HNS (onepagebooking) calendar request, captured from a hotel's booking page, for another hotel and dates."""
+    import copy
+    import uuid
+    b = copy.deepcopy(template)
+    b.update(code=code, startDate=first.strftime("%d.%m.%Y"), endDate=last.strftime("%d.%m.%Y"),
+             sessionID=str(uuid.uuid4()), url="", newCalendarCall=True, outputType=4, languageCode="en")
+    b["rooms"] = [{**(b.get("rooms") or [{}])[0], "adults": adults, "children": []}]
+    return b
+
+
+def hns_nights(doc: dict) -> dict[str, dict]:
+    """{night: {price, min_stay}} from an HNS calendar: the cheapest room per night for arrival that day."""
+    out = {}
+    for r in doc.get("RatePlans") or []:
+        if r.get("Bookable") and r.get("Price") and not r.get("ClosedToArrival") and r.get("Date", "")[:4] != "0001":
+            out[r["Date"][:10]] = {"price": float(r["Price"]), "min_stay": max(1, r.get("MinimumStay") or 1), "url": ""}
+    return out
+
+
+def ericsoft_adult(doc: dict) -> int:
+    """The hotel's own person type for an adult (Ericsoft numbers them per hotel)."""
+    types = ((doc.get("data") or {}).get("configuration") or {}).get("personTypes") or []
+    return next((t["personTypeId"] for t in types if t.get("isDefaultAdult")), types[0]["personTypeId"] if types else 0)
+
+
+def ericsoft_body(code: str, adult_type: int, night: date, adults: int) -> dict:
+    return {"languageType": 1, "licenseIdh": code, "startDate": night.isoformat(),
+            "endDate": (night + timedelta(days=1)).isoformat(), "userCurrencyCode": "EUR", "conventionCode": "",
+            "resources": [{"guests": [{"personTypeId": adult_type, "quantity": 1} for _ in range(adults)]}]}
+
+
+def ericsoft_night(doc: dict) -> dict | None:
+    """The cheapest room for the night (with VAT), or None when nothing is bookable."""
+    d = doc.get("data") or {}
+    prices = [r["lowestTotalUserCurrency"] for sol in d.get("solutions") or [] for r in sol.get("resources") or []
+              if r.get("lowestTotalUserCurrency")]
+    if not prices or (d.get("currency") or {}).get("code", "EUR") not in ("EUR", None):
+        return None
+    return {"price": float(min(prices)), "min_stay": 1, "url": ""}
+
+
 def rotating_nights(key: str, start: date, days: int, per_pass: int, stride: int, now: datetime) -> list[date]:
     """A few nights per pass without stored state: each 4-hour pass shifts the walk by a day, so every night of the
     horizon comes round; the hotel's key spreads hotels over different nights."""
@@ -164,6 +216,31 @@ def calendar(engine: str, p: dict, ec: dict, get, today: date, days: int, adults
                 nights[night.isoformat()] = None     # asked, nothing bookable
             sleep(ec["pause_seconds"])
         return nights
+    if engine == "ericsoft":
+        es = ec["ericsoft"]
+        base = f"https://{p.get('host') or 'booking.ericsoft.com'}"
+        r = post(base + es["configuration_path"], {"languageType": 1, "licenseIdh": p["code"]})
+        if r.status != 200:
+            raise RuntimeError(f"ericsoft HTTP {r.status} {r.error[:80]}")
+        adult = ericsoft_adult(r.json())
+        for night in rotating_nights(p["code"], today, days, es["nights_per_pass"], es["night_stride"],
+                                     now or datetime.now(timezone.utc)):
+            r = post(base + es["solutions_path"], ericsoft_body(p["code"], adult, night, adults))
+            if r.status != 200:
+                raise RuntimeError(f"ericsoft HTTP {r.status} {r.error[:80]}")
+            nights[night.isoformat()] = ericsoft_night(r.json())     # None: asked, nothing bookable
+            sleep(ec["pause_seconds"])
+        return nights
+    if engine == "hotelnetsolutions":
+        hn = ec["hotelnetsolutions"]
+        template = json.loads(Path(hn["request_template"]).read_text())
+        for first, last in months(today, days):
+            r = post(hn["rateplan_url"], hns_body(template, p["code"], first, last, adults))
+            if r.status != 200:
+                raise RuntimeError(f"hotelnetsolutions HTTP {r.status} {r.error[:80]}")
+            nights.update(hns_nights(r.json()))
+            sleep(ec["pause_seconds"])
+        return nights
     for first, last in months(today, days):
         url = seekda_url(ec, p["code"], first, last, adults) if engine == "seekda" else dedge_url(ec, p, first, last, adults)
         r = get(url)
@@ -182,6 +259,10 @@ def booking_link(engine: str, row: dict, p: dict, night: date, adults: int, ec: 
         return f"{base}?" + urlencode({"skd-property-code": p["code"], "skd-checkin": night.isoformat(),
                                         "skd-checkout": (night + timedelta(days=1)).isoformat(),
                                         "skd-total-adults": adults}) if base else ""
+    if engine == "ericsoft":
+        return f"https://{p.get('host') or 'booking.ericsoft.com'}/BookingEngine/Book?idh={p['code']}&lang=en&cur=EUR"
+    if engine == "hotelnetsolutions":
+        return (row.get("booking_link") or row.get("website") or "").replace("&amp;", "&")
     return ""
 
 
@@ -198,6 +279,15 @@ def ids_due(sites: list[dict], known: dict, engines: list[str], today: date, ret
     return out
 
 
+def _request_text(r) -> str:
+    """ "METHOD url" plus the body of a POST (some engines name the hotel only there), as the probe saves them."""
+    try:
+        body = r.post_data or ""
+    except Exception:  # noqa: BLE001  (binary body)
+        body = ""
+    return f"{r.method} {r.url}" + (f"\n{body[:4000]}" if body else "")
+
+
 def find_codes(sites: list[dict], ec: dict, log=log, clock=time.monotonic, budget_s: float = 1e9) -> dict[str, dict | None]:
     """Open each hotel's booking page and note the engine's code from the calls it makes."""
     from playwright.sync_api import sync_playwright
@@ -208,7 +298,7 @@ def find_codes(sites: list[dict], ec: dict, log=log, clock=time.monotonic, budge
         ctx = br.new_context(user_agent=ec["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900})
         page = ctx.new_page()
         urls: list[str] = []
-        page.on("request", lambda r: urls.append(r.url))
+        page.on("request", lambda r: urls.append(_request_text(r)))
         for s in sites:
             if clock() - started > budget_s:
                 break
@@ -294,7 +384,7 @@ def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, t
         mine = [x for x in old_all if x.get("seller") == SELLER]
         others = [x for x in old_all if x.get("seller") != SELLER]
         # a fresh full calendar replaces the hotel's old rows; per-stay engines add to them (a few nights per pass)
-        full = {x["pid"] for x in new if x["seller_id"] in ("seekda", "d_edge")}
+        full = {x["pid"] for x in new if x["seller_id"] in ec["full_calendars"]}
         merged = merge_prices([x for x in mine if x["pid"] not in full], new, today)
         write_csv(sorted(others + merged, key=lambda x: (x["seller"], x["pid"], x["night"])), p["seller_prices"], PRICE_FIELDS)
     stats["ids_coverage"] = f"{sum(1 for r in known.values() if r['status'] == 'ok')}/" \
