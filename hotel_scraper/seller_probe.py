@@ -117,6 +117,8 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                     page.wait_for_timeout(sp["wait_ms"])
                     if bc.get("human"):
                         human_touch(page)
+                    if bc.get("wait_check_s"):
+                        err = wait_out_check(page, sp["block_phrases"], bc["wait_check_s"], log)
                     if isinstance(spec, dict) and spec.get("input"):
                         err = search_box(page, spec, q, sp["wait_ms"])
                 except Exception as e:  # noqa: BLE001
@@ -188,6 +190,27 @@ def human_touch(page, rnd=None) -> None:
     page.wait_for_timeout(rnd.randint(500, 1200))
 
 
+def wait_out_check(page, phrases: list[str], max_s: float, log=log) -> str:
+    """A "checking you're human" page with a spinner: wait (up to max_s, using the page now and then) for it to let
+    the browser through, as a person would. Returns "" when through, else what is still showing."""
+    import random
+    t0 = time.monotonic()
+    while time.monotonic() - t0 < max_s:
+        try:
+            title, text = page.title(), page.inner_text("body")[:3000]
+        except Exception:  # noqa: BLE001  (navigating)
+            page.wait_for_timeout(1000)
+            continue
+        hit = blocked_by(text, title, phrases)
+        if not hit:
+            if time.monotonic() - t0 > 1:
+                log(f"check passed after {round(time.monotonic() - t0)} s")
+            return ""
+        page.mouse.move(random.randint(300, 1000), random.randint(200, 600), steps=random.randint(10, 25))
+        page.wait_for_timeout(2500)
+    return f"still checking after {max_s} s"
+
+
 def warm_up(page, url: str, log=log) -> None:
     """Open the site's home page first, as a person would, accept its cookie banner and look around."""
     try:
@@ -201,6 +224,8 @@ def warm_up(page, url: str, log=log) -> None:
                 break
         human_touch(page)
         log(f"warm-up {url}: {page.title()[:60]}")
+        if blocked_by(page.inner_text("body")[:3000], page.title(), ["Bot or Not", "Sei un robot", "human side", "lato umano"]):
+            log("warm-up: " + (wait_out_check(page, ["Bot or Not", "Sei un robot", "human side", "lato umano"], 45, log) or "through"))
     except Exception as e:  # noqa: BLE001
         log(f"warm-up {url}: {str(e)[:120]}")
 
