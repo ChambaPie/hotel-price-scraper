@@ -97,7 +97,7 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
             if only and seller not in only:
                 continue
             bc = spec.get("browser", {}) if isinstance(spec, dict) else {}
-            tpl = (spec.get("search") or spec["home"]) if isinstance(spec, dict) else spec
+            tpl = seller_url(spec)
             br, ctx = open_browser(pw, default_br, bc, sp)
             page = ctx.new_page()
             if bc.get("warm_up"):
@@ -154,6 +154,12 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                 br.close()
         default_br.close()
     return rows
+
+
+def seller_url(spec) -> str:
+    """The address to open: a plain string, or a dict's "url" (a search address) or "home" (its search box is used).
+    Not "search": in a dict that is the search button. (Run 45218872978 opened the button's selector as an address.)"""
+    return spec if isinstance(spec, str) else (spec.get("url") or spec["home"])
 
 
 def open_browser(pw, default_br, bc: dict, sp: dict):

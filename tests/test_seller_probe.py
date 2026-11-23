@@ -131,3 +131,12 @@ def test_engine_pages_report_has_its_own_table():
     md = sp.engine_pages_md([{"engine": "seekda", "hotel": "Hotel Alpenhof", "status": 200, "blocked": "", "final_host":
                               "booking.alpenhof.at", "prices": 18, "json_saved": 3}])
     assert "| seekda | Hotel Alpenhof | 200 | booking.alpenhof.at | 18 | 3 |" in md
+
+
+def test_seller_url_never_takes_the_search_button_selector():
+    """Regression (run 45218872978): a flow's "search" (the button) was opened as the address."""
+    sellers = CFG["seller_probe"]["sellers"]
+    for key, spec in sellers.items():
+        assert sp.seller_url(spec).startswith("https://"), key
+    assert sp.seller_url(sellers["agoda"]) == sellers["agoda"]["home"]
+    assert "Hotel-Search" in sp.seller_url(sellers["hotels_com"])
