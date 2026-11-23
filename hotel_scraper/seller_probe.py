@@ -110,7 +110,7 @@ def accept_cookies(page, labels: list[str]) -> bool:
 
 
 def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=log, only: list[str] | None = None,
-                  specs: dict | None = None) -> list[dict]:
+                  specs: dict | None = None, out_csv: Path | None = None) -> list[dict]:
     from playwright.sync_api import sync_playwright
     from .booking_session import launch_browser
     sp = cfg["seller_probe"]
@@ -174,6 +174,8 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                        "status": status, "final_host": host(page.url), "title": title[:80], **facts, "json_saved": api,
                        "seconds": round(time.monotonic() - t0, 1), "error": err}
                 rows.append(row)
+                if out_csv:                    # after every page: a run stopped by its time limit keeps what it saw
+                    write_rows(out_csv, rows)
                 log(f"{seller:10} {w['name'][:30]:30} {status} blocked={facts['blocked'] or '-'} prices={facts['prices']} "
                     f"name={facts['name_found']} json={api}")
                 time.sleep(bc.get("pause_seconds", sp["pause_seconds"]))
@@ -602,7 +604,7 @@ def main(argv=None) -> int:
         specs = probe_specs(cfg, [x for x in args.catalog.split(",") if x])
         only = [x for x in args.sellers.split(",") if x] or (
             [k for k in specs if k not in sp["sellers"]] if args.catalog else None)
-        seller_rows = probe_sellers(cfg, hotels, out, checkin, only=only, specs=specs)
+        seller_rows = probe_sellers(cfg, hotels, out, checkin, only=only, specs=specs, out_csv=out / "sellers.csv")
         write_rows(out / "sellers.csv", seller_rows)
     if args.part in ("engines", "all"):
         osm = {r["pid"]: r for r in read_csv(p["osm_catalog"])}

@@ -224,8 +224,8 @@ sellers:                     # every travel website that sells the room and take
   # account = prices only when signed in (free membership); official = a chain's own site (official-site readers);
   # later = app-first or outside the region, after the rest. home = where the probe starts (its search box).
   booking_com: {name: Booking.com, group: Booking Holdings, status: live}
-  agoda: {name: Agoda, group: Booking Holdings, status: probe}
-  priceline: {name: Priceline, group: Booking Holdings, status: probe, home: "https://www.priceline.com/"}
+  agoda: {name: Agoda, group: Booking Holdings, status: live, note: "hotel_scraper/agoda.py, workflow Other sellers"}
+  priceline: {name: Priceline, group: Booking Holdings, status: blocked, home: "https://www.priceline.com/", note: "HTTP 403 from GitHub's servers (probe 2026-11-23)"}
   expedia: {name: Expedia, group: Expedia Group, status: blocked, note: "private issue #128"}
   hotels_com: {name: Hotels.com, group: Expedia Group, status: blocked, note: "private issue #128"}
   vrbo: {name: Vrbo, group: Expedia Group, status: blocked, note: "same system as Expedia"}
@@ -235,35 +235,35 @@ sellers:                     # every travel website that sells the room and take
   wotif: {name: Wotif, group: Expedia Group, status: blocked, note: "same system as Expedia"}
   hotwire: {name: Hotwire, group: Expedia Group, status: blocked, note: "same system as Expedia; hotel name hidden until paid"}
   trip_com: {name: Trip.com, group: Trip.com Group, status: probe}
-  airbnb: {name: Airbnb, status: probe, home: "https://www.airbnb.it/"}
-  lastminute: {name: lastminute.com, group: lastminute.com group, status: probe, home: "https://www.lastminute.com/"}
-  edreams: {name: eDreams, group: eDreams ODIGEO, status: probe, home: "https://www.edreams.it/"}
-  opodo: {name: Opodo, group: eDreams ODIGEO, status: probe, home: "https://www.opodo.it/"}
-  check24: {name: CHECK24 Hotel, status: probe, home: "https://hotel.check24.de/"}
-  hrs: {name: HRS, group: HRS Group, status: probe, home: "https://www.hrs.com/"}
-  hotel_de: {name: hotel.de, group: HRS Group, status: probe, home: "https://www.hotel.de/"}
-  ehotel: {name: ehotel, status: probe, home: "https://www.ehotel.de/"}
-  zenhotels: {name: ZenHotels, group: Emerging Travel Group, status: probe, home: "https://www.zenhotels.com/"}
-  prestigia: {name: Prestigia, status: probe, home: "https://www.prestigia.com/"}
-  destinia: {name: Destinia, status: probe, home: "https://destinia.com/"}
-  logitravel: {name: Logitravel, status: probe, home: "https://www.logitravel.it/"}
-  hotelopia: {name: Hotelopia, group: HBX Group, status: probe, home: "https://www.hotelopia.com/"}
-  vio: {name: Vio.com, status: probe, home: "https://www.vio.com/"}
-  mr_mrs_smith: {name: Mr & Mrs Smith, group: IHG, status: probe, home: "https://www.mrandmrssmith.com/"}
-  michelin: {name: Michelin Guide hotels (Tablet), status: probe, home: "https://guide.michelin.com/it/en/hotels"}
-  weekendesk: {name: Weekendesk, status: probe, home: "https://www.weekendesk.it/"}
-  secret_escapes: {name: Secret Escapes, status: account, home: "https://www.secretescapes.it/", note: "flash sales, free membership"}
-  voyage_prive: {name: Voyage Privé, status: account, home: "https://www.voyage-prive.it/", note: "flash sales, free membership"}
+  airbnb: {name: Airbnb, status: probe, home: "https://www.airbnb.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  lastminute: {name: lastminute.com, group: lastminute.com group, status: probe, home: "https://www.lastminute.com/", note: "Cloudflare check on 1 of 2 pages from GitHub (probe 2026-11-23)"}
+  edreams: {name: eDreams, group: eDreams ODIGEO, status: probe, home: "https://www.edreams.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  opodo: {name: Opodo, group: eDreams ODIGEO, status: probe, home: "https://www.opodo.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  check24: {name: CHECK24 Hotel, status: probe, home: "https://hotel.check24.de/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  hrs: {name: HRS, group: HRS Group, status: probe, home: "https://www.hrs.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  hotel_de: {name: hotel.de, group: HRS Group, status: probe, home: "https://www.hotel.de/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  ehotel: {name: ehotel, status: probe, home: "https://www.ehotel.de/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  zenhotels: {name: ZenHotels, group: Emerging Travel Group, status: probe, home: "https://www.zenhotels.com/", note: "Cloudflare check on 1 of 2 pages from GitHub (probe 2026-11-23)"}
+  prestigia: {name: Prestigia, status: probe, home: "https://www.prestigia.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  destinia: {name: Destinia, status: probe, home: "https://destinia.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  logitravel: {name: Logitravel, status: blocked, home: "https://www.logitravel.it/", note: "Access Denied from GitHub's servers (probe 2026-11-23)"}
+  hotelopia: {name: Hotelopia, group: HBX Group, status: probe, home: "https://www.hotelopia.com/", note: "no answer (probe 2026-11-23)"}
+  vio: {name: Vio.com, status: probe, home: "https://www.vio.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  mr_mrs_smith: {name: Mr & Mrs Smith, group: IHG, status: probe, home: "https://www.mrandmrssmith.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  michelin: {name: Michelin Guide hotels (Tablet), status: probe, home: "https://guide.michelin.com/it/en/hotels", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  weekendesk: {name: Weekendesk, status: probe, home: "https://www.weekendesk.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  secret_escapes: {name: Secret Escapes, status: account, home: "https://www.secretescapes.it/", note: "no answer (probe 2026-11-23)"}
+  voyage_prive: {name: Voyage Privé, status: account, home: "https://www.voyage-prive.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   hoteltonight: {name: HotelTonight, group: Airbnb, status: later, note: "app-first, same-night deals"}
   hopper: {name: Hopper, status: later, note: "app-first"}
-  marriott: {name: Marriott, status: official, home: "https://www.marriott.com/"}
-  hilton: {name: Hilton, status: official, home: "https://www.hilton.com/"}
-  ihg: {name: IHG, status: official, home: "https://www.ihg.com/"}
-  accor: {name: Accor (ALL), status: official, home: "https://all.accor.com/"}
-  hyatt: {name: Hyatt, status: official, home: "https://www.hyatt.com/"}
-  radisson: {name: Radisson, status: official, home: "https://www.radissonhotels.com/"}
-  melia: {name: Meliá, status: official, home: "https://www.melia.com/"}
-  nh: {name: NH Hotels, group: Minor, status: official, home: "https://www.nh-hotels.com/"}
+  marriott: {name: Marriott, status: blocked, home: "https://www.marriott.com/", note: "Access Denied from GitHub's servers (probe 2026-11-23)"}
+  hilton: {name: Hilton, status: official, home: "https://www.hilton.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  ihg: {name: IHG, status: blocked, home: "https://www.ihg.com/", note: "Access Denied from GitHub's servers (probe 2026-11-23)"}
+  accor: {name: Accor (ALL), status: official, home: "https://all.accor.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  hyatt: {name: Hyatt, status: blocked, home: "https://www.hyatt.com/", note: "HTTP 403 from GitHub's servers (probe 2026-11-23)"}
+  radisson: {name: Radisson, status: blocked, home: "https://www.radissonhotels.com/", note: "HTTP 403 from GitHub's servers (probe 2026-11-23)"}
+  melia: {name: Meliá, status: blocked, home: "https://www.melia.com/", note: "Access Denied from GitHub's servers (probe 2026-11-23)"}
+  nh: {name: NH Hotels, group: Minor, status: blocked, home: "https://www.nh-hotels.com/", note: "Access Denied from GitHub's servers (probe 2026-11-23)"}
   best_western: {name: Best Western, status: official, home: "https://www.bestwestern.it/"}
   wyndham: {name: Wyndham, status: official, home: "https://www.wyndhamhotels.com/"}
 
