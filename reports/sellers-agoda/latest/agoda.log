@@ -1,17 +1,2 @@
-20:50:00 city 668713 2026-11-24: no citySearch request seen yet
-20:50:00 city 668713 2027-02-23: no citySearch request seen yet
-20:50:23 took a fresh request from Agoda's page (1)
-20:50:23 city 668713 2027-05-25: no citySearch request seen yet
-20:50:47 took a fresh request from Agoda's page (2)
-20:50:47 city 668713 2027-08-24: no citySearch request seen yet
-20:51:09 took a fresh request from Agoda's page (3)
-20:51:09 city 76593 2026-11-24: no citySearch request seen yet
-20:51:09 city 76593 2027-02-23: no citySearch request seen yet
-20:51:09 city 76593 2027-05-25: no citySearch request seen yet
-20:51:09 city 76593 2027-08-24: no citySearch request seen yet
-20:51:09 city 76145 2026-11-24: no citySearch request seen yet
-20:51:09 city 76145 2027-02-23: no citySearch request seen yet
-20:51:09 city 76145 2027-05-25: no citySearch request seen yet
-20:51:09 city 76145 2027-08-24: no citySearch request seen yet
-20:51:09 too many errors in a row: stopping this pass
-20:51:09 agoda: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 12, 'cities': '230 with mapped hotels', 'stored_nights': 174, 'ids_coverage': '423/1500'}
+21:00:05 city 16594 2027-02-23: citySearch HTTP 500: {"errors":[{"message":"Exception in component : ShardSQL message : Future has timed out after 500 milliseconds and exceptionMessage: Future has timed out after 500 milliseconds "}
+21:06:54 agoda: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 423, 'priced': 395, 'available': 124, 'errors': 1, 'available_by_lead': {'0-30 days': [49, 99], '91-180 days': [47, 98], '181-365 days': [28, 198]}, 'cities': '230 with mapped hotels', 'stored_nights': 569, 'ids_coverage': '423/1500'}
