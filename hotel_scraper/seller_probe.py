@@ -165,6 +165,8 @@ def probe_sellers(cfg: dict, hotels: list[dict], out: Path, checkin: date, log=l
                 api = save_json(seen, base, sp["json_url_pattern"], sp["json_per_page"], name_words(w["name"]))
                 if isinstance(spec, dict) and spec.get("replay"):
                     replay(page, seen, spec["replay"], base, log)
+                if isinstance(spec, dict) and spec.get("then_open"):
+                    open_property(page, seen, spec, base, checkin, cfg["scan"]["adults"], sp, w, log)
                 facts = page_facts(text, title, w["name"], sp["block_phrases"])
                 if not facts["blocked"] and (status in (403, 429) or "ERR_HTTP2_PROTOCOL_ERROR" in err):
                     facts["blocked"] = f"HTTP {status}" if status else "connection refused (HTTP/2 error)"
@@ -301,6 +303,33 @@ def search_box(page, spec: dict, query: str, wait_ms: int) -> str:
     return "" if sug.count() else "no suggestion list (pressed Enter)"
 
 
+def open_property(page, seen: list, spec: dict, base: Path, checkin: date, adults: int, sp: dict, w: dict, log=log) -> None:
+    """Then open the hotel's own page on that seller for the night (id from the search's address) and keep what it
+    loads: the room prices a reader would use."""
+    m = re.search(spec["id_from_url"], page.url)
+    if not m:
+        log("property page: no id in the address")
+        return
+    url = spec["then_open"].format(id=m.group(1), checkin=checkin.isoformat(),
+                                   checkout=(checkin + timedelta(days=1)).isoformat(), adults=adults)
+    seen.clear()
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(sp["wait_ms"] + 4000)
+        title, text = page.title(), page.inner_text("body")
+    except Exception as e:  # noqa: BLE001
+        log(f"property page: {str(e)[:120]}")
+        return
+    pb = base.parent / f"{base.name}_property"
+    pb.with_suffix(".txt").write_text(f"#URL {url}\n#FINAL {page.url}\n#TITLE {title}\n{text[:300_000]}", encoding="utf-8")
+    try:
+        page.screenshot(path=str(pb.with_suffix(".png")), full_page=True)
+    except Exception:  # noqa: BLE001
+        pass
+    n = save_json(seen, pb, sp["json_url_pattern"], sp["json_per_page"], name_words(w["name"]) + ["price"])
+    log(f"property page {page.url[:90]}: {title[:50]}, prices {len(PRICE.findall(text))}, json {n}")
+
+
 def replay(page, responses, rp: dict, base: Path, log=log) -> None:
     """Send one of the page's own API requests again with changes (e.g. Agoda's price trend for one property rather
     than the whole city), from inside the page so it carries the page's own headers and cookies; save each answer."""
@@ -353,8 +382,8 @@ def save_json(responses, base: Path, pattern: str, limit: int, words: list[str] 
         if n >= limit:
             break
         p = base.parent / f"{base.name}.api{n}.json"
-        p.write_bytes(body[:400_000])
-        p.with_suffix(".url").write_text(r.request.method + " " + r.url[:500] + "\n" + (r.request.post_data or "")[:4000],
+        p.write_bytes(body[:3_000_000])
+        p.with_suffix(".url").write_text(r.request.method + " " + r.url[:500] + "\n" + (r.request.post_data or "")[:200_000],
                                          encoding="utf-8")
         n += 1
     return n

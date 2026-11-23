@@ -60,4 +60,6 @@ jobs:
           for i in 1 2 3; do git pull --rebase && git push && break; sleep $((i * 5)); done
       - name: Publish reports
         if: always()
-        run: bash scripts/publish_reports.sh "sellers-${{ inputs.part }}"   # one folder per part: runs can overlap
+        env:
+          NAME: sellers-${{ inputs.part }}-${{ inputs.sellers }}-${{ inputs.catalog }}
+        run: bash scripts/publish_reports.sh "$(echo "$NAME" | tr -c 'A-Za-z0-9_\n-' '_' | sed 's/_*$//')"   # one folder per probe: runs can overlap

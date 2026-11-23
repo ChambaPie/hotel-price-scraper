@@ -286,6 +286,8 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       input: "[data-selenium='textInput'], input[placeholder*='destination' i], input[placeholder*='Where' i]"
       suggestion: "[data-selenium='autosuggest-item'], [role='option'], li[data-element-name*='suggest']"
       search: "[data-selenium='searchButton'], button:has-text('SEARCH'), button:has-text('Search')"
+      id_from_url: "selectedproperty=(\\d+)"
+      then_open: "https://www.agoda.com/partners/partnersearch.aspx?hid={id}&checkin={checkin}&checkout={checkout}&adults={adults}&rooms=1&currency=EUR"
       replay:                # the page's price-trend call (61 nights, whole city) asked for one property instead
         match: priceTrendSearch
         id_from_url: "selectedproperty=(\\d+)"
@@ -299,6 +301,8 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       input: "input#hotels-destination, input[placeholder*='City' i], input[placeholder*='destination' i], input[placeholder*='Where' i]"
       suggestion: "[role='option'], [class*='associative'] li, [class*='suggest'] li"
       search: "button:has-text('Search'), [class*='search-btn']"
+      id_from_url: "optionId=(\\d+)"
+      then_open: "https://www.trip.com/hotels/detail/?hotelId={id}&checkIn={checkin}&checkOut={checkout}&adult={adults}&crn=1&curr=EUR&locale=en-GB"
   generic:                   # search box of a seller without its own entry above (any home page in settings sellers)
     input: "input[type='search'], input[placeholder*='estination' i], input[placeholder*='where' i], input[placeholder*='dove' i], input[placeholder*='wohin' i], input[placeholder*='ziel' i], input[placeholder*='città' i], input[placeholder*='city' i], input[placeholder*='hotel' i], input[name*='dest' i], input[id*='dest' i], input[aria-label*='destination' i]"
     suggestion: "[role='option'], [role='listbox'] li, [class*='uggest'] li, [class*='utocomplete'] li"
