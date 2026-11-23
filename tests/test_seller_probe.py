@@ -124,3 +124,10 @@ def test_human_touch_and_window_browser_settings():
         br.close()
     person = CFG["seller_probe"]["sellers"]["expedia"]["browser"]
     assert person["headed"] and person["native_user_agent"] and person["timezone"] == "Europe/Rome"
+
+
+def test_engine_pages_report_has_its_own_table():
+    """Regression (run 45215693109): the engine-pages rows went into the sellers' report and stopped the run."""
+    md = sp.engine_pages_md([{"engine": "seekda", "hotel": "Hotel Alpenhof", "status": 200, "blocked": "", "final_host":
+                              "booking.alpenhof.at", "prices": 18, "json_saved": 3}])
+    assert "| seekda | Hotel Alpenhof | 200 | booking.alpenhof.at | 18 | 3 |" in md

@@ -497,6 +497,14 @@ def report(seller_rows: list[dict], engine_rows: list[dict], watched: int) -> st
     return "\n".join(md) + "\n"
 
 
+def engine_pages_md(rows: list[dict]) -> str:
+    md = ["# Booking-engine pages", "", "| engine | hotel | status | site | prices on the page | JSON saved |",
+          "|---|---|---|---|---|---|"]
+    md += [f"| {r['engine']} | {r['hotel'][:40]} | {r['status']}{' ' + r['blocked'] if r['blocked'] else ''} | "
+           f"{r['final_host']} | {r['prices']} | {r['json_saved']} |" for r in rows]
+    return "\n".join(md) + "\n"
+
+
 def write_rows(path: Path, rows: list[dict]) -> None:
     if not rows:
         return
@@ -535,8 +543,11 @@ def main(argv=None) -> int:
         write_rows(Path(p["official_sites"]), sorted(({**r, "checked_at": stamp} for r in engine_rows), key=lambda r: r["pid"]))
     if args.part == "engine_pages":
         checkin = date.fromisoformat(args.checkin) if args.checkin else date.today() + timedelta(days=sp["checkin_offset_days"])
-        seller_rows = probe_engine_pages(cfg, read_csv(p["official_sites"]), out, checkin)
-        write_rows(out / "engine_pages.csv", seller_rows)
+        page_rows = probe_engine_pages(cfg, read_csv(p["official_sites"]), out, checkin)
+        write_rows(out / "engine_pages.csv", page_rows)
+        (out / "report.md").write_text(engine_pages_md(page_rows), encoding="utf-8")
+        print(engine_pages_md(page_rows))
+        return 0
     md = report(seller_rows, engine_rows, sum(1 for w in watch if not w.get("gone_since")))
     (out / "report.md").write_text(md, encoding="utf-8")
     print(md)
