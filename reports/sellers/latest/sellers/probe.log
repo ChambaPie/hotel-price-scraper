@@ -1,21 +1,27 @@
-16:20:23 replay: no property id in the address
-16:20:23 agoda      Corinthia Budapest             200 blocked=- prices=0 name=True json=10
-16:20:53 replay 0 {'propertyId': '{id}', 'currency': 'EUR'}: HTTP 200, 104 bytes
-16:20:53 replay 1 {'propertyId': '{id}', 'currency': 'EUR', 'searchType': 'PropertySearch'}: HTTP 200, 104 bytes
-16:20:53 replay 2 {'propertyId': '{id}', 'currency': 'EUR', 'startDate': '2027-05-01T00:00:00.000Z', 'endDate': '2027-06-30T00:00:00.000Z'}: HTTP 200, 104 bytes
-16:20:53 agoda      Hotel Artemide                 200 blocked=- prices=0 name=True json=9
-16:21:24 replay 0 {'propertyId': '{id}', 'currency': 'EUR'}: HTTP 200, 1688 bytes
-16:21:24 replay 1 {'propertyId': '{id}', 'currency': 'EUR', 'searchType': 'PropertySearch'}: HTTP 200, 1688 bytes
-16:21:24 replay 2 {'propertyId': '{id}', 'currency': 'EUR', 'startDate': '2027-05-01T00:00:00.000Z', 'endDate': '2027-06-30T00:00:00.000Z'}: HTTP 200, 108 bytes
-16:21:24 agoda      Hotel Residence Agnes          200 blocked=- prices=0 name=True json=9
-# Sellers' own websites: probe S0
-
-## Sellers (one night, search page)
-
-| seller | pages | blocked | with prices | hotel found | JSON saved |
-|---|---|---|---|---|---|
-| agoda | 3 | 0 | 0 | 3 | 28 |
-
-Block phrases seen: none
-
-
+16:22:57 simplebooking    Hotel Executive La Fiorita     200 prices=0 json=1 
+16:23:12 simplebooking    Alloggio Agrituristico Albafio 200 prices=0 json=7 
+16:23:28 seekda           Adler Inn Tyrol Mountain Resor 200 prices=35 json=6 
+16:23:44 seekda           Hotel Alpenhof                 200 prices=18 json=3 
+16:23:58 synxis           Vila Vita Pannonia             200 prices=0 json=4 
+16:24:14 synxis           Hotel Cap Estel                200 prices=3 json=0 
+16:24:29 d_edge           L'Aiguille Grive Chalets Hotel 200 prices=0 json=0 
+16:24:44 d_edge           Domaine de Montagne - Chalet F 200 prices=24 json=3 
+16:24:59 vertical_booking Hotel Le Grotte                200 prices=0 json=0 
+16:25:17 vertical_booking Château Monfort                200 prices=0 json=2 
+16:25:34 hotelnetsolutions Das Naturhotel Chesa Valisa    200 prices=33 json=8 
+16:25:51 hotelnetsolutions Hotel Torbräu                  200 prices=4 json=2 
+16:26:08 blastness        Argentina Residenza Style Hote 200 prices=1 json=6 
+16:26:24 blastness        The Street Milano Duomo | a De 200 prices=0 json=4 
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/runner/work/hotel-price-scraper/hotel-price-scraper/hotel_scraper/seller_probe.py", line 465, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/runner/work/hotel-price-scraper/hotel-price-scraper/hotel_scraper/seller_probe.py", line 458, in main
+    md = report(seller_rows, engine_rows, sum(1 for w in watch if not w.get("gone_since")))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/hotel-price-scraper/hotel-price-scraper/hotel_scraper/seller_probe.py", line 399, in report
+    by.setdefault(r["seller"], []).append(r)
+                  ~^^^^^^^^^^
+KeyError: 'seller'

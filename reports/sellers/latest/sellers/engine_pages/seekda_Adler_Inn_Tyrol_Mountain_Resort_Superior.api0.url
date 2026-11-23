@@ -1,0 +1,1 @@
+GET https://s.seekda.com/api/calendar.json?propertyCode=AT_TUX_BERGLAND&includeInformativeTaxesAndFees=true&calculateTaxes=false&returnNetPrices=false&channelID=ibe&priceMode=FAIR&currentRoom=0&promotionCodes=null&occupancy=2&lastDate=2026-11-30&firstDate=2026-11-01&currencyCode=EUR&targetCurrency=EUR

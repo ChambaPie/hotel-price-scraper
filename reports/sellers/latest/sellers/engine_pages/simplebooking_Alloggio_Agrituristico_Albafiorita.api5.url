@@ -1,0 +1,2 @@
+POST https://www.simplebooking.it/graphql/ibe2/graphql?opname=CountriesIO&hid=8930
+{"operationName":"CountriesIO","variables":{"languageCode":"IT"},"extensions":{"clientLibrary":{"name":"@apollo/client","version":"4.1.9"}},"query":"query CountriesIO($languageCode: ID!) {\n  countries {\n    id\n    code\n    name(languageCode: $languageCode)\n    provinces {\n      id\n      name(languageCode: $languageCode)\n      __typename\n    }\n    __typename\n  }\n}"}

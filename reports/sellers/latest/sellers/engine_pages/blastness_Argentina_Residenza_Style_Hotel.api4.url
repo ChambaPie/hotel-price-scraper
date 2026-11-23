@@ -1,0 +1,2 @@
+POST https://api.foxtechnologies.it/api/be-frontdoor/bookingengine/search
+{"CheckIn":"2026-11-23T00:00:00.000Z","CheckOut":"2026-11-24T00:00:00.000Z","LanguageCode":"en","CurrencyCode":"EUR","Rooms":[{"Adults":2,"ChildrenAges":[]}],"RatePlanCode":null,"RatePlanClusterCode":null,"RoomTypeCode":null,"Reservation":null}

@@ -1,2 +1,0 @@
-200 POST https://www.agoda.com/graphql/search
-{"propertyId": "{id}", "currency": "EUR", "startDate": "2027-05-01T00:00:00.000Z", "endDate": "2027-06-30T00:00:00.000Z"}

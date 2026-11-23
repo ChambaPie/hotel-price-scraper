@@ -1,0 +1,2 @@
+POST https://www.simplebooking.it/graphql/ibe2/graphql?opname=CurrenciesIO&hid=8930
+{"operationName":"CurrenciesIO","variables":{},"extensions":{"clientLibrary":{"name":"@apollo/client","version":"4.1.9"}},"query":"query CurrenciesIO {\n  currencies {\n    code\n    decimalsToDisplay\n    inEUR\n    isTopCurrency\n    name\n    symbol\n    __typename\n  }\n}"}

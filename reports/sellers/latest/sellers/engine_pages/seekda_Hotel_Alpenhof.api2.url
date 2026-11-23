@@ -1,0 +1,1 @@
+GET https://switch.seekda.com/api/properties/AT_HINTER_ALPEN/availability.json?channelId=ibe&numberOfDays=363&occupancy=2&startDate=2026-11-01&lastDate=2027-10-31

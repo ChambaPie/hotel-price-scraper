@@ -1,0 +1,2 @@
+POST https://v6.onepagebooking.com/api/v6/package/PackageList
+{"code":"naturhotel-chesa-valisa","languageCode":"de","currencyCode":""}
