@@ -3,10 +3,11 @@
 - ids_due: 0
 - ids_found: 0
 - ids_missed: 0
-- calls: 0
-- priced: 0
-- available: 0
-- errors: 8
+- calls: 152
+- priced: 121
+- available: 10
+- errors: 0
+- available_by_lead: {'0-30 days': [8, 38], '181-365 days': [2, 74], '546-10000 days': [0, 7], '366-545 days': [0, 2]}
 - cities: 47 with mapped hotels
-- stored_nights: 53
+- stored_nights: 174
 - ids_coverage: 58/1500

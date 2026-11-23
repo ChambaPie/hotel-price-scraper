@@ -1,10 +1,1 @@
-20:24:45 city 545052 2026-11-24: citySearch HTTP 400: {"data":null,"errors":[{"message":"Variable '$ContentSummaryRequest' expected value of type 'Conten
-20:24:45 city 545052 2027-05-25: citySearch HTTP 400: {"data":null,"errors":[{"message":"Variable '$ContentSummaryRequest' expected value of type 'Conten
-20:24:45 city 545052 2027-11-23: citySearch HTTP 400: {"data":null,"errors":[{"message":"Variable '$ContentSummaryRequest' expected value of type 'Conten
-20:24:46 city 545052 2028-05-23: citySearch HTTP 400: {"data":null,"errors":[{"message":"Variable '$ContentSummaryRequest' expected value of type 'Conten
-20:24:46 city 70743 2026-11-24: citySearch HTTP 400: {"data":null,"errors":[{"message":"Variable '$ContentSummaryRequest' expected value of type 'Conten
-20:24:46 city 70743 2027-05-25: citySearch HTTP 400: {"data":null,"errors":[{"message":"Variable '$ContentSummaryRequest' expected value of type 'Conten
-20:24:46 city 70743 2027-11-23: citySearch HTTP 400: {"data":null,"errors":[{"message":"Variable '$ContentSummaryRequest' expected value of type 'Conten
-20:24:46 city 70743 2028-05-23: citySearch HTTP 400: {"data":null,"errors":[{"message":"Variable '$ContentSummaryRequest' expected value of type 'Conten
-20:24:46 too many errors in a row: stopping this pass
-20:24:46 agoda: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 8, 'cities': '47 with mapped hotels', 'stored_nights': 53, 'ids_coverage': '58/1500'}
+20:31:56 agoda: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 152, 'priced': 121, 'available': 10, 'errors': 0, 'available_by_lead': {'0-30 days': [8, 38], '181-365 days': [2, 74], '546-10000 days': [0, 7], '366-545 days': [0, 2]}, 'cities': '47 with mapped hotels', 'stored_nights': 174, 'ids_coverage': '58/1500'}
