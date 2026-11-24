@@ -104,8 +104,18 @@ def main(argv=None) -> int:
         else:
             br = launch_browser(pw, True)
             page = br.new_context(user_agent=sp["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900}).new_page()
+        warmed = False
         for q in args.query:
             if q.startswith("http"):        # a page of the seller's (a hotel page for a night): every call it makes
+                if not warmed and spec.get("home"):    # its home page first, as a visitor arrives (HolidayCheck's
+                    warmed = True                      # offers page opened cold: "Diese Funktionalität steht gerade
+                    try:                               # nicht zur Verfügung", 2026-11-24)
+                        page.goto(spec["home"], wait_until="domcontentloaded", timeout=60000)
+                        page.wait_for_timeout(6000)
+                        accept_cookies(page, sp["cookie_buttons"])
+                        page.wait_for_timeout(3000)
+                    except Exception as e:  # noqa: BLE001
+                        log(f"home: {str(e)[:120]}")
                 open_page_calls(page, q, out, args.seller, sp["cookie_buttons"])
                 continue
             page.goto(spec["home"], wait_until="domcontentloaded", timeout=60000)
