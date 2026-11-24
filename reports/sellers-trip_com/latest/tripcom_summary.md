@@ -1,3 +1,3 @@
 ## Trip.com
 
-Hotels found on Trip.com: 548/1500 (this pass: 268 found, 32 not found of 300 looked up). Prices: 96 calls, 27 hotel-nights answered, 27 available; 27 nights stored; 0 errors.
+Hotels found on Trip.com: 672/1500 (this pass: 180 found, 85 not found of 300 looked up). Prices: 276 calls, 276 hotel-nights answered, 0 available; 303 nights stored; 0 errors.
