@@ -1,45 +1,45 @@
-15:48:33 session token: yes
-15:48:46 empty search 'Rome': landed on https://www.booking.com/searchresults.en-gb.html?ss=Rome&checkin=2026-12-23&checkout=2026-12-24&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR title 'Booking.com: Search results: Rome. Book your hotel now!'
-15:48:59 empty search 'Rome': landed on https://www.booking.com/searchresults.en-gb.html?ss=Rome&checkin=2026-12-23&checkout=2026-12-24&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR title 'Booking.com: Search results: Rome. Book your hotel now!'
-15:48:59 town Rome: 0 cards, 0 of 15 matched
-15:49:12 empty search 'Lido di Iesolo': landed on https://www.booking.com/searchresults.en-gb.html?ss=Lido%20di%20Iesolo&checkin=2026-12-23&checkout=2026-12-24&group_adults=2&no_rooms=1&group_children=0&selecte title 'Booking.com: Search results: Lido%20di%20Iesolo. Book your hotel now!'
-15:49:24 town Lido di Iesolo: 0 cards, 0 of 13 matched
-15:49:50 town Venice: 0 cards, 0 of 12 matched
-15:50:16 town Cervia: 0 cards, 0 of 10 matched
-15:50:42 town Cattolica: 0 cards, 0 of 9 matched
-15:51:07 town Riccione: 0 cards, 0 of 8 matched
-15:51:33 town Stare Mesto: 0 cards, 0 of 6 matched
-15:51:58 town Morzine: 0 cards, 0 of 6 matched
-15:52:24 town Vatican City: 0 cards, 0 of 6 matched
-15:52:49 town Bellaria-Igea Marina: 0 cards, 0 of 5 matched
-15:53:15 town Napoli: 0 cards, 0 of 5 matched
-15:53:41 town Capezzano Inferiore: 0 cards, 0 of 5 matched
-15:54:06 town Sesto: 0 cards, 0 of 5 matched
-15:54:32 town Praiano: 0 cards, 0 of 5 matched
-15:54:57 town Sankt Anton am Arlberg: 0 cards, 0 of 4 matched
-15:55:23 town Florence: 0 cards, 0 of 4 matched
-15:55:49 town Sorrento: 0 cards, 0 of 4 matched
-15:56:14 town Positano: 0 cards, 0 of 4 matched
-15:56:40 town Massa Lubrense: 0 cards, 0 of 4 matched
-15:57:05 town Sirmione: 0 cards, 0 of 4 matched
-15:57:32 town Stans: 0 cards, 0 of 3 matched
-15:57:57 town Mala Strana: 0 cards, 0 of 3 matched
-15:58:22 town Eze: 0 cards, 0 of 3 matched
-15:58:48 town Verona: 0 cards, 0 of 3 matched
-15:59:14 town Milano: 0 cards, 0 of 3 matched
-15:59:39 town Lignano Sabbiadoro: 0 cards, 0 of 3 matched
-16:00:05 town San Vigilio: 0 cards, 0 of 3 matched
-16:00:30 town Gatteo a Mare: 0 cards, 0 of 3 matched
-16:00:56 town Rivazzurra: 0 cards, 0 of 3 matched
-16:01:22 town Misano Adriatico: 0 cards, 0 of 3 matched
-16:01:47 town Rio di Pusteria: 0 cards, 0 of 3 matched
-16:02:13 town Lana: 0 cards, 0 of 3 matched
-16:02:38 town Commezzadura: 0 cards, 0 of 3 matched
-16:03:04 town Naturno: 0 cards, 0 of 3 matched
-16:03:29 town Gaiole in Chianti: 0 cards, 0 of 3 matched
-16:03:55 town Graen: 0 cards, 0 of 2 matched
-16:03:55 mapping: 0 found, 0 not found; 1004 mapped
-## Booking.com collection (mapping, last-minute): 0 calendars, 0 calls, 926 s
+02:58:40 session token: yes
+02:58:53 empty search 'Rome': landed on https://www.booking.com/searchresults.en-gb.html?ss=Rome&checkin=2026-12-24&checkout=2026-12-25&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR title 'Booking.com: Search results: Rome. Book your hotel now!'
+02:59:07 empty search 'Rome': landed on https://www.booking.com/searchresults.en-gb.html?ss=Rome&checkin=2026-12-24&checkout=2026-12-25&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR title 'Booking.com: Search results: Rome. Book your hotel now!'
+02:59:07 town Rome: 0 cards, 0 of 16 matched
+02:59:19 empty search 'Venice': landed on https://www.booking.com/searchresults.en-gb.html?ss=Venice&checkin=2026-12-24&checkout=2026-12-25&group_adults=2&no_rooms=1&group_children=0&selected_currency=E title 'Booking.com: Search results: Venice. Book your hotel now!'
+02:59:32 town Venice: 0 cards, 0 of 9 matched
+02:59:58 town Lido di Iesolo: 0 cards, 0 of 9 matched
+03:00:23 town Andalo: 0 cards, 0 of 8 matched
+03:00:49 town Stare Mesto: 0 cards, 0 of 7 matched
+03:01:14 town Florence: 0 cards, 0 of 7 matched
+03:01:40 town Vatican City: 0 cards, 0 of 7 matched
+03:02:05 town Sankt Anton am Arlberg: 0 cards, 0 of 5 matched
+03:02:31 town Napoli: 0 cards, 0 of 5 matched
+03:02:56 town Riccione: 0 cards, 0 of 5 matched
+03:03:21 town Praiano: 0 cards, 0 of 5 matched
+03:03:47 town Alba Adriatica: 0 cards, 0 of 4 matched
+03:04:12 town Stans: 0 cards, 0 of 3 matched
+03:04:37 town Seefeld in Tirol: 0 cards, 0 of 3 matched
+03:05:03 town Lech: 0 cards, 0 of 3 matched
+03:05:28 town Saas-Fee: 0 cards, 0 of 3 matched
+03:05:54 town Zermatt: 0 cards, 0 of 3 matched
+03:06:19 town Mala Strana: 0 cards, 0 of 3 matched
+03:06:44 town Montepulciano: 0 cards, 0 of 3 matched
+03:07:10 town Milano: 0 cards, 0 of 3 matched
+03:07:35 town Monterosso al Mare: 0 cards, 0 of 3 matched
+03:08:01 town Selva: 0 cards, 0 of 3 matched
+03:08:26 town Cattolica: 0 cards, 0 of 3 matched
+03:08:52 town Lana: 0 cards, 0 of 3 matched
+03:09:17 town Merano: 0 cards, 0 of 3 matched
+03:09:43 town Malcesine: 0 cards, 0 of 3 matched
+03:10:08 town Gaiole in Chianti: 0 cards, 0 of 3 matched
+03:10:34 town Sorrento: 0 cards, 0 of 3 matched
+03:10:59 town Massa Lubrense: 0 cards, 0 of 3 matched
+03:11:24 town Positano: 0 cards, 0 of 3 matched
+03:11:50 town Soelden: 0 cards, 0 of 2 matched
+03:12:15 town Fiss: 0 cards, 0 of 2 matched
+03:12:40 town Graen: 0 cards, 0 of 2 matched
+03:13:06 town Arosa: 0 cards, 0 of 2 matched
+03:13:31 town Montana: 0 cards, 0 of 2 matched
+03:13:56 town Bodenmais: 0 cards, 0 of 2 matched
+03:13:56 mapping: 0 found, 0 not found; 1004 mapped
+## Booking.com collection (mapping, last-minute): 0 calendars, 0 calls, 919 s
 
 Mapping: 0 found, 0 not found. Failed: 0. Last-minute cards: 0.
 
