@@ -1739,6 +1739,14 @@ ta:g949926-d14009018,agoda,,,,,,,,not found,2026-11-24T05:29:54+00:00
 ta:g954021-d582835,agoda,9927145,105922,7132 Hotel,46.61394119262695,9.176739692687988,1.02,1.0,ok,2026-11-23T20:33:54+00:00
 ta:g9745745-d10171320,agoda,232106,3834,Avalon Resort,-35.23167037963867,173.94082641601562,17391.85,1.0,not found,2026-11-23T20:42:58+00:00
 ta:g982822-d1145370,agoda,,,,,,,,not found,2026-11-24T09:58:17+00:00
+ta:g1165103-d575820,edreams,,,,,,,,not found,2026-11-24T16:05:36+00:00
+ta:g1195856-d1585978,edreams,,,,,,,,not found,2026-11-24T16:05:36+00:00
+ta:g608661-d1371831,edreams,,,,,,,,not found,2026-11-24T16:05:36+00:00
+ta:g608666-d645579,edreams,,,,,,,,not found,2026-11-24T16:05:36+00:00
+ta:g608679-d1142979,edreams,,,,,,,,not found,2026-11-24T16:05:36+00:00
+ta:g641766-d4750565,edreams,,,,,,,,not found,2026-11-24T16:05:36+00:00
+ta:g651667-d1765617,edreams,,,,,,,,not found,2026-11-24T16:05:36+00:00
+ta:g676650-d7676365,edreams,,,,,,,,not found,2026-11-24T16:05:36+00:00
 ta:g1010234-d3353901,hrs,171724,14476,The Lodge Heverlee,50.86137,4.68627,562.08,0.323,not found,2026-11-24T09:58:30+00:00
 ta:g1010803-d23160688,hrs,1062581,51750,Karls Hotel,48.089276,9.214042,0.02,1.0,ok,2026-11-24T05:29:50+00:00
 ta:g1016057-d10531655,hrs,743589,532562,Arpini,45.432678,9.713062,334.98,0.4,not found,2026-11-24T10:24:25+00:00
@@ -3131,6 +3139,205 @@ ta:g808078-d1728712,official,"seekda:{""code"":""IT_VAL_VALSERHOF""}",,Hotel Gro
 ta:g811451-d1682047,official,"seekda:{""code"":""S005568""}",,Hotel Babymio ****,,,,,ok,2026-11-24T05:29:46+00:00
 ta:g811462-d1595255,official,"seekda:{""code"":""AT_GROSSARLER""}",,Premium Wanderhotel Steirerhof,,,,,ok,2026-11-24T05:29:46+00:00
 ta:g954021-d582835,official,,,7132 Hotel,,,,,not found,2026-11-24T05:29:46+00:00
+ta:g1024764-d4564528,super_com,RG6E1p8j,53862|dolomitengolf-hotel-spa-dolsach,Dolomitengolf Hotel & Spa,46.81175,12.830925,0.73,0.812,ok,2026-11-24T16:05:42+00:00
+ta:g1048250-d1567726,super_com,,53845,Macher's Landhotel,46.917828,12.329995,1.77,0.364,not found,2026-11-24T16:05:42+00:00
+ta:g1055468-d1584454,super_com,YjBOL58G,84675|hotel-restaurant-grimmingblick-ges-m-b-h-bad-mitterndorf,Hotel Restaurant Grimmingblick Ges.m.b.H.,47.55477,13.93965,0.03,0.885,ok,2026-11-24T16:05:42+00:00
+ta:g1055481-d599886,super_com,,53734,Aqua Dome,47.069344,10.965572,0.3,0.286,not found,2026-11-24T16:05:42+00:00
+ta:g1055484-d195361,super_com,,53731,Gasthof Zur Post,47.30466,10.98445,0.3,0.25,not found,2026-11-24T16:05:42+00:00
+ta:g1056049-d1006044,super_com,PjmoN98W,99594|kinder-gletscherhotel-hintertuxerhof-tux,Kinder- & Gletscherhotel Hintertuxerhof,47.110107,11.675722,0.05,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g1056049-d1006824,super_com,,99594,Hotel Alpenhof,47.115734,11.684243,1.65,0.27,not found,2026-11-24T16:05:42+00:00
+ta:g1056049-d1145033,super_com,9W362k6G,99594|hotel-alpenhof-tux,Hotel Alpenhof,47.115734,11.684243,0.01,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g1060376-d2686895,super_com,,24966,Berghotel Rasis,46.967052,10.189227,0.06,0.378,not found,2026-11-24T16:05:42+00:00
+ta:g1071604-d26657180,super_com,,84474,Hotel Zum Goldenen Hirschen,48.5126,14.50539,0.74,0.343,not found,2026-11-24T16:05:42+00:00
+ta:g1101280-d1730915,super_com,,84357,Ferienwohnung Brigitte Perner,47.855934,13.489114,3.06,0.118,not found,2026-11-24T16:05:42+00:00
+ta:g1115025-d288749,super_com,bjR8Ev3W,46538|hotel-singer-relais-chateaux-berwang,Hotel Singer - Relais & Chateaux,47.409073,10.75068,0.04,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g1118350-d1523088,super_com,,36473,Schloss Mittersill Hotel,47.288673,12.484143,1.39,0.294,not found,2026-11-24T16:05:42+00:00
+ta:g1156007-d1195050,super_com,,36515,Hotel Sportalmmm,47.293537,13.457679,0.08,0.182,not found,2026-11-24T16:05:42+00:00
+ta:g1156007-d1930694,super_com,,36515,Hotel Sportalmmm,47.293537,13.457679,0.08,0.222,not found,2026-11-24T16:05:42+00:00
+ta:g1164730-d938946,super_com,,36249,Strandhotel Burgstaller,46.77269,13.747335,0.38,0.182,not found,2026-11-24T16:05:42+00:00
+ta:g1165103-d575820,super_com,,53758,DAS SIEBEN ****S - Adults Only,47.513126,12.111289,0.38,0.308,not found,2026-11-24T16:05:42+00:00
+ta:g1165314-d289073,super_com,QG791wl3,71257|interalpen-hotel-tyrol-gmbh-telfs,Interalpen-Hotel Tyrol GmbH,47.331047,11.123544,0.12,0.882,ok,2026-11-24T16:05:42+00:00
+ta:g1171382-d6868672,super_com,,99572,Krauterhotel Hochzillertal,47.29135,11.871129,0.85,0.136,not found,2026-11-24T16:05:42+00:00
+ta:g1171460-d1730625,super_com,7lkoNk6l,24983|romantik-spa-alpen-herz-ladis,Romantik & Spa Alpen-Herz,47.07134,10.646126,0.04,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g1171460-d1810072,super_com,PlOzYOwW,24983|alpine-resort-goies-superior-ladis,Alpine Resort Goies Superior,47.07192,10.647041,0.01,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g1171611-d1182300,super_com,,81079,Hotel Xylophon - Inklusive Thermeneintritte,47.464912,16.660048,0.11,0.279,not found,2026-11-24T16:05:42+00:00
+ta:g1183708-d1188651,super_com,bjRVNpjM,53740|aktiv-panoramahotel-daniel-sautens,Aktiv Panoramahotel Daniel,47.204784,10.86573,0.06,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g1183708-d1189951,super_com,,53740,Aktiv Panoramahotel Daniel,47.204784,10.86573,0.53,0.176,not found,2026-11-24T16:05:42+00:00
+ta:g1194193-d1209188,super_com,bGwnpgej,53739|hotel-andy-jerzens,Hotel Andy,47.153812,10.756863,0.01,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g1194193-d1396143,super_com,,53739,Pitztal Living,47.152683,10.744732,0.19,0.174,not found,2026-11-24T16:05:42+00:00
+ta:g1194203-d2282791,super_com,,36484,Goldstuck - Adults Only,47.37593,12.68612,3.95,0.148,not found,2026-11-24T16:05:42+00:00
+ta:g1194229-d1054217,super_com,,53752,Alpenhotel Enzian Ulrich Riml GmbH,46.977234,10.984617,0.07,0.364,not found,2026-11-24T16:05:42+00:00
+ta:g1194354-d1194435,super_com,,36210,Der Paternwirt,46.70527,12.73775,3.03,0.194,not found,2026-11-24T16:05:42+00:00
+ta:g1194565-d1977580,super_com,4jA1drNj,99586|senner-suites-zillertal-schlitters,Senner Suites Zillertal,47.378883,11.840032,0.07,0.769,ok,2026-11-24T16:05:42+00:00
+ta:g1194639-d1748319,super_com,,53761,Hotel Hagerhof,47.588047,12.092219,1.99,0.133,not found,2026-11-24T16:05:42+00:00
+ta:g1195037-d1437862,super_com,,53736,Bucherhof Mair,47.311783,10.891078,0.52,0.261,not found,2026-11-24T16:05:42+00:00
+ta:g1195150-d1577334,super_com,,36225,JUFA Hotel Gitschtal,46.68247,13.243036,14.48,0.286,not found,2026-11-24T16:05:42+00:00
+ta:g1195856-d1585978,super_com,,36241,Erlebnis-Hotel-Appartements,46.55808,13.925128,0.33,0.333,not found,2026-11-24T16:05:42+00:00
+ta:g1196910-d2231250,super_com,,71317,Luxuriöses Und Modernes Apartment,47.269215,11.238679,2.78,0.216,not found,2026-11-24T16:05:42+00:00
+ta:g1197052-d1485364,super_com,,36480,Hölzl Bed & Breakfast,47.25445,12.275718,3.53,0.276,not found,2026-11-24T16:05:42+00:00
+ta:g1197052-d1586671,super_com,,36480,Hölzl Bed & Breakfast,47.25445,12.275718,5.54,0.267,not found,2026-11-24T16:05:42+00:00
+ta:g1749064-d3536209,super_com,,80995,JUFA Hotel Pollau - Self Check-In,47.302357,15.837434,5.12,0.16,not found,2026-11-24T16:05:42+00:00
+ta:g190413-d1518844,super_com,,81040,Gasthaus Helena,47.750328,16.660156,0.65,0.343,not found,2026-11-24T16:05:42+00:00
+ta:g190432-d195611,super_com,,81014,Kai 36 - Hotel Zwischen Fels Und Fluss,47.0747,15.43529,0.04,0.293,not found,2026-11-24T16:05:42+00:00
+ta:g190440-d1459469,super_com,,36523,[PLACES] Obertauern By Valamar,47.25027,13.554654,1.73,0.316,not found,2026-11-24T16:05:42+00:00
+ta:g190440-d2166753,super_com,,36536,Valamar Obertauern Hotel,47.24607,13.56287,0.12,0.154,not found,2026-11-24T16:05:42+00:00
+ta:g190441-d228064,super_com,7Grw4JWJ,37950|hotel-sacher-salzburg-salzburg,Hotel Sacher Salzburg,47.802334,13.043313,0.11,0.621,ok,2026-11-24T16:05:42+00:00
+ta:g190441-d228068,super_com,RjbM0Llv,37950|schloss-monchstein-hotel-salzburg,Schloss Monchstein Hotel,47.80414,13.035704,0.01,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g190441-d237748,super_com,,37950,Hotel Rosenvilla,47.797523,13.066345,0.22,0.235,not found,2026-11-24T16:05:42+00:00
+ta:g190441-d253252,super_com,7Grw4JWJ,37950|hotel-sacher-salzburg-salzburg,Hotel Sacher Salzburg,47.802334,13.043313,0.01,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g1988927-d1986522,super_com,VGJE8Vmj,53854|defereggental-hotel-resort-sankt-veit-in-defereggen,Defereggental Hotel & Resort,46.91386,12.374568,0.02,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g2201665-d1079106,super_com,,38005,Schone Aussicht,47.611076,13.133689,1.81,0.194,not found,2026-11-24T16:05:42+00:00
+ta:g2274029-d2301591,super_com,,36161,Hotel Garni Zerza,46.615845,13.281982,2.63,0.207,not found,2026-11-24T16:05:42+00:00
+ta:g227585-d1342682,super_com,loX4VB3j,36507|die-hochkonigin-mountain-resort-maria-alm-am-steinernen-meer,Die Hochkonigin - Mountain Resort,47.404495,12.902175,0.05,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g227585-d3490094,super_com,,36507,Ferienwohnung Klappacher,47.390076,12.93425,3.48,0.368,not found,2026-11-24T16:05:42+00:00
+ta:g229452-d1832991,super_com,6jx0y6Lj,80784|hotel-schutterhof-schladming,Hotel Schutterhof,47.386257,13.673872,0.03,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g230011-d1208213,super_com,EW2gpz2l,53861|parkhotel-tristachersee-tristach,Parkhotel Tristachersee,46.80747,12.79385,0.01,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g230011-d1514263,super_com,MjKVyeYl,53870|grandhotel-lienz-lienz,Grandhotel Lienz,46.83125,12.772094,0.03,0.8,ok,2026-11-24T16:05:42+00:00
+ta:g319732-d1140276,super_com,xWeVgJ7l,71263|oasis-princess-bergfrieden-seefeld,Oasis Princess Bergfrieden,47.32649,11.19221,0.04,0.884,ok,2026-11-24T16:05:42+00:00
+ta:g319732-d291520,super_com,VGD8OeKG,71263|alpin-resort-sacher-seefeld,Alpin Resort Sacher,47.33547,11.18697,0.05,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g319732-d500144,super_com,,71263,Das Hotel Eden Seefeld,47.330826,11.187363,0.09,0.286,not found,2026-11-24T16:05:42+00:00
+ta:g319732-d500477,super_com,,71263,Post Seefeld - Wellnesshotel Tirol,47.328735,11.187826,0.09,0.146,not found,2026-11-24T16:05:42+00:00
+ta:g319732-d500484,super_com,,71263,Seelos,47.331177,11.183597,0.12,0.182,not found,2026-11-24T16:05:42+00:00
+ta:g319732-d646259,super_com,,71263,Hotel Schonegg,47.33221,11.19008,0.05,0.25,not found,2026-11-24T16:05:42+00:00
+ta:g319732-d676222,super_com,,71263,Appart- Und Wellnesshotel Charlotte,47.333088,11.192441,0.07,0.167,not found,2026-11-24T16:05:42+00:00
+ta:g551473-d523028,super_com,,36250,Heidi-Hotel Falkertsee,46.864094,13.828646,6.76,0.231,not found,2026-11-24T16:05:42+00:00
+ta:g580116-d1010387,super_com,,36508,Auhof,47.134712,13.130835,0.45,0.125,not found,2026-11-24T16:05:42+00:00
+ta:g580116-d286604,super_com,,36508,"The Comodo Bad Gastein, A Member Of Design Hotels",47.123707,13.144392,0.2,0.089,not found,2026-11-24T16:05:42+00:00
+ta:g580116-d575322,super_com,,36508,Hapimag Resort Bad Gastein,47.12028,13.14083,0.1,0.158,not found,2026-11-24T16:05:42+00:00
+ta:g580362-d1959467,super_com,,68618,Hotel Homann,46.95167,10.370883,2.05,0.077,not found,2026-11-24T16:05:42+00:00
+ta:g608658-d1170227,super_com,,36511,Landhotel Alpenhof,47.437416,13.468191,1.83,0.303,not found,2026-11-24T16:05:42+00:00
+ta:g608661-d10533258,super_com,,36462,AvenidA Style Appartments By Alpin Rentals -Incl Summercard,47.27415,12.7597,0.09,0.439,not found,2026-11-24T16:05:42+00:00
+ta:g608661-d1371831,super_com,,36462,AvenidA Style Appartments By Alpin Rentals -Incl Summercard,47.27415,12.7597,0.79,0.246,not found,2026-11-24T16:05:42+00:00
+ta:g608661-d17784391,super_com,,36462,24 By AvenidA - Mountain Hotel,47.26943,12.75489,0.07,0.262,not found,2026-11-24T16:05:42+00:00
+ta:g608661-d575343,super_com,QG70b81W,36462|hotel-kaprunerhof-kaprun,Hotel Kaprunerhof,47.26928,12.75286,0.01,0.88,ok,2026-11-24T16:05:42+00:00
+ta:g608662-d1015860,super_com,,99593,Hotel Neue Post,47.169235,11.864837,0.41,0.32,not found,2026-11-24T16:05:42+00:00
+ta:g608662-d2470494,super_com,,99593,Hotel Andrea,47.160778,11.86127,0.27,0.3,not found,2026-11-24T16:05:42+00:00
+ta:g608663-d1796892,super_com,,36464,Hotel Almrausch,47.379173,12.599245,0.13,0.25,not found,2026-11-24T16:05:42+00:00
+ta:g608663-d1901120,super_com,,36464,Ski & Bike Hotel Wiesenegg,47.381874,12.604573,0.13,0.211,not found,2026-11-24T16:05:42+00:00
+ta:g608663-d2137318,super_com,9WQO4V7j,36464|hotel-sonnegg-saalbach,Hotel Sonnegg,47.377647,12.68275,0.03,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g608663-d2395722,super_com,,36464,Ski & Bike Hotel Wiesenegg,47.381874,12.604573,1.05,0.077,not found,2026-11-24T16:05:42+00:00
+ta:g608663-d482577,super_com,7lkY0RnG,36464|alpinresort-valsaa-sport-spa-saalbach,Alpinresort ValSaa - Sport & Spa,47.390167,12.637432,0.01,0.735,ok,2026-11-24T16:05:42+00:00
+ta:g608665-d655627,super_com,7lkYXB6G,36510|hotel-alpendorf-sankt-johann-im-pongau,Hotel Alpendorf,47.322956,13.195717,0.04,0.643,ok,2026-11-24T16:05:42+00:00
+ta:g608665-d674830,super_com,,36510,Hotel Alpendorf,47.322956,13.195717,0.05,0.211,not found,2026-11-24T16:05:42+00:00
+ta:g608665-d674833,super_com,,36510,Oberforsthof,47.324013,13.197256,0.03,0.178,not found,2026-11-24T16:05:42+00:00
+ta:g608666-d313604,super_com,WpLJqXMW,36461|the-house-zell-am-see-zell-am-see,The House Zell Am See,47.32207,12.795173,0.16,0.69,ok,2026-11-24T16:05:42+00:00
+ta:g608666-d500765,super_com,,36461,Nikolaus By AvenidA Zell Am See,47.32672,12.792286,0.26,0.229,not found,2026-11-24T16:05:42+00:00
+ta:g608666-d645579,super_com,,36461,The House Zell Am See,47.32207,12.795173,0.16,0.176,not found,2026-11-24T16:05:42+00:00
+ta:g608666-d647276,super_com,1G4953Wq,36461|haidvogl-mavida-zell-am-see-zell-am-see,HAIDVOGL MAVIDA Zell Am See,47.303886,12.794442,0.13,0.605,ok,2026-11-24T16:05:42+00:00
+ta:g608667-d632115,super_com,,53754,Alpbacherhof – Mountain & Spa Resort,47.39737,11.9462,0.77,0.298,not found,2026-11-24T16:05:42+00:00
+ta:g608668-d500481,super_com,,53755,Das Kaiserblick 4 Stern Superior,47.51089,12.30182,0.34,0.158,not found,2026-11-24T16:05:42+00:00
+ta:g608668-d569037,super_com,,53755,Hotel Kaiserhof,47.50637,12.286904,1.08,0.5,not found,2026-11-24T16:05:42+00:00
+ta:g608670-d1635968,super_com,,24989,Hotel Brigitte,47.01014,10.291793,0.2,0.105,not found,2026-11-24T16:05:42+00:00
+ta:g608670-d2034965,super_com,,24989,Hotel Piz Buin,47.01357,10.295437,0.11,0.3,not found,2026-11-24T16:05:42+00:00
+ta:g608670-d2315695,super_com,,24989,Hotel Piz Buin,47.01357,10.295437,0.15,0.316,not found,2026-11-24T16:05:42+00:00
+ta:g608670-d500880,super_com,,24989,Hotel Brigitte,47.01014,10.291793,0.07,0.111,not found,2026-11-24T16:05:42+00:00
+ta:g608673-d599989,super_com,,53805,Hotel Austria,47.45016,12.093512,0.07,0.4,not found,2026-11-24T16:05:42+00:00
+ta:g608674-d500363,super_com,vlg3E87l,19926|hotel-alpenland-obergurgl,Hotel Alpenland,46.870308,11.028567,0.14,0.571,ok,2026-11-24T16:05:42+00:00
+ta:g608675-d1792459,super_com,,53744,Das Schlossl,47.24583,10.895725,5.2,0.278,not found,2026-11-24T16:05:42+00:00
+ta:g608675-d618971,super_com,elXav7kj,53733|posthotel-kassl-oetz,Posthotel Kassl,47.203236,10.897566,0.02,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g608676-d1465876,super_com,,24962,Chalet Marmotta Neve,47.13586,10.272848,0.32,0.37,not found,2026-11-24T16:05:42+00:00
+ta:g608676-d1500821,super_com,,24962,Hotel Tannenhof,47.139652,10.276806,0.47,0.174,not found,2026-11-24T16:05:42+00:00
+ta:g608676-d1506948,super_com,,24962,Schindler Hotel,47.12678,10.261647,0.15,0.091,not found,2026-11-24T16:05:42+00:00
+ta:g608676-d1581564,super_com,LG8Rep9l,24962|arlen-lodge-hotel-st-anton-am-arlberg,Arlen Lodge Hotel,47.138073,10.27363,0.0,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g608676-d1647036,super_com,,24962,Apart Korona,47.121456,10.249034,0.23,0.19,not found,2026-11-24T16:05:42+00:00
+ta:g608676-d1972626,super_com,,24962,Schindler Hotel,47.12678,10.261647,0.02,0.1,not found,2026-11-24T16:05:42+00:00
+ta:g608676-d2293485,super_com,,24962,Hotel Post,47.129017,10.265256,0.13,0.364,not found,2026-11-24T16:05:42+00:00
+ta:g608676-d282478,super_com,,24962,Banyan Hotel,47.131138,10.268234,0.17,0.0,not found,2026-11-24T16:05:42+00:00
+ta:g608676-d3826170,super_com,,24962,Hotel Post,47.129017,10.265256,0.18,0.364,not found,2026-11-24T16:05:42+00:00
+ta:g608676-d500789,super_com,jRaMOXEl,24962|hotel-tannenhof-st-anton-am-arlberg,Hotel Tannenhof,47.139652,10.276806,0.02,0.643,ok,2026-11-24T16:05:42+00:00
+ta:g608676-d638814,super_com,,24962,Haus Bergkristall,47.125298,10.259627,0.32,0.231,not found,2026-11-24T16:05:42+00:00
+ta:g608676-d672331,super_com,,24962,Hotel Tannenhof,47.139652,10.276806,0.64,0.083,not found,2026-11-24T16:05:42+00:00
+ta:g608676-d943527,super_com,,24962,Hotel Alte Post,47.128426,10.265152,0.08,0.2,not found,2026-11-24T16:05:42+00:00
+ta:g608679-d1142979,super_com,GrZEBbgG,53752|anton-pension-solden,Anton Pension,46.95823,11.01005,0.2,0.519,ok,2026-11-24T16:05:42+00:00
+ta:g608679-d1143015,super_com,,53752,Die Berge,46.969395,11.009728,0.29,0.333,not found,2026-11-24T16:05:42+00:00
+ta:g608679-d659782,super_com,,53752,Top Apart Gaislachkogl,46.96076,11.009,0.5,0.125,not found,2026-11-24T16:05:42+00:00
+ta:g608680-d498793,super_com,,53759,Beim Hochfilzer,47.50398,12.173155,1.34,0.16,not found,2026-11-24T16:05:42+00:00
+ta:g608680-d500453,super_com,,53759,Beim Hochfilzer,47.50398,12.173155,1.82,0.312,not found,2026-11-24T16:05:42+00:00
+ta:g608680-d535058,super_com,,53759,Beim Hochfilzer,47.50398,12.173155,0.96,0.316,not found,2026-11-24T16:05:42+00:00
+ta:g608681-d500831,super_com,,53829,Hotel Jakobwirt,47.43236,12.21378,0.15,0.231,not found,2026-11-24T16:05:42+00:00
+ta:g608682-d1024087,super_com,,69470,Haus Kung,47.16896,10.16477,0.09,0.421,not found,2026-11-24T16:05:42+00:00
+ta:g616041-d195362,super_com,,99561,DasPosthotel – Boutique Hotel,47.23377,11.88289,0.4,0.227,not found,2026-11-24T16:05:42+00:00
+ta:g616043-d653842,super_com,,24969,Pension Roman,47.149315,10.345736,0.16,0.278,not found,2026-11-24T16:05:42+00:00
+ta:g616044-d583396,super_com,DlZorArj,99560|posthotel-achenkirch-resort-and-spa-adults-only-achenkirch,Posthotel Achenkirch Resort And Spa - Adults Only,47.52688,11.707737,0.03,0.792,ok,2026-11-24T16:05:42+00:00
+ta:g635546-d571954,super_com,QG7q1wwl,36472|rauriserhof-rauris,Rauriserhof,47.232758,12.993334,0.04,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g635758-d510312,super_com,,37960,Airporthotel Salzburg,47.78926,12.99714,1.56,0.182,not found,2026-11-24T16:05:42+00:00
+ta:g641721-d565732,super_com,VGDorn0j,36232|evident-hotel-pragant-bad-kleinkirchheim,Evident Hotel Pragant,46.81444,13.797834,0.03,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g641724-d1913776,super_com,1Wp18PNl,36161|kinderhotel-ramsi-hermagor-pressegger-see,Kinderhotel Ramsi,46.624317,13.303087,0.02,0.706,ok,2026-11-24T16:05:42+00:00
+ta:g641727-d577737,super_com,PjmLEqql,36231|barry-memle-lake-side-resort-velden-am-worther-see,Barry Memle Lake Side Resort,46.61644,14.050833,0.03,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g641728-d1443052,super_com,,36211,Hotel Moser - Ihr Hotel Mit Herz,46.71713,13.294931,0.38,0.324,not found,2026-11-24T16:05:42+00:00
+ta:g641728-d313599,super_com,,36211,Regitnig‑Lake‑Hideaway Am Weissensee,46.717636,13.29527,0.71,0.13,not found,2026-11-24T16:05:42+00:00
+ta:g641732-d1082218,super_com,,36509,Hotel Rauscher & Paracelsus,47.168423,13.109824,0.08,0.308,not found,2026-11-24T16:05:42+00:00
+ta:g641736-d1015864,super_com,,36506,Mama Thresl,47.440765,12.717004,0.2,0.174,not found,2026-11-24T16:05:42+00:00
+ta:g641736-d1727918,super_com,,36506,Mama Thresl,47.440765,12.717004,0.36,0.074,not found,2026-11-24T16:05:42+00:00
+ta:g641736-d638248,super_com,,36506,Stockinggut By AvenidA Hotel & Residences,47.43488,12.73363,0.39,0.15,not found,2026-11-24T16:05:42+00:00
+ta:g641739-d1553398,super_com,7jd56NeG,36468|biohotel-castello-konigsleiten-wald-im-pinzgau,Biohotel Castello Konigsleiten,47.248016,12.117413,0.01,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g641747-d636892,super_com,,24964,Beauty & Wellness Hotel Tirolerhof,46.89011,10.502673,0.11,0.359,not found,2026-11-24T16:05:42+00:00
+ta:g641748-d1098731,super_com,,99569,Hotel Auszeit,47.43962,11.701473,0.1,0.25,not found,2026-11-24T16:05:42+00:00
+ta:g641748-d566024,super_com,dlVRErrl,99569|verwohnhotel-kristall-eben-am-achensee,Verwohnhotel Kristall,47.442066,11.696259,0.02,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g641748-d566027,super_com,RjbdNzAW,99569|hotel-der-wiesenhof-eben-am-achensee,Hotel Der Wiesenhof,47.437977,11.70024,0.02,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g641748-d774934,super_com,1G4V3q3l,99569|sonnenhof-genusshotel-appartements-eben-am-achensee,Sonnenhof Genusshotel & Appartements,47.440063,11.689449,0.03,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g641749-d638536,super_com,xWe5yyW1,53841|hotel-strasserwirt-ansitz-zu-tirol-strassen,Hotel Strasserwirt Ansitz Zu Tirol,46.7503,12.485341,0.0,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g641751-d1371216,super_com,,99594,Hotel Kirchlerhof,47.16193,11.74126,0.52,0.3,not found,2026-11-24T16:05:42+00:00
+ta:g641751-d1735722,super_com,,99594,Aparthotel Dorfplatzl,47.16238,11.744975,0.12,0.27,not found,2026-11-24T16:05:42+00:00
+ta:g641751-d1744344,super_com,,99594,Hotel Alpenhof,47.115734,11.684243,1.5,0.462,not found,2026-11-24T16:05:42+00:00
+ta:g641751-d2456419,super_com,,99594,Gastehaus Dorfbackerei,47.154358,11.724543,0.09,0.308,not found,2026-11-24T16:05:42+00:00
+ta:g641751-d585353,super_com,,99594,Hotel Hohlenstein,47.141266,11.715532,0.52,0.267,not found,2026-11-24T16:05:42+00:00
+ta:g641751-d618900,super_com,,99594,Aparthotel Dorfplatzl,47.16238,11.744975,0.09,0.364,not found,2026-11-24T16:05:42+00:00
+ta:g641751-d636899,super_com,RG6JeMPG,99594|das-alois-tux,Das Alois,47.15522,11.727105,0.04,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g641751-d668161,super_com,,99594,Hotel Kirchlerhof,47.16193,11.74126,0.48,0.211,not found,2026-11-24T16:05:42+00:00
+ta:g641759-d656203,super_com,,80986,Ayurveda Resort MANDIRA,47.168667,16.024542,0.48,0.214,not found,2026-11-24T16:05:42+00:00
+ta:g641760-d1230877,super_com,,80881,Tunzendorferwirt,47.43043,13.918147,1.0,0.098,not found,2026-11-24T16:05:42+00:00
+ta:g641766-d4750565,super_com,,84389,Chalet Am Sonnenhang,47.55622,13.69411,0.66,0.194,not found,2026-11-24T16:05:42+00:00
+ta:g641768-d292031,super_com,,84309,Tirolerhof,47.93808,13.483204,1.15,0.167,not found,2026-11-24T16:05:42+00:00
+ta:g644054-d1108350,super_com,,71262,Hotel Stubaierhof,47.11322,11.310998,0.09,0.452,not found,2026-11-24T16:05:42+00:00
+ta:g644054-d1168745,super_com,,71262,Hotel Bergcristall,47.068436,11.255233,1.78,0.323,not found,2026-11-24T16:05:42+00:00
+ta:g644054-d1500915,super_com,,71261,Untersillerhof,47.12076,11.334703,0.97,0.412,not found,2026-11-24T16:05:42+00:00
+ta:g644054-d292033,super_com,0GqgApdl,71262|spa-hotel-jagdhof-neustift,Spa Hotel Jagdhof,47.1083,11.299299,0.04,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g644054-d3748473,super_com,,71262,Hotel Berghof,47.111614,11.312951,0.08,0.19,not found,2026-11-24T16:05:42+00:00
+ta:g644054-d500371,super_com,,71262,Hotel Stubaierhof,47.11322,11.310998,0.1,0.158,not found,2026-11-24T16:05:42+00:00
+ta:g644054-d500767,super_com,5XWzM3GM,71262|hotel-stubaierhof-neustift,Hotel Stubaierhof,47.11322,11.310998,0.03,0.88,ok,2026-11-24T16:05:42+00:00
+ta:g651663-d667324,super_com,,36229,Ferienhaus Holzer,46.586536,13.93635,0.27,0.235,not found,2026-11-24T16:05:42+00:00
+ta:g651666-d1447501,super_com,,99565,Hotel Mitterhof,47.226097,12.040194,0.05,0.138,not found,2026-11-24T16:05:42+00:00
+ta:g651666-d1583386,super_com,,99565,Haus Dorfblick,47.228905,12.042515,0.28,0.182,not found,2026-11-24T16:05:42+00:00
+ta:g651666-d3784278,super_com,,99565,Das Gerlos,47.22614,12.038574,0.29,0.424,not found,2026-11-24T16:05:42+00:00
+ta:g651667-d1102181,super_com,,24971,Hotel Fisserhof,47.054596,10.615776,0.39,0.32,not found,2026-11-24T16:05:42+00:00
+ta:g651667-d1742400,super_com,,24971,Hotel Garni Hubertushof,47.055283,10.617987,0.06,0.261,not found,2026-11-24T16:05:42+00:00
+ta:g651667-d1765617,super_com,,24971,Hotel Fisserhof,47.054596,10.615776,0.46,0.194,not found,2026-11-24T16:05:42+00:00
+ta:g651667-d1873486,super_com,NWEakqVW,24971|hotel-fisserhof-fiss,Hotel Fisserhof,47.054596,10.615776,0.01,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g651667-d2002426,super_com,,24971,Hotel Chesa Monte,47.056274,10.621377,0.13,0.105,not found,2026-11-24T16:05:42+00:00
+ta:g651667-d7018173,super_com,bjRVB6Lj,24971|alps-lodge-fiss,Alps Lodge,47.057,10.61766,0.1,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g656477-d645309,super_com,elXada5j,36467|ritzenhof-hotel-und-spa-am-see-saalfelden,Ritzenhof – Hotel Und Spa Am See,47.420357,12.847867,0.1,0.692,ok,2026-11-24T16:05:42+00:00
+ta:g658282-d2480709,super_com,,84677,Ferienwohnungen Kulmwirt,47.417137,13.674803,0.5,0.194,not found,2026-11-24T16:05:42+00:00
+ta:g658285-d2241394,super_com,bjRmAnLl,24963|garni-dr-kohle-serfaus,Garni Dr. Kohle,47.038292,10.608568,0.01,0.88,ok,2026-11-24T16:05:42+00:00
+ta:g658716-d1367444,super_com,,99569,Kinderhotel Buchau,47.43353,11.73415,0.06,0.432,not found,2026-11-24T16:05:42+00:00
+ta:g660756-d1184847,super_com,6jxODX5l,81076|reduce-hotel-vital-bad-tatzmannsdorf,Reduce Hotel Vital,47.3379,16.229,0.27,0.75,ok,2026-11-24T16:05:42+00:00
+ta:g660756-d1373883,super_com,6jxODX5l,81076|reduce-hotel-vital-bad-tatzmannsdorf,Reduce Hotel Vital,47.3379,16.229,0.03,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g665890-d858417,super_com,,46544,Das Edelweiss,47.499607,10.553743,0.35,0.3,not found,2026-11-24T16:05:42+00:00
+ta:g666530-d10124343,super_com,,84411,Hotel Sommerhof,47.569256,13.521608,0.44,0.2,not found,2026-11-24T16:05:42+00:00
+ta:g666530-d1020558,super_com,0GqdL0vj,84411|landhaus-koller-gosau,Landhaus Koller,47.585785,13.528117,0.04,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g667020-d1236658,super_com,,80784,Aktivhotel Rohrmooserhof,47.380527,13.662192,0.14,0.343,not found,2026-11-24T16:05:42+00:00
+ta:g676125-d866526,super_com,,46544,Das Edelweiss,47.499607,10.553743,0.87,0.286,not found,2026-11-24T16:05:42+00:00
+ta:g676650-d1500608,super_com,W2dDz1Aj,53844|landhaus-taurer-kals-am-grossglockner,Landhaus Taurer,47.025444,12.635186,0.07,0.571,ok,2026-11-24T16:05:42+00:00
+ta:g676650-d3749911,super_com,,53844,Wurlerhof,47.007664,12.636854,0.8,0.188,not found,2026-11-24T16:05:42+00:00
+ta:g676650-d7676365,super_com,,53844,Landhaus Taurer,47.025444,12.635186,0.92,0.457,not found,2026-11-24T16:05:42+00:00
+ta:g776244-d650210,super_com,,36234,Fruhstuckspension Haus Golker,46.81624,13.51561,0.19,0.294,not found,2026-11-24T16:05:42+00:00
+ta:g793515-d1966743,super_com,7GrZox0G,53846|hotel-gesser-sillian-sillian,Hotel Gesser Sillian,46.74801,12.423896,0.04,0.632,ok,2026-11-24T16:05:42+00:00
+ta:g793518-d292034,super_com,,99559,Olympia-Relax-Hotel Leonhard Stock,47.15379,11.82568,0.19,0.333,not found,2026-11-24T16:05:42+00:00
+ta:g793518-d7119775,super_com,,99559,Ferienhotel Aussicht,47.150833,11.824062,0.27,0.207,not found,2026-11-24T16:05:42+00:00
+ta:g804267-d628899,super_com,,36469,Dorfcafe Restaurant Pension,47.650467,12.728208,0.61,0.286,not found,2026-11-24T16:05:42+00:00
+ta:g807293-d1181140,super_com,,36517,Schlosshotel Lacknerhof,47.355057,13.387309,0.23,0.32,not found,2026-11-24T16:05:42+00:00
+ta:g808076-d1094556,super_com,YbjRqqlM,99563|gartenhotel-crystal-fugen,Gartenhotel Crystal,47.340977,11.844772,0.02,0.944,ok,2026-11-24T16:05:42+00:00
+ta:g808076-d1474465,super_com,,99563,Sonnseitn Appartements,47.3417,11.846049,0.28,0.308,not found,2026-11-24T16:05:42+00:00
+ta:g808078-d1015064,super_com,1Wpr0EVj,36518|hotel-kristall-grossarl,Hotel Kristall,47.24897,13.19592,0.01,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g808078-d1728712,super_com,RjbgXzNG,36518|grossarler-hof-grossarl,Grossarler Hof,47.240776,13.196124,0.04,1.0,ok,2026-11-24T16:05:42+00:00
+ta:g808078-d23839471,super_com,,36518,Hotel Roslehen,47.237705,13.200956,2.35,0.125,not found,2026-11-24T16:05:42+00:00
+ta:g808078-d2430685,super_com,,36518,Hotel Bergzeit,47.24481,13.197888,0.13,0.222,not found,2026-11-24T16:05:42+00:00
+ta:g808084-d1208311,super_com,,80700,Appartementhaus Alma,47.410263,13.795639,1.35,0.2,not found,2026-11-24T16:05:42+00:00
+ta:g808084-d2560714,super_com,,80700,Apparthaus Sonnenberg,47.40678,13.763259,0.38,0.205,not found,2026-11-24T16:05:42+00:00
+ta:g811455-d1186178,super_com,,71260,Hotel Alpennest,47.37012,11.16636,0.43,0.148,not found,2026-11-24T16:05:42+00:00
+ta:g811455-d575300,super_com,,71260,Alpenhotel Zum See Garni,47.370617,11.165996,0.56,0.41,not found,2026-11-24T16:05:42+00:00
+ta:g939822-d286609,super_com,,36240,Pension Krakolinig,46.639194,14.115197,0.7,0.129,not found,2026-11-24T16:05:42+00:00
+ta:g939841-d1153220,super_com,,53761,Hotel Hagerhof,47.588047,12.092219,2.1,0.273,not found,2026-11-24T16:05:42+00:00
 ta:g1010234-d3353901,trip_com,9520648,23820|31,Chalet ToutBlanc,45.936391,6.767594,15.96,0.303,not found,2026-11-24T09:58:33+00:00
 ta:g1010803-d23160688,trip_com,70497162,73304|28,Karls Hotel,48.089119,9.213647,0.02,1.0,ok,2026-11-24T09:58:33+00:00
 ta:g1016057-d10531655,trip_com,9031069,49284|106,Casale Sterpeti,42.637515,11.276618,0.02,1.0,ok,2026-11-24T10:24:13+00:00
