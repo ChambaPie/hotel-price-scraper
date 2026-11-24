@@ -24,10 +24,14 @@ on:
       minutes:
         description: "Time budget per step (empty = settings)"
         default: ""
+      from_run:
+        description: "Publish another run's reader rows instead of reading (its run id; artifacts last a day)"
+        default: ""
 
 permissions:
   contents: write
   issues: write   # failure reports
+  actions: read   # another run's reader rows (from_run)
 
 concurrency:
   group: sellers
@@ -38,6 +42,7 @@ env:
 
 jobs:
   read:
+    if: inputs.from_run == '' || inputs.from_run == null
     runs-on: ubuntu-24.04   # pinned: ubuntu-latest is migrating to 26.04 (Playwright browser deps)
     timeout-minutes: 70
     strategy:
@@ -46,6 +51,8 @@ jobs:
         reader: ${{ fromJSON(inputs.readers || '["agoda", "official", "trip_com", "hrs", "vio"]') }}
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: main   # the latest ids and settings, not the commit the run started from (run 45374257349)
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
@@ -123,8 +130,9 @@ jobs:
           cp data/seller_prices.csv part/ 2>/dev/null || true
           cp data/seller_ids.csv part/ 2>/dev/null || true
           [ -f data/agoda_state.json ] && [ "$SELLER" = agoda ] && cp data/agoda_state.json part/ || true
-          python -m hotel_scraper.seller_merge --kind prices --base part/seller_prices.csv --only "$SELLER"
-          python -m hotel_scraper.seller_merge --kind ids --base part/seller_ids.csv --only "$SELLER"
+          # only this reader's own rows go up; if they can't be picked out, nothing does (run 45374215059)
+          python -m hotel_scraper.seller_merge --kind prices --base part/seller_prices.csv --only "$SELLER" || rm -f part/seller_prices.csv
+          python -m hotel_scraper.seller_merge --kind ids --base part/seller_ids.csv --only "$SELLER" || rm -f part/seller_ids.csv
       - uses: actions/upload-artifact@v7
         if: always()
         with:
@@ -145,6 +153,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: main   # the latest ids and settings, not the commit the run started from (run 45374257349)
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
@@ -154,6 +164,8 @@ jobs:
         with:
           pattern: seller-*
           path: parts
+          run-id: ${{ inputs.from_run || github.run_id }}
+          github-token: ${{ github.token }}
       - name: Merge the readers' rows
         run: |
           git fetch -q origin seller-snapshots && git show origin/seller-snapshots:seller_prices.csv > data/seller_prices.csv || echo "no snapshot yet"
@@ -167,7 +179,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/seller_ids.csv
           git diff --cached --quiet || git commit -m "Seller ids $(date -u +%FT%H:%MZ)"
-          for i in 1 2 3; do git pull --rebase && git push && break; sleep $((i * 5)); done
+          # this job's merge is the newest view of every reader in this run: it wins a clash (run 45374257349)
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; git rebase --abort 2>/dev/null; sleep $((i * 5)); done
       - name: Publish prices (seller-snapshots branch)
         env:
           GITHUB_TOKEN: ${{ github.token }}

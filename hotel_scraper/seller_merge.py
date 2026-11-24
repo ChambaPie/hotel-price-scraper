@@ -15,12 +15,20 @@ from .scan import read_csv, write_csv
 
 
 def merge(base: list[dict], parts: list[list[dict]], key) -> list[dict]:
-    """Rows of `base`, with every seller that appears in a part replaced by that part's rows."""
+    """Rows of `base`, with every seller that appears in a part replaced by that part's rows; one row per key (the
+    latest seen), so a part that came unfiltered can't repeat rows (run 45374215059: cancelled jobs uploaded the whole
+    file four times over)."""
     sellers = {r["seller"] for part in parts for r in part}
     out = [r for r in base if r.get("seller") not in sellers]
     for part in parts:
         out += part
-    return sorted(out, key=key)
+    stamp = (lambda r: r.get("seen_at") or r.get("checked_at") or "")
+    best: dict = {}
+    for r in out:
+        k = key(r)
+        if k not in best or stamp(r) >= stamp(best[k]):
+            best[k] = r
+    return sorted(best.values(), key=key)
 
 
 def main(argv=None) -> int:
