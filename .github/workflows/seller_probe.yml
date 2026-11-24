@@ -62,11 +62,14 @@ jobs:
         if: inputs.part == 'suggest'
         env:
           SPEC: ${{ inputs.sellers }}
+          PERSON: ${{ inputs.person }}
         run: |
           mkdir -p out/sellers
           seller="${SPEC%%:*}"; IFS=';' read -ra Q <<< "${SPEC#*:}"
           args=(); for q in "${Q[@]}"; do args+=(--query "$q"); done
-          python -m hotel_scraper.suggest_probe --seller "$seller" "${args[@]}" --out out/sellers/suggest 2>&1 | tee out/sellers/suggest.log
+          command -v xvfb-run >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq xvfb; }
+          xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.suggest_probe --seller "$seller" "${args[@]}" --follow \
+            $([ "$PERSON" = true ] && echo --person) --out out/sellers/suggest 2>&1 | tee out/sellers/suggest.log
       - name: Commit the official sites list (engines survey)
         if: (inputs.part || 'engines') == 'engines' || inputs.part == 'all'
         run: |

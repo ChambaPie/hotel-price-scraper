@@ -343,6 +343,18 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       suggestion: "[role='option'], [role='listbox'] li, [class*='uggest'] li, [data-testid*='suggestion']"
       search: "button:has-text('Cerca'), button[type='submit']"
       json_url_pattern: "graphql"
+    holidaycheck:            # loads only in Chrome with a window (the hidden browser gets HTTP 400, 2026-11-24)
+      home: "https://www.holidaycheck.at/"
+      input: "input[placeholder*='Wohin' i], input[placeholder*='Reiseziel' i], input[placeholder*='Hotel' i], input[type='search'], [role='combobox']"
+      suggestion: "[role='option'], [role='listbox'] li, [data-testid*='uggest'] li, [class*='uggest'] li"
+      search: "button:has-text('Suchen'), button:has-text('Angebote'), button[type='submit']"
+      json_url_pattern: "/api/|/svc/|graphql|offer"
+    super_com:               # its own tRPC search service (snapcommerce/api/trpc/...)
+      home: "https://www.super.com/travel/"
+      input: "input[placeholder*='Where' i], input[placeholder*='destination' i], input[placeholder*='hotel' i], [role='combobox']"
+      suggestion: "[role='option'], [role='listbox'] li, [class*='uggest'] li, [class*='mnisearch'] li"
+      search: "button:has-text('Search'), button[type='submit']"
+      json_url_pattern: "trpc|/api/"
     check24:                 # its own autocomplete (api/autocomplete.data, Remix "turbo-stream") answers while typing
       home: "https://hotels.check24.de/"
       input: "input[type='search'], [role='combobox'], input[placeholder*='Wohin' i], input[placeholder*='Reiseziel' i], input[placeholder*='Hotel' i]"

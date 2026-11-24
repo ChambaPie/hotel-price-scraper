@@ -25,6 +25,10 @@ def main(argv=None) -> int:
     ap.add_argument("--seller", required=True)
     ap.add_argument("--query", action="append", required=True)
     ap.add_argument("--out", default="out/suggest")
+    ap.add_argument("--follow", action="store_true",
+                    help="then take the first suggestion and search, keeping every call the site makes (to find its "
+                         "price call) and where it ends up")
+    ap.add_argument("--person", action="store_true", help="Google Chrome with a window (settings seller_probe.person)")
     args = ap.parse_args(argv)
     cfg = config.load(args.config)
     sp = cfg["seller_probe"]
@@ -35,8 +39,13 @@ def main(argv=None) -> int:
     from playwright.sync_api import sync_playwright
     from .booking_session import launch_browser
     with sync_playwright() as pw:
-        br = launch_browser(pw, True)
-        page = br.new_context(user_agent=sp["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900}).new_page()
+        if args.person:
+            from .seller_probe import open_browser
+            br, ctx = open_browser(pw, None, sp["person"], sp)
+            page = ctx.new_page()
+        else:
+            br = launch_browser(pw, True)
+            page = br.new_context(user_agent=sp["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900}).new_page()
         for q in args.query:
             page.goto(spec["home"], wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(5000)
@@ -60,18 +69,49 @@ def main(argv=None) -> int:
             page.wait_for_timeout(4000)
             word = q.split()[-2 if len(q.split()) > 1 else 0].lower()
             dom = page.evaluate(DOM_JS, word)
+            if args.follow:                 # take the first suggestion, search, and wait for the results
+                sug = page.locator(spec.get("suggestion", "[role='option']") + " >> visible=true")
+                try:
+                    if sug.count():
+                        sug.first.click(timeout=5000)
+                    else:
+                        page.keyboard.press("ArrowDown")
+                        page.keyboard.press("Enter")
+                except Exception:  # noqa: BLE001
+                    page.keyboard.press("Enter")
+                page.wait_for_timeout(2500)
+                btn = page.locator((spec.get("search") or "button[type='submit']") + " >> visible=true")
+                try:
+                    if btn.count():
+                        with page.context.expect_page(timeout=4000) as new:
+                            btn.first.click(timeout=5000)
+                        np = new.value
+                        np.wait_for_load_state("domcontentloaded")
+                        page.goto(np.url, wait_until="domcontentloaded")
+                        np.close()
+                except Exception:  # noqa: BLE001
+                    pass
+                for _ in range(6):
+                    page.wait_for_timeout(2500)
+                    try:
+                        page.mouse.wheel(0, 500)
+                    except Exception:  # noqa: BLE001
+                        pass
+                (out / f"{args.seller}_{slug(q)}_after.txt").write_text(f"#URL {page.url}\n" + page.inner_text("body")[:30000],
+                                                                        encoding="utf-8")
             calls = []
             for r in reqs:
                 if r.resource_type not in ("xhr", "fetch"):
                     continue
-                item = {"method": r.method, "url": r.url[:400], "post": (r.post_data or "")[:3000]}
+                item = {"method": r.method, "url": r.url[:600], "post": (r.post_data or "")[:20000],
+                        "headers": {k: v for k, v in r.headers.items() if k.lower() != "cookie"}}
                 try:
                     resp = r.response()
                     if resp:
                         item["status"] = resp.status
                         item["type"] = resp.headers.get("content-type", "")
                         body = resp.text()
-                        item["body"] = body[:20000]
+                        item["body"] = body[:(300000 if args.follow else 20000)]
                 except Exception as e:  # noqa: BLE001
                     item["error"] = str(e)[:100]
                 calls.append(item)
