@@ -98,21 +98,52 @@ class HrsPage:
     """A browser page on hrs.com: its own suggestion and hotel-search calls, asked again from inside the page."""
     def __init__(self, pw, cfg: dict, log=log):
         self.hc, self.log = cfg["hrs"], log
-        from .booking_session import launch_browser
-        self.br = launch_browser(pw, True)
-        ctx = self.br.new_context(user_agent=self.hc["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900},
-                                  extra_http_headers={"Accept-Language": self.hc["accept_language"]})
+        bc = self.hc.get("browser") or {}
+        if bc.get("headed") or bc.get("channel"):         # Google Chrome with a window, like a person's (Akamai)
+            from .seller_probe import open_browser
+            self.br, ctx = open_browser(pw, None, bc, {"accept_language": self.hc["accept_language"],
+                                                       "user_agent": self.hc["user_agent"]})
+        else:
+            from .booking_session import launch_browser
+            self.br = launch_browser(pw, True)
+            ctx = self.br.new_context(user_agent=self.hc["user_agent"], locale="en-GB",
+                                      viewport={"width": 1366, "height": 900},
+                                      extra_http_headers={"Accept-Language": self.hc["accept_language"]})
         self.page = ctx.new_page()
         self.headers: dict = {}
+        self.search_headers: dict = {}
+        self.captured = None
         self.page.on("request", self._note)
         self.page.goto(self.hc["home"], wait_until="domcontentloaded", timeout=60000)
         self.page.wait_for_timeout(self.hc["wait_ms"])
         self.template = json.loads(Path(self.hc["search_template"]).read_text())
 
     def _note(self, r):
-        """The headers HRS's own page sends to its search service (kept to send the same)."""
+        """The headers HRS's own page sends to its services (kept to send the same); its own hotel search kept whole."""
         if self.hc["search_url"] in r.url or "hrs-api.com" in r.url:
             self.headers = {k: v for k, v in r.headers.items() if k.lower() not in ("content-length", "cookie")}
+        if self.hc["search_url"] in r.url and r.method == "POST":
+            try:
+                self.captured = json.loads(r.post_data or "{}")
+                self.search_headers = {k: v for k, v in r.headers.items()
+                                       if k.lower() not in ("content-length", "cookie", "host")}
+            except Exception:  # noqa: BLE001
+                pass
+
+    def warm_up(self, hotel_id, night: date, adults: int) -> bool:
+        """Open HRS's own results page for one hotel and night, so the page makes its hotel search (run 45370159785:
+        the stored request was refused, HTTP 400): its body and headers are then the ones repeated."""
+        self.page.goto(booking_url(self.hc["hotel_url"], hotel_id, night, adults), wait_until="domcontentloaded",
+                       timeout=60000)
+        for _ in range(int(self.hc["warm_up_wait_s"] * 2)):
+            if self.captured:
+                break
+            self.page.wait_for_timeout(500)
+        if self.captured:
+            self.template = self.captured
+            self.log("took HRS's own hotel search from its results page")
+            return True
+        return False
 
     def close(self):
         self.br.close()
@@ -121,10 +152,10 @@ class HrsPage:
         if method == "POST":
             # the search service refuses the page's own fetch from a script ("Failed to fetch", runs 45280616865 and
             # 45333656075): send it from the browser's network stack instead, with the page's cookies and origin
-            r = self.page.request.post(url, data=json.dumps(body), timeout=45000,
-                                       headers={"content-type": "application/json", "accept": "application/json",
-                                                "origin": self.hc["origin"], "referer": self.hc["home"],
-                                                **{k: v for k, v in self.headers.items() if k.lower().startswith("x-")}})
+            hdr = self.search_headers or {"content-type": "application/json", "accept": "application/json",
+                                          "origin": self.hc["origin"], "referer": self.hc["home"],
+                                          **{k: v for k, v in self.headers.items() if k.lower().startswith("x-")}}
+            r = self.page.request.post(url, data=json.dumps(body), timeout=45000, headers=hdr)
             if r.status != 200:
                 raise RuntimeError(f"HRS HTTP {r.status}: {r.text()[:150]}")
             return r.json()
@@ -213,6 +244,11 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
         start = today + timedelta(days=hc["min_lead_days"])
         days = hc["horizon_days"] - hc["min_lead_days"]
         ids = list(by_id)
+        if ids and hasattr(page, "warm_up"):
+            try:
+                page.warm_up(ids[0], start + timedelta(days=30), adults)
+            except Exception as e:  # noqa: BLE001
+                log(f"HRS results page: {str(e)[:120]}")
         batches = [ids[i: i + hc["hotels_per_call"]] for i in range(0, len(ids), hc["hotels_per_call"])]
         # one call prices many hotels for one night: every hotel gets the same nights this pass, next pass the next ones
         for night in rotating_nights("hrs", start, days, hc["nights_per_pass"], hc["night_stride"], now_dt):

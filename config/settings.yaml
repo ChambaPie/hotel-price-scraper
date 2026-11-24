@@ -532,7 +532,10 @@ hrs:                         # HRS's own prices; hotel.de is the same company an
   wait_ms: 5000
   locations_url: "https://services.hrs-api.com/locations?query={q}&language=en&goog=2"   # what its search box asks
   search_url: "https://svl-sales-hotelsearch.hrs.com/pec/v2/hotel-search/hotels"      # what its results list asks
-  search_template: config/hrs_search.json   # its own request, captured from the results page (2026-11-23)
+  search_template: config/hrs_search.json   # its own request, captured from the results page (2026-11-23); each
+                             # pass takes a fresh one from its results page first (warm_up_wait_s)
+  warm_up_wait_s: 20
+  browser: *person_browser   # Google Chrome with a window (Akamai refused the hidden browser on some runs, 2026-11-24)
   queries: ["{name} {city}", "{name}"]
   max_km: 3.0                # same name-and-place rules as Agoda (positions from HRS's suggestions)
   min_similarity: 0.8

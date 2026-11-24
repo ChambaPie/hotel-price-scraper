@@ -103,7 +103,7 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p out
-          python -m hotel_scraper.hrs --part "$PART" ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/hrs.log
+          xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.hrs --part "$PART" ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/hrs.log
       - name: Vio.com (and Etrip, goSeek...)
         if: matrix.reader == 'vio'
         env:
