@@ -1,3 +1,4 @@
-10:46:34 ... Mein Romantisches Hotel To 2027-03-02: not in the answer ([])
-10:46:56 ... Mein Romantisches Hotel To 2027-08-31: not in the answer ([])
-10:47:18 Neumühle Resort & Spa 2027-03-31: not in the answer ([])
+10:50:24 QuodLibet 2027-05-02: not in the answer ([])
+10:50:46 QuodLibet 2027-10-31: not in the answer ([])
+10:51:08 Alloggio Per Uso Turistico d'A 2027-05-17: not in the answer ([])
+11:02:24 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 42, 'priced': 10, 'available': 9, 'errors': 0, 'missing': 32, 'stored_nights': 37, 'ids_coverage': '672/1500'}
