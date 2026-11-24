@@ -213,18 +213,31 @@ def run(cfg: dict, part: str, max_minutes: float, api, today: date | None = None
             ids = ids[k:] + ids[:k]
         batches = [ids[i: i + vc["hotels_per_call"]] for i in range(0, len(ids), vc["hotels_per_call"])]
         start = today + timedelta(days=vc["min_lead_days"])
-        for batch in batches:
-            for first, last in windows(start, vc["horizon_days"] - vc["min_lead_days"], vc["nights_per_call"]):
-                if clock() - started > max_minutes * 60 or stats["errors"] >= vc["stop_after_errors"]:
-                    break
-                try:
-                    got = availability(api.calendar(batch, first, last, adults), vc["public_tiers"])
-                    stats["calls"] += 1
-                except Exception as e:  # noqa: BLE001
-                    stats["errors"] += 1
-                    log(f"{first}..{last} ({len(batch)} hotels): {str(e)[:120]}")
-                    sleep(vc["pause_seconds"])
+        tasks = [(b, w) for b in batches
+                 for w in windows(start, vc["horizon_days"] - vc["min_lead_days"], vc["nights_per_call"])]
+
+        def one(task):
+            (batch, (first, last)) = task
+            if clock() - started > max_minutes * 60 or stats["errors"] >= vc["stop_after_errors"]:
+                return task, None, "skipped"
+            try:
+                got = availability(api.calendar(batch, first, last, adults), vc["public_tiers"])
+                sleep(vc["pause_seconds"])
+                return task, got, ""
+            except Exception as e:  # noqa: BLE001
+                sleep(vc["pause_seconds"])
+                return task, None, str(e)[:120]
+        # Vio's calendar answers in several polls (~25 s per call, run 45378...): a few calls at once
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max(1, vc.get("workers", 1))) as ex:
+            for (batch, (first, last)), got, err in ex.map(one, tasks):
+                if err == "skipped":
                     continue
+                if err:
+                    stats["errors"] += 1
+                    log(f"{first}..{last} ({len(batch)} hotels): {err}")
+                    continue
+                stats["calls"] += 1
                 for (hid, night), x in got.items():
                     r = by_id.get(hid)
                     if r is None:
@@ -240,7 +253,6 @@ def run(cfg: dict, part: str, max_minutes: float, api, today: date | None = None
                                     id=hid, checkin=night, adults=adults,
                                     checkout=(date.fromisoformat(night) + timedelta(days=1)).isoformat()),
                                 "seen_at": now})
-                sleep(vc["pause_seconds"])
         old_all = read_csv(p["seller_prices"])
         merged = merge_prices([x for x in old_all if x.get("seller") == SELLER], new, today)
         write_csv(sorted([x for x in old_all if x.get("seller") != SELLER] + merged,
