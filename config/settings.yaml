@@ -523,7 +523,7 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
   list_url: "https://www.trip.com/restapi/soa2/34951/fetchDynamicRefreshList"     # what its results list asks
   keywords_template: config/tripcom_keywords.json   # its own requests, captured from the page (2026-11-23)
   list_template: config/tripcom_list.json
-  list_page: "https://www.trip.com/hotels/list?cityId={city}&countryId={country}&searchType=H&optionId={id}&searchValue=31%7C{id}%2A31%2A{id}%2A1&checkin={checkin}&checkout={checkout}&crn=1&adult={adults}&curr=EUR&locale=en-GB"
+  list_page: "https://www.trip.com/hotels/list?flexType=1&cityId={city}&provinceId=0&districtId=0&countryId={country}&destName={name}&searchWord={name}&searchType=H&optionId={id}&searchValue=31%7C{id}*31*{id}*1&checkin={checkin}&checkout={checkout}&crn=1&adult={adults}&listFilters=29~1*29*1~{adults}*2&curr=EUR&locale=en-GB&old=1"
   no_rows_valid_from: "2026-11-24T11:30:00+00:00"   # "not available" rows seen before this are dropped (they came
                              # from list answers that said nothing)
   price_mode: pages          # pages = Trip.com's own results page per hotel and night (its list call, repeated, answers

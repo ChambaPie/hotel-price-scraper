@@ -117,10 +117,42 @@ def list_body(template: dict, hotel_ids: list[int], city_id: int, country_id: in
     return b
 
 
-def list_url(tpl: str, hotel_id: int, city_id: int, country_id, night: date, adults: int) -> str:
-    """Trip.com's own results page for one hotel and night (what its search box opens)."""
+def list_url(tpl: str, hotel_id: int, city_id: int, country_id, night: date, adults: int, name: str = "") -> str:
+    """Trip.com's own results page for one hotel and night, the address its search box opens."""
+    from urllib.parse import quote
     return tpl.format(id=hotel_id, city=city_id, country=country_id or 0, checkin=night.isoformat(),
-                      checkout=(night + timedelta(days=1)).isoformat(), adults=adults)
+                      checkout=(night + timedelta(days=1)).isoformat(), adults=adults, name=quote(name))
+
+
+EURO = r"€\s?([\d,]+(?:\.\d+)?)"
+
+
+def card_from_text(text: str, name: str) -> dict | None:
+    """Our hotel's card on Trip.com's results page, from the page's text (the list is drawn into the page itself, not
+    loaded by a separate call; probe 2026-11-24): {available, price, price_excl, price_total, breakfast, cancellation},
+    or None when the card isn't there. price is Trip.com's total with taxes and fees (it shows no figure before the
+    city tax on the list); price_excl the room price it shows first."""
+    start = text.find("propert")                      # "1 property found"
+    i = text.find(name, max(0, start))
+    if i < 0:
+        return None
+    block = text[i: i + 2000]
+    for stop in ("You may also like", "Already showing all properties", "Trip.com recommended"):
+        k = block.find(stop, len(name))
+        if k > 0:
+            block = block[:k]
+    if re.search(r"No rooms available|Sold out", block, re.I):
+        return {"available": False, "price": None, "price_excl": None, "price_total": None, "breakfast": "",
+                "cancellation": ""}
+    total = re.search(r"Total \(incl\. taxes (?:&|and) fees\):\s*" + EURO, block)
+    first = re.search(EURO, block)
+    if not total and not first:
+        return None
+    num = lambda m: round(float(m.group(1).replace(",", "")), 2) if m else None  # noqa: E731
+    t, f = num(total), num(first)
+    return {"available": True, "price": t or f, "price_excl": f, "price_total": t,
+            "breakfast": "included" if re.search(r"Breakfast included", block, re.I) else "",
+            "cancellation": "free cancellation" if re.search(r"Free cancellation", block, re.I) else ""}
 
 
 class TripPage:
@@ -176,10 +208,11 @@ class TripPage:
                 return got
             self.log("Trip.com's list call doesn't name our hotels: opening its results page instead")
             self.pages_mode = True
-        return self.page_night(hotel_ids[0], city_id, country_id, night, adults)
+        return self.page_night(hotel_ids[0], city_id, country_id, night, adults, name)
 
-    def page_night(self, hotel_id: int, city_id: int, country_id, night: date, adults: int) -> list[dict]:
-        """Open Trip.com's results page for the hotel and night and read the list answers it loads itself."""
+    def page_night(self, hotel_id: int, city_id: int, country_id, night: date, adults: int, name: str = "") -> list[dict]:
+        """Open Trip.com's results page for the hotel and night and read our hotel's card (or the list answers the
+        page loads itself)."""
         seen: list = []
 
         def keep(r):
@@ -190,11 +223,19 @@ class TripPage:
                     pass
         self.page.on("response", keep)
         try:
-            self.page.goto(list_url(self.tc["list_page"], hotel_id, city_id, country_id, night, adults),
+            self.page.goto(list_url(self.tc["list_page"], hotel_id, city_id, country_id, night, adults, name),
                            wait_until="domcontentloaded", timeout=60000)
+            card = None
             for i in range(int(self.tc["page_wait_s"] * 2)):
                 if any(h["id"] == hotel_id for d in seen for h in hotels(d)):
                     break
+                if name and i % 2 == 1:
+                    try:
+                        card = card_from_text(self.page.inner_text("body"), name)
+                    except Exception:  # noqa: BLE001
+                        card = None
+                    if card:
+                        break
                 if i in (4, 12):                  # a little scrolling, as a person would: the list loads its prices
                     try:
                         self.page.mouse.wheel(0, 600)
@@ -203,6 +244,8 @@ class TripPage:
                 self.page.wait_for_timeout(500)
         finally:
             self.page.remove_listener("response", keep)
+        if card:
+            return [{"id": hotel_id, "name": name, "currency": "EUR", **card}]
         got = page_answer(seen, hotel_id)
         if got and not got[0]["available"] and getattr(self, "shown", 0) < 2:   # what the visitor saw, kept to check
             self.shown = getattr(self, "shown", 0) + 1
@@ -341,7 +384,7 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
                 new.append({"pid": r["pid"], "seller": SELLER, "seller_id": r["seller_id"], "night": night.isoformat(),
                             "price": _blank(x["price"]), "price_excl": _blank(x["price_excl"]),
                             "price_total": _blank(x["price_total"]), "currency": x["currency"] or tc["currency"],
-                            "available": "yes" if x["available"] else "no", "cancellation": "", "rooms_left": "",
+                            "available": "yes" if x["available"] else "no", "cancellation": x.get("cancellation", ""), "rooms_left": "",
                             "url": tc["hotel_url"].format(id=hid, city=city, checkin=night.isoformat(),
                                                           checkout=(night + timedelta(days=1)).isoformat(),
                                                           adults=adults),

@@ -191,3 +191,22 @@ def test_results_page_with_an_empty_list_says_nothing():
     empty = json.loads((FX / "tripcom_list_empty_single_2026-11-24.json").read_text())
     assert tripcom.page_answer([empty], 4340342) == []
     assert tripcom.page_answer([empty, LIST], 760667)[0]["price"] == 188.77
+
+
+def test_card_on_its_own_results_page_real_pages():
+    """Trip.com draws the hotel list into its results page (no separate call names our hotel; probe 2026-11-24):
+    our hotel's card is read from the page."""
+    ok = (FX / "tripcom_listpage_corinthia_available_2026-11.txt").read_text(encoding="utf-8")
+    c = tripcom.card_from_text(ok, "Corinthia Budapest")
+    assert c["available"] and c["price"] == 213.0 and c["price_excl"] == 196.0 and c["price_total"] == 213.0
+    no = (FX / "tripcom_listpage_seefels_noroom_2026-11-24.txt").read_text(encoding="utf-8")
+    c = tripcom.card_from_text(no, "Hotel Schloss Seefels")
+    assert c["available"] is False and c["price"] is None      # "No rooms available for your selected dates"
+    assert tripcom.card_from_text(ok, "Hotel Artemide") is None                               # not on the page
+
+
+def test_results_page_address_like_its_search_box():
+    u = tripcom.list_url(config.load()["tripcom"]["list_page"], 4378634, 37324, 14, date(2026, 12, 14), 2,
+                         "Hotel Schloss Seefels")
+    assert "optionId=4378634" in u and "searchWord=Hotel%20Schloss%20Seefels" in u and "old=1" in u
+    assert "listFilters=29~1*29*1~2*2" in u and "checkin=2026-12-14" in u
