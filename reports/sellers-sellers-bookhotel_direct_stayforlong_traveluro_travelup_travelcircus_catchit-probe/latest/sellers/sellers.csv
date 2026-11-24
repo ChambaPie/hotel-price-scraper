@@ -1,0 +1,3 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+bookhotel_direct,ta:g274887-d285437,Corinthia Budapest,HU,200,bookhotel.direct,Book hotels DIRECT,,0,False,3058,0,10.9,search box not found
+bookhotel_direct,ta:g187791-d205044,Hotel Artemide,IT,200,bookhotel.direct,Book hotels DIRECT,,0,False,3058,0,9.1,search box not found
