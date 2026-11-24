@@ -1,4 +1,4 @@
-#URL https://www.edreams.it/travel/accommodation/hotel_results/checkIn=2026-12-01;checkOut=2026-12-02;room0Adults=2;buyPath=HSA_HOME_DEALS;geoId=31539159%2BACCOMMODATION;dealsId=257b7a89-9cd4-4f05-95c4-4bb692c40e0c?accommodation=31539159%2BSearchByProperty
+#URL https://www.edreams.it/travel/accommodation/hotel_results/checkIn=2026-12-01;checkOut=2026-12-02;room0Adults=2;buyPath=HSA_HOME_DEALS;geoId=31539159%2BACCOMMODATION;dealsId=1bbca195-2526-49af-9028-9be1d97ed82c?accommodation=31539159%2BSearchByProperty
 Accedi
 Destinazione
 Data check-in
@@ -21,36 +21,36 @@ Piscina
 Offerte
 Offerta Black Friday
 Offerta Black Friday
-338
+363
 Le migliori offerte Prime
-547
+567
 Budget (per notte)
 Imposta il tuo budget
 0 € - 50 €
-38
+37
 50 € - 100 €
-396
+395
 100 € - 150 €
-449
+455
 150 € - 200 €
-534
+536
 200 €+
 991
 Servizi
 Wi-Fi gratuito
-2254
+2257
 Ascensore
-1859
+1863
 Bar o ristorante
-1305
+1306
 Animali domestici ammessi
-1216
+1217
 Riscaldamento
-667
+669
 Mostra tutti 14
 Tipo di alloggio
 Hotel
-2003
+2007
 Altro
 248
 Appartamento
@@ -62,17 +62,17 @@ Ostello
 Mostra tutti 7
 Pasti
 Colazione inclusa
-175
+176
 Punteggio degli ospiti
 Fantastico! (5/5+)
 68
 Molto buono (4/5+)
-1145
+1146
 Buono (3/5+)
-1970
+1974
 Politica di prenotazione
 Cancellazione gratuita
-1409
+1444
 Luoghi nelle vicinanze
 Quartier du Faubourg-Montmartre
 61
@@ -83,7 +83,7 @@ Saint-Vincent-de-Paul
 Madeleine
 45
 Ternes
-41
+42
 Mostra tutti 155
 Stelle
 1 stella
@@ -91,9 +91,9 @@ Stelle
 2 stelle
 204
 3 stelle
-908
+909
 4 stelle
-700
+703
 5 stelle
 119
 Mostra tutti 6
@@ -101,12 +101,12 @@ Distanza dal centro di L'Île-Saint-Denis
 Meno di 1 km
 3
 Meno di 3 km
-27
+26
 Meno di 5 km
-117
+116
 Catene
 Accor
-330
+331
 Louvre Hotels
 106
 Belvilla
@@ -114,7 +114,7 @@ Belvilla
 B&B Hotels Group
 76
 Creho MC Group
-40
+41
 Marriott
 39
 Best Western
@@ -133,19 +133,19 @@ GIORNI
 
 :
 
-10
+07
 ORE
 
 :
 
-06
+24
 MINUTI
 
 :
 
-59
+44
 SECONDI
-L'Île-Saint-Denis: 2404 strutture trovate
+L'Île-Saint-Denis: 2408 strutture trovate
 Come ordiniamo i risultati
 Ordina per: Popolari
 Ecco quello che stavi cercando!
@@ -156,35 +156,18 @@ L'Île-Saint-Denis · 0.84 km da centro città
 Opzioni rimborsabili
 Buono 3.4/5
 9 recensioni
-Prezzo Prime da
 114 €
-Mostra sconto
-Prezzo non scontato
-114 €
-Vedi altro
-Executive Hotel Paris Gennevilliers
-Gennevilliers · 1.67 km da centro città
-Opzioni rimborsabili
-Buono 3.1/5
-250 recensioni
-Offerta Black Friday
--38%
-Prezzo Prime da
-91 €
-57 €
 Paga di meno
-Prezzo non scontato
-91 €
 Vedi altro
 Greet Hotel Villeneuve La Garenne
 Villeneuve-la-Garenne · 1.26 km da centro città
 71 €
-Ricevi sconti di fino a centinaia di euro all'anno su tutti i voli, hotel, treni e noleggi auto.
-15 giorni gratuiti, poi 99,99 €/anno
 Vedi altro
 hotelF1 Paris Saint Ouen - Marché aux Puces
 Les Puces de Saint-Ouen, Saint-Ouen · 3.51 km da centro città
 52 €
+Ricevi sconti di fino a centinaia di euro all'anno su tutti i voli, hotel, treni e noleggi auto.
+15 giorni gratuiti, poi 99,99 €/anno
 Vedi altro
 ibis Styles Paris St-Denis Pleyel
 Saint-Denis · 0.46 km da centro città
@@ -197,15 +180,15 @@ Vedi altro
 hotelF1 Paris Saint Denis Université
 Saint-Denis · 2.37 km da centro città
 42 €
-Cancellazione gratuita
-Prenota in tutta tranquillità
-Cambia piano quando vuoi
 Vedi altro
 ibis budget Paris Gennevilliers
 Gennevilliers · 2.56 km da centro città
 Buono 3.8/5
 93 recensioni
 69 €
+Cancellazione gratuita
+Prenota in tutta tranquillità
+Cambia piano quando vuoi
 Vedi altro
 hotelF1 Gennevilliers Asnières
 Gennevilliers · 2.70 km da centro città
@@ -340,6 +323,20 @@ Buono 3.5/5
 301 recensioni
 93 €
 Vedi altro
+Hotel Paris Villette
+Flandres, Paris · 5.13 km da centro città
+Opzioni rimborsabili
+Buono 3.7/5
+446 recensioni
+Offerta Black Friday
+-33%
+Prezzo Prime da
+124 €
+83 €
+Paga di meno
+Prezzo non scontato
+124 €
+Vedi altro
 Solo 2 camere
 a questo prezzo
 B&B HOME Paris Nord 18ème
@@ -348,18 +345,6 @@ Buono 3.5/5
 1560 recensioni
 94 €
 Vedi altro
-Solo 2 camere
-a questo prezzo
-Student Factory Paris - Universeine
-La Plaine-Saint-Denis, Saint-Denis · 0.90 km da centro città
-Cancellazione gratuita
-Blocca questa tariffa oggi stesso; puoi sempre annullarla in seguito
-Prezzo Prime da
-81 €
-Mostra sconto
-Prezzo non scontato
-81 €
-Vedi altro
 Kyriad ECO - Roissy - Airport Paris-Charles de Gaulle
 Roissy-en-France · 14.33 km da centro città
 Cancellazione gratuita
@@ -367,7 +352,16 @@ Blocca questa tariffa oggi stesso; puoi sempre annullarla in seguito
 Buono 3/5
 1035 recensioni
 40 €
-Abbiamo trovato 2404 proprietà
+Vedi altro
+Solo 2 camere
+a questo prezzo
+Student Factory Paris - Universeine
+La Plaine-Saint-Denis, Saint-Denis · 0.90 km da centro città
+Cancellazione gratuita
+Blocca questa tariffa oggi stesso; puoi sempre annullarla in seguito
+81 €
+Paga di meno
+Abbiamo trovato 2408 proprietà
 1
 2
 3

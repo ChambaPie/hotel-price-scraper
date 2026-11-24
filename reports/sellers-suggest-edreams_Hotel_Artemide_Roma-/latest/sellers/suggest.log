@@ -1,0 +1,144 @@
+15:35:15 Hotel Artemide Roma: 143 calls while typing; 12 suggestion-like elements
+15:35:15   302 GET https://tag.yieldoptimizer.com/ps/ps?t=i&p=1471&_yoid=5c54ad02-2cdc-41d3-9fce-a68bb372e3bc&_yosid=fde60c36-8e29-4940-83fc-30215397aeaf&gdpr=1&gdpr_con 
+15:35:15   None POST https://onetag-sys.com/sgmapping/ 
+15:35:15   200 GET https://static.sojern.com/sdk/config/partner/7LO71hBqOrJIDIBy/config application/json
+15:35:15   200 POST https://pixel.sojern.com/sdk/partner/id/7LO71hBqOrJIDIBy/track application/json
+15:35:15   307 GET https://idsync.rlcdn.com/367258.gif?partner_uid=2039399993462&gdpr=1&gdpr_consent=CQuMEMAQuMEMAAHABBENC6FsAP_gAAAAAAAAIzQHQACAAQAAqABkAEAAJwAZAA5ACaAF 
+15:35:15   307 GET https://pippio.com/api/sync?pid=5324&it=1&iv=c2f2e94d0f997dfb1b73fff28d3b88877d2b110bdfe9b41017e33129de0288b8791426b5417dce21&_=2 
+15:35:15   302 GET https://px.ads.linkedin.com/db_sync?pid=10339&puuid=c2f2e94d0f997dfb1b73fff28d3b88877d2b110bdfe9b41017e33129de0288b8791426b5417dce21&rand=03798047 
+15:35:15   200 POST https://www.edreams.it/frontend-home/html-event-tracks/html-element-clicked-tracks application/json;charset=UTF-8
+15:35:15   204 POST https://analytics.google.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795534478768&gcs=G111&gcd=13r3v3r3r7l1&npa text/plain
+15:35:15   200 GET https://id5-sync.com/bounce text/plain;charset=utf-8
+15:35:15   200 GET https://lbs.eu-1-id5-sync.com/lbs/v1 application/json
+15:35:15   200 GET https://lb.eu-1-id5-sync.com/lb/v1 application/json;charset=UTF-8
+15:35:15   200 GET https://px.ads.linkedin.com/db_sync?pid=10339&puuid=c2f2e94d0f997dfb1b73fff28d3b88877d2b110bdfe9b41017e33129de0288b8791426b5417dce21&rand=03798047&exp 
+15:35:15   200 POST https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks application/json;charset=UTF-8
+15:35:15   200 POST https://id5-sync.com/gm/v3 application/json
+15:35:15   200 POST https://api.p8.evorra.net/spin application/octet-stream
+15:35:15   200 GET https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsvnRg2AzyIAL9CIuDliZHlKbZZXfmuJO3IkCuV7MlQTlcd9HzQTpIPBzZAT97Q03AYGFtwZTmaarmMakqx6YGWYB image/gif
+15:35:15   200 POST https://sdk.adara.com/api?gdpr=1&gdpr_consent=CQuMEMAQuMEMAAHABBENC6FsAP_gAAAAAAAAIzQHQACAAQAAqABkAEAAJwAZAA5ACaAFUALYAXwAwgCDAEQAKMAdwA_QCEAEtALqAacB text/plain; charset=utf-8
+15:35:15   200 GET https://www.edreams.it/frontend-home/service/accommodation-autocomplete/v3/search?searchTerm=hotel%20artemide%20roma&locale=it_IT&sizeRegion=7&sizeAcc application/json;charset=UTF-8
+15:35:15   403 POST https://www.edreams.it/analytics-client-identification/v3/identifyClient text/plain
+15:35:15   204 POST https://analytics.google.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795534478768&gcs=G111&gcd=13r3v3X3r7l1&npa text/plain
+15:35:15   None GET https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=fle-fetch-later2 
+15:35:15   200 POST https://www.edreams.it/frontend-api/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/travel/html-event-tracks/page-loaded-tracks application/json;charset=UTF-8
+15:35:15   204 POST https://privacy.edreams.it/api/events 
+15:35:15   200 GET https://www.edreams.it/travel/service/tracking/ua/customDimensions */*;charset=UTF-8
+15:35:15   200 GET https://www.edreams.it/travel/service/frontendapi/getVisitInformation */*;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/frontend-api/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/frontend-api/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/frontend-api/service/graphql application/json
+15:35:15   204 HEAD https://region1.google-analytics.com/g/collect text/plain
+15:35:15   200 GET https://accounts.google.com/gsi/status?client_id=1044856101094-nefh1ut749dm808159t2aqt7vtl7836k.apps.googleusercontent.com&cas=1e14xiLk%2F9qxUar1xA9da application/json; charset=utf-
+15:35:15   200 GET https://www.edreams.it/travel/service/frontendapi/getVisitInformation */*;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 GET https://www.edreams.it/travel/service/tms/datalayer/general?product= application/json;charset=UTF-8
+15:35:15   200 GET https://www.edreams.it/travel/service/tracking/ua/pageCustomDimensions?page=%2FBF%2Fhotels%2Fresults%2F application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 GET https://www.edreams.it/travel/service/frontendapi/getVisitInformation */*;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/travel/features-event-tracks/evaluate-feature application/json;charset=UTF-8
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/frontend-api/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   open POST https://tms-monitoring-dot-project-id-4181994499646779312.ew.r.appspot.com/collect/tcvars_qualtrics_ma_hsa_funnel 
+15:35:15   200 POST https://www.google.com/measurement/conversion?random=1795534502350&cv=11&tid=G-0F2PG8WMQ1&fst=1795534502350&fmt=8&en=edo_screen_view&gtm=45je6bh1v9164 
+15:35:15   204 POST https://analytics.google.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795534496394&gcs=G111&gcd=13r3v3r3r6l1&npa text/plain
+15:35:15   204 POST https://analytics.google.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795534496394&gcs=G111&gcd=13r3v3r3r6l1&npa text/plain
+15:35:15   200 GET https://widget.trustpilot.com/trustbox-data/53aa8807dec7e10d38f59f32?businessUnitId=4e5d0175000064000510e135&locale=it-IT application/json; charset=utf-
+15:35:15   204 GET https://widget.trustpilot.com/stats/TrustboxImpression?testid=trustpilot-component&locale=it-IT&styleHeight=92px&styleWidth=100%25&theme=light&fontFam 
+15:35:15   200 POST https://www.google.com/rmkt/collect/1042591313/?random=1795534502501&cv=11&fst=1795534502501&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6b 
+15:35:15   200 POST https://www.google.com/rmkt/collect/1042591313/?random=1795534502516&cv=11&fst=1795534502516&fmt=8&bg=ffffff&guid=ON&async=1&en=view_search_results&gt 
+15:35:15   200 POST https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&auid=1184744492.1795534485&dt=L%27%C3%8Ele-Saint-Denis%20-%20Scegli%20l%27hotel&tid=AW-104259131 
+15:35:15   200 POST https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&auid=1184744492.1795534485&dt=L%27%C3%8Ele-Saint-Denis%20-%20Scegli%20l%27hotel&tid=AW-104259131 
+15:35:15   200 GET https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202611120201&st=env&sjk=8170629980031902 application/json; charset=UTF-
+15:35:15   200 GET https://securepubads.g.doubleclick.net/gampad/ads?pvsid=8170629980031902&correlator=1309235829495212&eid=122882284%2C122882290%2C122882292%2C122881323 text/plain; charset=UTF-8
+15:35:15   200 GET https://securepubads.g.doubleclick.net/gampad/ads?pvsid=8170629980031902&correlator=1309235829495212&eid=122882284%2C122882290%2C122882292%2C122881323 text/plain; charset=UTF-8
+15:35:15   200 GET https://tags.crwdcntrl.net/lt/c/13804/optimus_rules.json application/json
+15:35:15   200 GET https://jsres.adara.com/tcf/ro.json application/json
+15:35:15   200 GET https://pixel.sojern.com/sdk/partner/id/7LO71hBqOrJIDIBy/config?gdpr_consent=CQuMEMAQuMEMAAHABBENC6FsAP_gAAAAAAAAIzQHQACAAQAAqABkAEAAJwAZAA5ACaAFUALYA application/json
+15:35:15   200 GET https://securepubads.g.doubleclick.net/gampad/ads?pvsid=8170629980031902&correlator=3143082408013075&eid=122882284%2C122882290%2C122882292%2C122881323 text/plain; charset=UTF-8
+15:35:15   200 GET https://securepubads.g.doubleclick.net/gampad/ads?pvsid=8170629980031902&correlator=2603542054329212&eid=122882284%2C122882290%2C122882292%2C122881323 text/plain; charset=UTF-8
+15:35:15   200 GET https://cdn.equalweb.com/assets/data/methods.json application/json
+15:35:15   200 GET https://zd.rqtrk.eu/?cmp=1&ctry=IT&env=mWeb&eventType=pageview&idp=1&idp_partnerid=31b0678b-f405-4256-8914-4f1856ab0f1e&partner_dom=www.edreams.it&z_e image/png
+15:35:15   200 POST https://api.p8.evorra.net/spin application/octet-stream
+15:35:15   302 POST https://ad.doubleclick.net/activity;src=14357046;type=browse;cat=allusers;rcb=11;ord=3425862250356;npa=0;auiddc=1184744492.1795534485;u1=;u10=;u11=;u1 text/html; charset=UTF-8
+15:35:15   302 POST https://ad.doubleclick.net/activity;src=14357046;type=browse;cat=search;rcb=11;ord=7264850249536;npa=0;auiddc=1184744492.1795534485;u1=;u10=;u11=;u12= text/html; charset=UTF-8
+15:35:15   200 POST https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=0&auid=1184744492.1795534485&dt=L%27%C3%8Ele-Saint-Denis%20-%20Scegli%20l%27hotel&tid=DC-14357046 
+15:35:15   200 POST https://www.edreams.it/frontend-api/service/graphql application/json
+15:35:15   200 POST https://www.edreams.it/accommodation-funnel-bff/service/graphql application/json
+15:35:15   200 GET https://gum.criteo.com/sid/json?origin=onetag&domain=edreams.it&sn=ChromeSyncframe&so=undefined&topUrl=www.edreams.it&bundle=7EB4qF92VWNUNDBFWmdNTzJoc application/json; charset=utf-
+15:35:15   200 GET https://edge.eu1.fullstory.com/s/settings/o-A10-eu1/v1/web application/json
+15:35:15   200 POST https://bcp.crwdcntrl.net/6/data?xcid=13804 application/json;charset=utf-8
+15:35:15   200 POST https://sdk.adara.com/api?gdpr=1&gdpr_consent=CQuMEMAQuMEMAAHABBENC6FsAP_gAAAAAAAAIzQHQACAAQAAqABkAEAAJwAZAA5ACaAFUALYAXwAwgCDAEQAKMAdwA_QCEAEtALqAacB text/plain; charset=utf-8
+15:35:15   200 GET https://static.sojern.com/sdk/config/partner/7LO71hBqOrJIDIBy/config application/json
+15:35:15   200 GET https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsuMbI1Tu1XGBz0BAeooKgX91RbdTry68WZ6cVT_pjWLMu3R03mi0ZHTvidtHcCVCx5pWLt_iGYeTTXjwmyGjHR734lrTI image/gif
+15:35:15   204 POST https://analytics.google.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795534496394&gcs=G111&gcd=13r3v3r3r6l1&npa text/plain
+15:35:15   200 GET https://cdn.equalweb.com/assets/data/lang.json application/json
+15:35:15   200 GET https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsu5xi9KHkexTXfzPrX-3rYgOZGand1Nl916Y8w0OCXmBVirA2H4H4BzJWw_7ZJbPBjAwGCp0A21VnDw9-8S4QTszSQS5J image/gif
+15:35:15   200 POST https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_9AYTgzR6NeFOSVM&Q_CLIENTVERSION=2.62.0&Q_CLIENTTYPE=web application/json
+15:35:15   204 GET https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=fle-fetch-start2 image/gif
+15:35:15   204 GET https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=4 image/gif
+15:35:15   204 GET https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgAWgD image/gif
+15:35:15   200 GET https://tag.yieldoptimizer.com/ps/ps?t=i&p=1471&_yoid=5c54ad02-2cdc-41d3-9fce-a68bb372e3bc&_yosid=fde60c36-8e29-4940-83fc-30215397aeaf&gdpr=1&gdpr_con image/gif
+15:35:15   200 GET https://www.google.com/gmp/conversion/_dc_unique_id=17760055481656435672;_dc_ptd=ChAIgIiV2AYQrbOLgcfGjdZiEh8AFUPFeXOeoWPFnjrW8AQ6NSNbTnUssbwWNQNE08zZ; image/gif
+15:35:15   200 GET https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstpelV0voirKgQY6QX3GdHvne3tdfMyp5yOhaF-9tf8LMm3hE7-gvUjBBjDyvbXcZbzz0n_2xe9CxTwpDz85p11E4WBkl image/gif
+15:35:15   200 GET https://www.google.com/gmp/conversion/_dc_unique_id=5908855067519904391;_dc_ptd=ChAIgIiV2AYQrbOLgcfGjdZiEh8AFUPFeQDC3i23xWpO0pAGltCr_MyxE4rB5rOqMS_t;_ image/gif
+15:35:15   200 POST https://rs.eu1.fullstory.com/rec/page application/json; charset=utf-
+15:35:15   200 GET https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsstyhidu5onBTLNVrSqQchtjCIiykb-HDEJ9vwkgLYXgyPn94xTGBcxMVw7DOhRQAH4zsE5j-204P5lEPPIKC6ED1GlWd image/gif
+15:35:15   204 GET https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=fle-fetch-start2 image/gif
+15:35:15   204 GET https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=4 image/gif
+15:35:15   204 GET https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgAWgD image/gif
+15:35:15   None POST https://onetag-sys.com/sgmapping/ 
+15:35:15   200 POST https://www.google.com/rmkt/collect/1042591313NaNLnHrCImI_NMDENHckvED/?random=1795534503951&cv=11&fst=1795534503951&fmt=8&bg=ffffff&guid=ON&async=1&en 
+15:35:15   200 POST https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=1184744492.1795534485&dt=L%27%C3%8Ele-Saint-Denis%20-%20Scegli%20l%27hotel&tid=AW-10425913 
+15:35:15   200 POST https://api.p8.evorra.net/spin application/octet-stream
+15:35:15   open POST https://pixel.sojern.com/sdk/partner/id/7LO71hBqOrJIDIBy/track 
+15:35:15   200 GET https://cdn.equalweb.com/style/shadow_style.css text/css
+15:35:15   200 GET https://cdn.equalweb.com/style/btncolor.css text/css
+15:35:15   200 GET https://cdn.equalweb.com/assets/scripts/classManager.js application/javascript
+15:35:15   200 GET https://cdn.equalweb.com/assets/locale/it.json application/json
+15:35:15   200 GET https://cdn.equalweb.com/assets/images/10.svg image/svg+xml
+15:35:15   200 POST https://sdk.adara.com/api?gdpr=1&gdpr_consent=CQuMEMAQuMEMAAHABBENC6FsAP_gAAAAAAAAIzQHQACAAQAAqABkAEAAJwAZAA5ACaAFUALYAXwAwgCDAEQAKMAdwA_QCEAEtALqAacB text/plain; charset=utf-8
+15:35:15   200 GET https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjssrVvf69CWM9AB3ACnjkwdMjG1yf7sE95KJTDpe5VyOOuGm8uHFAfhizEQUv5hBShqgLyUvli00pxjAFehvL2BrH image/gif
+15:35:15   200 POST https://rs.eu1.fullstory.com/rec/bundle/v2?OrgId=o-A10-eu1&UserId=ac09a588-9183-4bcc-ac22-5640fe4f3bb1&SessionId=405190a3-ad82-4ca8-a7ef-d3fdfc89ea05& application/json; charset=utf-
+15:35:15   200 POST https://play.google.com/log?format=json&hasfast=true&authuser=0 text/plain; charset=UTF-8
+15:35:15   204 POST https://analytics.google.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795534496394&gcs=G111&gcd=13r3v3X3r6l1&npa text/plain
+15:35:15   200 POST https://rs.eu1.fullstory.com/rec/bundle/v2?OrgId=o-A10-eu1&UserId=ac09a588-9183-4bcc-ac22-5640fe4f3bb1&SessionId=405190a3-ad82-4ca8-a7ef-d3fdfc89ea05& application/json; charset=utf-
+15:35:15   200 POST https://rs.eu1.fullstory.com/rec/bundle/v2?OrgId=o-A10-eu1&UserId=ac09a588-9183-4bcc-ac22-5640fe4f3bb1&SessionId=405190a3-ad82-4ca8-a7ef-d3fdfc89ea05& application/json; charset=utf-
