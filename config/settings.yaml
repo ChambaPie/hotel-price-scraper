@@ -346,7 +346,7 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
     holidaycheck:            # loads only in Chrome with a window (the hidden browser gets HTTP 400, 2026-11-24)
       home: "https://www.holidaycheck.at/"
       pre_click: ["Nur Hotel"]   # hotel only (the search box starts on package holidays)
-      input: "input[placeholder*='Reiseziel' i], input[placeholder*='Wohin' i], input[placeholder*='Hotel' i], input[type='search'], [role='combobox']"
+      input: "input[placeholder*='Reiseziel' i], input[placeholder*='Hotelname' i], :text('Reiseziel oder Hotelname'), [role='combobox']"
       suggestion: "[role='option'], [role='listbox'] li, [data-testid*='uggest'] li, [class*='uggest'] li"
       search: "button:has-text('Suchen'), button:has-text('Angebote'), button[type='submit']"
       json_url_pattern: "/api/|/svc/|graphql|offer"
