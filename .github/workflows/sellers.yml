@@ -162,10 +162,16 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - uses: actions/download-artifact@v7
+        if: inputs.from_run == '' || inputs.from_run == null
         with:
           pattern: seller-*
           path: parts
-          run-id: ${{ inputs.from_run || github.run_id }}
+      - uses: actions/download-artifact@v7   # another run's rows (asking the API for this run's own found none,
+        if: inputs.from_run != '' && inputs.from_run != null   # 2026-11-24 12:58)
+        with:
+          pattern: seller-*
+          path: parts
+          run-id: ${{ inputs.from_run }}
           github-token: ${{ github.token }}
       - name: Merge the readers' rows
         run: |
