@@ -352,7 +352,8 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
                             "seen_at": now})
         old_all = read_csv(p["seller_prices"])
         vf = tc.get("no_rows_valid_from", "")       # "not available" rows from the empty list answers (run 45374257349)
-        mine = [x for x in old_all if x.get("seller") == SELLER
+        ok = {r["pid"] for r in known.values() if r["status"] == "ok"}     # a hotel no longer matched: its prices go
+        mine = [x for x in old_all if x.get("seller") == SELLER and x["pid"] in ok
                 and not (vf and x.get("available") == "no" and (x.get("seen_at") or "") < vf)]
         merged = merge_prices(mine, new, today)
         write_csv(sorted([x for x in old_all if x.get("seller") != SELLER] + merged,

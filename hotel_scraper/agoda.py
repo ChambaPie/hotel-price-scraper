@@ -272,6 +272,7 @@ def judge(w: dict, p: dict, ac: dict) -> dict | None:
     km = geo.haversine_km(float(w["lat"]), float(w["lon"]), float(p["lat"]), float(p["lon"]))
     sim = similarity(w["name"], p["name"])
     ok = (km <= ac["max_km"] and sim >= ac["min_similarity"] or km <= ac["near_km"] and sim >= ac["min_similarity_near"]
+          or km <= ac.get("close_km", 0) and sim >= ac.get("min_similarity_close", 1)
           or km <= ac["same_place_km"] and contains(w["name"], p["name"]))
     return {**p, "km": round(km, 2), "similarity": sim, "ok": ok}
 
@@ -532,7 +533,8 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
                 break
         state_path.parent.mkdir(parents=True, exist_ok=True)
         state_path.write_text(json.dumps(state, indent=0, sort_keys=True))
-        old = [r for r in read_csv(p["seller_prices"]) if r.get("seller") == SELLER]
+        ok = {r["pid"] for r in known.values() if r["status"] == "ok"}     # a hotel no longer matched: its prices go
+        old = [r for r in read_csv(p["seller_prices"]) if r.get("seller") == SELLER and r["pid"] in ok]
         others = [r for r in read_csv(p["seller_prices"]) if r.get("seller") != SELLER]
         merged = merge_prices(old, new, today)
         write_csv(sorted(others + merged, key=lambda r: (r["seller"], r["pid"], r["night"])), p["seller_prices"], PRICE_FIELDS)

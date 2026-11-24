@@ -468,7 +468,9 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   max_km: 3.0                # Agoda's hotel is ours when within max_km with a name this alike...
   min_similarity: 0.8
   near_km: 1.0               # ...or within near_km with a looser name match (names differ between sites)
-  min_similarity_near: 0.5
+  min_similarity_near: 0.7   # (0.5 until 2026-11-24: HRS took Alpenpark Resort, 430 m away, for Alpin Resort Sacher)
+  close_km: 0.2              # ...or practically next door with a looser name match (names differ between sites)
+  min_similarity_close: 0.5
   same_place_km: 0.15        # ...or practically the same spot with one name inside the other ("Hotel Gesser Sillian ...")
   queries: ["{name} {city}", "{name}"]   # the name alone when name and town find nothing
   suggest_url: "/api/cronos/search/GetUnifiedSuggestResult/3/16/1/0/en-gb/?searchText={q}&origin=US&cid=-1&pageTypeId=1&logTypeId=1&isHotelLandSearch=true&lastSearchedCity=0"
@@ -519,7 +521,9 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
   max_km: 3.0                # same name-and-place rules as Agoda (positions from Trip.com's suggestions)
   min_similarity: 0.8
   near_km: 1.0
-  min_similarity_near: 0.5
+  min_similarity_near: 0.7   # (0.5 until 2026-11-24: HRS took Alpenpark Resort, 430 m away, for Alpin Resort Sacher)
+  close_km: 0.2              # ...or practically next door with a looser name match (names differ between sites)
+  min_similarity_close: 0.5
   same_place_km: 0.15
   retry_days: 30
   ids_per_run: 300
@@ -550,7 +554,9 @@ hrs:                         # HRS's own prices; hotel.de is the same company an
   max_km: 3.0                # same name-and-place rules as Agoda (positions from HRS's suggestions)
   min_similarity: 0.8
   near_km: 1.0
-  min_similarity_near: 0.5
+  min_similarity_near: 0.7   # (0.5 until 2026-11-24: HRS took Alpenpark Resort, 430 m away, for Alpin Resort Sacher)
+  close_km: 0.2              # ...or practically next door with a looser name match (names differ between sites)
+  min_similarity_close: 0.5
   same_place_km: 0.15
   retry_days: 30
   ids_per_run: 300
@@ -579,7 +585,9 @@ vio:                         # Vio.com's own sales; Etrip.net, goSeek... are the
   max_km: 3.0                # same name-and-place rules as Agoda
   min_similarity: 0.8
   near_km: 1.0
-  min_similarity_near: 0.5
+  min_similarity_near: 0.7   # (0.5 until 2026-11-24: HRS took Alpenpark Resort, 430 m away, for Alpin Resort Sacher)
+  close_km: 0.2              # ...or practically next door with a looser name match (names differ between sites)
+  min_similarity_close: 0.5
   same_place_km: 0.15
   retry_days: 30
   ids_per_run: 300

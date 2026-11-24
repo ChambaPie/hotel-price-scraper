@@ -287,7 +287,8 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
                                 "seen_at": now})
                 sleep(hc["pause_seconds"])
         old_all = read_csv(p["seller_prices"])
-        merged = merge_prices([x for x in old_all if x.get("seller") == SELLER], new, today)
+        ok = {r["pid"] for r in known.values() if r["status"] == "ok"}     # a hotel no longer matched: its prices go
+        merged = merge_prices([x for x in old_all if x.get("seller") == SELLER and x["pid"] in ok], new, today)
         write_csv(sorted([x for x in old_all if x.get("seller") != SELLER] + merged,
                          key=lambda x: (x["seller"], x["pid"], x["night"])), p["seller_prices"], PRICE_FIELDS)
         stats["stored_nights"] = len(merged)

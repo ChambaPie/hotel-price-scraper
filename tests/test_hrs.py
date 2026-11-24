@@ -88,3 +88,36 @@ def test_results_page_names_the_hotels_location():
     """Run 45374257349: HRS's results page without its location made no hotel search (nothing to take)."""
     u = hrs.booking_url(config.load()["hrs"]["hotel_url"], 66796, date(2026, 12, 31), 2, 54084)
     assert "location=%2554084" in u and "hotelTeaserKey%5B0%5D=66796" in u
+
+
+def test_a_different_hotel_nearby_with_a_loosely_similar_name_is_not_taken():
+    """Regression (2026-11-24): HRS's "Alpenpark Resort", 430 m away, was taken for "Alpin Resort Sacher"
+    (similarity 0.6 within 1 km passed)."""
+    from hotel_scraper.agoda import judge
+    hc = config.load()["hrs"]
+    w = {"name": "Alpin Resort Sacher", "lat": "47.3300", "lon": "11.1900"}
+    near = {"name": "Alpenpark Resort", "lat": 47.3300, "lon": 11.1957}          # ~430 m east
+    assert judge(w, near, hc)["ok"] is False
+    same = {"name": "Romantik & Spa Alpen-Herz", "lat": 47.3300, "lon": 11.1901}  # same place, names reordered
+    assert judge({**w, "name": "Romantik Spa Alpen-herz"}, same, hc)["ok"] is True
+
+
+def test_prices_of_a_hotel_no_longer_matched_are_dropped(tmp_path):
+    """Hotels re-judged as another hotel (2026-11-24) lose the prices read for that other hotel."""
+    cfg = config.load()
+    for k in ("watchlist", "seller_ids", "seller_prices", "locations"):
+        cfg["paths"][k] = str(tmp_path / f"{k}.csv")
+    with open(cfg["paths"]["watchlist"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "name", "city", "lat", "lon", "gone_since"])
+        w.writeheader()
+        w.writerow({"pid": "ta:s", "name": "Alpin Resort Sacher", "city": "Seefeld", "lat": "47.33", "lon": "11.19", "gone_since": ""})
+    with open(cfg["paths"]["seller_ids"], "w", newline="") as f:
+        w = csv.DictWriter(f, hrs.ID_FIELDS)
+        w.writeheader()
+        w.writerow({"pid": "ta:s", "seller": "hrs", "seller_id": "26214", "status": "not found", "checked_at": "2026-11-24T12:00:00+00:00"})
+    with open(cfg["paths"]["seller_prices"], "w", newline="") as f:
+        w = csv.DictWriter(f, hrs.PRICE_FIELDS)
+        w.writeheader()
+        w.writerow({"pid": "ta:s", "seller": "hrs", "night": "2027-09-07", "price": "174.8", "available": "yes"})
+    hrs.run(cfg, "prices", 5, FakePage(), today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+    assert list(csv.DictReader(open(cfg["paths"]["seller_prices"]))) == []
