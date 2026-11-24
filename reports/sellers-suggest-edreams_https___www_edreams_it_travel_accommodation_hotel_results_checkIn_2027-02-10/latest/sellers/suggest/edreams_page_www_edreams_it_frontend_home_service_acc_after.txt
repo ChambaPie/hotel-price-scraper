@@ -1,0 +1,2 @@
+#URL https://www.edreams.it/frontend-home/service/accommodation-autocomplete/v3/search?searchTerm=hotel%20schloss%20seefels&locale=it_IT&sizeRegion=7&sizeAccommodation=7
+{"suggestions":[{"id":{"value":"39890"},"geoType":"ACCOMMODATION","regionType":null,"text":"Hotel Schloss Seefels, Techelsberg am Worther See, Carinzia, Austria"}]}
