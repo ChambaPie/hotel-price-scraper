@@ -1,13 +1,13 @@
-## Coverage: 3922 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3935 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
 | Roma | IT | 26 |
-| Lech | AT | 23 |
 | Milano | IT | 19 |
 | Grado | IT | 17 |
 | Kraków | PL | 17 |
 | Vatican City | VA | 14 |
+| Lech | AT | 12 |
 | Nice | FR | 11 |
 | Scena | IT | 11 |
 | Katowice | PL | 9 |
