@@ -91,7 +91,8 @@ def main(argv=None) -> int:
     cfg = config.load(args.config)
     sp = cfg["seller_probe"]
     from .seller_probe import probe_specs
-    spec = probe_specs(cfg, ["probe", "account", "official", "live", "blocked"])[args.seller]
+    # a booking engine (not a catalogued seller) can be probed page by page too: no home page, no search box
+    spec = probe_specs(cfg, ["probe", "account", "official", "live", "blocked"]).get(args.seller, {})
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     from playwright.sync_api import sync_playwright
