@@ -487,11 +487,12 @@ def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, t
     stats = {"ids_due": 0, "ids_found": 0, "hotels_priced": 0, "nights": 0, "errors": 0}
     started = clock()
     if part in ("ids", "all"):
-        todo = ids_due(sites, known, ec["live"], today, ec["retry_days"], ec.get("ids_valid_from", ""))[: ec["ids_per_run"]]
-        stats["ids_due"] = len(todo)
+        due = ids_due(sites, known, ec["live"], today, ec["retry_days"], ec.get("ids_valid_from", ""))
         direct = {s["pid"]: code_from_requests(s["engine"], [s.get("booking_link") or "", s.get("website") or ""])
-                  for s in todo}                     # some links name the engine's hotel code already
-        need = [s for s in todo if not direct.get(s["pid"])]
+                  for s in due}                      # some links name the engine's hotel code already: no page needed
+        need = [s for s in due if not direct.get(s["pid"])][: ec["ids_per_run"]]       # pages to open, this many
+        todo = [s for s in due if direct.get(s["pid"])] + need
+        stats["ids_due"] = len(todo)
         codes = finder(need, ec, log=log, budget_s=max_minutes * 60 * (0.5 if part == "all" else 1)) if need else {}
         codes.update({k: v for k, v in direct.items() if v})
         redo = {s["pid"] for s in todo}
