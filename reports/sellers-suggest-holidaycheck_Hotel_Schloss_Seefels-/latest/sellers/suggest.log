@@ -1,0 +1,16 @@
+15:35:36 Hotel Schloss Seefels: 15 calls while typing; 0 suggestion-like elements
+15:35:36   200 POST https://www.holidaycheck.at/St7dLLaaD/W/mhsBvTtQ/zV3DcfYtVO/U0JTICE/Cyx/mWkR3EkJ3AQ application/json
+15:35:36   200 GET https://www.holidaycheck.at/svc/search-mixer/search?query=&tenant=hc-search&page=%2F&scope=hotel&travelkind=hotel application/json
+15:35:36   200 GET https://www.holidaycheck.at/svc/search-mixer/search?query=H&tenant=hc-search&page=%2F&scope=hotel&travelkind=hotel application/json
+15:35:36   200 GET https://www.holidaycheck.at/svc/search-mixer/search?query=Ho&tenant=hc-search&page=%2F&scope=hotel&travelkind=hotel application/json
+15:35:36   200 GET https://www.holidaycheck.at/svc/search-mixer/search?query=Hot&tenant=hc-search&page=%2F&scope=hotel&travelkind=hotel application/json
+15:35:36   200 GET https://www.holidaycheck.at/svc/search-mixer/search?query=Hote&tenant=hc-search&page=%2F&scope=hotel&travelkind=hotel application/json
+15:35:36   200 GET https://www.holidaycheck.at/svc/search-mixer/search?query=Hotel&tenant=hc-search&page=%2F&scope=hotel&travelkind=hotel application/json
+15:35:36   200 GET https://www.holidaycheck.at/svc/search-mixer/search?query=Hotel%20&tenant=hc-search&page=%2F&scope=hotel&travelkind=hotel application/json
+15:35:36   200 GET https://www.holidaycheck.at/svc/search-mixer/search?query=Hotel%20S&tenant=hc-search&page=%2F&scope=hotel&travelkind=hotel application/json
+15:35:36   200 GET https://www.holidaycheck.at/svc/search-mixer/search?query=Hotel%20Sc&tenant=hc-search&page=%2F&scope=hotel&travelkind=hotel application/json
+15:35:36   200 GET https://www.holidaycheck.at/svc/search-mixer/search?query=Hotel%20Sch&tenant=hc-search&page=%2F&scope=hotel&travelkind=hotel application/json
+15:35:36   200 POST https://api.cleverpush.com/channel/confirm-alert application/json; charset=utf-
+15:35:36   open GET https://www.holidaycheck.at/hi/hotel-centrum-konferencyjne-sch/191e1689-addd-3e83-957a-3080aef581ca 
+15:35:36   200 POST https://www.holidaycheck.at/St7dLLaaD/W/mhsBvTtQ/zV3DcfYtVO/U0JTICE/Cyx/mWkR3EkJ3AQ application/json
+15:35:36   open GET https://www.holidaycheck.at/ho/angebote-hotel-centrum-konferencyjne-sch/191e1689-addd-3e83-957a-3080aef581ca/hotelonly 
