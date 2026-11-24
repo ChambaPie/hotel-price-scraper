@@ -1,0 +1,38 @@
+[
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "class=odf-input-m odf-text-lg odf-input odf-input-inline odf-text-",
+   "type=text",
+   "placeholder=Cerca una destinazione o un hotel",
+   "autocomplete=off",
+   "spellcheck=false",
+   "test-id=input-airport",
+   "data-testid=input-airport",
+   "value=",
+   "style="
+  ]
+ },
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "type=text",
+   "class=odf-input-m odf-text-lg odf-input odf-input-inline odf-click",
+   "readonly=",
+   "placeholder=Data check-in",
+   "value=",
+   "style="
+  ]
+ },
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "type=text",
+   "class=odf-input-m odf-text-lg odf-input odf-input-inline odf-click",
+   "readonly=",
+   "placeholder=Data check-out",
+   "value=",
+   "style="
+  ]
+ }
+]
