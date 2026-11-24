@@ -1,111 +1,12 @@
-10:24:21 seekda   Dolomitengolf Suites                {'code': 'S003791'}
-10:24:29 seekda   Naturhotel Waldklause               {'code': 'S006552'}
-10:24:38 seekda   Adler Inn Tyrol Mountain Resort Sup {'code': 'AT_TUX_BERGLAND'}
-10:24:46 seekda   Hotel Alpenhof                      {'code': 'AT_HINTER_ALPEN'}
-10:24:54 d_edge   L'Aiguille Grive Chalets Hotel      None
-10:25:02 seekda   Das Kaltenbach - Nature Hotel       {'code': 'S000161'}
-10:25:10 seekda   Romantik & Spa Alpen-herz           {'code': 'AT_IQ_007'}
-10:25:19 seekda   Hotel Sonnenpark                    {'code': 'AT_LUTZ_SONNENPA'}
-10:25:28 hotelnetsolutions Das Naturhotel Chesa Valisa         {'code': 'naturhotel-chesa-valisa'}
-10:25:36 simplebooking Hotel Executive La Fiorita          None
-10:25:45 seekda   Hotel Andy                          {'code': 'S001318'}
-10:25:53 synxis   Vila Vita Pannonia                  None
-10:26:01 seekda   Alpenhotel Heimspitze               {'code': 'S001320'}
-10:26:08 d_edge   Domaine de Montagne - Chalet Frère  {'code': 'J1I6-29552', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
-10:26:15 d_edge   Hotel et Spa du Castellet           None
-10:26:24 d_edge   Hotel Cour Du Corbeau Strasbourg MG None
-10:26:32 d_edge   Hotel Tandem                        None
-10:26:40 d_edge   Hotel Le Bouclier D'or              None
-10:26:48 d_edge   Hotel Carlton                       None
-10:26:56 synxis   Hotel Cap Estel                     None
-10:27:04 d_edge   La Chèvre D'Or                      {'code': 'J2DL-23601', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
-10:27:12 d_edge   Palais Saleya                       None
-10:27:24 synxis   Le Domaine du Mas de Pierre         None
-10:27:32 d_edge   Hotel Le Roosevelt                  None
-10:27:39 d_edge   Hôtel Saint-Georges                 None
-10:27:46 synxis   Maison Pic                          None
-10:27:56 hotelnetsolutions Hotel Torbräu                       None
-10:28:02 synxis   Hotel Muenchen Palace               None
-10:28:09 synxis   Mandarin Oriental, Munich           None
-10:28:19 hotelnetsolutions Hotel VICTORIA                      {'code': 'hotel-victoria-nuernberg'}
-10:28:26 synxis   The First Roma Dolce                None
-10:28:34 simplebooking Hotel Artemide                      None
-10:28:42 synxis   The Independent Hotel               None
-10:28:43 A Roma Lifestyle Hotel: Page.goto: Download is starting
-Call log:
-  - navigating to "https://www.ldchote
-10:28:43 simplebooking A Roma Lifestyle Hotel              None
-10:28:50 blastness Hotel Continental                   None
-10:28:58 synxis   Urban Hive Milano                   None
-10:29:06 blastness The Street Milano Duomo | a Design  None
-10:29:14 d_edge   Hotel San Gallo                     None
-10:29:23 synxis   Palazzo Keller                      None
-10:29:31 blastness Carnival Palace Hotel               None
-10:29:37 synxis   Sina Palazzo Sant'angelo            None
-10:29:45 blastness Hotel L'Orologio                    None
-10:29:54 synxis   Hotel Accademia                     None
-10:30:02 synxis   Hotel Mulino di Firenze             None
-10:30:13 d_edge   Park Hotel Ai Cappuccini            None
-10:30:20 d_edge   Hotel D Geneva                      {'code': '2QWU-21819', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
-10:30:27 d_edge   Hôtel Bristol Genève                None
-10:30:35 synxis   Einstein St. Gallen                 None
-10:30:43 simplebooking La Couronne Hotel                   None
-10:30:52 seekda   Waldhotel Arosa                     {'code': 'S003878'}
-10:31:02 hotelnetsolutions BelArosa Hotel                      {'code': 'belarosa'}
-10:31:08 simplebooking Waldhotel Davos for Body & Soul     None
-10:31:18 synxis   Suvretta House                      None
-10:31:25 simplebooking CERVO Mountain Resort               None
-10:31:33 seekda   Privathotel Das-Schmidt             None
-10:31:41 seekda   Hotel  Bristol Salzburg             {'code': 'AT_SALZ_BRISTOL'}
-10:31:56 seekda   Hotel Toalstock                     228 nights priced
-10:32:10 seekda   Familienresort Buchau               212 nights priced
-10:32:12 Boutique-Hotel Remorino: synxis HTTP 400
-10:32:26 seekda   Landhaus Koller                     209 nights priced
-10:32:45 hotelnetsolutions Hotel Schwaigerhof                  256 nights priced
-10:32:46 Hotel Interalpen: simplebooking HTTP 203 
-10:33:00 seekda   Wanderhotel Taurerwirt              30 nights priced
-10:33:14 seekda   Hotel Grossarler Hof                273 nights priced
-10:33:30 seekda   Dolomitengolf Suites                261 nights priced
-10:33:44 seekda   Naturhotel Waldklause               112 nights priced
-10:34:00 seekda   Adler Inn Tyrol Mountain Resort Sup 116 nights priced
-10:34:16 seekda   Hotel Alpenhof                      265 nights priced
-10:34:31 seekda   Das Kaltenbach - Nature Hotel       172 nights priced
-10:34:45 seekda   Romantik & Spa Alpen-herz           84 nights priced
-10:35:07 seekda   Hotel Sonnenpark                    331 nights priced
-10:35:22 hotelnetsolutions Das Naturhotel Chesa Valisa         272 nights priced
-10:35:37 seekda   Hotel Andy                          194 nights priced
-10:35:52 seekda   Alpenhotel Heimspitze               84 nights priced
-10:36:10 d_edge   Domaine de Montagne - Chalet Frère  338 nights priced
-10:36:11 Alloggio Agrituristico Albafiorita: simplebooking HTTP 203 
-10:36:26 d_edge   La Chèvre D'Or                      196 nights priced
-10:36:40 hotelnetsolutions Hotel VICTORIA                      292 nights priced
-10:36:47 Hotel Monte Cenci: synxis HTTP 400
-10:37:08 blastness Argentina Residenza Style Hotel     8 nights priced
-10:37:09 Hotel Villa Cattani Stuart: simplebooking HTTP 203 
-10:37:11 Savhotel Fiera Bologna: simplebooking HTTP 203 
-10:37:12 Hotel Spadari al Duomo True Stay: simplebooking HTTP 203 
-10:37:13 iQ Hotel Milano: simplebooking HTTP 203 
-10:37:14 Hermitage Hotel & Spa: synxis HTTP 400
-10:37:24 blastness Gran Baita Hotel & Wellness Resort  8 nights priced
-10:37:26 Hotel Moresco: simplebooking HTTP 203 
-10:37:27 Hotel Dona Palace: simplebooking HTTP 203 
-10:37:28 Villa Cora: synxis HTTP 400
-10:37:30 Collegio alla Querce Auberge Collec: synxis HTTP 400
-10:37:31 Hotel Ilaria: simplebooking HTTP 203 
-10:37:32 Torre Mozza: simplebooking HTTP 203 
-10:37:51 d_edge   Hotel D Geneva                      278 nights priced
-10:37:52 Art Deco Hotel Montana: simplebooking HTTP 203 
-10:37:54 Hotel Belvedere Grindelwald: simplebooking HTTP 203 
-10:38:13 seekda   Waldhotel Arosa                     122 nights priced
-10:38:26 hotelnetsolutions BelArosa Hotel                      208 nights priced
-10:38:28 Kulm Hotel: synxis HTTP 400
-10:38:29 Matterhorn FOCUS Design Hotel: simplebooking HTTP 203 
-10:38:30 Christiania Mountain & Spa: simplebooking HTTP 203 
-10:38:31 Grand Hotel Zermatterhof: simplebooking HTTP 203 
-10:38:36 Hôtel Angleterre: synxis HTTP 400
-10:38:51 seekda   Hotel  Bristol Salzburg             323 nights priced
-10:38:52 Hotel Sacher Salzburg: synxis HTTP 400
-10:38:53 Hotel Sacher Wien: synxis HTTP 400
-10:39:07 seekda   Hotel Stefanie                      323 nights priced
-10:39:12 Hotel Mioni Pezzato & SPA: ericsoft HTTP 400
-10:39:13 engines: {'ids_due': 145, 'ids_found': 81, 'hotels_priced': 26, 'nights': 5188, 'errors': 25, 'shared_codes': 1, 'ids_coverage': '128/203 hotels on seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft, synxis, blastness'}
+10:46:09 Grand Hotel Zermatterhof: simplebooking HTTP 203 
+10:46:15 Hôtel Angleterre: synxis HTTP 400: {"Message":"Invalid origin"}
+10:46:16 Hotel Sacher Salzburg: synxis HTTP 400: {"Message":"Invalid origin"}
+10:46:17 Hotel Sacher Wien: synxis HTTP 400: {"Message":"Invalid origin"}
+10:46:31 seekda   Hotel Stefanie                      323 nights priced
+10:46:58 ericsoft Hotel Mioni Pezzato & SPA           8 nights priced
+10:47:10 ericsoft Hotel La Maison Wellness & Spa      8 nights priced
+10:47:11 Hotel Bibione Palace: simplebooking HTTP 203 
+10:47:12 Hotel Montecristo: simplebooking HTTP 203 
+10:47:13 Hotel Torino Wellness & Spa: simplebooking HTTP 203 
+10:47:14 Hotel Miramare: simplebooking HTTP 203 
+10:47:15 Hotel Daniele: simplebooking HTTP 203 
