@@ -6,8 +6,8 @@ name: Scan for deals
 # (data/heatmap_changes.csv); then prices newly-cheap nights and builds each property's norm (data/prices.csv),
 # Deal identification runs in the private repo, which reads these files.
 on:
-  schedule:
-    - cron: "17 5,17 * * *"   # 05:17 and 17:17 UTC (public repo: free minutes)
+  # schedule off (2026-11-24): prices come only from the sellers' own sites (owner, 2026-11-23: "don't use
+  # tripadvisor"); nothing reads these TripAdvisor heatmaps any more (private detect.enabled: false)
   workflow_dispatch:
 
 permissions:

@@ -6,7 +6,7 @@ on:
   schedule:
     - cron: "47 7 * * *"   # 07:47 UTC, after the morning scan
   workflow_run:            # scheduled runs can be dropped; also check after the main jobs
-    workflows: ["Booking.com collection", "Scan for deals"]
+    workflows: ["Booking.com collection", "Other sellers"]
     types: [completed]
   workflow_dispatch:
 

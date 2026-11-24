@@ -146,6 +146,8 @@ def unpriceable(cfg: dict) -> set:
     for a re-try after scan.retry_unpriceable_days."""
     from datetime import datetime, timedelta, timezone
     p, s = cfg["paths"], cfg.get("scan", {})
+    if not s.get("skip_unpriceable", True):     # off since prices come from the sellers' own sites (2026-11-24)
+        return set()
     if not p.get("heatmap") or not Path(p["heatmap"]).exists():
         return set()
     cutoff = (datetime.now(timezone.utc) - timedelta(days=s.get("retry_unpriceable_days", 30))).isoformat(timespec="seconds")

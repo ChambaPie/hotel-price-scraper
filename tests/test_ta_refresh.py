@@ -159,3 +159,18 @@ def test_main_runs_end_to_end_with_the_real_settings(tmp_cfg, tmp_path):
     assert ta_refresh.main(["--config", str(path), "--fixture", str(fx2), "--max-requests", "50"]) == 0  # a change -> news
     gone = [r for r in csv.DictReader(open(cfg["paths"]["catalog"], encoding="utf-8")) if r["gone_since"]]
     assert [r["pid"] for r in gone] == ["ta:g187813-d203235"]
+
+
+def test_tripadvisor_having_no_price_no_longer_drops_a_hotel(tmp_path):
+    """Regression (scan 2026-11-24 03:35): hotels TripAdvisor couldn't price left the watchlist although prices now
+    come only from the sellers' own sites (owner, 2026-11-23)."""
+    from hotel_scraper import config
+    cfg = config.load()
+    cfg["paths"]["heatmap"] = str(tmp_path / "heatmap.csv")
+    with open(cfg["paths"]["heatmap"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "status", "checked_at"])
+        w.writeheader()
+        w.writerow({"pid": "ta:g1-d0", "status": "error", "checked_at": "2099-01-01T00:00:00+00:00"})
+    assert cfg["scan"]["skip_unpriceable"] is False and selection.unpriceable(cfg) == set()
+    cfg["scan"]["skip_unpriceable"] = True
+    assert selection.unpriceable(cfg) == {"ta:g1-d0"}

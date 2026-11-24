@@ -111,7 +111,9 @@ scan:
   pause_seconds: [0.5, 1.0]  # between Xotelo heatmap calls
   change_log_days: 45        # how long night-level class changes are kept in paths.heatmap_changes
   retry_unpriceable_days: 30 # a property whose price check fails (no partner prices on TripAdvisor) leaves the
-                             # watchlist (its quota place goes to the next best) and is re-tried after this
+                             # watchlist (its quota place goes to the next best) and is re-tried after this...
+  skip_unpriceable: false    # ...off (2026-11-24): prices come only from the sellers' own sites (owner, 2026-11-23), so
+                             # TripAdvisor having no price says nothing; the 03:35 scan dropped ~150 hotels for it
 
 landscape:                   # tags for filtering: mountain, ski, sea, beach, lake, city, countryside
   mountain_min_elevation_m: 800
@@ -159,7 +161,6 @@ booking_scan:                # Phase 9: Booking.com via headless browser (calend
 
 ops:                         # Phase 8: daily health check (workflow file -> max hours since its last successful run)
   max_hours_since_success:
-    scan.yml: 14
     booking.yml: 8
     catalog.yml: 30
     osm.yml: 200

@@ -1,0 +1,12 @@
+{
+ "sec-ch-ua-platform": "\"Windows\"",
+ "authorization": "Bearer (token from the page, expired)",
+ "referer": "https://book.blastness.com/",
+ "accept-language": "en-GB",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "sec-ch-ua-mobile": "?0",
+ "ocp-apim-subscription-key": "41f107bb56d14997956de305d6c7377a",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+ "x-hotel-code": "12102",
+ "content-type": "application/json"
+}
