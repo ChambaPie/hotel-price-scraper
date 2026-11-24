@@ -222,17 +222,13 @@ class TripPage:
 
 
 def page_answer(seen: list[dict], hotel_id: int) -> list[dict]:
-    """What Trip.com's own results page showed for our hotel: its prices, or, when the page's own answer about exactly
-    our hotel was an empty list, nothing to sell that night (the visitor sees no room either; run of 2026-11-24 11:00:
-    32 of 42 pages)."""
+    """What Trip.com's own results page showed for our hotel: its prices (sold out included), or nothing."""
     for d in reversed(seen):
         got = hotels(d)
         if any(h["id"] == hotel_id for h in got):
             return got
-    for d in reversed(seen):
-        if not hotels(d) and hotel_id in asked_for(d):
-            return [{"id": hotel_id, "name": "", "available": False, "price": None, "price_excl": None,
-                     "price_total": None, "currency": ""}]
+    # an empty list about our hotel says nothing: runs of 2026-11-24 11:05-11:20 had it for 40 of 40 pages, with no
+    # hotel at all on the page (Trip.com holding back from this browser), not a sold-out hotel
     return []
 
 

@@ -503,7 +503,8 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
   home: "https://www.trip.com/hotels/?curr=EUR&locale=en-GB"
   user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
   accept_language: "en-GB,en;q=0.9"
-  # browser: *person_browser # if Trip.com starts refusing the hidden browser (needs xvfb-run in the workflow)
+  browser: *person_browser   # Google Chrome with a window: Trip.com's pages came back empty to the hidden browser
+                             # (2026-11-24)
   wait_ms: 5000
   currency: EUR
   keywords_url: "https://www.trip.com/restapi/soa2/34951/getHotelKeywords"        # what its search box asks
@@ -511,7 +512,7 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
   keywords_template: config/tripcom_keywords.json   # its own requests, captured from the page (2026-11-23)
   list_template: config/tripcom_list.json
   list_page: "https://www.trip.com/hotels/list?cityId={city}&countryId={country}&searchType=H&optionId={id}&searchValue=31%7C{id}%2A31%2A{id}%2A1&checkin={checkin}&checkout={checkout}&crn=1&adult={adults}&curr=EUR&locale=en-GB"
-  no_rows_valid_from: "2026-11-24T11:00:00+00:00"   # "not available" rows seen before this are dropped (they came
+  no_rows_valid_from: "2026-11-24T11:30:00+00:00"   # "not available" rows seen before this are dropped (they came
                              # from list answers that said nothing)
   price_mode: pages          # pages = Trip.com's own results page per hotel and night (its list call, repeated, answers
                              # empty lists: run 45374257349 0 of 276 available vs 27 of 96 on its pages); replay = repeat

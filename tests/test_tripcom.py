@@ -184,10 +184,10 @@ def test_not_available_rows_from_empty_answers_are_dropped(tmp_path):
     assert [r["seller"] for r in rows] == ["agoda"]
 
 
-def test_results_page_showing_no_room_for_our_hotel():
-    """The results page's own answer about exactly our hotel is an empty list: the visitor sees nothing to book."""
+def test_results_page_with_an_empty_list_says_nothing():
+    """Regression (runs of 2026-11-24 11:05-11:20): Trip.com's results pages answered an empty list about our hotel for
+    40 of 40 pages, with no hotel at all on the page (Trip.com holding back, not a sold-out hotel; taken as "not
+    available" for an hour). Such pages now record nothing."""
     empty = json.loads((FX / "tripcom_list_empty_single_2026-11-24.json").read_text())
-    got = tripcom.page_answer([empty], 4340342)
-    assert len(got) == 1 and got[0]["available"] is False
-    assert tripcom.page_answer([empty], 760667) == []                    # an answer about another hotel says nothing
+    assert tripcom.page_answer([empty], 4340342) == []
     assert tripcom.page_answer([empty, LIST], 760667)[0]["price"] == 188.77

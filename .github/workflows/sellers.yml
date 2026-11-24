@@ -101,7 +101,8 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p out
-          python -m hotel_scraper.tripcom --part "$PART" ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/tripcom.log
+          command -v xvfb-run >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq xvfb; }
+          xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.tripcom --part "$PART" ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/tripcom.log
       - name: HRS (and hotel.de)
         if: matrix.reader == 'hrs'
         env:
