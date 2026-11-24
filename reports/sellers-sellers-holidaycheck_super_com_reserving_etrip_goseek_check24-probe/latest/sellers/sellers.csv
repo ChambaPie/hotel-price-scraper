@@ -1,0 +1,13 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+check24,ta:g274887-d285437,Corinthia Budapest,HU,200,urlaub.check24.de,Urlaub buchen ▷ Pauschalreisen bis 60% günstiger | CHECK24 Reisen,,9,False,3471,0,31.9,no suggestion list (pressed Enter)
+check24,ta:g187791-d205044,Hotel Artemide,IT,200,urlaub.check24.de,Urlaub buchen ▷ Pauschalreisen bis 60% günstiger | CHECK24 Reisen,,4,False,3181,0,27.6,no suggestion list (pressed Enter)
+holidaycheck,ta:g274887-d285437,Corinthia Budapest,HU,400,holidaycheck.at,,,0,False,204,0,8.4,search box not found
+holidaycheck,ta:g187791-d205044,Hotel Artemide,IT,400,holidaycheck.at,,,0,False,204,0,8.1,search box not found
+super_com,ta:g274887-d285437,Corinthia Budapest,HU,200,super.com,"Las Vegas, Nevada, United States of America - Super.com Hotel Deals",,0,False,1023,1,28.9,no suggestion list (pressed Enter)
+super_com,ta:g187791-d205044,Hotel Artemide,IT,403,super.com,Just a moment...,Just a moment,0,False,155,0,8.4,search box not found
+reserving,ta:g274887-d285437,Corinthia Budapest,HU,403,reserving.com,Just a moment...,Just a moment,0,False,265,0,8.2,search box not found
+reserving,ta:g187791-d205044,Hotel Artemide,IT,403,reserving.com,Just a moment...,Just a moment,0,False,265,0,8.1,search box not found
+etrip,ta:g274887-d285437,Corinthia Budapest,HU,200,etrip.net,Etrip | Find the right hotel at the best price.,,0,False,838,10,9.1,search box not found
+etrip,ta:g187791-d205044,Hotel Artemide,IT,200,etrip.net,Etrip | Find the right hotel at the best price.,,0,False,619,10,8.8,search box not found
+goseek,ta:g274887-d285437,Corinthia Budapest,HU,200,goseek.com,goSeek.com | Find the right hotel at the best price.,,0,False,759,10,9.0,search box not found
+goseek,ta:g187791-d205044,Hotel Artemide,IT,200,goseek.com,goSeek.com | Find the right hotel at the best price.,,0,False,540,10,8.8,search box not found
