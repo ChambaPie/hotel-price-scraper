@@ -267,7 +267,7 @@ sellers:                     # every travel website that sells the room and take
   destinia: {name: Destinia, status: probe, home: "https://destinia.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   logitravel: {name: Logitravel, status: blocked, home: "https://www.logitravel.it/", note: "Access Denied from GitHub's servers (probe 2026-11-23)"}
   hotelopia: {name: Hotelopia, group: HBX Group, status: probe, home: "https://www.hotelopia.com/", note: "no answer (probe 2026-11-23)"}
-  vio: {name: Vio.com, status: probe, home: "https://www.vio.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  vio: {name: Vio.com, status: live, home: "https://www.vio.com/", note: "its own search service (sapi.fih.io): ids and a 61-night price calendar per call; only offers sold on Vio's own checkout (hotel_scraper/vio.py)"}
   mr_mrs_smith: {name: Mr & Mrs Smith, group: IHG, status: probe, home: "https://www.mrandmrssmith.com/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   michelin: {name: Michelin Guide hotels (Tablet), status: probe, home: "https://guide.michelin.com/it/en/hotels", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   weekendesk: {name: Weekendesk, status: probe, home: "https://www.weekendesk.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
@@ -277,8 +277,8 @@ sellers:                     # every travel website that sells the room and take
   holidaycheck: {name: HolidayCheck, status: probe, home: "https://www.holidaycheck.at/", note: "Google: 18 of 19 hotels"}
   super_com: {name: Super.com, status: probe, home: "https://www.super.com/travel/", note: "listed on Google Hotels for watched hotels"}
   reserving: {name: Reserving, status: probe, home: "https://www.reserving.com/", note: "listed on Google Hotels for watched hotels"}
-  etrip: {name: Etrip.net, status: probe, home: "https://www.etrip.net/", note: "listed on Google Hotels for watched hotels"}
-  goseek: {name: goseek, status: probe, home: "https://www.goseek.com/", note: "listed on Google Hotels for watched hotels"}
+  etrip: {name: Etrip.net, status: live, home: "https://www.etrip.net/", note: "built on Vio (same service sapi.fih.io, own brand): read as Vio"}
+  goseek: {name: goseek, status: live, home: "https://www.goseek.com/", note: "built on Vio (same service sapi.fih.io, own brand): read as Vio"}
   hotel_booking_zone: {name: Hotel Booking Zone, status: probe, note: "address to find"}
   bookhotel_direct: {name: Bookhotel.direct, status: probe, home: "https://bookhotel.direct/", note: "listed on Google Hotels for watched hotels"}
   stayforlong: {name: Stayforlong, status: probe, home: "https://www.stayforlong.com/", note: "listed on Google Hotels for watched hotels"}
@@ -547,6 +547,37 @@ hrs:                         # HRS's own prices; hotel.de is the same company an
   stop_after_errors: 25
   max_minutes: 30
   hotel_url: "https://www.hrs.com/en/list?hotelTeaserKey%5B0%5D={id}&startDateDay={d}&startDateMonth={m}&startDateYear={y}&endDateDay={d2}&endDateMonth={m2}&endDateYear={y2}&currency=EUR&rooms=1&numberOfAdults%5B0%5D={adults}&type%5B0%5D={room}&adults={adults}&children=0&singleRooms={singles}&doubleRooms={doubles}"
+
+vio:                         # Vio.com's own sales; Etrip.net, goSeek... are the same service (hotel_scraper/vio.py)
+  api: "https://sapi.fih.io"
+  api_key: "vio_website_8f7d6e5c4b3a2d1e0f9c8b7a6d5e4f3c"   # Vio's public website key (sent by every visitor's browser)
+  origin: "https://www.vio.com"
+  brand: vio
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+  cug_deals: [sensitive]     # deal groups asked for...
+  public_tiers: ["", sensitive]   # ...and kept: what a visitor sees without signing in
+  suggestions: 8
+  candidates_checked: 3      # hotel suggestions checked by position per query
+  queries: ["{name} {city}", "{name}"]
+  max_km: 3.0                # same name-and-place rules as Agoda
+  min_similarity: 0.8
+  near_km: 1.0
+  min_similarity_near: 0.5
+  same_place_km: 0.15
+  retry_days: 30
+  ids_per_run: 300
+  ids_share: 0.5
+  hotels_per_call: 20        # one calendar request: this many hotels...
+  nights_per_call: 61        # ...and up to 61 check-in nights (Vio's limit)
+  hotels_per_pass: 200
+  max_polls: 8
+  poll_seconds: 1.0
+  min_lead_days: 1
+  horizon_days: 365
+  pause_seconds: 1.0
+  stop_after_errors: 25
+  max_minutes: 30
+  hotel_url: "https://www.vio.com/Hotel/Search?hotelId={id}&checkIn={checkin}&checkOut={checkout}&rooms={adults}"
 
 engines:                     # hotels' own booking engines (hotel_scraper/engines.py; owner, 2026-11-23: every vendor)
   live: [seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft, synxis, blastness]   # engines with a reader
