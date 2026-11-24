@@ -19,6 +19,64 @@ DOM_JS = """(word) => Array.from(document.querySelectorAll('li, [role=option], a
                            text: (e.innerText || '').slice(0, 120)}))"""
 
 
+def finished_calls(reqs: list, done: set, body_max: int) -> list[dict]:
+    """The page's own xhr/fetch calls with their answers; a call still open is listed without waiting for it."""
+    calls = []
+    for r in reqs:
+        if r.resource_type not in ("xhr", "fetch"):
+            continue
+        item = {"method": r.method, "url": r.url[:600], "post": (r.post_data or "")[:20000],
+                "headers": {k: v for k, v in r.headers.items() if k.lower() != "cookie"}}
+        if id(r) not in done:
+            item["status"] = "open"
+            calls.append(item)
+            continue
+        try:
+            resp = r.response()
+            if resp:
+                item["status"] = resp.status
+                item["type"] = resp.headers.get("content-type", "")
+                item["body"] = resp.text()[:body_max]
+        except Exception as e:  # noqa: BLE001
+            item["error"] = str(e)[:100]
+        calls.append(item)
+    return calls
+
+
+def open_page_calls(page, url: str, out: Path, seller: str, cookie_buttons, wait_s: float = 25) -> None:
+    """Open one of the seller's pages and keep its text, a screenshot and every call it makes (to find its price
+    call)."""
+    reqs, done = [], set()
+    on_req, on_done = (lambda r: reqs.append(r)), (lambda r: done.add(id(r)))
+    page.on("request", on_req)
+    page.on("requestfinished", on_done)
+    page.on("requestfailed", on_done)
+    name = f"{seller}_page_{slug(url.split('://', 1)[-1])[:60]}"
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(4000)
+        accept_cookies(page, cookie_buttons)
+        for _ in range(int(wait_s / 2.5)):
+            page.wait_for_timeout(2500)
+            try:
+                page.mouse.wheel(0, 400)
+            except Exception:  # noqa: BLE001
+                pass
+        (out / f"{name}_after.txt").write_text(f"#URL {page.url}\n" + page.inner_text("body")[:30000], encoding="utf-8")
+        page.screenshot(path=str(out / f"{name}.png"))
+    except Exception as e:  # noqa: BLE001
+        log(f"{url[:100]}: {str(e)[:150]}")
+    finally:
+        page.remove_listener("request", on_req)
+        page.remove_listener("requestfinished", on_done)
+        page.remove_listener("requestfailed", on_done)
+    calls = finished_calls(reqs, done, 300000)
+    (out / f"{name}.json").write_text(json.dumps({"url": url, "calls": calls}, indent=1), encoding="utf-8")
+    log(f"{url[:100]}: {len(calls)} calls")
+    for c in calls:
+        log(f"  {c.get('status')} {c['method']} {c['url'][:150]} {c.get('type', '')[:30]}")
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--config", default=str(config.DEFAULT_PATH))
@@ -47,11 +105,17 @@ def main(argv=None) -> int:
             br = launch_browser(pw, True)
             page = br.new_context(user_agent=sp["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900}).new_page()
         for q in args.query:
+            if q.startswith("http"):        # a page of the seller's (a hotel page for a night): every call it makes
+                open_page_calls(page, q, out, args.seller, sp["cookie_buttons"])
+                continue
             page.goto(spec["home"], wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(5000)
             accept_cookies(page, sp["cookie_buttons"])
-            reqs = []
-            page.on("request", lambda r: reqs.append(r))
+            reqs, done = [], set()
+            on_req, on_done = (lambda r: reqs.append(r)), (lambda r: done.add(id(r)))
+            page.on("request", on_req)
+            page.on("requestfinished", on_done)
+            page.on("requestfailed", on_done)
             page.screenshot(path=str(out / f"{args.seller}_{slug(q)}_before.png"))
             inputs = page.evaluate("""() => Array.from(document.querySelectorAll('input, [contenteditable=true], [role=combobox], [role=searchbox]'))
                 .filter(e => e.offsetParent !== null).slice(0, 15)
@@ -105,23 +169,10 @@ def main(argv=None) -> int:
                         pass
                 (out / f"{args.seller}_{slug(q)}_after.txt").write_text(f"#URL {page.url}\n" + page.inner_text("body")[:30000],
                                                                         encoding="utf-8")
-            calls = []
-            for r in reqs:
-                if r.resource_type not in ("xhr", "fetch"):
-                    continue
-                item = {"method": r.method, "url": r.url[:600], "post": (r.post_data or "")[:20000],
-                        "headers": {k: v for k, v in r.headers.items() if k.lower() != "cookie"}}
-                try:
-                    resp = r.response()
-                    if resp:
-                        item["status"] = resp.status
-                        item["type"] = resp.headers.get("content-type", "")
-                        body = resp.text()
-                        item["body"] = body[:(300000 if args.follow else 20000)]
-                except Exception as e:  # noqa: BLE001
-                    item["error"] = str(e)[:100]
-                calls.append(item)
-            page.remove_listener("request", lambda r: reqs.append(r))
+            calls = finished_calls(reqs, done, 300000 if args.follow else 20000)
+            page.remove_listener("request", on_req)
+            page.remove_listener("requestfinished", on_done)
+            page.remove_listener("requestfailed", on_done)
             (out / f"{args.seller}_{slug(q)}.json").write_text(json.dumps({"query": q, "calls": calls, "dom": dom}, indent=1),
                                                              encoding="utf-8")
             page.screenshot(path=str(out / f"{args.seller}_{slug(q)}.png"))

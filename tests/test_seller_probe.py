@@ -182,3 +182,30 @@ def test_save_json_keeps_remix_turbo_stream_data(tmp_path):
             Resp("https://hotels.check24.de/assets/app.css", "text/css", b"x" * 900)]
     n = save_json(seen, tmp_path / "check24", r"\.data|/api/", 5, ["artemide"])
     assert n == 1 and (tmp_path / "check24.api0.url").read_text().startswith("POST https://hotels.check24.de/api/")
+
+
+def test_probe_lists_open_calls_without_waiting_for_them():
+    """Regression (runs 45395531776, 45397613721, 45400164031): asking a still-open call (a stream or long poll) for
+    its answer waited until the 75-minute timeout. Open calls are listed as open."""
+    from hotel_scraper.suggest_probe import finished_calls
+
+    class Resp:
+        status, headers = 200, {"content-type": "application/json"}
+
+        def text(self):
+            return '{"ok": 1}'
+
+    class Req:
+        resource_type, method, post_data, headers = "fetch", "GET", None, {"cookie": "secret", "accept": "*/*"}
+
+        def __init__(self, url, hang=False):
+            self.url, self.hang = url, hang
+
+        def response(self):
+            if self.hang:
+                raise AssertionError("waited on an open call")
+            return Resp()
+    done, open_ = Req("https://x/rates"), Req("https://x/stream", hang=True)
+    got = finished_calls([done, open_], {id(done)}, 1000)
+    assert got[0]["status"] == 200 and got[0]["body"] == '{"ok": 1}' and "cookie" not in got[0]["headers"]
+    assert got[1]["status"] == "open" and "body" not in got[1]
