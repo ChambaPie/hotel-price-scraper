@@ -1,0 +1,13 @@
+21:02:18 https://it.hotels.com/ho401577/?chkin=2027-02-10&chkout=2027-02-11&rm1=a2: 12 calls
+21:02:18   202 POST https://www.hotels.com/cl/2x2.json 
+21:02:18   201 POST https://it.hotels.com/b6e1OpFtJjxcVyYKIQ/7OmuGGwmrEwfhfO5/VHwrOQRU/GD/wUDFZMXBU application/json
+21:02:18   200 POST https://it.hotels.com/dd/js/ application/json;charset=utf-8
+21:02:18   200 GET https://it.hotels.com/botOrNot/fcaptcha/invisible/api/pow/challenge?siteKey=fcaptcha-prod-f3cb2df69d93bd5c&protocolVersions=1 application/json; charset=utf-
+21:02:18   201 POST https://it.hotels.com/b6e1OpFtJjxcVyYKIQ/7OmuGGwmrEwfhfO5/VHwrOQRU/GD/wUDFZMXBU application/json
+21:02:18   201 POST https://it.hotels.com/b6e1OpFtJjxcVyYKIQ/7OmuGGwmrEwfhfO5/VHwrOQRU/GD/wUDFZMXBU application/json
+21:02:18   403 GET https://it.hotels.com/botOrNot/initial-validate text/html; charset=utf-8
+21:02:18   201 POST https://it.hotels.com/b6e1OpFtJjxcVyYKIQ/7OmuGGwmrEwfhfO5/VHwrOQRU/GD/wUDFZMXBU application/json
+21:02:18   200 POST https://it.hotels.com/botOrNot/fcaptcha/invisible/api/score application/json; charset=utf-
+21:02:18   202 POST https://it.hotels.com/cl/2x2.json 
+21:02:18   202 POST https://it.hotels.com/cl/2x2.json 
+21:02:18   200 POST https://it.hotels.com/dd/js/ application/json;charset=utf-8
