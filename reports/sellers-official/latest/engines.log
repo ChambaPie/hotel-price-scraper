@@ -1,164 +1,139 @@
-05:29:57 simplebooking Ermitage Wellness- & Spa-hotel      None
-05:30:04 d_edge   Hôtel & Spa Le Dahu                 None
-05:30:11 d_edge   Hotel La Bergerie                   None
-05:30:18 seekda   Parkhotel Tristachersee             None
-05:30:26 seekda   Grand Hotel Lienz                   {'code': 'S003228'}
-05:30:34 seekda   Der Berghof                         {'code': 'S003228'}
-05:30:42 seekda   Hotel Gotthard                      {'code': 'S000887'}
-05:30:49 seekda   Hotel Austria Lech                  {'code': 'S000085'}
-05:30:56 d_edge   Le Palais Art Hotel Prague          None
-05:31:04 d_edge   Unitas Hotel                        None
-05:31:11 d_edge   Hotel Golden Star                   {'code': '2P6F-17152', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
-05:31:19 d_edge   Hotel Hastal Prague Old Town        None
-05:31:25 d_edge   Opera Garden Hotel & Apartments     None
-05:31:32 d_edge   Bohem Art Hotel                     None
-05:31:39 d_edge   Hotel Danubia Gate Bratislava       None
-05:31:48 d_edge   Arcadia Boutique Hotel              None
-05:31:56 seekda   Hotel Cortisen am See               {'code': 'S005617'}
-05:32:04 seekda   Hotel Central                       {'code': 'S005617'}
-05:32:11 seekda   Parkhotel Seefeld                   {'code': 'AT_SEEFE_CENTRAL'}
-05:32:20 d_edge   Hôtel Le Savoy Méribel              None
-05:32:28 simplebooking Park Hotel Argento                  None
-05:32:37 hotelnetsolutions Hotel Eden Spiez                    None
-05:32:44 seekda   Excelsior Dolomites Life Resort     {'code': 'IT_STV_EXCELSIOR'}
-05:32:52 seekda   AlpenParks Hotel & Apartment Orgler {'code': 'IT_STV_EXCELSIOR'}
-05:32:59 seekda   Der Kapruner Hof                    {'code': 'S001236'}
-05:33:08 hotelnetsolutions Saalbacher Hof                      {'code': 'saalbacherhof'}
-05:33:15 seekda   Hotel Salzburgerhof                 {'code': 'S003400'}
-05:33:23 seekda   Hotel Stadt Wien                    {'code': 'S003400'}
-05:33:30 seekda   POP-UP Living Zell am See           {'code': 'S000126'}
-05:33:39 hotelnetsolutions Hotel Post Ischgl                   None
-05:33:46 hotelnetsolutions Hotel Zur Pfeffermühle              {'code': 'pfefferm'}
-05:33:54 seekda   Hotel Das Central                   {'code': 'AT_SOEL_CENTRAL'}
-05:34:02 seekda   Bergland Design and Wellness Hotel  {'code': 'AT_SOEL_CENTRAL'}
-05:34:09 hotelnetsolutions Hotel Schwarzschmied                {'code': 'hotel-schwarzschmied'}
-05:34:17 d_edge   RockyPop Flaine                     None
-05:34:27 simplebooking Castello di Spaltenna Exclusive Tus None
-05:34:35 seekda   Hotel Alpina Rauris                 {'code': 'S002996'}
-05:34:43 seekda   Evident Hotel Prägant               {'code': 'S002996'}
-05:34:51 seekda   Hotel Salzburger Hof                {'code': 'AT_KLEIN_PRAEGA'}
-05:35:00 hotelnetsolutions Good Life Resort - Riederalm        None
-05:35:08 seekda   Seehotel Einwaller                  {'code': 'S000894'}
-05:35:16 seekda   Auenhotel                           {'code': 'S000894'}
-05:35:24 seekda   Alpinhotel Berghaus Spa             {'code': 'AT_TUX_AUENHOF'}
-05:35:32 seekda   Hotel Eden                          {'code': 'AT_TUX_BERGHAUS'}
-05:35:39 seekda   Hotel Alpin Spa Tuxerhof            {'code': 'S002347'}
-05:35:48 seekda   Das Alois                           {'code': 'S000369'}
-05:35:55 seekda   Alpeiner Nature Resort              {'code': 'AT_ET_VITA'}
-05:36:03 seekda   Premium Activehotel Bergkonig       {'code': 'AT_NEU_SCHLOESSL'}
-05:36:11 seekda   Hotel Der Stubaierhof               {'code': 'AT_NEU_BERGKOENI'}
-05:36:19 seekda   Hotel Gebhard                       {'code': 'AT_NEU_STUBAI'}
-05:36:27 seekda   Hotel Fisserhof                     {'code': 'S003586'}
-05:36:35 seekda   Hotel Toalstock                     {'code': 'S002969'}
-05:36:43 seekda   Familienresort Buchau               {'code': 'AT_IQ_009'}
-05:36:50 hotelnetsolutions Hotel Schwaigerhof                  {'code': 'schwaigerhof'}
-05:36:59 simplebooking Locanda in Tuscany                  None
-05:37:07 seekda   Wanderhotel Taurerwirt              {'code': 'S000108'}
-05:37:15 seekda   Hotel Valserhof                     {'code': 'IT_VAL_VALSERHOF'}
-05:37:23 seekda   Hotel Grossarler Hof                {'code': 'IT_VAL_VALSERHOF'}
-05:37:30 seekda   Premium Wanderhotel Steirerhof      {'code': 'AT_GROSSARLER'}
-05:37:37 simplebooking 7132 Hotel                          None
-05:37:50 seekda   Dolomitengolf Suites                261 nights priced
-05:38:02 seekda   Naturhotel Waldklause               261 nights priced
-05:38:13 seekda   Adler Inn Tyrol Mountain Resort Sup 113 nights priced
-05:38:27 seekda   Hotel Alpenhof                      116 nights priced
-05:38:38 seekda   Romantik & Spa Alpen-herz           172 nights priced
-05:38:49 seekda   Hotel Sonnenpark                    84 nights priced
-05:38:49 Das Naturhotel Chesa Valisa: hotelnetsolutions HTTP 401 HTTP 401
-05:39:01 seekda   Hotel Andy                          194 nights priced
-05:39:13 seekda   Alpenhotel Heimspitze               84 nights priced
-05:39:25 d_edge   Domaine de Montagne - Chalet Frère  339 nights priced
-05:39:26 Alloggio Agrituristico Albafiorita: simplebooking HTTP 203 
-05:39:38 d_edge   La Chèvre D'Or                      196 nights priced
-05:39:39 Hotel VICTORIA: hotelnetsolutions HTTP 401 HTTP 401
-05:39:39 Hotel Villa Cattani Stuart: simplebooking HTTP 203 
-05:39:40 Savhotel Fiera Bologna: simplebooking HTTP 203 
-05:39:41 Hotel Spadari al Duomo True Stay: simplebooking HTTP 203 
-05:39:42 iQ Hotel Milano: simplebooking HTTP 203 
-05:39:42 Hotel Moresco: simplebooking HTTP 203 
-05:39:43 Hotel Dona Palace: simplebooking HTTP 203 
-05:39:44 Hotel Ilaria: simplebooking HTTP 203 
-05:39:45 Torre Mozza: simplebooking HTTP 203 
-05:39:58 d_edge   Hotel D Geneva                      278 nights priced
-05:39:59 Art Deco Hotel Montana: simplebooking HTTP 203 
-05:40:01 Hotel Belvedere Grindelwald: simplebooking HTTP 203 
-05:40:16 seekda   Waldhotel Arosa                     122 nights priced
-05:40:17 BelArosa Hotel: hotelnetsolutions HTTP 401 HTTP 401
-05:40:17 Matterhorn FOCUS Design Hotel: simplebooking HTTP 203 
-05:40:18 Christiania Mountain & Spa: simplebooking HTTP 203 
-05:40:32 seekda   Hotel  Bristol Salzburg             324 nights priced
-05:40:43 seekda   Hotel Stefanie                      324 nights priced
-05:40:44 Hotel Mioni Pezzato & SPA: ericsoft HTTP 400 HTTP 400
-05:40:44 Hotel Calissano: ericsoft HTTP 400 HTTP 400
-05:40:44 Hotel La Maison Wellness & Spa: ericsoft HTTP 400 HTTP 400
-05:40:45 Hotel Bibione Palace: simplebooking HTTP 203 
-05:40:45 Hotel Torino Wellness & Spa: simplebooking HTTP 203 
-05:40:46 Hotel Miramare: simplebooking HTTP 203 
-05:40:46 Hotel Daniele: simplebooking HTTP 203 
-05:40:47 Hotel Chalet all'Imperatore: ericsoft HTTP 400 HTTP 400
-05:40:48 Hotel Crozzon: simplebooking HTTP 203 
-05:40:48 Hotel Eden Roc: simplebooking HTTP 203 
-05:40:49 Hotel Tramonto D'oro: simplebooking HTTP 203 
-05:41:03 seekda   Naturhotel Leitlhof                 314 nights priced
-05:41:16 seekda   Granbaita Dolomites                 314 nights priced
-05:41:29 d_edge   St-Alban Hotel & Spa                262 nights priced
-05:41:30 Romantik Hotel Schweizerhof & Spa: simplebooking HTTP 203 
-05:41:30 Parkhotel Margna: simplebooking HTTP 203 
-05:41:31 Hotel Schweizerhof: simplebooking HTTP 203 
-05:41:32 Castello del Sole Beach Resort & SP: simplebooking HTTP 203 
-05:41:33 Hotel Pilatus-Kulm: simplebooking HTTP 203 
-05:41:45 seekda   Grand Hotel Lienz                   350 nights priced
-05:41:55 seekda   Hotel Arlberg Lech                  29 nights priced
-05:42:07 seekda   Der Berghof                         350 nights priced
-05:42:19 seekda   Hotel Gotthard                      146 nights priced
-05:42:31 seekda   Hotel Austria Lech                  134 nights priced
-05:42:43 d_edge   Hotel Golden Star                   362 nights priced
-05:42:55 seekda   Hotel Cortisen am See               233 nights priced
-05:43:06 seekda   Hotel Central                       233 nights priced
-05:43:18 seekda   Parkhotel Seefeld                   234 nights priced
-05:43:19 HOTEL MONTANA: simplebooking HTTP 203 
-05:43:19 Lindenhof: simplebooking HTTP 203 
-05:43:20 Hotel Sirenetta: simplebooking HTTP 203 
-05:43:20 Hotel Galassia: ericsoft HTTP 400 HTTP 400
-05:43:21 Hotel Bristol: simplebooking HTTP 203 
-05:43:22 Märchenhotel: simplebooking HTTP 203 
-05:43:33 seekda   Excelsior Dolomites Life Resort     238 nights priced
-05:43:44 seekda   AlpenParks Hotel & Apartment Orgler 238 nights priced
-05:44:02 seekda   Der Kapruner Hof                    345 nights priced
-05:44:02 Saalbacher Hof: hotelnetsolutions HTTP 401 HTTP 401
-05:44:17 seekda   Hotel Salzburgerhof                 254 nights priced
-05:44:31 seekda   Hotel Stadt Wien                    254 nights priced
-05:44:46 seekda   POP-UP Living Zell am See           213 nights priced
-05:44:46 Hotel Zur Pfeffermühle: hotelnetsolutions HTTP 401 HTTP 401
-05:45:03 seekda   Hotel Das Central                   239 nights priced
-05:45:20 seekda   Bergland Design and Wellness Hotel  239 nights priced
-05:45:21 Hotel Schwarzschmied: hotelnetsolutions HTTP 401 HTTP 401
-05:45:21 Corona Dolomites Hotel Andalo: simplebooking HTTP 203 
-05:45:22 Cavallino Lovely Hotel: simplebooking HTTP 203 
-05:45:36 seekda   Hotel Alpina Rauris                 241 nights priced
-05:45:50 seekda   Evident Hotel Prägant               241 nights priced
-05:46:05 seekda   Hotel Salzburger Hof                249 nights priced
-05:46:21 seekda   Seehotel Einwaller                  248 nights priced
-05:46:36 seekda   Auenhotel                           248 nights priced
-05:46:47 seekda   Alpinhotel Berghaus Spa             88 nights priced
-05:47:02 seekda   Hotel Eden                          203 nights priced
-05:47:13 seekda   Hotel Alpin Spa Tuxerhof            187 nights priced
-05:47:25 seekda   Das Alois                           166 nights priced
-05:47:25 Gran Paradiso Hotel Spa: ericsoft HTTP 400 HTTP 400
-05:47:37 seekda   Alpeiner Nature Resort              97 nights priced
-05:47:49 seekda   Premium Activehotel Bergkonig       272 nights priced
-05:48:02 seekda   Hotel Der Stubaierhof               319 nights priced
-05:48:03 Grand Hotel Due Golfi: simplebooking HTTP 203 
-05:48:31 seekda   Hotel Gebhard                       325 nights priced
-05:48:43 seekda   Hotel Fisserhof                     152 nights priced
-05:48:55 seekda   Hotel Toalstock                     228 nights priced
-05:49:06 seekda   Familienresort Buchau               212 nights priced
-05:49:17 seekda   Landhaus Koller                     209 nights priced
-05:49:18 Hotel Schwaigerhof: hotelnetsolutions HTTP 401 HTTP 401
-05:49:19 Hotel Interalpen: simplebooking HTTP 203 
-05:49:30 seekda   Wanderhotel Taurerwirt              30 nights priced
-05:49:42 seekda   Hotel Valserhof                     277 nights priced
-05:49:55 seekda   Hotel Grossarler Hof                277 nights priced
-05:50:07 seekda   Hotel Babymio ****                  212 nights priced
-05:50:22 seekda   Premium Wanderhotel Steirerhof      298 nights priced
-05:50:22 engines: {'ids_due': 77, 'ids_found': 57, 'hotels_priced': 56, 'nights': 12628, 'errors': 47, 'ids_coverage': '107/152 hotels on seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft'}
+09:58:30 seekda   Dolomitengolf Suites                {'code': 'S003791'}
+09:58:37 seekda   Naturhotel Waldklause               {'code': 'S006552'}
+09:58:46 seekda   Adler Inn Tyrol Mountain Resort Sup {'code': 'AT_TUX_BERGLAND'}
+09:58:53 seekda   Hotel Alpenhof                      {'code': 'AT_HINTER_ALPEN'}
+09:59:01 d_edge   L'Aiguille Grive Chalets Hotel      None
+09:59:08 seekda   Romantik & Spa Alpen-herz           {'code': 'AT_IQ_007'}
+09:59:16 seekda   Hotel Sonnenpark                    {'code': 'AT_LUTZ_SONNENPA'}
+09:59:24 hotelnetsolutions Das Naturhotel Chesa Valisa         {'code': 'naturhotel-chesa-valisa'}
+09:59:25 Hotel Executive La Fiorita: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.simplebooking.it/ibe/portal
+09:59:25 simplebooking Hotel Executive La Fiorita          None
+09:59:33 seekda   Hotel Andy                          {'code': 'S001318'}
+09:59:40 synxis   Vila Vita Pannonia                  None
+09:59:47 seekda   Alpenhotel Heimspitze               {'code': 'S001320'}
+09:59:54 d_edge   Domaine de Montagne - Chalet Frère  {'code': 'J1I6-29552', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
+10:00:01 d_edge   Hotel et Spa du Castellet           None
+10:00:09 d_edge   Hotel Cour Du Corbeau Strasbourg MG None
+10:00:16 d_edge   Hotel Tandem                        None
+10:00:24 d_edge   Hotel Le Bouclier D'or              None
+10:01:09 Hotel Carlton: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "http://www.car
+10:01:09 d_edge   Hotel Carlton                       None
+10:01:16 d_edge   Hôtel Barrière Le Gray d'Albion     None
+10:01:24 synxis   Hotel Cap Estel                     None
+10:01:31 d_edge   La Chèvre D'Or                      {'code': 'J2DL-23601', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
+10:01:38 d_edge   Îlot du Golf                        None
+10:01:46 d_edge   Palais Saleya                       None
+10:01:56 synxis   Le Domaine du Mas de Pierre         None
+10:02:03 d_edge   Hotel Le Roosevelt                  None
+10:02:10 d_edge   Hôtel Saint-Georges                 None
+10:02:17 synxis   Maison Pic                          None
+10:02:26 hotelnetsolutions Hotel Torbräu                       None
+10:02:32 synxis   Hotel Muenchen Palace               None
+10:02:40 synxis   Mandarin Oriental, Munich           None
+10:02:48 hotelnetsolutions Hotel VICTORIA                      {'code': 'hotel-victoria-nuernberg'}
+10:02:56 synxis   The First Roma Dolce                None
+10:03:03 simplebooking Hotel Artemide                      None
+10:03:11 synxis   The Independent Hotel               None
+10:03:11 A Roma Lifestyle Hotel: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.ldchote
+10:03:11 simplebooking A Roma Lifestyle Hotel              None
+10:03:18 blastness Hotel Continental                   None
+10:03:25 synxis   Urban Hive Milano                   None
+10:03:33 blastness The Street Milano Duomo | a Design  None
+10:03:40 synxis   Palazzo Parigi Hotel & Grand Spa    None
+10:03:47 d_edge   Hotel San Gallo                     None
+10:03:55 synxis   Palazzo Keller                      None
+10:04:02 blastness Carnival Palace Hotel               None
+10:04:08 synxis   Sina Palazzo Sant'angelo            None
+10:04:15 blastness Hotel L'Orologio                    None
+10:04:23 synxis   Hotel Accademia                     None
+10:04:30 synxis   Hotel Mulino di Firenze             None
+10:04:38 d_edge   Park Hotel Ai Cappuccini            None
+10:04:45 d_edge   Hotel D Geneva                      {'code': '2QWU-21819', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
+10:04:51 d_edge   Hôtel Bristol Genève                None
+10:04:58 synxis   Einstein St. Gallen                 None
+10:04:59 La Couronne Hotel: Page.goto: net::ERR_CONNECTION_CLOSED at https://simplebooking.lacouronne-soloth
+10:04:59 simplebooking La Couronne Hotel                   None
+10:05:08 seekda   Waldhotel Arosa                     {'code': 'S003878'}
+10:05:16 hotelnetsolutions BelArosa Hotel                      {'code': 'belarosa'}
+10:05:22 simplebooking Waldhotel Davos for Body & Soul     None
+10:05:31 synxis   Suvretta House                      None
+10:05:31 CERVO Mountain Resort: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.simplebooking.it/ibe/portal
+10:05:31 simplebooking CERVO Mountain Resort               None
+10:05:39 seekda   Hotel  Bristol Salzburg             {'code': 'AT_SALZ_BRISTOL'}
+10:05:39 Hotel Eden Roc: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:05:40 Hotel Tramonto D'oro: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:05:54 seekda   Naturhotel Leitlhof                 314 nights priced
+10:06:08 seekda   Granbaita Dolomites                 314 nights priced
+10:06:20 d_edge   St-Alban Hotel & Spa                262 nights priced
+10:06:20 Romantik Hotel Schweizerhof & Spa: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:06:20 Parkhotel Margna: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:06:21 Hotel Schweizerhof: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:06:21 Castello del Sole Beach Resort & SP: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:06:21 Hotel Pilatus-Kulm: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:06:33 seekda   Grand Hotel Lienz                   350 nights priced
+10:06:44 seekda   Hotel Arlberg Lech                  29 nights priced
+10:06:56 seekda   Der Berghof                         350 nights priced
+10:07:09 seekda   Hotel Gotthard                      146 nights priced
+10:07:20 seekda   Hotel Austria Lech                  134 nights priced
+10:07:33 d_edge   Hotel Golden Star                   361 nights priced
+10:07:44 seekda   Hotel Cortisen am See               233 nights priced
+10:07:55 seekda   Hotel Central                       233 nights priced
+10:08:07 seekda   Parkhotel Seefeld                   234 nights priced
+10:08:07 HOTEL MONTANA: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:08:07 Lindenhof: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:08:08 Hotel Sirenetta: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:08:19 ericsoft Hotel Galassia                      8 nights priced
+10:08:19 Hotel Bristol: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:08:19 Märchenhotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:08:30 seekda   Excelsior Dolomites Life Resort     236 nights priced
+10:08:42 seekda   AlpenParks Hotel & Apartment Orgler 236 nights priced
+10:08:59 seekda   Der Kapruner Hof                    345 nights priced
+10:09:15 hotelnetsolutions Saalbacher Hof                      162 nights priced
+10:09:30 seekda   Hotel Salzburgerhof                 254 nights priced
+10:09:45 seekda   Hotel Stadt Wien                    254 nights priced
+10:10:00 seekda   POP-UP Living Zell am See           213 nights priced
+10:10:13 hotelnetsolutions Hotel Zur Pfeffermühle              214 nights priced
+10:10:31 seekda   Hotel Das Central                   239 nights priced
+10:10:48 seekda   Bergland Design and Wellness Hotel  239 nights priced
+10:11:01 hotelnetsolutions Hotel Schwarzschmied                340 nights priced
+10:11:02 Corona Dolomites Hotel Andalo: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:11:02 Cavallino Lovely Hotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:11:16 seekda   Hotel Alpina Rauris                 241 nights priced
+10:11:30 seekda   Evident Hotel Prägant               241 nights priced
+10:11:46 seekda   Hotel Salzburger Hof                249 nights priced
+10:12:02 seekda   Seehotel Einwaller                  248 nights priced
+10:12:19 seekda   Auenhotel                           248 nights priced
+10:12:30 seekda   Alpinhotel Berghaus Spa             87 nights priced
+10:12:45 seekda   Hotel Eden                          203 nights priced
+10:12:57 seekda   Hotel Alpin Spa Tuxerhof            186 nights priced
+10:13:08 seekda   Das Alois                           166 nights priced
+10:13:24 ericsoft Gran Paradiso Hotel Spa             8 nights priced
+10:13:37 seekda   Alpeiner Nature Resort              97 nights priced
+10:13:49 seekda   Premium Activehotel Bergkonig       275 nights priced
+10:14:03 seekda   Hotel Der Stubaierhof               319 nights priced
+10:14:03 Grand Hotel Due Golfi: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:14:32 seekda   Hotel Gebhard                       325 nights priced
+10:14:45 seekda   Hotel Fisserhof                     152 nights priced
+10:14:57 seekda   Hotel Toalstock                     228 nights priced
+10:15:09 seekda   Familienresort Buchau               212 nights priced
+10:15:20 seekda   Landhaus Koller                     209 nights priced
+10:15:33 hotelnetsolutions Hotel Schwaigerhof                  256 nights priced
+10:15:34 Hotel Interalpen: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+10:15:44 seekda   Wanderhotel Taurerwirt              30 nights priced
+10:15:57 seekda   Hotel Valserhof                     273 nights priced
+10:16:09 seekda   Hotel Grossarler Hof                273 nights priced
+10:16:21 seekda   Hotel Babymio ****                  212 nights priced
+10:16:36 seekda   Premium Wanderhotel Steirerhof      298 nights priced
+10:16:49 seekda   Dolomitengolf Suites                261 nights priced
+10:17:00 seekda   Naturhotel Waldklause               112 nights priced
+10:17:13 seekda   Adler Inn Tyrol Mountain Resort Sup 116 nights priced
+10:17:26 seekda   Hotel Alpenhof                      265 nights priced
+10:17:37 seekda   Romantik & Spa Alpen-herz           84 nights priced
+10:17:57 seekda   Hotel Sonnenpark                    331 nights priced
+10:18:10 hotelnetsolutions Das Naturhotel Chesa Valisa         272 nights priced
+10:18:22 seekda   Hotel Andy                          194 nights priced
+10:18:22 engines: {'ids_due': 80, 'ids_found': 38, 'hotels_priced': 56, 'nights': 12363, 'errors': 16, 'shared_codes': 1, 'ids_coverage': '116/206 hotels on seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft, synxis, blastness'}
