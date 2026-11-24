@@ -58,14 +58,16 @@ jobs:
           [ "$PART" = "suggest" ] && exit 0
           xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --sellers "$SELLERS" --catalog "$CATALOG" $([ "$PERSON" = true ] && echo --person) --out out/sellers 2>&1 | tee out/sellers/probe.log
           cat out/sellers/report.md >> "$GITHUB_STEP_SUMMARY"
-      - name: Suggestions while typing (part suggest; sellers input = seller:query;query)
+      - name: Suggestions while typing (part suggest; sellers input = seller:query;query, or seller:url|url)
         if: inputs.part == 'suggest'
         env:
           SPEC: ${{ inputs.sellers }}
           PERSON: ${{ inputs.person }}
         run: |
           mkdir -p out/sellers
-          seller="${SPEC%%:*}"; IFS=';' read -ra Q <<< "${SPEC#*:}"
+          # queries are split on ';', or on '|' when there is one (page addresses may hold ';', e.g. eDreams')
+          rest="${SPEC#*:}"; sep=';'; [[ "$rest" == *"|"* ]] && sep='|'
+          seller="${SPEC%%:*}"; IFS="$sep" read -ra Q <<< "$rest"
           args=(); for q in "${Q[@]}"; do args+=(--query "$q"); done
           command -v xvfb-run >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq xvfb; }
           xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.suggest_probe --seller "$seller" "${args[@]}" --follow \
