@@ -1,4 +1,4 @@
-## Coverage: 3935 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3934 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
