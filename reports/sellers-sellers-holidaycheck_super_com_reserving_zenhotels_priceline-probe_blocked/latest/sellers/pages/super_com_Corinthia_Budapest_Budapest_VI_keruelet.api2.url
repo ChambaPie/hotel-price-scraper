@@ -1,0 +1,1 @@
+GET https://www.super.com/snapcommerce/api/trpc/recommender.queryAddressOmnisearch?input=%7B%22query%22%3A%22Las%20Vegas%2C%20Nevada%2C%20United%20States%20of%20America%22%2C%22timestamp%22%3A%222026-11-24T10%3A27%3A23.259Z%22%2C%22userProperties%22%3A%22region_code_from_ip%3DOR%26country_code_from_ip%3DUS%22%2C%22deviceId%22%3A%22df5b7fd1-5c1d-4ef4-b545-4d15e71225c9%22%7D

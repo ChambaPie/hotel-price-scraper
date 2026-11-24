@@ -1,0 +1,2 @@
+POST https://www.holidaycheck.at/api/hwo/hotelRecommendations
+{"body":null,"context":{},"operation":"create","params":{"userParams":null,"travelkind":"hotelonly","include":null,"placement":"home","useUserParams":true},"resource":"hwo/hotelRecommendations"}

@@ -1,0 +1,27 @@
+10:24:32 warm-up https://www.priceline.com/: Priceline.com - The Best Deals on Hotels, Flights and Rental
+10:24:43 priceline  Corinthia Budapest             403 blocked=HTTP 403 prices=0 name=False json=4
+10:25:30 warm-up https://www.zenhotels.com/: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Accept all", exact=True).
+10:26:04 zenhotels  Corinthia Budapest             200 blocked=- prices=0 name=False json=4
+10:26:26 warm-up https://www.holidaycheck.at/: HolidayCheck • Dein Hotelbewertungs- und Reiseportal
+10:26:40 holidaycheck Corinthia Budapest             200 blocked=- prices=68 name=False json=2
+10:27:02 warm-up https://www.super.com/travel/: Super.com - Cheap hotel deals | Get 30-50% off hotels
+10:27:36 super_com  Corinthia Budapest             200 blocked=- prices=0 name=False json=4
+10:27:58 warm-up https://www.reserving.com/: Just a moment...
+10:28:58 reserving  Corinthia Budapest             403 blocked=Just a moment prices=0 name=False json=0
+# Sellers' own websites: probe S0
+
+## Sellers (one night, search page)
+
+| seller | pages | blocked | with prices | hotel found | JSON saved |
+|---|---|---|---|---|---|
+| priceline | 1 | 1 | 0 | 0 | 4 |
+| zenhotels | 1 | 0 | 0 | 0 | 4 |
+| holidaycheck | 1 | 0 | 1 | 0 | 2 |
+| super_com | 1 | 0 | 0 | 0 | 4 |
+| reserving | 1 | 1 | 0 | 0 | 0 |
+
+Block phrases seen: HTTP 403, Just a moment
+
+

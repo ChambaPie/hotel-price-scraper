@@ -1,0 +1,6 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+priceline,ta:g274887-d285437,Corinthia Budapest,HU,403,priceline.com,Access to this page has been denied,HTTP 403,0,False,128,4,11.8,search box not found
+zenhotels,ta:g274887-d285437,Corinthia Budapest,HU,200,zenhotels.com,ZenHotels.com — book a hotel,,0,False,3136,4,34.3,no suggestion list (pressed Enter)
+holidaycheck,ta:g274887-d285437,Corinthia Budapest,HU,200,holidaycheck.at,HolidayCheck • Dein Hotelbewertungs- und Reiseportal,,68,False,12549,2,14.4,search box not found
+super_com,ta:g274887-d285437,Corinthia Budapest,HU,200,super.com,"Las Vegas, Nevada, United States of America - Super.com Hotel Deals",,0,False,5112,4,34.3,no suggestion list (pressed Enter)
+reserving,ta:g274887-d285437,Corinthia Budapest,HU,403,reserving.com,Just a moment...,Just a moment,0,False,265,0,60.6,search box not found

@@ -1,0 +1,9 @@
+{
+ "sec-ch-ua-platform": "\"Linux\"",
+ "referer": "https://www.priceline.com/",
+ "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+ "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+ "content-type": "application/x-www-form-urlencoded",
+ "sec-ch-ua-mobile": "?0",
+ "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+}
