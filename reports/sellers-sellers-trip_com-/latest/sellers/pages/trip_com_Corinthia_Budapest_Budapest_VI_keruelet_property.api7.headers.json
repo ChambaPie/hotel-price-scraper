@@ -1,0 +1,23 @@
+{
+ "sec-ch-ua-platform": "\"Linux\"",
+ "x-ctx-user-recognize": "IS_EU",
+ "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+ "sec-ch-ua-mobile": "?0",
+ "x-ctx-locale": "en-XX",
+ "x-ctx-currency": "EUR",
+ "accept": "application/json",
+ "content-type": "application/json",
+ "locale": "en-XX",
+ "x-ctx-ubt-pvid": "4",
+ "x-ctx-ubt-vid": "1795523904072.4d38DLm4Jj8t",
+ "x-ctx-wclient-req": "d34d3a2d76de5258ccd7cd5817767a9c",
+ "x-ctx-ubt-sid": "1",
+ "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+ "referer": "https://www.trip.com/hotels/list?flexType=1&cityId=637&provinceId=0&districtId=0&countryId=99&cityName=Budapest&destName=Corinthia+Budapest%2C+Budapest%2C+Hungary&searchWord=Corinthia+Budapest&searchType=H&optionId=745401&searchValue=31%7C745401%2A31%2A745401%2A1&checkin=2026-12-15&checkout=2026-12-16&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1",
+ "currency": "EUR",
+ "phantom-token": "1006-common-BMoWp4xADeTDxP7ifNvl4EMgjNGi6cJAZjqNi8hwZSE5GEaMY0bRO9Y3sW4lEGkiTLvXoJs6JP8J6By3NRbfySlEb1JzmWkswabvlSvnUw8Py6aw4Gr9YMAWS1y6QWqoROAyD4v96JdbJczYXlis8vBkEm5jDHEkBRf0WdcJq1vpqjAYfheUbxpbwDXKUBjsMjUME1heoEHFia1YDEloY0zyPEFgYQcycUKUmKBsK6LILXjSnws4eq1EqdIXhwZfistRcESbYgdyonK4kiFqjfhjMZWH4yLEGlYNLy31WZSef0yqkjaEUziLkygAv5qWgTjU3eSAw7ZIfpE3sjoEz0i0hJMaRqE1nY84wlcwnNe7Mj5mIgSx98yfEsOiUcJFBw4nizfyTEgkYblwM1EoZwfBidPx3selMYg9wOXj8Gx5TysEHfis1J9oWTEbSYMkwqty3XemlyoLjbhwphe73w8AjhUxXOy6EcDi1SJkQWmEZ6YHlw7Dws5i06vdmYoNjzowqnIzcxMlycEmfibHJz1vPLvDEhNY96wzPwSfe1zjZ8I9FWkzEOSRo7jNEAOiLgJPNiGQvLUyHLEMbEU4jdXy1HjoEABYbUw7HymLjTHyN6jmGWkoEaQRH0j3E1MiQkJUdEpGi1Hwozeh1YSHjlnKb7edoE6EdXYfHiLZiHUvhlyBnEpSEBfjMZytQjGE1aY7QJgPY6DEzEadYsAiz4iPOv4Oyb1EkNEX0jPsylXjGEAOYOXJMnYGDE1EhMY6si9kvPSvcaYgHxbhEn8w3mIbEABYg9wb8yMPj14EPqwNLw9LKdUvOqi06wB3y1E6Ai4AJUQEFgiLAwn8eMGYgOjLbKO1ef3EqEmkYpniTSiHnvXLyMbE4pElBjkByTdj5EdLY8kwD0y67jONEQqwFUw5qKFZwGwfkKDlRqY0ZwlZjfnRa3RZSy98vNdJtAJfSYcPibLv8TW7oE6qWZzy3fYpoIadE1fyGBiQBj3AJ0ZIsQRpAEQ5KP0IPZjZOj0lxl3whBj9Yg3ePsy1qy7dJsTYPTw8UJFpj8OjamYs3EnPeTUJ7hjFGjOavM6e3kESQydnvmLjhpeG1v85yzHvHqYs6ehpJDfvBhv54vZSy6ZWD9yLqwUPyafEoDiLhvk0yToe6wbYLHR6JUQRsQjqkvzkYqdwMciQfWhTYTdwl4iSPwkPvFYLfrpaKDwSOYOFEGpeh8jL8w4Yp0yfMv4MESTIfPeh4YdZvMqe6rk5eTojtAwgOY5swf7EObJp7IZLKPYqNio7YgsRNneDmwS1WsoE0HKQMIsYpljgMvtyPqjGAYzfep0jhnikPvtQIPpJzYAsRN9ifOWoOR96iaQwlhwTaehoy1Nwt5jQAJfMiMTWhYAUx7drkTidfR6piZ0wtDwLZeTqyApwmBjnqjTlKLORMYdGipdecORDUiZlvP7JfpjpMimnIlYzkygnvB5E6LYk1if8wpQRPNEABWTfr19RA8RSYpQjFlYFzW5cJgMIZAvN0vHY7ESSxNAvhkjp5wH0vPOjA0Es8RgoYLYMDKBkEtnj1gYbcYcdYTjaY70I6QY6zidOjn1wbPvUgjow97EOay8YT1eZHvF4x1mxXHJgni8Yhy4mWUgyG6Yc4YZcEkYdkykJd0wHBRPLWckiU4Y3aW0gwhfwfdj9XRdpEqGj3OW5aYm0IUY3SrlJHwDhRFtim9woNwnmeF0yqMwU8jmBjtqYQGeNYd1Wd3InsjnXRPpiAsy9sEPAe8PjS9JMQi9tRnoJs8",
+ "x-ctx-country": "GB",
+ "x-ctx-ubt-pageid": "10320668148",
+ "cookieorigin": "https://www.trip.com",
+ "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+}

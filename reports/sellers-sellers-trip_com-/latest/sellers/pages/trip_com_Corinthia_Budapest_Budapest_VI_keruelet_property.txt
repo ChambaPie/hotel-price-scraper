@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=637&provinceId=0&districtId=0&countryId=99&cityName=Budapest&destName=Corinthia+Budapest%2C+Budapest%2C+Hungary&searchWord=Corinthia+Budapest&searchType=H&optionId=745401&searchValue=31%7C745401%2A31%2A745401%2A1&checkin=2026-12-14&checkout=2026-12-15&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1
-#FINAL https://www.trip.com/hotels/list?flexType=1&cityId=637&provinceId=0&districtId=0&countryId=99&cityName=Budapest&destName=Corinthia+Budapest%2C+Budapest%2C+Hungary&searchWord=Corinthia+Budapest&searchType=H&optionId=745401&searchValue=31%7C745401%2A31%2A745401%2A1&checkin=2026-12-14&checkout=2026-12-15&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=637&provinceId=0&districtId=0&countryId=99&cityName=Budapest&destName=Corinthia+Budapest%2C+Budapest%2C+Hungary&searchWord=Corinthia+Budapest&searchType=H&optionId=745401&searchValue=31%7C745401%2A31%2A745401%2A1&checkin=2026-12-15&checkout=2026-12-16&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1
+#FINAL https://www.trip.com/hotels/list?flexType=1&cityId=637&provinceId=0&districtId=0&countryId=99&cityName=Budapest&destName=Corinthia+Budapest%2C+Budapest%2C+Hungary&searchWord=Corinthia+Budapest&searchType=H&optionId=745401&searchValue=31%7C745401%2A31%2A745401%2A1&checkin=2026-12-15&checkout=2026-12-16&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1
 #TITLE Budapest Hotels - Where to stay in Budapest | Trip.com
 Go to main content
 Hotels & Homes
@@ -13,9 +13,9 @@ Customer support
 Find bookings
 Sign in/register
 Corinthia+Budapest,+Budapest,+Hungary
-Mon, Dec 14
--
 Tue, Dec 15
+-
+Wed, Dec 16
 1 night
 1 room, 2 adults, 0 children
 Search
@@ -24,6 +24,7 @@ Show on Map
 Popular filters for Budapest
 
 Breakfast included
+Homes & apts
 Hotel
 Very Good 8+
 Based on guest reviews
@@ -32,7 +33,6 @@ Private toilet
 1 double bed
 Free parking
 Book now, pay later
-Spa
 
 Budget
 
@@ -203,9 +203,9 @@ Vintage vibesHistoric buildingDessert making
 No. 6 of Cultural Hotels in Hungary
 Superior King Room
 1 king bed or 2 single beds
-Last booked 5 hrs ago
-€193
-Total (incl. taxes & fees): €210
+Last booked 3 hrs ago
+€196
+Total (incl. taxes & fees): €213
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 You may also like:
@@ -215,30 +215,29 @@ Great
 154 reviews
 9.3
 Delicious breakfastGreat viewsIdeal location
-Smart Double - Pet Friendly
-1 king bed
-Earn €1.08 in Trip Coins
-€131
-€103
-Total (incl. taxes & fees): €112
-Surprise Savings
-21% off
-Check Availability
-Sign in for member prices
-Mamaison Residence Izabella Budapest
-620m from your search (straight-line distance)Near Budapest-Keleti StationMap
-Amazing
-71 reviews
-9.7
-Comfy roomsExcellent serviceAmerican breakfast
-Deluxe Suite
-Entire unit 45㎡1 bedroom1 bed
-Earn €1.22 in Trip Coins
-€129
-€116
+Double or Twin Room
+1 double bed or 2 single beds
+Free Cancellation
+Breakfast included
+Earn €1.21 in Trip Coins
+€126
+€115
 Total (incl. taxes & fees): €126
 Special Discount
-10% off
+9% off
+Check Availability
+Pullman Budapest
+670m from your search (straight-line distance)Near Hungarian Parliament BuildingMap
+Great
+192 reviews
+9.0
+Italian foodDelicious breakfastIdeal location
+Deluxe Room
+1 double bed
+Free Cancellation
+Earn €1.80 in Trip Coins
+€171
+Total (incl. taxes & fees): €187
 Check Availability
 BasiliQ Hotel
 Opened in 2025
@@ -252,13 +251,14 @@ Superior Room
 1 queen bed
 Free Cancellation
 Breakfast included
-Earn €2.20 in Trip Coins
-€326
-€209
-Total (incl. taxes & fees): €229
+Earn €2.26 in Trip Coins
+€338
+€215
+Total (incl. taxes & fees): €235
 Special Discount
 35% off
 Check Availability
+Sign in for member prices
 Mamaison VIBE Hotel Downtown Budapest
 Opened in 2025
 1.4 km from your search (straight-line distance)Near Hungarian Parliament BuildingMap
@@ -268,78 +268,49 @@ Amazing
 Excellent serviceDelicious breakfastGaming area
 Groove Room
 1 king bed
-Only 5 left at this price
-€122
-€97
-Total (incl. taxes & fees): €105
-Surprise Savings
-19% off
+Last booked 7 hrs ago
+€111
+Total (incl. taxes & fees): €121
 Check Availability
-Andrassy Thai Hotel
-890m from your search (straight-line distance)Near Hungarian Parliament BuildingMap
-Very good
-49 reviews
-8.8
-Thai foodVaried breakfastIdeal location
-Standard Room
-2 single beds or 1 double bed
-Free Cancellation
-Breakfast included
-Earn €1.73 in Trip Coins
-€176
-€110
-Total (incl. taxes & fees): €120
-Special Discount
-36% off
-Check Availability
-Pullman Budapest
-670m from your search (straight-line distance)Near Hungarian Parliament BuildingMap
-Great
-192 reviews
-9.0
-Delicious breakfastGreat viewsBar
-Deluxe Room
-1 double bed
-Pay nothing until December 11
-Free Cancellation
-Earn €2.20 in Trip Coins
-€210
-Total (incl. taxes & fees): €228
-Check Availability
-Mamaison Hotel Andrassy Budapest
-1.2 km from your search (straight-line distance)Near Budapest-Keleti StationMap
-Great
-58 reviews
-9.3
-Garden restaurantExcellent serviceAmerican breakfast
-Classic Room
-1 double bed
-Earn €1.04 in Trip Coins
-€115
-€99
-Total (incl. taxes & fees): €109
-Special Discount
-13% off
-Check Availability
-Hotel Oktogon Haggenmacher by Continental Group
-420m from your search (straight-line distance)Near House of Terror MuseumMap
+Mamaison Residence Izabella Budapest
+620m from your search (straight-line distance)Near Budapest-Keleti StationMap
 Amazing
-150 reviews
-9.5
-Vintage vibesCastle hotelDelicious breakfast
-Economy Double Room
-1 king bed
-Pay nothing until December 9
-Free Cancellation
-Breakfast included
-Only 5 left at this price
-€144
-€129
-Total (incl. taxes & fees): €141
+71 reviews
+9.7
+Comfy roomsExcellent serviceAmerican breakfast
+Deluxe Suite
+Entire unit 45㎡1 bedroom1 bed
+Earn €1.21 in Trip Coins
+€128
+€115
+Total (incl. taxes & fees): €126
 Special Discount
-10% off
+9% off
 Check Availability
-Sign in for member prices
+Ibis Budapest Citysouth
+6.2 km from your search (straight-line distance)Near Kőbánya alsóMap
+Very good
+123 reviews
+8.5
+GardenComfy roomsShared kitchen
+Double Room
+1 double bed
+Earn €1.26 in Trip Coins
+€77
+Total (incl. taxes & fees): €84
+Check Availability
+Hotel Nemzeti Budapest - MGallery
+730m from your search (straight-line distance)Near Budapest-Keleti StationMap
+Amazing
+40 reviews
+9.4
+Varied breakfastGreat viewsIdeal location
+Classic Double Room
+1 double bed
+Earn €1.36 in Trip Coins
+€130
+Total (incl. taxes & fees): €141
+Check Availability
 NH Collection Budapest City Center
 620m from your search (straight-line distance)Near Budapest-Keleti StationMap
 Very good
@@ -348,22 +319,39 @@ Very good
 Comfy roomsDuplex western-style houseDelicious breakfast
 Superior Room with Terrace
 1 king bed or 2 single beds
-Earn €1.08 in Trip Coins
-€103
-Total (incl. taxes & fees): €112
+Earn €1.12 in Trip Coins
+€106
+Total (incl. taxes & fees): €116
 Check Availability
 Sign in for member prices
-Hotel Nemzeti Budapest - MGallery
-730m from your search (straight-line distance)Near Budapest-Keleti StationMap
-Amazing
-139 reviews
-9.4
-Varied breakfastGreat viewsIdeal location
-Superior Room With 2 Twin Beds And The Possibility Of An Extra Bed
+Danubius Hotel Hungaria City Center
+Renovated in 2025
+940m from your search (straight-line distance)Near Budapest-Keleti StationMap
+Very good
+553 reviews
+8.7
+Comfy roomsDelicious breakfastIdeal location
+Superior Twin Room
 2 single beds
-Earn €1.66 in Trip Coins
-€158
-Total (incl. taxes & fees): €172
+Last booked 1 hr ago
+€129
+€116
+Total (incl. taxes & fees): €126
+Special Discount
+10% off
+Check Availability
+Sign in for member prices
+Novotel Budapest Danube
+2.2 km from your search (straight-line distance)Near Fisherman's BastionMap
+Very good
+452 reviews
+8.9
+Nighttime skyline viewsRiver viewsSunset
+Superior Twin Room
+2 single beds
+Last booked 4 hrs ago
+€117
+Total (incl. taxes & fees): €127
 Check Availability
 Trip.com
 >

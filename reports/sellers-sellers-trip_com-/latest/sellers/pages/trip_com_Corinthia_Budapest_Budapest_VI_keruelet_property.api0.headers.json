@@ -1,0 +1,14 @@
+{
+ "sec-ch-ua-platform": "\"Linux\"",
+ "referer": "https://www.trip.com/hotels/list?flexType=1&cityId=637&provinceId=0&districtId=0&countryId=99&cityName=Budapest&destName=Corinthia+Budapest%2C+Budapest%2C+Hungary&searchWord=Corinthia+Budapest&searchType=H&optionId=745401&searchValue=31%7C745401%2A31%2A745401%2A1&checkin=2026-12-15&checkout=2026-12-16&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1",
+ "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+ "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+ "currency": "EUR",
+ "sec-ch-ua-mobile": "?0",
+ "trip-trace-id": "1795523904072.4d38DLm4Jj8t-1795523948595-1924016567",
+ "x-ctx-country": "GB",
+ "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+ "locale": "en-XX",
+ "content-type": "application/json",
+ "x-traceid": "1795523904072.4d38DLm4Jj8t-1795523948595-1924016567"
+}

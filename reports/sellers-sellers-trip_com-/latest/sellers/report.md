@@ -4,7 +4,7 @@
 
 | seller | pages | blocked | with prices | hotel found | JSON saved |
 |---|---|---|---|---|---|
-| trip_com | 4 | 0 | 4 | 4 | 1 |
+| trip_com | 2 | 0 | 2 | 2 | 1 |
 
 Block phrases seen: none
 

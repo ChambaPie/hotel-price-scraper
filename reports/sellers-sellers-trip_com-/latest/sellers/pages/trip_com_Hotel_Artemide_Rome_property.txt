@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=343&provinceId=10151&districtId=0&countryId=106&cityName=Rome&destName=Hotel+Artemide%2C+Rome%2C+Lazio%2C+Italy&searchWord=Hotel+Artemide&searchType=H&optionId=760667&searchValue=31%7C760667%2A31%2A760667%2A1&checkin=2026-12-14&checkout=2026-12-15&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1
-#FINAL https://www.trip.com/hotels/list?flexType=1&cityId=343&provinceId=10151&districtId=0&countryId=106&cityName=Rome&destName=Hotel+Artemide%2C+Rome%2C+Lazio%2C+Italy&searchWord=Hotel+Artemide&searchType=H&optionId=760667&searchValue=31%7C760667%2A31%2A760667%2A1&checkin=2026-12-14&checkout=2026-12-15&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=343&provinceId=10151&districtId=0&countryId=106&cityName=Rome&destName=Hotel+Artemide%2C+Rome%2C+Lazio%2C+Italy&searchWord=Hotel+Artemide&searchType=H&optionId=760667&searchValue=31%7C760667%2A31%2A760667%2A1&checkin=2026-12-15&checkout=2026-12-16&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1
+#FINAL https://www.trip.com/hotels/list?flexType=1&cityId=343&provinceId=10151&districtId=0&countryId=106&cityName=Rome&destName=Hotel+Artemide%2C+Rome%2C+Lazio%2C+Italy&searchWord=Hotel+Artemide&searchType=H&optionId=760667&searchValue=31%7C760667%2A31%2A760667%2A1&checkin=2026-12-15&checkout=2026-12-16&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1
 #TITLE Rome Hotels - Where to stay in Rome | Trip.com
 Go to main content
 Hotels & Homes
@@ -13,9 +13,9 @@ Customer support
 Find bookings
 Sign in/register
 Hotel+Artemide,+Rome,+Lazio,+Italy
-Mon, Dec 14
--
 Tue, Dec 15
+-
+Wed, Dec 16
 1 night
 1 room, 2 adults, 0 children
 Search
@@ -30,9 +30,9 @@ Breakfast included
 Free cancellation
 Private bathroom
 1 double bed
-≥ 25㎡
-Private toilet
+Jacuzzi
 Gym
+≥ 25㎡
 
 Budget
 
@@ -203,11 +203,12 @@ Termini Central StationPiazza della RepubblicaMap
 Amazing
 136 reviews
 9.5
-Rooftop restaurantSky barSpa
+Rooftop restaurantItalian foodSky bar
 Basic Double Room
 1 queen bed
-€172
-Total (incl. taxes & fees): €204
+Last booked 7 hrs ago
+€177
+Total (incl. taxes & fees): €210
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 You may also like:
@@ -220,12 +221,12 @@ Great
 Comfy roomsSky barSparkling clean
 Cosy Room
 1 queen bed
-Last booked 4 hrs ago
+Last booked 5 hrs ago
 €119
-€107
-Total (incl. taxes & fees): €129
+€105
+Total (incl. taxes & fees): €128
 Special Discount
-10% off
+11% off
 Check Availability
 Hotel Impero Rome
 230m from your search (straight-line distance)Termini Central StationMap
@@ -235,28 +236,29 @@ Very good
 Vintage vibesVaried breakfastGreat views
 Small Double Room
 1 queen bed
-Earn €0.70 in Trip Coins
-€92
-€64
-Total (incl. taxes & fees): €82
-Surprise Savings
-29% off
+Earn €0.68 in Trip Coins
+€81
+€61
+Total (incl. taxes & fees): €80
+Special Discount
+22% off
 Check Availability
+Sign in for member prices
 Aria Palace by OMNIA hotels
 Opened in 2026
 190m from your search (straight-line distance)Termini Central StationMap
 Great
-117 reviews
+118 reviews
 9.0
 Newly renovatedDelicious breakfastIdeal location
 Omnia Superior Double Or Twin Room
 1 double bed or 2 single beds
-Earn €1.55 in Trip Coins
-€150
-€141
-Total (incl. taxes & fees): €170
+Earn €1.50 in Trip Coins
+€143
+€136
+Total (incl. taxes & fees): €165
 Special Discount
-6% off
+€7 Off
 Check Availability
 Hotel Palladium Palace
 620m from your search (straight-line distance)Termini Central StationMap
@@ -266,29 +268,30 @@ Very good
 Sky barGreat viewsVaried breakfast
 Standard Double Room
 1 queen bed or 2 single beds
-Free Cancellation
-Last booked 6 hrs ago
-€88
-€71
-Total (incl. taxes & fees): €93
+Last booked 3 mins ago
+€80
+€69
+Total (incl. taxes & fees): €91
 Special Discount
-18% off
+13% off
 Check Availability
-Best Western Plus Hotel Universo
-320m from your search (straight-line distance)Termini Central StationMap
-Very good
-258 reviews
-8.8
-SunsetPanoramic restaurantFree spa access
-Small Room
-1 double bed
+UNA Hotels Decò Roma
+510m from your search (straight-line distance)Termini Central StationMap
+Great
+379 reviews
+9.2
+Italian foodVegetarian restaurantRomantic vibes
+No. 4 of 4-Star Select Hotels in Rome
+Classic Twin Room
+2 single beds
 Earn €1.35 in Trip Coins
-€141
-€123
-Total (incl. taxes & fees): €151
+€208
+€122
+Total (incl. taxes & fees): €149
 Special Discount
-11% off
+39% off
 Check Availability
+Sign in for member prices
 Tomato Urban Retreat - Ostello della Gioventù
 New to Trip.com
 250m from your search (straight-line distance)Termini Central StationMap
@@ -299,26 +302,11 @@ Sparkling cleanIdeal locationLaundry room
 Double Room with Shared Bathroom
 1 double bed or 2 single beds
 Only 2 left at this price
-€86
-€75
-Total (incl. taxes & fees): €83
+€95
+€83
+Total (incl. taxes & fees): €91
 Special Discount
 12% off
-Check Availability
-Augusta Lucilla Palace
-350m from your search (straight-line distance)Termini Central StationMap
-Very good
-529 reviews
-8.8
-Varied breakfastGreat viewsIdeal location
-Small Double Room
-1 double bed
-Earn €0.66 in Trip Coins
-€93
-€60
-Total (incl. taxes & fees): €82
-Surprise Savings
-33% off
 Check Availability
 JO&JOE Roma
 <100m from your search (straight-line distance)Piazza della RepubblicaMap
@@ -328,47 +316,61 @@ Great
 Excellent serviceSparkling cleanItalian restaurant
 Double Bedroom With Private Bathroom
 1 double bed
-Pay nothing until December 10
 Free Cancellation
 Only 2 left at this price
+€150
 €134
-€107
-Total (incl. taxes & fees): €125
-Surprise Savings
-19% off
+Total (incl. taxes & fees): €155
+Special Discount
+10% off
 Check Availability
+Best Western Plus Hotel Universo
+320m from your search (straight-line distance)Termini Central StationMap
+Very good
+258 reviews
+8.8
+SunsetPanoramic restaurantFree spa access
+Small Room
+1 double bed
+Free Cancellation
+Earn €1.56 in Trip Coins
+€196
+€141
+Total (incl. taxes & fees): €170
+Special Discount
+26% off
+Check Availability
+Sign in for member prices
 Best Western Premier Hotel Royal Santina
 710m from your search (straight-line distance)Termini Central StationMap
 Very good
 403 reviews
 8.8
 Great viewsDelicious breakfastIdeal location
-Comfort King Room
-1 king bed
-Pay nothing until December 7
-Free Cancellation
-Earn €1.36 in Trip Coins
-€144
-€124
-Total (incl. taxes & fees): €152
-Special Discount
-13% off
-Check Availability
-UNA Hotels Decò Roma
-510m from your search (straight-line distance)Termini Central StationMap
-Great
-379 reviews
-9.2
-Italian foodRomantic vibesVegetarian restaurant
-No. 4 of 4-Star Select Hotels in Rome
-Superior Double Room
+Small Double Room
 1 double bed
-Earn €1.62 in Trip Coins
-€250
-€147
-Total (incl. taxes & fees): €177
+Free Cancellation
+Earn €1.38 in Trip Coins
+€143
+€126
+Total (incl. taxes & fees): €154
 Special Discount
-39% off
+11% off
+Check Availability
+Augusta Lucilla Palace
+350m from your search (straight-line distance)Termini Central StationMap
+Very good
+529 reviews
+8.8
+Varied breakfastGreat viewsIdeal location
+Small Double Room
+1 double bed
+Earn €0.83 in Trip Coins
+€103
+€76
+Total (incl. taxes & fees): €99
+Special Discount
+24% off
 Check Availability
 Sign in for member prices
 Trip.com

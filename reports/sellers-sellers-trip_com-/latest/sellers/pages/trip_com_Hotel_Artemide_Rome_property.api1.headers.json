@@ -1,0 +1,23 @@
+{
+ "sec-ch-ua-platform": "\"Linux\"",
+ "x-ctx-user-recognize": "IS_EU",
+ "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+ "sec-ch-ua-mobile": "?0",
+ "x-ctx-locale": "en-XX",
+ "x-ctx-currency": "EUR",
+ "accept": "application/json",
+ "content-type": "application/json",
+ "locale": "en-XX",
+ "x-ctx-ubt-pvid": "7",
+ "x-ctx-ubt-vid": "1795523904072.4d38DLm4Jj8t",
+ "x-ctx-wclient-req": "5e03dd58dba5485665f5d4676b1fb297",
+ "x-ctx-ubt-sid": "1",
+ "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+ "referer": "https://www.trip.com/hotels/list?flexType=1&cityId=343&provinceId=10151&districtId=0&countryId=106&cityName=Rome&destName=Hotel+Artemide%2C+Rome%2C+Lazio%2C+Italy&searchWord=Hotel+Artemide&searchType=H&optionId=760667&searchValue=31%7C760667%2A31%2A760667%2A1&checkin=2026-12-15&checkout=2026-12-16&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1",
+ "currency": "EUR",
+ "phantom-token": "1006-common-8X5v1fxPlIT0Y7Fwm3YghRaNEd8jkpEzHYcUwSpEUmIbSWSGWZHwGdvdPi1mr5tvpSEdfwFgYp6yOsELcy8ceNQEapvnNwSAyQhvnLvz7wg9yZ6RbsypYL7Et0eMzIbqR90yo8vn6Jq3JZsYbzE34WM1WGcwFSjqBR6BJM5J6mjPMrdYGtI8XW5PYgDKOXj3OISMEh4ytEcdiQ3YkEA8YzFyhEOcYp9yc0K7ZKZBKSGIqDjtLw5GeUMEnAIoqwkGi0aRlEchYZ6yX8KOciS6jONj5SWFQycEP0Yp9y9oWfMenhygdjLEXkiHPybSvstWHojZ9ed0wlnImBEpojZEbcig8JqZRNE9nYlhwZ9wFced4j7PIPnxoUyBEk8i7nJBmitHEfUiZE0pYBowTHEd0wQAitTx8QegUYBpwhajgax6GyAEtoiMlJS6RQNWkbRc9JlmRBELMYNOw5gyUBeQ7y4ljltwqNeb6wgtj3TxoMyaEgpi5PJftWsEfAYUbwTqw1Hi3qvZTY0Fj8nwa7IgpxqHyQEfniUcJBQRf3Wdpw6EXaY3twNMwDOeM3jflIFmWncEXARpkjSEzPiLaJpMEGqi3hRDgj5EGcYTnw71yUojfty4AjLnWTUEFnR8tjqE8ki1DJXZvp8ioqjatjTSWdEpDYgTiG1YlkwpFjHqj4OR1Te8DysTj9EXnYShJP3YNGE3EtlYbqiFzEGZiQBRHfj1EqQY3HJz4Y75EAEUSYpniT5IdkEqpr7zeldihEScYfUJAoYHzEsES9YoSinfxamjZoE36WXqI0EPOYh5wc4yT9jFzE3qw7kwOhKdkvbTin1wpqyPEMFi4tJOnvUziLHjdqjS8WsEo3YPgiXFY0HwpNj7pjA8RH6eh0yZqjOEFmYGfw43yA4jLbEOswmAwptKgfwbUI8LEOLjcEMmispJmBIMoJHcWbYhpwUPe9zxq4Rhpyf8v5QJGUJ76YHFiA4v46WfqEFhWaLyBtY8hIpGEsmy6miBljm0JnOIsGR3GEhPKobId5j8NjT5ykOyUNEfYqMwGGxXBe8ZEZXEdAJa3wNZjMNJNovcsJGNeD1WQ1vs8Ja8i1oesXET6y5LE8hEboeNGJqTvNtvcHw8Fe1QjO3YQOWXnE5hjStjTFElnykhRA8YHqw1fi8gw0wqlEDYgbIbBK7DEaZjqmv7NYa8wF7i0BWmtY7owa3EOZyXAEbY5mjDHylayqkYNQE8DyQkjdXrNYcvLGIsBxk5ILfe09YBLvAGeUrzpem5jAMwq3YAtwUBEtnI1tWUyZYq3YhAJ1NrMme9UwhqWoXEQqrffxOY1LvcgI9GYfGjz8YPLeFnjt6iP1inBKbtrqYAcrkGj6HJZnRtziLgwbXwN6eToyPcw9Qj7fEb5KlLybYkoWnZIhEUARs4idFwmTwDaeXGy0Pwdzja7ypXy0TKZYPgjqtr6ZWo9i10vQhvqoJsJBTi6Y77Ka6E3gvXUYhfiN7w5zRkHEBPWoOydZKzPKDYfGymDYqmIFpJzoIL8r86yoY7oehXiFQE9tj03wHFvo6jDOJpdJtaRPYGjH6R47ePAY0hJpXv9lJAYNkIZ0iOPJT1jMOw6zvlMjP6yNlv1oIbYZEqTjhXJUzisTwQkIgYZkJS1W1bwQcJN3EBSrDY65J1yZtrnAR08W43i3OY0pWLkwfOwodjHgR1AEl7jL3I5Fx0OW6Yk7vGDxfFwzSRSnipdwG9w7feZAyFpw0dj3nKfEb4WPYloROfR0LeN0RZ4iBSy0dEo5ePDj8UJ5hiqHWqdEt4",
+ "x-ctx-country": "GB",
+ "x-ctx-ubt-pageid": "10320668148",
+ "cookieorigin": "https://www.trip.com",
+ "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+}

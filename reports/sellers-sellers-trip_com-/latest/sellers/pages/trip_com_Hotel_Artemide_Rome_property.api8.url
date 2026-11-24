@@ -1,2 +1,2 @@
-POST https://www.trip.com/restapi/soa2/34951/getCityList
-{"requestType":"5","head":{"platform":"PC","cver":"0","cid":"1795471140342.6388Zq8CK2ol","bu":"IBU","group":"trip","aid":"","sid":"","ouid":"","locale":"en-XX","region":"XX","timezone":"0","currency":"EUR","pageId":"10320668148","vid":"1795471140342.6388Zq8CK2ol","guid":"","isSSR":false,"extension":[{"name":"cityId","value":""},{"name":"checkIn","value":"2026-12-14"},{"name":"checkOut","value":"2026-12-15"}]}}
+POST https://www.trip.com/restapi/soa2/27147/run?subEnv=fat18&x-traceID=1795523904072.4d38DLm4Jj8t-1795524007138-1575568109
+{"name":"gotop-tg-config","Head":{"Group":"Trip","Source":"ONLINE","Version":"10000","Locale":"en-XX","Currency":"EUR","VID":"1795523904072.4d38DLm4Jj8t","ClientID":"09034160415001388736","SessionId":"1","PvId":"7"},"localTime":"2026-11-24"}

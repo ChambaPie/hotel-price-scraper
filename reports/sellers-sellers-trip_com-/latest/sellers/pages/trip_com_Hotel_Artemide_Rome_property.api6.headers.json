@@ -1,0 +1,10 @@
+{
+ "sec-ch-ua-platform": "\"Linux\"",
+ "referer": "https://www.trip.com/hotels/list?flexType=1&cityId=343&provinceId=10151&districtId=0&countryId=106&cityName=Rome&destName=Hotel+Artemide%2C+Rome%2C+Lazio%2C+Italy&searchWord=Hotel+Artemide&searchType=H&optionId=760667&searchValue=31%7C760667%2A31%2A760667%2A1&checkin=2026-12-15&checkout=2026-12-16&crn=1&adult=2&listFilters=29~1%2A29%2A1~2%2A2&curr=EUR&locale=en-GB&old=1",
+ "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+ "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+ "sec-ch-ua-mobile": "?0",
+ "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+ "accept": "application/json",
+ "content-type": "application/json"
+}
