@@ -338,7 +338,7 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
     hotel_de: {<<: *hrs_box, home: "https://www.hotel.de/", input: "text=/Ort, Hotel, Region, Adresse, PLZ/i",
                search: "button:has-text('Hotels suchen'), a:has-text('Hotels suchen'), :text-is('Hotels suchen')"}
     edreams:                 # hotels tab; its hotel search runs on its own GraphQL (accommodation-funnel-bff)
-      home: "https://www.edreams.it/hotel/"
+      home: "https://www.edreams.it/alberghi/"
       input: "input[placeholder*='Dove' i], input[placeholder*='destinazione' i], input[type='search'], [role='combobox']"
       suggestion: "[role='option'], [role='listbox'] li, [class*='uggest'] li, [data-testid*='suggestion']"
       search: "button:has-text('Cerca'), button[type='submit']"
