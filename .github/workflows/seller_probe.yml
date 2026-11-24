@@ -5,6 +5,8 @@ name: Seller probe
 # servers read prices on Expedia, Hotels.com, Agoda and Trip.com, and which booking engines do the watched hotels'
 # official websites use. Manual only; results on the reports branch (reports/sellers/latest/).
 on:
+  schedule:
+    - cron: "23 4 * * *"   # daily: the booking-engine survey (part engines), as Google gives more official websites
   workflow_dispatch:
     inputs:
       part:
@@ -44,8 +46,8 @@ jobs:
       - run: bash scripts/install_browser.sh
       - name: Probe
         env:
-          PART: ${{ inputs.part }}
-          HOTELS: ${{ inputs.hotels }}
+          PART: ${{ inputs.part || 'engines' }}
+          HOTELS: ${{ inputs.hotels || '6' }}
           SELLERS: ${{ inputs.sellers }}
           CATALOG: ${{ inputs.catalog }}
           PERSON: ${{ inputs.person }}
@@ -66,7 +68,7 @@ jobs:
           args=(); for q in "${Q[@]}"; do args+=(--query "$q"); done
           python -m hotel_scraper.suggest_probe --seller "$seller" "${args[@]}" --out out/sellers/suggest 2>&1 | tee out/sellers/suggest.log
       - name: Commit the official sites list (engines survey)
-        if: inputs.part == 'engines' || inputs.part == 'all'
+        if: (inputs.part || 'engines') == 'engines' || inputs.part == 'all'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -76,5 +78,5 @@ jobs:
       - name: Publish reports
         if: always()
         env:
-          NAME: sellers-${{ inputs.part }}-${{ inputs.sellers }}-${{ inputs.catalog }}
+          NAME: sellers-${{ inputs.part || 'engines' }}-${{ inputs.sellers }}-${{ inputs.catalog }}
         run: bash scripts/publish_reports.sh "$(echo "$NAME" | tr -c 'A-Za-z0-9_\n-' '_' | sed 's/_*$//')"   # one folder per probe: runs can overlap
