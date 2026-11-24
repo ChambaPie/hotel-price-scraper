@@ -1,0 +1,5 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+edreams,ta:g274887-d285437,Corinthia Budapest,HU,404,edreams.it,eDreams pagina non trovata,,1,False,484,0,9.1,search box not found
+edreams,ta:g187791-d205044,Hotel Artemide,IT,404,edreams.it,eDreams pagina non trovata,,1,False,484,0,8.6,search box not found
+check24,ta:g274887-d285437,Corinthia Budapest,HU,200,urlaub.check24.de,Urlaub buchen ▷ Pauschalreisen bis 60% günstiger | CHECK24 Reisen,,4,False,3181,0,31.4,no suggestion list (pressed Enter)
+check24,ta:g187791-d205044,Hotel Artemide,IT,200,urlaub.check24.de,Urlaub buchen ▷ Pauschalreisen bis 60% günstiger | CHECK24 Reisen,,4,False,3181,0,28.0,no suggestion list (pressed Enter)

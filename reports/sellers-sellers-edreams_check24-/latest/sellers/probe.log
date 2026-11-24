@@ -1,0 +1,16 @@
+10:24:22 edreams    Corinthia Budapest             404 blocked=- prices=1 name=False json=0
+10:24:33 edreams    Hotel Artemide                 404 blocked=- prices=1 name=False json=0
+10:25:08 check24    Corinthia Budapest             200 blocked=- prices=4 name=False json=0
+10:25:39 check24    Hotel Artemide                 200 blocked=- prices=4 name=False json=0
+# Sellers' own websites: probe S0
+
+## Sellers (one night, search page)
+
+| seller | pages | blocked | with prices | hotel found | JSON saved |
+|---|---|---|---|---|---|
+| edreams | 2 | 0 | 0 | 0 | 0 |
+| check24 | 2 | 0 | 2 | 0 | 0 |
+
+Block phrases seen: none
+
+
