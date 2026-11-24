@@ -42,6 +42,7 @@ def log(msg: str) -> None:
 def code_from_requests(engine: str, urls: list[str]) -> dict | None:
     """The engine's own parameters for this hotel, from the addresses its booking page called."""
     for u in urls:
+        u = (u or "").replace("&amp;", "&").replace("&#038;", "&")     # links copied from web pages
         if engine == "seekda":
             m = re.search(r"[?&]propertyCode=([A-Z0-9_]+)", u) or re.search(r"/properties/([A-Z0-9_]+)/", u) \
                 or re.search(r"skd-property-code=([A-Z0-9_]+)", u)
@@ -61,6 +62,19 @@ def code_from_requests(engine: str, urls: list[str]) -> dict | None:
             if m:
                 h = re.search(r"https?://(booking\.ericsoft\.com|www\.ericsoft\.biz)/", u)
                 return {"code": m.group(1), "host": h.group(1) if h else "booking.ericsoft.com"}
+        elif engine == "synxis":                   # the link (hotel=, chain=) or its own availability call
+            h = re.search(r'(?:[?&](?:amp;)?hotel=|"Hotel"\s*:\s*\{\s*"Id"\s*:\s*")(\d+)', u, re.I)
+            c = re.search(r'(?:[?&](?:amp;)?chain=|"Chain"\s*:\s*\{\s*"Id"\s*:\s*")(\d+)', u, re.I)
+            host = re.search(r"https?://([^/?#\s]+)", u)
+            if h and c and host and "travelclick" not in host.group(1):
+                hh = host.group(1).lower()
+                return {"code": h.group(1), "chain": c.group(1),
+                        "host": "be.synxis.com" if hh in ("gc.synxis.com", "www.synxis.com") else hh}
+        elif engine == "blastness":                # book.blastness.com/results?id_albergo=...&dc=...
+            a_ = re.search(r"[?&](?:amp;)?id_albergo=(\d+)", u)
+            d_ = re.search(r"[?&](?:amp;)?dc=(\d+)", u)
+            if a_ and d_ and "blastness" in u:
+                return {"code": a_.group(1), "dc": d_.group(1)}
         elif engine == "d_edge":
             if "websdk.d-edge.com/" in u and "property=" in u:
                 q = parse_qs(urlsplit(u).query)
@@ -188,6 +202,150 @@ def ericsoft_night(doc: dict) -> dict | None:
     return {"price": float(min(prices)), "min_stay": 1, "url": ""}
 
 
+def synxis_body(captured: dict, night: date, adults: int) -> dict:
+    """SynXis's own availability request (taken from the hotel's booking page) for another night."""
+    import copy
+    b = copy.deepcopy(captured)
+    rs = b["ProductAvailabilityQuery"]["RoomStay"]
+    rs["StartDate"], rs["EndDate"] = night.isoformat(), (night + timedelta(days=1)).isoformat()
+    rs["GuestCount"] = [{"AgeQualifyingCode": "Adult", "NumGuests": adults},
+                        {"AgeQualifyingCode": "Child", "NumGuests": 0, "Ages": []}]
+    b["ProductAvailabilityQuery"]["OnlyCheckRequested"] = False
+    return b
+
+
+def synxis_night(doc: dict) -> dict | None:
+    """The cheapest available room and rate for the night, with taxes and fees (or None)."""
+    prices = []
+    for x in ((doc.get("ProductAvailabilityDetail") or {}).get("Prices") or []):
+        pr = ((x.get("Product") or {}).get("Prices") or {}).get("PerNight") or {}
+        t = ((pr.get("Price") or {}).get("Total") or {})
+        cur = (pr.get("Price") or {}).get("CurrencyCode", "EUR")
+        if x.get("Available") and t.get("AmountWithTaxesFees") and cur == "EUR":
+            prices.append(float(t["AmountWithTaxesFees"]))
+    return {"price": min(prices), "min_stay": 1, "url": ""} if prices else None
+
+
+def blastness_body(captured: dict, night: date, adults: int) -> dict:
+    import copy
+    b = copy.deepcopy(captured)
+    b["CheckIn"] = f"{night.isoformat()}T00:00:00.000Z"
+    b["CheckOut"] = f"{(night + timedelta(days=1)).isoformat()}T00:00:00.000Z"
+    b["Rooms"] = [{"Adults": adults, "ChildrenAges": []}]
+    b["CurrencyCode"] = "EUR"
+    return b
+
+
+def blastness_night(doc: dict) -> dict | None:
+    """Blastness's best available rate for the night (VAT included, local tax paid at the hotel extra), or None."""
+    d = doc.get("Data") or {}
+    if not doc.get("IsSucceded", True) or not d.get("BAR") or d.get("Currency", "EUR") != "EUR" or d.get("Nights", 1) != 1:
+        return None
+    return {"price": float(d["BAR"]), "min_stay": 1, "url": ""}
+
+
+def ericsoft_replay_body(captured: dict, night: date, adults: int) -> dict:
+    """Ericsoft's own stay search (taken from the hotel's booking page) for another night: its adult type kept."""
+    import copy
+    b = copy.deepcopy(captured)
+    guests = (b.get("resources") or [{}])[0].get("guests") or [{}]
+    adult_type = guests[0].get("personTypeId")
+    b.update(startDate=night.isoformat(), endDate=(night + timedelta(days=1)).isoformat(), userCurrencyCode="EUR")
+    b["resources"] = [{"guests": [{"personTypeId": adult_type, "quantity": 1} for _ in range(adults)]}]
+    return b
+
+
+def replay_url(engine: str, p: dict, ec: dict, night: date, adults: int) -> str:
+    """The hotel's booking page to open (so it makes its own call, which is then repeated for other dates)."""
+    out = night + timedelta(days=1)
+    if engine == "synxis":
+        return (f"https://{p['host']}/?chain={p['chain']}&hotel={p['code']}&arrive={night.isoformat()}"
+                f"&depart={out.isoformat()}&adult={adults}&child=0&rooms=1&currency=EUR&locale=en-US")
+    if engine == "blastness":
+        return (f"https://book.blastness.com/results?lingua_int=eng&id_albergo={p['code']}&dc={p['dc']}&notti_1=1"
+                f"&tot_camere=1&tot_adulti={adults}&tot_bambini=0&gg={night.day}&mm={night.month}&aa={night.year}")
+    if engine == "ericsoft":
+        return f"https://{p.get('host') or 'booking.ericsoft.com'}/BookingEngine/Book?idh={p['code']}&lang=en&cur=EUR"
+    return (p.get("_link") or "").replace("&amp;", "&").replace("&#038;", "&")    # HNS: the hotel's booking page
+
+
+class EngineBrowser:
+    """A browser for booking engines that only answer their own page (a session token, an anti-forgery cookie...):
+    open the hotel's booking page, take the call it makes, and repeat it for other dates with the same headers and
+    cookies (HNS, Ericsoft, SynXis, Blastness; 2026-11-24)."""
+    def __init__(self, ec: dict):
+        from playwright.sync_api import sync_playwright
+        from .booking_session import launch_browser
+        self.ec = ec
+        self.pw = sync_playwright().start()
+        self.br = launch_browser(self.pw, True)
+        self.ctx = self.br.new_context(user_agent=ec["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900})
+        self.page = None
+
+    def open(self, url: str, match: str, wait_s: float) -> dict | None:
+        """{url, headers, body} of the first call to `match` the page makes, or None."""
+        if self.page:
+            self.page.close()
+        self.page = self.ctx.new_page()
+        got: list = []
+        self.page.on("request", lambda r: got.append(r) if match in r.url and r.method == "POST" else None)
+        self.page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        for _ in range(int(wait_s * 2)):
+            if got:
+                break
+            self.page.wait_for_timeout(500)
+        if not got:
+            return None
+        r = got[0]
+        return {"url": r.url, "headers": {k: v for k, v in r.headers.items()
+                                          if k.lower() not in ("content-length", "cookie", "host")},
+                "body": json.loads(r.post_data or "{}")}
+
+    def post(self, url: str, body: dict, headers: dict) -> tuple[int, dict | None]:
+        r = self.page.request.post(url, data=json.dumps(body), headers=headers, timeout=45000)
+        try:
+            return r.status, r.json()
+        except Exception:  # noqa: BLE001
+            return r.status, None
+
+    def close(self):
+        try:
+            self.br.close()
+        finally:
+            self.pw.stop()
+
+
+def replay_calendar(engine: str, p: dict, ec: dict, browser, today: date, days: int, adults: int, sleep=time.sleep,
+                    now: datetime | None = None) -> dict[str, dict | None]:
+    """Prices from engines that only answer their own page: open it once per hotel and pass, then repeat its call."""
+    rp = ec["replay"][engine]
+    cap = browser.open(replay_url(engine, p, ec, today + timedelta(days=rp.get("open_offset_days", 30)), adults),
+                       rp["match"], rp["wait_s"])
+    if not cap:
+        raise RuntimeError(f"{engine}: the booking page made no {rp['match']} call")
+    nights: dict[str, dict | None] = {}
+
+    def ask(body):
+        status, doc = browser.post(cap["url"], body, cap["headers"])
+        if status != 200 or doc is None:
+            raise RuntimeError(f"{engine} HTTP {status}")
+        return doc
+    if engine == "hotelnetsolutions":                  # a month of nights per call
+        for first, last in months(today, days):
+            b = hns_body(cap["body"], p["code"], first, last, adults)
+            b["sessionID"] = cap["body"].get("sessionID", b["sessionID"])      # the page's session goes with its token
+            nights.update(hns_nights(ask(b)))
+            sleep(ec["pause_seconds"])
+        return nights
+    body_of = {"ericsoft": ericsoft_replay_body, "synxis": synxis_body, "blastness": blastness_body}[engine]
+    night_of = {"ericsoft": ericsoft_night, "synxis": synxis_night, "blastness": blastness_night}[engine]
+    for night in rotating_nights(p["code"], today, days, rp["nights_per_pass"], rp["night_stride"],
+                                 now or datetime.now(timezone.utc)):
+        nights[night.isoformat()] = night_of(ask(body_of(cap["body"], night, adults)))   # None: asked, none bookable
+        sleep(ec["pause_seconds"])
+    return nights
+
+
 def rotating_nights(key: str, start: date, days: int, per_pass: int, stride: int, now: datetime) -> list[date]:
     """A few nights per pass without stored state: each 4-hour pass shifts the walk by a day, so every night of the
     horizon comes round; the hotel's key spreads hotels over different nights."""
@@ -197,7 +355,11 @@ def rotating_nights(key: str, start: date, days: int, per_pass: int, stride: int
 
 
 def calendar(engine: str, p: dict, ec: dict, get, today: date, days: int, adults: int, sleep=time.sleep,
-             post=None, now: datetime | None = None) -> dict[str, dict]:
+             post=None, now: datetime | None = None, browser=None) -> dict[str, dict]:
+    if engine in (ec.get("replay") or {}):
+        if browser is None:
+            raise RuntimeError(f"{engine}: needs the browser")
+        return replay_calendar(engine, p, ec, browser, today, days, adults, sleep, now)
     nights = {}
     if engine == "simplebooking":
         sb = ec["simplebooking"]
@@ -214,31 +376,6 @@ def calendar(engine: str, p: dict, ec: dict, get, today: date, days: int, adults
                 nights[night.isoformat()] = got
             else:
                 nights[night.isoformat()] = None     # asked, nothing bookable
-            sleep(ec["pause_seconds"])
-        return nights
-    if engine == "ericsoft":
-        es = ec["ericsoft"]
-        base = f"https://{p.get('host') or 'booking.ericsoft.com'}"
-        r = post(base + es["configuration_path"], {"languageType": 1, "licenseIdh": p["code"]})
-        if r.status != 200:
-            raise RuntimeError(f"ericsoft HTTP {r.status} {r.error[:80]}")
-        adult = ericsoft_adult(r.json())
-        for night in rotating_nights(p["code"], today, days, es["nights_per_pass"], es["night_stride"],
-                                     now or datetime.now(timezone.utc)):
-            r = post(base + es["solutions_path"], ericsoft_body(p["code"], adult, night, adults))
-            if r.status != 200:
-                raise RuntimeError(f"ericsoft HTTP {r.status} {r.error[:80]}")
-            nights[night.isoformat()] = ericsoft_night(r.json())     # None: asked, nothing bookable
-            sleep(ec["pause_seconds"])
-        return nights
-    if engine == "hotelnetsolutions":
-        hn = ec["hotelnetsolutions"]
-        template = json.loads(Path(hn["request_template"]).read_text())
-        for first, last in months(today, days):
-            r = post(hn["rateplan_url"], hns_body(template, p["code"], first, last, adults))
-            if r.status != 200:
-                raise RuntimeError(f"hotelnetsolutions HTTP {r.status} {r.error[:80]}")
-            nights.update(hns_nights(r.json()))
             sleep(ec["pause_seconds"])
         return nights
     for first, last in months(today, days):
@@ -259,8 +396,8 @@ def booking_link(engine: str, row: dict, p: dict, night: date, adults: int, ec: 
         return f"{base}?" + urlencode({"skd-property-code": p["code"], "skd-checkin": night.isoformat(),
                                         "skd-checkout": (night + timedelta(days=1)).isoformat(),
                                         "skd-total-adults": adults}) if base else ""
-    if engine == "ericsoft":
-        return f"https://{p.get('host') or 'booking.ericsoft.com'}/BookingEngine/Book?idh={p['code']}&lang=en&cur=EUR"
+    if engine in ("ericsoft", "synxis", "blastness"):
+        return replay_url(engine, p, ec, night, adults)
     if engine == "hotelnetsolutions":
         return (row.get("booking_link") or row.get("website") or "").replace("&amp;", "&")
     return ""
@@ -336,7 +473,8 @@ def find_codes(sites: list[dict], ec: dict, log=log, clock=time.monotonic, budge
 
 
 def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, today: date | None = None, log=log,
-        clock=time.monotonic, sleep=time.sleep, post=None, now_dt: datetime | None = None) -> dict:
+        clock=time.monotonic, sleep=time.sleep, post=None, now_dt: datetime | None = None,
+        browser_factory=EngineBrowser) -> dict:
     ec, p = cfg["engines"], cfg["paths"]
     today = today or date.today()
     now_dt = now_dt or datetime.now(timezone.utc)
@@ -377,15 +515,21 @@ def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, t
         get = get or (lambda u: sess.request("GET", u))
         post = post or (lambda u, body: sess.post_json(u, body))
         adults = cfg["scan"]["adults"]
-        new = []
-        for r in sorted((r for r in known.values() if r["status"] == "ok" and r["pid"] in watched),
-                        key=lambda r: r["pid"]):
+        new, browser = [], None
+        todo_p = sorted((r for r in known.values() if r["status"] == "ok" and r["pid"] in watched), key=lambda r: r["pid"])
+        if todo_p:                                   # each pass starts further on: every hotel comes round in turn
+            k = (int(now_dt.timestamp() // (4 * 3600)) * ec["hotels_per_pass"]) % len(todo_p)
+            todo_p = todo_p[k:] + todo_p[:k]
+        for r in todo_p:
             if clock() - started > max_minutes * 60:
                 break
             engine, prm = parse_seller_id(r["seller_id"])
+            prm = {**prm, "_link": by_pid.get(r["pid"], {}).get("booking_link") or by_pid.get(r["pid"], {}).get("website", "")}
+            if engine in (ec.get("replay") or {}) and browser is None:
+                browser = browser_factory(ec)
             try:
                 nights = calendar(engine, prm, ec, get, today + timedelta(days=ec["min_lead_days"]), ec["horizon_days"],
-                                  adults, sleep, post=post, now=now_dt)
+                                  adults, sleep, post=post, now=now_dt, browser=browser)
             except Exception as e:  # noqa: BLE001
                 stats["errors"] += 1
                 log(f"{r['seller_name'][:35]}: {str(e)[:120]}")
@@ -405,6 +549,8 @@ def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, t
                             "url": v.get("url") or booking_link(engine, by_pid.get(r["pid"], {}), prm, d, adults, ec),
                             "seen_at": now})
             log(f"{engine:8} {r['seller_name'][:35]:35} {len(nights)} nights priced")
+        if browser is not None:
+            browser.close()
         old_all = read_csv(p["seller_prices"])
         ok_pids = {pid for pid, r in known.items() if r["status"] == "ok"}
         mine = [x for x in old_all if x.get("seller") == SELLER and x["pid"] in ok_pids]   # a hotel's code redone or

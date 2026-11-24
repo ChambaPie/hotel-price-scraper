@@ -174,8 +174,24 @@ class AgodaPage:
             if any(str(x["id"]) == str(hotel_id) for x in props):
                 return props
         if not props:
+            self._sample("no_city_search")
             raise RuntimeError(f"no city search on {self.page.url[:120]}")
         return props
+
+    def _sample(self, what: str) -> None:
+        """Keep what the page showed (text and picture) the first two times something went wrong (run 45333656075:
+        Agoda's pages stopped making their city search for a whole pass)."""
+        self.samples = getattr(self, "samples", 0) + 1
+        if self.samples > 2:
+            return
+        try:
+            out = Path(self.ac.get("debug_dir", "out"))
+            out.mkdir(parents=True, exist_ok=True)
+            (out / f"agoda_{what}_{self.samples}.txt").write_text(f"#URL {self.page.url}\n" + self.page.inner_text("body")[:20000],
+                                                                  encoding="utf-8")
+            self.page.screenshot(path=str(out / f"agoda_{what}_{self.samples}.png"))
+        except Exception:  # noqa: BLE001
+            pass
 
     def open_hotel(self, hotel_id, night: date, adults: int) -> bool:
         """Open Agoda's page for one hotel and night (it redirects to a search with the hotel pinned, whose citySearch

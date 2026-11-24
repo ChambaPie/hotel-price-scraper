@@ -539,18 +539,18 @@ hrs:                         # HRS's own prices; hotel.de is the same company an
   hotel_url: "https://www.hrs.com/en/list?hotelTeaserKey%5B0%5D={id}&startDateDay={d}&startDateMonth={m}&startDateYear={y}&endDateDay={d2}&endDateMonth={m2}&endDateYear={y2}&currency=EUR&rooms=1&numberOfAdults%5B0%5D={adults}&type%5B0%5D={room}&adults={adults}&children=0&singleRooms={singles}&doubleRooms={doubles}"
 
 engines:                     # hotels' own booking engines (hotel_scraper/engines.py; owner, 2026-11-23: every vendor)
-  live: [seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft]   # engines with a reader (survey: data/official_sites.csv)
+  live: [seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft, synxis, blastness]   # engines with a reader
+  hotels_per_pass: 40        # each pass starts this many hotels further on, so every hotel comes round
+  replay:                    # engines that answer only their own page (session token, anti-forgery cookie): the hotel's
+                             # booking page is opened and its own call repeated for other dates (2026-11-24: plain
+                             # calls got HNS 401 and Ericsoft 400 in run 45333656075)
+    hotelnetsolutions: {match: "onepagebooking.com/api/RatePlan", wait_s: 15}        # a month of nights per call
+    ericsoft: {match: "/api/book/GetSolutions", wait_s: 15, nights_per_pass: 8, night_stride: 46}
+    synxis: {match: "getProductAvailability", wait_s: 20, nights_per_pass: 8, night_stride: 46}
+    blastness: {match: "bookingengine/search", wait_s: 20, nights_per_pass: 8, night_stride: 46}
   ids_valid_from: "2026-11-24T10:00:00+00:00"   # codes found before this are looked up again (run 45333656075:
                              # the code finder reused one page, so late calls gave a hotel the previous hotel's code)
   full_calendars: [seekda, d_edge, hotelnetsolutions]   # a pass prices the whole horizon (others: a few nights per pass)
-  hotelnetsolutions:         # HNS onepagebooking v6: its own calendar call (cheapest room per night), captured 2026-11-23
-    rateplan_url: "https://v6.onepagebooking.com/api/RatePlan"
-    request_template: config/hns_rateplan.json
-  ericsoft:                  # Ericsoft: the hotel's settings (its adult person type), then a stay search per night
-    configuration_path: /api/book/GetConfiguration
-    solutions_path: /api/book/GetSolutions
-    nights_per_pass: 8
-    night_stride: 46
   seekda: {calendar_url: "https://s.seekda.com/api/calendar.json"}
   simplebooking:
     search_url: "https://www.simplebooking.it/graphql/ibe2/graphql?opname=StandardAvailabilitySearchIO&hid={hid}"

@@ -151,51 +151,115 @@ def test_ericsoft_code_and_stay_search_real_answers():
     assert engines.ericsoft_night({"operationStatus": 0, "data": {"solutions": []}}) is None
 
 
-def test_run_prices_hns_and_ericsoft(tmp_path):
+class FakeBrowser:
+    """The hotel's booking page: the call it makes (real captured requests and headers) and the engine's answers."""
+    def __init__(self):
+        self.opened, self.posts = [], []
+
+    def open(self, url, match, wait_s):
+        self.opened.append((url, match))
+        if "onepagebooking" in match:
+            return {"url": "https://v6.onepagebooking.com/api/RatePlan", "headers": {"authorization": "Bearer t"},
+                    "body": json.loads((FX / "hns_rateplan_request_2026-11.json").read_text())}
+        if "GetSolutions" in match:
+            return {"url": "https://booking.ericsoft.com/api/book/GetSolutions", "headers": {"x-xsrf-token": "x"},
+                    "body": json.loads(req("ericsoft_solutions").split("\n", 1)[1])}
+        if "getProductAvailability" in match:
+            return {"url": "https://be.synxis.com/gw/product/v1/getProductAvailability", "headers": {"context": "BE"},
+                    "body": json.loads((FX / "synxis_availability_request_2026-11.json").read_text())}
+        if "bookingengine/search" in match:
+            return {"url": "https://api.foxtechnologies.it/api/be-frontdoor/bookingengine/search",
+                    "headers": json.loads((FX / "blastness_search_headers_2026-11.json").read_text()),
+                    "body": {"CheckIn": "2026-11-23T00:00:00.000Z", "CheckOut": "2026-11-24T00:00:00.000Z",
+                             "LanguageCode": "en", "CurrencyCode": "EUR", "Rooms": [{"Adults": 2, "ChildrenAges": []}]}}
+        return None
+
+    def post(self, url, body, headers):
+        self.posts.append((url, body, headers))
+        if "onepagebooking" in url:
+            doc = json.loads((FX / "hns_rateplan_chesa_valisa_2026-11.json").read_text()) \
+                if body["startDate"] == "01.12.2026" else {"RatePlans": []}
+        elif "ericsoft" in url:
+            doc = json.loads((FX / "ericsoft_solutions_calissano_2026-11-23.json").read_text()) \
+                if body["startDate"] < "2027-03-01" else {"data": {"solutions": []}}
+        elif "synxis" in url:
+            doc = json.loads((FX / "synxis_availability_monte_cenci_2026-12-14.json").read_text())
+        else:
+            doc = json.loads((FX / "blastness_search_argentina_2026-11-23.json").read_text())
+        return 200, doc
+
+    def close(self):
+        self.closed = True
+
+
+def test_run_prices_engines_that_answer_only_their_own_page(tmp_path):
+    """Run 45333656075: HNS answered plain calls 401 (its page's session token) and Ericsoft 400 (its anti-forgery
+    cookie and header). The hotel's booking page is opened, its own call taken and repeated for other dates, with the
+    page's headers and cookies; SynXis and Blastness the same way."""
     cfg = config.load()
     for k in ("watchlist", "official_sites", "seller_ids", "seller_prices"):
         cfg["paths"][k] = str(tmp_path / f"{k}.csv")
     with open(cfg["paths"]["watchlist"], "w", newline="") as f:
         w = csv.DictWriter(f, ["pid", "gone_since"])
         w.writeheader()
-        w.writerows([{"pid": x, "gone_since": ""} for x in "he"])
+        w.writerows([{"pid": x, "gone_since": ""} for x in "hesb"])
     with open(cfg["paths"]["official_sites"], "w", newline="") as f:
         w = csv.DictWriter(f, ["pid", "name", "engine", "booking_link", "website"])
         w.writeheader()
         w.writerows([{"pid": "h", "name": "Chesa Valisa", "engine": "hotelnetsolutions",
                       "booking_link": "https://www.naturhotel.at/buchen/?lang=de", "website": ""},
                      {"pid": "e", "name": "Calissano", "engine": "ericsoft", "website": "",
-                      "booking_link": "https://booking.ericsoft.com/BookingEngine/Book?idh=C4F7F3CFA10444AB&#038;lang=it"}])
+                      "booking_link": "https://booking.ericsoft.com/BookingEngine/Book?idh=C4F7F3CFA10444AB&#038;lang=it"},
+                     {"pid": "s", "name": "Monte Cenci", "engine": "synxis", "website": "",
+                      "booking_link": "https://be.synxis.com/?adult=2&#038;chain=5375&#038;currency=EUR&#038;hotel=71264&#038;locale=en-US"},
+                     {"pid": "b", "name": "Argentina", "engine": "blastness", "website": "",
+                      "booking_link": "https://book.blastness.com/results?lingua_int=eng&id_albergo=12102&dc=3546&id_stile=224&notti_1=1"}])
 
     def finder(sites, ec, log=None, budget_s=0):
-        assert [s["pid"] for s in sites] == ["h"]          # Ericsoft's code is in its link: no browser needed
+        assert [s["pid"] for s in sites] == ["h"]          # the others' codes are in their links: no browser needed
         return {"h": engines.code_from_requests("hotelnetsolutions", [req("hns_rateplan")])}
-    hns = (FX / "hns_rateplan_chesa_valisa_2026-11.json").read_bytes()
-    conf = (FX / "ericsoft_configuration_calissano_2026-11.json").read_bytes()
-    sol = (FX / "ericsoft_solutions_calissano_2026-11-23.json").read_bytes()
-    posted = []
-
-    def post(url, body):
-        posted.append((url, body))
-        if "onepagebooking" in url:
-            return Response(200, {}, hns if body["startDate"] == "01.12.2026" else b'{"RatePlans": []}')
-        if url.endswith("GetConfiguration"):
-            return Response(200, {}, conf)
-        return Response(200, {}, sol if body["startDate"] < "2027-03-01" else b'{"data": {"solutions": []}}')
-    res = engines.run(cfg, "all", 5, finder=finder, today=date(2026, 11, 24), log=lambda m: None,
-                      sleep=lambda s: None, post=post, get=lambda u: None)
-    assert res["ids_found"] == 2 and res["hotels_priced"] == 2 and res["errors"] == 0
-    hn = [b for u, b in posted if "onepagebooking" in u]
-    assert len(hn) == 13 and {b["code"] for b in hn} == {"naturhotel-chesa-valisa"}      # a month per call
-    es = [b for u, b in posted if u == "https://booking.ericsoft.com/api/book/GetSolutions"]
+    fb = FakeBrowser()
+    res = engines.run(cfg, "all", 5, finder=finder, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None,
+                      post=lambda u, b: None, get=lambda u: None, browser_factory=lambda ec: fb)
+    assert res["ids_found"] == 4 and res["hotels_priced"] == 4 and res["errors"] == 0 and fb.closed
+    opened = dict((m, u) for u, m in fb.opened)
+    assert opened["onepagebooking.com/api/RatePlan"] == "https://www.naturhotel.at/buchen/?lang=de"
+    assert "hotel=71264" in opened["getProductAvailability"] and "chain=5375" in opened["getProductAvailability"]
+    assert "id_albergo=12102&dc=3546" in opened["bookingengine/search"]
+    hn = [b for u, b, h in fb.posts if "onepagebooking" in u]
+    assert len(hn) == 13 and {b["code"] for b in hn} == {"naturhotel-chesa-valisa"} and all(b["outputType"] == 4 for b in hn)
+    tpl = json.loads((FX / "hns_rateplan_request_2026-11.json").read_text())
+    assert {b["sessionID"] for b in hn} == {tpl["sessionID"]}       # the page's session goes with its token
+    es = [b for u, b, h in fb.posts if "ericsoft" in u]
     assert len(es) == 8 and {g["personTypeId"] for b in es for g in b["resources"][0]["guests"]} == {4182}
+    assert all(h == {"x-xsrf-token": "x"} for u, b, h in fb.posts if "ericsoft" in u)
+    sx = [b for u, b, h in fb.posts if "synxis" in u]
+    assert len(sx) == 8 and all(b["ProductAvailabilityQuery"]["RoomStay"]["GuestCount"][0]["NumGuests"] == 2 for b in sx)
     rows = list(csv.DictReader(open(cfg["paths"]["seller_prices"])))
-    h = [r for r in rows if r["pid"] == "h"]
-    assert len(h) == 16 and h[0]["seller_id"] == "hotelnetsolutions" and h[0]["price"] == "495.0"
-    assert h[0]["url"] == "https://www.naturhotel.at/buchen/?lang=de"
-    e = [r for r in rows if r["pid"] == "e"]
-    assert len(e) == 8 and {r["price"] for r in e if r["available"] == "yes"} == {"148.0"}
-    assert any(r["available"] == "no" for r in e) and "idh=C4F7F3CFA10444AB" in e[0]["url"]
+    by = {p: [r for r in rows if r["pid"] == p] for p in "hesb"}
+    assert len(by["h"]) == 16 and by["h"][0]["seller_id"] == "hotelnetsolutions" and by["h"][0]["price"] == "495.0"
+    assert {r["price"] for r in by["e"] if r["available"] == "yes"} == {"148.0"} and any(r["available"] == "no" for r in by["e"])
+    assert {r["price"] for r in by["s"]} == {"254.32"} and "hotel=71264" in by["s"][0]["url"]
+    assert {r["price"] for r in by["b"]} == {"212.0"} and "id_albergo=12102" in by["b"][0]["url"]
+
+
+def test_synxis_and_blastness_codes_and_answers():
+    assert engines.code_from_requests("synxis", ["https://be.synxis.com/?adult=2&#038;chain=5375&#038;currency=EUR&#038;hotel=71264"]) \
+        == {"code": "71264", "chain": "5375", "host": "be.synxis.com"}
+    assert engines.code_from_requests("synxis", ["https://reservations.villacora.it/?chain=24447&amp;hotel=6861&amp;filter=SBE"]) \
+        == {"code": "6861", "chain": "24447", "host": "reservations.villacora.it"}
+    assert engines.code_from_requests("synxis", ["https://gc.synxis.com/rez.aspx?Hotel=22894&Chain=8565&Lang=5"])["host"] == "be.synxis.com"
+    assert engines.code_from_requests("synxis", [req("synxis_availability")]) is not None        # its own call names it
+    assert engines.code_from_requests("synxis", ["https://bookings.travelclick.com/107183?hotelId=107183"]) is None
+    assert engines.code_from_requests("blastness", ["https://book.blastness.com/results?lingua_int=ita&id_albergo=11153&dc=5562147&id_stile="]) \
+        == {"code": "11153", "dc": "5562147"}
+    n = engines.synxis_night(json.loads((FX / "synxis_availability_monte_cenci_2026-12-14.json").read_text()))
+    assert n == {"price": 254.32, "min_stay": 1, "url": ""}                     # cheapest available, taxes included
+    b = engines.synxis_body(json.loads((FX / "synxis_availability_request_2026-11.json").read_text()), date(2027, 2, 1), 2)
+    assert b["ProductAvailabilityQuery"]["RoomStay"]["StartDate"] == "2027-02-01" and b["ProductAvailabilityQuery"]["Hotel"]["Id"] == "71264"
+    assert engines.blastness_night(json.loads((FX / "blastness_search_argentina_2026-11-23.json").read_text())) == \
+        {"price": 212.0, "min_stay": 1, "url": ""}                                # best available rate, VAT included
+    assert engines.blastness_night({"IsSucceded": True, "Data": None}) is None
 
 
 def test_codes_found_before_the_fix_are_looked_up_again_and_shared_codes_distrusted(tmp_path):
