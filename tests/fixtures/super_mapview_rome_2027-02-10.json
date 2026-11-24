@@ -1,0 +1,915 @@
+{
+ "result": {
+  "data": {
+   "query_results": [
+    {
+     "hotel": {
+      "id": "Pjm0wZlg",
+      "brand_id": "11156",
+      "brand_name": "Anantara Europe & Americas",
+      "parent_brand_name": "Minor Hotels",
+      "name": "Anantara Palazzo Naiadi Rome Hotel",
+      "stars": 5,
+      "review_data": {
+       "ta_id": null,
+       "ta_review": 4.5,
+       "num_ta_reviews": 3714,
+       "priceline_rating": 9,
+       "priceline_review_count": 540
+      },
+      "latitude": 41.90196,
+      "longitude": 12.49612,
+      "country": "IT",
+      "state": "RM",
+      "url_slug": "anantara-palazzo-naiadi-rome-hotel-rome",
+      "images": [
+       {
+        "url": "https://i.travelapi.com/lodging/1000000/910000/907400/907346/c9dc3018_z.jpg",
+        "url_thumb": "https://i.travelapi.com/lodging/1000000/910000/907400/907346/c9dc3018_b.jpg",
+        "priority": 0
+       }
+      ],
+      "image_urls": [
+       "https://i.travelapi.com/lodging/1000000/910000/907400/907346/5d0e85a5_z.jpg"
+      ],
+      "amenities": [
+       "Outdoor pool",
+       "Wheelchair accessible parking",
+       "Wheelchair-accessible on-site restaurant",
+       "Swimming pool",
+       "Gym/fitness center",
+       "Self parking (surcharge)",
+       "Free wifi",
+       "Vegetarian breakfast available",
+       "Wheelchair-accessible fitness center",
+       "Free Breakfast",
+       "Airport shuttle (additional charge)",
+       "Wheelchair-accessible van parking",
+       "Pet friendly",
+       "Restaurants",
+       "Breakfast available (surcharge)",
+       "Valet parking (surcharge)",
+       "Gym/fitness Center"
+      ],
+      "canonical_amenities": [
+       {
+        "name": "Pet friendly",
+        "amenity_id": 1
+       },
+       {
+        "name": "Swimming pool",
+        "amenity_id": 2
+       },
+       {
+        "name": "Hot tub",
+        "amenity_id": 3
+       },
+       {
+        "name": "Spa",
+        "amenity_id": 4
+       },
+       {
+        "name": "Airport shuttle (additional charge)",
+        "amenity_id": 9
+       },
+       {
+        "name": "24-hour front desk",
+        "amenity_id": 10
+       },
+       {
+        "name": "Business center",
+        "amenity_id": 12
+       },
+       {
+        "name": "Balcony",
+        "amenity_id": 13
+       },
+       {
+        "name": "Gym/fitness center",
+        "amenity_id": 14
+       },
+       {
+        "name": "Laundry",
+        "amenity_id": 15
+       },
+       {
+        "name": "Meeting rooms",
+        "amenity_id": 16
+       },
+       {
+        "name": "Restaurants",
+        "amenity_id": 17
+       },
+       {
+        "name": "Free wifi",
+        "amenity_id": 18
+       },
+       {
+        "name": "Smoke-free property",
+        "amenity_id": 21
+       },
+       {
+        "name": "Bar/Lounge",
+        "amenity_id": 23
+       },
+       {
+        "name": "Outdoor pool",
+        "amenity_id": 26
+       },
+       {
+        "name": "Concierge services",
+        "amenity_id": 28
+       },
+       {
+        "name": "Luggage storage",
+        "amenity_id": 29
+       }
+      ],
+      "main_image_urls": [
+       "https://i.travelapi.com/lodging/1000000/910000/907400/907346/c9dc3018_z.jpg"
+      ]
+     },
+     "rate": {
+      "nightly_price_before_tax": 380.37,
+      "nightly_total_price": 434.95,
+      "currency": "USD",
+      "is_mor": true,
+      "is_superplus_rate": false,
+      "is_superplus_eligible": true,
+      "super_plus_nightly_savings_before_taxes": null,
+      "surcharge": 22.18,
+      "tax_on_surcharge": null,
+      "num_nights": 1,
+      "num_rooms": 1,
+      "bar_price": 1069.2880859375,
+      "bar_price_before_tax": 935.1
+     },
+     "retail_rate": {
+      "nightly_price_before_tax": 837.38,
+      "nightly_total_price": 921.11,
+      "surcharge": 22.18,
+      "num_nights": 1,
+      "num_rooms": 1
+     }
+    },
+    {
+     "hotel": {
+      "id": "vlg3KkOl",
+      "brand_id": "0",
+      "brand_name": "Independent",
+      "parent_brand_name": "Independent",
+      "name": "Hotel Diana Roof Garden",
+      "stars": 4,
+      "review_data": {
+       "ta_id": null,
+       "ta_review": 3.5,
+       "num_ta_reviews": 2299,
+       "priceline_rating": 8.1,
+       "priceline_review_count": 329
+      },
+      "latitude": 41.900673,
+      "longitude": 12.497248,
+      "country": "IT",
+      "state": "RM",
+      "url_slug": "hotel-diana-roof-garden-rome",
+      "images": [
+       {
+        "url": "https://i.travelapi.com/lodging/1000000/790000/787100/787014/7dccf011_z.jpg",
+        "url_thumb": "https://i.travelapi.com/lodging/1000000/790000/787100/787014/7dccf011_b.jpg",
+        "priority": 0
+       }
+      ],
+      "image_urls": [
+       "https://i.travelapi.com/lodging/1000000/790000/787100/787014/d2b053c6_z.jpg"
+      ],
+      "amenities": [
+       "Wheelchair-accessible on-site restaurant",
+       "Restaurant dining guide",
+       "Free wifi",
+       "Airport shuttle (additional charge)",
+       "Pet friendly",
+       "Restaurants",
+       "Free breakfast"
+      ],
+      "canonical_amenities": [
+       {
+        "name": "Pet friendly",
+        "amenity_id": 1
+       },
+       {
+        "name": "Free breakfast",
+        "amenity_id": 7
+       },
+       {
+        "name": "Airport shuttle (additional charge)",
+        "amenity_id": 9
+       },
+       {
+        "name": "24-hour front desk",
+        "amenity_id": 10
+       },
+       {
+        "name": "Business center",
+        "amenity_id": 12
+       },
+       {
+        "name": "Balcony",
+        "amenity_id": 13
+       },
+       {
+        "name": "Laundry",
+        "amenity_id": 15
+       },
+       {
+        "name": "Meeting rooms",
+        "amenity_id": 16
+       },
+       {
+        "name": "Restaurants",
+        "amenity_id": 17
+       },
+       {
+        "name": "Free wifi",
+        "amenity_id": 18
+       },
+       {
+        "name": "Smoke-free property",
+        "amenity_id": 21
+       },
+       {
+        "name": "Bar/Lounge",
+        "amenity_id": 23
+       },
+       {
+        "name": "Concierge services",
+        "amenity_id": 28
+       },
+       {
+        "name": "Luggage storage",
+        "amenity_id": 29
+       }
+      ],
+      "main_image_urls": [
+       "https://i.travelapi.com/lodging/1000000/790000/787100/787014/7dccf011_z.jpg"
+      ]
+     },
+     "rate": {
+      "nightly_price_before_tax": 84.22,
+      "nightly_total_price": 94.9,
+      "currency": "USD",
+      "is_mor": true,
+      "is_superplus_rate": false,
+      "is_superplus_eligible": true,
+      "super_plus_nightly_savings_before_taxes": null,
+      "surcharge": 16.74,
+      "tax_on_surcharge": null,
+      "num_nights": 1,
+      "num_rooms": 1
+     },
+     "retail_rate": {
+      "nightly_price_before_tax": 260.04,
+      "nightly_total_price": 286.03,
+      "surcharge": 16.74,
+      "num_nights": 1,
+      "num_rooms": 1
+     }
+    },
+    {
+     "hotel": {
+      "id": "7loODDl6",
+      "brand_id": "0",
+      "brand_name": "Independent",
+      "parent_brand_name": "Independent",
+      "name": "Eurostars Roma Aeterna",
+      "stars": 4,
+      "review_data": {
+       "ta_id": null,
+       "ta_review": 4,
+       "num_ta_reviews": 1525,
+       "priceline_rating": 8.3,
+       "priceline_review_count": 266
+      },
+      "latitude": 41.888885,
+      "longitude": 12.523216,
+      "country": "IT",
+      "state": "RM",
+      "url_slug": "eurostars-roma-aeterna-rome",
+      "images": [
+       {
+        "url": "https://i.travelapi.com/lodging/4000000/3300000/3292300/3292236/561fdd56_z.jpg",
+        "url_thumb": "https://i.travelapi.com/lodging/4000000/3300000/3292300/3292236/561fdd56_b.jpg",
+        "priority": 0
+       }
+      ],
+      "image_urls": [
+       "https://i.travelapi.com/lodging/4000000/3300000/3292300/3292236/562766ce_z.jpg"
+      ],
+      "amenities": [
+       "Wheelchair-accessible on-site restaurant",
+       "Gym/fitness center",
+       "Free wifi",
+       "Vegetarian breakfast available",
+       "Airport shuttle (additional charge)",
+       "Restaurants",
+       "No accessible shuttle",
+       "Breakfast available (surcharge)",
+       "Gym/fitness Center"
+      ],
+      "canonical_amenities": [
+       {
+        "name": "Airport shuttle (additional charge)",
+        "amenity_id": 9
+       },
+       {
+        "name": "24-hour front desk",
+        "amenity_id": 10
+       },
+       {
+        "name": "Business center",
+        "amenity_id": 12
+       },
+       {
+        "name": "Gym/fitness center",
+        "amenity_id": 14
+       },
+       {
+        "name": "Laundry",
+        "amenity_id": 15
+       },
+       {
+        "name": "Meeting rooms",
+        "amenity_id": 16
+       },
+       {
+        "name": "Restaurants",
+        "amenity_id": 17
+       },
+       {
+        "name": "Free wifi",
+        "amenity_id": 18
+       },
+       {
+        "name": "Smoke-free property",
+        "amenity_id": 21
+       },
+       {
+        "name": "Electric vehicle charging station",
+        "amenity_id": 22
+       },
+       {
+        "name": "Bar/Lounge",
+        "amenity_id": 23
+       },
+       {
+        "name": "Concierge services",
+        "amenity_id": 28
+       },
+       {
+        "name": "Luggage storage",
+        "amenity_id": 29
+       }
+      ],
+      "main_image_urls": [
+       "https://i.travelapi.com/lodging/4000000/3300000/3292300/3292236/561fdd56_z.jpg"
+      ]
+     },
+     "rate": {
+      "nightly_price_before_tax": 71.44,
+      "nightly_total_price": 80.94,
+      "currency": "USD",
+      "is_mor": true,
+      "is_superplus_rate": false,
+      "is_superplus_eligible": true,
+      "super_plus_nightly_savings_before_taxes": null,
+      "surcharge": 16.79,
+      "tax_on_surcharge": null,
+      "num_nights": 1,
+      "num_rooms": 1,
+      "bar_price": 223.2899932861328,
+      "bar_price_before_tax": 197.09
+     },
+     "retail_rate": {
+      "nightly_price_before_tax": 203,
+      "nightly_total_price": 223.29,
+      "surcharge": 16.79,
+      "num_nights": 1,
+      "num_rooms": 1
+     }
+    },
+    {
+     "hotel": {
+      "id": "dlVVZO2l",
+      "brand_id": "11157",
+      "brand_name": "NH Collection (Minor)",
+      "parent_brand_name": "Minor Hotels",
+      "name": "NH Collection Roma Palazzo Cinquecento",
+      "stars": 5,
+      "review_data": {
+       "ta_id": null,
+       "ta_review": 4.5,
+       "num_ta_reviews": 1596,
+       "priceline_rating": 8.7,
+       "priceline_review_count": 820
+      },
+      "latitude": 41.902412,
+      "longitude": 12.501301,
+      "country": "IT",
+      "state": "62",
+      "url_slug": "nh-collection-roma-palazzo-cinquecento-rome",
+      "images": [
+       {
+        "url": "https://i.travelapi.com/lodging/13000000/12750000/12741300/12741260/e9e1e7d6_z.jpg",
+        "url_thumb": "https://i.travelapi.com/lodging/13000000/12750000/12741300/12741260/e9e1e7d6_b.jpg",
+        "priority": 0
+       }
+      ],
+      "image_urls": [
+       "https://i.travelapi.com/lodging/13000000/12750000/12741300/12741260/w3837h2550x2y0-67e1d42a_z.jpg"
+      ],
+      "amenities": [
+       "Internet access in public areas - high speed",
+       "Gym/fitness center",
+       "Parking (limited spaces)",
+       "Self parking (surcharge)",
+       "Free wifi",
+       "Vegetarian breakfast available",
+       "Pet friendly",
+       "Restaurants",
+       "No accessible shuttle",
+       "Breakfast available (surcharge)",
+       "Gym/fitness Center"
+      ],
+      "canonical_amenities": [
+       {
+        "name": "Pet friendly",
+        "amenity_id": 1
+       },
+       {
+        "name": "24-hour front desk",
+        "amenity_id": 10
+       },
+       {
+        "name": "Business center",
+        "amenity_id": 12
+       },
+       {
+        "name": "Balcony",
+        "amenity_id": 13
+       },
+       {
+        "name": "Gym/fitness center",
+        "amenity_id": 14
+       },
+       {
+        "name": "Laundry",
+        "amenity_id": 15
+       },
+       {
+        "name": "Meeting rooms",
+        "amenity_id": 16
+       },
+       {
+        "name": "Restaurants",
+        "amenity_id": 17
+       },
+       {
+        "name": "Free wifi",
+        "amenity_id": 18
+       },
+       {
+        "name": "Smoke-free property",
+        "amenity_id": 21
+       },
+       {
+        "name": "Electric vehicle charging station",
+        "amenity_id": 22
+       },
+       {
+        "name": "Bar/Lounge",
+        "amenity_id": 23
+       },
+       {
+        "name": "Concierge services",
+        "amenity_id": 28
+       },
+       {
+        "name": "Luggage storage",
+        "amenity_id": 29
+       }
+      ],
+      "main_image_urls": [
+       "https://i.travelapi.com/lodging/13000000/12750000/12741300/12741260/e9e1e7d6_z.jpg"
+      ]
+     },
+     "rate": {
+      "nightly_price_before_tax": 197.44,
+      "nightly_total_price": 223.99,
+      "currency": "USD",
+      "is_mor": true,
+      "is_superplus_rate": false,
+      "is_superplus_eligible": true,
+      "super_plus_nightly_savings_before_taxes": null,
+      "surcharge": 22.29,
+      "tax_on_surcharge": null,
+      "num_nights": 1,
+      "num_rooms": 1,
+      "bar_price": 446.7903747558594,
+      "bar_price_before_tax": 393.83
+     },
+     "retail_rate": {
+      "nightly_price_before_tax": 314.02,
+      "nightly_total_price": 345.42,
+      "surcharge": 22.29,
+      "num_nights": 1,
+      "num_rooms": 1
+     }
+    },
+    {
+     "hotel": {
+      "id": "RjbMoZ9l",
+      "brand_id": "0",
+      "brand_name": "Independent",
+      "parent_brand_name": "Independent",
+      "name": "Roma Luxus Hotel",
+      "stars": 5,
+      "review_data": {
+       "ta_id": null,
+       "ta_review": 4,
+       "num_ta_reviews": 382,
+       "priceline_rating": 8.7,
+       "priceline_review_count": 267
+      },
+      "latitude": 41.896046,
+      "longitude": 12.487112,
+      "country": "IT",
+      "state": "RM",
+      "url_slug": "roma-luxus-hotel-rome",
+      "images": [
+       {
+        "url": "https://i.travelapi.com/lodging/16000000/15900000/15898500/15898482/fd2f7bf9_z.jpg",
+        "url_thumb": "https://i.travelapi.com/lodging/16000000/15900000/15898500/15898482/fd2f7bf9_b.jpg",
+        "priority": 0
+       }
+      ],
+      "image_urls": [
+       "https://i.travelapi.com/lodging/16000000/15900000/15898500/15898482/75e9f43a_z.jpg"
+      ],
+      "amenities": [
+       "Offsite parking reservations required",
+       "Offsite parking discounted rates available",
+       "Area shuttle (surcharge)",
+       "Pet Friendly",
+       "Restaurant dining guide",
+       "Free wifi",
+       "Airport shuttle (additional charge)",
+       "Street parking",
+       "Pet friendly",
+       "Restaurants",
+       "Free breakfast"
+      ],
+      "canonical_amenities": [
+       {
+        "name": "Pet friendly",
+        "amenity_id": 1
+       },
+       {
+        "name": "Spa",
+        "amenity_id": 4
+       },
+       {
+        "name": "Free breakfast",
+        "amenity_id": 7
+       },
+       {
+        "name": "Airport shuttle (additional charge)",
+        "amenity_id": 9
+       },
+       {
+        "name": "24-hour front desk",
+        "amenity_id": 10
+       },
+       {
+        "name": "Balcony",
+        "amenity_id": 13
+       },
+       {
+        "name": "Laundry",
+        "amenity_id": 15
+       },
+       {
+        "name": "Meeting rooms",
+        "amenity_id": 16
+       },
+       {
+        "name": "Restaurants",
+        "amenity_id": 17
+       },
+       {
+        "name": "Free wifi",
+        "amenity_id": 18
+       },
+       {
+        "name": "Smoke-free property",
+        "amenity_id": 21
+       },
+       {
+        "name": "Bar/Lounge",
+        "amenity_id": 23
+       },
+       {
+        "name": "Sauna",
+        "amenity_id": 24
+       },
+       {
+        "name": "Concierge services",
+        "amenity_id": 28
+       },
+       {
+        "name": "Luggage storage",
+        "amenity_id": 29
+       }
+      ],
+      "main_image_urls": [
+       "https://i.travelapi.com/lodging/16000000/15900000/15898500/15898482/fd2f7bf9_z.jpg"
+      ]
+     },
+     "rate": {
+      "nightly_price_before_tax": 229.62,
+      "nightly_total_price": 260.99,
+      "currency": "USD",
+      "is_mor": true,
+      "is_superplus_rate": false,
+      "is_superplus_eligible": true,
+      "super_plus_nightly_savings_before_taxes": null,
+      "surcharge": 22.1,
+      "tax_on_surcharge": null,
+      "num_nights": 1,
+      "num_rooms": 1,
+      "bar_price": 374.3699951171875,
+      "bar_price_before_tax": 329.37
+     },
+     "retail_rate": {
+      "nightly_price_before_tax": 340.34,
+      "nightly_total_price": 374.37,
+      "surcharge": 22.1,
+      "num_nights": 1,
+      "num_rooms": 1
+     }
+    },
+    {
+     "hotel": {
+      "id": "bjRYRplM",
+      "brand_id": "0",
+      "brand_name": "Independent",
+      "parent_brand_name": "Independent",
+      "name": "Colonna Palace Hotel",
+      "stars": 4,
+      "review_data": {
+       "ta_id": null,
+       "ta_review": 3.5,
+       "num_ta_reviews": 974,
+       "priceline_rating": 8,
+       "priceline_review_count": 138
+      },
+      "latitude": 41.900726,
+      "longitude": 12.478947,
+      "country": "IT",
+      "state": "RM",
+      "url_slug": "colonna-palace-hotel-rome",
+      "images": [
+       {
+        "url": "https://i.travelapi.com/lodging/1000000/30000/26100/26039/6aec4bb0_z.jpg",
+        "url_thumb": "https://i.travelapi.com/lodging/1000000/30000/26100/26039/6aec4bb0_b.jpg",
+        "priority": 0
+       }
+      ],
+      "image_urls": [
+       "https://i.travelapi.com/lodging/1000000/30000/26100/26039/5ac00c19_z.jpg"
+      ],
+      "amenities": [
+       "Offsite parking reservations required",
+       "Free wifi",
+       "Airport shuttle (additional charge)",
+       "Off-street parking",
+       "Free breakfast"
+      ],
+      "canonical_amenities": [
+       {
+        "name": "Free breakfast",
+        "amenity_id": 7
+       },
+       {
+        "name": "Airport shuttle (additional charge)",
+        "amenity_id": 9
+       },
+       {
+        "name": "24-hour front desk",
+        "amenity_id": 10
+       },
+       {
+        "name": "Business center",
+        "amenity_id": 12
+       },
+       {
+        "name": "Balcony",
+        "amenity_id": 13
+       },
+       {
+        "name": "Laundry",
+        "amenity_id": 15
+       },
+       {
+        "name": "Meeting rooms",
+        "amenity_id": 16
+       },
+       {
+        "name": "Free wifi",
+        "amenity_id": 18
+       },
+       {
+        "name": "Smoking area",
+        "amenity_id": 20
+       },
+       {
+        "name": "Smoke-free property",
+        "amenity_id": 21
+       },
+       {
+        "name": "Bar/Lounge",
+        "amenity_id": 23
+       },
+       {
+        "name": "Concierge services",
+        "amenity_id": 28
+       },
+       {
+        "name": "Luggage storage",
+        "amenity_id": 29
+       }
+      ],
+      "main_image_urls": [
+       "https://i.travelapi.com/lodging/1000000/30000/26100/26039/6aec4bb0_z.jpg"
+      ]
+     },
+     "rate": {
+      "nightly_price_before_tax": 140.76,
+      "nightly_total_price": 158.9,
+      "currency": "USD",
+      "is_mor": true,
+      "is_superplus_rate": false,
+      "is_superplus_eligible": true,
+      "super_plus_nightly_savings_before_taxes": null,
+      "surcharge": 16.45,
+      "tax_on_surcharge": null,
+      "num_nights": 1,
+      "num_rooms": 1,
+      "bar_price": 350.760009765625,
+      "bar_price_before_tax": 310.72
+     },
+     "retail_rate": {
+      "nightly_price_before_tax": 318.88,
+      "nightly_total_price": 350.76,
+      "surcharge": 16.45,
+      "num_nights": 1,
+      "num_rooms": 1
+     }
+    },
+    {
+     "hotel": {
+      "id": "bjRYL2lM",
+      "brand_id": "0",
+      "brand_name": "Independent",
+      "parent_brand_name": "Independent",
+      "name": "Hotel Eden - Dorchester Collection",
+      "stars": 5,
+      "review_data": {
+       "ta_id": null,
+       "ta_review": 5,
+       "num_ta_reviews": 340,
+       "priceline_rating": 9.3,
+       "priceline_review_count": 116
+      },
+      "latitude": 41.906425,
+      "longitude": 12.486422,
+      "country": "IT",
+      "state": "RM",
+      "url_slug": "hotel-eden-dorchester-collection-rome",
+      "images": [
+       {
+        "url": "https://i.travelapi.com/lodging/1000000/20000/16400/16311/9c0b4963_z.jpg",
+        "url_thumb": "https://i.travelapi.com/lodging/1000000/20000/16400/16311/9c0b4963_b.jpg",
+        "priority": 0
+       }
+      ],
+      "image_urls": [
+       "https://i.travelapi.com/lodging/1000000/20000/16400/16311/0c29f162_z.jpg"
+      ],
+      "amenities": [
+       "Free wired internet",
+       "Gym/fitness center",
+       "Pet Friendly",
+       "Wireless internet access",
+       "Free wifi",
+       "Vegetarian breakfast available",
+       "WiFi speed - 25+ Mbps",
+       "Wheelchair-accessible on-site restaurant",
+       "Thin carpet in room",
+       "Pet friendly",
+       "Restaurants",
+       "No accessible shuttle",
+       "Breakfast available (surcharge)",
+       "Valet parking (surcharge)"
+      ],
+      "canonical_amenities": [
+       {
+        "name": "Pet friendly",
+        "amenity_id": 1
+       },
+       {
+        "name": "Spa",
+        "amenity_id": 4
+       },
+       {
+        "name": "24-hour front desk",
+        "amenity_id": 10
+       },
+       {
+        "name": "Business center",
+        "amenity_id": 12
+       },
+       {
+        "name": "Balcony",
+        "amenity_id": 13
+       },
+       {
+        "name": "Gym/fitness center",
+        "amenity_id": 14
+       },
+       {
+        "name": "Laundry",
+        "amenity_id": 15
+       },
+       {
+        "name": "Meeting rooms",
+        "amenity_id": 16
+       },
+       {
+        "name": "Restaurants",
+        "amenity_id": 17
+       },
+       {
+        "name": "Free wifi",
+        "amenity_id": 18
+       },
+       {
+        "name": "Smoking area",
+        "amenity_id": 20
+       },
+       {
+        "name": "Smoke-free property",
+        "amenity_id": 21
+       },
+       {
+        "name": "Bar/Lounge",
+        "amenity_id": 23
+       },
+       {
+        "name": "Concierge services",
+        "amenity_id": 28
+       },
+       {
+        "name": "Luggage storage",
+        "amenity_id": 29
+       }
+      ],
+      "main_image_urls": [
+       "https://i.travelapi.com/lodging/1000000/20000/16400/16311/9c0b4963_z.jpg"
+      ]
+     },
+     "rate": {
+      "nightly_price_before_tax": 1003.88,
+      "nightly_total_price": 1104.26,
+      "currency": "USD",
+      "is_mor": false,
+      "is_superplus_rate": false,
+      "is_superplus_eligible": false,
+      "super_plus_nightly_savings_before_taxes": null,
+      "surcharge": 21.93,
+      "tax_on_surcharge": null,
+      "num_nights": 1,
+      "num_rooms": 1,
+      "bar_price": 1509.632568359375,
+      "bar_price_before_tax": 1372.4
+     },
+     "retail_rate": {
+      "nightly_price_before_tax": 1327.4,
+      "nightly_total_price": 1460.13,
+      "surcharge": 21.93,
+      "num_nights": 1,
+      "num_rooms": 1
+     }
+    }
+   ]
+  }
+ }
+}

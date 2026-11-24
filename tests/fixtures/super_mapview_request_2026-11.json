@@ -1,0 +1,36 @@
+{
+ "input": {
+  "queryParams": {
+   "checkin_at": "2027-02-10",
+   "checkout_at": "2027-02-11",
+   "num_adults": 2,
+   "children": "[]",
+   "latitude": 41.90083,
+   "longitude": 12.49363,
+   "name": "Rome",
+   "currency": "USD",
+   "country_code": "US",
+   "locale": "en-US",
+   "source": "web",
+   "user_properties": "region_code_from_ip=AZ&country_code_from_ip=US"
+  },
+  "deviceId": "d35d13d0-b09a-4b57-8618-8ffe6673a281"
+ },
+ "answer": {
+  "result": {
+   "data": {
+    "job_id": "hss-lds:fa840c8f-9a0c-440f-b4ca-f0afc1ec0f34",
+    "region_id": 37409,
+    "city": "Rome",
+    "latitude": 41.903755,
+    "longitude": 12.479556,
+    "country": "VA",
+    "from_cache": false
+   }
+  }
+ },
+ "headers": {
+  "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+  "x-session-id": "1223f3c5-61f0-4ff5-9650-8a646ce8067c"
+ }
+}

@@ -289,7 +289,7 @@ sellers:                     # every travel website that sells the room and take
   voyage_prive: {name: Voyage Privé, status: account, home: "https://www.voyage-prive.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   # seen selling watched hotels on Google Hotels (vendors survey: reports/vendors/latest counts hotels per vendor)
   holidaycheck: {name: HolidayCheck, status: probe, home: "https://www.holidaycheck.at/", note: "Google: 18 of 19 hotels"}
-  super_com: {name: Super.com, status: probe, home: "https://www.super.com/travel/", note: "listed on Google Hotels for watched hotels"}
+  super_com: {name: Super.com, status: live, home: "https://www.super.com/travel/", note: "its own map search (tRPC); only its own sales (merchant of record)"}
   reserving: {name: Reserving, status: probe, home: "https://www.reserving.com/", note: "listed on Google Hotels for watched hotels"}
   etrip: {name: Etrip.net, status: live, home: "https://www.etrip.net/", note: "built on Vio (same service sapi.fih.io, own brand): read as Vio"}
   goseek: {name: goseek, status: live, home: "https://www.goseek.com/", note: "built on Vio (same service sapi.fih.io, own brand): read as Vio"}
@@ -632,6 +632,39 @@ vio:                         # Vio.com's own sales; Etrip.net, goSeek... are the
   stop_after_errors: 25
   max_minutes: 30
   hotel_url: "https://www.vio.com/Hotel/Search?hotelId={id}&checkIn={checkin}&checkOut={checkout}&rooms={adults}"
+
+super_com:                   # Super.com's own sales (hotel_scraper/super_com.py; owner, 2026-11-23: every vendor)
+  home: "https://www.super.com/travel/hotels/"
+  trpc: "https://www.super.com/snapcommerce/api/trpc"
+  hotel_url: "https://www.super.com/travel/hotels/{slug}/{id}?num_adults={adults}&children=%5B%5D&checkin_at={checkin}&checkout_at={checkout}"
+  browser: *person_browser   # Cloudflare checks the visitor (challenge-platform seen on its pages)
+  accept_language: "en-GB,en;q=0.9"
+  user_properties: ""        # taken from the page's own calls (Super.com fills in the visitor's country)
+  currency: EUR
+  country: IT
+  locale: en-US
+  warm_up_s: 8
+  searches_at_once: 4        # map searches started together (each is a job polled until finished, ~20-30 s)
+  max_polls: 40
+  poll_seconds: 1.5
+  ids_night_days: 45         # the night of the id search (a hotel full that night is looked up again later)
+  max_km: 3.0                # same name-and-place rules as Agoda
+  min_similarity: 0.8
+  near_km: 1.0
+  min_similarity_near: 0.7
+  close_km: 0.2
+  min_similarity_close: 0.5
+  same_place_km: 0.15
+  retry_days: 14
+  ids_per_run: 200
+  ids_share: 0.5
+  areas_per_pass: 40         # areas (Super.com regions) searched per pass; one search prices every mapped hotel there
+  nights_per_pass: 3
+  night_stride: 122
+  min_lead_days: 1
+  horizon_days: 365
+  stop_after_errors: 12
+  max_minutes: 25
 
 engines:                     # hotels' own booking engines (hotel_scraper/engines.py; owner, 2026-11-23: every vendor)
   live: [seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft, synxis, blastness]   # engines with a reader

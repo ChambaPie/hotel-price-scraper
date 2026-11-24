@@ -9,14 +9,15 @@ name: Other sellers
 #   trip_com  Trip.com (its own search-box and results-list calls, from inside its page)
 #   hrs       HRS and hotel.de (same company and offers): its own search-box and hotel-search calls
 #   vio       Vio.com (and Etrip, goSeek...: same service): its own price calendar, only its own sales
+#   super_com Super.com: its own map search per area and night, only its own sales (merchant of record)
 #   publish   each reader's rows replace that reader's rows in the shared files
 on:
   # started by the Clock workflow (settings clock): GitHub's schedules reached this repository hours late
   workflow_dispatch:
     inputs:
       readers:
-        description: "Readers to run (JSON list): agoda, official, trip_com, hrs, vio"
-        default: '["agoda", "official", "trip_com", "hrs", "vio"]'
+        description: "Readers to run (JSON list): agoda, official, trip_com, hrs, vio, super_com"
+        default: '["agoda", "official", "trip_com", "hrs", "vio", "super_com"]'
       part:
         description: "ids, prices or all"
         default: "all"
@@ -47,7 +48,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        reader: ${{ fromJSON(inputs.readers || '["agoda", "official", "trip_com", "hrs", "vio"]') }}
+        reader: ${{ fromJSON(inputs.readers || '["agoda", "official", "trip_com", "hrs", "vio", "super_com"]') }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -121,6 +122,16 @@ jobs:
           set -o pipefail
           mkdir -p out
           python -m hotel_scraper.vio --part "$PART" ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/vio.log
+      - name: Super.com
+        if: matrix.reader == 'super_com'
+        env:
+          PART: ${{ inputs.part || 'all' }}
+          MIN: ${{ inputs.minutes }}
+        run: |
+          set -o pipefail
+          mkdir -p out
+          command -v xvfb-run >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq xvfb; }
+          xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.super_com --part "$PART" ${MIN:+--max-minutes "$MIN"} 2>&1 | tee out/super_com.log
       - name: This reader's rows
         if: always()
         env:
