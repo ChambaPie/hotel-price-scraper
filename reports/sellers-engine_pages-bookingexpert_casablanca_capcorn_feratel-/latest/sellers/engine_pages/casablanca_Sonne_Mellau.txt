@@ -1,0 +1,10 @@
+#URL https://bookingengine.casablanca.at/de/14a10f44-f042-4993-9c32-c074d62ac1b3/sonne-mellau?numberOfRooms=1
+#FINAL https://bookingengine.casablanca.at/de/14a10f44-f042-4993-9c32-c074d62ac1b3/sonne-mellau?numberOfRooms=1
+#TITLE Booking Engine
+Deutsch
+Zimmerbelegung
+Zimmerbelegung wählen
+Zeitraum
+Zeitraum wählen
+AGB
+programmiert von CASABLANCA hotelsoftware

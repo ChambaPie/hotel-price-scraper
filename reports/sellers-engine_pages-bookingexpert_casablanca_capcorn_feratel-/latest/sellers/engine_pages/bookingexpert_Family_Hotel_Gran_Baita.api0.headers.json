@@ -1,0 +1,10 @@
+{
+ "sec-ch-ua-platform": "\"Windows\"",
+ "referer": "https://be.bookingexpert.it/book/simple/noavail?checkin=1677798000000&checkout=1677884400000&hotel=18075&guesttypes[0][20463]=2&ages[0][20463]=18&ages[0][20463]=18&layout=15437&lang=it&currency=EUR&_ga=2.235319489.1974854652.1677683645-1858624583.1677683645&nsid=f78ac5a4-bcda-4824-b3fc-a0ff2ec6f303&winding=1&searchId=a3ee9942-b4dd-4c98-9d77-ab0579095243",
+ "accept-language": "en-GB",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "sec-ch-ua-mobile": "?0",
+ "x-requested-with": "XMLHttpRequest",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+ "accept": "application/json, text/javascript, */*; q=0.01"
+}

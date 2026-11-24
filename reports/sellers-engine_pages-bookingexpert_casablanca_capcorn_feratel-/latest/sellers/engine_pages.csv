@@ -1,0 +1,9 @@
+engine,pid,hotel,url,status,final_host,blocked,prices,name_found,chars,json_saved,seconds,error
+bookingexpert,ta:g1020227-d565391,Family Hotel Gran Baita,https://be.bookingexpert.it/book/simple/step2?checkin=1677798000000&checkout=1677884400000&hotel=18075&guesttypes[0][20463]=2&ages[0][20463]=18&ages[0][20463]=18&layout=15437&lang=it&currency=EUR&_ga=,200,be.bookingexpert.it,,0,True,4047,1,14.5,
+bookingexpert,ta:g187770-d754487,Victoria Hotel,https://be.bookingexpert.it/book/simple/noavail?&hotel=5552&lang=it&currency=EUR&nsid=6a8c6cd1-076c-472e-9269-b44a6925da83&_ga=2.257587403.1553593666.1526889746-1145941721.1516891043,200,be.bookingexpert.it,,1,True,3343,0,11.9,
+casablanca,ta:g1498253-d1229345,Sonne Mellau,https://bookingengine.casablanca.at/de/14a10f44-f042-4993-9c32-c074d62ac1b3/sonne-mellau?numberOfRooms=1,200,bookingengine.casablanca.at,,0,False,115,0,13.3,
+casablanca,ta:g1055468-d1584454,Hotel-Restaurant Grimmingblick,https://www.hotelgrimmingblick.at/de/kontakt/kontakt.php,200,hotelgrimmingblick.at,,0,True,2160,0,12.3,
+capcorn,ta:g1101280-d1730915,Hotel Stadler,https://www.capcorn.net/hotel-stadler-booking/Query?MB=7170&FL=20&LG=0,200,capcorn.net,,0,True,1860,3,13.4,
+capcorn,ta:g608663-d2395722,Hotel Barbarahof,https://www.capcorn.net/barbarahof-booking/Query?MB=1107&FL=20&LG=0,200,capcorn.net,,0,True,1266,3,13.3,
+feratel,ta:g608665-d674830,Hotel Zinnkruegl,https://booking.zinnkruegl.at/websLINE-ABM/Homepage/booking,200,booking.zinnkruegl.at,,0,False,1427,0,12.8,
+feratel,ta:g641759-d656203,Hotel & Spa Der Steirerhof,https://www.dersteirerhof.at/de/ihre-unverbindliche-steirerhof-zimmeranfrage.html,200,dersteirerhof.at,,0,True,4577,2,11.9,

@@ -1,0 +1,1 @@
+GET https://www.dersteirerhof.at/api/website/profile/data?lang=de&fallbackLang=en
