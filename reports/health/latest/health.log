@@ -4,7 +4,8 @@
 - `catalog.yml`: last success 2026-11-24T10:13:51Z
 - `osm.yml`: last success 2026-11-23T10:57:52Z
 - `places.yml`: last success 2026-11-23T17:27:49Z
-- `sellers.yml`: last success 2026-11-24T11:29:11Z
+- `sellers.yml`: last success 2026-11-24T12:58:55Z
 - `vendors.yml`: last success 2026-11-24T07:52:51Z
 
-All good.
+PROBLEMS:
+`booking.yml` last succeeded 9 h ago (limit 8 h)
