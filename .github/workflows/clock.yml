@@ -1,0 +1,46 @@
+name: Clock
+# Starts the collection workflows when due (settings clock; hotel_scraper/clock.py). GitHub's own schedules reach this
+# repository hours late or not at all (2026-11-24: the hourly Booking.com cron ran twice in 22 hours); a
+# workflow_dispatch starts at once. Each clock run ticks for about 5.5 hours, then starts its successor; the schedule
+# below only restarts the chain if it ever breaks.
+on:
+  schedule:
+    - cron: "7 */3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: clock
+  cancel-in-progress: false
+
+permissions:
+  actions: write    # start workflows (workflow_dispatch) and read their runs
+  contents: read
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Tick
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          read -r every n < <(python -c "from hotel_scraper import config; c=config.load()['clock']; print(c['tick_minutes'], c['ticks_per_run'])")
+          for i in $(seq 1 "$n"); do
+            git pull -q --ff-only origin main || true          # settings changed since this run began
+            python -m hotel_scraper.clock || echo "tick failed"
+            [ "$i" -lt "$n" ] && sleep $((every * 60))
+          done
+          true
+      - name: Next clock
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m hotel_scraper.clock --successor

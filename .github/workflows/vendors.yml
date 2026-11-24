@@ -5,8 +5,7 @@ name: Vendors per hotel
 # official website's address: data/hotel_vendors.csv, rolling (settings google_vendors). The vendor counts decide which
 # vendor readers come next (owner, 2026-11-23: every vendor that sells the room itself).
 on:
-  schedule:
-    - cron: "47 5,11,17,23 * * *"   # 4 a day until every hotel has been looked up (public repo: free minutes)
+  # started by the Clock workflow (settings clock): GitHub's schedules reached this repository hours late
   workflow_dispatch:
     inputs:
       minutes:

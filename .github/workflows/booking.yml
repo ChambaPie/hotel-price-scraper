@@ -8,8 +8,7 @@ name: Booking.com collection
 #   calendars  4 parallel jobs, each a share of the properties (settings booking_scan.shards)
 #   publish    newest calendar per property -> `snapshots` branch (read by the private repo)
 on:
-  schedule:
-    - cron: "23 * * * *"   # hourly; most runs find no pass due and stop after a few seconds
+  # started by the Clock workflow (settings clock): GitHub's schedules reached this repository hours late
   workflow_dispatch:
     inputs:
       force:

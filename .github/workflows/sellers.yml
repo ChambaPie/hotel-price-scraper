@@ -11,8 +11,7 @@ name: Other sellers
 #   vio       Vio.com (and Etrip, goSeek...: same service): its own price calendar, only its own sales
 #   publish   each reader's rows replace that reader's rows in the shared files
 on:
-  schedule:
-    - cron: "41 1,5,9,13,17,21 * * *"   # every 4 hours
+  # started by the Clock workflow (settings clock): GitHub's schedules reached this repository hours late
   workflow_dispatch:
     inputs:
       readers:

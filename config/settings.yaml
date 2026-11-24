@@ -159,9 +159,23 @@ booking_scan:                # Phase 9: Booking.com via headless browser (calend
 
 
 
+clock:                       # starts collection workflows when due (hotel_scraper/clock.py, workflow clock.yml):
+  # GitHub's own schedules reach this repository hours late or not at all (2026-11-24: hourly cron ran twice in 22 h)
+  workflow: clock.yml
+  ref: main
+  tick_minutes: 10           # how often it looks
+  ticks_per_run: 33          # then it starts its successor (a job may last 6 hours)
+  slack_minutes: 10          # a workflow is due this much before its full interval
+  workflows:                 # workflow file: hours between runs (any run counts, also one started by hand), inputs
+    booking.yml: {every_hours: 1, inputs: {force: "false"}}   # Booking.com decides itself whether a pass is due
+    sellers.yml: {every_hours: 4}       # other sellers (owner: every 4 hours)
+    vendors.yml: {every_hours: 6}       # who sells each hotel (Google Hotels), until every hotel is looked up
+  # daily workflows (catalog, places, probe) keep their own schedules: a few hours late is fine for them
+
 ops:                         # Phase 8: daily health check (workflow file -> max hours since its last successful run)
   max_hours_since_success:
     booking.yml: 8
+    clock.yml: 8               # the clock that starts booking, sellers and vendors
     catalog.yml: 30
     osm.yml: 200
     places.yml: 30
