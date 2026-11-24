@@ -167,8 +167,21 @@ class EdreamsPage:
         self.br.close()
 
 
-def find_id(page, w: dict, ec: dict, stats: dict, log=log) -> dict | None:
+def where(page, hotel_id: str, ec: dict, night: date, adults: int, log=log) -> tuple:
+    """A suggested hotel's position: its own geoAccommodationLocation, or, when that answers HTTP 500 (12 hotels in
+    run 45435697486), the hotel search around it (the hotel itself comes first, with its coordinates)."""
+    try:
+        return page.position(hotel_id)
+    except Exception as e:  # noqa: BLE001
+        log(f"position {hotel_id}: {str(e)[:100]}; from its search instead")
+    got = page.search([(hotel_id, night, adults)])[0]
+    x = got["offers"].get(str(hotel_id)) or {}
+    return x.get("lat"), x.get("lon")
+
+
+def find_id(page, w: dict, ec: dict, stats: dict, log=log, night: date | None = None, adults: int = 2) -> dict | None:
     best, tried = None, set()
+    night = night or date.today() + timedelta(days=ec["ids_night_days"])
     for tpl in ec["queries"]:
         q = tpl.format(name=w["name"], city=w.get("city", "")).strip()
         try:
@@ -176,7 +189,9 @@ def find_id(page, w: dict, ec: dict, stats: dict, log=log) -> dict | None:
                 if c["id"] in tried:
                     continue
                 tried.add(c["id"])
-                lat, lon = page.position(c["id"])
+                lat, lon = where(page, c["id"], ec, night, adults, log)
+                if lat is None:
+                    continue
                 m = judge(w, {**c, "lat": lat, "lon": lon}, ec)
                 if m and m["ok"]:
                     return m
@@ -217,7 +232,7 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
         for w in todo:
             if clock() - started > budget or stats["errors"] >= ec["stop_after_errors"]:
                 break
-            b = find_id(page, w, ec, stats, log) or {}
+            b = find_id(page, w, ec, stats, log, today + timedelta(days=ec["ids_night_days"]), adults) or {}
             ok = bool(b.get("ok"))
             stats["ids_found" if ok else "ids_missed"] += 1
             known[w["pid"]] = {"pid": w["pid"], "seller": SELLER, "seller_id": b.get("id", ""), "city_id": "",

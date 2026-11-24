@@ -104,3 +104,17 @@ def test_calls_accept_what_its_page_accepts():
     """Regression (run 45429732636): eDreams' suggestion service answered HTTP 406 "No match for accept header" to
     'accept: application/json' alone (every hotel failed). The page's own value is sent."""
     assert "'accept': 'application/json, text/plain, */*'" in edreams.CALLS_JS
+
+
+def test_position_from_its_search_when_its_position_call_fails():
+    """Regression (run 45435697486): eDreams' geoAccommodationLocation answered HTTP 500 for 12 suggested hotels (each
+    counted as an error, ending the pass). The hotel search around that hotel gives its coordinates instead."""
+    class Failing(FakePage):
+        def position(self, geo_id):
+            raise RuntimeError('eDreams HTTP 500: {"errors":[{"message":"Internal server error"}]}')
+    page = Failing()
+    w = {"name": "Hotel Artemide", "city": "Rome", "lat": "41.9005", "lon": "12.4930"}
+    stats = {"errors": 0}
+    m = edreams.find_id(page, w, CFG["edreams"], stats, log=lambda m: None, night=date(2027, 2, 10))
+    assert m["ok"] and m["id"] == "46539" and stats["errors"] == 0
+    assert page.searches == [[("46539", date(2027, 2, 10), 2)]]

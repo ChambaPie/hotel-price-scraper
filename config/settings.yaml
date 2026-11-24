@@ -663,6 +663,7 @@ edreams:                     # eDreams' own prices (hotel_scraper/edreams.py; ow
   warm_up_s: 8
   queries: ["{name} {city}", "{name}"]
   candidates_checked: 3      # hotel suggestions checked by position per query
+  ids_night_days: 45         # when its position call fails, the night of the search that gives the position instead
   max_km: 3.0                # same name-and-place rules as Agoda
   min_similarity: 0.8
   near_km: 1.0
