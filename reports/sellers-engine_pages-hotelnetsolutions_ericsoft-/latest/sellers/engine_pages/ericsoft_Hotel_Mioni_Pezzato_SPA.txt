@@ -1,0 +1,281 @@
+#URL https://booking.ericsoft.com/BookingEngine/book.aspx?idh=1E85423534B413F9&lang=it&cur=EUR
+#FINAL https://booking.ericsoft.com/it/BookingEngine/Book?idh=1E85423534B413F9&lang=it&cur=EUR&arrival=2026-11-24&departure=2026-11-25&guests=2361-4
+#TITLE Hotel Mioni Pezzato - Abano Terme (PD) 35031 - Italia
+zbe_brand_facebook
+zbe_brand_twitter
+zbe_brand_pinterest
+zbe_brand_youtube
+zbe_brand_foursquare
+zbe_brand_instagram
+zbe_brand_tripadvisor
+€
+zbe_language IT
+zbe_star_ratezbe_star_ratezbe_star_ratezbe_star_rate
+Hotel Mioni Pezzato
+zbe_call
+049 8668377
+zbe_mail
+info@hotelmionipezzato.com
+zbe_info
+Info
+zbe_calendar_today
+Check-in
+24 nov 2026
+zbe_calendar_today
+Check-out
+25 nov 2026
+Notti
+1
+novembre 2026
+zbe_chevron_left
+zbe_chevron_right
+lun	mar	mer	gio	ven	sab	dom
+
+
+26
+	
+27
+	
+28
+	
+29
+	
+30
+	
+31
+	
+nov
+1
+
+
+2
+	
+3
+	
+4
+	
+5
+	
+6
+	
+7
+	
+8
+
+
+9
+	
+10
+	
+11
+	
+12
+	
+13
+	
+14
+	
+15
+
+
+16
+	
+17
+	
+18
+	
+19
+	
+20
+	
+21
+	
+22
+
+
+23
+	
+24
+	
+25
+	
+26
+	
+27
+	
+28
+	
+29
+
+
+30
+	
+dic
+1
+	
+2
+	
+3
+	
+4
+	
+5
+	
+6
+
+
+Camere
+ 
+1
+zbe_remove
+zbe_add
+1
+1
+Persona/e
+0
+Persona aggiuntiva da 4 anni
+Codice promozionale
+zbe_chevron_left
+Pacchetto soggiorno 14 notti + 12 giorni di cura con impegnativa
+zbe_info
+EASY PROMO 3 notti
+zbe_info
+EASY PROMO - 5 notti
+zbe_info
+Pacchetto CURE con soggiorni di 7 notti + 6 giorni di cura
+zbe_info
+Pacchetto soggiorno 12 notti + 10 giorni di cura
+zbe_info
+Pacchetto soggiorno 14 notti + 12 giorni di cura
+zbe_info
+Pacchetto soggiorno 7 notti + 6 giorni di cura con impegnativa
+zbe_info
+Pacchetto soggiorno 12 notti + 10 giorni di cura con impegnativa
+zbe_info
+Pacchetto soggiorno 14 notti + 12 giorni di cura con impegnativa
+zbe_info
+EASY PROMO 3 notti
+zbe_info
+zbe_chevron_right
+zbe_info
+Camera
+ 
+1
+ 
+Di
+ 
+1
+ 
+Queste sono le nostre proposte per te, scegli la tua preferita
+2 DISPONIBILE
+zbe_photo_library
+Camera matrimoniale Smart
+Ideale per
+zbe_man
+Da 18 a 23 Mq (bagno compreso)Camere eleganti dal design fresco, moderno e rilassante.La scelta ideale per chi cerca la funzionalità in un’atmosfera accogliente e riposante. Completamente rinnovate a Giugno 2025 Vista: sul retro dell’albergo, sul tetto della cucina, sugli impianti tecnicioppure su una stradina laterale.Pavimento: laminato.Servizi: bagno con doccia, aria condizionata, TV LCD con Sky TV,telefono, WiFi, phon, cassaforte, minibar e scrivania.Nota: non dispongono del balcone.  
+Altro
+zbe_ac_unit
+Aria condizionata
+zbe_tv
+TV schermo piatto
+zbe_bathroom
+Bagno privato
+zbe_shower
+Doccia
+zbe_wifi
+Internet wireless
+zbe_home_max
+TV schermo piatto
+A partire da
+€ 164,00
+Per 1 notte
+INFO E PRENOTA
+2 DISPONIBILE
+zbe_photo_library
+Camera Classic Superior
+Ideale per
+zbe_man
+zbe_man
+zbe_man
+Da 37 a 38 Mq (bagno compreso)Sono camere molto confortevoli dal design classico-contemporaneo,arredate con colori rigeneranti e riposanti.Vista: sul giardino dell’hotel. Pavimento: laminato.Servizi: balcone, bagno con doccia e in alcune camere anche vasca, aria condizionataregolabile individualmente, TV LCD con Sky TV, telefono, WiFi, phon,cassaforte, minibar e scrivania.
+Altro
+zbe_ac_unit
+Aria condizionata
+zbe_tv
+TV schermo piatto
+zbe_bathroom
+Bagno privato
+zbe_shower
+Doccia
+zbe_wifi
+Internet wireless
+zbe_home_max
+TV schermo piatto
+zbe_bathtub
+Vasca da bagno
+zbe_local_florist
+Vista giardino
+zbe_balcony
+Balcone
+A partire da
+€ 200,00
+Per 1 notte
+INFO E PRENOTA
+zbe_photo_library
+Mini Suite
+Ideale per
+zbe_man
+zbe_man
+zbe_man
+zbe_man
+Da 38 a 40 Mq (bagno compreso)Camere moderne ed eleganti dove ogni dettaglio è studiato per offrire una sensazione di benessere e comfort esclusivo.Queste camere si distinguono per ambienti armoniosi e funzionali:Su ogni piano le camere -05 è un ampio open space dal design contemporaneo.Le camere -06 -07 -08 offrono la comodità di un salotto separato e cabina armadio.Chiediamo di comunicare la vostra preferenza qualora ci fosse Completamente rinnovate a Giugno 2025 Vista: stradina accanto all’hotelPavimento: parquet naturale.Servizi: bagno con grande doccia, aria condizionata, TV LCD con Sky TV,telefono, WiFi, phon, cassaforte, minibar e scrivania.Nota: dispongono di un piccolo balconcino sulla strada. 
+Altro
+zbe_ac_unit
+Aria condizionata
+zbe_tv
+TV schermo piatto
+zbe_bathroom
+Bagno privato
+zbe_shower
+Doccia
+zbe_wifi
+Internet wireless
+zbe_home_max
+TV schermo piatto
+zbe_balcony
+Balcone
+A partire da
+€ 204,00
+Per 1 notte
+INFO E PRENOTA
+VERIFICA DISPONIBILITÀ
+zbe_search
+zbe_arrow_back
+INDIETRO
+informativa sulla privacy
+cookie policy
+accessibilità
+Prima di continuare
+zbe_close
+Usiamo cookie e dati per
+zbe_shield
+Fornire e gestire i servizi Zucchetti Hospitality
+zbe_warning
+Monitorare le interruzioni dei servizi e proteggere da attività fraudolente e abusi
+zbe_insights
+Misurare le prestazioni del nostro sito
+Se scegli “Accetta tutto”, useremo cookie e dati anche per
+zbe_bar_chart
+Misurare il coinvolgimento del pubblico e le statistiche dei siti per capire come vengono usati i nostri servizi e per migliorarne la qualità
+zbe_bar_chart
+Pubblicare annunci e valutarne l'efficacia
+Se scegli “Rifiuta tutto”, non useremo i cookie per le finalità aggiuntive indicate.
+Seleziona “Altre opzioni” per avere ulteriori informazioni, inclusi dettagli sulla gestione delle impostazioni della privacy
+zbe_help
+Leggi di più sui cookies
+RIFIUTA TUTTO
+ALTRE OPZIONI
+ACCETTA TUTTO
+zbe_info
+L'ultima prenotazione risale a 12 minuti fa da Ucraina
+CHIUDI

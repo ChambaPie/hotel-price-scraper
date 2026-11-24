@@ -1,0 +1,2 @@
+POST https://booking.ericsoft.com/api/book/GetConfiguration
+{"languageType":1,"licenseIdh":"1E85423534B413F9"}

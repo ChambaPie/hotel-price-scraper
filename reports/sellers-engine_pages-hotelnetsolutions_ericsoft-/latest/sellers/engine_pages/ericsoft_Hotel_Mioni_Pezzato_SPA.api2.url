@@ -1,0 +1,2 @@
+POST https://booking.ericsoft.com/api/book/GetSolutions
+{"languageType":1,"licenseIdh":"1E85423534B413F9","startDate":"2026-11-24","endDate":"2026-11-25","userCurrencyCode":"EUR","conventionCode":"","resources":[{"guests":[{"personTypeId":2361,"quantity":1}]}]}

@@ -1,0 +1,5 @@
+engine,pid,hotel,url,status,final_host,blocked,prices,name_found,chars,json_saved,seconds,error
+hotelnetsolutions,ta:g1172212-d3807287,Das Naturhotel Chesa Valisa,https://www.naturhotel.at/buchen/?lang=de,200,naturhotel.at,,33,True,12971,8,14.2,
+hotelnetsolutions,ta:g187309-d201931,Hotel Torbräu,https://www.vbooking.de/v3/booking.aspx?clientid=torbraeu,200,vbooking.de,,4,True,811,2,14.3,
+ericsoft,ta:g194659-d487705,Hotel Mioni Pezzato & SPA,https://booking.ericsoft.com/BookingEngine/book.aspx?idh=1E85423534B413F9&lang=it&cur=EUR,200,booking.ericsoft.com,,3,True,5027,4,12.0,
+ericsoft,ta:g194664-d1972023,Hotel Calissano,https://booking.ericsoft.com/BookingEngine/Book?idh=C4F7F3CFA10444AB&lang=it&cur=EUR&pax=2_0&acmp=RT0,200,booking.ericsoft.com,,5,True,6117,4,12.0,

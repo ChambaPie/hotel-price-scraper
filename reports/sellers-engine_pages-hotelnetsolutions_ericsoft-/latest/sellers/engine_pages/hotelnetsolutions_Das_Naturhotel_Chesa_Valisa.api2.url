@@ -1,0 +1,2 @@
+POST https://v6.onepagebooking.com/api/Property
+{"languageCode":"de","sessionID":"db5015f1-0b65-4e89-955a-fa1ad86a29bb","code":"naturhotel-chesa-valisa","children":0,"bookingDirect":"","currencyCode":"","module":"Public","moduleID":0,"rateType":[],"referrer":"","trivagoDirectReference":null,"url":"https://www.naturhotel.at/naturhotel-chesa-valisa","sessionStart":true,"source":"","bookingID":null,"bookingNumber":null,"isPromotion":false,"userID":0}

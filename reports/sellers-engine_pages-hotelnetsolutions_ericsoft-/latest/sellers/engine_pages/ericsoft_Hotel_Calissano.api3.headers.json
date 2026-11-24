@@ -1,0 +1,18 @@
+{
+ "sec-ch-ua-platform": "\"Windows\"",
+ "x-xsrf-token": "CfDJ8M0BZaExqhlGgyPKCrm9n4j1h0kMciCmidwCAOFg85lxlBoSUr_S-_yRAWEcBiaSmO7qcvWj5z5BJpmLdxe06LyxHe1oE3vitwlNvxXfHTsh1PW1pKZTUn5OdM3XHQ0fDA_culDJ3kZHA6JB8gxqwkk",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "x-api-version": "2.0",
+ "sec-ch-ua-mobile": "?0",
+ "x-requested-with": "XMLHttpRequest",
+ "accept": "application/json, text/plain, */*",
+ "content-type": "application/json",
+ "x-bookingengine": "5d0de6b1b24e4a738aa39d214c76e8e8",
+ "data-type": "json",
+ "cache-control": "no-cache",
+ "referer": "",
+ "accept-language": "en-GB",
+ "x-display-language": "it",
+ "x-app-version": "0.0.0",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+}

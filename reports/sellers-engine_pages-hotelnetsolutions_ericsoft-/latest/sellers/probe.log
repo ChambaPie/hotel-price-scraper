@@ -1,0 +1,13 @@
+09:53:16 hotelnetsolutions Das Naturhotel Chesa Valisa    200 prices=33 json=8 
+09:53:34 hotelnetsolutions Hotel Torbräu                  200 prices=4 json=2 
+09:53:49 ericsoft         Hotel Mioni Pezzato & SPA      200 prices=3 json=4 
+09:54:04 ericsoft         Hotel Calissano                200 prices=5 json=4 
+# Booking-engine pages
+
+| engine | hotel | status | site | prices on the page | JSON saved |
+|---|---|---|---|---|---|
+| hotelnetsolutions | Das Naturhotel Chesa Valisa | 200 | naturhotel.at | 33 | 8 |
+| hotelnetsolutions | Hotel Torbräu | 200 | vbooking.de | 4 | 2 |
+| ericsoft | Hotel Mioni Pezzato & SPA | 200 | booking.ericsoft.com | 3 | 4 |
+| ericsoft | Hotel Calissano | 200 | booking.ericsoft.com | 5 | 4 |
+

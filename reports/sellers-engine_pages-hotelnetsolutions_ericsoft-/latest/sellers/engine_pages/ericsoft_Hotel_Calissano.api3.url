@@ -1,0 +1,2 @@
+POST https://booking.ericsoft.com/api/book/GetGeneralAvailability
+{"licenseIdh":"C4F7F3CFA10444AB","startDate":"2026-10-26T00:00:00.000Z","endDate":"2026-12-06T00:00:00.000Z","conventionCode":""}

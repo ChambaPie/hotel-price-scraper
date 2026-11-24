@@ -1,0 +1,11 @@
+{
+ "sec-ch-ua-platform": "\"Windows\"",
+ "referer": "https://www.vbooking.de/v3/booking.aspx?clientid=torbraeu",
+ "accept-language": "en-GB",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "sec-ch-ua-mobile": "?0",
+ "x-requested-with": "XMLHttpRequest",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+ "accept": "application/json, text/javascript, */*; q=0.01",
+ "content-type": "application/json; charset=UTF-8"
+}

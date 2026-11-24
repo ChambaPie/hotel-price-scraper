@@ -1,0 +1,11 @@
+{
+ "sec-ch-ua-platform": "\"Windows\"",
+ "authorization": "Bearer JUZrZhTUbhu8YDXwcDdpGaTwWJ1nnDpUbBliQKOm-Z_IRhAS4aKBIP6irbCyCvmmoCLJ7Dyo5goY1ioRBgHTNnouBHUX9ti0A_x4jGCKqfOY4OpDUy2PCgfsw0B9MQZB2MMk1N6TkLzCV3vsaD8rsCfYqxvQjlHoe6zvNsHf8gE3POyNCrCsid3hGFBQVEKz0a__evbcuIiVjK8DFyHCd-IqJsmYnkuIUUTQL1yLxeIaROVmThZP2kF4ezg1ZnpZQyZPkfsg6t3Ccb7rweT-ErQ5wgMS3ejuMiOSuofsvJaDVjxdkY7jKGDlFrfdyncY",
+ "referer": "https://www.naturhotel.at/",
+ "accept-language": "en-GB",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "sec-ch-ua-mobile": "?0",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+ "accept": "application/json, text/plain, */*",
+ "content-type": "application/json"
+}
