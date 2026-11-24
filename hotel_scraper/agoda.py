@@ -274,7 +274,33 @@ def judge(w: dict, p: dict, ac: dict) -> dict | None:
     ok = (km <= ac["max_km"] and sim >= ac["min_similarity"] or km <= ac["near_km"] and sim >= ac["min_similarity_near"]
           or km <= ac.get("close_km", 0) and sim >= ac.get("min_similarity_close", 1)
           or km <= ac["same_place_km"] and contains(w["name"], p["name"]))
+    if ok and ac.get("generic_words"):
+        ok = words_agree(w["name"], p["name"], set(ac["generic_words"]), words(w.get("city") or ""))
     return {**p, "km": round(km, 2), "similarity": sim, "ok": ok}
+
+
+def words(name: str) -> list[str]:
+    import unicodedata
+    s = unicodedata.normalize("NFKD", name.replace("ß", "ss")).encode("ascii", "ignore").decode().lower()
+    return [t for t in re.split(r"[^a-z0-9]+", s) if t]
+
+
+def words_agree(ours: str, theirs: str, generic: set, town: list[str] = ()) -> bool:
+    """The distinctive words of one name are all in the other (the same word, one inside the other, or nearly the
+    same spelling): "Anton Pension" is not "Pension Sportalm", "Ruby Louise Hotel Frankfurt by IHG" is not "Kimpton
+    Main Frankfurt by IHG", while "Hotel Oktogon" is "Hotel Oktogon Haggenmacher" (seller names are often shorter).
+    Kind-of-place words, the town and short tokens ("4s") are not distinctive; a name without any says nothing."""
+    from difflib import SequenceMatcher
+
+    def distinct(name):          # the town in any language ("Roma" for Rome, "Nürnberg" for Nuremberg) is no clue
+        return [t for t in words(name) if t not in generic and len(t) > 2 and not t.isdigit()
+                and not any(SequenceMatcher(None, t, c).ratio() >= 0.75 for c in town if len(c) > 2)]
+
+    def within(mine, other):
+        return all(any(t == o or len(t) >= 4 and len(o) >= 4 and (t in o or o in t)
+                       or SequenceMatcher(None, t, o).ratio() >= 0.8 for o in other) for t in mine)
+    a, b = distinct(ours), distinct(theirs)
+    return within(b, words(ours)) or within(a, words(theirs))
 
 
 def contains(a: str, b: str) -> bool:

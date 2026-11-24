@@ -260,3 +260,45 @@ def test_agoda_refusing_every_search_is_waited_out(tmp_path):
     cfg["agoda"]["night_stride"] = 7
     res = agoda.run(cfg, "prices", 5, Refusing(), today=date(2026, 11, 24), log=lambda m: None, sleep=waits.append)
     assert cfg["agoda"]["backoff_s"] in waits and res["priced"] >= 1
+
+
+def test_distinctive_words_of_one_name_are_in_the_other():
+    """Regression (2026-11-24): stored matches that passed on likeness and distance but are other hotels: HRS "Ruby
+    Louise Hotel Frankfurt by IHG" for Kimpton Main Frankfurt by IHG (90 m), Super.com "Anton Pension" for Pension
+    Sportalm (200 m), "Hotel Sacher Salzburg" for Hotel Bristol Salzburg (110 m), "Reduce Hotel Vital" for its sister
+    Reduce Hotel Thermal. Shorter or longer names of the same hotel still match."""
+    from hotel_scraper.agoda import judge
+    c = config.load()["hrs"]
+
+    def same(ours, theirs, city="", east=0.001):
+        return judge({"name": ours, "lat": "47.0", "lon": "12.0", "city": city},
+                     {"name": theirs, "lat": 47.0, "lon": 12.0 + east}, c)["ok"]
+    assert not same("Kimpton Main Frankfurt by IHG", "Ruby Louise Hotel Frankfurt By Ihg", "Frankfurt am Main")
+    assert not same("Pension Sportalm", "Anton Pension", "Soelden", 0.0026)
+    assert not same("Hotel  Bristol Salzburg", "Hotel Sacher Salzburg", "Salzburg")
+    assert not same("Reduce Hotel Thermal", "Reduce Hotel Vital", "Bad Tatzmannsdorf")
+    assert not same("Hotel Villa Gori", "Hotel Villa Tosi", "Bellaria-Igea Marina")
+    assert same("Hotel Oktogon Haggenmacher", "Hotel Oktogon", "Budapest")
+    assert same("BoHo Prague Hotel - Small Luxury Hotels of the World", "BoHo Prague Hotel", "Prague")
+    assert same("Hotel Kleissl", "Hotel Kleißl")
+    assert same("Familienhotel Ramsi", "Kinderhotel Ramsi", "Hermagor")
+    assert same("Hotel Gesser", "Hotel Gesser Sillian", "Sillian")
+    assert same("Bomonti Hotel Nuremberg-West", "hotel bomonti Nürnberg West", "Oberasbach")
+    assert same("Hotel Jesacherhof", "Hotel Jesacherhof 4s")
+
+
+def test_stored_matches_rechecked_and_their_prices_dropped(tmp_path):
+    from hotel_scraper import seller_ids_check
+    cfg = config.load()
+    watch = {"ta:k": {"pid": "ta:k", "name": "Kimpton Main Frankfurt by IHG", "city": "Frankfurt am Main",
+                      "lat": "50.11", "lon": "8.68"},
+             "ta:o": {"pid": "ta:o", "name": "Hotel Oktogon Haggenmacher", "city": "Budapest", "lat": "47.5",
+                      "lon": "19.06"}}
+    ids = [{"pid": "ta:k", "seller": "hrs", "seller_id": "1", "seller_name": "Ruby Louise Hotel Frankfurt By Ihg",
+            "lat": "50.1108", "lon": "8.6812", "status": "ok"},
+           {"pid": "ta:o", "seller": "trip_com", "seller_id": "2", "seller_name": "Hotel Oktogon", "lat": "47.5001",
+            "lon": "19.0601", "status": "ok"},
+           {"pid": "ta:k", "seller": "official", "seller_id": "seekda:S1", "status": "ok"}]
+    rows, dropped = seller_ids_check.recheck(ids, watch, cfg)
+    assert dropped == {("hrs", "ta:k")}
+    assert [r["status"] for r in rows] == ["not found", "ok", "ok"]

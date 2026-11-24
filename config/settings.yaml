@@ -483,6 +483,20 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
     zimres: ["zimres\\.com"]
     reconline: ["reconline\\.com"]
 
+name_match:                  # same hotel or not, every reader (agoda.judge): besides name likeness and distance, each
+  # distinctive word of our hotel's name must be in the seller's name (2026-11-24, Super.com: "Pension Sportalm" was
+  # taken for "Anton Pension" 200 m away, "Dolomitengolf Suites" for its sister "Dolomitengolf Hotel & Spa"). Words
+  # that say what kind of place it is, and the town's name, are not distinctive:
+  generic_words: &generic_words [hotel, hotels, albergo, resort, spa, wellness, the, and, und, e, et, b, bed, breakfast,
+    garni, pension, gasthof, gasthaus, hotelgarni, boutique, design, superior, adults, only, residence, residenz, das,
+    der, die, den, dem, zum, zur, am, im, an, in, auf, bei, di, del, della, dei, delle, la, le, il, lo, al, alla, da, s,
+    wellnesshotel, familienhotel, kinderhotel, aktivhotel, sporthotel, berghotel, naturhotel, biohotel, wanderhotel,
+    vitalhotel, landhotel, alpenhotel, romantikhotel, ferienhotel, kurhotel, golfhotel, parkhotel, appartements,
+    apartments, apartment, aparthotel, by, of, at, mit, with, hof, sterne, stars, star, guesthouse, guest, house,
+    holiday, casa, agriturismo, agrituristico, alloggio, masseria, restaurant, ristorante, gesmbh, gmbh, family,
+    familien, sport, sportresort, room, rooms, luxury, lifestyle, mountain, small, leading, world, slh, chalets,
+    relais, studios, chambres, hotes, natur, inn, lodge, haus, camere, affittacamere]
+
 agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner, 2026-11-23: every seller counts)
   home: "https://www.agoda.com/en-gb/"
   search_box: *agoda_box     # the same search box as the probe
@@ -499,6 +513,7 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   close_km: 0.2              # ...or practically next door with a looser name match (names differ between sites)
   min_similarity_close: 0.5
   same_place_km: 0.15        # ...or practically the same spot with one name inside the other ("Hotel Gesser Sillian ...")
+  generic_words: *generic_words
   queries: ["{name} {city}", "{name}"]   # the name alone when name and town find nothing
   suggest_url: "/api/cronos/search/GetUnifiedSuggestResult/3/16/1/0/en-gb/?searchText={q}&origin=US&cid=-1&pageTypeId=1&logTypeId=1&isHotelLandSearch=true&lastSearchedCity=0"
   suggestions_checked: 3     # hotel suggestions checked by name and place per query
@@ -553,6 +568,7 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
   close_km: 0.2              # ...or practically next door with a looser name match (names differ between sites)
   min_similarity_close: 0.5
   same_place_km: 0.15
+  generic_words: *generic_words
   retry_days: 30
   ids_per_run: 300
   ids_share: 0.5             # when ids and prices run together, at most this share of the time goes to ids
@@ -586,6 +602,7 @@ hrs:                         # HRS's own prices; hotel.de is the same company an
   close_km: 0.2              # ...or practically next door with a looser name match (names differ between sites)
   min_similarity_close: 0.5
   same_place_km: 0.15
+  generic_words: *generic_words
   retry_days: 30
   ids_per_run: 300
   ids_share: 0.5
@@ -617,6 +634,7 @@ vio:                         # Vio.com's own sales; Etrip.net, goSeek... are the
   close_km: 0.2              # ...or practically next door with a looser name match (names differ between sites)
   min_similarity_close: 0.5
   same_place_km: 0.15
+  generic_words: *generic_words
   retry_days: 30
   ids_per_run: 300
   ids_share: 0.5
@@ -652,6 +670,7 @@ edreams:                     # eDreams' own prices (hotel_scraper/edreams.py; ow
   close_km: 0.2
   min_similarity_close: 0.5
   same_place_km: 0.15
+  generic_words: *generic_words
   retry_days: 30
   ids_per_run: 200
   ids_share: 0.5
@@ -686,6 +705,7 @@ super_com:                   # Super.com's own sales (hotel_scraper/super_com.py
   close_km: 0.2
   min_similarity_close: 0.5
   same_place_km: 0.15
+  generic_words: *generic_words
   retry_days: 14
   ids_per_run: 200
   ids_share: 0.5

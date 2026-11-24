@@ -202,6 +202,8 @@ jobs:
           shopt -s nullglob
           python -m hotel_scraper.seller_merge --kind prices --base data/seller_prices.csv --parts parts/seller_prices.csv parts/*/seller_prices.csv
           python -m hotel_scraper.seller_merge --kind ids --base data/seller_ids.csv --parts parts/seller_ids.csv parts/*/seller_ids.csv
+          # every stored match re-checked with today's same-hotel rules; prices of a match that fails are dropped
+          python -m hotel_scraper.seller_ids_check --ids data/seller_ids.csv --prices data/seller_prices.csv
           state=$(ls parts/agoda_state.json parts/seller-agoda/agoda_state.json 2>/dev/null | head -1)
           if [ -n "$state" ]; then cp "$state" data/agoda_state.json
           else git show origin/seller-snapshots:agoda_state.json > data/agoda_state.json 2>/dev/null || rm -f data/agoda_state.json; fi
