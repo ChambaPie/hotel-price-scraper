@@ -1,0 +1,13 @@
+10:27:51 edreams    Corinthia Budapest             200 blocked=- prices=11 name=False json=3
+10:28:56 edreams    Hotel Artemide                 200 blocked=- prices=11 name=False json=3
+# Sellers' own websites: probe S0
+
+## Sellers (one night, search page)
+
+| seller | pages | blocked | with prices | hotel found | JSON saved |
+|---|---|---|---|---|---|
+| edreams | 2 | 0 | 2 | 0 | 6 |
+
+Block phrases seen: none
+
+
