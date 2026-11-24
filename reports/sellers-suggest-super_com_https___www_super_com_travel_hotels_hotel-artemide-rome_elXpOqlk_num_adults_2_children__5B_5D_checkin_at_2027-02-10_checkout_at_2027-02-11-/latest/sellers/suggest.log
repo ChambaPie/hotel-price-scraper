@@ -1,0 +1,70 @@
+15:35:03 https://www.super.com/travel/hotels/hotel-artemide-rome/elXpOqlk?num_adults=2&children=%5B%5D&checki: 69 calls
+15:35:03   200 POST https://www.super.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/f8df4d4a0cd6/0.3222665805877837:1795530619:tmzf6tP_zbDyq-HDodnxq69NriDtPsmv5ipt_iDwFq text/plain; charset=UTF-8
+15:35:03   200 GET https://cdn.super.com/remote-event-registry.json application/json
+15:35:03   200 GET https://sr-client-cfg.amplitude.com/config?api_key=be3e2ca5e47c5ed3f5f6ad5d126116c5&config_keys=analyticsSDK application/json
+15:35:03   204 POST https://www.super.com/cdn-cgi/rum? text/plain
+15:35:03   200 GET https://www.super.com/amp/exp/remote/sdk/v2/vardata?v=0 application/json;charset=utf-8
+15:35:03   200 GET https://www.super.com/amp/exp/remote/sdk/v2/vardata?v=0 application/json;charset=utf-8
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.fetchPartnerHotelRates?input=%7B%22queryParams%22%3A%7B%22partner%22%3A%22vio%22%2C%22partner_ application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.getHotelReviews?input=%7B%22pathParams%22%3A%7B%22encryptedHotelId%22%3A%22elXpOqlk%22%7D%2C%2 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.getUnauthMapView?input=%7B%22queryParams%22%3A%7B%22checkin_at%22%3A%222027-02-10%22%2C%22chec application/json
+15:35:03   200 POST https://www.super.com/amp/events application/json
+15:35:03   200 GET https://api.concord.tech/site-v1/3cd5f99d-75bf-4082-a7d0-b9be90b461ba/session?useragent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+% text/plain; charset=utf-8
+15:35:03   200 GET https://www.super.com/amp/exp/remote/sdk/v2/vardata?v=0 application/json;charset=utf-8
+15:35:03   200 GET https://api.concord.tech/site-v1/3cd5f99d-75bf-4082-a7d0-b9be90b461ba/consent-state?regionId=4561e69c-d3e6-46e3-8804-b44326ac0a6e application/json; charset=utf-
+15:35:03   200 POST https://www.super.com/snapcommerce/api/trpc/userPrivacy.createGuestConsentLog application/json
+15:35:03   200 POST https://www.super.com/amp/events application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   201 POST https://api.concord.tech/site-v1/3cd5f99d-75bf-4082-a7d0-b9be90b461ba/consent-events application/json; charset=utf-
+15:35:03   200 POST https://www.super.com/snapcommerce/api/trpc/userPrivacy.createGuestConsentLog application/json
+15:35:03   200 GET https://pixel-config.reddit.com/pixels/a2_hsobf8ctrinp/config application/json
+15:35:03   200 POST https://alb.reddit.com/rp?id=a2_hsobf8ctrinp&event=PageVisit text/plain; charset=utf-8
+15:35:03   200 POST https://www.google.com/rmkt/collect/785314696/?random=1795534477118&cv=11&fst=1795534477118&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45892e6 
+15:35:03   200 POST https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&auid=1107686590.1795534477&dt=Hotel%20Artemide%20%E2%80%93%20Rome%20%7C%204-Star%20%7C%20Super.c 
+15:35:03   204 POST https://ad.doubleclick.net/ccm/s/collect?auid=1107686590.1795534477&gtm=45892e6bh1v870891118za20czd870891118xecxf4&fmt=8 
+15:35:03   200 POST https://www.super.com/google/ads/d/measurement/enhanced/785314696/?random=1795534477143&cv=11&fst=1795534477143&fmt=3&bg=ffffff&guid=ON&async=1&en=pag image/gif
+15:35:03   200 GET https://www.googleadservices.com/pagead/conversion/785314696/?random=1795534477143&cv=11&fst=1795534477143&fmt=7&bg=ffffff&guid=ON&async=1&en=page_vie application/json; charset=UTF-
+15:35:03   204 POST https://www.super.com/google/ads/as/p/c/785314696/?random=1795534477143&cv=11&fst=1795534477143&fmt=3&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45892 text/html
+15:35:03   open POST https://www.super.com/google/ads/as/d/ccm/conversion/785314696/?random=1795534477143&cv=11&fst=1795534477143&fmt=8&bg=ffffff&guid=ON&async=1&en=page_v 
+15:35:03   200 GET https://www.googleadservices.com/pagead/conversion/785314696/?random=1795534477143&cv=11&fst=1795534477143&fmt=7&bg=ffffff&guid=ON&async=1&en=page_vie application/json; charset=UTF-
+15:35:03   200 GET https://bzrcdn.openai.com/pixel-config/v1/UQTiwNd4tbWqNgJB4tboH5.json application/json
+15:35:03   200 GET https://35.85.84.151/is?cb=1795534477173 text/plain;charset=utf-8
+15:35:03   200 GET https://app.koah.ai/kad/e?ts=1795534477201&ev=PageView&sw=1366&sh=768&v=0.3.1&dl=https%3A%2F%2Fwww.super.com%2Ftravel%2Fhotels%2Fhotel-artemide-rome%2 image/gif; charset=utf-8
+15:35:03   200 POST https://www.super.com/google/ads/g/measurement/conversion?random=1795534477336&cv=11&tid=G-62L1E88M2H&fst=1795534477336&fmt=8&en=session_start&gtm=45g text/html; charset=UTF-8
+15:35:03   204 POST https://www.super.com/google/ads/ag/g/c?v=2&tid=G-62L1E88M2H&gtm=45g92e6bh1v890103035za20czb870891118zd870891118xf4&_p=1795534477105&_gaz=1&gcs=G111&g text/plain
+15:35:03   302 POST https://googleads.g.doubleclick.net/pagead/viewthroughconversion/785314696/?random=1111106459&cv=11&fst=1795534477143&fmt=8&bg=ffffff&guid=ON&async=1& text/html; charset=UTF-8
+15:35:03   200 GET https://www.super.com/amp/exp/remote/sdk/v2/vardata?v=0 application/json;charset=utf-8
+15:35:03   200 POST https://supershop.sjv.io/xur/14902 application/json; charset=UTF-
+15:35:03   204 POST https://f.clarity.ms/collect 
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.google.com/pagead/1p-conversion/785314696/?random=1111106459&cv=11&fst=1795534477143&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=4589 
+15:35:03   200 HEAD https://manage.safeopt.com/consent text/html; charset=UTF-8
+15:35:03   202 POST https://bzr.openai.com/v1/sdk/events?pid=UQTiwNd4tbWqNgJB4tboH5&st=oaiq-web&sv=0.1.105&t=1795534478423&ec=2 
+15:35:03   200 POST https://www.super.com/amp/events application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   204 POST https://f.clarity.ms/collect 
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   204 POST https://f.clarity.ms/collect 
+15:35:03   200 POST https://www.super.com/amp/events application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   204 POST https://f.clarity.ms/collect 
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   204 POST https://f.clarity.ms/collect 
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.checkJobStatus?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0c-440f-b4 application/json
+15:35:03   200 GET https://www.super.com/snapcommerce/api/trpc/recommender.getUnauthMapViewByJobId?input=%7B%22pathParams%22%3A%7B%22jobId%22%3A%22hss-lds%3Afa840c8f-9a0 application/json
+15:35:03   204 POST https://f.clarity.ms/collect 
+15:35:03   200 POST https://www.super.com/amp/events application/json
