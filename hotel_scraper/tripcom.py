@@ -88,15 +88,6 @@ def asked_for(doc: dict) -> set[int]:
     return {int(f["value"]) for f in info.get("combineFilters") or [] if f.get("type") == "31" and str(f.get("value", "")).isdigit()}
 
 
-def nothing_to_sell(doc: dict, hotel_ids: list[int]) -> list[dict]:
-    """An answer about exactly our hotel with an empty list: Trip.com has nothing to sell that night (run 45370159785:
-    queryType "Single", our hotel's filter, no hotels)."""
-    if ((doc.get("data") or {}).get("hotelList")) or not set(hotel_ids) <= asked_for(doc):
-        return []
-    return [{"id": i, "name": "", "available": False, "price": None, "price_excl": None, "price_total": None,
-             "currency": ""} for i in hotel_ids]
-
-
 def keywords_body(template: dict, query: str) -> dict:
     b = copy.deepcopy(template)
     b["queryInfo"] = {**b.get("queryInfo", {}), "keyword": query}
@@ -173,16 +164,13 @@ class TripPage:
                name: str = "") -> list[dict]:
         """Our hotels' prices for the night: Trip.com's list call asked again; when its answer doesn't have our hotel,
         Trip.com's own results page for the hotel and night (and every call after that in this pass)."""
-        if not getattr(self, "pages_mode", False):
+        if not getattr(self, "pages_mode", self.tc.get("price_mode") == "pages"):
             doc = self._post(self.tc["list_url"], list_body(self.list_template, hotel_ids, city_id, country_id, night,
                                                             adults, name))
             self.last = doc
             got = hotels(doc)
             if any(h["id"] in hotel_ids for h in got):
                 return got
-            none = nothing_to_sell(doc, hotel_ids)
-            if none:
-                return none
             self.misses = getattr(self, "misses", 0) + 1
             if self.misses < self.tc["replay_misses_before_pages"]:
                 return got
@@ -204,9 +192,14 @@ class TripPage:
         try:
             self.page.goto(list_url(self.tc["list_page"], hotel_id, city_id, country_id, night, adults),
                            wait_until="domcontentloaded", timeout=60000)
-            for _ in range(int(self.tc["page_wait_s"] * 2)):
+            for i in range(int(self.tc["page_wait_s"] * 2)):
                 if any(h["id"] == hotel_id for d in seen for h in hotels(d)):
                     break
+                if i in (4, 12):                  # a little scrolling, as a person would: the list loads its prices
+                    try:
+                        self.page.mouse.wheel(0, 600)
+                    except Exception:  # noqa: BLE001
+                        pass
                 self.page.wait_for_timeout(500)
         finally:
             self.page.remove_listener("response", keep)
@@ -334,7 +327,10 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
                                                           adults=adults),
                             "seen_at": now})
         old_all = read_csv(p["seller_prices"])
-        merged = merge_prices([x for x in old_all if x.get("seller") == SELLER], new, today)
+        vf = tc.get("no_rows_valid_from", "")       # "not available" rows from the empty list answers (run 45374257349)
+        mine = [x for x in old_all if x.get("seller") == SELLER
+                and not (vf and x.get("available") == "no" and (x.get("seen_at") or "") < vf)]
+        merged = merge_prices(mine, new, today)
         write_csv(sorted([x for x in old_all if x.get("seller") != SELLER] + merged,
                          key=lambda x: (x["seller"], x["pid"], x["night"])), p["seller_prices"], PRICE_FIELDS)
         stats["stored_nights"] = len(merged)

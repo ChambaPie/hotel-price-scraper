@@ -509,8 +509,12 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
   keywords_template: config/tripcom_keywords.json   # its own requests, captured from the page (2026-11-23)
   list_template: config/tripcom_list.json
   list_page: "https://www.trip.com/hotels/list?cityId={city}&countryId={country}&searchType=H&optionId={id}&searchValue=31%7C{id}%2A31%2A{id}%2A1&checkin={checkin}&checkout={checkout}&crn=1&adult={adults}&curr=EUR&locale=en-GB"
-  replay_misses_before_pages: 3   # the list call answering without our hotel this often: open the results page instead
-  page_wait_s: 10            # results page: wait at most this long for its list answer
+  no_rows_valid_from: "2026-11-24T11:00:00+00:00"   # "not available" rows seen before this are dropped (they came
+                             # from list answers that said nothing)
+  price_mode: pages          # pages = Trip.com's own results page per hotel and night (its list call, repeated, answers
+                             # empty lists: run 45374257349 0 of 276 available vs 27 of 96 on its pages); replay = repeat
+  replay_misses_before_pages: 3   # (replay) the list call answering without our hotel this often: open pages instead
+  page_wait_s: 20            # results page: wait at most this long for its list answer
   queries: ["{name} {city}", "{name}"]
   max_km: 3.0                # same name-and-place rules as Agoda (positions from Trip.com's suggestions)
   min_similarity: 0.8
@@ -521,8 +525,8 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
   ids_per_run: 300
   ids_share: 0.5             # when ids and prices run together, at most this share of the time goes to ids
   hotels_per_pass: 150       # each pass starts this many hotels further on, so every hotel comes round
-  nights_per_pass: 4         # nights priced per hotel per pass...
-  night_stride: 91           # ...about 3 months apart, shifting a day each pass
+  nights_per_pass: 2         # nights priced per hotel per pass (a results page each)...
+  night_stride: 182          # ...half a year apart, shifting a day each pass
   min_lead_days: 1
   horizon_days: 365
   pause_seconds: 1.0

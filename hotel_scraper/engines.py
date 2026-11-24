@@ -304,6 +304,7 @@ class EngineBrowser:
     def post(self, url: str, body: dict, headers: dict) -> tuple[int, dict | None]:
         r = self.page.request.post(url, data=json.dumps(body), headers=headers, timeout=45000)
         try:
+            self.last_text = r.text()[:300]
             return r.status, r.json()
         except Exception:  # noqa: BLE001
             return r.status, None
@@ -328,7 +329,7 @@ def replay_calendar(engine: str, p: dict, ec: dict, browser, today: date, days: 
     def ask(body):
         status, doc = browser.post(cap["url"], body, cap["headers"])
         if status != 200 or doc is None:
-            raise RuntimeError(f"{engine} HTTP {status}")
+            raise RuntimeError(f"{engine} HTTP {status}: {getattr(browser, 'last_text', '')[:200]}")
         return doc
     if engine == "hotelnetsolutions":                  # a month of nights per call
         for first, last in months(today, days):

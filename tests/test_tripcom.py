@@ -156,13 +156,29 @@ def test_results_page_address():
     assert "searchValue=31%7C760667" in u and "adult=2" in u
 
 
-def test_empty_answer_about_our_hotel_means_nothing_to_sell():
-    """Run 45370159785: asked as a new search, Trip.com answered about exactly our hotel (queryType "Single", its
-    filter 31|4340342) with an empty list: nothing to sell that night, not a failed call (it had switched to opening
-    pages for every hotel-night)."""
+def test_empty_answer_about_our_hotel_is_not_taken_as_sold_out():
+    """Runs 45370159785 / 45374257349: asked as a new search, Trip.com answers about exactly our hotel (queryType
+    "Single", its filter 31|4340342) with an empty list. Taken as "nothing to sell", it gave 0 available of 276, while
+    Trip.com's own results pages gave 27 of 96 the hour before: such answers say nothing. Prices come from its
+    results pages (price_mode: pages)."""
     doc = json.loads((FX / "tripcom_list_empty_single_2026-11-24.json").read_text())
-    assert tripcom.asked_for(doc) == {4340342}
-    got = tripcom.nothing_to_sell(doc, [4340342])
-    assert got and got[0]["id"] == 4340342 and got[0]["available"] is False and got[0]["price"] is None
-    assert tripcom.nothing_to_sell(doc, [760667]) == []                              # an answer about another hotel
-    assert tripcom.nothing_to_sell(LIST, [760667]) == []                             # a list with hotels in it
+    assert tripcom.asked_for(doc) == {4340342} and tripcom.hotels(doc) == []
+    assert config.load()["tripcom"]["price_mode"] == "pages"
+
+
+def test_not_available_rows_from_empty_answers_are_dropped(tmp_path):
+    """Run 45374257349 stored 'not available' for 276 hotel-nights from list answers that said nothing: dropped."""
+    cfg = _setup(tmp_path)
+    tripcom.run(cfg, "ids", 5, FakePage(), today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+    with open(cfg["paths"]["seller_prices"], "w", newline="") as f:
+        w = csv.DictWriter(f, tripcom.PRICE_FIELDS)
+        w.writeheader()
+        w.writerow({"pid": "ta:art", "seller": "trip_com", "night": "2027-05-01", "available": "no", "seen_at": "2026-11-24T10:35:00+00:00"})
+        w.writerow({"pid": "ta:art", "seller": "agoda", "night": "2027-05-01", "available": "no", "seen_at": "2026-11-24T10:35:00+00:00"})
+
+    class Nothing(FakePage):
+        def nights(self, *a, **k):
+            return []
+    tripcom.run(cfg, "prices", 5, Nothing(), today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+    rows = list(csv.DictReader(open(cfg["paths"]["seller_prices"])))
+    assert [r["seller"] for r in rows] == ["agoda"]
