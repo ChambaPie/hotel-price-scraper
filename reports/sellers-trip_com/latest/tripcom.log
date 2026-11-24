@@ -1,1 +1,4 @@
-11:21:14 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 12, 'priced': 12, 'available': 0, 'errors': 0, 'stored_nights': 58, 'ids_coverage': '672/1500'}
+11:23:49 Posthotel Kassl 4-Sterne-Super 2027-03-23: not in the answer ([])
+11:24:11 Posthotel Kassl 4-Sterne-Super 2027-09-21: not in the answer ([])
+11:24:33 Hotel Alpenland 2026-12-06: not in the answer ([])
+11:28:34 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 14, 'priced': 0, 'available': 0, 'errors': 0, 'missing': 14, 'stored_nights': 30, 'ids_coverage': '665/1500'}
