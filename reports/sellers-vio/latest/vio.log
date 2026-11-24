@@ -1,1 +1,305 @@
-11:01:53 vio: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 27, 'priced': 652, 'available': 67, 'errors': 0, 'stored_nights': 652, 'ids_coverage': '253/1500'}
+15:32:23 id Hotel Etoile: ok 123004390 Hotel Etoile 0.02 km
+15:32:23 id Hotel Allalin: ok 1542688 Hotel Allalin Saas-Fee 0.01 km
+15:32:23 id Park Hotel: ok 15413075 Park-Hotel Saas- Fee 0.0 km
+15:32:23 id The Capra: ok 1545868 The Capra Saas-Fee 0.02 km
+15:32:23 id Hotel Belvedere Grindelwald: ok 1229457 Belvedere Swiss Quality Hotel 0.01 km
+15:32:23 id Elite Alpine Lodge: ok 1672095 Elite Alpine Lodge - Apart & B 0.01 km
+15:32:27 id Hotel Alte Post Bonaduz: not found 1561021 Hotel Alte Post Bonaduz 137.54 km
+15:32:27 id Hotel Gadi: ok 1640134 Hotel Gädi 0.01 km
+15:32:27 id Eiger Murren Swiss Quality Hotel: ok 58850461 Eiger Mürren Swiss Quality Hot 0.02 km
+15:32:27 id CERVO Mountain Resort: ok 1538632 CERVO Mountain Resort 0.01 km
+15:32:27 id Christiania Mountain & Spa: ok 1230060 The Christiania Mountain & Spa 0.04 km
+15:32:27 id Hotel Bella Vista Zermatt: ok 1230075 Hotel Bella Vista Zermatt 0.0 km
+15:32:28 id Hotel Metropol & Spa Zermatt: ok 85618517 Hotel Metropol & Spa Zermatt 0.01 km
+15:32:28 id Europe Hotel & Spa: ok 1230080 Europe Hotel & Spa 0.03 km
+15:32:28 id Hotel Eden Wellness: ok 1230078 Hotel Eden Wellness 0.0 km
+15:32:28 id Schloss  Zermatt: ok 1501189 Schlosshotel Life & Style 0.0 km
+15:32:28 id Hotel Bellerive: ok 59137034 Hotel Bellerive 0.01 km
+15:32:28 id Hotel Chesa Valese: ok 1230129 Chesa Valese by Sisters Zermat 0.01 km
+15:32:28 id Panorama Ski Lodge: ok 2950112 Suitenhotel Panorama Ski Lodge 0.05 km
+15:32:28 id Hotel Firefly: ok 23469861 Firefly Luxury Suites 0.02 km
+15:32:29 id Grand Hotel Zermatterhof: ok 23469837 Grand Hotel Zermatterhof 0.0 km
+15:32:29 id Hotel Monte Rosa: ok 1230068 Monte Rosa Boutique Hotel 0.0 km
+15:32:29 id The Omnia: ok 1230125 THE OMNIA - Design Mountain Lo 0.06 km
+15:32:29 id Matterhorn FOCUS Design Hotel: ok 31403243 Matterhorn FOCUS Design Hotel 0.04 km
+15:32:29 id Hotel Sonne: ok 22241285 Hotel Sonne 0.01 km
+15:32:33 id Coeur des Alpes: not found 1829045 Mineral Lodge & Spa 82.35 km
+15:32:33 id Silvana Mountain Hotel: ok 1644990 Silvana Mountain Hotel 0.14 km
+15:32:33 id Hotel Fassbind (Beausite) Beatenber: ok 1318616 Hotel Fassbind Beausite 0.04 km
+15:32:33 id Hotel Zeit & Traum: ok 4460424 Hotel Zeit & Traum Privat SPA 0.0 km
+15:32:33 id Hotel Eden Spiez: ok 1111107 Hotel Eden Spiez 0.03 km
+15:32:36 id Guarda Golf Hotel & Residences: ok 1535674 Guarda Golf Hotel & Residences 0.01 km
+15:32:37 id LeCrans Hotel & Spa: ok 22708597 LeCrans 0.01 km
+15:32:38 id Lenkerhof Gourmet Spa Resort: ok 1244298 Lenkerhof gourmet spa resort - 0.05 km
+15:32:38 id Lenk Lodge: ok 15395813 Lenk Lodge - Boutique Design H 0.01 km
+15:32:38 id Bellevue Palace: ok 1044368 Hotel Bellevue Palace Bern 0.02 km
+15:32:42 id MAISON HORNBERG: not found 1766126 Maison Brigida 485.5 km
+15:32:42 id Hotel Schweizerhof Bern & Spa: ok 1229078 Hotel Schweizerhof Bern & Spa 0.02 km
+15:32:42 id La Couronne Hotel: ok 3915944 La Couronne Atelier - Dependan 0.01 km
+15:32:42 id The Alpina Gstaad: ok 22178888 The Alpina Gstaad 0.12 km
+15:32:42 id Le Grand Bellevue: ok 8937029 Le Grand Bellevue 0.01 km
+15:32:42 id Grand Hotel les Trois Rois: ok 1331953 Grand Hotel LES TROIS ROIS 0.01 km
+15:32:42 id Chalet RoyAlp Hotel & Spa: ok 1483267 Chalet RoyAlp Hôtel & Spa 0.02 km
+15:32:45 id Hotel de l’Ours Preles: ok 5168077 Hotel de l’Ours Preles 0.0 km
+15:32:48 id Grand Hôtel du Lac: not found 1141489 Du Lac Et Du Parc Grand Resort 314.67 km
+15:32:48 id Hôtel des Trois Couronnes - The Lea: ok 1230026 Hôtel Des Trois Couronnes & Sp 0.01 km
+15:32:53 id Auberge de la Gare: not found 5280354 Le Coffice Auberge de Jeunesse 416.03 km
+15:32:53 id Hôtel Angleterre: ok 1314966 Hotel Angleterre 0.05 km
+15:32:53 id Ambassador Boutique Hotel: ok 1744789 Ambassador Boutique Hotel 0.0 km
+15:32:53 id Hotel D'angleterre: ok 59299289 Hotel d'Angleterre 0.01 km
+15:32:53 id Hôtel Beau-Rivage Genève: ok 116714528 Beau-Rivage Genève 0.03 km
+15:32:53 id The Ritz-Carlton Hotel de la Paix, : ok 1050676 The Ritz-Carlton Hotel de la P 0.02 km
+15:32:53 id Swiss Luxury Apartments: ok 1811885 Swiss Luxury Apartments Geneva 0.01 km
+15:32:54 id Hôtel Les Armures: ok 1198078 Hôtel Les Armures 0.02 km
+15:32:54 id Four Seasons Hotel des Bergues Gene: ok 1050638 Four Seasons Hotel des Bergues 0.01 km
+15:32:54 id Hôtel Bristol Genève: ok 1050654 Hotel Bristol 0.01 km
+15:33:00 id La Reserve - Hotel, Spa And Villa: not found    km
+15:33:03 id Hotel D Geneva: not found 77191142 Hotel Suite with Mont-Blanc vi 10.57 km
+15:33:03 id Fraser Suites Geneva: ok 2864554 Fraser Suites Geneva - Service 0.01 km
+15:33:03 id Mandarin Oriental, Geneva: ok 1050715 Mandarin Oriental, Geneva 0.03 km
+15:33:06 id HOLIDAY HOME - Pension: not found 1362339 Pensión Aduar 2160.37 km
+15:33:09 id House at the Big Boot: not found    km
+15:33:10 id Chateau Heralec - Boutique Hotel & : ok 1710153 Chateau Herálec Boutique Hotel 0.06 km
+15:33:12 id Hotel Karlštejn & Spa: ok 1640364 Hotel Karlštejn & SPA 0.01 km
+15:33:12 id Revelton Studios Mariánské Lázně: ok 5823187 Revelton Studios Marianske Laz 0.01 km
+15:33:13 id Boutique hotel RADUN: ok 1690209 Hotel Radun 0.01 km
+15:33:16 id Revelton Studios Prague: ok 21334286 Revelton Studios Prague 0.0 km
+15:33:19 id Aparthotel City 5: ok 1061652 Aparthotel City 5 0.01 km
+15:33:23 id Hotel General: not found 1129330 Le Général Hôtel 879.45 km
+15:33:25 id Le Palais Art Hotel Prague: ok 1061401 Le Palais Art Hotel Prague 0.01 km
+15:33:28 id Hotel Julian: not found 1278462 be.HOTEL 1573.78 km
+15:33:31 id Mosaic House Design Hotel: ok 1586803 MOSAIC HOUSE Design Hotel 0.01 km
+15:33:33 id The Manes Boutique Hotel Prague: ok 1254035 THE MANES Boutique Hotel Pragu 0.01 km
+15:33:35 id Fleur De Lis Hotel: ok 23551411 FLEUR DE LIS HOTEL 0.0 km
+15:33:37 id Hotel Cube: ok 10008990 Hotel CUBE Prague 0.0 km
+15:33:41 id Residence Karolina - Prague City Ap: not found    km
+15:33:41 id Unitas Hotel: ok 1436771 Unitas Hotel 0.01 km
+15:33:41 id Mandarin Oriental, Prague: ok 1200796 Mandarin Oriental, Prague 0.07 km
+15:33:41 id The Mozart Prague: ok 1061492 The Mozart Prague 0.01 km
+15:33:41 id Aria Hotel Prague: ok 1061455 Aria Hotel Prague 0.0 km
+15:33:42 id The Dominican: ok 5554916 The Dominican 0.03 km
+15:33:42 id Andaz Prague, By Hyatt: ok 20003583 Andaz Prague, By Hyatt 0.03 km
+15:33:42 id The Julius Prague: ok 19685211 The Julius Prague 0.01 km
+15:33:44 id Hotel Pod Veží: ok 16654787 Hotel Pod Věží 0.01 km
+15:33:44 id Alchymist Grand Hotel and Spa: ok 1061472 Alchymist Grand Hotel and Spa 0.0 km
+15:33:44 id Appia Hotel Residences: ok 1061673 Appia Hotel Residences 0.02 km
+15:33:45 id BoHo Prague Hotel - Small Luxury Ho: ok 2751320 BoHo Prague Hotel - Small Luxu 0.01 km
+15:33:45 id Four Seasons Hotel Prague: ok 1200630 Four Seasons Hotel Prague 0.01 km
+15:33:47 id Hotel Golden Star: ok 1293191 Golden Star 0.0 km
+15:33:47 id Ventana Hotel Prague: ok 1061460 Ventana Hotel Prague 0.04 km
+15:33:48 id Augustine Hotel, Prague: ok 2399797 Augustine Hotel, Prague 0.07 km
+15:33:48 id Buddha-Bar Hotel Prague: ok 1492826 Buddha-Bar Hotel Prague 0.01 km
+15:33:52 id Kings Court Prague Deluxe Hotel: not found    km
+15:33:52 id Hotel Paris Prague: ok 1061425 Hotel Paris Prague 0.12 km
+15:33:52 id Grand Hotel Bohemia: ok 1061405 Grand Hotel Bohemia 0.01 km
+15:33:52 id Hotel Waldstein: ok 1061392 Hotel Waldstein 0.09 km
+15:33:52 id Alchymist Prague Castle Suites: ok 1680006 Alchymist Prague Castle Suites 0.0 km
+15:33:53 id Hotel Klarov: ok 1324676 Boutique Hotel Klarov 0.01 km
+15:33:53 id Hotel Josef: ok 1200625 Hotel Josef 0.02 km
+15:33:53 id Golden Well Hotel: ok 1141387 Golden Well 0.01 km
+15:33:53 id Cosmopolitan Hotel Prague: ok 3021654 COSMOPOLITAN Hotel Prague 0.01 km
+15:33:53 id Allure Hotel Prague: ok 28376097 Allure Hotel & Residence Pragu 0.0 km
+15:33:53 id Maximilian Hotel: ok 1200652 Maximilian Hotel 0.03 km
+15:33:53 id Hotel Hastal Prague Old Town: ok 1254060 Hotel Hastal Prague Old Town 0.0 km
+15:33:53 id Innside Prague: ok 1889811 INNSiDE by Meliá Prague Old To 0.01 km
+15:33:54 id Hotel Residence Agnes: ok 1253961 Hotel Residence Agnes 0.0 km
+15:33:55 id Hotel Schwaiger: ok 1061544 Hotel Schwaiger 0.01 km
+15:34:01 id Wellness & Spa Boutique Hotel Villa: not found    km
+15:34:01 id Revelton Studios Františkovy Lázně: ok 3959200 Revelton Studios Františkovy L 0.0 km
+15:34:01 id NH Collection Olomouc Congress: ok 1602772 NH Collection Olomouc Congress 0.04 km
+15:34:08 id Karlsbad Grande Madonna Spa & Welln: not found    km
+15:34:08 id Revelton Studios Karlovy Vary: ok 4916478 Revelton Studios Karlovy Vary 0.01 km
+15:34:11 id Chateau Mcely: ok 1192603 Chateau Mcely 0.01 km
+15:34:11 id Hotel Davídek: ok 1878798 Sport & Relax Hotel Davidek 0.02 km
+15:34:13 id Bed and Breakfast Zeevat: ok 1762159 Bed and Breakfast Zeevat 0.02 km
+15:34:17 id B&B bei Taferners: not found    km
+15:34:19 id Panorama Allgäu Spa Resort: ok 1854949 PANORAMA Allgäu Spa Resort 0.01 km
+15:34:19 id Landhaus Meine Auszeit: ok 1955998 Landhaus Meine Auszeit 0.01 km
+15:34:19 id Montara Suites: ok 22455957 Montara Suites Bodenmais I akt 0.02 km
+15:34:19 id Alm- & Wellnesshotel Alpenhof: ok 1421768 Alm- & Wellnesshotel Alpenhof 0.02 km
+15:34:20 id Alpenhotel Zechmeisterlehen: ok 1421767 Alpenhotel Zechmeisterlehen 0.01 km
+15:34:20 id Hotel Edelweiss Berchtesgaden: ok 1973819 Hotel EDELWEISS Berchtesgaden  0.05 km
+15:34:20 id Das Achental: ok 44526172 Resort Das Achental 0.04 km
+15:34:22 id Schloss Elmau: ok 1324637 Schloss Elmau Luxury Spa Retre 0.13 km
+15:34:22 id Bio Thermalhotel Falkenhof: ok 1454976 Bio Thermalhotel Falkenhof 0.01 km
+15:34:22 id Hotel Villa Ludwig: ok 1854103 Villa Ludwig Boutique Hotel 0.01 km
+15:34:27 id Das König Ludwig Inspiration Spa: not found    km
+15:34:29 id Hotel Muenchen Palace: ok 1059217 Hotel München Palace 0.01 km
+15:34:29 id Hotel Torbräu: ok 1675723 Hotel Torbräu 0.01 km
+15:34:29 id Mandarin Oriental, Munich: ok 8936613 Mandarin Oriental, Munich 0.03 km
+15:34:29 id Hotel Metropol by Maier Privathotel: ok 1217061 Hotel Metropol by Maier Privat 0.15 km
+15:34:29 id The Charles Hotel: ok 44418896 Rocco Forte The Charles Hotel 0.02 km
+15:34:30 id Hotel Franks: ok 1248037 Hotel Franks 0.05 km
+15:34:32 id Bichl 761: ok 3506693 bichl 761 0.01 km
+15:34:34 id Wellness & Naturresort Reischlhof: ok 15741916 Wellness & Naturresort Reischl 0.07 km
+15:34:34 id Wellness- & Sporthotel Jagdhof: ok 44567188 Wellness- & Sporthotel Jagdhof 0.01 km
+15:34:34 id Asam Hotel: ok 1315936 Asam Hotel 0.03 km
+15:34:38 id Hotel Restaurant VILLINO: not found    km
+15:34:42 id Wellnesshotel Zum Bräu: not found    km
+15:34:42 id Domresidenz: ok 2959130 Domresidenz Regensburg 0.01 km
+15:34:42 id Hotel Arthus: ok 1389400 Hotel Arthus 0.02 km
+15:34:42 id Karls Hotel: ok 7473144 Karls Hotel 0.01 km
+15:34:42 id Hotel VICTORIA: ok 1192090 Hotel VICTORIA Nürnberg 0.01 km
+15:34:43 id Hotel Drei Raben: ok 1250269 Hotel Drei Raben 0.01 km
+15:34:45 id Bomonti Hotel Nuremberg-West: ok 2608912 hotel bomonti Nürnberg West 0.04 km
+15:34:45 id Aribo Hotel: ok 2948902 Aribo Hotel 0.04 km
+15:34:45 id Mövenpick Hotel Stuttgart Airport: ok 1195619 MÖVENPICK Hotel Stuttgart Airp 0.04 km
+15:34:45 id Hotel Kral: ok 1706693 KRAL - Residenz Erlangen 0.09 km
+15:34:46 id Hotel Boehler: ok 1232015 Hotel Böhler 0.01 km
+15:34:50 id Historikhotel Gotisches Haus: not found    km
+15:34:50 id Hotel herrnschlösschen: ok 1605228 Hotel Herrnschloesschen 0.03 km
+15:34:50 id Hotel Bären Titisee: ok 1555048 Hotel Bären Titisee 0.02 km
+15:34:50 id Hotel Kesslermühle: ok 1584933 Hotel Kesslermühle 0.09 km
+15:34:50 id Hotel Bareiss: ok 1455601 Hotel Bareiss 0.07 km
+15:34:50 id Hotel Europäischer Hof Heidelberg: ok 14908100 Hotel Europäischer Hof Heidelb 0.03 km
+15:34:53 id Neumühle Resort & Spa: ok 1592174 Neumühle Resort & Spa 0.03 km
+15:34:53 id Kunzmann's Hotel | Spa: ok 1042637 Kunzmann's Hotel | Spa 0.03 km
+15:34:53 id Hilton Garden Inn Mannheim: ok 4739630 Hilton Garden Inn Mannheim 0.0 km
+15:34:53 id Radisson Blu Hotel, Mannheim: ok 3024606 Radisson Blu Hotel, Mannheim 0.06 km
+15:34:54 id René Bohn: ok 60052441 René Bohn 0.03 km
+15:34:54 id Hotel Ketschauer Hof: ok 1529345 Hotel Ketschauer Hof 0.01 km
+15:34:54 id Hotel Suitess: ok 1321634 Hotel Suitess 0.06 km
+15:34:58 id The Grand Green - Familux Resort: not found    km
+15:34:58 id Kimpton Main Frankfurt by IHG: ok 124858241 Kimpton Main Frankfurt by IHG 0.01 km
+15:34:58 id Hotel Domizil: ok 2840104 Hotel Domizil 0.01 km
+15:34:59 id Schlosshotel Kronberg: ok 1331138 Schlosshotel Kronberg - Hotel  0.03 km
+15:34:59 id Burghotel Auf Schönburg: ok 44365263 Burghotel auf Schönburg 0.01 km
+15:35:01 id Hotel Rosenpark: ok 20520061 Hotel Rosenpark 0.03 km
+15:35:06 id The Guest House & Ski Lodge: not found    km
+15:35:10 id Ski Breezy - Chalet D'Ile: not found    km
+15:35:15 id Chalet Les Trois Canards: not found    km
+15:35:15 id Chalet Marie Stuart: ok 3222511 Chalet Marie Stuart 0.01 km
+15:35:18 id Cairn Lodge: not found 1513130 Cairn Bay Lodge 1284.14 km
+15:35:20 AliKats Mountain Holidays - Ferme à Jule: 'NoneType' object has no attribute 'get'
+15:35:24 id AliKats Mountain Holidays - Ferme à: not found    km
+15:35:28 id Chalet Fourmiliere Morzine: not found    km
+15:35:32 id Vista Azzurra: not found 3517398 Casa Azzurra vista Lago Dani 280.32 km
+15:35:36 id Chalet Savoie Faire: not found    km
+15:35:40 id Le Mas du Chanoine: not found    km
+15:35:40 id La Bousquetiere: ok 1771003 La Bousquetière 0.31 km
+15:35:40 id Maison d'Hôtes Bleu Azur: ok 1917769 Maison d'Hotes Bleu Azur 0.02 km
+15:35:44 id Mas Samarcande: not found    km
+15:35:45 id Villa Le Port d'Attache: ok 3376634 Villa Le Port d'attache 0.03 km
+15:35:49 id Au Nid Cosy D'Isa: not found    km
+15:35:51 id L'alpen Roc: ok 2190928 L’Alpen Roc 0.07 km
+15:35:51 id Mas la Jaina: ok 3398359 Mas La Jaina 0.01 km
+15:35:55 Villa Bacchus maison d’hote Gay only: 'NoneType' object has no attribute 'get'
+15:35:56 id Villa Bacchus maison d’hote Gay onl: not found    km
+15:35:59 id Les Aurochs: not found    km
+15:36:00 id Villa de Lorgues: ok 1848993 Villa de Lorgues 0.01 km
+15:36:00 id Le Mas de Cotignac: ok 2540836 Guesthouse Le Mas de Cotignac 0.04 km
+15:36:00 id Chut ! c'est ici: ok 4116431 Chut ! c'est ici 0.02 km
+15:36:01 Couette d'Azur Saint-Cyr-sur-Mer: 'NoneType' object has no attribute 'get'
+15:36:03 id Couette d'Azur: not found    km
+15:36:04 id La Demeure Insoupçonnée: ok 2559650 La Demeure Insoupçonnée 0.02 km
+15:36:04 id The Address Cassis: ok 4784922 The Address Cassis 0.02 km
+15:36:04 id Hôtel Les Suites - Maison Bouvier: ok 22590919 Les Suites – Maison Bouvier 0.25 km
+15:36:06 id Hotel Mont-Blanc: not found 1208812 Alpina Eclectic Hotel 0.31 km
+15:36:07 id Hotel Gabriel: ok 122598914 Hôtel Gabriel 0.02 km
+15:36:07 id L'Aiguille Grive Chalets Hotel: ok 5835088 L'Aiguille Grive Chalets Hotel 0.24 km
+15:36:07 id Chilly Powder: ok 22582987 Hôtel et Chalet Au Coin Du Feu 0.03 km
+15:36:09 id Armancette Hôtel, Chalets & Spa: ok 4848108 Armancette - The Leading Hotel 0.0 km
+15:36:10 id Hotel Cap Estel: ok 1132672 Hotel Cap Estel 0.01 km
+15:36:14 id Simply Morzine - Chalet des Montagn: not found    km
+15:36:14 id La Chèvre D'Or: ok 1132674 La Chèvre d'Or 0.02 km
+15:36:16 id Hotel La Bergerie: ok 15331701 Hôtel La Bergerie 0.01 km
+15:36:18 id Hotel Le Samoyede: ok 1559614 Hotel Le Samoyede 0.01 km
+15:36:19 id Chateau Eza: ok 1132670 Chateau Eza 0.03 km
+15:36:19 id RockyPop Flaine: ok 10584936 RockyPop Flaine Hotel & Spa 0.1 km
+15:36:19 id Hotel Champs Fleuris: ok 20619343 Hôtel Champs Fleuris Morzine 0.02 km
+15:36:22 id Chalet Hotel Fleur des Neiges: not found 3762281 Chalet Fleur Des Neiges 6.55 km
+15:36:22 id Hotel Carlton: ok 21806016 Résidence Carlton - Rénovée av 0.08 km
+15:36:22 id Grand-Hôtel du Cap-Ferrat, A Four S: ok 1602395 Grand-Hôtel du Cap-Ferrat, A F 0.02 km
+15:36:22 id Hôtel Saint-Georges: ok 22354349 Hôtel Saint-Georges Relais & C 0.0 km
+15:36:23 id Aparthotel AMMI Vieux Nice: ok 19849383 Hotel Aparthotel AMMI Vieux Ni 0.03 km
+15:36:23 id La Maison Des Tetes - Relais & Chât: ok 1132029 Relais & Châteaux La Maison De 0.02 km
+15:36:23 id Palais Saleya: ok 3459266 Palais Saleya Boutique Hôtel 0.02 km
+15:36:23 id Aparthotel AMMI Nice Lafayette: ok 137479800 Hotel Aparthotel AMMI Nice Laf 0.01 km
+15:36:23 id Hôtel Nice Côte d'Azur: ok 70087791 Boutique Hotel Nice Côte d'azu 0.0 km
+15:36:24 id Hotel Cour Du Corbeau Strasbourg MG: ok 1496361 Cour du Corbeau Hotel Strasbou 0.1 km
+15:36:24 id Hotel Le Bouclier D'or: ok 1771878 Hôtel & Spa Le Bouclier D'or 0.02 km
+15:36:24 id Hotel Tandem: ok 5920183 Hôtel Tandem - Boutique Hôtel 0.01 km
+15:36:24 id Hôtel Le Savoy Méribel: ok 21478953 Hotel Le Savoy 0.02 km
+15:36:24 id Lodji Hotel: ok 5933095 Lodji Hotel & spa 0.06 km
+15:36:26 id Hotel 16|150: ok 5928256 Hôtel 16 | 150 Montagne & Spa  0.01 km
+15:36:26 id Villa St Maxime, Hotel Saint Paul d: ok 3026155 Villa Saint Maxime 0.05 km
+15:36:31 id Le Domaine du Mas de Pierre: not found    km
+15:36:31 id St-Alban Hotel & Spa: ok 4656073 St-Alban Hotel & Spa 0.01 km
+15:36:34 id Hotel Au Coeur du Village: ok 1624297 Au Coeur du Village Relais & C 0.03 km
+15:36:36 id Hôtel Chalet Alpage: ok 4236303 Hôtel Chalet Alpage 0.02 km
+15:36:36 id Regent Carlton Cannes: ok 1144793 Carlton Cannes, a Regent Hotel 0.05 km
+15:36:36 id Hotel de Provence: ok 1131309 Hôtel de Provence 0.04 km
+15:36:38 id Suites de la Tour: ok 1639890 Suites de la Tour 0.01 km
+15:36:39 Domaine de Montagne - Chalet Frère Josep: 'NoneType' object has no attribute 'get'
+15:36:40 id Domaine de Montagne - Chalet Frère : ok 119563818 Domaine de Montagne - Hôtel Ch 0.05 km
+15:36:40 id Hotel Les Grillons: ok 3249646 Hôtel Les Grillons 0.05 km
+15:36:41 id Hôtel Interlaken Lounge Bar & Spa: ok 15473420 Hôtel Interlaken Lounge Bar &  0.01 km
+15:36:45 id Auberge du Pere Bise - Jean Sulpice: not found    km
+15:36:45 id Hotel Chalet Mounier: ok 1514122 Hôtel Chalet Mounier 0.01 km
+15:36:49 id Villa Rene Lalique: not found    km
+15:36:49 id Unique Hôtel & Residence: ok 3033732 Unique Hôtel Résidence & Spa 0.1 km
+15:36:51 id Petit Hotel Confidentiel: ok 1594772 Petit Hôtel Confidentiel 0.01 km
+15:36:51 id Villa Cosy Hôtel & Spa: ok 31547163 Villa Cosy, hotel & spa 0.02 km
+15:36:51 id Charembeau: ok 1733835 Hotel Charembeau 0.05 km
+15:36:51 id Hotel Le Griffon d'Or: ok 1734259 Hôtel Le Griffon d'Or 0.05 km
+15:36:55 id Hotel et Spa du Castellet: not found    km
+15:36:58 id Hôtel Maison Lacassagne: ok 1134151 Hôtel Maison Lacassagne Lyon 0.01 km
+15:36:58 id Hotel Le Roosevelt: ok 1142530 Hôtel Le Roosevelt Lyon Centre 0.01 km
+15:36:58 id TRIBE Lyon Croix Rousse: ok 97277055 TRIBE Lyon Croix Rousse 0.08 km
+15:37:02 id Les Loges du Théâtre: not found    km
+15:37:02 id Villa Maïa: ok 3760692 Villa Maïa 0.01 km
+15:37:03 id Hotel Victoria: ok 5206960 Hotel Victoria 0.0 km
+15:37:05 id Maison Pic: ok 21572572 Maison Pic 0.03 km
+15:37:08 id La Casa Di Matiki: not found 101974434 B&B La casa al mare di MatiGiò 457.07 km
+15:37:10 id Zrinka House: ok 3650642 Zrinka House 0.01 km
+15:37:10 id Plitvice Villa Verde: ok 2788810 Guest house Plitvice Villa Ver 0.03 km
+15:37:14 id B&B Kuća Bajlo: not found    km
+15:37:14 id Splendida Palace: ok 2941649 Splendida Palace 0.0 km
+15:37:14 id Hotel Peteani: ok 3024835 Hotel Peteani 0.01 km
+15:37:15 id Esplanade Zagreb Hotel: ok 1067565 Esplanade Zagreb Hotel 0.03 km
+15:37:15 id Hyatt Regency Zadar: ok 126831943 Hyatt Regency Zadar 0.01 km
+15:37:15 id Art Hotel Kalelarga: ok 1816025 Art Hotel Kalelarga 0.03 km
+15:37:15 id Heritage Hotel Tisno: ok 1542387 Heritage Hotel Tisno 0.01 km
+15:37:18 id Hotel Spongiola: ok 1348286 Hotel Spongiola 0.0 km
+15:37:18 id Hotel Bellevue Trogir: ok 1189702 Hotel Bellevue Trogir 0.03 km
+15:37:19 id Judita Palace Heritage Hotel: ok 1705383 Judita Palace Heritage Hotel 0.04 km
+15:37:19 id Piazza Heritage Hotel: ok 2489024 Piazza Heritage Hotel 0.0 km
+15:37:19 id Cornaro Hotel: ok 2489054 Cornaro Hotel 0.01 km
+15:37:19 id Villa Split Heritage Hotel: ok 1810167 Villa Split Heritage Hotel 0.0 km
+15:37:21 id Golden Palace Split: not found    km
+15:37:21 id Heritage Hotel Antique Split: ok 2509521 Heritage Hotel Antique Split 0.01 km
+15:37:22 id Hotel Lemongarden: ok 2957884 Hotel Lemongarden - Adults Onl 0.0 km
+15:37:22 id Hotel Plaza Duce: ok 5766927 Hotel Plaža Duće 0.03 km
+15:37:22 id Villa Nora Hvar: ok 9778787 Villa Nora Hvar 0.05 km
+15:37:25 id Hotel Fortuna: not found 122272699 Fortuna Hotel 4277.9 km
+15:37:29 id Abuelas Beach House: not found    km
+15:37:33 id Aparthotel Tamaris: not found 1604348 Apartamentos Caprice Tamarindo 1218.4 km
+15:37:35 id Valamar Argosy Hotel: ok 26672004 Valamar Argosy Hotel 0.26 km
+15:37:35 id Hilton Imperial Dubrovnik: ok 1049258 Hilton Imperial Dubrovnik 0.01 km
+15:37:35 id Heritage Villa Nobile: ok 9795545 Heritage Villa Nobile 0.01 km
+15:37:40 id St. Joseph's Boutique Hotel: not found    km
+15:37:40 id Hotel Excelsior Dubrovnik: ok 1197841 Hotel Excelsior 0.01 km
+15:37:40 id Hotel Supetar Cavtat: ok 1507538 Hotel Supetar 0.33 km
+15:37:44 id Parliament Penthouse Budapest B&B: not found    km
+15:37:44 id Wellness Hotel Katalin: ok 1510066 Wellness Hotel Katalin 0.11 km
+15:37:46 id Hotel Vinifera Wine & Spa: ok 83510194 Hotel Vinifera Wine & Spa 5 St 0.08 km
+15:37:47 id Mala Garden Design Hotel: ok 1652745 Mala Garden Design Hotel 0.02 km
+15:37:50 id Maison Bistro & Hotel: ok 3049385 Maison Bistro & Hotel 0.01 km
+15:37:50 id Hilton Budapest: ok 1197158 Hilton Budapest 0.02 km
+15:37:50 id Hotel Clark Budapest: ok 3918134 Hotel Clark Budapest - Adults  0.04 km
+15:37:52 id Leon Hotel & Lounge: ok 127519833 Leon Hotel & Lounge Budapest 0.02 km
+15:37:52 id Boutique Hotel Victoria Budapest: ok 1222414 Boutique Hotel Victoria Budape 0.01 km
+15:37:56 id Hotel Vision Budapest: ok 6129981 Hotel Vision Budapest by Conti 0.03 km
+15:37:58 id Kimpton BEM Budapest by IHG: ok 118311421 Kimpton BEM Budapest by IHG 0.04 km
+15:38:00 id Bohem Art Hotel: ok 1647864 Bohem Art Hotel 0.02 km
+15:38:03 id Matild Palace, a Luxury Collection : ok 7111489 Matild Palace, a Luxury Collec 0.02 km
+15:38:03 id Four Seasons Hotel Gresham Palace B: ok 1197157 Four Seasons Hotel Gresham Pal 0.03 km
+15:38:03 id Prestige Hotel Budapest: ok 1766568 Prestige Hotel Budapest 0.16 km
+15:38:05 id Párisi Udvar Hotel Budapest: ok 21554745 Párisi Udvar Hotel Budapest, p 0.04 km
+15:38:08 id Emerald Hotel & Suites: not found 1971907 Emerald Villas & Suites - The  1075.43 km
+15:38:11 id Hotel Memories Oldtown: ok 4602652 Hotel Memories OldTown 0.01 km
+15:38:13 id Aria Hotel Budapest by Library Hote: ok 14906122 Aria Hotel Budapest by Library 0.01 km
+15:38:15 id Hotel Collect: ok 4602706 Hotel Collect - Adults Only 0.01 km
+15:38:18 id Hotel Moments Budapest: ok 2919887 Hotel Moments Budapest by Cont 0.04 km
+15:38:20 id Ikonik Parlament: ok 1045406 Ikonik Parlament 0.01 km
+16:02:46 vio: {'ids_due': 300, 'ids_found': 248, 'ids_missed': 52, 'calls': 229, 'priced': 16900, 'available': 3464, 'errors': 4, 'stored_nights': 16901, 'ids_coverage': '500/1500'}
