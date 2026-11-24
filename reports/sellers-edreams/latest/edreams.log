@@ -1,25 +1,222 @@
-16:05:36 Sportpension Aichholzer Wernberg: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:37 Sportpension Aichholzer: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:37 id Sportpension Aichholzer: not found    km
-16:05:37 MoaAlm Mountain Retreat Matrei in Osttir: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:37 MoaAlm Mountain Retreat: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:37 id MoaAlm Mountain Retreat: not found    km
-16:05:37 Pension St. Georg Kaprun: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:38 Pension St. Georg: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:38 id Pension St. Georg: not found    km
-16:05:38 Hotel Garni Pension Hubertus Zell am See: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:38 Hotel Garni Pension Hubertus: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:38 id Hotel Garni Pension Hubertus: not found    km
-16:05:38 Landhaus Lilly Bad Aussee: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:38 Landhaus Lilly: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:38 id Landhaus Lilly: not found    km
-16:05:39 Gaestehaus Bramboeck Bad Haering: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:39 Gaestehaus Bramboeck: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:39 id Gaestehaus Bramboeck: not found    km
-16:05:39 Pension Sportalm Soelden: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:39 Pension Sportalm: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:39 id Pension Sportalm: not found    km
-16:05:39 Natuerlich. Hotel mit Charakter Fiss: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:40 Natuerlich. Hotel mit Charakter: eDreams HTTP 406: <html><head><title>JBWEB000065: HTTP Status 406 - No match for accept header</title><style><!--H1 {fon
-16:05:40 id Natuerlich. Hotel mit Charakter: not found    km
-16:05:40 edreams: {'ids_due': 200, 'ids_found': 0, 'ids_missed': 8, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 16, 'stored_nights': 0, 'ids_coverage': '0/1500'}
+16:19:49 id das Moser - Hotel Garni am See: not found    km
+16:19:50 id Barry Memle Lakeside Resort: not found    km
+16:19:51 id Hotel Schloss Seefels: not found 39890 Hotel Schloss Seefels 3.02 km
+16:19:52 id Familienhotel Ramsi: not found    km
+16:19:52 id Berghotel Presslauer: not found    km
+16:19:53 id Seehotel Enzian: ok 9110033 Seehotel Enzian 0.19 km
+16:19:53 id Genießerhotel Die Forelle: not found    km
+16:19:54 id Family & Sport Resort Brennseehof: not found    km
+16:19:55 id Biohotel Daberer: not found    km
+16:19:55 id Evident Hotel Prägant: not found    km
+16:19:57 id KOLLER's Hotel: not found 11820884 Key Inn Apart Hotels Parc de M 629.89 km
+16:19:57 id Hotel Hochschober: not found    km
+16:19:58 id Almwellness-Resort Tuffbad: ok 9004514 Almwellness Resort Tuffbad 0.12 km
+16:19:58 id Dolomitengolf Suites: not found    km
+16:19:59 id Parkhotel Tristachersee: ok 73839 Parkhotel Tristachersee 1.38 km
+16:19:59 id Grand Hotel Lienz: ok 70956 Grandhotel Lienz 0.79 km
+16:20:00 id Strasserwirt - Ansitz zu Tirol: not found    km
+16:20:01 Hotel Gesser: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:20:01 id Hotel Gesser: not found 9058233 Hotel Gesser Sillian 0.24 km
+16:20:01 id Villa Excelsior Hotel & Kurhaus: not found    km
+16:20:02 Haus Hirt: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:20:02 id Haus Hirt: not found 10461950 Hotel Haus vom Guten Hirten 667.93 km
+16:20:03 id Hotel Sonngastein: ok 40457 Sonngastein 1.78 km
+16:20:03 id Gradonna Mountain Resort Châlets & : not found    km
+16:20:04 id Wanderhotel Taurerwirt: not found    km
+16:20:04 id Hotel Bismarck: ok 11837249 Bismarck 0.94 km
+16:20:05 id Defereggental Hotel & Resort: not found    km
+16:20:05 id Alpinhotel Jesacherhof Gourmet & Sp: not found    km
+16:20:07 id Hotel Schneider: not found 38569 Hotel Schneider 281.68 km
+16:20:07 id Hotel Das Seekarhaus: ok 77270 Hotel Das Seekarhaus 1.84 km
+16:20:08 Hotel Lammwirt: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:20:08 id Hotel Lammwirt: not found    km
+16:20:09 id Hotel Grossarler Hof: ok 9044083 Grossarler Hof 0.13 km
+16:20:10 id Hotel Nesslerhof: not found    km
+16:20:11 id Hotel Kristall: not found 17915594 Hotel Kristall 9.78 km
+16:20:12 id Hotel Salzburger Hof Zauchensee: ok 9066660 Hotel Salzburger Hof 0.05 km
+16:20:13 id Hotel Alpenhof: not found 72522 Hotel Alpenhof 118.63 km
+16:20:13 id Hotel Rauriserhof: ok 11850161 Rauriserhof 0.38 km
+16:20:14 id Aktivhotel Alpendorf: not found    km
+16:20:14 id Hotel Zinnkruegl: not found    km
+16:20:15 id Sonnhof Alpendorf - An Adults Only : not found    km
+16:20:16 id Alpines Gourmethotel Montanara: not found    km
+16:20:16 id Hotel Schwaigerhof: not found    km
+16:20:17 id Hotel Schutterhof: ok 9067087 Hotel Schütterhof 0.35 km
+16:20:17 id Hotel die Barbara: not found    km
+16:20:18 id Natur und Wellnesshotel Hoeflehner: not found    km
+16:20:18 Bliem's Familienhotel: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:20:18 id Bliem's Familienhotel: not found    km
+16:20:19 id MOUNTAIN HOTEL LUIS inkl Zell am Se: not found    km
+16:20:20 id Hotel Annelies: not found 11134105 Hotel Anneliese 244.62 km
+16:20:21 id Der Kapruner Hof: not found 23027031 Appartements by Hofer 0.45 km
+16:20:22 id AlpenParks Hotel & Apartment Orgler: not found    km
+16:20:22 id Aparthotel Schloss Thannegg: not found    km
+16:20:23 id POP-UP Living Zell am See: ok 21261 POP-UP LIVING Zell am See 0.63 km
+16:20:23 id Hotel Berner Zell am See: ok 41936 Hotel Berner Zell am See 0.32 km
+16:20:24 id Hotel Stadt Wien: ok 9126169 Hotel Stadt Wien 0.15 km
+16:20:24 id Hotel... mein Neubergerhof: not found    km
+16:20:25 id Schlossberghotel: ok 39770 Schlossberghotel 0.24 km
+16:20:25 id Berg & Spa Hotel Urslauerhof: not found    km
+16:20:26 id Kinderhotel Felben: not found    km
+16:20:27 id Die Hochkönigin - Mountain Resort: ok 9089629 die Hochkönigin - Mountain Res 0.1 km
+16:20:28 id Hotel Oberwirt: not found 37245 Hotel Gasthof Oberwirt 74.54 km
+16:20:29 id Hotel Ritzenhof: not found 9267743 Ritzenhof – Hotel und Spa am S 0.83 km
+16:20:30 Hotel Sonnegg: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:20:30 id Hotel Sonnegg: not found 9064019 Hotel Pension Sonnegg 133.44 km
+16:20:31 id Habachklause: not found 120424 Habachklause Baby- Und Kinderh 3.48 km
+16:20:31 id Hotel Senningerbräu: not found    km
+16:20:32 id Hotel-Restaurant Grimmingblick: not found    km
+16:20:32 id Alpinresort ValSaa - Adults Only: ok 60868 Alpinresort ValSaa - Adults On 2.59 km
+16:20:33 id Rosentalerhof Hotel & Apartments: ok 9107351 Rosentalerhof Hotel & Apartmen 0.47 km
+16:20:33 id Talheimer Grias di & Hoamat: not found    km
+16:20:34 id Hotel Barbarahof: not found 40356 Hotel Barbarahof Kaprun -  Adu 16.77 km
+16:20:35 Dachsteinkönig - Familux Resort: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:20:35 id Dachsteinkönig - Familux Resort: not found    km
+16:20:36 id Hotel Krallerhof: ok 10487901 Hotel Krallerhof 0.56 km
+16:20:36 id Good Life Resort - Riederalm: not found    km
+16:20:38 id Hotel Salzburger Hof: not found 40302 Salzburger Hof 3.23 km
+16:20:39 id Landhaus Koller: ok 9078849 Landhaus Koller 0.25 km
+16:20:40 id Biohotel Castello Konigsleiten: not found    km
+16:20:40 id Wohlfuhlhotel Platzer: not found    km
+16:20:41 id Schoenruh: not found 9095329 Pension Gregory 75.47 km
+16:20:42 id Alpenland Gerlos - Hotel & Breakfas: not found    km
+16:20:43 id Alpin Hotel Garni Eder: not found 9004868 Alpin Hotel Garni Eder Private 0.91 km
+16:20:43 id Hotel Garni Glockenstuhl: ok 40280 Garni Glockenstuhl 0.42 km
+16:20:44 Mountain Resort M&M: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:20:44 id Mountain Resort M&M: not found    km
+16:20:45 Stock Resort: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:20:45 id Stock Resort: not found 31863354 Wood Stock Acres Villa Resort 6274.97 km
+16:20:45 id Hotel Pension Wagnermigl: not found    km
+16:20:46 id THERESA Wellness Geniesser Hotel: not found    km
+16:20:46 id Kinder- & Gletscherhotel Hintertuxe: not found    km
+16:20:47 id Hotel Alpenhof: not found 35354 Hotel Alpenhof 64.29 km
+16:20:48 id Adler Inn Tyrol Mountain Resort Sup: not found    km
+16:20:49 id Alpinhotel Berghaus Spa: not found    km
+16:20:49 Hotel Eden: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:20:49 id Hotel Eden: not found 44990 Iris Hotel Eden - Czech Leadin 383.7 km
+16:20:50 id Hotel Alpin Spa Tuxerhof: ok 90956 Alpin Spa Tuxerhof 0.05 km
+16:20:51 id Hotel Alpenjuwel Jager 4*S: not found    km
+16:20:51 id Hotel Tuxertal: not found    km
+16:20:53 id Auenhotel: not found 9082116 Alpenhotel Stefanie 10.39 km
+16:20:54 id Sporthotel Kirchler: not found 40154 Sporthotel Klausen 55.18 km
+16:20:55 id Das Alois: ok 39998 das Alois 0.04 km
+16:20:56 id Landhotel Schermer: ok 42569 Vital Landhotel Schermer 0.12 km
+16:20:56 id Das Kaltenbach - Nature Hotel: not found    km
+16:20:57 id Hotel LANDHOF: not found 60687 Landhof Ellmau 1.61 km
+16:20:58 id Hotel Hochfilzer: ok 40315 Hotel Hochfilzer 0.16 km
+16:20:58 POST - Family Resort: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:20:58 id POST - Family Resort: not found    km
+16:20:59 id Hotel Staffler: not found 111643 Hotel Staffler & Schreiners Re 116.93 km
+16:21:01 id Aparthotel Bergland: not found 12484357 Cotswold Aparthotel 1138.05 km
+16:21:01 id Bergwald Appartements Alpbach: not found    km
+16:21:02 id Mia Alpina - Zillertal family retre: not found    km
+16:21:03 id Der Postwirt: not found 11065896 Hotel Pałac Alexandrinum 845.84 km
+16:21:04 id Gardenhotel Crystal: ok 82465 Gartenhotel Crystal 0.76 km
+16:21:06 id Hotel Greil: not found 57622 Delphi Art Hotel by Prima Hote 1414.09 km
+16:21:06 id Hotel & Spa Der Steirerhof: ok 109209 Hotel & Spa Der Steirerhof 0.24 km
+16:21:07 id Zum Senner Zillertal: not found    km
+16:21:07 id Hotel Laschenskyhof: not found    km
+16:21:08 id Hotel Stadler: not found 122760 Hotel Stadler am Attersee 4.78 km
+16:21:09 id The Little Guesthouse Salzburg: ok 12067028 The Little Guesthouse Salzburg 1.04 km
+16:21:09 id Hotel Sacher Salzburg: ok 39923 Hotel Sacher Salzburg 0.41 km
+16:21:10 id Hotel  Bristol Salzburg: ok 39777 Bristol Salzburg 0.29 km
+16:21:10 id Hotel Schloss Monchstein: ok 353249 Schloss Mönchstein Hotel 0.72 km
+16:21:11 id Hotel Muhr: not found 9070632 Hotel Muhr 3.78 km
+16:21:12 id Alpeiner Nature Resort: not found    km
+16:21:13 id Biohotel Rastbichlhof: ok 9263061 Biohotel Rastbichlhof 2.76 km
+16:21:14 id Alpenhotel Tirolerhof: not found 9004767 Alpenhotel Tirolerhof 5.12 km
+16:21:15 id Hotel Der Stubaierhof: not found    km
+16:21:15 id Premium Activehotel Bergkonig: not found    km
+16:21:16 id Vitalhotel Edelweiss: not found 71469 Vitalhotel Edelweiss 4.12 km
+16:21:17 id Spa Hotel Jagdhof: not found    km
+16:21:17 id Hotel Alpina deluxe: ok 84477 Hotel Alpina Deluxe 0.22 km
+16:21:18 id Juffing Hotel & Spa: not found    km
+16:21:18 id Hotel Garni Frohnatur: not found    km
+16:21:19 id Familienresort Buchau: not found    km
+16:21:19 id Seehotel Einwaller: ok 10489843 Seehotel Einwaller - adults on 0.87 km
+16:21:20 id Hotel Der Wiesenhof: ok 9032707 Hotel der Wiesenhof 0.66 km
+16:21:21 id Verwöhnhotel Kristall: not found    km
+16:21:22 id Sonnenhof Genusshotel & Appartement: ok 93483 Sonnenhof Genusshotel & Appart 0.2 km
+16:21:22 id Wellness & Kuschelhotel Winzer: not found    km
+16:21:23 id Hotel Das Central: ok 8326 Das Central - Alpine. Luxury.  0.13 km
+16:21:23 id Bergland Design and Wellness Hotel : not found    km
+16:21:24 id Hotel Schöne Aussicht: ok 9067073 Hotel Schöne Aussicht 0.19 km
+16:21:25 id Posthotel Achenkirch: ok 10482099 Posthotel Achenkirch am Achens 0.03 km
+16:21:25 id Hotel Kleissl: not found    km
+16:21:26 id Reduce Hotel Vital: not found    km
+16:21:27 id Reduce Hotel Thermal: ok 9076103 Reduce Hotel Thermal 0.54 km
+16:21:27 id Naturhotel Waldklause: ok 10802190 Naturhotel Waldklause 2.31 km
+16:21:28 id Hotel Princess Bergfrieden: ok 42524 Oasis Princess Bergfrieden 0.45 km
+16:21:29 id Hotel Alte Schmiede: not found 42366 Hotel Zur Alten Schmiede 427.64 km
+16:21:31 id Hotel Central: not found 30334363 Hotel Bukandula 5623.11 km
+16:21:31 id Parkhotel Seefeld: ok 84923 Parkhotel 0.38 km
+16:21:32 id Hotel Helga: ok 10544195 Hotel Helga 0.59 km
+16:21:33 id Hotel Residenz Hochland: not found 227 TULIP Hotels & Residences - Zw 681.5 km
+16:21:33 id Alpin Resort Sacher: ok 40609 Alpin Resort Sacher 0.72 km
+16:21:34 id Interalpen-Hotel Tyrol: ok 40122 Interalpen-Hotel Tyrol GmbH 0.82 km
+16:21:35 id Hotel Kristall - Adults Only: not found    km
+16:21:35 id Hotel Quellenhof Leutasch: not found    km
+16:21:36 id Berghotel & Gasthof Marlstein: not found    km
+16:21:37 id Posthotel Kassl: ok 72353 Posthotel Kassl 0.06 km
+16:21:37 id Hotel Ritzlerhof: ok 9110160 Hotel Ritzlerhof 0.99 km
+16:21:38 Alpenresort Schwarz Mieming: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:21:38 id Alpenresort Schwarz: not found    km
+16:21:38 id Aktiv Panoramahotel Daniel: ok 270090 Aktiv Panoramahotel Daniel 0.48 km
+16:21:39 id Hotel Andy: ok 42391 Hotel Andy 0.88 km
+16:21:39 id Hotel Jerzner Hof: ok 10675293 Jerzner Hof 0.37 km
+16:21:40 id Arabella Retreat & Spa: ok 9252280 Arabella Retreat & Spa 0.13 km
+16:21:40 id Alpine Resort Goies Superior: not found    km
+16:21:41 id Romantik & Spa Alpen-herz: ok 9004730 Romantik & Spa Alpen-Herz 0.47 km
+16:21:41 id Hotel & Garni Das Kohle: not found    km
+16:21:42 id Hotel Holzleiten: not found 26038 Natur Und Spa Resort Holzleite 3.4 km
+16:21:43 id Hotel Gebhard: not found 10266487 Hôtel Timgad 302.47 km
+16:21:44 id Hotel Toalstock: ok 10207919 ... Mein Romantisches Hotel To 0.07 km
+16:21:44 id Hotel Fisserhof: ok 10622966 Hotel Fisserhof 0.31 km
+16:21:46 Alps Lodge: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],"extensions":{"code"
+16:21:46 id Alps Lodge: not found 10740686 Maurushaus 57.05 km
+16:21:47 id Schlosshotel Fiss: not found    km
+16:21:47 id LARET Private Boutique Hotel: not found    km
+16:21:48 id Hotel Sonnenpark: not found    km
+16:21:48 id Hotel Singer - Relais & Chateaux: ok 574726 Hotel Singer - Relais & Châtea 0.32 km
+16:21:49 id Hotel Garni Martina: not found    km
+16:21:49 id Hotel Olympia Ischgl: not found    km
+16:21:50 id Hotel Post Ischgl: ok 9114902 Hotel Post Ischgl 0.25 km
+16:21:50 id Hotel Sonne Ischgl: not found    km
+16:21:51 id Hotel Gridlon Wellness am Arlberg: not found    km
+16:21:51 id Alpinhotel Monte ***superior: not found    km
+16:21:52 id Hotel Zur Pfeffermühle: not found    km
+16:21:53 id Hotel Gletscherblick: not found 120049 Hotel Gletscherblick 43.51 km
+16:21:54 id Hotel Alpenland: not found 39939 Hotel Alpenland 64.11 km
+16:21:55 id Himmlhof: not found 221401 A CASA Rimlhof 53.48 km
+16:21:56 id Hotel Mössmer: not found 93619 Hôtel-Restaurant de la Tour 693.95 km
+16:21:57 id Hotel & Restaurant Tannenhof: not found    km
+16:21:58 id Pepis Skihotel: not found    km
+16:21:58 id Arlen Lodge: ok 9052553 Arlen Lodge Hotel 1.18 km
+16:21:59 id m3Hotel: not found 107665 MiHotel 205.0 km
+16:22:00 id Hotel Garni Rundeck: not found    km
+16:22:00 id Hotel Garni Albona: not found    km
+16:22:01 id Hotel Lux Alpinae: ok 9265783 Lux Alpinae 0.94 km
+16:22:01 id Der Waldhof: ok 80674 Der Waldhof 1.29 km
+16:22:02 id Hotel Tyrol am Haldensee: not found    km
+16:22:03 id Hotel der Engel: not found 77847 Derby Station Hotel 1044.67 km
+16:22:03 id Privathotel Das-Schmidt: not found    km
+16:22:04 id Hotel Freigold ****Superior: not found    km
+16:22:04 id Hotel Arlberghaus: not found    km
+16:22:06 id Hotel Erzberg: ok 17873641 Hotel Erzberg 0.09 km
+16:22:06 id Romantik Hotel Verwall: not found    km
+16:22:07 id Hotel Turmhof: not found 83732 Turmhof Breitenbrunn 35.72 km
+16:22:07 id Hotel Kristberg: not found 10538144 New Hotel Kristberg in Lech wi 0.54 km
+16:22:08 id Hotel Garni Schneider: not found 11019966 Schneider Hof Boutique-Hotel G 12.87 km
+16:22:09 id Der Berghof: ok 10986182 Der Berghof 0.26 km
+16:22:09 id Hotel Gotthard: ok 9058408 Hotel Gotthard 0.5 km
+16:22:11 id Hotel Theodul: not found 28763727 Château de Théoule Hôtel & Spa 481.35 km
+16:22:39 20 searches, 39 hotel-nights priced
+16:23:06 40 searches, 109 hotel-nights priced
+16:23:31 60 searches, 140 hotel-nights priced
+16:23:58 80 searches, 170 hotel-nights priced
+16:24:26 100 searches, 220 hotel-nights priced
+16:24:54 120 searches, 244 hotel-nights priced
+16:25:21 140 searches, 276 hotel-nights priced
+16:25:49 160 searches, 310 hotel-nights priced
+16:26:17 180 searches, 352 hotel-nights priced
+16:26:27 edreams: {'ids_due': 200, 'ids_found': 63, 'ids_missed': 137, 'calls': 187, 'priced': 359, 'available': 359, 'errors': 12, 'stored_nights': 359, 'ids_coverage': '63/1500'}
