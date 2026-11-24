@@ -3,6 +3,7 @@
 # through the GitHub API, not only in the web UI. Never fails the workflow.
 set -uo pipefail
 name="${1:?usage: publish_reports.sh <name>}"
+name="${name:0:100}"   # a folder name past 255 characters published nothing (probe of eDreams' results page, 2026-11-24)
 [ -d out ] || { echo "nothing in out/"; exit 0; }
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
