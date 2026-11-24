@@ -268,15 +268,29 @@ def booking_link(engine: str, row: dict, p: dict, night: date, adults: int, ec: 
 
 # ---------- run ----------
 
-def ids_due(sites: list[dict], known: dict, engines: list[str], today: date, retry_days: int) -> list[dict]:
+def ids_due(sites: list[dict], known: dict, engines: list[str], today: date, retry_days: int,
+            valid_from: str = "") -> list[dict]:
+    """Hotels to look up: never looked up, not found and due for a retry, or found before `valid_from` (settings
+    engines.ids_valid_from: codes found before a fix are looked up again)."""
     out = []
     for s in sites:
         if s.get("engine") not in engines or not (s.get("booking_link") or s.get("website")):
             continue
         k = known.get(s["pid"])
-        if not k or (k["status"] != "ok" and (today - date.fromisoformat(k["checked_at"][:10])).days >= retry_days):
+        if not k or (k["status"] != "ok" and (today - date.fromisoformat(k["checked_at"][:10])).days >= retry_days) \
+                or (valid_from and k["checked_at"] < valid_from):
             out.append(s)
     return out
+
+
+def shared_codes(codes: dict[str, dict | None]) -> set[str]:
+    """Hotels given the same engine code as another hotel: not trusted (run 45333656075: a page's late calls named the
+    previous hotel's code)."""
+    seen: dict[str, list[str]] = {}
+    for pid, c in codes.items():
+        if c and c.get("code"):
+            seen.setdefault(json.dumps(c, sort_keys=True), []).append(pid)
+    return {pid for pids in seen.values() if len(pids) > 1 for pid in pids}
 
 
 def _request_text(r) -> str:
@@ -296,13 +310,13 @@ def find_codes(sites: list[dict], ec: dict, log=log, clock=time.monotonic, budge
     with sync_playwright() as pw:
         br = launch_browser(pw, True)
         ctx = br.new_context(user_agent=ec["user_agent"], locale="en-GB", viewport={"width": 1366, "height": 900})
-        page = ctx.new_page()
-        urls: list[str] = []
-        page.on("request", lambda r: urls.append(_request_text(r)))
         for s in sites:
             if clock() - started > budget_s:
                 break
-            urls.clear()
+            # a fresh page per hotel: the previous page's late calls named the previous hotel (run 45333656075)
+            page = ctx.new_page()
+            urls: list[str] = []
+            page.on("request", lambda r, urls=urls: urls.append(_request_text(r)))
             link = (s.get("booking_link") or s.get("website")).replace("&amp;", "&").replace("&#038;", "&")
             try:
                 page.goto(link, wait_until="domcontentloaded", timeout=45000)
@@ -310,6 +324,11 @@ def find_codes(sites: list[dict], ec: dict, log=log, clock=time.monotonic, budge
                 urls.append(page.url)
             except Exception as e:  # noqa: BLE001
                 log(f"{s['name'][:35]}: {str(e)[:80]}")
+            finally:
+                try:
+                    page.close()
+                except Exception:  # noqa: BLE001
+                    pass
             out[s["pid"]] = code_from_requests(s["engine"], urls)
             log(f"{s['engine']:8} {s['name'][:35]:35} {out[s['pid']] and {k: v[:24] for k, v in out[s['pid']].items()}}")
         br.close()
@@ -330,21 +349,27 @@ def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, t
     stats = {"ids_due": 0, "ids_found": 0, "hotels_priced": 0, "nights": 0, "errors": 0}
     started = clock()
     if part in ("ids", "all"):
-        todo = ids_due(sites, known, ec["live"], today, ec["retry_days"])[: ec["ids_per_run"]]
+        todo = ids_due(sites, known, ec["live"], today, ec["retry_days"], ec.get("ids_valid_from", ""))[: ec["ids_per_run"]]
         stats["ids_due"] = len(todo)
         direct = {s["pid"]: code_from_requests(s["engine"], [s.get("booking_link") or "", s.get("website") or ""])
                   for s in todo}                     # some links name the engine's hotel code already
         need = [s for s in todo if not direct.get(s["pid"])]
         codes = finder(need, ec, log=log, budget_s=max_minutes * 60 * (0.5 if part == "all" else 1)) if need else {}
         codes.update({k: v for k, v in direct.items() if v})
+        redo = {s["pid"] for s in todo}
+        held = {pid: parse_seller_id(r["seller_id"])[1] for pid, r in known.items()
+                if r["status"] == "ok" and r["seller_id"] and pid not in redo}
+        shared = shared_codes({**held, **codes}) & set(codes)
         for s in todo:
             if s["pid"] not in codes:
                 continue
             c = codes[s["pid"]]
+            ok = bool(c) and s["pid"] not in shared
             known[s["pid"]] = {"pid": s["pid"], "seller": SELLER, "seller_id": seller_id(s["engine"], c) if c else "",
                                "city_id": "", "seller_name": s["name"], "lat": "", "lon": "", "km": "", "similarity": "",
-                               "status": "ok" if c else "not found", "checked_at": now}
-            stats["ids_found"] += 1 if c else 0
+                               "status": "ok" if ok else ("shared code" if c else "not found"), "checked_at": now}
+            stats["ids_found"] += 1 if ok else 0
+        stats["shared_codes"] = len(shared)
         others = [r for r in all_ids if r["seller"] != SELLER]
         write_csv(sorted(others + list(known.values()), key=lambda r: (r["seller"], r["pid"])), p["seller_ids"], ID_FIELDS)
     if part in ("prices", "all"):
@@ -381,7 +406,9 @@ def run(cfg: dict, part: str, max_minutes: float, get=None, finder=find_codes, t
                             "seen_at": now})
             log(f"{engine:8} {r['seller_name'][:35]:35} {len(nights)} nights priced")
         old_all = read_csv(p["seller_prices"])
-        mine = [x for x in old_all if x.get("seller") == SELLER]
+        ok_pids = {pid for pid, r in known.items() if r["status"] == "ok"}
+        mine = [x for x in old_all if x.get("seller") == SELLER and x["pid"] in ok_pids]   # a hotel's code redone or
+                                                                                          # dropped: its old prices go
         others = [x for x in old_all if x.get("seller") != SELLER]
         # a fresh full calendar replaces the hotel's old rows; per-stay engines add to them (a few nights per pass)
         full = {x["pid"] for x in new if x["seller_id"] in ec["full_calendars"]}

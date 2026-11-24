@@ -196,3 +196,44 @@ def test_run_prices_hns_and_ericsoft(tmp_path):
     e = [r for r in rows if r["pid"] == "e"]
     assert len(e) == 8 and {r["price"] for r in e if r["available"] == "yes"} == {"148.0"}
     assert any(r["available"] == "no" for r in e) and "idh=C4F7F3CFA10444AB" in e[0]["url"]
+
+
+def test_codes_found_before_the_fix_are_looked_up_again_and_shared_codes_distrusted(tmp_path):
+    """Regression (run 45333656075): the code finder reused one page, so the previous hotel's late calls gave the next
+    hotel its code (Hotel Grossarler Hof got Hotel Valserhof's IT_VAL_VALSERHOF). Codes found before the fix are looked
+    up again, a code given to two hotels is not trusted, and a hotel whose code is redone loses its old prices."""
+    cfg = config.load()
+    for k in ("watchlist", "official_sites", "seller_ids", "seller_prices"):
+        cfg["paths"][k] = str(tmp_path / f"{k}.csv")
+    with open(cfg["paths"]["watchlist"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "gone_since"])
+        w.writeheader()
+        w.writerows([{"pid": x, "gone_since": ""} for x in ("v", "g", "s")])
+    with open(cfg["paths"]["official_sites"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "name", "engine", "booking_link", "website"])
+        w.writeheader()
+        w.writerows([{"pid": "v", "name": "Hotel Valserhof", "engine": "seekda", "booking_link": "https://v.example", "website": ""},
+                     {"pid": "g", "name": "Hotel Grossarler Hof", "engine": "seekda", "booking_link": "https://g.example", "website": ""},
+                     {"pid": "s", "name": "Hotel Steirerhof", "engine": "seekda", "booking_link": "https://s.example", "website": ""}])
+    old = "2026-11-24T05:37:23+00:00"
+    with open(cfg["paths"]["seller_ids"], "w", newline="") as f:
+        w = csv.DictWriter(f, engines.ID_FIELDS)
+        w.writeheader()
+        w.writerow({"pid": "g", "seller": "official", "seller_id": 'seekda:{"code":"IT_VAL_VALSERHOF"}', "status": "ok",
+                    "checked_at": old, "seller_name": "Hotel Grossarler Hof"})
+    with open(cfg["paths"]["seller_prices"], "w", newline="") as f:
+        w = csv.DictWriter(f, engines.PRICE_FIELDS)
+        w.writeheader()
+        w.writerow({"pid": "g", "seller": "official", "seller_id": "seekda", "night": "2027-01-10", "price": "99",
+                    "available": "yes", "seen_at": old})
+    assert {s["pid"] for s in engines.ids_due(list(csv.DictReader(open(cfg["paths"]["official_sites"]))),
+            {"g": {"status": "ok", "checked_at": old}}, ["seekda"], date(2026, 11, 24), 30, cfg["engines"]["ids_valid_from"])} == {"v", "g", "s"}
+
+    def finder(sites, ec, log=None, budget_s=0):        # two hotels "found" with one code: neither is trusted
+        return {"v": {"code": "IT_VAL_VALSERHOF"}, "g": {"code": "IT_VAL_VALSERHOF"}, "s": {"code": "AT_GROSSARLER"}}
+    res = engines.run(cfg, "all", 5, finder=finder, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None,
+                      get=lambda u: Response(200, {}, b'{"result": []}'), post=lambda u, b: None)
+    ids = {r["pid"]: r for r in csv.DictReader(open(cfg["paths"]["seller_ids"]))}
+    assert ids["v"]["status"] == ids["g"]["status"] == "shared code" and ids["s"]["status"] == "ok"
+    assert res["shared_codes"] == 2 and res["ids_found"] == 1
+    assert [r for r in csv.DictReader(open(cfg["paths"]["seller_prices"])) if r["pid"] == "g"] == []

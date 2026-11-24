@@ -103,7 +103,18 @@ def list_body(template: dict, hotel_ids: list[int], city_id: int, country_id: in
         [{"type": "31", "title": "", "value": str(i), "filterId": f"31|{i}"} for i in hotel_ids] + \
         [{"filterId": "29|1", "type": "29", "value": f"1|{adults}"}]
     b["paging"] = {**b.get("paging", {}), "pageIndex": 1, "pageSize": max(10, len(hotel_ids))}
+    # "dynamic refresh" re-prices the list a page already has (its token and session): without them Trip.com is asked
+    # for a new list (run 45333656075: with them, every answer was the captured hotel, 912 of 912)
+    b.pop("dynamicRefresh", None)
+    import uuid
+    b["extraFilter"] = {**b.get("extraFilter", {}), "sessionId": uuid.uuid4().hex}
     return b
+
+
+def list_url(tpl: str, hotel_id: int, city_id: int, country_id, night: date, adults: int) -> str:
+    """Trip.com's own results page for one hotel and night (what its search box opens)."""
+    return tpl.format(id=hotel_id, city=city_id, country=country_id or 0, checkin=night.isoformat(),
+                      checkout=(night + timedelta(days=1)).isoformat(), adults=adults)
 
 
 class TripPage:
@@ -145,10 +156,49 @@ class TripPage:
 
     def nights(self, hotel_ids: list[int], city_id: int, country_id: int | None, night: date, adults: int,
                name: str = "") -> list[dict]:
-        doc = self._post(self.tc["list_url"], list_body(self.list_template, hotel_ids, city_id, country_id, night,
-                                                        adults, name))
-        self.last = doc
-        return hotels(doc)
+        """Our hotels' prices for the night: Trip.com's list call asked again; when its answer doesn't have our hotel,
+        Trip.com's own results page for the hotel and night (and every call after that in this pass)."""
+        if not getattr(self, "pages_mode", False):
+            doc = self._post(self.tc["list_url"], list_body(self.list_template, hotel_ids, city_id, country_id, night,
+                                                            adults, name))
+            self.last = doc
+            got = hotels(doc)
+            if any(h["id"] in hotel_ids for h in got):
+                return got
+            self.misses = getattr(self, "misses", 0) + 1
+            if self.misses < self.tc["replay_misses_before_pages"]:
+                return got
+            self.log("Trip.com's list call doesn't name our hotels: opening its results page instead")
+            self.pages_mode = True
+        return self.page_night(hotel_ids[0], city_id, country_id, night, adults)
+
+    def page_night(self, hotel_id: int, city_id: int, country_id, night: date, adults: int) -> list[dict]:
+        """Open Trip.com's results page for the hotel and night and read the list answers it loads itself."""
+        seen: list = []
+
+        def keep(r):
+            if "/34951/fetch" in r.url:      # fetchHotelList / fetchDynamicRefreshList
+                try:
+                    seen.append(r.json())
+                except Exception:  # noqa: BLE001
+                    pass
+        self.page.on("response", keep)
+        try:
+            self.page.goto(list_url(self.tc["list_page"], hotel_id, city_id, country_id, night, adults),
+                           wait_until="domcontentloaded", timeout=60000)
+            for _ in range(int(self.tc["page_wait_s"] * 2)):
+                if any(h["id"] == hotel_id for d in seen for h in hotels(d)):
+                    break
+                self.page.wait_for_timeout(500)
+        finally:
+            self.page.remove_listener("response", keep)
+        for d in reversed(seen):
+            got = hotels(d)
+            if any(h["id"] == hotel_id for h in got):
+                self.last = d
+                return got
+        self.last = seen[-1] if seen else {"page": self.page.url, "text": self.page.inner_text("body")[:3000]}
+        return []
 
 
 def find_id(page, w: dict, tc: dict, stats: dict, sleep=time.sleep, log=log) -> dict | None:

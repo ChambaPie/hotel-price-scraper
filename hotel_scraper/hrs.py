@@ -118,6 +118,16 @@ class HrsPage:
         self.br.close()
 
     def _fetch(self, method: str, url: str, body: dict | None = None):
+        if method == "POST":
+            # the search service refuses the page's own fetch from a script ("Failed to fetch", runs 45280616865 and
+            # 45333656075): send it from the browser's network stack instead, with the page's cookies and origin
+            r = self.page.request.post(url, data=json.dumps(body), timeout=45000,
+                                       headers={"content-type": "application/json", "accept": "application/json",
+                                                "origin": self.hc["origin"], "referer": self.hc["home"],
+                                                **{k: v for k, v in self.headers.items() if k.lower().startswith("x-")}})
+            if r.status != 200:
+                raise RuntimeError(f"HRS HTTP {r.status}: {r.text()[:150]}")
+            return r.json()
         status, text = self.page.evaluate("""async ([m, url, body, extra]) => {
             const h = Object.assign({'content-type': 'application/json', 'accept': 'application/json'}, extra || {});
             const r = await fetch(url, {method: m, body: body, headers: h});

@@ -140,3 +140,17 @@ def test_other_hotels_in_the_answer_are_not_taken_for_ours(tmp_path):
     assert res["calls"] > 0 and res["priced"] == 0 and res["missing"] == res["calls"]
     assert (tmp_path / "out" / "tripcom_miss_1.json").exists()      # what came back instead, kept to see why
     assert [r for r in csv.DictReader(open(cfg["paths"]["seller_prices"])) if r["seller"] == "trip_com"] == []
+
+
+def test_list_request_is_a_new_search_not_a_refresh():
+    """Regression (run 45333656075): the captured request carried the page's refresh token and session, so Trip.com
+    re-priced the captured list (Hotel Artemide) whatever hotel was asked: 912 answers of 912."""
+    b = tripcom.list_body(LIST_REQUEST, [1234], 99, 7, date(2027, 3, 1), 2, "Hotel Andy")
+    assert "dynamicRefresh" not in b and b["extraFilter"]["sessionId"] != LIST_REQUEST["extraFilter"]["sessionId"]
+    assert "dynamicRefresh" in LIST_REQUEST                                         # the template is left as it was
+
+
+def test_results_page_address():
+    u = tripcom.list_url(config.load()["tripcom"]["list_page"], 760667, 343, 106, date(2026, 12, 14), 2)
+    assert "optionId=760667" in u and "cityId=343" in u and "checkin=2026-12-14" in u and "checkout=2026-12-15" in u
+    assert "searchValue=31%7C760667" in u and "adult=2" in u

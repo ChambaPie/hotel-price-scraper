@@ -488,6 +488,9 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
   list_url: "https://www.trip.com/restapi/soa2/34951/fetchDynamicRefreshList"     # what its results list asks
   keywords_template: config/tripcom_keywords.json   # its own requests, captured from the page (2026-11-23)
   list_template: config/tripcom_list.json
+  list_page: "https://www.trip.com/hotels/list?cityId={city}&countryId={country}&searchType=H&optionId={id}&searchValue=31%7C{id}%2A31%2A{id}%2A1&checkin={checkin}&checkout={checkout}&crn=1&adult={adults}&curr=EUR&locale=en-GB"
+  replay_misses_before_pages: 3   # the list call answering without our hotel this often: open the results page instead
+  page_wait_s: 10            # results page: wait at most this long for its list answer
   queries: ["{name} {city}", "{name}"]
   max_km: 3.0                # same name-and-place rules as Agoda (positions from Trip.com's suggestions)
   min_similarity: 0.8
@@ -509,6 +512,7 @@ tripcom:                     # Trip.com's own prices (hotel_scraper/tripcom.py; 
 
 hrs:                         # HRS's own prices; hotel.de is the same company and search (hotel_scraper/hrs.py)
   home: "https://www.hrs.com/en/"
+  origin: "https://www.hrs.com"
   user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
   accept_language: "en-GB,en;q=0.9"
   wait_ms: 5000
@@ -536,6 +540,8 @@ hrs:                         # HRS's own prices; hotel.de is the same company an
 
 engines:                     # hotels' own booking engines (hotel_scraper/engines.py; owner, 2026-11-23: every vendor)
   live: [seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft]   # engines with a reader (survey: data/official_sites.csv)
+  ids_valid_from: "2026-11-24T10:00:00+00:00"   # codes found before this are looked up again (run 45333656075:
+                             # the code finder reused one page, so late calls gave a hotel the previous hotel's code)
   full_calendars: [seekda, d_edge, hotelnetsolutions]   # a pass prices the whole horizon (others: a few nights per pass)
   hotelnetsolutions:         # HNS onepagebooking v6: its own calendar call (cheapest room per night), captured 2026-11-23
     rateplan_url: "https://v6.onepagebooking.com/api/RatePlan"
