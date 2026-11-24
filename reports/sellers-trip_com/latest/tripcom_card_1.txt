@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=22671&provinceId=0&districtId=0&countryId=31&destName=Hotel%20Carlton&searchWord=Hotel%20Carlton&searchType=H&optionId=4372203&searchValue=31%7C4372203*31*4372203*1&checkin=2026-11-26&checkout=2026-11-27&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 177.0, 'price_excl': 155.0, 'price_total': 177.0, 'breakfast': '', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=37142&provinceId=0&districtId=0&countryId=14&destName=Hotel%20Alpina&searchWord=Hotel%20Alpina&searchType=H&optionId=9029366&searchValue=31%7C9029366*31*9029366*1&checkin=2027-03-28&checkout=2027-03-29&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 318.0, 'price_excl': 283.0, 'price_total': 318.0, 'breakfast': '', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,27 +11,27 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Hotel Carlton
-Thu, Nov 26
+Hotel Alpina
+Sun, Mar 28
 -
-Fri, Nov 27
+Mon, Mar 29
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Beaulieu-sur-Mer
+Popular filters for Rauris
 
-Homes & apts
-Great 9+
-Based on guest reviews
-Parking available
+Apartment
 Breakfast included
+1 double bed
+Very Good 8+
+Based on guest reviews
+2 bedrooms
 Hotel
 Free cancellation
-Private toilet
-Balcony
-Air conditioning
+Pets welcome
+Homes & apts
 
 Budget
 
@@ -54,24 +54,20 @@ Show More
 
 Star rating
 
-Beach vacation
-
-Near Beach
-Pool
-Spa
-
 Location
 
-Straight-line distance from Hotel Carlton
+Straight-line distance from Hotel Alpina
 No distance limit
-Greek Villa Kerylos
-Plage de la Réserve
-BEAULIEU SUR MER RAILWAY STATION
+Goldwaschplatz Heimalm, Rauris
+Edelweissspitze
+Kalchkendlalm - A School on the Mountain
 Show More
 
 Meals
 
 Breakfast included
+Dinner included
+Breakfast & Dinner Included
 
 Bed type
 
@@ -82,9 +78,9 @@ Show More
 
 Room features
 
-Family room
-Balcony
 Entire unit
+Balcony
+Mountain view room
 Show More
 
 Number of bedrooms
@@ -102,63 +98,60 @@ Show More
 
 Property facilities & services
 
+Sauna
 Parking available
-Pool
-Wi-Fi in public areas
+Pets welcome
 Show More
 
 Room facilities & services
 
-Kitchen
-Air conditioning
-Private toilet
+Extra beds available
+Cribs available
+Smoking room
 Show More
 
 Property Features
 
-Near Beach
-Romantic vibes
+Self check-in
 Great views
-Show More
+Family-friendly
 
 Guest Impressions
 
 Lots to do
 Ideal location
+Excellent service
+Show More
 
 Room Size
 
-≥ 20㎡
-≥ 30㎡
-≥ 40㎡
+≥ 45㎡
+≥ 50㎡
+≥ 65㎡
 
 Payment
 
 Prepay Online
+Book now, pay later
 Pay at Hotel
-Book without credit card
+Show More
 
 Booking Policy
 
 Instant confirmation
 Free cancellation
 
-Brands
-
-Ibis Styles
-The Leading Hotels of the World
-
 Reviews
 
+200+
 100+
 50+
-20+
 
 Accessibility
 
 Handrails on stairs
+Pool ramp available
 Stair-free main entrance
-accessible facilities
 Show More
 First booking offer!
 We'll apply the best discount for you at check-out
@@ -170,26 +163,27 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Hotel Carlton
-Near BEAULIEU SUR MER RAILWAY STATIONGymnase Pascal ManiniMap
+Hotel Alpina
+Near Sonnblick ArenaMesnerhaus RaurisMap
 Great
-59 reviews
-9.1
-Delicious breakfastOutdoor poolBar
-No. 1 of 4-Star Select Hotels in Beaulieu-sur-Mer
-Jazzy
-1 queen bed
+7 reviews
+9.0
+Pets welcome
+Classic Double Room
+1 double bed
+Pay nothing until February 25
 Free Cancellation
-€155
-Total (incl. taxes & fees): €177
+Only 5 left at this price
+€283
+Total (incl. taxes & fees): €318
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in France
+Hotels in Austria
 >
-Hotels in Provence-Alpes-Cote d'Azur
+Hotels in Salzburg State
 >
-Hotels in Beaulieu-sur-Mer
+Hotels in Rauris

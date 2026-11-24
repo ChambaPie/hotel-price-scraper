@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=714&provinceId=0&districtId=0&countryId=31&destName=Regent%20Carlton%20Cannes&searchWord=Regent%20Carlton%20Cannes&searchType=H&optionId=2190562&searchValue=31%7C2190562*31*2190562*1&checkin=2027-05-31&checkout=2027-06-01&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 1034.0, 'price_excl': 932.0, 'price_total': 1034.0, 'breakfast': '', 'cancellation': ''}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=37142&provinceId=0&districtId=0&countryId=14&destName=Rauriserhof%204%20Sterne%20Superior&searchWord=Rauriserhof%204%20Sterne%20Superior&searchType=H&optionId=4233354&searchValue=31%7C4233354*31*4233354*1&checkin=2027-03-08&checkout=2027-03-09&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 466.0, 'price_excl': 418.0, 'price_total': 466.0, 'breakfast': '', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,39 +11,38 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Regent Carlton Cannes
-Mon, May 31
+Rauriserhof 4 Sterne Superior
+Mon, Mar 8
 -
-Tue, Jun 1
+Tue, Mar 9
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Cannes
+Popular filters for Rauris
 
+Apartment
 Breakfast included
-Hotel
-Parking available
-Free cancellation
-Prepay Online
-Local cards accepted
-Pets welcome
+1 double bed
 Very Good 8+
 Based on guest reviews
-2 beds
-Spa
+2 bedrooms
+Hotel
+Free cancellation
+Pets welcome
+Homes & apts
 
 Budget
 
-(€0 - €740+)
+(€0 - €230+)
 Price per room per night (excl. taxes & fees)
-€0 - €80
-€80 - €150
-€150 - €260
-€260 - €410
-€410 - €740
-> €740
+€0 - €50
+€50 - €90
+€90 - €140
+€140 - €180
+€180 - €230
+> €230
 
 Property Type
 
@@ -55,20 +54,13 @@ Show More
 
 Star rating
 
-Beach vacation
-
-Near Beach
-Pool
-Spa
-Show More
-
 Location
 
-Straight-line distance from Regent Carlton Cannes
+Straight-line distance from Rauriserhof 4 Sterne Superior
 No distance limit
-Palace of Festivals and Congresses of Cannes
-Croisette
-Bd de la Croisette
+Goldwaschplatz Heimalm, Rauris
+Edelweissspitze
+Kalchkendlalm - A School on the Mountain
 Show More
 
 Meals
@@ -86,9 +78,9 @@ Show More
 
 Room features
 
-Family room
+Entire unit
 Balcony
-Suite
+Mountain view room
 Show More
 
 Number of bedrooms
@@ -106,29 +98,23 @@ Show More
 
 Property facilities & services
 
-Pool
+Sauna
 Parking available
-Spa
+Pets welcome
 Show More
 
 Room facilities & services
 
-Air conditioning
-Balcony
-Jacuzzi
+Extra beds available
+Cribs available
+Smoking room
 Show More
-
-Opening/renovation time
-
-Within 1 year
-Within 2 years
 
 Property Features
 
-Near Beach
+Self check-in
 Great views
 Family-friendly
-Show More
 
 Guest Impressions
 
@@ -139,9 +125,9 @@ Show More
 
 Room Size
 
-≥ 30㎡
-≥ 40㎡
-≥ 70㎡
+≥ 45㎡
+≥ 50㎡
+≥ 65㎡
 
 Payment
 
@@ -155,17 +141,6 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
-Discounts
-
-Extra Trip Coin Rewards
-
-Brands
-
-B&B Hotels
-Barrière Hotels
-Best Western
-Show More
-
 Reviews
 
 200+
@@ -174,10 +149,19 @@ Reviews
 
 Accessibility
 
-Assistive listening devices
 Handrails on stairs
-Handrails in hallways
+Pool ramp available
+Stair-free main entrance
 Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -188,26 +172,28 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Regent Carlton Cannes
-CroisetteNear COPAL BEACHMap
+Rauriserhof 4 Sterne Superior
+Near Sonnblick ArenaMesnerhaus RaurisMap
 Amazing
-119 reviews
-9.6
-Ocean-view restaurantAfternoon teaSunrise
-2027 Europe 100 - Scenic Hotels
-Classic Room
-1 king bed or 2 double beds
-Last booked 2 hrs ago
-€932
-Total (incl. taxes & fees): €1,034
+42 reviews
+9.5
+TennisMountain retreatFree shuttle bus
+No. 1 of 4-Star Select Hotels in Rauris
+Deluxe Double Room
+1 queen bed
+Pay nothing until February 21
+Free Cancellation
+Half board included
+€418
+Total (incl. taxes & fees): €466
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in France
+Hotels in Austria
 >
-Hotels in Provence-Alpes-Cote d'Azur
+Hotels in Salzburg State
 >
-Hotels in Cannes
+Hotels in Rauris
