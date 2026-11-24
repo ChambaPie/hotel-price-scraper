@@ -176,9 +176,13 @@ jobs:
       - name: Merge the readers' rows
         run: |
           git fetch -q origin seller-snapshots && git show origin/seller-snapshots:seller_prices.csv > data/seller_prices.csv || echo "no snapshot yet"
-          python -m hotel_scraper.seller_merge --kind prices --base data/seller_prices.csv --parts parts/*/seller_prices.csv
-          python -m hotel_scraper.seller_merge --kind ids --base data/seller_ids.csv --parts parts/*/seller_ids.csv
-          if [ -f parts/seller-agoda/agoda_state.json ]; then cp parts/seller-agoda/agoda_state.json data/agoda_state.json
+          # one reader's rows land in parts/ itself, several in parts/<reader>/ (a lone reader's run published nothing,
+          # 2026-11-24 11:16-12:58)
+          shopt -s nullglob
+          python -m hotel_scraper.seller_merge --kind prices --base data/seller_prices.csv --parts parts/seller_prices.csv parts/*/seller_prices.csv
+          python -m hotel_scraper.seller_merge --kind ids --base data/seller_ids.csv --parts parts/seller_ids.csv parts/*/seller_ids.csv
+          state=$(ls parts/agoda_state.json parts/seller-agoda/agoda_state.json 2>/dev/null | head -1)
+          if [ -n "$state" ]; then cp "$state" data/agoda_state.json
           else git show origin/seller-snapshots:agoda_state.json > data/agoda_state.json 2>/dev/null || rm -f data/agoda_state.json; fi
       - name: Commit hotel ids
         run: |
