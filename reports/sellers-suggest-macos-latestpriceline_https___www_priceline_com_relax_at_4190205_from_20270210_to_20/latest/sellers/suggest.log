@@ -1,0 +1,11 @@
+21:07:23 https://www.priceline.com/relax/at/4190205/from/20270210/to/20270211/rooms/1/adults/2: 10 calls
+21:07:23   200 GET https://ift.px-cloud.net/ns?c=f3f8aa60-e84a-11f1-ab5e-21a03c0c8cce text/html
+21:07:23   200 POST https://b.px-cdn.net/api/v1/PX9aTjSd0n/d/p application/json
+21:07:23   200 POST https://www.priceline.com/9aTjSd0n/xhr/assets/js/bundle application/json; charset=utf-
+21:07:23   200 HEAD https://www.priceline.com/9aTjSd0n/captcha/captcha.js?a=c&u=f3f8aa60-e84a-11f1-ab5e-21a03c0c8cce&v=f2d9e799-e84a-11f1-83c2-b0f6e78ca0ae&m=0 application/javascript; charse
+21:07:23   200 HEAD https://client.px-cloud.net/PX9aTjSd0n/main.min.js application/javascript; charse
+21:07:23   200 GET https://collector-px9atjsd0n.px-client.net/b/g?payload=aUkQRhAIEHVxZ0Z+Xgd7eUpFDxAeEFYQCEkQZXVkRlBaBnFTdGcPEAhUU15BVx4QV0tCfWtmB3VmXmsPEAhGQEdXHhBlW0Z image/gif
+21:07:23   200 GET https://fst-ec.px-cloud.net/?id=f2d9e799-e84a-11f1-83c2-b0f6e78ca0ae text/plain; charset=utf-8
+21:07:23   200 POST https://dvp.px-cloud.net/v text/plain; charset=utf-8, tex
+21:07:23   200 POST https://www.priceline.com/9aTjSd0n/xhr/assets/js/bundle application/json; charset=utf-
+21:07:23   200 POST https://b.px-cdn.net/api/v1/PX9aTjSd0n/d/p application/json
