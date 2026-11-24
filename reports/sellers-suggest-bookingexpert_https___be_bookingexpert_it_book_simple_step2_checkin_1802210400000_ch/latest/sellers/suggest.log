@@ -1,0 +1,24 @@
+21:18:07 https://be.bookingexpert.it/book/simple/step2?checkin=1802210400000&checkout=1802296800000&hotel=180: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://be.bookingexpert.it/book/simple/step2?checkin=1802210400000&checkout=1802296
+21:18:07 https://be.bookingexpert.it/book/simple/step2?checkin=1802210400000&checkout=1802296800000&hotel=180: 0 calls
+21:18:58 https://be.bookingexpert.it/book/simple/step2?checkin=1804024800000&checkout=1804111200000&hotel=180: 19 calls
+21:18:58   200 GET https://be.bookingexpert.it/book/ws/searches/noavailplanner?nsid=bdb35f8b-4689-4812-9eaf-359dc6c8cec8&winding=1&searchId=47c87898-68ad-45b9-a8e1-c0570 text/html;charset=UTF-8
+21:18:58   200 GET https://be.bookingexpert.it/book/script/calendar?hotel=18075&layout=15437&lang=it&currency=EUR&nsid=bdb35f8b-4689-4812-9eaf-359dc6c8cec8&searchId=47c8 application/json;charset=utf-8
+21:18:58   200 GET https://be.bookingexpert.it/book/ws/searches/PollAlternative?nsid=ddcc80b4-b376-49b0-93df-a032a72a2edc&searchId=47c87898-68ad-45b9-a8e1-c0570bd935c1&k application/json;charset=utf-8
+21:18:58   200 POST https://be.bookingexpert.it/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.1961877337548661:1795552224:Vghf1Yzy2nUwoft_Yyjjx4i4vUIP4xGQyc6kEa application/json; charset=UTF-
+21:18:58   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-VN7SG51VR6&gtm=45je6bi0h2v899209295za20gzb890381475zd890381475xf1&_p=1795555099306&gcs=G100&gcd=1 text/plain
+21:18:58   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-VN7SG51VR6&gtm=45je6bi0h2v899209295za20ozb890381475zd890381475xf1&_p=1795555099306&em=tv.1~em.j2l text/plain
+21:18:58   403 GET https://be.bookingexpert.it/book/ws/searches/PollAlternative?nsid=ddcc80b4-b376-49b0-93df-a032a72a2edc&searchId=47c87898-68ad-45b9-a8e1-c0570bd935c1&k text/html; charset=UTF-8
+21:18:58   200 GET https://be.bookingexpert.it/book/ws/searches/noavailplanner?nsid=5f10caf4-655a-49c9-afc4-4d0b8a9ffccc&winding=1&searchId=8c3ee39d-4c65-434a-8f57-f47f1 text/html;charset=UTF-8
+21:18:58   403 GET https://be.bookingexpert.it/book/ws/searches/PollAlternative?nsid=0239adb6-93c4-4836-9be3-e99bf1419d3e&searchId=8c3ee39d-4c65-434a-8f57-f47f182ed2fd&k text/html; charset=UTF-8
+21:18:58   200 POST https://be.bookingexpert.it/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.1961877337548661:1795552224:Vghf1Yzy2nUwoft_Yyjjx4i4vUIP4xGQyc6kEa application/json; charset=UTF-
+21:18:58   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-VN7SG51VR6&gtm=45je6bi0h2v899209295za20gzb890381475zd890381475xf1&_p=1795555108008&gcs=G100&gcd=1 text/plain
+21:18:58   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-VN7SG51VR6&gtm=45je6bi0h2v899209295za20ozb890381475zd890381475xf1&_p=1795555108008&em=tv.1~em.j2l text/plain
+21:18:58   204 POST https://analytics.google.com/g/collect?v=2&tid=G-VN7SG51VR6&gtm=45je6bi0h2v899209295za20gzb890381475zd890381475xf1&_p=1795555108008&_gaz=1&gcs=G111&gc text/plain
+21:18:58   200 POST https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&ae=g&auid=1580849393.1795555112&dt=Family%20Hotel%20Gran%20Baita&en=page_view&dl=https%3A%2F%2Fb 
+21:18:58   204 POST https://ad.doubleclick.net/ccm/s/collect?auid=1580849393.1795555112&gtm=45He6bh1v899200806za200zd899200806xeaxf1&fmt=8 
+21:18:58   301 GET https://l.sharethis.com/pview?event=pview&hostname=be.bookingexpert.it&location=%2Fbook%2Fsimple%2Fnoavail&product=inline-share-buttons&url=https%3A%2 text/html; charset=utf-8
+21:18:58   200 POST https://www.google.com/rmkt/collect/11050466284/?random=1795555112365&cv=11&fst=1795555112365&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6 
+21:18:58   200 POST https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=0&auid=1580849393.1795555112&dt=Family%20Hotel%20Gran%20Baita&tid=AW-11050466284&en=page_view&dl=h 
+21:18:58   200 GET https://l.sharethis.com/sc?event=pview&hostname=be.bookingexpert.it&location=%2Fbook%2Fsimple%2Fnoavail&product=inline-share-buttons&url=https%3A%2F%2 text/plain; charset=utf-8
