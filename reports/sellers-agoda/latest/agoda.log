@@ -1,2 +1,30 @@
-21:00:05 city 16594 2027-02-23: citySearch HTTP 500: {"errors":[{"message":"Exception in component : ShardSQL message : Future has timed out after 500 milliseconds and exceptionMessage: Future has timed out after 500 milliseconds "}
-21:06:54 agoda: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 423, 'priced': 395, 'available': 124, 'errors': 1, 'available_by_lead': {'0-30 days': [49, 99], '91-180 days': [47, 98], '181-365 days': [28, 198]}, 'cities': '230 with mapped hotels', 'stored_nights': 569, 'ids_coverage': '423/1500'}
+05:36:44 city 76299 2026-11-25: no citySearch request seen yet
+05:36:44 city 76299 2027-02-24: no citySearch request seen yet
+05:37:07 took a fresh request from Agoda's page (1)
+05:37:07 city 76299 2027-05-26: no citySearch request seen yet
+05:37:29 took a fresh request from Agoda's page (2)
+05:37:29 switching to opening each hotel's page (no citySearch request seen yet)
+05:37:37 city 76299 2027-08-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=167182&checkin=2027-08-25&checkout=2027-08-26&adults=2&rooms=1&cur
+05:37:45 city 76557 2026-11-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=310993&checkin=2026-11-25&checkout=2026-11-26&adults=2&rooms=1&cur
+05:37:53 city 76557 2027-02-24: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=310993&checkin=2027-02-24&checkout=2027-02-25&adults=2&rooms=1&cur
+05:38:02 city 76557 2027-05-26: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=310993&checkin=2027-05-26&checkout=2027-05-27&adults=2&rooms=1&cur
+05:38:10 city 76557 2027-08-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=310993&checkin=2027-08-25&checkout=2027-08-26&adults=2&rooms=1&cur
+05:38:18 city 79492 2026-11-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=69998259&checkin=2026-11-25&checkout=2026-11-26&adults=2&rooms=1&c
+05:38:26 city 79492 2027-02-24: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=69998259&checkin=2027-02-24&checkout=2027-02-25&adults=2&rooms=1&c
+05:38:34 city 79492 2027-05-26: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=69998259&checkin=2027-05-26&checkout=2027-05-27&adults=2&rooms=1&c
+05:38:42 city 79492 2027-08-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=69998259&checkin=2027-08-25&checkout=2027-08-26&adults=2&rooms=1&c
+05:38:50 city 76599 2026-11-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=69868472&checkin=2026-11-25&checkout=2026-11-26&adults=2&rooms=1&c
+05:38:58 city 76599 2027-02-24: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=69868472&checkin=2027-02-24&checkout=2027-02-25&adults=2&rooms=1&c
+05:39:07 city 76599 2027-05-26: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=69868472&checkin=2027-05-26&checkout=2027-05-27&adults=2&rooms=1&c
+05:39:15 city 76599 2027-08-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=69868472&checkin=2027-08-25&checkout=2027-08-26&adults=2&rooms=1&c
+05:39:23 city 76655 2026-11-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=5164745&checkin=2026-11-25&checkout=2026-11-26&adults=2&rooms=1&cu
+05:39:31 city 76655 2027-02-24: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=5164745&checkin=2027-02-24&checkout=2027-02-25&adults=2&rooms=1&cu
+05:39:39 city 76655 2027-05-26: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=5164745&checkin=2027-05-26&checkout=2027-05-27&adults=2&rooms=1&cu
+05:39:47 city 76655 2027-08-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=5164745&checkin=2027-08-25&checkout=2027-08-26&adults=2&rooms=1&cu
+05:39:56 city 178372 2026-11-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=313181&checkin=2026-11-25&checkout=2026-11-26&adults=2&rooms=1&cur
+05:40:04 city 178372 2027-02-24: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=313181&checkin=2027-02-24&checkout=2027-02-25&adults=2&rooms=1&cur
+05:40:12 city 178372 2027-05-26: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=313181&checkin=2027-05-26&checkout=2027-05-27&adults=2&rooms=1&cur
+05:40:20 city 178372 2027-08-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=313181&checkin=2027-08-25&checkout=2027-08-26&adults=2&rooms=1&cur
+05:40:28 city 75947 2026-11-25: no city search on https://www.agoda.com/partners/partnersearch.aspx?hid=578395&checkin=2026-11-25&checkout=2026-11-26&adults=2&rooms=1&cur
+05:40:28 too many errors in a row: stopping this pass
+05:40:28 agoda: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 25, 'cities': '279 with mapped hotels', 'stored_nights': 556, 'ids_coverage': '558/1500'}
