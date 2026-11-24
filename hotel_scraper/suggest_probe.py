@@ -57,6 +57,12 @@ def main(argv=None) -> int:
                 .filter(e => e.offsetParent !== null).slice(0, 15)
                 .map(e => ({tag: e.tagName, attrs: Array.from(e.attributes).map(a => a.name + '=' + a.value.slice(0, 60))}))""")
             (out / f"{args.seller}_{slug(q)}_inputs.json").write_text(json.dumps(inputs, indent=1), encoding="utf-8")
+            for t in spec.get("pre_click") or []:      # e.g. HolidayCheck's "Nur Hotel" tab before its search box
+                try:
+                    page.get_by_text(t, exact=True).first.click(timeout=4000)
+                    page.wait_for_timeout(1000)
+                except Exception:  # noqa: BLE001
+                    log(f"no {t!r} to click")
             box = page.locator(spec["input"] + " >> visible=true").first
             if not box.count():
                 log(f"{q}: no search box")

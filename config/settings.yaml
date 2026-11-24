@@ -345,7 +345,8 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       json_url_pattern: "graphql"
     holidaycheck:            # loads only in Chrome with a window (the hidden browser gets HTTP 400, 2026-11-24)
       home: "https://www.holidaycheck.at/"
-      input: "input[placeholder*='Wohin' i], input[placeholder*='Reiseziel' i], input[placeholder*='Hotel' i], input[type='search'], [role='combobox']"
+      pre_click: ["Nur Hotel"]   # hotel only (the search box starts on package holidays)
+      input: "input[placeholder*='Reiseziel' i], input[placeholder*='Wohin' i], input[placeholder*='Hotel' i], input[type='search'], [role='combobox']"
       suggestion: "[role='option'], [role='listbox'] li, [data-testid*='uggest'] li, [class*='uggest'] li"
       search: "button:has-text('Suchen'), button:has-text('Angebote'), button[type='submit']"
       json_url_pattern: "/api/|/svc/|graphql|offer"
@@ -392,7 +393,7 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
     search: "button[type='submit'], button:has-text('Search'), button:has-text('Cerca'), button:has-text('Suchen'), button:has-text('Rechercher'), button:has-text('Buscar')"
   cookie_buttons: &cookies ["Accept all", "Accept All", "Accept all cookies", "Allow all", "Accept", "Accetta tutto",
                    "Accetta tutti", "Accetta", "Alle akzeptieren", "Alle Cookies akzeptieren", "Alle zulassen", "Zustimmen",
-                   "Einverstanden", "Akzeptieren", "Geht klar", "Accetta e chiudi", "Alle akzeptieren und schließen", "Tout accepter", "Accepter", "Aceptar", "Agree", "I agree", "OK",
+                   "Einverstanden", "Akzeptieren", "Geht klar", "Accetta e chiudi", "Alle akzeptieren und schließen", "Annehmen", "Tout accepter", "Accepter", "Aceptar", "Agree", "I agree", "OK",
                    "Got it"]   # "Geht klar": CHECK24 (2026-11-23)
   block_phrases: ["Bot or Not", "Show us your human side", "Access Denied", "captcha", "are you a robot", "unusual traffic",
                   "Pardon Our Interruption", "verify you are human", "Request unsuccessful", "Just a moment",
