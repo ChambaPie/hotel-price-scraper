@@ -94,7 +94,8 @@ def location_body(template: dict, geo_id: str) -> dict:
 CALLS_JS = """async ([calls, headers]) => {
   const one = async (c) => {
     try {
-      const h = Object.assign({'accept': 'application/json'}, c.body ? headers : {},
+      // its suggestion service refuses a bare 'application/json' (HTTP 406 "No match for accept header", run 45429732636)
+      const h = Object.assign({'accept': 'application/json, text/plain, */*'}, c.body ? headers : {},
                               c.body ? {'content-type': 'application/json', 'edo-graphql-operation-name': c.body.operationName} : {});
       const r = await fetch(c.url, {method: c.body ? 'POST' : 'GET', headers: h, credentials: 'include',
                                     body: c.body ? JSON.stringify(c.body) : undefined});

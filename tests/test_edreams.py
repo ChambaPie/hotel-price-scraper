@@ -98,3 +98,9 @@ def test_run_finds_ids_then_prices_with_neighbours(tmp_path):
     # a night already priced by the search around the neighbour is not searched again
     searched = [(g, nt) for call in page.searches for g, nt, _ in call]
     assert len(searched) == len(set(nt for _, nt in searched))
+
+
+def test_calls_accept_what_its_page_accepts():
+    """Regression (run 45429732636): eDreams' suggestion service answered HTTP 406 "No match for accept header" to
+    'accept: application/json' alone (every hotel failed). The page's own value is sent."""
+    assert "'accept': 'application/json, text/plain, */*'" in edreams.CALLS_JS
