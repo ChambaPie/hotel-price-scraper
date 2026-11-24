@@ -82,6 +82,21 @@ def hotels(doc: dict) -> list[dict]:
     return out
 
 
+def asked_for(doc: dict) -> set[int]:
+    """The hotels a results-list answer says it was asked about (its own record of the hotel filters)."""
+    info = ((doc.get("data") or {}).get("hotelListAddtionInfo") or {})
+    return {int(f["value"]) for f in info.get("combineFilters") or [] if f.get("type") == "31" and str(f.get("value", "")).isdigit()}
+
+
+def nothing_to_sell(doc: dict, hotel_ids: list[int]) -> list[dict]:
+    """An answer about exactly our hotel with an empty list: Trip.com has nothing to sell that night (run 45370159785:
+    queryType "Single", our hotel's filter, no hotels)."""
+    if ((doc.get("data") or {}).get("hotelList")) or not set(hotel_ids) <= asked_for(doc):
+        return []
+    return [{"id": i, "name": "", "available": False, "price": None, "price_excl": None, "price_total": None,
+             "currency": ""} for i in hotel_ids]
+
+
 def keywords_body(template: dict, query: str) -> dict:
     b = copy.deepcopy(template)
     b["queryInfo"] = {**b.get("queryInfo", {}), "keyword": query}
@@ -165,6 +180,9 @@ class TripPage:
             got = hotels(doc)
             if any(h["id"] in hotel_ids for h in got):
                 return got
+            none = nothing_to_sell(doc, hotel_ids)
+            if none:
+                return none
             self.misses = getattr(self, "misses", 0) + 1
             if self.misses < self.tc["replay_misses_before_pages"]:
                 return got

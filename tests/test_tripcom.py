@@ -154,3 +154,15 @@ def test_results_page_address():
     u = tripcom.list_url(config.load()["tripcom"]["list_page"], 760667, 343, 106, date(2026, 12, 14), 2)
     assert "optionId=760667" in u and "cityId=343" in u and "checkin=2026-12-14" in u and "checkout=2026-12-15" in u
     assert "searchValue=31%7C760667" in u and "adult=2" in u
+
+
+def test_empty_answer_about_our_hotel_means_nothing_to_sell():
+    """Run 45370159785: asked as a new search, Trip.com answered about exactly our hotel (queryType "Single", its
+    filter 31|4340342) with an empty list: nothing to sell that night, not a failed call (it had switched to opening
+    pages for every hotel-night)."""
+    doc = json.loads((FX / "tripcom_list_empty_single_2026-11-24.json").read_text())
+    assert tripcom.asked_for(doc) == {4340342}
+    got = tripcom.nothing_to_sell(doc, [4340342])
+    assert got and got[0]["id"] == 4340342 and got[0]["available"] is False and got[0]["price"] is None
+    assert tripcom.nothing_to_sell(doc, [760667]) == []                              # an answer about another hotel
+    assert tripcom.nothing_to_sell(LIST, [760667]) == []                             # a list with hotels in it
