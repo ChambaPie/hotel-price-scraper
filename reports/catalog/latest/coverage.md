@@ -3,7 +3,7 @@
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
 | Roma | IT | 26 |
-| Milano | IT | 19 |
+| Milano | IT | 18 |
 | Grado | IT | 17 |
 | Kraków | PL | 17 |
 | Vatican City | VA | 14 |
