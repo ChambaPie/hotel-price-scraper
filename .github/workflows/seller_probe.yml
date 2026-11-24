@@ -25,6 +25,9 @@ on:
         description: "Every seller in Google Chrome with a window (like a person's browser)"
         type: boolean
         default: false
+      runner:
+        description: "Machine: ubuntu-24.04, macos-latest or windows-latest (Expedia and Priceline refuse the Linux ones)"
+        default: "ubuntu-24.04"
 
 permissions:
   contents: write
@@ -34,8 +37,11 @@ env:
 
 jobs:
   probe:
-    runs-on: ubuntu-24.04   # pinned: ubuntu-latest is migrating to 26.04 (Playwright browser deps)
+    runs-on: ${{ inputs.runner || 'ubuntu-24.04' }}   # pinned: ubuntu-latest is migrating to 26.04 (Playwright deps)
     timeout-minutes: 75
+    defaults:
+      run:
+        shell: bash          # also on Windows (Git Bash)
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -54,9 +60,9 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p out/sellers
-          command -v xvfb-run >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq xvfb; }
           [ "$PART" = "suggest" ] && exit 0
-          xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --sellers "$SELLERS" --catalog "$CATALOG" $([ "$PERSON" = true ] && echo --person) --out out/sellers 2>&1 | tee out/sellers/probe.log
+          source scripts/screen.sh   # wrap: a virtual screen on Linux; macOS and Windows runners have a real one
+          wrap python -m hotel_scraper.seller_probe --part "$PART" --hotels "$HOTELS" --sellers "$SELLERS" --catalog "$CATALOG" $([ "$PERSON" = true ] && echo --person) --out out/sellers 2>&1 | tee out/sellers/probe.log
           cat out/sellers/report.md >> "$GITHUB_STEP_SUMMARY"
       - name: Suggestions while typing (part suggest; sellers input = seller:query;query, or seller:url|url)
         if: inputs.part == 'suggest'
@@ -69,8 +75,8 @@ jobs:
           rest="${SPEC#*:}"; sep=';'; [[ "$rest" == *"|"* ]] && sep='|'
           seller="${SPEC%%:*}"; IFS="$sep" read -ra Q <<< "$rest"
           args=(); for q in "${Q[@]}"; do args+=(--query "$q"); done
-          command -v xvfb-run >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq xvfb; }
-          xvfb-run -a --server-args="-screen 0 1366x768x24" python -m hotel_scraper.suggest_probe --seller "$seller" "${args[@]}" --follow \
+          source scripts/screen.sh
+          wrap python -m hotel_scraper.suggest_probe --seller "$seller" "${args[@]}" --follow \
             $([ "$PERSON" = true ] && echo --person) --out out/sellers/suggest 2>&1 | tee out/sellers/suggest.log
       - name: Commit the official sites list (engines survey)
         if: (inputs.part || 'engines') == 'engines' || inputs.part == 'all'
@@ -83,5 +89,5 @@ jobs:
       - name: Publish reports
         if: always()
         env:
-          NAME: sellers-${{ inputs.part || 'engines' }}-${{ inputs.sellers }}-${{ inputs.catalog }}
+          NAME: sellers-${{ inputs.part || 'engines' }}-${{ inputs.runner != 'ubuntu-24.04' && inputs.runner || '' }}${{ inputs.sellers }}-${{ inputs.catalog }}
         run: bash scripts/publish_reports.sh "$(echo "$NAME" | tr -c 'A-Za-z0-9_\n-' '_' | sed 's/_*$//')"   # one folder per probe: runs can overlap

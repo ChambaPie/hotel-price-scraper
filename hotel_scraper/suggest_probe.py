@@ -91,7 +91,7 @@ def main(argv=None) -> int:
     cfg = config.load(args.config)
     sp = cfg["seller_probe"]
     from .seller_probe import probe_specs
-    spec = probe_specs(cfg, ["probe", "account", "official", "live"])[args.seller]
+    spec = probe_specs(cfg, ["probe", "account", "official", "live", "blocked"])[args.seller]
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     from playwright.sync_api import sync_playwright
@@ -107,10 +107,11 @@ def main(argv=None) -> int:
         warmed = False
         for q in args.query:
             if q.startswith("http"):        # a page of the seller's (a hotel page for a night): every call it makes
-                if not warmed and spec.get("home"):    # its home page first, as a visitor arrives (HolidayCheck's
+                home = spec.get("home") or (spec.get("browser") or {}).get("warm_up")
+                if not warmed and home:                # its home page first, as a visitor arrives (HolidayCheck's
                     warmed = True                      # offers page opened cold: "Diese Funktionalität steht gerade
                     try:                               # nicht zur Verfügung", 2026-11-24)
-                        page.goto(spec["home"], wait_until="domcontentloaded", timeout=60000)
+                        page.goto(home, wait_until="domcontentloaded", timeout=60000)
                         page.wait_for_timeout(6000)
                         accept_cookies(page, sp["cookie_buttons"])
                         page.wait_for_timeout(3000)
