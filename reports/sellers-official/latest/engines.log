@@ -1,12 +1,95 @@
-10:46:09 Grand Hotel Zermatterhof: simplebooking HTTP 203 
-10:46:15 Hôtel Angleterre: synxis HTTP 400: {"Message":"Invalid origin"}
-10:46:16 Hotel Sacher Salzburg: synxis HTTP 400: {"Message":"Invalid origin"}
-10:46:17 Hotel Sacher Wien: synxis HTTP 400: {"Message":"Invalid origin"}
-10:46:31 seekda   Hotel Stefanie                      323 nights priced
-10:46:58 ericsoft Hotel Mioni Pezzato & SPA           8 nights priced
-10:47:10 ericsoft Hotel La Maison Wellness & Spa      8 nights priced
-10:47:11 Hotel Bibione Palace: simplebooking HTTP 203 
-10:47:12 Hotel Montecristo: simplebooking HTTP 203 
-10:47:13 Hotel Torino Wellness & Spa: simplebooking HTTP 203 
-10:47:14 Hotel Miramare: simplebooking HTTP 203 
-10:47:15 Hotel Daniele: simplebooking HTTP 203 
+10:49:42 seekda   Hotel Toalstock                     228 nights priced
+10:49:56 seekda   Familienresort Buchau               212 nights priced
+10:49:58 Boutique-Hotel Remorino: synxis HTTP 400: {"Message":"Invalid origin"}
+10:50:11 seekda   Landhaus Koller                     209 nights priced
+10:50:28 hotelnetsolutions Hotel Schwaigerhof                  256 nights priced
+10:50:29 Hotel Interalpen: simplebooking HTTP 203 
+10:50:42 seekda   Wanderhotel Taurerwirt              30 nights priced
+10:50:56 seekda   Hotel Grossarler Hof                273 nights priced
+10:51:11 seekda   Dolomitengolf Suites                261 nights priced
+10:51:24 seekda   Naturhotel Waldklause               112 nights priced
+10:51:39 seekda   Adler Inn Tyrol Mountain Resort Sup 116 nights priced
+10:51:55 seekda   Hotel Alpenhof                      265 nights priced
+10:52:08 seekda   Das Kaltenbach - Nature Hotel       172 nights priced
+10:52:21 seekda   Romantik & Spa Alpen-herz           84 nights priced
+10:52:43 seekda   Hotel Sonnenpark                    331 nights priced
+10:52:57 hotelnetsolutions Das Naturhotel Chesa Valisa         272 nights priced
+10:53:11 seekda   Hotel Andy                          194 nights priced
+10:53:25 seekda   Alpenhotel Heimspitze               84 nights priced
+10:53:43 d_edge   Domaine de Montagne - Chalet Frère  338 nights priced
+10:53:44 Alloggio Agrituristico Albafiorita: simplebooking HTTP 203 
+10:54:00 d_edge   La Chèvre D'Or                      196 nights priced
+10:54:12 hotelnetsolutions Hotel VICTORIA                      295 nights priced
+10:54:13 Hotel Monte Cenci: synxis HTTP 400: {"Message":"Invalid origin"}
+10:54:33 blastness Argentina Residenza Style Hotel     8 nights priced
+10:54:34 Hotel Villa Cattani Stuart: simplebooking HTTP 203 
+10:54:36 Savhotel Fiera Bologna: simplebooking HTTP 203 
+10:54:37 Hotel Spadari al Duomo True Stay: simplebooking HTTP 203 
+10:54:38 iQ Hotel Milano: simplebooking HTTP 203 
+10:54:39 Hermitage Hotel & Spa: synxis HTTP 400: {"Message":"Invalid origin"}
+10:54:50 blastness Gran Baita Hotel & Wellness Resort  8 nights priced
+10:54:51 Hotel Moresco: simplebooking HTTP 203 
+10:54:52 Hotel Dona Palace: simplebooking HTTP 203 
+10:54:54 Villa Cora: synxis HTTP 400: {"Message":"Invalid origin"}
+10:54:55 Collegio alla Querce Auberge Collec: synxis HTTP 400: {"Message":"Invalid origin"}
+10:54:56 Hotel Ilaria: simplebooking HTTP 203 
+10:54:57 Torre Mozza: simplebooking HTTP 203 
+10:55:14 d_edge   Hotel D Geneva                      278 nights priced
+10:55:15 Art Deco Hotel Montana: simplebooking HTTP 203 
+10:55:16 Hotel Belvedere Grindelwald: simplebooking HTTP 203 
+10:55:35 seekda   Waldhotel Arosa                     122 nights priced
+10:55:47 hotelnetsolutions BelArosa Hotel                      208 nights priced
+10:55:49 Kulm Hotel: synxis HTTP 400: {"Message":"Invalid origin"}
+10:55:49 Matterhorn FOCUS Design Hotel: simplebooking HTTP 203 
+10:55:51 Christiania Mountain & Spa: simplebooking HTTP 203 
+10:55:52 Grand Hotel Zermatterhof: simplebooking HTTP 203 
+10:55:53 Hôtel Angleterre: synxis HTTP 400: {"Message":"Invalid origin"}
+10:56:07 seekda   Hotel  Bristol Salzburg             323 nights priced
+10:56:08 Hotel Sacher Salzburg: synxis HTTP 400: {"Message":"Invalid origin"}
+10:56:09 Hotel Sacher Wien: synxis HTTP 400: {"Message":"Invalid origin"}
+10:56:23 seekda   Hotel Stefanie                      323 nights priced
+10:56:43 ericsoft Hotel Mioni Pezzato & SPA           8 nights priced
+10:56:52 ericsoft Hotel La Maison Wellness & Spa      8 nights priced
+10:56:53 Hotel Bibione Palace: simplebooking HTTP 203 
+10:56:54 Hotel Montecristo: simplebooking HTTP 203 
+10:56:54 Hotel Torino Wellness & Spa: simplebooking HTTP 203 
+10:56:55 Hotel Miramare: simplebooking HTTP 203 
+10:57:09 blastness Monaco Suites Hotel                 8 nights priced
+10:57:10 Hotel Daniele: simplebooking HTTP 203 
+10:57:19 ericsoft Hotel Chalet all'Imperatore         8 nights priced
+10:57:20 Hotel Crozzon: simplebooking HTTP 203 
+10:57:22 Hotel Eden Roc: simplebooking HTTP 203 
+10:57:23 Hotel Tramonto D'oro: simplebooking HTTP 203 
+10:57:23 Lido Palace: synxis HTTP 400: {"Message":"Invalid origin"}
+10:57:40 seekda   Naturhotel Leitlhof                 314 nights priced
+10:57:55 seekda   Granbaita Dolomites                 314 nights priced
+10:58:13 d_edge   St-Alban Hotel & Spa                262 nights priced
+10:58:31 seekda   Hotel Bären Titisee                 312 nights priced
+10:58:32 Romantik Hotel Schweizerhof & Spa: simplebooking HTTP 203 
+10:58:33 Grand Hotel Kronenhof: synxis HTTP 400: {"Message":"Invalid origin"}
+10:58:34 Parkhotel Margna: simplebooking HTTP 203 
+10:58:36 Chalet RoyAlp Hotel & Spa: synxis HTTP 400: {"Message":"Invalid origin"}
+10:58:37 Hotel Schweizerhof: simplebooking HTTP 203 
+10:58:38 Castello del Sole Beach Resort & SP: simplebooking HTTP 203 
+10:58:52 seekda   Grand Hotel Lienz                   350 nights priced
+10:59:05 seekda   Hotel Arlberg Lech                  29 nights priced
+10:59:19 seekda   Der Berghof                         350 nights priced
+10:59:33 seekda   Hotel Gotthard                      146 nights priced
+10:59:46 seekda   Hotel Austria Lech                  134 nights priced
+11:00:03 d_edge   Hotel Golden Star                   361 nights priced
+11:00:05 Hotel Clark Budapest: synxis HTTP 400: {"Message":"Invalid origin"}
+11:00:06 Hotel Vision Budapest: synxis HTTP 400: {"Message":"Invalid origin"}
+11:00:09 Boutique Hotel Victoria Budapest: synxis HTTP 400: {"Message":"Invalid origin"}
+11:00:10 Hotel Moments Budapest: synxis HTTP 400: {"Message":"Invalid origin"}
+11:00:24 seekda   Hotel Central                       233 nights priced
+11:00:37 seekda   Parkhotel Seefeld                   234 nights priced
+11:00:40 HOTEL MONTANA: simplebooking HTTP 203 
+11:00:41 Lindenhof: simplebooking HTTP 203 
+11:00:42 Hotel Sirenetta: simplebooking HTTP 203 
+11:00:52 ericsoft Hotel Galassia                      8 nights priced
+11:00:53 Hotel Bristol: simplebooking HTTP 203 
+11:00:54 Märchenhotel: simplebooking HTTP 203 
+11:01:07 seekda   AlpenParks Hotel & Apartment Orgler 236 nights priced
+11:01:28 seekda   Der Kapruner Hof                    345 nights priced
+11:01:44 seekda   Hotel Stadt Wien                    254 nights priced
+11:01:44 engines: {'ids_due': 0, 'ids_found': 0, 'hotels_priced': 46, 'nights': 9074, 'errors': 48, 'ids_coverage': '128/203 hotels on seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft, synxis, blastness'}
