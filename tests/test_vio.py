@@ -92,3 +92,8 @@ def test_run_ids_then_calendars(tmp_path):
     yes = [r for r in rows if r["available"] == "yes"]
     assert len(rows) == 12 and len(yes) == 6 and yes[0]["price"] == "165" and yes[0]["seller"] == "vio"
     assert yes[0]["url"] == "https://r.vio.com?ofd=x" and yes[0]["cancellation"].startswith("free until")
+
+
+def test_at_most_five_hotels_per_calendar_call():
+    """Regression (run 45374257349): Vio answered 400 "HotelIDs should have at most 5 elements" to 20 per call."""
+    assert 1 <= config.load()["vio"]["hotels_per_call"] <= 5

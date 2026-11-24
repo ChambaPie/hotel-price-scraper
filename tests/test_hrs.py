@@ -82,3 +82,9 @@ def test_run_finds_ids_then_prices_many_hotels_per_call(tmp_path):
     rows = list(csv.DictReader(open(cfg["paths"]["seller_prices"])))
     assert len(rows) == n and rows[0]["price"] == "175.35" and rows[0]["price_excl"] == "159.41"
     assert rows[0]["seller"] == "hrs" and "hotelTeaserKey%5B0%5D=66796" in rows[0]["url"]
+
+
+def test_results_page_names_the_hotels_location():
+    """Run 45374257349: HRS's results page without its location made no hotel search (nothing to take)."""
+    u = hrs.booking_url(config.load()["hrs"]["hotel_url"], 66796, date(2026, 12, 31), 2, 54084)
+    assert "location=%2554084" in u and "hotelTeaserKey%5B0%5D=66796" in u

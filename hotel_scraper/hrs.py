@@ -87,9 +87,9 @@ def offers(doc: dict, adults: int) -> dict[int, dict]:
     return out
 
 
-def booking_url(tpl: str, hotel_id, night: date, adults: int) -> str:
+def booking_url(tpl: str, hotel_id, night: date, adults: int, location="") -> str:
     out = night + timedelta(days=1)
-    return tpl.format(id=hotel_id, d=night.day, m=night.month, y=night.year, d2=out.day, m2=out.month, y2=out.year,
+    return tpl.format(id=hotel_id, loc=location, d=night.day, m=night.month, y=night.year, d2=out.day, m2=out.month, y2=out.year,
                       adults=adults, room=room_type(adults), singles=1 if adults == 1 else 0,
                       doubles=0 if adults == 1 else 1)
 
@@ -130,11 +130,11 @@ class HrsPage:
             except Exception:  # noqa: BLE001
                 pass
 
-    def warm_up(self, hotel_id, night: date, adults: int) -> bool:
+    def warm_up(self, hotel_id, night: date, adults: int, location="") -> bool:
         """Open HRS's own results page for one hotel and night, so the page makes its hotel search (run 45370159785:
         the stored request was refused, HTTP 400): its body and headers are then the ones repeated."""
-        self.page.goto(booking_url(self.hc["hotel_url"], hotel_id, night, adults), wait_until="domcontentloaded",
-                       timeout=60000)
+        self.page.goto(booking_url(self.hc["hotel_url"], hotel_id, night, adults, location),
+                       wait_until="domcontentloaded", timeout=60000)
         for _ in range(int(self.hc["warm_up_wait_s"] * 2)):
             if self.captured:
                 break
@@ -143,6 +143,14 @@ class HrsPage:
             self.template = self.captured
             self.log("took HRS's own hotel search from its results page")
             return True
+        self.log(f"HRS's results page made no hotel search: {self.page.url[:150]}")
+        try:                                # what it showed, kept to see why
+            out = Path(self.hc.get("debug_dir", "out"))
+            out.mkdir(parents=True, exist_ok=True)
+            (out / "hrs_results_page.txt").write_text(f"#URL {self.page.url}\n" + self.page.inner_text("body")[:20000])
+            self.page.screenshot(path=str(out / "hrs_results_page.png"))
+        except Exception:  # noqa: BLE001
+            pass
         return False
 
     def close(self):
@@ -246,7 +254,7 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
         ids = list(by_id)
         if ids and hasattr(page, "warm_up"):
             try:
-                page.warm_up(ids[0], start + timedelta(days=30), adults)
+                page.warm_up(ids[0], start + timedelta(days=30), adults, by_id[ids[0]].get("city_id", ""))
             except Exception as e:  # noqa: BLE001
                 log(f"HRS results page: {str(e)[:120]}")
         batches = [ids[i: i + hc["hotels_per_call"]] for i in range(0, len(ids), hc["hotels_per_call"])]
@@ -275,7 +283,8 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
                                 "price_excl": "" if x["price_excl"] is None else x["price_excl"], "price_total": "",
                                 "currency": "EUR", "available": "yes" if x["available"] else "no",
                                 "cancellation": "", "rooms_left": "",
-                                "url": booking_url(hc["hotel_url"], hid, night, adults), "seen_at": now})
+                                "url": booking_url(hc["hotel_url"], hid, night, adults, r.get("city_id", "")),
+                                "seen_at": now})
                 sleep(hc["pause_seconds"])
         old_all = read_csv(p["seller_prices"])
         merged = merge_prices([x for x in old_all if x.get("seller") == SELLER], new, today)

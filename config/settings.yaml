@@ -559,7 +559,7 @@ hrs:                         # HRS's own prices; hotel.de is the same company an
   pause_seconds: 1.0
   stop_after_errors: 25
   max_minutes: 30
-  hotel_url: "https://www.hrs.com/en/list?hotelTeaserKey%5B0%5D={id}&startDateDay={d}&startDateMonth={m}&startDateYear={y}&endDateDay={d2}&endDateMonth={m2}&endDateYear={y2}&currency=EUR&rooms=1&numberOfAdults%5B0%5D={adults}&type%5B0%5D={room}&adults={adults}&children=0&singleRooms={singles}&doubleRooms={doubles}"
+  hotel_url: "https://www.hrs.com/en/list?hotelTeaserKey%5B0%5D={id}&location=%25{loc}&orderBy=Recommendations&startDateDay={d}&startDateMonth={m}&startDateYear={y}&endDateDay={d2}&endDateMonth={m2}&endDateYear={y2}&currency=EUR&rooms=1&numberOfAdults%5B0%5D={adults}&type%5B0%5D={room}&adults={adults}&children=0&singleRooms={singles}&doubleRooms={doubles}"
 
 vio:                         # Vio.com's own sales; Etrip.net, goSeek... are the same service (hotel_scraper/vio.py)
   api: "https://sapi.fih.io"
@@ -580,7 +580,7 @@ vio:                         # Vio.com's own sales; Etrip.net, goSeek... are the
   retry_days: 30
   ids_per_run: 300
   ids_share: 0.5
-  hotels_per_call: 20        # one calendar request: this many hotels...
+  hotels_per_call: 5         # one calendar request: this many hotels (Vio: "at most 5", run 45374257349)...
   nights_per_call: 61        # ...and up to 61 check-in nights (Vio's limit)
   hotels_per_pass: 200
   max_polls: 8
