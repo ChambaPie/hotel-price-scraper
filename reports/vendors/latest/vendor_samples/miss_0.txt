@@ -1,112 +1,24 @@
-#HOTEL Schlosshotel Fiss
-#ENTITY https://www.google.com/travel/hotels/entity/ChcI5pmFgJ77sO52GgsvZy8xdGRqdl9sahAB
-Back to hotels
-Tyrol
-Landeck District
-Fiss
-Schlosshotel Fiss
-OverviewPrices
-ReviewsLocationAboutPhotos
-Check-in
-Check-out
+#HOTEL Hotel Waldstein
+#ENTITY 
+Skip to main content
+Accessibility feedback
+Explore
+Flights
+Hotels
+Holiday rentals
+Sign in
 2
-Nightly price with fees
-Free cancellation only
-Contact this property
-Call or visit website for rates and availability
-People also viewed
-€655
-HOTEL FISSERHOF
-4.8
-(420)
-Free breakfast
-0,4 km away
-€416
-Alps Lodge
-4.8
-(242)
-Rustic-chic hotel with dining & a spa
-0,6 km away
-€373
-Romantik & Spa Alpen-Herz
-4.9
-(677)
-High-end, adults-only hotel with a spa
-3,2 km away
-Wellnessresidenz Schalber
-4.8
-(266)
-Upmarket spa hotel with dining & pools
-2 km away
-Baby- & Kinder Hotel Laurentius
-4.8
-(426)
-Free breakfast
-0,1 km away
-VAYA St. Zeno
-4.5
-(165)
-Upscale apartment hotel with dining
-2,1 km away
-Popular hotels
-€361
-Natürlich. Hotel mit Charakter
-5.0
-(290)
-Free breakfast
-0,1 km away
-Apart-Hotel Dreisonnenhof
-5.0
-(168)
-Cozy apartment hotel with a sauna
-0,8 km away
-Chesa Pale
-5.0
-(81)
-0,8 km away
-Laurschhof
-5.0
-(50)
-0,1 km away
-Haus Alpina
-5.0
-(24)
-0,4 km away
-Aparthotel und Ferienwohnungen Johannesbrunnen
-5.0
-(16)
-Tyrolean-style venue featuring a spa
-0,6 km away
-Holiday rentals nearby
-€613/night
-4 – 11 Dec
-Haus Enzian - Four-Bedroom Apartment with Balcony
-4 bedroomsSleeps 8
-0,1 km away
-€618/night
-22 – 29 Jan 2027
-Auriga Appartements - Junior Suite
-5 bedroomsSleeps 12
-0,2 km away
-€162/night
-10 – 15 Dec
-Ritterhof - Apartment with Mountain View
-3 bedroomsSleeps 6
-0,2 km away
-€370/night
-4 – 7 Dec
-Aparthaus Gondeblick - One-Bedroom Apartment - 148 ft²
-2 bedroomsSleeps 6
-0,3 km away
-€393/night
-19 – 26 Dec
-dorfblick FISS - apartments rooms - Family Apartment with Balcony
-2 bedroomsSleeps 5
-0,3 km away
-Austria Aparthotel - Apartment with Mountain View
-1 bedroomSleeps 4
-0,1 km away
-Currency​EUR
+All filters
+Price
+Offers
+Guest rating
+Hotel class
+Amenities
+Eco-certified
+Sort by
+No results
+Update your filters or search area to see options.
+Currency​USD
 Your results may be based on your Timeline. Learn more
 About
 Privacy
@@ -114,15 +26,17 @@ Terms
 Join user studies
 Report illegal content
 Feedback
-Pricing issues
 Help Centre and Consumer Information
-About this data
-Web results
 
 Displayed currencies may differ from the currencies used to book properties. Learn more
 
-Schlosshotel Fiss
-Page loaded. 
-#VENDOR_LINKS
-Visit site for Schlosshotel Fiss	https://www.schlosshotel-fiss.com/
-Featured in Top 10 Best Luxury Ski Hotels In Austria – Tips – Blog – Luxury Travel DiaryVisit site	https://www.luxurytraveldiary.com/2019/10/top-10-best-luxury-ski-hotels-in-austria/
+Update list
+Off
+Walk
+Drive
+Public transport
+Areas for dining
+Attractions
+Areas for shopping
+Loading map
+Page loaded.
