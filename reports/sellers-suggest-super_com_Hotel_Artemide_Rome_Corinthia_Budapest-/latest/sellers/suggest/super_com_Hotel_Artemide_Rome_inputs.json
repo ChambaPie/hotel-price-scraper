@@ -1,0 +1,43 @@
+[
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "aria-invalid=false",
+   "autocomplete=off",
+   "id=search-name-input",
+   "placeholder=City or hotel name",
+   "class=MuiInputBase-input MuiFilledInput-input mui-emotion-t7aj8q",
+   "type=text",
+   "name=field_r_d_",
+   "style="
+  ]
+ },
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "aria-invalid=false",
+   "autocomplete=off",
+   "id=landing-dates-input",
+   "readonly=",
+   "class=MuiInputBase-input MuiFilledInput-input mui-emotion-t7aj8q",
+   "type=text",
+   "value=Tue Nov 24 - Wed Nov 25",
+   "name=field_r_f_",
+   "style="
+  ]
+ },
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "aria-invalid=false",
+   "autocomplete=off",
+   "id=landing-guests-input",
+   "readonly=",
+   "class=MuiInputBase-input MuiFilledInput-input mui-emotion-t7aj8q",
+   "type=text",
+   "value=2 Adults, 1 Room",
+   "name=field_r_h_",
+   "style="
+  ]
+ }
+]
