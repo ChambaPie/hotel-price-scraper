@@ -1,0 +1,41 @@
+[
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "id=destinationInput",
+   "class=FyxR4YUkMvSL0LbgT660",
+   "type=text",
+   "autocomplete=off",
+   "placeholder=Where to?",
+   "tabindex=0",
+   "value=Hotel Artemide",
+   "style="
+  ]
+ },
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "id=checkInInput",
+   "type=text",
+   "readonly=",
+   "placeholder=Select date",
+   "class=WKk2hDBCiuWi480cntB2",
+   "tabindex=-1",
+   "value=Tue, Nov 24",
+   "style="
+  ]
+ },
+ {
+  "tag": "INPUT",
+  "attrs": [
+   "id=checkOutInput",
+   "type=text",
+   "readonly=",
+   "placeholder=Select date",
+   "class=aurPlBK8eu1SdKeWcP3Z",
+   "tabindex=-1",
+   "value=Wed, Nov 25",
+   "style="
+  ]
+ }
+]
