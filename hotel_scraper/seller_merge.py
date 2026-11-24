@@ -14,6 +14,17 @@ from .agoda import ID_FIELDS, PRICE_FIELDS
 from .scan import read_csv, write_csv
 
 
+def priced(r: dict) -> bool:
+    """False for a row that says 'available' with no price above zero (Trip.com, run 45397529258: 137 such rows at
+    €0). Such a row is no price and is never published."""
+    if r.get("available") != "yes" or "price" not in r:
+        return True
+    try:
+        return float(r.get("price") or 0) > 0
+    except ValueError:
+        return False
+
+
 def merge(base: list[dict], parts: list[list[dict]], key) -> list[dict]:
     """Rows of `base`, with every seller that appears in a part replaced by that part's rows; one row per key (the
     latest seen), so a part that came unfiltered can't repeat rows (run 45374215059: cancelled jobs uploaded the whole
@@ -25,6 +36,8 @@ def merge(base: list[dict], parts: list[list[dict]], key) -> list[dict]:
     stamp = (lambda r: r.get("seen_at") or r.get("checked_at") or "")
     best: dict = {}
     for r in out:
+        if not priced(r):
+            continue
         k = key(r)
         if k not in best or stamp(r) >= stamp(best[k]):
             best[k] = r

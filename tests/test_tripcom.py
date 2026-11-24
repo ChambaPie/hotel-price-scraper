@@ -205,6 +205,40 @@ def test_card_on_its_own_results_page_real_pages():
     assert tripcom.card_from_text(ok, "Hotel Artemide") is None                               # not on the page
 
 
+def test_card_not_read_before_its_prices_are_drawn():
+    """Regression (run 45397529258): 137 of 137 hotel-nights stored as available at €0 with free cancellation: the
+    card was read while the page was still drawing it (prices €0) or before the list was there at all. Such a page
+    is not read yet: the reader keeps waiting."""
+    ok = (FX / "tripcom_listpage_corinthia_available_2026-11.txt").read_text(encoding="utf-8")
+    drawing = ok.replace("€196", "€0").replace("Total (incl. taxes & fees): €213", "Total (incl. taxes & fees): €0")
+    assert tripcom.card_from_text(drawing, "Corinthia Budapest") is None
+    no_total = ok.replace("Total (incl. taxes & fees): €213", "")
+    assert tripcom.card_from_text(no_total, "Corinthia Budapest") is None
+    not_listed = ok.replace("1 property found", "")              # the filter bar and search box only, no list yet
+    assert tripcom.card_from_text(not_listed, "Corinthia Budapest") is None
+    assert tripcom.card_from_text(ok.replace("1 property found", "1,204 properties found"), "Corinthia Budapest")["price"] == 213.0
+
+
+def test_stored_zero_prices_are_dropped(tmp_path):
+    """Run 45397529258 published 137 'available' rows at €0: they are dropped on the next pass."""
+    cfg = _setup(tmp_path)
+    tripcom.run(cfg, "ids", 5, FakePage(), today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+    with open(cfg["paths"]["seller_prices"], "w", newline="") as f:
+        w = csv.DictWriter(f, tripcom.PRICE_FIELDS)
+        w.writeheader()
+        w.writerow({"pid": "ta:art", "seller": "trip_com", "night": "2027-05-01", "price": "0.0", "price_excl": "0.0",
+                    "available": "yes", "seen_at": "2026-11-24T12:55:00+00:00"})
+        w.writerow({"pid": "ta:art", "seller": "trip_com", "night": "2027-05-02", "price": "213.0", "price_excl": "196.0",
+                    "available": "yes", "seen_at": "2026-11-24T12:55:00+00:00"})
+
+    class Nothing(FakePage):
+        def nights(self, *a, **k):
+            return []
+    tripcom.run(cfg, "prices", 5, Nothing(), today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+    rows = list(csv.DictReader(open(cfg["paths"]["seller_prices"])))
+    assert [r["night"] for r in rows] == ["2027-05-02"]
+
+
 def test_results_page_address_like_its_search_box():
     u = tripcom.list_url(config.load()["tripcom"]["list_page"], 4378634, 37324, 14, date(2026, 12, 14), 2,
                          "Hotel Schloss Seefels")

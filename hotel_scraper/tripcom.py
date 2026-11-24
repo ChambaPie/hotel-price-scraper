@@ -26,6 +26,7 @@ from . import config
 from .agoda import ID_FIELDS, PRICE_FIELDS, ids_due, judge, merge_prices
 from .engines import rotating_nights
 from .scan import read_csv, write_csv
+from .seller_merge import priced
 
 SELLER = "trip_com"
 
@@ -132,8 +133,10 @@ def card_from_text(text: str, name: str) -> dict | None:
     loaded by a separate call; probe 2026-11-24): {available, price, price_excl, price_total, breakfast, cancellation},
     or None when the card isn't there. price is Trip.com's total with taxes and fees (it shows no figure before the
     city tax on the list); price_excl the room price it shows first."""
-    start = text.find("propert")                      # "1 property found"
-    i = text.find(name, max(0, start))
+    found = re.search(r"\b\d[\d,]* propert(?:y|ies) found", text)   # the list is drawn ("1 property found")
+    if not found:
+        return None
+    i = text.find(name, found.end())
     if i < 0:
         return None
     block = text[i: i + 2000]
@@ -146,11 +149,13 @@ def card_from_text(text: str, name: str) -> dict | None:
                 "cancellation": ""}
     total = re.search(r"Total \(incl\. taxes (?:&|and) fees\):\s*" + EURO, block)
     first = re.search(EURO, block)
-    if not total and not first:
-        return None
     num = lambda m: round(float(m.group(1).replace(",", "")), 2) if m else None  # noqa: E731
     t, f = num(total), num(first)
-    return {"available": True, "price": t or f, "price_excl": f, "price_total": t,
+    if not t or not f:
+        # no total yet, or the card's prices still at €0 while the page fills them in: not read yet (run
+        # 45397529258 stored €0 for 137 of 137 hotel-nights)
+        return None
+    return {"available": True, "price": t, "price_excl": f, "price_total": t,
             "breakfast": "included" if re.search(r"Breakfast included", block, re.I) else "",
             "cancellation": "free cancellation" if re.search(r"Free cancellation", block, re.I) else ""}
 
@@ -245,6 +250,16 @@ class TripPage:
         finally:
             self.page.remove_listener("response", keep)
         if card:
+            if card["available"] and getattr(self, "kept", 0) < 2:   # what was read, kept to check against the page
+                self.kept = getattr(self, "kept", 0) + 1
+                try:
+                    out = Path(self.tc.get("debug_dir", "out"))
+                    out.mkdir(parents=True, exist_ok=True)
+                    (out / f"tripcom_card_{self.kept}.txt").write_text(f"#URL {self.page.url}\n#READ {card}\n" +
+                                                                        self.page.inner_text("body")[:30000])
+                    self.page.screenshot(path=str(out / f"tripcom_card_{self.kept}.png"))
+                except Exception:  # noqa: BLE001
+                    pass
             return [{"id": hotel_id, "name": name, "currency": "EUR", **card}]
         got = page_answer(seen, hotel_id)
         if got and not got[0]["available"] and getattr(self, "shown", 0) < 2:   # what the visitor saw, kept to check
@@ -392,7 +407,7 @@ def run(cfg: dict, part: str, max_minutes: float, page, today: date | None = Non
         old_all = read_csv(p["seller_prices"])
         vf = tc.get("no_rows_valid_from", "")       # "not available" rows from the empty list answers (run 45374257349)
         ok = {r["pid"] for r in known.values() if r["status"] == "ok"}     # a hotel no longer matched: its prices go
-        mine = [x for x in old_all if x.get("seller") == SELLER and x["pid"] in ok
+        mine = [x for x in old_all if x.get("seller") == SELLER and x["pid"] in ok and priced(x)
                 and not (vf and x.get("available") == "no" and (x.get("seen_at") or "") < vf)]
         merged = merge_prices(mine, new, today)
         write_csv(sorted([x for x in old_all if x.get("seller") != SELLER] + merged,

@@ -19,3 +19,18 @@ def test_rows_repeated_by_an_unfiltered_part_are_kept_once():
     newer = [{"seller": "hrs", "pid": "a", "status": "not found", "checked_at": "2026-11-24T10:00:00"}]
     rows = seller_merge.merge(base + base + base, [whole, whole, whole, newer], key=lambda r: (r["seller"], r["pid"]))
     assert [(r["seller"], r["status"]) for r in rows] == [("agoda", "ok"), ("hrs", "not found")]
+
+
+def test_available_rows_without_a_price_are_never_published():
+    """Run 45397529258: Trip.com rows 'available' at €0 reached the published file. The merge drops any such row,
+    whatever the reader."""
+    from hotel_scraper.seller_merge import merge
+    key = lambda r: (r["seller"], r["pid"], r["night"])  # noqa: E731
+    base = [{"seller": "agoda", "pid": "a", "night": "2027-01-01", "price": "120", "available": "yes", "seen_at": "1"}]
+    part = [{"seller": "trip_com", "pid": "a", "night": "2027-01-01", "price": "0.0", "available": "yes", "seen_at": "2"},
+            {"seller": "trip_com", "pid": "a", "night": "2027-01-02", "price": "", "available": "yes", "seen_at": "2"},
+            {"seller": "trip_com", "pid": "a", "night": "2027-01-03", "price": "", "available": "no", "seen_at": "2"},
+            {"seller": "trip_com", "pid": "a", "night": "2027-01-04", "price": "213", "available": "yes", "seen_at": "2"}]
+    got = merge(base, [part], key)
+    assert [(r["seller"], r["night"]) for r in got] == [("agoda", "2027-01-01"), ("trip_com", "2027-01-03"),
+                                                        ("trip_com", "2027-01-04")]
