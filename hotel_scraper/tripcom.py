@@ -203,7 +203,18 @@ class TripPage:
                 self.page.wait_for_timeout(500)
         finally:
             self.page.remove_listener("response", keep)
-        return page_answer(seen, hotel_id) or self._nothing(seen)
+        got = page_answer(seen, hotel_id)
+        if got and not got[0]["available"] and getattr(self, "shown", 0) < 2:   # what the visitor saw, kept to check
+            self.shown = getattr(self, "shown", 0) + 1
+            try:
+                out = Path(self.tc.get("debug_dir", "out"))
+                out.mkdir(parents=True, exist_ok=True)
+                (out / f"tripcom_no_room_{self.shown}.txt").write_text(f"#URL {self.page.url}\n" +
+                                                                         self.page.inner_text("body")[:20000])
+                self.page.screenshot(path=str(out / f"tripcom_no_room_{self.shown}.png"))
+            except Exception:  # noqa: BLE001
+                pass
+        return got or self._nothing(seen)
 
     def _nothing(self, seen):
         self.last = seen[-1] if seen else {"page": self.page.url, "text": self.page.inner_text("body")[:3000]}
