@@ -1,0 +1,28 @@
+10:00:49 edreams    Corinthia Budapest             200 blocked=- prices=25 name=True json=4
+10:01:53 edreams    Hotel Artemide                 200 blocked=- prices=25 name=True json=4
+10:03:17 zenhotels  Corinthia Budapest             200 blocked=- prices=0 name=False json=4
+10:03:49 zenhotels  Hotel Artemide                 200 blocked=Just a moment prices=0 name=False json=0
+10:04:22 prestigia  Corinthia Budapest             200 blocked=- prices=0 name=False json=0
+10:04:52 prestigia  Hotel Artemide                 200 blocked=- prices=0 name=False json=0
+10:05:04 vio        Corinthia Budapest             200 blocked=- prices=0 name=False json=10
+10:05:16 vio        Hotel Artemide                 200 blocked=- prices=0 name=False json=10
+10:05:45 clicktrip  Corinthia Budapest             200 blocked=- prices=0 name=False json=3
+10:06:11 clicktrip  Hotel Artemide                 200 blocked=- prices=0 name=False json=2
+10:06:40 evendo     Corinthia Budapest             200 blocked=- prices=0 name=True json=1
+10:07:06 evendo     Hotel Artemide                 200 blocked=- prices=0 name=False json=1
+# Sellers' own websites: probe S0
+
+## Sellers (one night, search page)
+
+| seller | pages | blocked | with prices | hotel found | JSON saved |
+|---|---|---|---|---|---|
+| edreams | 2 | 0 | 2 | 2 | 8 |
+| zenhotels | 2 | 1 | 0 | 0 | 4 |
+| prestigia | 2 | 0 | 0 | 0 | 0 |
+| vio | 2 | 0 | 0 | 0 | 20 |
+| clicktrip | 2 | 0 | 0 | 0 | 5 |
+| evendo | 2 | 0 | 0 | 1 | 2 |
+
+Block phrases seen: Just a moment
+
+

@@ -1,0 +1,11 @@
+#URL https://www.zenhotels.com/
+#FINAL https://www.zenhotels.com/hotel/italy/rome/mid8561177/artemide_1_br_apartment_itr_4507/?dates=28.11.2026-29.11.2026&guests=2&search=yes
+#TITLE Just a moment...
+www.zenhotels.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: a5f795b88b477557
+Performance and Security by Cloudflare
+Privacy

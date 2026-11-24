@@ -1,0 +1,1 @@
+GET https://evendo.com/api/locationSearch?q=Corinthia+Budapest+Budapest+VI.+keruelet&max_cities=3&max_neighbourhoods=2&max_destinations=0&max_landmarks=3&max_attractions=3&max_shops=2&max_restaurants=2&max_bars=1&max_nightclubs=1&max_accommodation=0&limit=20

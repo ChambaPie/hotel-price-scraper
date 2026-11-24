@@ -1,0 +1,13 @@
+seller,pid,hotel,country,status,final_host,title,blocked,prices,name_found,chars,json_saved,seconds,error
+edreams,ta:g274887-d285437,Corinthia Budapest,HU,200,edreams.it,"Prenota voli, treni, hotel, vacanze e autonoleggio - eDreams",,25,True,6775,4,63.3,no suggestion list (pressed Enter)
+edreams,ta:g187791-d205044,Hotel Artemide,IT,200,edreams.it,"Prenota voli, treni, hotel, vacanze e autonoleggio - eDreams",,25,True,6821,4,61.5,no suggestion list (pressed Enter)
+zenhotels,ta:g274887-d285437,Corinthia Budapest,HU,200,zenhotels.com,ZenHotels.com — book a hotel,,0,False,3369,4,81.3,no suggestion list (pressed Enter)
+zenhotels,ta:g187791-d205044,Hotel Artemide,IT,200,zenhotels.com,Just a moment...,Just a moment,0,False,265,0,28.8,no suggestion list (pressed Enter)
+prestigia,ta:g274887-d285437,Corinthia Budapest,HU,200,prestigia.com,Hotels de charme et de luxe sur Prestigia,,0,False,1391,0,29.4,no suggestion list (pressed Enter)
+prestigia,ta:g187791-d205044,Hotel Artemide,IT,200,prestigia.com,Hotels de charme et de luxe sur Prestigia,,0,False,1389,0,27.5,no suggestion list (pressed Enter)
+vio,ta:g274887-d285437,Corinthia Budapest,HU,200,vio.com,"Vio | Book like an insider | Clear comparison, no hidden fees, real hotel deals",,0,False,6009,10,9.3,search box not found
+vio,ta:g187791-d205044,Hotel Artemide,IT,200,vio.com,"Vio | Book like an insider | Clear comparison, no hidden fees, real hotel deals",,0,False,5671,10,9.0,search box not found
+clicktrip,ta:g274887-d285437,Corinthia Budapest,HU,200,clicktrip.com,Clicktrip,,0,False,890,3,25.5,no suggestion list (pressed Enter)
+clicktrip,ta:g187791-d205044,Hotel Artemide,IT,200,clicktrip.com,Clicktrip,,0,False,890,2,23.4,no suggestion list (pressed Enter)
+evendo,ta:g274887-d285437,Corinthia Budapest,HU,200,evendo.com,"Evendo - Free Travel Guides, App & Global Location Discovery",,0,True,8174,1,25.2,no suggestion list (pressed Enter)
+evendo,ta:g187791-d205044,Hotel Artemide,IT,200,evendo.com,"Evendo - Free Travel Guides, App & Global Location Discovery",,0,False,8256,1,23.0,no suggestion list (pressed Enter)

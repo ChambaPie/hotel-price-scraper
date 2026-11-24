@@ -1,0 +1,90 @@
+{
+  "suggestions": [
+    {
+      "placePrediction": {
+        "placeId": "ChIJCY_WRW_cQUcRr_YkdU_wC7A",
+        "text": {
+          "text": "Budapest, Corinthia Budapest, Erzsébet körút, Hungary",
+          "matches": [
+            {
+              "startOffset": 10,
+              "endOffset": 28
+            }
+          ]
+        }
+      }
+    },
+    {
+      "placePrediction": {
+        "placeId": "ChIJCzAOunHcQUcRx719_Jdlafw",
+        "text": {
+          "text": "Budapest, VI. kerület, Hungary",
+          "matches": [
+            {
+              "endOffset": 8
+            },
+            {
+              "startOffset": 10,
+              "endOffset": 21
+            }
+          ]
+        }
+      }
+    },
+    {
+      "placePrediction": {
+        "placeId": "ChIJqc-KpHHcQUcRkNUeDCnEAAU",
+        "text": {
+          "text": "Budapest, Budapest VI. kerület, Hungary",
+          "matches": [
+            {
+              "endOffset": 8
+            },
+            {
+              "startOffset": 10,
+              "endOffset": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "placePrediction": {
+        "placeId": "EitCdWRhcGVzdCwgWFhJSS4ga2Vyw7xsZXQsIFZJLiB1dGNhLCBIdW5nYXJ5Ii4qLAoUChIJuUKWWB3nQUcRxLcT4YXx9eUSFAoSCY92SRMc50FHEZDWHgwpxAAF",
+        "text": {
+          "text": "Budapest, XXII. kerület, VI. utca, Hungary",
+          "matches": [
+            {
+              "endOffset": 8
+            },
+            {
+              "startOffset": 10,
+              "endOffset": 23
+            },
+            {
+              "startOffset": 25,
+              "endOffset": 33
+            }
+          ]
+        }
+      }
+    },
+    {
+      "placePrediction": {
+        "placeId": "ChIJ7XjBI6HeQUcR5gXjFca5svg",
+        "text": {
+          "text": "Budapest, Vöröskereszt Budapest 2. kerület, Széll Kálmán tér, Hungary",
+          "matches": [
+            {
+              "endOffset": 8
+            },
+            {
+              "startOffset": 35,
+              "endOffset": 42
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
