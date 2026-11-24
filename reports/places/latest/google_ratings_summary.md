@@ -1,8 +1,8 @@
 ## Google ratings
 
 - due: 250
-- checked: 139
-- found: 46
-- also_filled: 15
+- checked: 142
+- found: 109
+- also_filled: 33
 - errors: 0
-- coverage: 124/1500
+- coverage: 245/1500

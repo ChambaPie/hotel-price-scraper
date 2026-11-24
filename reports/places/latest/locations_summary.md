@@ -1,6 +1,6 @@
 ## Hotel positions
 
-Located 1500 of 1500 due; coverage 1500/1500. Status: confirmed 821, listing only 672, check 5, corrected 2. Source: osm 751, listing 677, photon 72. Photon searches 400 (0 failed).
+Located 227 of 227 due; coverage 1500/1500. Status: confirmed 847, listing only 647, check 4, corrected 2. Source: osm 749, listing 651, photon 100. Photon searches 150 (0 failed).
 
 Moved furthest from the listed position:
 
@@ -9,8 +9,7 @@ Moved furthest from the listed position:
 
 Still in the water (sea side of the coastline, no better position found): 0
 
-To check (a same-name place elsewhere, not moved): 5
-- Hotel Salzburgerhof (ta:g608666-d291957): Salzburgerhof
+To check (a same-name place elsewhere, not moved): 4
 - Hotel Oberwirt (ta:g1194203-d2282791): Hotel Oberwirt
 - Alla Marina (ta:g187821-d2323647): Alla Marina
 - Castel Sant'Angelo Inn (ta:g187791-d3478675): Castel Sant’Angelo

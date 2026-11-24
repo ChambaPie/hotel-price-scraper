@@ -1,9 +1,10 @@
-16:35:05 nord-est: 392 properties, 84364 feature points, 21 cities, 903 s
-16:48:54 centro: 214 properties, 59011 feature points, 20 cities, 829 s
-17:07:29 austria: 206 properties, 60621 feature points, 6 cities, 1116 s
+20:50:26 download.geofabrik.de: try 1 failed: <urlopen error [Errno 101] Network is unreachable>
+20:50:32 download.geofabrik.de: try 2 failed: <urlopen error [Errno 111] Connection refused>
+20:50:42 download.geofabrik.de: try 3 failed: <urlopen error [Errno 111] Connection refused>
+20:50:57 extract index not reachable: https://download.geofabrik.de/index-v1.json: <urlopen error [Errno 111] Connection refused>
 ## Type of place
 
-Processed 812 of 1500 due from 3 OpenStreetMap extracts (1832 MB, 0 failed); coverage 812/1500.
+Processed 0 of 806 due from 0 OpenStreetMap extracts (0 MB, -1 failed); coverage 694/1500.
 
-Tags: mountain 314, city 249, vineyards 226, ski 216, old_town 189, major_city 140, beach 136, countryside 117, sea 109, thermal 68, lake 54
+Tags: 
 

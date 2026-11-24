@@ -1,4 +1,4 @@
-#QUERY Hotel der Engel Graen
+#QUERY Seehotel Enzian Steinfeld
 #CARDS 0
 Skip to main content
 Accessibility feedback
