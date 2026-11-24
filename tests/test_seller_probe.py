@@ -144,8 +144,8 @@ def test_seller_url_never_takes_the_search_button_selector():
 
 def test_catalogue_sellers_are_probed_through_the_generic_search_box():
     specs = sp.probe_specs(CFG, ["probe", "account"])
-    # (CHECK24 was the example until it got its own entry, 2026-11-23; eDreams has none)
-    assert specs["edreams"]["home"] == "https://www.edreams.it/" and specs["edreams"]["input"] == CFG["seller_probe"]["generic"]["input"]
+    # (CHECK24, then eDreams, were the example until they got their own entries; Opodo has none)
+    assert specs["opodo"]["home"] == "https://www.opodo.it/" and specs["opodo"]["input"] == CFG["seller_probe"]["generic"]["input"]
     assert specs["agoda"] is CFG["seller_probe"]["sellers"]["agoda"]                 # its own entry wins
     assert specs["check24"] is CFG["seller_probe"]["sellers"]["check24"]
     assert "marriott" not in specs and "secret_escapes" in specs and "booking_com" not in specs   # no home page to search

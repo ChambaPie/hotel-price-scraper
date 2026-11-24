@@ -337,6 +337,12 @@ seller_probe:                # probe S0 (owner, 2026-11-23: prices only from the
       json_url_pattern: "/api/|graphql|search|availability|offer|hrs-api"
     hotel_de: {<<: *hrs_box, home: "https://www.hotel.de/", input: "text=/Ort, Hotel, Region, Adresse, PLZ/i",
                search: "button:has-text('Hotels suchen'), a:has-text('Hotels suchen'), :text-is('Hotels suchen')"}
+    edreams:                 # hotels tab; its hotel search runs on its own GraphQL (accommodation-funnel-bff)
+      home: "https://www.edreams.it/hotel/"
+      input: "input[placeholder*='Dove' i], input[placeholder*='destinazione' i], input[type='search'], [role='combobox']"
+      suggestion: "[role='option'], [role='listbox'] li, [class*='uggest'] li, [data-testid*='suggestion']"
+      search: "button:has-text('Cerca'), button[type='submit']"
+      json_url_pattern: "graphql"
     check24:                 # its own autocomplete (api/autocomplete.data, Remix "turbo-stream") answers while typing
       home: "https://hotels.check24.de/"
       input: "input[type='search'], [role='combobox'], input[placeholder*='Wohin' i], input[placeholder*='Reiseziel' i], input[placeholder*='Hotel' i]"
