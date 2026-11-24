@@ -1,0 +1,34 @@
+{
+ "data": {
+  "geoAccommodationLocation": {
+   "mainRegion": {
+    "regionId": "6185678",
+    "name": "Repubblica",
+    "regionType": "NEIGHBOURHOOD"
+   },
+   "coordinates": {
+    "latitude": 41.900403,
+    "longitude": 12.49278
+   },
+   "countryCode": "IT",
+   "segments": [
+    {
+     "regionId": "3023",
+     "name": "Roma",
+     "regionType": "CITY"
+    },
+    {
+     "regionId": "6048637",
+     "name": "Lazio",
+     "regionType": "PROVINCE_STATE"
+    },
+    {
+     "regionId": "86",
+     "name": "Italia",
+     "regionType": "COUNTRY"
+    }
+   ],
+   "imageUrl": null
+  }
+ }
+}

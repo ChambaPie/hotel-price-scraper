@@ -1,0 +1,11 @@
+{
+ "operationName": "geoAccommodationLocation",
+ "query": "\n  query geoAccommodationLocation(\n    $geoAccommodationLocationRequest: GeoAccommodationLocationRequest!\n  ) {\n    geoAccommodationLocation(\n      geoAccommodationLocationRequest: $geoAccommodationLocationRequest\n    ) {\n      mainRegion {\n        regionId\n        name\n        regionType\n      }\n      coordinates {\n        latitude\n        longitude\n      }\n      countryCode\n      segments {\n        regionId\n        name\n        regionType\n      }\n      imageUrl\n    }\n  }\n",
+ "variables": {
+  "geoAccommodationLocationRequest": {
+   "geoNodeId": null,
+   "geoId": "46539",
+   "geoType": "ACCOMMODATION"
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "operationName": "searchAccommodation",
+ "query": "\n  \n  \n  fragment AccommodationIdFields on Accommodation {\n    contentKey\n    dedupId\n    key\n  }\n\n  \n  fragment SearchPriceBreakdown on PriceBreakdown {\n    __typename\n    price\n    priceRounded\n    priceWithoutDiscount\n    priceWithoutDiscountRounded\n    pricePerNight\n    pricePerNightRounded\n    pricePerNightWithoutDiscount\n    pricePerNightWithoutDiscountRounded\n    discount {\n      percentage\n      packageAmount\n      packageAmountRounded\n      primeAmount\n      primeAmountRounded\n      publicAmount\n      publicAmountRounded\n    }\n  }\n\n  fragment AccommodationFields on Accommodation {\n    ...AccommodationIdFields\n    secretHotelId\n    debugInfo\n    providerId\n    roomsLeft\n    distanceFromCityCenter\n    insideDestination\n    cancellationFreeAlternativeAvailable\n    priceBreakdown {\n      ...SearchPriceBreakdown\n    }\n    accommodationFacilities\n    accommodationDeal {\n      hasMerchandisePrice\n      neighbourhood\n      name\n      cityName\n      address\n      description\n      coordinates {\n        latitude\n        longitude\n      }\n      cancellationFree\n      paymentAtDestination\n      category\n      chain\n      type\n      mainAccommodationImage {\n        url\n      }\n      payLaterAvailable\n    }\n    userReview {\n      rating\n      totalReviews\n    }\n    roomOffer {\n      hasDiscount\n      taxesAndFeesDescription\n      retailStrategy {\n        highlightType\n        primeDiscountType\n        showAbsoluteDiscount\n        showPercentageDiscount\n        isPromoCodeApplicable\n      }\n    }\n    sortingLogic {\n      defaultPosition\n      personalisationApplied\n    }\n    boardType\n    favorite\n    snippet\n  }\n\n  \n  fragment AccommodationSearchMetadata on AccommodationSearchMetadata {\n    priceMetadata {\n      maxPrice\n      minPrice\n      avgPrice\n      maxDiscountPercentage\n      pricePerNightRange\n      maxPricePerNight\n      minPricePerNight\n      avgPricePerNight\n      maxSavingAmount\n    }\n    priceFilter {\n      pricePerNight {\n        step\n        numSteps\n      }\n    }\n    filtersMetadata {\n      filterName\n      filterType\n      count\n    }\n    availabilityMetadata {\n      unavailablePropertiesPercentage\n    }\n  }\n\n  query searchAccommodation(\n    $accommodationSearchRequest: AccommodationSearchRequest!\n  )  {\n    searchAccommodation(\n      accommodationSearchRequest: $accommodationSearchRequest\n    ) {\n      searchId\n      currency\n      accommodations {\n        ...AccommodationFields\n      }\n      metadata {\n        ...AccommodationSearchMetadata\n      }\n    }\n  }\n",
+ "variables": {
+  "accommodationSearchRequest": {
+   "checkInDate": "2027-02-10",
+   "checkOutDate": "2027-02-11",
+   "destination": {
+    "geoNodeId": null
+   },
+   "roomRequests": [
+    {
+     "numAdults": 2,
+     "childrenAges": []
+    }
+   ],
+   "buyPath": null,
+   "searchType": "STANDALONE",
+   "geoAccommodation": {
+    "geoId": "46539",
+    "geoType": "ACCOMMODATION"
+   }
+  }
+ }
+}

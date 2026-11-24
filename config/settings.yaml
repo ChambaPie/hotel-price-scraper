@@ -270,7 +270,7 @@ sellers:                     # every travel website that sells the room and take
   trip_com: {name: Trip.com, group: Trip.com Group, status: live, note: "its own search-box and results-list calls, repeated from inside its page (hotel_scraper/tripcom.py)"}
   airbnb: {name: Airbnb, status: probe, home: "https://www.airbnb.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   lastminute: {name: lastminute.com, group: lastminute.com group, status: probe, home: "https://www.lastminute.com/", note: "Cloudflare check on 1 of 2 pages from GitHub (probe 2026-11-23)"}
-  edreams: {name: eDreams, group: eDreams ODIGEO, status: probe, home: "https://www.edreams.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
+  edreams: {name: eDreams, group: eDreams ODIGEO, status: live, home: "https://www.edreams.it/", note: "its own suggestions and hotel search (accommodation GraphQL), from inside its page"}
   opodo: {name: Opodo, group: eDreams ODIGEO, status: probe, home: "https://www.opodo.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   check24: {name: CHECK24 Hotel, status: probe, home: "https://hotel.check24.de/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   hrs: {name: HRS, group: HRS Group, status: live, home: "https://www.hrs.com/", note: "its own search-box and hotel-search calls from inside its page (hotel_scraper/hrs.py)"}
@@ -632,6 +632,37 @@ vio:                         # Vio.com's own sales; Etrip.net, goSeek... are the
   stop_after_errors: 25
   max_minutes: 30
   hotel_url: "https://www.vio.com/Hotel/Search?hotelId={id}&checkIn={checkin}&checkOut={checkout}&rooms={adults}"
+
+edreams:                     # eDreams' own prices (hotel_scraper/edreams.py; owner, 2026-11-23: every vendor)
+  home: "https://www.edreams.it/alberghi/"
+  graphql: "https://www.edreams.it/accommodation-funnel-bff/service/graphql"
+  suggest_url: "https://www.edreams.it/frontend-home/service/accommodation-autocomplete/v3/search?searchTerm={q}&locale=it_IT&sizeRegion=7&sizeAccommodation=7"
+  search_template: config/edreams_search.json       # its own requests, captured from its results page (2026-11-24)
+  location_template: config/edreams_location.json
+  hotel_url: "https://www.edreams.it/travel/accommodation/hotel_results/checkIn={checkin};checkOut={checkout};room0Adults={adults};geoId={id}%2BACCOMMODATION?accommodation={id}%2BSearchByProperty"
+  browser: *person_browser
+  accept_language: "it-IT,it;q=0.9,en;q=0.8"
+  warm_up_s: 8
+  queries: ["{name} {city}", "{name}"]
+  candidates_checked: 3      # hotel suggestions checked by position per query
+  max_km: 3.0                # same name-and-place rules as Agoda
+  min_similarity: 0.8
+  near_km: 1.0
+  min_similarity_near: 0.7
+  close_km: 0.2
+  min_similarity_close: 0.5
+  same_place_km: 0.15
+  retry_days: 30
+  ids_per_run: 200
+  ids_share: 0.5
+  searches_at_once: 4        # searches sent together (each answers with the hotels around ours: 180+)
+  hotels_per_pass: 150
+  nights_per_pass: 3
+  night_stride: 122
+  min_lead_days: 1
+  horizon_days: 365
+  stop_after_errors: 15
+  max_minutes: 25
 
 super_com:                   # Super.com's own sales (hotel_scraper/super_com.py; owner, 2026-11-23: every vendor)
   home: "https://www.super.com/travel/hotels/"

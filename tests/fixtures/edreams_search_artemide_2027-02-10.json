@@ -1,0 +1,506 @@
+{
+ "data": {
+  "searchAccommodation": {
+   "searchId": 74076802357,
+   "currency": "EUR",
+   "accommodations": [
+    {
+     "contentKey": "RVgjNDU4NTY=",
+     "dedupId": 46539,
+     "key": "1461",
+     "secretHotelId": null,
+     "debugInfo": null,
+     "providerId": "EX",
+     "roomsLeft": 9,
+     "distanceFromCityCenter": 0.08,
+     "insideDestination": true,
+     "cancellationFreeAlternativeAvailable": true,
+     "priceBreakdown": {
+      "__typename": "PriceBreakdown",
+      "price": 205.02,
+      "priceRounded": 206,
+      "priceWithoutDiscount": 205.02,
+      "priceWithoutDiscountRounded": 206,
+      "pricePerNight": 205.02,
+      "pricePerNightRounded": 206,
+      "pricePerNightWithoutDiscount": 205.02,
+      "pricePerNightWithoutDiscountRounded": 206,
+      "discount": {
+       "percentage": 0.0,
+       "packageAmount": 0.0,
+       "packageAmountRounded": 0,
+       "primeAmount": 0.0,
+       "primeAmountRounded": 0,
+       "publicAmount": 0.0,
+       "publicAmountRounded": 0
+      }
+     },
+     "accommodationFacilities": [
+      "BAR_RESTAURANT",
+      "LIFT",
+      "FREE_WIFI",
+      "GYM",
+      "HANDICAPPED",
+      "SPA_SAUNA"
+     ],
+     "accommodationDeal": {
+      "hasMerchandisePrice": true,
+      "neighbourhood": "Repubblica",
+      "name": "Hotel Artemide",
+      "cityName": "Rome",
+      "address": "Via Nazionale 22",
+      "description": null,
+      "coordinates": {
+       "latitude": 41.90082931518555,
+       "longitude": 12.493630409240723
+      },
+      "cancellationFree": "FALSE",
+      "paymentAtDestination": false,
+      "category": "STARS_4",
+      "chain": "Artemide Group",
+      "type": "HOTEL",
+      "mainAccommodationImage": {
+       "url": "https://i.travelapi.com/lodging/1000000/50000/45900/45856/cc8dca82_z.jpg"
+      },
+      "payLaterAvailable": false
+     },
+     "userReview": {
+      "rating": 4.8,
+      "totalReviews": 9608
+     },
+     "roomOffer": {
+      "hasDiscount": false,
+      "taxesAndFeesDescription": "TAXES_INCLUDED",
+      "retailStrategy": {
+       "highlightType": "NO_HIGHLIGHT",
+       "primeDiscountType": "NO_DISCOUNT",
+       "showAbsoluteDiscount": false,
+       "showPercentageDiscount": false,
+       "isPromoCodeApplicable": false
+      }
+     },
+     "sortingLogic": {
+      "defaultPosition": 0,
+      "personalisationApplied": false
+     },
+     "boardType": "RO",
+     "favorite": false,
+     "snippet": null
+    },
+    {
+     "contentKey": "RE8jMjA1Njc=",
+     "dedupId": 68,
+     "key": "2219",
+     "secretHotelId": null,
+     "debugInfo": null,
+     "providerId": "DO",
+     "roomsLeft": 99,
+     "distanceFromCityCenter": 0.45,
+     "insideDestination": true,
+     "cancellationFreeAlternativeAvailable": true,
+     "priceBreakdown": {
+      "__typename": "PriceBreakdown",
+      "price": 76.4,
+      "priceRounded": 77,
+      "priceWithoutDiscount": 116.0,
+      "priceWithoutDiscountRounded": 116,
+      "pricePerNight": 76.4,
+      "pricePerNightRounded": 77,
+      "pricePerNightWithoutDiscount": 116.0,
+      "pricePerNightWithoutDiscountRounded": 116,
+      "discount": {
+       "percentage": 34.0,
+       "packageAmount": 0.0,
+       "packageAmountRounded": 0,
+       "primeAmount": 39.6,
+       "primeAmountRounded": 39,
+       "publicAmount": 0.0,
+       "publicAmountRounded": 0
+      }
+     },
+     "accommodationFacilities": [
+      "AC",
+      "LIFT",
+      "FREE_WIFI",
+      "HANDICAPPED",
+      "HEATING"
+     ],
+     "accommodationDeal": {
+      "hasMerchandisePrice": true,
+      "neighbourhood": "Monti",
+      "name": "Hotel Valle",
+      "cityName": "Rome",
+      "address": "Via Cavour 134",
+      "description": null,
+      "coordinates": {
+       "latitude": 41.89690017700195,
+       "longitude": 12.495559692382812
+      },
+      "cancellationFree": "TRUE",
+      "paymentAtDestination": false,
+      "category": "STARS_3",
+      "chain": "",
+      "type": "HOTEL",
+      "mainAccommodationImage": {
+       "url": "https://i.travelapi.com/lodging/1000000/50000/41700/41654/bc2b1261_z.jpg"
+      },
+      "payLaterAvailable": false
+     },
+     "userReview": {
+      "rating": 2.7,
+      "totalReviews": 577
+     },
+     "roomOffer": {
+      "hasDiscount": true,
+      "taxesAndFeesDescription": "TAXES_INCLUDED",
+      "retailStrategy": {
+       "highlightType": "PRIME_EXCLUSIVE",
+       "primeDiscountType": "VISIBLE",
+       "showAbsoluteDiscount": true,
+       "showPercentageDiscount": true,
+       "isPromoCodeApplicable": false
+      }
+     },
+     "sortingLogic": {
+      "defaultPosition": 1,
+      "personalisationApplied": false
+     },
+     "boardType": "BB",
+     "favorite": false,
+     "snippet": null
+    },
+    {
+     "contentKey": "VEIjMTE1NTkxOA==",
+     "dedupId": 48639,
+     "key": "253",
+     "secretHotelId": null,
+     "debugInfo": null,
+     "providerId": "TB",
+     "roomsLeft": 99,
+     "distanceFromCityCenter": 0.37,
+     "insideDestination": true,
+     "cancellationFreeAlternativeAvailable": true,
+     "priceBreakdown": {
+      "__typename": "PriceBreakdown",
+      "price": 82.0,
+      "priceRounded": 82,
+      "priceWithoutDiscount": 123.0,
+      "priceWithoutDiscountRounded": 123,
+      "pricePerNight": 82.0,
+      "pricePerNightRounded": 82,
+      "pricePerNightWithoutDiscount": 123.0,
+      "pricePerNightWithoutDiscountRounded": 123,
+      "discount": {
+       "percentage": 33.0,
+       "packageAmount": 0.0,
+       "packageAmountRounded": 0,
+       "primeAmount": 41.0,
+       "primeAmountRounded": 41,
+       "publicAmount": 0.0,
+       "publicAmountRounded": 0
+      }
+     },
+     "accommodationFacilities": [
+      "AC",
+      "BAR_RESTAURANT",
+      "LIFT",
+      "FREE_WIFI",
+      "HANDICAPPED",
+      "HEATING",
+      "PETS_ALLOWED",
+      "ROOM_SERVICE"
+     ],
+     "accommodationDeal": {
+      "hasMerchandisePrice": true,
+      "neighbourhood": "Castro Pretorio",
+      "name": "Diana Roof Garden",
+      "cityName": "Rome",
+      "address": "Via Principe Amedeo 4",
+      "description": null,
+      "coordinates": {
+       "latitude": 41.900672912597656,
+       "longitude": 12.497247695922852
+      },
+      "cancellationFree": "TRUE",
+      "paymentAtDestination": false,
+      "category": "STARS_4",
+      "chain": "",
+      "type": "HOTEL",
+      "mainAccommodationImage": {
+       "url": "https://i.travelapi.com/lodging/1000000/790000/787100/787014/9e51327e_z.jpg"
+      },
+      "payLaterAvailable": false
+     },
+     "userReview": {
+      "rating": 3.7,
+      "totalReviews": 2596
+     },
+     "roomOffer": {
+      "hasDiscount": true,
+      "taxesAndFeesDescription": "TAXES_INCLUDED",
+      "retailStrategy": {
+       "highlightType": "PREMIUM_PRIME",
+       "primeDiscountType": "VISIBLE",
+       "showAbsoluteDiscount": true,
+       "showPercentageDiscount": true,
+       "isPromoCodeApplicable": false
+      }
+     },
+     "sortingLogic": {
+      "defaultPosition": 2,
+      "personalisationApplied": false
+     },
+     "boardType": "BB",
+     "favorite": false,
+     "snippet": null
+    },
+    {
+     "contentKey": "U00jMTA2NTQx",
+     "dedupId": 12267649,
+     "key": "2228",
+     "secretHotelId": null,
+     "debugInfo": null,
+     "providerId": "SM",
+     "roomsLeft": 99,
+     "distanceFromCityCenter": 0.67,
+     "insideDestination": true,
+     "cancellationFreeAlternativeAvailable": true,
+     "priceBreakdown": {
+      "__typename": "PriceBreakdown",
+      "price": 57.53,
+      "priceRounded": 58,
+      "priceWithoutDiscount": 92.0,
+      "priceWithoutDiscountRounded": 92,
+      "pricePerNight": 57.53,
+      "pricePerNightRounded": 58,
+      "pricePerNightWithoutDiscount": 92.0,
+      "pricePerNightWithoutDiscountRounded": 92,
+      "discount": {
+       "percentage": 37.0,
+       "packageAmount": 0.0,
+       "packageAmountRounded": 0,
+       "primeAmount": 34.47,
+       "primeAmountRounded": 34,
+       "publicAmount": 0.0,
+       "publicAmountRounded": 0
+      }
+     },
+     "accommodationFacilities": [
+      "AC",
+      "BAR_RESTAURANT",
+      "LIFT",
+      "FREE_WIFI",
+      "HANDICAPPED",
+      "HEATING",
+      "ROOM_SERVICE"
+     ],
+     "accommodationDeal": {
+      "hasMerchandisePrice": true,
+      "neighbourhood": "Castro Pretorio",
+      "name": "Scotthouse Hotel Rome",
+      "cityName": "Rome",
+      "address": "Via Gioberti 30",
+      "description": null,
+      "coordinates": {
+       "latitude": 41.89884948730469,
+       "longitude": 12.500590324401855
+      },
+      "cancellationFree": "FALSE",
+      "paymentAtDestination": false,
+      "category": "STARS_3",
+      "chain": "",
+      "type": "HOTEL",
+      "mainAccommodationImage": {
+       "url": "https://i.travelapi.com/lodging/2000000/1790000/1789400/1789376/cb3325d5_z.jpg"
+      },
+      "payLaterAvailable": false
+     },
+     "userReview": {
+      "rating": 3.5,
+      "totalReviews": 613
+     },
+     "roomOffer": {
+      "hasDiscount": true,
+      "taxesAndFeesDescription": "TAXES_INCLUDED",
+      "retailStrategy": {
+       "highlightType": "STANDARD_PRIME",
+       "primeDiscountType": "VISIBLE",
+       "showAbsoluteDiscount": true,
+       "showPercentageDiscount": true,
+       "isPromoCodeApplicable": false
+      }
+     },
+     "sortingLogic": {
+      "defaultPosition": 3,
+      "personalisationApplied": false
+     },
+     "boardType": "RO",
+     "favorite": false,
+     "snippet": null
+    },
+    {
+     "contentKey": "RE8jNjIxNA==",
+     "dedupId": 340327,
+     "key": "2056",
+     "secretHotelId": null,
+     "debugInfo": null,
+     "providerId": "DO",
+     "roomsLeft": 99,
+     "distanceFromCityCenter": 0.67,
+     "insideDestination": true,
+     "cancellationFreeAlternativeAvailable": false,
+     "priceBreakdown": {
+      "__typename": "PriceBreakdown",
+      "price": 69.6,
+      "priceRounded": 70,
+      "priceWithoutDiscount": 107.0,
+      "priceWithoutDiscountRounded": 107,
+      "pricePerNight": 69.6,
+      "pricePerNightRounded": 70,
+      "pricePerNightWithoutDiscount": 107.0,
+      "pricePerNightWithoutDiscountRounded": 107,
+      "discount": {
+       "percentage": 34.0,
+       "packageAmount": 0.0,
+       "packageAmountRounded": 0,
+       "primeAmount": 37.4,
+       "primeAmountRounded": 37,
+       "publicAmount": 0.0,
+       "publicAmountRounded": 0
+      }
+     },
+     "accommodationFacilities": [
+      "LIFT",
+      "FREE_WIFI"
+     ],
+     "accommodationDeal": {
+      "hasMerchandisePrice": true,
+      "neighbourhood": "Castro Pretorio",
+      "name": "Champagne Palace Hotel",
+      "cityName": "Rome",
+      "address": "Via Principe Amedeo 82",
+      "description": null,
+      "coordinates": {
+       "latitude": 41.89877700805664,
+       "longitude": 12.500597953796387
+      },
+      "cancellationFree": "FALSE",
+      "paymentAtDestination": false,
+      "category": "STARS_4",
+      "chain": "",
+      "type": "HOTEL",
+      "mainAccommodationImage": {
+       "url": "https://i.travelapi.com/lodging/2000000/1140000/1131300/1131239/2a66935b_z.jpg"
+      },
+      "payLaterAvailable": false
+     },
+     "userReview": {
+      "rating": 2.6,
+      "totalReviews": 794
+     },
+     "roomOffer": {
+      "hasDiscount": true,
+      "taxesAndFeesDescription": "TAXES_INCLUDED",
+      "retailStrategy": {
+       "highlightType": "PRIME_EXCLUSIVE",
+       "primeDiscountType": "VISIBLE",
+       "showAbsoluteDiscount": true,
+       "showPercentageDiscount": true,
+       "isPromoCodeApplicable": false
+      }
+     },
+     "sortingLogic": {
+      "defaultPosition": 4,
+      "personalisationApplied": false
+     },
+     "boardType": "RO",
+     "favorite": false,
+     "snippet": null
+    },
+    {
+     "contentKey": "RE8jNjE0MzM=",
+     "dedupId": 10261211,
+     "key": "1931",
+     "secretHotelId": null,
+     "debugInfo": null,
+     "providerId": "DO",
+     "roomsLeft": 99,
+     "distanceFromCityCenter": 1.32,
+     "insideDestination": true,
+     "cancellationFreeAlternativeAvailable": true,
+     "priceBreakdown": {
+      "__typename": "PriceBreakdown",
+      "price": 65.0,
+      "priceRounded": 65,
+      "priceWithoutDiscount": 102.0,
+      "priceWithoutDiscountRounded": 102,
+      "pricePerNight": 65.0,
+      "pricePerNightRounded": 65,
+      "pricePerNightWithoutDiscount": 102.0,
+      "pricePerNightWithoutDiscountRounded": 102,
+      "discount": {
+       "percentage": 36.0,
+       "packageAmount": 0.0,
+       "packageAmountRounded": 0,
+       "primeAmount": 37.0,
+       "primeAmountRounded": 37,
+       "publicAmount": 0.0,
+       "publicAmountRounded": 0
+      }
+     },
+     "accommodationFacilities": [
+      "BAR_RESTAURANT",
+      "LIFT",
+      "FREE_WIFI",
+      "PETS_ALLOWED",
+      "ROOM_SERVICE",
+      "KITCHEN"
+     ],
+     "accommodationDeal": {
+      "hasMerchandisePrice": true,
+      "neighbourhood": "Salario",
+      "name": "Hotel Des Epoques",
+      "cityName": "Rome",
+      "address": "Via Nomentana, 31-33",
+      "description": null,
+      "coordinates": {
+       "latitude": 41.9100227355957,
+       "longitude": 12.502172470092773
+      },
+      "cancellationFree": "FALSE",
+      "paymentAtDestination": false,
+      "category": "STARS_3",
+      "chain": "",
+      "type": "HOTEL",
+      "mainAccommodationImage": {
+       "url": "https://i.travelapi.com/lodging/11000000/10500000/10499700/10499604/be366e88_z.jpg"
+      },
+      "payLaterAvailable": false
+     },
+     "userReview": {
+      "rating": 3.6,
+      "totalReviews": 164
+     },
+     "roomOffer": {
+      "hasDiscount": true,
+      "taxesAndFeesDescription": "TAXES_INCLUDED",
+      "retailStrategy": {
+       "highlightType": "PRIME_EXCLUSIVE",
+       "primeDiscountType": "VISIBLE",
+       "showAbsoluteDiscount": true,
+       "showPercentageDiscount": true,
+       "isPromoCodeApplicable": false
+      }
+     },
+     "sortingLogic": {
+      "defaultPosition": 5,
+      "personalisationApplied": false
+     },
+     "boardType": "RO",
+     "favorite": false,
+     "snippet": null
+    }
+   ]
+  }
+ }
+}
