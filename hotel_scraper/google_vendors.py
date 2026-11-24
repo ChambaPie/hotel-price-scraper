@@ -23,7 +23,8 @@ from .google_probe import encode_ts
 from .google_ratings import similarity
 from .scan import read_csv, write_csv
 
-FIELDS = ["pid", "google_name", "vendors", "official", "website", "entity", "status", "checked_at"]
+FIELDS = ["pid", "google_name", "vendors", "official", "website", "entity", "status", "checked_at", "vendor_sites"]
+LINKS_MARK = "#VENDOR_LINKS"
 PRICE = re.compile(r"^(?:€|US\$|\$|£|CHF)\s?\d[\d.,]*\s*\*?$")
 STARTS = ("All options", "Sponsored·Featured options", "Featured options")
 ENDS = ("Sponsored·Similar hotels", "Similar hotels", "Nearby places", "Reviews", "About this data", "Track this hotel",
@@ -107,6 +108,31 @@ def due(watch: list[dict], known: dict, today: date, refresh_days: int, retry_da
 
 ENTITY_JS = """() => Array.from(document.querySelectorAll('a[href*="/travel/hotels/entity/"]'))
     .map(a => ({href: a.href, text: (a.getAttribute('aria-label') || a.innerText || '').slice(0, 160)}))"""
+VISIT_JS = """() => Array.from(document.querySelectorAll('a')).filter(a => /Visit/i.test((a.getAttribute('aria-label') || '')
+    + ' ' + (a.innerText || ''))).map(a => [(a.getAttribute('aria-label') || a.innerText || '').slice(0, 120), a.href])"""
+
+
+def vendor_hosts(text: str) -> dict[str, str]:
+    """{vendor label: its web address's host} from the "Visit site" links kept after LINKS_MARK: Google's links carry
+    the vendor's own address (pcurl / url / adurl), which names sellers Google shows only by brand ("Hotel Booking
+    Zone")."""
+    from urllib.parse import parse_qs
+    out = {}
+    if LINKS_MARK not in text:
+        return out
+    for line in text.split(LINKS_MARK, 1)[1].splitlines():
+        if "\t" not in line:
+            continue
+        label, href = line.split("\t", 1)
+        q = parse_qs(urlsplit(href).query)
+        target = next((q[k][0] for k in ("pcurl", "url", "adurl", "q") if q.get(k)), href)
+        host = urlsplit(target).netloc.lower().removeprefix("www.")
+        label = re.sub(r"^\s*Visit\s*(site)?\s*", "", label, flags=re.I).strip() or label.strip()
+        if host and "google." not in host:
+            out[label] = host
+    return out
+
+
 WEBSITE_JS = """() => Array.from(document.querySelectorAll('a')).filter(a => /^\\s*Website\\s*$/i.test(a.innerText || '')
     || /^Website/i.test(a.getAttribute('aria-label') || '')).map(a => a.href).slice(0, 3)"""
 
@@ -157,6 +183,11 @@ def open_hotel(page, w: dict, gv: dict, today: date, offset: int | None = None) 
             pass
     text = page.inner_text("body")
     name = next((l.strip() for l in text.splitlines()[:12] if similarity(w["name"], l.strip()) >= gv["min_similarity"]), "")
+    try:                                    # who each "Visit site" link leads to (kept after the page text)
+        links = page.evaluate(VISIT_JS)
+        text += f"\n{LINKS_MARK}\n" + "\n".join(f"{l.strip()}\t{h}" for l, h in links if h)
+    except Exception:  # noqa: BLE001
+        pass
     return text, name, entity, website
 
 
@@ -198,9 +229,11 @@ def run(cfg: dict, max_minutes: float, open_fn, today: date | None = None, log=l
             samples.mkdir(parents=True, exist_ok=True)
             (samples / f"miss_{saved}.txt").write_text(f"#HOTEL {w['name']}\n#ENTITY {entity}\n{text[:200_000]}", encoding="utf-8")
             saved += 1
+        sites = vendor_hosts(text or "")
         known[w["pid"]] = {"pid": w["pid"], "google_name": gname, "vendors": "|".join(names),
                            "official": "yes" if official else "", "website": website[:300], "entity": entity[:200],
-                           "status": "ok" if ok else "not found", "checked_at": now}
+                           "status": "ok" if ok else "not found", "checked_at": now,
+                           "vendor_sites": "|".join(f"{k}={v}" for k, v in sites.items())[:2000]}
         stats["checked"] += 1
         stats["found"] += 1 if ok else 0
         log(f"{w['name'][:40]}: {len(names)} vendors{' + official site' if official else ''}: {', '.join(names)[:150]}")
@@ -211,6 +244,8 @@ def run(cfg: dict, max_minutes: float, open_fn, today: date | None = None, log=l
     stats["vendors"] = dict(Counter(v for r in rows for v in r["vendors"].split("|") if v and not NOISE.match(v)).most_common())
     stats["with_official_site"] = sum(1 for r in rows if r["official"] == "yes")
     stats["with_website"] = sum(1 for r in known.values() if r["website"])
+    stats["vendor_sites"] = dict(Counter(x for r in rows for x in (r.get("vendor_sites") or "").split("|") if "=" in x)
+                                 .most_common(80))
     return stats
 
 
@@ -220,6 +255,9 @@ def summary_md(s: dict) -> str:
           f"official site listed for {s['with_official_site']}, website address known for {s['with_website']}.", "",
           "| vendor | hotels |", "|---|---|"]
     md += [f"| {k} | {v} |" for k, v in s["vendors"].items()]
+    if s.get("vendor_sites"):
+        md += ["", "Where Google's \"Visit site\" links lead (vendor = its own web address, hotels):", "",
+               "| vendor = site | hotels |", "|---|---|"] + [f"| {k} | {v} |" for k, v in s["vendor_sites"].items()]
     return "\n".join(md) + "\n"
 
 

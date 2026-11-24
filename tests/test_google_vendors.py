@@ -85,3 +85,12 @@ def test_currency_line_is_not_a_vendor():
     text = text.replace("* \nThis price was customised", "Currency​EUR\n* \nThis price was customised")
     vendors, _ = gv.vendors_from_text(text, CFG["google_vendors"]["known"])
     assert not any(v.startswith("Currency") for v in vendors)
+
+
+def test_visit_site_links_name_each_vendors_own_site():
+    text = ("Page loaded.\n" + gv.LINKS_MARK + "\n"
+            "Visit site Hotel Booking Zone\thttps://www.google.com/travel/clk?pc=x&pcurl=https://www.hotelbookingzone.com/hotel/123%3Fd%3D1\n"
+            "Visit Expedia.com\thttps://www.google.com/aclk?sa=l&adurl=https://www.expedia.it/h123.Hotel-Information\n"
+            "Visit site\thttps://www.google.com/travel/hotels/entity/x\n")
+    assert gv.vendor_hosts(text) == {"Hotel Booking Zone": "hotelbookingzone.com", "Expedia.com": "expedia.it"}
+    assert gv.vendors_from_text(text, CFG["google_vendors"]["known"]) == ([], False)   # not taken for vendors
