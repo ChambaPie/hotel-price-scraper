@@ -1,0 +1,19 @@
+{
+ "x-gate-meta": "MTc5NTUxMzkyOTkwNnw5M2M5OWE1Yy0yZWNjLTRiZDQtYjZkMy1kOTFkMDRiZWY5NjB8Ly93d3cuYWdvZGEuY29tL2FwaS9ndy9DbXMvTG9va3Vw",
+ "sec-ch-ua-platform": "\"Windows\"",
+ "ag-language-id": "1",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "sec-ch-ua-mobile": "?0",
+ "ag-request-id": "ff119d88-ebc1-4b78-9747-03d8fe86688c",
+ "content-type": "application/json",
+ "ag-correlation-id": "",
+ "ag-cid": "-1",
+ "ag-initiator-api-key": "",
+ "ag-whitelabel-id": "1",
+ "referer": "https://www.agoda.com/en-gb/search?checkin=2026-12-15&checkout=2026-12-16&currency=EUR&adults=2&rooms=1&los=1&selectedproperty=1081&city=16594&pslc=1&ds=d%2FAYZc71Ghxk7elS",
+ "accept-language": "en-GB,en;q=0.9",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+ "ag-use-mock": "false",
+ "ag-language-locale": "en-gb",
+ "ag-initiator-version": ""
+}

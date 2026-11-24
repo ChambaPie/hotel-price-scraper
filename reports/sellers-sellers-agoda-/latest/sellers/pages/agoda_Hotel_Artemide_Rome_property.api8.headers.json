@@ -1,0 +1,21 @@
+{
+ "ag-retry-attempt": "0",
+ "access-control-max-age": "7200",
+ "x-gate-meta": "MTc5NTUxMzkzMTEyNXw5M2M5OWE1Yy0yZWNjLTRiZDQtYjZkMy1kOTFkMDRiZWY5NjB8L2dyYXBocWwvc2VhcmNo",
+ "sec-ch-ua-platform": "\"Windows\"",
+ "ag-analytics-session-id": "-6694619335600334376",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "sec-ch-ua-mobile": "?0",
+ "ag-debug-override-origin": "US",
+ "ag-request-attempt": "1",
+ "accept": "*/*",
+ "ag-correlation-id": "f5f919da-38fb-45e1-85d3-79eee074984b",
+ "content-type": "application/json",
+ "ag-request-id": "7481297f-c38c-4063-a314-e2134973b04f",
+ "ag-page-type-id": "103",
+ "ag-cid": "-1",
+ "referer": "https://www.agoda.com/en-gb/search?checkin=2026-12-15&checkout=2026-12-16&currency=EUR&adults=2&rooms=1&los=1&selectedproperty=1081&city=16594&pslc=1&ds=d%2FAYZc71Ghxk7elS",
+ "accept-language": "en-GB,en;q=0.9",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+ "ag-language-locale": "en-gb"
+}

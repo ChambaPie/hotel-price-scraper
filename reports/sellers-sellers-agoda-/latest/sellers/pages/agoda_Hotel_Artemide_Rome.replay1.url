@@ -1,0 +1,2 @@
+200 POST https://www.agoda.com/graphql/search
+{"propertyId": "{id}", "currency": "EUR", "searchType": "PropertySearch"}

@@ -1,0 +1,19 @@
+09:51:37 replay: no property id in the address
+09:51:37 property page: no id in the address
+09:51:37 agoda      Corinthia Budapest             200 blocked=- prices=0 name=True json=10
+09:52:08 replay 0 {'propertyId': '{id}', 'currency': 'EUR'}: HTTP 200, 104 bytes
+09:52:08 replay 1 {'propertyId': '{id}', 'currency': 'EUR', 'searchType': 'PropertySearch'}: HTTP 200, 104 bytes
+09:52:08 replay 2 {'propertyId': '{id}', 'currency': 'EUR', 'startDate': '2027-05-01T00:00:00.000Z', 'endDate': '2027-06-30T00:00:00.000Z'}: HTTP 200, 104 bytes
+09:52:22 property page https://www.agoda.com/en-gb/search?checkin=2026-12-15&checkout=2026-12-16&currency=EUR&adu: Agoda | Hotels in Rome | Best Price Guarantee!, prices 21, json 10
+09:52:22 agoda      Hotel Artemide                 200 blocked=- prices=0 name=True json=10
+# Sellers' own websites: probe S0
+
+## Sellers (one night, search page)
+
+| seller | pages | blocked | with prices | hotel found | JSON saved |
+|---|---|---|---|---|---|
+| agoda | 2 | 0 | 0 | 2 | 20 |
+
+Block phrases seen: none
+
+

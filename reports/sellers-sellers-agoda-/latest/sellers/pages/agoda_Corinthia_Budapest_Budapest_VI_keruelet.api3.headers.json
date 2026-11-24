@@ -1,0 +1,21 @@
+{
+ "ag-retry-attempt": "0",
+ "access-control-max-age": "7200",
+ "x-gate-meta": "MTc5NTUxMzg4Njg0M3w5M2M5OWE1Yy0yZWNjLTRiZDQtYjZkMy1kOTFkMDRiZWY5NjB8L2dyYXBocWwvc2VhcmNo",
+ "sec-ch-ua-platform": "\"Windows\"",
+ "ag-analytics-session-id": "-6694619335600334376",
+ "sec-ch-ua": "\"HeadlessChrome\";v=\"159\", \"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"159\"",
+ "sec-ch-ua-mobile": "?0",
+ "ag-debug-override-origin": "US",
+ "ag-request-attempt": "1",
+ "accept": "*/*",
+ "ag-correlation-id": "48580914-5dfd-4f41-ad62-1a5d201e5513",
+ "content-type": "application/json",
+ "ag-request-id": "87657ec7-305d-460e-aa49-d3f013e8d383",
+ "ag-page-type-id": "103",
+ "ag-cid": "-1",
+ "referer": "https://www.agoda.com/en-gb/search?guid=1054f011-a5bd-421c-898f-d25dcccda59d&lastSearchedCity=0&asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb96jF3Z%2B7QlME9wzxq0b7R8RIIFl%2BRMysYJDDqpj2wi3dywUDF4E%2FQTYyDQlSFgdzmEg7Oio%2BApmxvkekRLvJoTnfmG1btJ4rXIGquB6HLlWMeNnle%2Fzp5yzs2iR2yCu1K54oa%2BmA4Z2d4A0ENPb2B8m5YHxOT5ivn%2FtRjaVAA%2Brg%3D&poi=123165&tick=639311358806&locale=en-gb&ckuid=93c99a5c-2ecc-4bd4-b6d3-d91d04bef960&prid=0&currency=USD&correlationId=cda8c377-9f77-49fc-b9f5-7c965083a470&analyticsSessionId=-6694619335600334376&pageTypeId=1&realLanguageId=16&languageId=1&origin=US&stateCode=OR&cid=-1&userId=93c99a5c-2ecc-4bd4-b6d3-d91d04bef960&whitelabelid=1&loginLvl=0&storefrontId=3&currencyId=7&currencyCode=USD&htmlLanguage=en-gb&cultureInfoName=en-gb&machineName=as-pc-3i-cronos-spa-acm-web-8676b9bbb9-btdm7&trafficGroupId=4&trafficSubGroupId=4&aid=130243&useFullPageLogin=true&cttp=4&isRealUser=true&mode=production&browserFamily=Chrome&cdnDomain=agoda.net&checkIn=2026-12-03&checkOut=2026-12-04&rooms=1&adults=2&children=0&priceCur=USD&los=1&textToSearch=Corinthia+Hotel+Budapest&productType=-1&travellerType=1&familyMode=off&city=10647&ds=aDAqf7Q1oV6oD0cR",
+ "accept-language": "en-GB,en;q=0.9",
+ "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+ "ag-language-locale": "en-gb"
+}
