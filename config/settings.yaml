@@ -470,7 +470,8 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   verify_offset_days: 30     # the night used for that check (any night: only name and place matter)
   retry_days: 30             # a hotel not found is searched again after this
   ids_per_run: 150          # per id job (the workflow runs several in parallel until every hotel has been looked up)
-  id_jobs: 3                 # parallel id jobs; must match the loop in .github/workflows/sellers.yml
+  id_jobs: 1                 # parallel id jobs; must match the loop in .github/workflows/sellers.yml (3 until
+                             # 2026-11-24: with most hotels looked up, fewer requests keep Agoda from refusing them)
   ids_share: 0.5             # when ids and prices run together, at most this share of the time goes to ids
   nights_per_city: 4         # nights priced per city per pass...
   night_stride: 91           # ...this many days apart, so one pass spans the horizon and every night comes round
@@ -484,6 +485,9 @@ agoda:                       # Agoda's own prices (hotel_scraper/agoda.py; owner
   page_wait_s: 8             # pages mode: wait at most this long for the page's own city search
   pause_seconds: 1.5
   stop_after_errors: 25
+  backoff_after: 4           # this many refused searches in a row: wait backoff_s, then start again (run 45370159785)
+  backoff_s: 120
+  max_backoffs: 3
   max_minutes: 30
   hotel_url: "https://www.agoda.com/partners/partnersearch.aspx?hid={id}&checkin={checkin}&checkout={checkout}&adults={adults}&rooms=1&currency=EUR"
 

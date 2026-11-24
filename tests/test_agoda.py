@@ -225,3 +225,38 @@ def test_prices_by_opening_pages_when_repeats_are_refused(tmp_path):
     page = Refusing()
     res = agoda.run(cfg, "prices", 5, page, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
     assert res["priced"] == 4 and [c[0] for c in page.calls] == ["page"] * 4      # the refused night retried as a page
+
+
+def test_agoda_refusing_every_search_is_waited_out(tmp_path):
+    """Regression (run 45370159785): Agoda answered every search with HTTP 502 ("There was a problem completing your
+    search") for a while; the pass now waits and starts again instead of burning through its error budget."""
+    cfg = config.load()
+    for k in ("watchlist", "seller_ids", "seller_prices", "agoda_state", "locations"):
+        cfg["paths"][k] = str(tmp_path / f"{k}.csv")
+    with open(cfg["paths"]["watchlist"], "w", newline="") as f:
+        w = csv.DictWriter(f, ["pid", "name", "city", "lat", "lon", "gone_since"])
+        w.writeheader()
+        w.writerow({"pid": "ta:art", "name": "Hotel Artemide", "city": "Rome", "lat": "41.9005", "lon": "12.4930", "gone_since": ""})
+    agoda.run(cfg, "ids", 5, FakePage(), today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
+
+    class Refusing(FakePage):
+        def __init__(self):
+            super().__init__()
+            self.refuse = 2 * cfg["agoda"]["backoff_after"]
+
+        def city_prices(self, *a):
+            if self.refuse:
+                self.refuse -= 1
+                raise RuntimeError("citySearch HTTP 502")
+            return super().city_prices(*a)
+
+        def hotel_night(self, *a):
+            if self.refuse:
+                self.refuse -= 1
+                raise RuntimeError("no city search")
+            return agoda.properties(CITY)
+    waits = []
+    cfg["agoda"]["nights_per_city"] = 4 * cfg["agoda"]["backoff_after"]
+    cfg["agoda"]["night_stride"] = 7
+    res = agoda.run(cfg, "prices", 5, Refusing(), today=date(2026, 11, 24), log=lambda m: None, sleep=waits.append)
+    assert cfg["agoda"]["backoff_s"] in waits and res["priced"] >= 1

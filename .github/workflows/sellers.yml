@@ -57,18 +57,6 @@ jobs:
           git fetch -q origin seller-snapshots && {
             git show origin/seller-snapshots:seller_prices.csv > data/seller_prices.csv
             git show origin/seller-snapshots:agoda_state.json > data/agoda_state.json || true; } || echo "no snapshot yet"
-      - name: Agoda ids (3 searches in parallel, until every hotel has been looked up)
-        if: matrix.reader == 'agoda' && inputs.part != 'prices'
-        env:
-          MIN: ${{ inputs.minutes || '20' }}
-        run: |
-          mkdir -p out
-          for i in 0 1 2; do   # = settings agoda.id_jobs
-            python -m hotel_scraper.agoda --part ids --shard $i --shards 3 --ids-out out/ids-$i.csv --max-minutes "$MIN" > out/agoda_ids_$i.log 2>&1 &
-          done
-          wait
-          tail -n 3 out/agoda_ids_*.log
-          python -m hotel_scraper.agoda --merge-ids out/ids-*.csv
       - name: Agoda prices
         if: matrix.reader == 'agoda' && inputs.part != 'ids'
         env:
@@ -77,6 +65,18 @@ jobs:
           set -o pipefail
           mkdir -p out
           python -m hotel_scraper.agoda --part prices --max-minutes "$MIN" 2>&1 | tee out/agoda.log
+      - name: Agoda ids (after prices, new hotels and retries)
+        if: matrix.reader == 'agoda' && inputs.part != 'prices'
+        env:
+          MIN: ${{ inputs.minutes || '20' }}
+        run: |
+          mkdir -p out
+          for i in 0; do   # = settings agoda.id_jobs
+            python -m hotel_scraper.agoda --part ids --shard $i --shards 1 --ids-out out/ids-$i.csv --max-minutes "$MIN" > out/agoda_ids_$i.log 2>&1 &
+          done
+          wait
+          tail -n 3 out/agoda_ids_*.log
+          python -m hotel_scraper.agoda --merge-ids out/ids-*.csv
       - name: Official sites (booking engines)
         if: matrix.reader == 'official'
         env:

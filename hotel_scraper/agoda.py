@@ -438,7 +438,7 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
 
     if part in ("prices", "all"):
         by_pid = {w["pid"]: w for w in watch}
-        streak, refreshes, refused, mode = 0, 0, 0, ac.get("price_mode", "replay")
+        streak, refreshes, refused, backoffs, mode = 0, 0, 0, 0, ac.get("price_mode", "replay")
         if page.template is None and mode == "replay":   # the page's own citySearch request, from a hotel's own page
             # (a city search's request answered 502 when repeated with a hotel pinned, run 45253285417; the search box
             # sometimes made no request at all, run 45260559478)
@@ -490,6 +490,15 @@ def run(cfg: dict, part: str, max_minutes: float, page=None, today: date | None 
                             warm_up_template(page, part_rows + [r for r in known.values() if r["status"] == "ok"],
                                              today, cfg["scan"]["adults"], ac, by_pid, log, skip=refreshes)
                             log(f"took a fresh request from Agoda's page ({refreshes})")
+                        if streak and streak % ac["backoff_after"] == 0 and backoffs < ac["max_backoffs"]:
+                            # Agoda refusing every search for a while (run 45370159785: "There was a problem
+                            # completing your search", HTTP 502): wait, then start again with a fresh request
+                            backoffs += 1
+                            log(f"Agoda refusing searches: waiting {ac['backoff_s']} s ({backoffs})")
+                            sleep(ac["backoff_s"])
+                            mode, refused, page.template = "replay", 0, None
+                            warm_up_template(page, part_rows + [r for r in known.values() if r["status"] == "ok"],
+                                             today, cfg["scan"]["adults"], ac, by_pid, log, skip=refreshes + backoffs)
                         if stats["errors"] >= ac["stop_after_errors"]:
                             break
                         continue
