@@ -1,0 +1,25 @@
+12:40:06 Hotel Artemide Roma: 7 calls while typing; 12 suggestion-like elements
+12:40:06   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795523963306&gcs=G101&gcd=13p3t3p3p7l1 text/plain
+12:40:06   403 POST https://www.edreams.it/analytics-client-identification/v3/identifyClient text/plain
+12:40:06   200 POST https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks application/json;charset=UTF-8
+12:40:06   200 POST https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks application/json;charset=UTF-8
+12:40:06   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795523963306&gcs=G101&gcd=13p3t3p3p7l1 text/plain
+12:40:06   200 GET https://www.edreams.it/frontend-home/service/accommodation-autocomplete/v3/search?searchTerm=hotel%20artemide%20roma&locale=it_IT&sizeRegion=7&sizeAcc application/json;charset=UTF-8
+12:40:06   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795523963306&gcs=G101&gcd=13p3t3p3p7l1 text/plain
+12:40:49 Corinthia Budapest: 16 calls while typing; 0 suggestion-like elements
+12:40:49   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1 text/plain
+12:40:49   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1 text/plain
+12:40:49   403 POST https://www.edreams.it/analytics-client-identification/v3/identifyClient text/plain
+12:40:49   403 POST https://www.edreams.it/analytics-client-identification/v3/identifyClient text/plain
+12:40:49   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1 text/plain
+12:40:49   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1 text/plain
+12:40:49   200 POST https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks application/json;charset=UTF-8
+12:40:49   200 POST https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks application/json;charset=UTF-8
+12:40:49   200 POST https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks application/json;charset=UTF-8
+12:40:49   200 POST https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks application/json;charset=UTF-8
+12:40:49   200 GET https://www.edreams.it/frontend-home/service/accommodation-autocomplete/v3/search?searchTerm=hotel%20artemide%20repubblica%20roma%20lazio%20italiacori application/json;charset=UTF-8
+12:40:49   200 GET https://www.edreams.it/frontend-home/service/accommodation-autocomplete/v3/search?searchTerm=hotel%20artemide%20repubblica%20roma%20lazio%20italiacori application/json;charset=UTF-8
+12:40:49   200 POST https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks application/json;charset=UTF-8
+12:40:49   200 POST https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks application/json;charset=UTF-8
+12:40:49   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1 text/plain
+12:40:49   204 POST https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1 text/plain

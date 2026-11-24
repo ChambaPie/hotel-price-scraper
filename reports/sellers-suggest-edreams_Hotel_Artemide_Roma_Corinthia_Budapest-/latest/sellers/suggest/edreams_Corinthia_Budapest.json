@@ -1,0 +1,276 @@
+{
+ "query": "Corinthia Budapest",
+ "calls": [
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1&npa=1&dma_cps=-&dma=0&tcfd=10000&_eu=AAAAACQC&cid=581060596.1795523966&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=14&sr=1366x768&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.78%7CChromium%3B157.0.8103.78&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-gb&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121049589~121246026~121246034&dl=https%3A%2F%2Fwww.edreams.it%2Fhome%2F&sid=1795523965&sct=1&seg=1&dt=Hotel%20",
+   "post": "en=edo_event&_ee=1&epn.edo_timestamp=1795524008352&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhotels%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=internal-linking&ep.event_label=internal-linking-widget-onload%3AN&_et=3&dl=https%3A%2F%2Fwww.edreams.it%2Fhotels%2Fhome%2F\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008356&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhotels%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=searcher_hotels&ep.event_label=hotels_edit-search_open_checkin_pag%3Ahome&_et=1&dl=https%3A%2F%2Fwww.edreams.it%2Fhotels%2Fhome%2F\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008585&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=hsa-savings-banner&ep.event_label=hsa-savings-banner%3Aonload&_et=227\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008590&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=hsa-savings-links&ep.event_label=hsa-savings-links_low-banner%3Aonload&_et=2\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008594&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=login_toggle&ep.event_label=login-toggle_onload_pag%3Ahotels-home&_et=1\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008703&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=login_toggle&ep.event_label=login-toggle_onload_pag%3Ahotels-home&_et=107\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008707&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=login_toggle&ep.event_label=login-toggle_onload_pag%3Ahotels-home&_et=2\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008711&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=header_prime&ep.event_label=prime_header_load_p%3Afalse_pag%3Ahotels_tab&_et=1\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008715&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=login_toggle&ep.event_label=login-toggle_onload_pag%3Ahotels-home&_et=2\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008807&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=hsa-savings-banner&ep.event_label=hsa-savings-banner%3Aonload&_et=90\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008818&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=hsa-savings-links&ep.event_label=hsa-savings-links_low-banner%3Aonload&_et=4\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524010871&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels-home&ep.event_action=hotel-deals&ep.event_label=hotel-deals_carousel_onload_dest_5_pag%3Ahome&_et=2050",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "content-type": "text/plain;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+   },
+   "status": 204,
+   "type": "text/plain",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1&npa=1&dma_cps=-&dma=0&tcfd=10000&_eu=AAAAACQC&cid=581060596.1795523966&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=14&sr=1366x768&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.78%7CChromium%3B157.0.8103.78&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-gb&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121049589~121246026~121246034&dl=https%3A%2F%2Fwww.edreams.it%2Fhome%2F&sid=1795523965&sct=1&seg=1&dt=Hotel%20",
+   "post": "en=edo_event&_ee=1&epn.edo_timestamp=1795524008352&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhotels%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=internal-linking&ep.event_label=internal-linking-widget-onload%3AN&_et=3&dl=https%3A%2F%2Fwww.edreams.it%2Fhotels%2Fhome%2F\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008356&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhotels%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=searcher_hotels&ep.event_label=hotels_edit-search_open_checkin_pag%3Ahome&_et=1&dl=https%3A%2F%2Fwww.edreams.it%2Fhotels%2Fhome%2F\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008585&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=hsa-savings-banner&ep.event_label=hsa-savings-banner%3Aonload&_et=227\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008590&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=hsa-savings-links&ep.event_label=hsa-savings-links_low-banner%3Aonload&_et=2\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008594&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=login_toggle&ep.event_label=login-toggle_onload_pag%3Ahotels-home&_et=1\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008703&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=login_toggle&ep.event_label=login-toggle_onload_pag%3Ahotels-home&_et=107\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008707&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=login_toggle&ep.event_label=login-toggle_onload_pag%3Ahotels-home&_et=2\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008711&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=header_prime&ep.event_label=prime_header_load_p%3Afalse_pag%3Ahotels_tab&_et=1\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008715&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=login_toggle&ep.event_label=login-toggle_onload_pag%3Ahotels-home&_et=2\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008807&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=hsa-savings-banner&ep.event_label=hsa-savings-banner%3Aonload&_et=90\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524008818&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=home&ep.event_action=hsa-savings-links&ep.event_label=hsa-savings-links_low-banner%3Aonload&_et=4\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524010871&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels-home&ep.event_action=hotel-deals&ep.event_label=hotel-deals_carousel_onload_dest_5_pag%3Ahome&_et=2050",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "content-type": "text/plain;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+   },
+   "status": 204,
+   "type": "text/plain",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.edreams.it/analytics-client-identification/v3/identifyClient",
+   "post": "1795523974871",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/alberghi/",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "sec-ch-ua-mobile": "?0",
+    "odigeo-module-info": "frontend-tracking-agent:11.14.1",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "content-type": "application/json;charset=UTF-8"
+   },
+   "status": 403,
+   "type": "text/plain",
+   "body": "RBAC: access denied"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.edreams.it/analytics-client-identification/v3/identifyClient",
+   "post": "1795523974871",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/alberghi/",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "sec-ch-ua-mobile": "?0",
+    "odigeo-module-info": "frontend-tracking-agent:11.14.1",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "content-type": "application/json;charset=UTF-8"
+   },
+   "status": 403,
+   "type": "text/plain",
+   "body": "RBAC: access denied"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1&npa=1&dma_cps=-&dma=0&tcfd=10000&_eu=AAAAACQC&cid=581060596.1795523966&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=14&sr=1366x768&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.78%7CChromium%3B157.0.8103.78&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-gb&_s=4&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121049589~121246026~121246034&dl=https%3A%2F%2Fwww.edreams.it%2Fhotels%2Fhome%2F&sid=1795523965&sct=1&seg",
+   "post": "",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+    "sec-ch-ua-mobile": "?0"
+   },
+   "status": 204,
+   "type": "text/plain",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1&npa=1&dma_cps=-&dma=0&tcfd=10000&_eu=AAAAACQC&cid=581060596.1795523966&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=14&sr=1366x768&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.78%7CChromium%3B157.0.8103.78&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-gb&_s=4&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121049589~121246026~121246034&dl=https%3A%2F%2Fwww.edreams.it%2Fhotels%2Fhome%2F&sid=1795523965&sct=1&seg",
+   "post": "",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+    "sec-ch-ua-mobile": "?0"
+   },
+   "status": 204,
+   "type": "text/plain",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks",
+   "post": "{\"componentId\":\"home-hotel-standalone-search-destination-loading-results\",\"pageRenderId\":\"2e28b910-e804-11f1-848a-29e535be16d9\",\"visitId\":\"294753557467\",\"href\":\"https://www.edreams.it/alberghi/\",\"browserTimestamp\":1795524020949}",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/alberghi/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "content-type": "application/json;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+   },
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks",
+   "post": "{\"componentId\":\"home-hotel-standalone-search-destination-loading-results\",\"pageRenderId\":\"2e28b910-e804-11f1-848a-29e535be16d9\",\"visitId\":\"294753557467\",\"href\":\"https://www.edreams.it/alberghi/\",\"browserTimestamp\":1795524020949}",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/alberghi/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "content-type": "application/json;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+   },
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks",
+   "post": "{\"componentId\":\"home-hotel-standalone-search-popular-destination\",\"pageRenderId\":\"2e28b910-e804-11f1-848a-29e535be16d9\",\"visitId\":\"294753557467\",\"href\":\"https://www.edreams.it/alberghi/\",\"browserTimestamp\":1795524020950}",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/alberghi/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "content-type": "application/json;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+   },
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks",
+   "post": "{\"componentId\":\"home-hotel-standalone-search-popular-destination\",\"pageRenderId\":\"2e28b910-e804-11f1-848a-29e535be16d9\",\"visitId\":\"294753557467\",\"href\":\"https://www.edreams.it/alberghi/\",\"browserTimestamp\":1795524020950}",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/alberghi/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "content-type": "application/json;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+   },
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": ""
+  },
+  {
+   "method": "GET",
+   "url": "https://www.edreams.it/frontend-home/service/accommodation-autocomplete/v3/search?searchTerm=hotel%20artemide%20repubblica%20roma%20lazio%20italiacorinthia%20budapest&locale=it_IT&sizeRegion=7&sizeAccommodation=7",
+   "post": "",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/alberghi/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+    "sec-ch-ua-mobile": "?0"
+   },
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": "{\"suggestions\":[]}"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.edreams.it/frontend-home/service/accommodation-autocomplete/v3/search?searchTerm=hotel%20artemide%20repubblica%20roma%20lazio%20italiacorinthia%20budapest&locale=it_IT&sizeRegion=7&sizeAccommodation=7",
+   "post": "",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/alberghi/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8",
+    "sec-ch-ua-mobile": "?0"
+   },
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": "{\"suggestions\":[]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks",
+   "post": "{\"componentId\":\"home-hotel-standalone-search-destination-no-matches\",\"pageRenderId\":\"2e28b910-e804-11f1-848a-29e535be16d9\",\"visitId\":\"294753557467\",\"href\":\"https://www.edreams.it/alberghi/\",\"browserTimestamp\":1795524023725}",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/alberghi/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "content-type": "application/json;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+   },
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.edreams.it/frontend-home/html-event-tracks/component-displayed-tracks",
+   "post": "{\"componentId\":\"home-hotel-standalone-search-destination-no-matches\",\"pageRenderId\":\"2e28b910-e804-11f1-848a-29e535be16d9\",\"visitId\":\"294753557467\",\"href\":\"https://www.edreams.it/alberghi/\",\"browserTimestamp\":1795524023725}",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/alberghi/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "content-type": "application/json;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+   },
+   "status": 200,
+   "type": "application/json;charset=UTF-8",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1&npa=1&dma_cps=-&dma=0&tcfd=10000&_eu=AAAAACQC&cid=581060596.1795523966&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=14&sr=1366x768&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.78%7CChromium%3B157.0.8103.78&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-gb&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121049589~121246026~121246034&dl=https%3A%2F%2Fwww.edreams.it%2Fhotels%2Fhome%2F&sid=1795523965&sct=1&seg=1&dt",
+   "post": "en=edo_event&_ee=1&epn.edo_timestamp=1795524023526&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhotels%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=searcher_hotels&ep.event_label=hotels_dest_type-in_pag%3Ahome&_et=9275\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524023531&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhotels%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=searcher_hotels&ep.event_label=hotels_dest_list-time%3A0.368_pag%3Ahome&_et=1\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524023534&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhotels%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=searcher_hotels&ep.event_label=hotels_dest_error_no-matches_Hotel%20Artemide%20Repubblica%20Roma%20Lazio%20ItaliaCorinthia%20Budapest_pag%3Ahome&_et=1",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "content-type": "text/plain;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+   },
+   "status": 204,
+   "type": "text/plain",
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0F2PG8WMQ1&gtm=45je6bh1v9164291840za200zd9164291840xf1&_p=1795524007162&gcs=G101&gcd=13p3t3p3p7l1&npa=1&dma_cps=-&dma=0&tcfd=10000&_eu=AAAAACQC&cid=581060596.1795523966&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=14&sr=1366x768&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.78%7CChromium%3B157.0.8103.78&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-gb&tag_exp=115938466~115938469~120213116~120385423~120469145~120469153~121049589~121246026~121246034&dl=https%3A%2F%2Fwww.edreams.it%2Fhotels%2Fhome%2F&sid=1795523965&sct=1&seg=1&dt",
+   "post": "en=edo_event&_ee=1&epn.edo_timestamp=1795524023526&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhotels%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=searcher_hotels&ep.event_label=hotels_dest_type-in_pag%3Ahome&_et=9275\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524023531&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhotels%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=searcher_hotels&ep.event_label=hotels_dest_list-time%3A0.368_pag%3Ahome&_et=1\r\nen=edo_event&_ee=1&epn.edo_timestamp=1795524023534&ep.mkttrack=utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&ep.mktsession_id=1405dd6d-3ec1-45b4-9e1d-f2335e827606&ep.feature_context_id=f6f9a7ac-9a57-45d3-b895-f55ea2ed1d7a&ep.release_number=2.870.0&ep.subscription_type=free-trial-permitted&ep.tt1=tt%3A11221111111411242212222111131122121211111121111211121122322111222211112222312&ep.tt2=tt%3A11111112112112313111112112222122112211112112221112211112111111111122121221112&ep.visit_id=294753557467&ep.lang_cod=it_IT&ep.site_type=D&ep.touchpoint=&ep.full_referrer=&ep.market=EDIT&ep.screen_name=%2Fhotels%2Fhome%2F&ep.url=https%3A%2F%2Fwww.edreams.it%2Falberghi%2F&ep.sso_hit=SSO_0&ep.sso=SSO_0&ep.buypath=&ep.event_category=hotels_tab&ep.event_action=searcher_hotels&ep.event_label=hotels_dest_error_no-matches_Hotel%20Artemide%20Repubblica%20Roma%20Lazio%20ItaliaCorinthia%20Budapest_pag%3Ahome&_et=1",
+   "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.edreams.it/",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+    "content-type": "text/plain;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0",
+    "accept-language": "en-GB,en;q=0.9,it;q=0.8"
+   },
+   "status": 204,
+   "type": "text/plain",
+   "body": ""
+  }
+ ],
+ "dom": []
+}
