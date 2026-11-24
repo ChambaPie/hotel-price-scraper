@@ -203,13 +203,26 @@ class TripPage:
                 self.page.wait_for_timeout(500)
         finally:
             self.page.remove_listener("response", keep)
-        for d in reversed(seen):
-            got = hotels(d)
-            if any(h["id"] == hotel_id for h in got):
-                self.last = d
-                return got
+        return page_answer(seen, hotel_id) or self._nothing(seen)
+
+    def _nothing(self, seen):
         self.last = seen[-1] if seen else {"page": self.page.url, "text": self.page.inner_text("body")[:3000]}
         return []
+
+
+def page_answer(seen: list[dict], hotel_id: int) -> list[dict]:
+    """What Trip.com's own results page showed for our hotel: its prices, or, when the page's own answer about exactly
+    our hotel was an empty list, nothing to sell that night (the visitor sees no room either; run of 2026-11-24 11:00:
+    32 of 42 pages)."""
+    for d in reversed(seen):
+        got = hotels(d)
+        if any(h["id"] == hotel_id for h in got):
+            return got
+    for d in reversed(seen):
+        if not hotels(d) and hotel_id in asked_for(d):
+            return [{"id": hotel_id, "name": "", "available": False, "price": None, "price_excl": None,
+                     "price_total": None, "currency": ""}]
+    return []
 
 
 def find_id(page, w: dict, tc: dict, stats: dict, sleep=time.sleep, log=log) -> dict | None:

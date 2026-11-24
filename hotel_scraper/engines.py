@@ -297,8 +297,12 @@ class EngineBrowser:
         if not got:
             return None
         r = got[0]
-        return {"url": r.url, "headers": {k: v for k, v in r.headers.items()
-                                          if k.lower() not in ("content-length", "cookie", "host")},
+        try:                                # all of them: Origin too (SynXis: "Invalid origin" without it, 2026-11-24)
+            hdr = r.all_headers()
+        except Exception:  # noqa: BLE001
+            hdr = r.headers
+        return {"url": r.url, "headers": {k: v for k, v in hdr.items()
+                                          if k.lower() not in ("content-length", "cookie", "host") and not k.startswith(":")},
                 "body": json.loads(r.post_data or "{}")}
 
     def post(self, url: str, body: dict, headers: dict) -> tuple[int, dict | None]:
