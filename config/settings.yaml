@@ -258,9 +258,9 @@ sellers:                     # every travel website that sells the room and take
   # later = app-first or outside the region, after the rest. home = where the probe starts (its search box).
   booking_com: {name: Booking.com, group: Booking Holdings, status: live}
   agoda: {name: Agoda, group: Booking Holdings, status: live, note: "hotel_scraper/agoda.py, workflow Other sellers"}
-  priceline: {name: Priceline, group: Booking Holdings, status: blocked, home: "https://www.priceline.com/", note: "HTTP 403 from GitHub's servers (probe 2026-11-23)"}
-  expedia: {name: Expedia, group: Expedia Group, status: blocked, note: "private issue #128"}
-  hotels_com: {name: Hotels.com, group: Expedia Group, status: blocked, note: "private issue #128"}
+  priceline: {name: Priceline, group: Booking Holdings, status: blocked, home: "https://www.priceline.com/", note: "PerimeterX 'Press & Hold' on GitHub's Linux, macOS and Windows machines (2026-11-24); home-computer route (private)"}
+  expedia: {name: Expedia, group: Expedia Group, status: blocked, note: "robot check on GitHub's Linux, macOS and Windows machines (2026-11-24); home-computer route (private issue #128)"}
+  hotels_com: {name: Hotels.com, group: Expedia Group, status: blocked, note: "robot check on GitHub's Linux, macOS and Windows machines (2026-11-24); home-computer route (private issue #128)"}
   vrbo: {name: Vrbo, group: Expedia Group, status: blocked, note: "same system as Expedia"}
   ebookers: {name: ebookers, group: Expedia Group, status: blocked, note: "same system as Expedia"}
   orbitz: {name: Orbitz, group: Expedia Group, status: blocked, note: "same system as Expedia"}
@@ -288,9 +288,9 @@ sellers:                     # every travel website that sells the room and take
   secret_escapes: {name: Secret Escapes, status: account, home: "https://www.secretescapes.it/", note: "no answer (probe 2026-11-23)"}
   voyage_prive: {name: Voyage Privé, status: account, home: "https://www.voyage-prive.it/", note: "loads from GitHub (probe 2026-11-23); reader to build"}
   # seen selling watched hotels on Google Hotels (vendors survey: reports/vendors/latest counts hotels per vendor)
-  holidaycheck: {name: HolidayCheck, status: probe, home: "https://www.holidaycheck.at/", note: "Google: 18 of 19 hotels"}
+  holidaycheck: {name: HolidayCheck, status: blocked, home: "https://www.holidaycheck.at/", note: "its search answers (ids), its hotel and offer pages refuse every GitHub machine (2026-11-24); home-computer route"}
   super_com: {name: Super.com, status: live, home: "https://www.super.com/travel/", note: "its own map search (tRPC); only its own sales (merchant of record)"}
-  reserving: {name: Reserving, status: probe, home: "https://www.reserving.com/", note: "listed on Google Hotels for watched hotels"}
+  reserving: {name: Reserving, status: blocked, home: "https://www.reserving.com/", note: "Cloudflare check on every GitHub machine (2026-11-24); home-computer route"}
   etrip: {name: Etrip.net, status: live, home: "https://www.etrip.net/", note: "built on Vio (same service sapi.fih.io, own brand): read as Vio"}
   goseek: {name: goseek, status: live, home: "https://www.goseek.com/", note: "built on Vio (same service sapi.fih.io, own brand): read as Vio"}
   hotel_booking_zone: {name: Hotel Booking Zone, status: probe, note: "address to find"}
