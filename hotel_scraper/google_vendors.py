@@ -32,6 +32,7 @@ ENDS = ("Sponsored·Similar hotels", "Similar hotels", "Nearby places", "Reviews
 SKIP = {"Visit site", "Visit site for more options", "Nightly price with taxes + fees", "Nightly price with fees", "*",
         "Free cancellation only", "Official site", "Book a room"}
 DOMAIN = re.compile(r"\.[a-z]{2,6}$|^(official site)$", re.I)
+NOISE = re.compile(r"^(Fewer options|View more options|Currency)", re.I)   # page controls, not vendors (run 45345520196)
 
 
 def log(msg: str) -> None:
@@ -62,7 +63,7 @@ def vendors_from_text(text: str, known: list[str] = ()) -> tuple[list[str], bool
             name = first
             if section != "all" and not (DOMAIN.search(name) or name.lower() in knownl):
                 return                      # a room of the vendor above (featured part)
-        if name not in out:
+        if name not in out and not NOISE.match(name):
             out.append(name)
 
     for l in lines:
@@ -207,7 +208,7 @@ def run(cfg: dict, max_minutes: float, open_fn, today: date | None = None, log=l
     write_csv(sorted(known.values(), key=lambda r: r["pid"]), p["hotel_vendors"], FIELDS)
     rows = [r for r in known.values() if r["status"] == "ok"]
     stats["coverage"] = f"{len(rows)}/{len(watch)}"
-    stats["vendors"] = dict(Counter(v for r in rows for v in r["vendors"].split("|") if v).most_common())
+    stats["vendors"] = dict(Counter(v for r in rows for v in r["vendors"].split("|") if v and not NOISE.match(v)).most_common())
     stats["with_official_site"] = sum(1 for r in rows if r["official"] == "yes")
     stats["with_website"] = sum(1 for r in known.values() if r["website"])
     return stats

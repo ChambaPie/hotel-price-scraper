@@ -77,3 +77,11 @@ def test_no_sellers_that_night_tries_other_nights(tmp_path):
         return (miss if off is None else text), "Haus Patricia", "https://www.google.com/travel/hotels/entity/p", ""
     res = gv.run(cfg, 5, open_fn, today=date(2026, 11, 24), log=lambda m: None, sleep=lambda s: None)
     assert asked == [None, CFG["google_vendors"]["retry_offsets_days"][0]] and res["coverage"] == "1/1"
+
+
+def test_currency_line_is_not_a_vendor():
+    """Regression (run 45345520196): the page's "Currency EUR" control was counted as a vendor."""
+    text = (FX / "google_hotels_prices_palazzo_baj_2026-11.txt").read_text(encoding="utf-8")
+    text = text.replace("* \nThis price was customised", "Currency​EUR\n* \nThis price was customised")
+    vendors, _ = gv.vendors_from_text(text, CFG["google_vendors"]["known"])
+    assert not any(v.startswith("Currency") for v in vendors)
