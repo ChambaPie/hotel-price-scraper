@@ -1,44 +1,43 @@
-06:42:04 session token: yes
-06:42:30 town Rome: 144 cards, 0 of 14 matched
-06:42:56 town Venice: 140 cards, 0 of 12 matched
-06:43:09 empty search 'Lido di Iesolo': landed on https://www.booking.com/searchresults.en-gb.html?ss=Lido%20di%20Iesolo&checkin=2026-12-25&checkout=2026-12-26&group_adults=2&no_rooms=1&group_children=0&selecte title 'Booking.com: Search results: Lido%20di%20Iesolo. Book your hotel now!'
-06:43:22 empty search 'Lido di Iesolo': landed on https://www.booking.com/searchresults.en-gb.html?ss=Lido%20di%20Iesolo&checkin=2026-12-25&checkout=2026-12-26&group_adults=2&no_rooms=1&group_children=0&selecte title 'Booking.com: Search results: Lido%20di%20Iesolo. Book your hotel now!'
-06:43:22 town Lido di Iesolo: 0 cards, 0 of 12 matched
-06:43:48 town Riccione: 54 cards, 0 of 8 matched
-06:44:13 town Cervia: 150 cards, 0 of 7 matched
-06:44:39 town Cattolica: 149 cards, 0 of 7 matched
-06:45:05 town Stare Mesto: 149 cards, 0 of 6 matched
-06:45:31 town Florence: 147 cards, 0 of 6 matched
-06:45:58 town Vatican City: 149 cards, 0 of 6 matched
-06:46:23 town Andalo: 118 cards, 0 of 6 matched
-06:46:49 town Sankt Anton am Arlberg: 130 cards, 0 of 5 matched
-06:47:15 town Morzine: 62 cards, 0 of 5 matched
-06:47:41 town Napoli: 145 cards, 0 of 5 matched
-06:47:54 empty search 'Capezzano Inferiore': landed on https://www.booking.com/searchresults.en-gb.html?ss=Capezzano%20Inferiore&checkin=2026-12-25&checkout=2026-12-26&group_adults=2&no_rooms=1&group_children=0&sele title 'Booking.com: Search results: Capezzano%20Inferiore. Book your hotel now!'
-06:48:06 town Capezzano Inferiore: 0 cards, 0 of 5 matched
-06:48:33 town Sorrento: 148 cards, 0 of 5 matched
-06:48:58 town Verona: 149 cards, 0 of 4 matched
-06:49:24 town Sesto: 85 cards, 0 of 4 matched
-06:49:50 town Praiano: 150 cards, 0 of 4 matched
-06:50:15 town Stans: 40 cards, 0 of 3 matched
-06:50:41 town Seefeld in Tirol: 97 cards, 0 of 3 matched
-06:51:07 town Lech: 132 cards, 1 of 3 matched
-06:51:33 town Saas-Fee: 56 cards, 0 of 3 matched
-06:51:59 town Zermatt: 53 cards, 0 of 3 matched
-06:52:24 town Montepulciano: 80 cards, 0 of 3 matched
-06:52:50 town Massa Lubrense: 95 cards, 0 of 3 matched
-06:53:15 town Misano Adriatico: 148 cards, 0 of 3 matched
-06:53:41 town Rio di Pusteria: 119 cards, 1 of 3 matched
-06:54:07 town Lana: 0 cards, 0 of 3 matched
-06:54:35 town Merano: 122 cards, 0 of 3 matched
-06:55:01 town Commezzadura: 97 cards, 0 of 3 matched
-06:55:26 town Naturno: 107 cards, 0 of 3 matched
-06:55:52 town Gaiole in Chianti: 150 cards, 0 of 3 matched
-06:56:17 town Soelden: 50 cards, 0 of 2 matched
-06:56:43 town Fiss: 87 cards, 0 of 2 matched
-06:57:09 town Graen: 27 cards, 0 of 2 matched
-06:57:09 mapping: 2 found, 0 not found; 1014 mapped
-## Booking.com collection (mapping, last-minute): 0 calendars, 0 calls, 910 s
+10:53:16 session token: yes
+10:53:43 town Rome: 135 cards, 0 of 14 matched
+10:54:09 town Venice: 146 cards, 0 of 12 matched
+10:54:22 empty search 'Lido di Iesolo': landed on https://www.booking.com/searchresults.en-gb.html?ss=Lido%20di%20Iesolo&checkin=2026-12-25&checkout=2026-12-26&group_adults=2&no_rooms=1&group_children=0&selecte title 'Booking.com: Search results: Lido%20di%20Iesolo. Book your hotel now!'
+10:54:35 empty search 'Lido di Iesolo': landed on https://www.booking.com/searchresults.en-gb.html?ss=Lido%20di%20Iesolo&checkin=2026-12-25&checkout=2026-12-26&group_adults=2&no_rooms=1&group_children=0&selecte title 'Booking.com: Search results: Lido%20di%20Iesolo. Book your hotel now!'
+10:54:35 town Lido di Iesolo: 0 cards, 0 of 12 matched
+10:55:02 town Riccione: 53 cards, 0 of 8 matched
+10:55:32 town Cervia: 152 cards, 0 of 7 matched
+10:56:00 town Cattolica: 133 cards, 0 of 7 matched
+10:56:27 town Stare Mesto: 147 cards, 0 of 6 matched
+10:56:54 town Florence: 149 cards, 0 of 6 matched
+10:57:20 town Vatican City: 151 cards, 0 of 6 matched
+10:57:50 town Andalo: 121 cards, 0 of 6 matched
+10:58:16 town Sankt Anton am Arlberg: 144 cards, 0 of 5 matched
+10:58:44 town Morzine: 67 cards, 0 of 5 matched
+10:59:11 town Napoli: 145 cards, 0 of 5 matched
+10:59:24 empty search 'Capezzano Inferiore': landed on https://www.booking.com/searchresults.en-gb.html?ss=Capezzano%20Inferiore&checkin=2026-12-25&checkout=2026-12-26&group_adults=2&no_rooms=1&group_children=0&sele title 'Booking.com: Search results: Capezzano%20Inferiore. Book your hotel now!'
+10:59:37 town Capezzano Inferiore: 0 cards, 0 of 5 matched
+11:00:04 town Sorrento: 150 cards, 0 of 5 matched
+11:00:30 town Verona: 147 cards, 0 of 4 matched
+11:00:57 town Sesto: 72 cards, 0 of 4 matched
+11:01:24 town Praiano: 95 cards, 0 of 4 matched
+11:01:50 town Stans: 57 cards, 0 of 3 matched
+11:02:17 town Seefeld in Tirol: 42 cards, 0 of 3 matched
+11:02:43 town Saas-Fee: 69 cards, 0 of 3 matched
+11:03:10 town Zermatt: 64 cards, 0 of 3 matched
+11:03:38 town Montepulciano: 78 cards, 0 of 3 matched
+11:04:05 town Massa Lubrense: 126 cards, 0 of 3 matched
+11:04:31 town Misano Adriatico: 135 cards, 0 of 3 matched
+11:04:57 town Lana: 0 cards, 0 of 3 matched
+11:05:24 town Merano: 81 cards, 0 of 3 matched
+11:05:52 town Commezzadura: 85 cards, 0 of 3 matched
+11:06:20 town Naturno: 97 cards, 0 of 3 matched
+11:06:46 town Gaiole in Chianti: 135 cards, 0 of 3 matched
+11:07:12 town Soelden: 50 cards, 0 of 2 matched
+11:07:38 town Fiss: 94 cards, 0 of 2 matched
+11:08:07 town Graen: 26 cards, 0 of 2 matched
+11:08:33 town Lech: 119 cards, 0 of 2 matched
+11:08:33 mapping: 0 found, 0 not found; 1014 mapped
+## Booking.com collection (mapping, last-minute): 0 calendars, 0 calls, 922 s
 
-Mapping: 2 found, 0 not found. Failed: 0. Last-minute cards: 464.
+Mapping: 0 found, 0 not found. Failed: 0. Last-minute cards: 533.
 
