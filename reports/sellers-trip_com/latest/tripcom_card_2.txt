@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=47829&provinceId=0&districtId=0&countryId=31&destName=Guesthouse%20le%20Mas%20de%20Cotignac&searchWord=Guesthouse%20le%20Mas%20de%20Cotignac&searchType=H&optionId=9492472&searchValue=31%7C9492472*31*9492472*1&checkin=2027-04-18&checkout=2027-04-19&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 302.0, 'price_excl': 273.0, 'price_total': 302.0, 'breakfast': '', 'cancellation': ''}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=36876&provinceId=0&districtId=0&countryId=14&destName=Posthotel%20Achenkirch%20Resort%20and%20Spa%20-%20Adults%20Only&searchWord=Posthotel%20Achenkirch%20Resort%20and%20Spa%20-%20Adults%20Only&searchType=H&optionId=9384022&searchValue=31%7C9384022*31*9384022*1&checkin=2027-10-20&checkout=2027-10-21&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 397.0, 'price_excl': 355.0, 'price_total': 397.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,25 +11,27 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Guesthouse le Mas de Cotignac
-Sun, Apr 18
+Posthotel Achenkirch Resort and Spa - Adults Only
+Wed, Oct 20
 -
-Mon, Apr 19
+Thu, Oct 21
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Cotignac
+Popular filters for Achenkirch
 
-Pool
-Breakfast included
-Pleasant 6+
-Based on guest reviews
+Jacuzzi
 Pets welcome
-Parking available
+Pool
+Sauna
+Breakfast & Dinner Included
 Hotel
+Breakfast included
 Free cancellation
+Free parking
+Family-friendly
 
 Budget
 
@@ -54,16 +56,19 @@ Star rating
 
 Location
 
-Straight-line distance from Guesthouse le Mas de Cotignac
+Straight-line distance from Posthotel Achenkirch Resort and Spa - Adults Only
 No distance limit
-Musée de Cotignac Autrefois et Aujourd'hui
-Shrine of Our Lady of Graces
-Chapelle Saint-Martin
+Achensee
+Sixenhof museum Achental
+Alpen Caravan Park
 Show More
 
 Meals
 
 Breakfast included
+Dinner included
+Breakfast & Dinner Included
+Show More
 
 Bed type
 
@@ -75,8 +80,8 @@ Show More
 Room features
 
 Entire unit
-Suite
-Family room
+Balcony
+Mountain view room
 Show More
 
 Number of bedrooms
@@ -94,20 +99,21 @@ Show More
 
 Property facilities & services
 
+Sauna
 Pool
-Parking available
 Pets welcome
 Show More
 
 Room facilities & services
 
+Jacuzzi
 Extra beds available
 Cribs available
-Smoking room
 Show More
 
 Property Features
 
+Family-friendly
 Great views
 Self check-in
 
@@ -115,6 +121,14 @@ Guest Impressions
 
 Lots to do
 Ideal location
+Excellent service
+Show More
+
+Room Size
+
+≥ 35㎡
+≥ 40㎡
+≥ 50㎡
 
 Payment
 
@@ -128,6 +142,10 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
+Brands
+
+VAYA Resort
+
 Reviews
 
 200+
@@ -137,9 +155,18 @@ Reviews
 Accessibility
 
 Stair-free main entrance
+Wheelchairs available
 accessible facilities
-Shower seat
 Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -150,25 +177,27 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Guesthouse le Mas de Cotignac
-Near Castle Carpe DiemLa CassoleMap
-Outstanding
-42 reviews
-9.9
-Indoor poolHikingCar rentals
-Double Or Twin Room
-1 double bed or 2 single beds
-Half board included
-€273
-Total (incl. taxes & fees): €302
+Posthotel Achenkirch Resort and Spa - Adults Only
+Near Alpengolf AchenkirchFußballplatz SV AchenkirchMap
+Amazing
+49 reviews
+9.5
+Outdoor poolSpaMeditation room
+No. 1 of Premium Hotels in Achenkirch
+Sonnenberg Studio
+1 double bed
+Free Cancellation
+Breakfast included
+€355
+Total (incl. taxes & fees): €397
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in France
+Hotels in Austria
 >
-Hotels in Provence-Alpes-Cote d'Azur
+Hotels in Tyrol
 >
-Hotels in Cotignac
+Hotels in Achenkirch

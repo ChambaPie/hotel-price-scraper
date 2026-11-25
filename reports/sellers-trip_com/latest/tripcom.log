@@ -1,4 +1,4 @@
-04:01:55 Sotrani 2027-09-04: not in the answer ([])
-04:02:17 Boutique-Hotel Ballguthof am G 2027-04-28: not in the answer ([])
-04:02:39 Boutique-Hotel Ballguthof am G 2027-10-27: not in the answer ([])
-04:32:11 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 124, 'priced': 47, 'available': 18, 'errors': 0, 'missing': 77, 'stored_nights': 270, 'ids_coverage': '1270/1500'}
+07:52:58 Sotrani 2027-09-04: not in the answer ([])
+07:53:20 Boutique-Hotel Ballguthof am G 2027-04-28: not in the answer ([])
+07:53:41 Boutique-Hotel Ballguthof am G 2027-10-27: not in the answer ([])
+08:22:54 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 126, 'priced': 48, 'available': 38, 'errors': 0, 'missing': 78, 'stored_nights': 271, 'ids_coverage': '1270/1500'}
