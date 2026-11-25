@@ -1,7 +1,7 @@
-20:50:26 download.geofabrik.de: try 1 failed: <urlopen error [Errno 101] Network is unreachable>
-20:50:32 download.geofabrik.de: try 2 failed: <urlopen error [Errno 111] Connection refused>
-20:50:42 download.geofabrik.de: try 3 failed: <urlopen error [Errno 111] Connection refused>
-20:50:57 extract index not reachable: https://download.geofabrik.de/index-v1.json: <urlopen error [Errno 111] Connection refused>
+20:02:54 download.geofabrik.de: try 1 failed: <urlopen error [Errno 101] Network is unreachable>
+20:03:00 download.geofabrik.de: try 2 failed: <urlopen error [Errno 111] Connection refused>
+20:03:10 download.geofabrik.de: try 3 failed: <urlopen error [Errno 111] Connection refused>
+20:03:25 extract index not reachable: https://download.geofabrik.de/index-v1.json: <urlopen error [Errno 111] Connection refused>
 ## Type of place
 
 Processed 0 of 806 due from 0 OpenStreetMap extracts (0 MB, -1 failed); coverage 694/1500.
