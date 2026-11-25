@@ -1,305 +1,302 @@
-00:10:03 id Hotel Heureka: ok 4452366 Hotel Heureka 0.01 km
-00:10:03 id Scalon del Doge: ok 3363652 Scalon del Doge B&b 0.02 km
-00:10:04 id Al Ponte Antico Hotel: ok 1074017 Al Ponte Antico 0.02 km
-00:10:04 id Hotel San Gallo: ok 1203644 Hotel San Gallo 0.03 km
-00:10:05 id Hotel L'Orologio: ok 2607113 Hotel L'Orologio Venezia - WTB 0.01 km
-00:10:05 id Ai Mori d'Oriente Hotel: ok 1203635 Ai Mori d'Oriente 0.01 km
-00:10:05 id Palazzo Venart Luxury Hotel: ok 3021575 Palazzo Venart Luxury Hotel 0.09 km
-00:10:06 id The Gritti Palace, a Luxury Collect: ok 44753284 The Gritti Palace, a Luxury Co 0.02 km
-00:10:07 Cima Rosa Boutique Bed &Breakfast Venice: 'NoneType' object has no attribute 'get'
-00:10:09 id Cima Rosa Boutique Bed &Breakfast: not found    km
-00:10:10 id Corte Di Gabriela: ok 1808772 Corte Di Gabriela 0.02 km
-00:10:10 id Ca' Maria Adele: ok 1074147 Ca Maria Adele 0.01 km
-00:10:10 id Hotel Al Ponte Mocenigo: ok 1074165 Hotel Al Ponte Mocenigo 0.01 km
-00:10:11 id Palazzo Keller: ok 60400114 Palazzo Keller 0.04 km
-00:10:11 id Palazzo Barocci: ok 1232655 Palazzo Barocci 0.01 km
-00:10:11 id Sina Palazzo Sant'angelo: ok 8931900 Sina Palazzo Sant'Angelo 0.14 km
-00:10:14 id Oltre Il Giardino: not found 2807513 Oltre Il Giardino 898.43 km
-00:10:15 id Cà Bonfadini Historic Experience: ok 23080971 Ca' Bonfadini Historic Experie 0.01 km
-00:10:15 id Santa Croce Boutique Hotel: ok 4412109 Santa Croce Boutique Hotel 0.03 km
-00:10:17 id Ca'Pisani Hotel: ok 1073994 Ca' Pisani Hotel 0.0 km
-00:10:20 id Hotel Canal Grande: not found 1203669 Hotel Principe 0.05 km
-00:10:20 id Palazzetto Foscari: ok 4968845 Palazzetto Foscari 0.01 km
-00:10:21 id Hotel Palazzo Stern: ok 5872428 Hotel Palazzo Stern 0.02 km
-00:10:21 id U-Visionary Venezia Hotel: ok 125134017 U-Visionary Venezia Hotel 0.0 km
-00:10:21 id Carnival Palace Hotel: ok 44750756 Carnival Palace - Venice Colle 0.01 km
-00:10:22 id Hotel Antiche Figure: ok 1203698 Hotel Antiche Figure 0.01 km
-00:10:23 id Palazzo Veneziano: ok 77692445 Palazzo Veneziano - Venice Col 0.0 km
-00:10:23 id Hotel Papadopoli Venezia - MGallery: ok 1073839 Papadopoli Hotel Venezia - MGa 0.01 km
-00:10:24 id Hotel Moresco: ok 1803407 Hotel Moresco 0.0 km
-00:10:24 id Residence Al Lago: ok 1851663 Residence Al Lago 0.01 km
-00:10:24 id Garni Ladinia: ok 50395737 Garní Ladinia 0.0 km
-00:10:25 id Hotel Royal: ok 1826547 Hotel Royal 0.02 km
-00:10:25 id Hotel Alpenblick: ok 15302124 Hotel Alpenblick 0.01 km
-00:10:25 id Tritone Luxury Hotel Thermae & Spa: ok 18088658 Tritone LUXURY HOTEL THERMAE & 0.1 km
-00:10:25 id Esplanade Tergesteo - Luxury Retrea: ok 1142800 Esplanade Tergesteo - Luxury R 0.05 km
-00:10:29 id Hotel Mioni Pezzato & SPA: not found    km
-00:10:30 id Hotel Garden Terme: ok 1225968 Hotel Garden Terme 0.08 km
-00:10:30 id Hotel Première Abano Terme: ok 38026496 Hotel Premiere Abano 0.08 km
-00:10:32 id Hotel Monika: not found 1814597 Hotel Monika 466.92 km
-00:10:36 id Cristallo Resort & Spa: not found 8941060 Hotel Cristal Praia Resort & S 1857.33 km
-00:10:39 id Hotel La Maison Wellness & Spa: ok 1226238 Hotel La Maison Wellness & Spa 0.0 km
-00:10:44 id Brunet The Dolomites Resort: ok 22024881 Brunet Dolomites Resort 0.02 km
-00:10:44 id Hotel Mirabello - Slow Hotel Beness: ok 1830820 Hotel Mirabello - Slow Hotel B 0.03 km
-00:10:46 id Hotel Eggele: ok 9703731 Boutique Hotel Eggele 0.02 km
-00:10:49 id JOAS natur.hotel.b&b: ok 2918799 JOAS natur.hotel.b&b 0.01 km
-00:10:53 id Post Alpina - Family Mountain Chale: not found    km
-00:10:53 id Hotel Villa Stefania: ok 1135959 Hotel Villa Stefania 0.01 km
-00:10:54 id Naturhotel Leitlhof: ok 1639233 Naturhotel Leitlhof 0.02 km
-00:10:54 id Hotel Cesa Padon: ok 2188857 Hotel Cesa Padon 0.01 km
-00:10:57 id Armentarola Hotel: not found 1533260 Hotel Ciasa Salares 0.19 km
-00:11:00 id Hotel Costabella: not found 10029870 Hilton Rijeka Costabella Beach 229.29 km
-00:11:00 id Lagacio Hotel Mountain Residence: ok 21596353 Lagació Hotel Mountain Residen 0.07 km
-00:11:03 id Diamant Mountain Hotel: not found 22942175 Diamanto Complex 1166.55 km
-00:11:06 id Residence Ciasa Planat: not found 23100763 Casa Regina Residence Torre Sa 883.74 km
-00:11:08 id Hotel Quelle Nature Spa Resort: ok 1694233 Hotel Quelle Nature Spa Resort 0.02 km
-00:11:09 id Hotel La Perla: ok 44326075 Hotel La Perla: The Leading Ho 0.02 km
-00:11:13 id Garni La Tranquillite B&B: not found    km
-00:11:13 id Sportony Mountain Lodges: ok 117132305 Sportony Mountain Lodges 0.03 km
-00:11:13 id Chalet Vites Mountain Hotel: ok 1875208 Chalet Vites Mountain Hotel 0.15 km
-00:11:13 id Hotel Sassleng: ok 1838142 Hotel Sassleng 0.02 km
-00:11:14 id Miraval NaturHotel: ok 2690687 Miraval NaturHotel 0.05 km
-00:11:18 id Hotel Alpen Tesitin: not found    km
-00:11:18 id Mountain Hotel Mezdì: ok 1712223 Mountain Hotel Mezdì 0.01 km
-00:11:18 id Kolfuschgerhof Mountain Resort: ok 1550039 Kolfuschgerhof Mountain Resort 0.0 km
-00:11:19 id Hotel Gran Ander: ok 1787836 Gourmet Hotel Gran Ander 0.03 km
-00:11:19 id Locanda Degli Artisti Art Hotel ***: ok 15439056 Locanda degli Artisti Art Hote 0.03 km
-00:11:19 id Hotel Garden Moena: ok 1295183 Hotel Garden 0.03 km
-00:11:23 id Hotel Alle Alpi Beauty & Relax: not found    km
-00:11:23 id Leading Relax Hotel Maria: ok 1511125 Leading Relax Hotel Maria 0.02 km
-00:11:24 id Hotel Madonnina: ok 9975336 Hotel Madonnina Resort And Wel 0.02 km
-00:11:27 id Residence Montana: not found 31607033 Résidences Village Montana by  422.79 km
-00:11:29 id Hotel Piedibosco: ok 1748436 Hotel Piedibosco 0.05 km
-00:11:33 id Das Bärenhotel: not found 10435304 The Bears Den Dakota Dream B&B 8133.54 km
-00:11:35 id Hotel Hubertus: ok 1710604 Hotel Hubertus 0.02 km
-00:11:36 id Family Hotel Gran Baita: ok 15816141 Family Hotel Gran Baita 0.0 km
-00:11:36 id MyTime Hotels La Grotta: ok 1533922 MyTime Hotels la Grotta 0.02 km
-00:11:36 id Hotel Ciarnadoi: ok 7963342 Design & Suite Hotel Ciarnadoi 0.05 km
-00:11:37 id Family Hotel Andes: ok 1730670 Family Hotel Andes - Only for  0.01 km
-00:11:37 id Hotel Olympia: ok 1665588 Boutique Hotel Olympia 0.02 km
-00:11:37 id Excelsior Dolomites Life Resort: ok 44185153 Excelsior Dolomites Life Resor 0.03 km
-00:11:37 id Hotel Condor: ok 2744010 Hotel Condor 0.02 km
-00:11:38 id Hotel Monte Sella: ok 1802887 Hotel Monte Sella 0.03 km
-00:11:38 id Palazzo Bezzi: ok 2129061 Palazzo Bezzi Hotel 0.01 km
-00:11:38 id M club De Luxe B&B: ok 1854006 M Club De Luxe B&B 0.0 km
-00:11:38 id The Laurin Small and Charming: ok 1787412 THE LAURIN small & charming 0.02 km
-00:11:42 id Freina Mountain Lifestyle Hotel: not found    km
-00:11:42 id Giardin - Boutique Hotel B&B: ok 1801144 Giardin Boutique Hotel B&B 0.02 km
-00:11:42 id Hotel Sun Valley: ok 1748551 Hotel Sun Valley 0.01 km
-00:11:43 id Garni-Hotel Bel Vert: ok 1693945 Garni Hotel Bel Vert 0.02 km
-00:11:43 id Hotel Aaritz: ok 22804595 Hotel Aaritz 0.04 km
-00:11:43 id Garni Crepaz: ok 2674751 Garni Crepaz 0.04 km
-00:11:43 id Hotel Tyrol: ok 1748552 Hotel Tyrol 0.0 km
-00:11:44 id Granbaita Dolomites: ok 1612267 Granbaita Dolomites 0.01 km
-00:11:44 id Chalet S Dolomites: ok 1694287 Hotel Chalet S - Dolomites Des 0.02 km
-00:11:44 id Alpenroyal Hotel: ok 1432304 Hotel Alpenroyal - The Leading 0.08 km
-00:11:44 id Vitalhotel Dosses: ok 1743844 Vitalhotel Dosses 0.01 km
-00:11:45 id Alpin Hotel Sonnblick: ok 1923352 Alpin Hotel Sonnblick 0.01 km
-00:11:45 id Hotel Waldhof: ok 1707604 Hotel Waldhof 0.01 km
-00:11:45 id Cendevaves Alpine Silence: ok 1843486 Cendevaves Alpine Silence 0.02 km
-00:11:45 id Bay Village: ok 128552502 Bay Village 0.01 km
-00:11:46 id Dorfhotel Beludei: ok 2628080 Dorfhotel Beludei 0.31 km
-00:11:46 id Bellettini Hotel: ok 1658583 Bellettini Hotel 0.02 km
-00:11:46 id Hotel Rudolf: ok 15467721 Hotel Rudolf 0.02 km
-00:11:49 id Color Miami Beach Family Hotel: not found    km
-00:11:49 id Club Family Hotel Michelangelo: ok 1657675 Club Family Hotel Michelangelo 0.03 km
-00:11:49 id Berghotel Miramonti: ok 1749294 Berghotel Miramonti 0.01 km
-00:11:49 id Hotel Schiller: ok 7971484 Hotel Schiller 0.02 km
-00:11:50 id Baby Family Hotel Pinetina Mare: ok 3219472 Pinetina Mare Baby Family Hote 0.0 km
-00:11:50 id Hotel Grones: ok 1475197 Hotel Grones 0.01 km
-00:11:53 id Club Family Hotel Tintoretto: not found    km
-00:11:56 id ADLER Alpe: ok 145985621 ADLER Alpe 0.01 km
-00:11:59 id Hotel Amarcord: not found 1978207 Hotel Residence Amarcord 24.84 km
-00:11:59 id Gardena Grödnerhof: ok 1134270 Gardena Grödnerhof - Hotel & S 0.1 km
-00:12:00 id Hotel Garden Pinarella: ok 19988244 Garden 0.03 km
-00:12:00 id Hotel Bamby: ok 3592223 Hotel Bamby 0.02 km
-00:12:00 id ADLER Dolomiti: ok 44407416 ADLER Dolomiti 0.11 km
-00:12:00 id Hotel Angelo Engel: ok 1746073 Hotel Angelo Engel 0.01 km
-00:12:01 id Hotel Garnì Laurino: ok 22153163 Bio Boutique Hotel Laurino 0.03 km
-00:12:01 id Ferien- & Wellness Hotel Windschar: ok 1447981 Ferien & Wellnesshotel Windsch 0.02 km
-00:12:04 id Hotel & Restaurant Alpino: not found 133410471 Alpin Hotel & Restaurant Frara 38.46 km
-00:12:05 id Maree Hotel: ok 1657270 Maree Hotel Cesenatico 0.01 km
-00:12:05 id Hotel Chalet Dolomites: ok 2354354 Hotel Chalet Dolomites 0.01 km
-00:12:05 id Cyprianerhof Dolomit Resort: ok 5290936 Cyprianerhof Dolomit Resort 0.04 km
-00:12:05 id Hotel Trieste: ok 2590473 Hotel Trieste 0.01 km
-00:12:08 id Hotel Uhrerhof-Deur: ok 2953605 Charmehotel Uhrerhof - Deur 0.04 km
-00:12:08 id COMO Alpina Dolomites: ok 1622206 COMO Alpina Dolomites 0.03 km
-00:12:09 La Cort My Dollhouse - Adults Only Ortis: 'NoneType' object has no attribute 'get'
-00:12:10 id La Cort My Dollhouse - Adults Only: ok 9765371 La Cort My Dollhouse - Adults  0.02 km
-00:12:14 id Executive Hotel Evolution: not found    km
-00:12:18 id Hotel Marica: not found 3221157 Marica's Boutique Hotel 2171.85 km
-00:12:22 id Anewandter Historic Hotel: not found 1087968 The Gastonian, Historic Inns o 7683.6 km
-00:12:25 id Club Family Hotel Tosi Beach: not found    km
-00:12:28 id Mountain Spa Resort Hotel Albion: ok 1641473 Hotel Albion Mountain Spa Reso 0.02 km
-00:12:31 id Club Family Hotel Serenissima: not found    km
-00:12:32 id Hotel Internazionale: ok 2321065 Hotel Internazionale 0.02 km
-00:12:34 id Bad Ratzes: ok 1845896 Bad Ratzes 0.07 km
-00:12:34 id Hotel Belsoggiorno: ok 1952661 Park Hotel Belsoggiorno 0.01 km
-00:12:35 id Hotel Kronblick: ok 2831497 Hotel Kronblick 0.03 km
-00:12:35 id Hotel Villa Gori: ok 3290808 Hotel Villa Gori 0.05 km
-00:12:35 id Hotel Nettuno: ok 1641290 Hotel Nettuno 0.02 km
-00:12:36 id Leitgam: ok 1751866 Leitgam Adults Only Hotel 0.02 km
-00:12:36 id Hotel San Salvador: ok 1786216 Hotel San Salvador 0.02 km
-00:12:36 id Alpine Boutique Villa Gabriela: ok 3845908 Alpine Boutique Villa Gabriela 0.03 km
-00:12:39 id Sonus Alpis: ok 2607748 Sonus Alpis - Adults Only 0.0 km
-00:12:41 id You & Me Beach Hotel: ok 4417475 You & Me Beach Hotel - Adults  0.01 km
-00:12:42 id Hotel Madonna: ok 3023495 Hotel Madonna 0.04 km
-00:12:42 id Mode Eco Mood Hotel: ok 124863566 Mode Eco Mood Hotel 0.0 km
-00:12:42 id Aqua Hotel: ok 1529350 Aqua Hotel 0.03 km
-00:12:42 id Demo Hotel Design Emotion: ok 8284923 Demo Hotel Design Emotion 0.03 km
-00:12:42 id Hotel Etoile: ok 2822823 Hotel Etoile 0.01 km
-00:12:43 id Hotel Fischer: ok 1938265 Hotel Fischer 0.05 km
-00:12:43 id Santre Dolomythic Home: ok 20320254 Santre dolomythic home 0.21 km
-00:12:43 id i-SUITE Hotel: ok 1598845 i-Suite Hotel 0.02 km
-00:12:43 id Hotel Baltic: ok 1808613 Hotel Baltic Rimini 0.01 km
-00:12:45 id Yes Hotel Touring: ok 1072174 Yes Hotel Touring & SPA 0.03 km
-00:12:45 id Up Hotel: ok 1658651 Up Hotel 0.01 km
-00:12:48 id Hotel Executive La Fiorita: ok 1557907 Hotel Executive La Fiorita 0.01 km
-00:12:48 id Hotel Stresa: ok 1634838 Hotel Stresa 0.01 km
-00:12:51 id Hotel La Baita: not found 1806950 Hotel La Baita 109.64 km
-00:12:53 id Hotel Aurea Rimini: ok 1972940 Hotel Aurea 0.01 km
-00:12:53 id Hotel Tourist: ok 1890562 Tourist Hotel 0.02 km
-00:12:57 id Club Family Hotel Riccione: not found    km
-00:12:57 id Hotel Tenerife: ok 1658670 Hotel Tenerife 0.01 km
-00:12:58 id Hotel Vagabond: ok 3757538 Hotel Vagabond 0.06 km
-00:12:58 id Hotel Nautico Riccione: ok 7457485 Hotel Nautico 0.03 km
-00:12:58 id Atlantic Hotel Riccione: ok 1279694 Atlantic Hotel & SPA 0.02 km
-00:13:00 id Hotel Schwarzenstein: ok 31661373 Alpin & Spa Resort Schwarzenst 0.01 km
-00:13:01 id Dan Hotel: ok 3241242 Dan Hotel 0.0 km
-00:13:01 id The Box Riccione: ok 1191498 The Box Riccione - Adults Only 0.01 km
-00:13:01 id The Promenade Luxury Wellness Hotel: ok 1072148 The Promenade Luxury Wellness  0.02 km
-00:13:07 id Ambasciatori Luxury Resort: not found    km
-00:13:07 id Hotel Sarti: ok 1656514 Hotel Sarti 0.02 km
-00:13:11 id Hotel Belvedere: not found 1318455 Ohtels Belvedere 997.27 km
-00:13:11 id Aparthotel England: ok 1723617 Aparthotel England 0.01 km
-00:13:11 id Hotel Augustus Riccione: ok 1072159 Augustus Hotel Riccione 0.04 km
-00:13:12 id Hotel Carmen: ok 2710163 Hotel Carmen 0.02 km
-00:13:12 id The One: ok 1374288 Hotel The One 0.01 km
-00:13:12 id Giovanna Regina Hotel: ok 1430949 Hotel Giovanna Regina 0.04 km
-00:13:14 id Alexandra Plaza Hotel: ok 1191478 Alexandra Plaza Hotel 0.03 km
-00:13:14 id Hotel Manzoni: ok 3288283 Hotel Manzoni 0.0 km
-00:13:15 id Hotel San Marco: ok 1215022 Hotel San Marco 0.01 km
-00:13:15 id Hotel Misano: ok 60088304 Misano 0.02 km
-00:13:15 id Luxor Cattolica Beach Hotel: ok 1315596 Hotel Luxor Beach 0.02 km
-00:13:15 id EM Europa Monetti: ok 1190018 EuropaMonetti EMHotel&Spa 0.02 km
-00:13:16 id Hotel Gambrinus Mare: ok 3152255 Hotel Gambrinus Mare 0.0 km
-00:13:16 id Hotel Aurora: ok 115716826 HOTEL AURORA 0.01 km
-00:13:16 id Hotel Consul Cattolica: ok 3139237 Hotel Consul 0.01 km
-00:13:16 id Hotel Mirabella: ok 22443971 Hotel Mirabella 0.02 km
-00:13:17 id Hotel Clitunno: ok 2306853 Hotel Clitunno 0.01 km
-00:13:17 id Hotel Lido: ok 1845325 Hotel Lido 0.01 km
-00:13:17 id Ancora Hotel & Residence: ok 3915619 Ancora Hotel & Residence 0.01 km
-00:13:17 id ADLER Ritten: ok 10015880 ADLER Ritten 0.62 km
-00:13:17 id Hotel Edelweiss: ok 1787461 Hotel Edelweiss 0.01 km
-00:13:18 id Hotel Gitschberg: ok 1731204 Hotel Gitschberg 0.02 km
-00:13:18 id Hotel Sonnenberg: ok 1787513 SONNENBERG Panorama Dolomites  0.05 km
-00:13:20 id Hotel Villa Cattani Stuart: ok 1142231 Villa Cattani Stuart XVII seco 0.01 km
-00:13:21 id Be Place Hotel: ok 5168660 Be Place Adult Friendly Hotel 0.01 km
-00:13:21 id Parc Hotel Am Kalterer See: ok 1728551 Parc Hotel Am See 0.01 km
-00:13:24 id Hotel Garni Venezia: not found 1631981 Aparthotel Carinzia 161.34 km
-00:13:26 id Hotel Masl: ok 22152350 Hotel Masl 0.02 km
-00:13:26 id Seeleiten - Lake Spa Hotel: ok 22508581 Lake Spa Hotel SEELEITEN 0.03 km
-00:13:28 id Familienhotel Huber: ok 1967625 Familienhotel Huber 0.02 km
-00:13:31 id Hotel Girlanerhof: ok 1667400 Hotel Girlanerhof 0.04 km
-00:13:34 id Maso Pomarolli: not found    km
-00:13:35 id Weinegg Wellviva Resort: ok 22594875 Weinegg Wellviva Resort 0.02 km
-00:13:35 id Casa del Pittore: ok 1999714 Casa del Pittore 0.03 km
-00:13:35 id Das Wanda: ok 2188824 Das Wanda 0.04 km
-00:13:36 HOTEL MONTANA Garniga Nuova: 'NoneType' object has no attribute 'get'
-00:13:38 id HOTEL MONTANA: not found 4685024 AZ Hôtels Montana 1446.94 km
-00:13:42 id Hotel Lilla: not found 22813931 Sky Gem Hotel Sora 9575.67 km
-00:13:42 id Solea Dolomiti Boutique Hotel: ok 1663361 SOLEA DOLOMITI Boutique Hotel 0.0 km
-00:13:43 id Hotel Accademia: ok 1074309 Hotel Accademia 0.02 km
-00:13:43 id Opera Relais de Charme: ok 1703307 Opera Relais De Charme - Apart 0.01 km
-00:13:43 id Albergo Miravalle Fai della Paganel: ok 1711791 Albergo Miravalle Fai della Pa 0.12 km
-00:13:43 id Terra - The Magic Place: ok 2918251 Terra - The Magic Place Relais 0.01 km
-00:13:44 id Il Poggetto Hotel: ok 7965903 Albergo Diffuso Spa - Il Pogge 0.01 km
-00:13:46 id Hotel La Caporala: ok 5994579 Hotel La Caporala 0.05 km
-00:13:46 id Hotel Cristallo Andalo: ok 1796329 Hotel Cristallo 0.13 km
-00:13:46 id Hotel Nordik: ok 1843107 Hotel Nordik Adults Only - Ove 0.01 km
-00:13:47 id Sassdei My Active Suite Hotel: ok 1948124 Sassdei My Active Suite Hotel 0.03 km
-00:13:47 id Hotel Paganella: ok 3821773 Hotel Paganella Andalo 0.04 km
-00:13:47 id Cavallino Lovely Hotel: ok 1785836 Cavallino Lovely Hotel 0.05 km
-00:13:47 id Piz Galin Grand Hotel Family & Well: ok 1622149 Piz Galin Grand Hotel Family & 0.03 km
-00:13:51 id Astoria Comfort Hotel: not found 115964667 Astoria Comfort Rooms 186.6 km
-00:13:51 id Park Hotel Sport: ok 22014813 Park Hotel Sport 0.01 km
-00:13:51 id Corona Dolomites Hotel Andalo: ok 1482898 Corona Dolomites Hotel 0.01 km
-00:13:52 id Hotel Select: ok 1818618 Hotel Select 0.0 km
-00:13:52 id Hotel Ambiez: ok 21792936 Hotel Ambiez 0.01 km
-00:13:55 id Alpino Baby Family Hotel: not found    km
-00:13:56 id Il Piccolo Dolomiti Resort: ok 22765958 Il Piccolo Dolomiti Resort 0.01 km
-00:14:00 id San Luis Retreat Hotel & Lodges: not found    km
-00:14:00 id Hotel Muchele: ok 1633346 Muchele Boutique Hotel 0.01 km
-00:14:00 id Aktivhotel Santalucia: ok 1454732 AktivHotel SantaLucia 0.02 km
-00:14:00 id Hotel Lago di Garda: ok 19971732 Hotel Lago Di Garda 0.03 km
-00:14:01 id Miramonti Boutique Hotel: ok 1133412 Miramonti Boutique Hotel - SLH 0.01 km
-00:14:01 id Hotel Ballguthof: ok 1784967 Boutique-Hotel Ballguthof am G 0.03 km
-00:14:01 id Garnì Lilly: ok 1787746 Garnì Lilly 0.03 km
-00:14:01 id Du Lac et Du Parc Grand Resort: ok 1141489 Du Lac Et Du Parc Grand Resort 0.07 km
-00:14:02 id Savhotel Fiera Bologna: ok 1070405 Savhotel Fiera Bologna 0.01 km
-00:14:02 id Hotel Luise: ok 1135365 Hotel Luise 0.02 km
-00:14:02 id Garni Hotel Katzenthalerhof: ok 3203593 Garni Hotel Katzenthalerhof 0.01 km
-00:14:02 id Agriturismo Ca Giulietta: ok 22722723 Agriturismo Ca' Giulietta 0.02 km
-00:14:05 id Lido Palace: not found 31780188 Lido Palace - The Leading Hote 0.26 km
-00:14:05 id Hotel Schwarzschmied: ok 1637877 Hotel Schwarzschmied, a Member 0.03 km
-00:14:05 id Ratschingserhof: ok 1923435 Hotel Ratschingserhof 0.02 km
-00:14:06 id Grand Hotel Majestic Gia Baglioni: ok 1070346 Grand Hotel Majestic gia' Bagl 0.01 km
-00:14:06 id Hotel Resmairhof: ok 1641576 Hotel Resmairhof 0.02 km
-00:14:06 id Baumgartner's Blumenhotel: ok 1253490 Baumgartner's Blumenhotel 0.47 km
-00:14:09 id Park Hotel Mignon & Spa: not found 1143106 Hotel Mignon Meran Park & Spa 0.06 km
-00:14:13 id Castello - Lake Front Hotel & Livin: not found    km
-00:14:13 id Hotel Dolomiti Malcesine: ok 1443478 Hotel Dolomiti 0.03 km
-00:14:13 id Wellness Hotel Casa Barca: ok 1586717 Wellness Hotel Casa Barca (Adu 0.03 km
-00:14:14 id Hotel Therme Meran: ok 20534441 Hotel Therme Meran - Terme Mer 0.05 km
-00:14:16 id Hotel Traubenheim: ok 60070786 Traubenheim 0.06 km
-00:14:16 id Hotel Windsor: ok 1451618 Windsor Merano Hotel & Suites 0.0 km
-00:14:20 id Designhotel Gartner: not found    km
-00:14:20 id Hotel Lisetta: ok 1940012 Hotel Lisetta 0.09 km
-00:14:21 Corte Campioli Casa di Campagna Fratte R: 'NoneType' object has no attribute 'get'
-00:14:24 id Corte Campioli Casa di Campagna: not found    km
-00:14:24 id Somvita Suites: ok 116878873 SomVita Suites 0.05 km
-00:14:25 id Romantik Hotel Oberwirt: ok 1312559 Romantik Hotel Oberwirt 0.02 km
-00:14:25 id Giardino Marling: ok 1786784 Giardino Marling 0.03 km
-00:14:25 id Quellenhof Luxury Resort Passeier: ok 1696677 Quellenhof Luxury Resort Passe 0.02 km
-00:14:25 id Quellenhof See Lodge: ok 22598675 Quellenhof See Lodge 0.1 km
-00:14:28 id Hotel Castel: not found 1580004 Castel 57.09 km
-00:14:28 id La Maiena Meran Resort: ok 1664873 La Maiena Meran Resort 0.04 km
-00:14:29 id Hotel | Chalet Das Alpenschlössel: ok 1636240 Hotel Chalet Das Alpenschlösse 0.01 km
-00:14:29 id Hotel Küglerhof: ok 89774911 Hotel KÜGLERHOF 0.03 km
-00:14:29 id Hotel Patrizia: ok 4203749 Hotel Patrizia 0.13 km
-00:14:29 id Hotel Wiesenhof: ok 1528315 Hotel Wiesenhof 0.05 km
-00:14:32 id Wiesenhof Garden Resort: ok 22219512 Wiesenhof Gardenresort 0.03 km
-00:14:32 id Erlebnisort Gassenhof: ok 1726969 Erlebnisort Gassenhof 0.71 km
-00:14:32 id Schloss Plars Wine & Suites: ok 32671603 Schloss Plars wine & suites 0.02 km
-00:14:32 id Holiday Mountain Boutique Hotel: ok 1745608 Holiday Mountain Boutique Hote 0.0 km
-00:14:35 id Hotel Maribel: ok 1568192 Maribel Hotel 0.02 km
-00:14:35 id Hotel Relais agli Olivi: ok 1930944 Hotel Relais Agli Olivi 0.01 km
-00:14:38 id Hotel Spinale: ok 1302760 Hotel Spinale 0.01 km
-00:14:38 id Quellenhof Luxury Resort Lazise: ok 4766571 Quellenhof Luxury Resort Lazis 0.08 km
-00:14:40 id Hotel Chalet all'Imperatore: ok 1624267 Hotel Chalet all'Imperatore 0.02 km
-00:14:40 id Hotel Giulietta Romeo: ok 1912712 Hotel Giulietta Romeo 0.08 km
-00:14:42 id Hotel Crozzon: ok 1631362 Hotel Crozzon 0.01 km
-00:14:44 id Hotel Garni Dello Sportivo: ok 2492061 Hotel Garni dello Sportivo 0.06 km
-00:14:47 id Boutique Hotel Diana: ok 22316671 Boutique Hotel Diana 0.02 km
-00:14:47 id Hotel Niedermair: ok 2898083 Niedermair Nature Retreat 0.04 km
-00:14:47 id Hotel Caesius Thermae & Spa Resort: ok 1377450 Hotel Caesius Thermae & Spa Re 0.03 km
-00:14:47 id Hotel Villa Katy: ok 1430681 Hotel Villa Katy 0.02 km
-00:14:48 id Hotel Eden Garda: ok 1450896 Hotel Eden Garda 0.03 km
-00:14:48 id Mair Am Ort Living Hotel B&B: ok 1814291 Mair Am Ort Living Hotel B&B 0.01 km
-00:14:48 id Hotel Hanswirt: ok 1788638 Hotel Hanswirt 0.06 km
-00:14:48 id Design Hotel Tyrol: ok 1447963 Design Hotel Tyrol 0.02 km
-00:14:51 id Chalet Val di Rabbi: ok 1709220 Hotel Chalet val di Rabbi 0.0 km
-00:14:51 id Hotel Genzianella: ok 1744478 Hotel Genzianella 0.02 km
-00:14:55 id Tevini Resort: not found    km
-00:14:55 id Monroc Hotel: ok 2877138 Monroc Hotel 0.0 km
-00:14:57 id Hotel Waltershof: ok 1638985 Hotel Waltershof 0.02 km
-00:14:57 id Regia Rosetta - Royal Rooms Borghet: ok 4382741 Regia Rosetta - Royal Rooms Bo 0.01 km
-00:14:57 id Tyrol Family Retreat: ok 1938880 TYROL family retreat 0.0 km
-00:15:01 id Hotel Prokulus Family & Wellness: not found    km
-00:15:01 id Enjoy Garda Hotel: ok 1767235 Enjoy Garda Hotel 0.01 km
-00:15:01 id Sonnen Resort: ok 1873492 Sonnen Resort 0.02 km
-00:15:01 id Feldhof DolceVita Resort: ok 2305355 Feldhof DolceVita Resort 0.03 km
-00:15:02 id Lindenhof: ok 5286935 Lindenhof Pure Luxury & Spa Do 0.05 km
-00:15:02 id Palazzo Ai Capitani Hotel: ok 1443397 Palazzo Ai Capitani 0.01 km
-00:15:02 id Hotel Ravelli: ok 1446019 Hotel Ravelli Luxury Spa 0.04 km
-00:40:21 vio: {'ids_due': 300, 'ids_found': 255, 'ids_missed': 45, 'calls': 232, 'priced': 14453, 'available': 4468, 'errors': 4, 'stored_nights': 47831, 'ids_coverage': '950/1500'}
+04:01:11 id Grand Hotel a Villa Feltrinelli: not found    km
+04:01:11 id Hotel Gardenia Al Lago: ok 3896996 Hotel Gardenia Al Lago 0.01 km
+04:01:11 id Lefay Lago di Garda: ok 1489138 Lefay Lago di Garda 0.21 km
+04:01:12 id Casa Scaligeri: ok 10031568 Hotel Casa Scaligeri 0.0 km
+04:01:12 id Hotel Eden: ok 44234447 Hotel Eden 0.02 km
+04:01:12 id Hotel Continental: ok 1243721 Hotel Continental Wellness & S 0.01 km
+04:01:12 id Hotel Villa Florida: ok 1389482 Hotel Villa Florida & Suite Ap 0.03 km
+04:01:17 id Mein Matillhof: not found    km
+04:01:17 id Kristiania Pure Nature Hotel & Spa: ok 7794062 Kristiania Pure Nature Hotel & 0.02 km
+04:01:17 id Hotel Vigna: ok 1598592 Hotel Vigna 0.01 km
+04:01:17 id Hotel Le Grotte: ok 1545172 Hotel Le Grotte 0.02 km
+04:01:17 id Hotel Cristallo: ok 1513419 Hotel Cristallo 0.01 km
+04:01:18 id Hotel Marlet: ok 1583696 Hotel Marlet 0.05 km
+04:01:18 id Aktiv & Wellnesshotel Zentral: ok 1475618 Aktiv & Wellnesshotel Zentral 0.02 km
+04:01:18 id Park Hotel Ai Cappuccini: ok 21003036 Park Hotel Ai Cappuccini 0.04 km
+04:01:18 id Hotel Garberhof: ok 1512724 Garberhof 0.03 km
+04:01:18 id Der Mohrenwirt: ok 7978772 Der Mohrenwirt **** 0.08 km
+04:01:18 id Hotel Weisses Kreuz: ok 1815190 Hotel Weisses Kreuz 0.02 km
+04:01:19 id Hotel La Genzianella: ok 22668813 La Genzianella Bormio 0.01 km
+04:01:19 id Hotel Baita dei Pini: ok 1127415 Hotel Baita Dei Pini 0.01 km
+04:01:19 id Hotel Larice Bianco: ok 1700609 Hotel Larice Bianco 0.01 km
+04:01:19 id Hotel San Vitale: ok 4946118 Hotel san Vitale 0.01 km
+04:01:20 B&b Fonte Cugno Osteria del Gatto: 'NoneType' object has no attribute 'get'
+04:01:21 id B&b Fonte Cugno: ok 1950333 B&B Fonte Cugno 0.03 km
+04:01:25 id Alpen Hotel Valdidentro: not found 1638449 Alpen Hotel Chalet 0.01 km
+04:01:25 id Opera 11 R&B: ok 23730240 Opera 11 r&b 0.0 km
+04:01:27 id Hotel Mulino di Firenze: ok 31624492 Hotel Mulino di Firenze - Worl 0.01 km
+04:01:30 id Collegio alla Querce Auberge Collec: ok 120380655 Collegio alla Querce, Auberge  0.31 km
+04:01:30 id iQ Hotel Firenze: ok 41172731 iQ Hotel Firenze 0.0 km
+04:01:30 id Four Seasons Hotel Firenze: ok 1365489 Four Seasons Hotel Firenze 0.01 km
+04:01:31 id Room Mate Luca: ok 1070894 Room Mate Luca, Florence 0.01 km
+04:01:31 id San Giuliano Inn: ok 2600867 San Giuliano Inn 0.02 km
+04:01:31 id Palazzo Castri 1874 Hotel & Spa: ok 1070699 Palazzo Castri 1874 Spa & Gard 0.01 km
+04:01:31 id Hotel Spadai: ok 1071073 Hotel Spadai 0.03 km
+04:01:31 id Hotel David: ok 1070709 Hotel David 0.02 km
+04:01:32 id The Market Urban Hotel: ok 5447204 The Market Urban Hotel 0.0 km
+04:01:32 id Eco Urban B&B: ok 3646932 Eco Urban B&B 0.01 km
+04:01:32 id Hotel Number Nine: ok 1802693 Hotel Number Nine 0.0 km
+04:01:36 id B&B Emozioni Charme: not found    km
+04:01:36 id The Frame Hotel: ok 4572670 The Frame Hotel 0.02 km
+04:01:36 id Hotel Savoy: ok 1202875 Rocco Forte Hotel Savoy 0.02 km
+04:01:36 id San Firenze Suites & Spa: ok 1662978 San Firenze Suites & Spa 0.03 km
+04:01:40 id Palazzo Vecchietti Suites and Studi: not found    km
+04:01:41 id Bernini Palace Hotel: ok 14872531 Hotel Bernini Palace 0.03 km
+04:01:41 id Hotel Calimala Florence: ok 5443966 Hotel Calimala Florence 0.05 km
+04:01:41 id Hotel Davanzati: ok 1662921 Hotel Davanzati 0.01 km
+04:01:41 id Milu Hotel: ok 1070719 Hotel Milu Florence 0.01 km
+04:01:41 id Golden Tower Hotel & Spa: ok 5433032 Golden Tower Hotel & Spa 0.03 km
+04:01:42 id Hotel Il Tornabuoni: ok 44248572 IL Tornabuoni The Unbound Coll 0.01 km
+04:01:42 id Portrait Firenze: ok 1070913 Portrait Firenze - Lungarno Co 0.04 km
+04:01:42 id The St. Regis Florence: ok 1202872 The St. Regis Florence 0.01 km
+04:01:42 id Hotel Lungarno: ok 22234219 Hotel Lungarno - Lungarno Coll 0.09 km
+04:01:43 id The Excelsior, a Luxury Collection : ok 1070640 The Excelsior, a Luxury Collec 0.03 km
+04:01:43 id Ariele Hotel: ok 1070948 Hotel Ariele 0.01 km
+04:01:43 id Villa Cora: ok 44246372 Villa Cora 0.05 km
+04:01:45 id Hotel Interalpen: ok 1550919 Hotel Interalpen 0.0 km
+04:01:47 id La Cantina Relais - Fattoria Il Cip: ok 1632441 La Cantina Relais - Fattoria I 0.03 km
+04:01:47 id Park Chalet Village: ok 1775291 Park Chalet Village 0.17 km
+04:01:48 id Hotel Baita Montana Livigno - Spa &: ok 1620427 Hotel Baita Montana 0.11 km
+04:01:48 id Hotel Flora: ok 3019673 Hotel Flora 0.01 km
+04:01:49 id Hotel Larice: ok 1709762 Hotel Larice 0.05 km
+04:01:49 id Hotel Roberta Alpine: ok 1821912 Hotel Roberta Alpine - Adults  0.04 km
+04:01:49 id Eco&Wellness Boutique Hotel Sonne *: ok 10011088 Eco & Wellness Boutique Hotel  0.07 km
+04:01:49 id Hotel Concordia: ok 1132539 Hotel Concordia 0.04 km
+04:01:49 id MOTA hotel: ok 1637761 MOTA hotel 0.1 km
+04:01:50 id Cerqua Rosara Residence: ok 1640981 Cerqua Rosara Residence 0.1 km
+04:01:53 id Boutique Hotel Camana Veglia: not found    km
+04:01:54 id Hotel Sporting Family Hospitality: ok 44612715 Hotel Sporting Family Hospital 0.03 km
+04:01:54 id Sport Hotel: ok 44612723 Sport Hotel 0.02 km
+04:01:54 id Green Rose: ok 3019604 Green Rose 0.06 km
+04:01:54 id Monastero di Cortona Hotel & Spa: ok 4052579 Monastero di Cortona Hotel & S 0.01 km
+04:01:54 id Villa Marsili: ok 1070573 Hotel Villa Marsili 0.02 km
+04:01:56 id Hotel Villa Di Piazzano: ok 9955131 Villa di Piazzano - Small Luxu 0.02 km
+04:01:56 id Nun Assisi Relais & Spa Museum: ok 1632392 Nun Assisi Relais & Spa Museum 0.01 km
+04:01:56 id Villa Bordoni: ok 1938412 Villa Bordoni 0.0 km
+04:01:57 id Locanda della Posta - Etruria Colle: ok 1072009 Locanda della Posta - Etruria  0.01 km
+04:01:57 id Castello di Spaltenna Exclusive Tus: ok 16485017 Castello di Spaltenna Exclusiv 0.02 km
+04:01:59 id Borgobrufa Spa Resort: ok 1137286 Borgobrufa Spa Resort Adults O 0.03 km
+04:02:02 id Grand Hotel Francia & Quirinale: not found    km
+04:02:02 id Albergo Esperia: ok 2719398 Albergo Esperia 0.02 km
+04:02:03 id Hotel Palazzo dei Mercanti: ok 1731147 Palazzo Dei Mercanti - Dimora  0.01 km
+04:02:06 id Bed & Breakfast Faraone: not found    km
+04:02:06 id Hotel Palazzo Squarcialupi: ok 22602437 Hotel Palazzo Squarcialupi 0.04 km
+04:02:07 id Orobie Alps Resort: ok 3344818 Orobie Alps Resort 0.03 km
+04:02:09 id Agriturismo La Terra: ok 2320805 Agriturismo La Terra 0.04 km
+04:02:09 id Hotel Excelsior: ok 3876133 Hotel Excelsior 0.0 km
+04:02:11 id The Club House: ok 32148094 The Club House 0.02 km
+04:02:14 id Hotel Le Fontanelle: ok 1435851 Hotel Le Fontanelle 0.02 km
+04:02:14 id Il Borgo dell'Ulivo: ok 1923716 Il Borgo Dell'Ulivo 0.04 km
+04:02:17 id Hotel Venezia: not found 5911825 Hilton Molino Stucky Venice 319.46 km
+04:02:18 id Petronilla Hotel: ok 1548430 Petronilla - Hotel In Bergamo 0.0 km
+04:02:18 id Villa San Sanino - Relais in Tuscan: ok 1882023 Villa San Sanino - Relais in T 0.02 km
+04:02:22 id Torciano Hotel Vecchio Asilo: not found    km
+04:02:26 id SeaPark Family Resort & Spa: not found    km
+04:02:26 id Relais San Vigilio al Castello: ok 4300577 Relais San Vigilio al Castello 0.01 km
+04:02:26 id Hotel Baltic: ok 1752945 Baltic 0.03 km
+04:02:26 id Borgo San Vincenzo: ok 22958847 Borgo San Vincenzo 0.01 km
+04:02:26 id Agriturismo Sole: ok 5302249 Agriturismo Sole 0.04 km
+04:02:26 id Palazzo Seneca: ok 1496422 Relais & Chateaux Palazzo Sene 0.02 km
+04:02:27 id Hotel Certosa di Maggiano: ok 103318329 Hotel Certosa Di Maggiano 0.01 km
+04:02:27 id Campo Regio Relais: ok 1073410 Residenza d'Epoca Campo Regio  0.01 km
+04:02:30 id Villasanpaolo Resort & Spa: not found    km
+04:02:30 id Stelle Di Monte: ok 22650589 Stelle di Monte 0.0 km
+04:02:30 id Palazzo Pacini: ok 2737151 Palazzo Pacini 0.01 km
+04:02:31 id Il Tosco: ok 22650733 Il Tosco 0.0 km
+04:02:31 id Hotel Ilaria: ok 1071320 Hotel Ilaria 0.01 km
+04:02:31 id Palazzo Dipinto: ok 3760461 Palazzo Dipinto 0.0 km
+04:02:33 id Locanda in Tuscany: ok 1924072 Locanda in Tuscany 0.06 km
+04:02:33 id Hotel Olimpia: ok 22430531 Hotel Olimpia 0.01 km
+04:02:36 id Residence Anna Rosa: not found 3309977 Hotel Residence Sant'Anna 82.53 km
+04:02:36 id Castiglion del Bosco, A Rosewood Ho: ok 1628820 Castiglion del Bosco, A Rosewo 0.04 km
+04:02:37 id Petit Hotel: ok 2491849 Petit Hotel 0.02 km
+04:02:37 id Grand Hotel Principe di Piemonte: ok 1429617 Grand Hotel Principe Di Piemon 0.01 km
+04:02:37 id Hotel Matilde: ok 21807074 Hotel Matilde 0.03 km
+04:02:37 id Hotel Europa: ok 44481416 Hotel Europa - Sorico 0.01 km
+04:02:37 id 2 Cuori E Un B&B: ok 5199337 2 CUORI E UN B&B 0.22 km
+04:02:37 id Hotel de la Ville: ok 1216993 Hotel de la Ville Monza - Smal 0.04 km
+04:02:38 id Alps Oriental Wellness Hotel: ok 17683790 Alps Oriental Wellness HOTEL 0.01 km
+04:02:40 id Castello Banfi - Il Borgo: ok 1839666 Castello Banfi - Il Borgo - Re 0.03 km
+04:02:42 id Grand Hotel Tremezzo: ok 1209165 Grand Hotel Tremezzo 0.02 km
+04:02:42 id Victoria Hotel: ok 1310840 Victoria Hotel 0.0 km
+04:02:43 id G Hotel Pescara: ok 3170764 G Hotel Pescara 0.21 km
+04:02:43 id Casual Eclettico Milano: ok 125667846 Casual Eclettico Milano by Cas 0.09 km
+04:02:43 id Hotel Calimala Milano: ok 123174209 Hotel Calimala Milano 0.01 km
+04:02:43 id Château Monfort: ok 1692642 Château Monfort - Relais & Châ 0.01 km
+04:02:44 id Hotel Berna: ok 1071420 Hotel Berna 0.01 km
+04:02:44 id Excelsior Hotel Gallia, a Luxury Co: ok 1203026 Excelsior Hotel Gallia, a Luxu 0.01 km
+04:02:44 id iQ Hotel Milano: ok 1071632 iQ Hotel Milano 0.0 km
+04:02:44 id Principe di Savoia: ok 1203034 Hotel Principe Di Savoia - Dor 0.03 km
+04:02:44 id Portrait Milano: ok 26852224 Portrait Milano - Lungarno Col 0.09 km
+04:02:45 id Tivoli President Milano Hotel: ok 1071441 Tivoli President Milano Hotel 0.01 km
+04:02:45 id The Street Milano Duomo | a Design : ok 2002480 The Street Milano Duomo | a De 0.01 km
+04:02:45 id Mandarin Oriental, Milan: ok 2767060 Mandarin Oriental, Milan 0.01 km
+04:02:45 id Park Hyatt Milano: ok 1203046 Park Hyatt Milano 0.04 km
+04:02:45 id Room Mate Giulia: ok 2925929 Room Mate Collection Giulia, M 0.01 km
+04:02:45 id Grand Hotel Portovenere: ok 1135094 Grand Hotel Portovenere 0.03 km
+04:02:46 id Hotel Spadari al Duomo True Stay: ok 1203071 Hotel Spadari Al Duomo True St 0.0 km
+04:02:46 id Urban Hive Milano: ok 48332570 Urban Hive Milano 0.0 km
+04:02:46 id Aethos Milan: ok 1667535 Aethos Hotel Milan 0.01 km
+04:02:46 id Torre Palombara - Dimora Storica: ok 1511222 Torre Palombara - Dimora Stori 0.02 km
+04:02:46 id Relais Sant'Elena: ok 1442320 Relais Sant'Elena 0.01 km
+04:02:50 id Hotel Villa Steno: not found 11951466 Villa Le Cesine 824.25 km
+04:02:53 id Hotel Pasquale: not found 1703491 Hotel gite d'etape San Pasqual 269.08 km
+04:02:54 id Marvit Affittacamere: ok 1909290 Marvit Affittacamere 0.04 km
+04:02:54 id Park Hotel Argento: ok 1537981 Park Hotel Argento 0.08 km
+04:02:54 id Locanda La Pieve: ok 44395676 Locanda La Pieve B&B vicino Sa 0.06 km
+04:02:58 id Villaggio I Sorbizzi Resort & Beach: not found    km
+04:02:58 id Abbadia San Giorgio: ok 9587562 Abbadia San Giorgio 0.03 km
+04:02:58 id Tigullio Royal Hotel: ok 1135220 Best Western Plus Tigullio Roy 0.02 km
+04:02:59 id Grand Hotel Miramare: ok 1141754 Grand Hotel Miramare 0.02 km
+04:03:02 id Torre Mozza: not found 9150941 Nicolaus Club La Giurlita 710.49 km
+04:03:02 id Hotel Cenobio dei Dogi: ok 1150751 Hotel Cenobio Dei Dogi 0.07 km
+04:03:02 id Hotel Pironi: ok 1662582 Hotel Pironi 0.0 km
+04:03:02 id Park Hotel Villa Belvedere: ok 2719844 Park Hotel Villa Belvedere 0.04 km
+04:03:02 id Hotel Rojan: ok 1869156 Hotel Rojan 0.04 km
+04:03:06 id Residenza Amblingh View & Breakfast: not found    km
+04:03:06 id Hotel Astoria Genova: ok 44173307 Hotel Astoria 0.02 km
+04:03:06 id Relais Casali della Cisterna: ok 1884353 Relais Casali della Cisterna 0.03 km
+04:03:06 id Hotel Residence La Luna Nel Porto: ok 1725035 Hotel Residence La Luna Nel Po 0.03 km
+04:03:10 id Palazzo Tour d'Eau - Abruzzo Cibus: not found    km
+04:03:10 id Hotel Le Ortensie: ok 9706831 Hotel Le Ortensie 0.01 km
+04:03:11 id Boutique Hotel Il Riccio: ok 1731511 Boutique Hotel Il Riccio - Adu 0.0 km
+04:03:13 id My Guest Roma: not found 6018438 My Maison 70 Guest House 3.05 km
+04:03:13 id Hotel Montecristo: ok 1849066 Hotel Montecristo 0.03 km
+04:03:13 id The Tribune Hotel, Part Of Jdv By H: ok 3021730 The Tribune, part of JdV by Hy 0.01 km
+04:03:14 id Deko Rome: ok 1656870 Deko Rome 0.0 km
+04:03:14 id BH Hotel Roma: ok 125202734 BH Hotel 0.01 km
+04:03:14 id Relais Donna Lucrezia: ok 3187520 Relais Donna Lucrezia 0.01 km
+04:03:14 id Hotel Locarno: ok 7877311 Hotel Locarno 0.0 km
+04:03:14 id InterContinental Rome Ambasciatori : ok 22174047 InterContinental Rome Ambascia 0.01 km
+04:03:19 id Palazzo Ripetta - Relais & Châteaux: not found    km
+04:03:19 id The Independent Hotel: ok 19922564 The Independent Hotel 0.02 km
+04:03:21 id Casa Romana: not found 2536231 Casa Di Santa Francesca Romana 2.77 km
+04:03:24 id The First Roma Dolce: not found 6009775 The First Dolce - Preferred Ho 0.0 km
+04:03:24 id NH Collection Roma Palazzo Cinquece: ok 2909380 NH Collection Palazzo Cinquece 0.02 km
+04:03:24 id Room Mate Filippo: ok 101144941 Room Mate Filippo 0.03 km
+04:03:24 id Hotel Barocco: ok 1072248 Hotel Barocco 0.01 km
+04:03:24 id Portrait Roma: ok 1695694 Portrait Roma - Lungarno Colle 0.01 km
+04:03:24 id Maison Tritone: ok 4368180 Maison Tritone 0.01 km
+04:03:25 id Sophie Terrace Hotel: ok 19853311 Sophie Terrace Hotel 0.1 km
+04:03:25 id J.K. Place Roma: ok 1974477 JK Place Roma - The Leading Ho 0.01 km
+04:03:25 id Hotel Artemide: ok 1072244 Hotel Artemide 0.0 km
+04:03:28 id Arpinelli Relais: not found 160680708 Tenuta Ferrante Relais 155.02 km
+04:03:28 id Hotel Viminale: ok 1203299 Hotel Viminale 0.01 km
+04:03:29 id Villa Spalletti Trivelli: ok 1620543 Villa Spalletti Trivelli - Sma 0.0 km
+04:03:31 id Dimora Coppelle: ok 133357821 Dimora Coppelle - Adults Only 0.01 km
+04:03:31 id The Fifteen Keys Hotel: ok 2619992 The Fifteen Keys Hotel 0.0 km
+04:03:31 id Singer Palace Hotel Roma: ok 4397166 Singer Palace Hotel Roma 0.0 km
+04:03:31 id Albergo del Senato: ok 1072347 Albergo del Senato 0.01 km
+04:03:31 id Dharma Boutique Hotel & Spa: ok 8102835 Dharma Boutique Hotel & SPA 0.01 km
+04:03:35 id Inn Urbe Colosseo B&b: not found    km
+04:03:37 id Lifestyle Suites Rome: ok 2821884 Lifestyle Suites Rome 0.0 km
+04:03:37 id Martis Palace Hotel Rome: ok 2977982 Hotel Martis Palace 0.04 km
+04:03:37 id The Inn At The Roman Forum: ok 1211864 The Inn at the Roman Forum Lux 0.02 km
+04:03:38 id Palazzo Navona: ok 2525930 Palazzo Navona Hotel 0.01 km
+04:03:38 id Nerva Boutique Hotel: ok 1408717 Nerva Boutique Hotel 0.01 km
+04:03:38 id Argentina Residenza Style Hotel: ok 145923351 Argentina Residenza Style Hote 0.04 km
+04:03:38 id Relais 155: ok 2597135 Relais 155 Guest House 0.01 km
+04:03:38 id Hotel Monte Cenci: ok 3026990 Hotel Monte Cenci 0.01 km
+04:03:42 id Hotel Santa Maria: not found 44775364 Hotel Riu Cabo Verde - Adults  4385.71 km
+04:03:42 id A Roma Lifestyle Hotel: ok 2724107 A.Roma Lifestyle Hotel 0.27 km
+04:03:44 id Hotel Aurora: not found 2781427 Hotel Aurora 67.41 km
+04:03:45 id Tenuta Cusmano: ok 1131139 Tenuta Cusmano Villa Resort 0.19 km
+04:03:49 id LHV Residenza San Vito: not found    km
+04:03:51 id Hotel Orchidea Blu: ok 2914689 Hotel Orchidea Blu 2.53 km
+04:03:55 id Casa Gregorio Culinary Holiday Vaca: not found    km
+04:03:55 id Gran Paradiso Hotel Spa: ok 116748230 Gran Paradiso Hotel Spa 0.0 km
+04:03:56 id Hotel Castello di Sinio: ok 1634130 Hotel Castello Di Sinio 0.02 km
+04:03:58 id Hotel Excelsior Planet: ok 44760851 Excelsior Planet 0.03 km
+04:04:00 id Saint Hubertus Resort: ok 96319967 Saint Hubertus Resort 0.02 km
+04:04:03 id Hermitage Hotel & Spa: not found 29082426 Sport Hotel Hermitage & Spa 603.42 km
+04:04:05 id Les Neiges d'Antan: ok 1580725 Les Neiges D'Antan 0.02 km
+04:04:05 id Grand Hotel Sitea: ok 1073703 Grand Hotel Sitea 0.01 km
+04:04:06 id Principi di Piemonte | UNA Esperien: ok 1073706 Principi di Piemonte | UNA Esp 0.06 km
+04:04:09 id Be Mate Torino Centro: not found    km
+04:04:13 id Turin Palace Hotel True Stay: not found    km
+04:04:13 id Hotel Torino Wellness & Spa: ok 1130347 Hotel Torino Wellness & Spa 0.02 km
+04:04:15 id Hotel Liliana Diano Marina: ok 1818536 Hotel Liliana Diano Marina 0.0 km
+04:04:15 id Relais Del Maro: ok 1816771 Relais Del Maro 0.01 km
+04:04:15 id Hotel Milleluci: ok 1665449 Hotel Milleluci 0.02 km
+04:04:15 id Le Reve Charmant: ok 1980600 Le Reve Charmant 0.01 km
+04:04:19 id La Maison Du Pont Relais | B&B Hote: not found    km
+04:04:23 id Relais du Paradis Chambres d'Hotes : not found    km
+04:04:23 id Relais Del Nazionale: ok 1710385 Relais Del Nazionale - Teritor 0.01 km
+04:04:24 id Apricus Locanda: ok 1938446 Apricus Locanda Boutique Hotel 0.01 km
+04:04:27 id Au Coeur des Neiges: not found 63792460 Au Coeur Des Neiges Resort SPA 2.69 km
+04:04:27 id Hotel Bouton d'Or - Courmayeur: ok 1632517 HOTEL BOUTON D'OR Courmayeur 0.01 km
+04:04:31 id Gran Baita Hotel & Wellness Resort: not found    km
+04:04:31 id Auberge de la Maison: ok 1189752 Auberge de La Maison 0.01 km
+04:04:31 id Borgobeltrani: ok 3562110 BORGOBELTRANI Rooms 0.02 km
+04:04:31 id The Bellini House: ok 2360409 The Bellini House B&B by House 0.07 km
+04:04:32 id It's Room Naples: ok 3916584 It's Room Naples 0.02 km
+04:04:32 id Santa Chiara Boutique Hotel: ok 2948556 Santa Chiara Boutique Hotel 0.0 km
+04:04:32 id Hotel Etoile Des Neiges: ok 15294493 Etoile des Neiges 0.07 km
+04:04:32 id La Tuja Relais Du Parc: ok 127259907 La Tuja Relais du Parc 0.37 km
+04:04:32 id Hotel Villa Garden: ok 7920162 Hotel Villa Garden 0.02 km
+04:04:32 id Hotel Corallo Sorrento: ok 22463357 Hotel Corallo Sorrento 0.01 km
+04:04:36 id Hotel Caravel Sorrento: not found    km
+04:04:36 id Hotel Lorelei Londres: ok 5473373 Hotel Lorelei Londres 0.02 km
+04:04:36 id Grand Hotel Excelsior Vittoria: ok 1181061 Grand Hotel Excelsior Vittoria 0.2 km
+04:04:37 id Magi House Relais: ok 1529218 Magi House Relais 0.01 km
+04:04:37 id Bellevue Syrene: ok 1181045 Bellevue Syrene 0.03 km
+04:04:39 id Grand Hotel De La Ville Sorrento: not found 1203580 Grand Hotel Royal 0.21 km
+04:04:39 id Palazzo Marziale: ok 1073581 Palazzo Marziale 0.01 km
+04:04:40 id Maison La Minervetta: ok 44436323 Maison La Minervetta 0.01 km
+04:04:40 id Grand Hotel La Favorita: ok 1545898 Grand Hotel La Favorita 0.01 km
+04:04:42 id Villa Oriana Relais: ok 1073502 Villa Oriana Relais 0.17 km
+04:04:42 id Sorrento Flats: ok 1343517 Sorrento Flats 0.02 km
+04:04:42 id Palazzo Jannuzzi Relais: ok 1700275 Palazzo Jannuzzi Relais 0.01 km
+04:04:44 id Best Western Hotel La Solara Sorren: ok 31386520 Best Western Hotel La Solara 0.18 km
+04:04:45 id Antiche Mura Hotel: ok 1203555 Hotel Antiche Mura 0.0 km
+04:04:48 id Anna Belle Elegant Agriresort: ok 3646599 Anna Belle Elegant  Agriresort 0.11 km
+04:04:48 id Le Sirenuse: ok 22422173 Le Sirenuse 0.16 km
+04:04:48 id Positano Art Hotel Pasitea: ok 1362364 Positano Art Hotel Pasitea 0.01 km
+04:04:49 id Hotel Eden Roc: ok 22422621 Hotel Eden Roc 0.02 km
+04:04:49 id Hotel Punta Regina: ok 1401120 Hotel Punta Regina 0.04 km
+04:04:49 id Villa Magia: ok 2584509 Villa Magia 0.05 km
+04:04:52 id Romantic Relais Sorrento: ok 4407434 Romantic Relais Sorrento 0.21 km
+04:04:52 id Hotel Miramalfi: ok 1202763 Hotel Miramalfi 0.12 km
+04:04:52 id Villa Fiorella Art Hotel: ok 22206022 Villa Fiorella Art Hotel 0.4 km
+04:04:54 id Divina Costiera: ok 1656100 Divina Costiera 0.02 km
+04:04:56 id Hotel Prestige Sorrento: ok 9935700 Hotel Prestige 0.02 km
+04:04:56 id Grand Hotel Due Golfi: ok 1133214 Grand Hotel Due Golfi 0.01 km
+04:04:57 id Grand Hotel Tritone: ok 1135146 Grand Hotel Tritone 0.0 km
+04:05:00 id Holidays Fico d'India: ok 1225392 Fico D'India Relais 0.08 km
+04:05:00 id Hotel Pellegrino: ok 1610023 Hotel Pellegrino 0.01 km
+04:05:00 id Monastero Santa Rosa Hotel & Spa: ok 1774780 Monastero Santa Rosa Hotel & S 0.01 km
+04:05:00 id Hotel Sant'Agata: ok 1549745 Hotel Sant'Agata 0.01 km
+04:05:03 id Borgo Santandrea: ok 7665955 Borgo Santandrea 0.0 km
+04:05:03 id Casa Angelina: ok 92317386 Casa Angelina 0.02 km
+04:05:03 id Hotel Tramonto D'oro: ok 44480007 Tramonto d'Oro 0.01 km
+04:05:04 id Albadamare Boutique Hotel: ok 3187005 Albadamare Boutique Hotel 0.01 km
+04:05:04 id Hotel Margherita: ok 1135147 Hotel Margherita 0.0 km
+04:05:04 id Hotel Ravesi: ok 1511641 Hotel Ravesi 0.01 km
+04:05:04 id Principe Di Salina: ok 22272915 Principe Di Salina Boutique Ho 0.01 km
+04:05:04 id Punta Barone: ok 1991448 Hotel Punta Barone 0.04 km
+04:05:04 id L'Ariana Isole Eolie - UNA Esperien: ok 23088855 Hotel L'Ariana ISOLE EOLIE - U 0.03 km
+04:05:06 id Boutique Hotel Townhouse 27: ok 22210299 Boutique Hotel Townhouse 27 0.01 km
+04:05:07 id Radisson Collection Hotel, Old Mill: ok 2434639 Radisson Collection Hotel, Old 0.06 km
+04:05:10 id Hotel Mint: not found 4816731 Hotel Mint JFK Airport 7252.49 km
+04:05:13 id Selection Apartments & Rooms: not found    km
+04:05:14 id SAINT TEN Hotel: ok 3031102 Saint Ten Boutique Hotel 0.0 km
+04:05:14 id Pri Lenart Hotel: ok 1515163 Pri Lenart 0.05 km
+04:05:16 id G Design Hotel: ok 1864136 G Design Hotel 0.06 km
+04:05:16 id Barbo Palace Apartments and Rooms: ok 3240336 Barbo Palace Apartments and Ro 0.01 km
+04:05:20 id Dvor Tacen Bed and Breakfast: not found    km
+04:05:20 id Penzion Kaps: ok 1908015 Penzion Kaps 0.01 km
+04:05:20 id Garni Hotel Berc: ok 4332192 Garni Hotel Berc 0.01 km
+04:05:20 id Boutique Skipass Hotel: ok 9311021 Boutique Skipass Superior Hote 0.07 km
+04:05:21 id Hotel Marrol's: ok 1165249 Marrol's Boutique Hotel 0.0 km
+04:05:21 id Arcadia Boutique Hotel: ok 1252518 Arcadia Boutique Hotel 0.01 km
+04:05:21 id Sheraton Bratislava Hotel: ok 1522067 Sheraton Bratislava Hotel 0.0 km
+04:05:21 id Hotel Danubia Gate Bratislava: ok 1514686 Danubia Gate Hotel 0.01 km
+04:05:23 id Wellness & Spa Hotel Kaskady: ok 1536936 Wellness & Spa Hotel Kaskady 0.03 km
+04:05:27 id Wellness Hotel Chopok: not found    km
+04:05:27 id Grand Hotel Kempinski High Tatras: ok 1459562 Grand Hotel Kempinski High Tat 0.03 km
+04:05:30 id Kontakt Wellness Hotel: ok 1536937 Kontakt Wellness Hotel 0.04 km
+04:05:33 id Hotel Lomnica: not found 127082438 Hotel ELEMENTS Tatranska Lomni 0.64 km
+04:05:35 id B&B A Picture of Rome: ok 44217523 B&B A Picture of Rome 0.01 km
+04:05:38 id Al Colonnato di San Pietro Bed and : not found 22182143 Le Colonne Di San Pietro 0.0 km
+04:05:40 id My Bed Vatican Museum: ok 3586559 My Bed Vatican Museum 0.02 km
+04:31:30 vio: {'ids_due': 300, 'ids_found': 256, 'ids_missed': 44, 'calls': 241, 'priced': 12678, 'available': 3792, 'errors': 1, 'stored_nights': 53390, 'ids_coverage': '1206/1500'}
