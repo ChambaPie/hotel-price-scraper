@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=1262&provinceId=0&districtId=0&countryId=106&destName=It%27s%20Room%20Naples&searchWord=It%27s%20Room%20Naples&searchType=H&optionId=21850075&searchValue=31%7C21850075*31*21850075*1&checkin=2026-12-18&checkout=2026-12-19&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 91.0, 'price_excl': 0.8, 'price_total': 91.0, 'breakfast': '', 'cancellation': ''}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=688&provinceId=0&districtId=0&countryId=106&destName=Santa%20Croce%20Boutique%20Hotel&searchWord=Santa%20Croce%20Boutique%20Hotel&searchType=H&optionId=21853508&searchValue=31%7C21853508*31*21853508*1&checkin=2027-04-22&checkout=2027-04-23&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 359.0, 'price_excl': 361.0, 'price_total': 359.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,38 +11,38 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-It's Room Naples
-Fri, Dec 18
+Santa Croce Boutique Hotel
+Thu, Apr 22
 -
-Sat, Dec 19
+Fri, Apr 23
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Naples
+Popular filters for Venice
 
-Hotel
+Breakfast included
 Great 9+
 Based on guest reviews
-Breakfast included
-Homes & apts
+Hotel
 Free cancellation
-Private bathroom
+Private toilet
 Book now, pay later
-Free parking
-Pets welcome
+2 beds
+Spa
+Luggage storage
 
 Budget
 
-(€0 - €230+)
+(€0 - €470+)
 Price per room per night (excl. taxes & fees)
-€0 - €50
-€50 - €80
-€80 - €110
-€110 - €150
-€150 - €230
-> €230
+€0 - €70
+€70 - €110
+€110 - €160
+€160 - €250
+€250 - €470
+> €470
 
 Property Type
 
@@ -59,16 +59,17 @@ Star rating
 Beach vacation
 
 Near Beach
+Pool
 Spa
-Private beach
+Show More
 
 Location
 
-Straight-line distance from It's Room Naples
+Straight-line distance from Santa Croce Boutique Hotel
 No distance limit
-Via Caracciolo e Lungomare di Napoli
-Chiaia
-Port of Naples
+Piazza San Marco
+Venice City Center
+San Marco
 Show More
 
 Meals
@@ -88,7 +89,7 @@ Show More
 Room features
 
 Family room
-Suite
+Lake view room
 Balcony
 Show More
 
@@ -108,15 +109,15 @@ Show More
 Property facilities & services
 
 Parking available
-Pets welcome
-Spa
+Luggage storage
+Pool
 Show More
 
 Room facilities & services
 
-Air conditioning
-Jacuzzi
 Private toilet
+Air conditioning
+Non-smoking rooms
 Show More
 
 Opening/renovation time
@@ -128,8 +129,8 @@ Within 2 years
 Property Features
 
 Great views
-Family-friendly
 Romantic vibes
+Family-friendly
 Show More
 
 Guest Impressions
@@ -142,8 +143,8 @@ Show More
 Room Size
 
 ≥ 20㎡
-≥ 25㎡
-≥ 40㎡
+≥ 30㎡
+≥ 60㎡
 
 Payment
 
@@ -163,9 +164,9 @@ Extra Trip Coin Rewards
 
 Brands
 
-B&B Hotels
-Best Western
-Best Western Plus
+A&O
+AC hotels by Marriott
+Aman Resorts
 Show More
 
 Reviews
@@ -199,21 +200,21 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-It's Room Naples
-Renovated in 2026
-SpaccanapoliNear Napoli Centrale Railway StationMap
-Great
-92 reviews
-9.0
-Comfy roomsIdeal locationNewly renovated
-Superior Double Room, 1 Queen Bed, Non Smoking, Tower
-1 queen bed
-Earn €0.80 in Trip Coins
-€84
-€73
-Total (incl. taxes & fees): €91
+Santa Croce Boutique Hotel
+Near Venezia Santa Lucia Railway StationPonte degli ScalziMap
+Amazing
+121 reviews
+9.5
+Excellent serviceVaried breakfastIdeal location
+Superior Room
+1 king bed
+Free Cancellation
+Breakfast included
+€361
+€318
+Total (incl. taxes & fees): €359
 Special Discount
-12% off
+11% off
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
@@ -222,6 +223,6 @@ Hotels
 >
 Hotels in Italy
 >
-Hotels in Campania
+Hotels in Veneto
 >
-Hotels in Naples
+Hotels in Venice

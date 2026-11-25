@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=1262&provinceId=0&districtId=0&countryId=106&destName=Napoli%20Tree%20-%20Lungomare&searchWord=Napoli%20Tree%20-%20Lungomare&searchType=H&optionId=10540818&searchValue=31%7C10540818*31*10540818*1&checkin=2027-05-17&checkout=2027-05-18&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 201.0, 'price_excl': 173.0, 'price_total': 201.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=688&provinceId=0&districtId=0&countryId=106&destName=Ca%27%20Bonfadini%20Historic%20Experience&searchWord=Ca%27%20Bonfadini%20Historic%20Experience&searchType=H&optionId=35924963&searchValue=31%7C35924963*31*35924963*1&checkin=2027-05-21&checkout=2027-05-22&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 565.0, 'price_excl': 5.54, 'price_total': 565.0, 'breakfast': 'included', 'cancellation': ''}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,38 +11,38 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Napoli Tree - Lungomare
-Mon, May 17
+Ca' Bonfadini Historic Experience
+Fri, May 21
 -
-Tue, May 18
+Sat, May 22
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Naples
+Popular filters for Venice
 
-Hotel
+Breakfast included
 Great 9+
 Based on guest reviews
-Breakfast included
-Homes & apts
+Hotel
 Free cancellation
-Private bathroom
+Private toilet
 Book now, pay later
-Free parking
-Pets welcome
+2 beds
+Spa
+Luggage storage
 
 Budget
 
-(€0 - €230+)
+(€0 - €470+)
 Price per room per night (excl. taxes & fees)
-€0 - €50
-€50 - €80
-€80 - €110
-€110 - €150
-€150 - €230
-> €230
+€0 - €70
+€70 - €110
+€110 - €160
+€160 - €250
+€250 - €470
+> €470
 
 Property Type
 
@@ -59,16 +59,17 @@ Star rating
 Beach vacation
 
 Near Beach
+Pool
 Spa
-Private beach
+Show More
 
 Location
 
-Straight-line distance from Napoli Tree - Lungomare
+Straight-line distance from Ca' Bonfadini Historic Experience
 No distance limit
-Via Caracciolo e Lungomare di Napoli
-Chiaia
-Port of Naples
+Piazza San Marco
+Venice City Center
+San Marco
 Show More
 
 Meals
@@ -88,7 +89,7 @@ Show More
 Room features
 
 Family room
-Suite
+Lake view room
 Balcony
 Show More
 
@@ -108,15 +109,15 @@ Show More
 Property facilities & services
 
 Parking available
-Pets welcome
-Spa
+Luggage storage
+Pool
 Show More
 
 Room facilities & services
 
-Air conditioning
-Jacuzzi
 Private toilet
+Air conditioning
+Non-smoking rooms
 Show More
 
 Opening/renovation time
@@ -128,8 +129,8 @@ Within 2 years
 Property Features
 
 Great views
-Family-friendly
 Romantic vibes
+Family-friendly
 Show More
 
 Guest Impressions
@@ -142,8 +143,8 @@ Show More
 Room Size
 
 ≥ 20㎡
-≥ 25㎡
-≥ 40㎡
+≥ 30㎡
+≥ 60㎡
 
 Payment
 
@@ -163,9 +164,9 @@ Extra Trip Coin Rewards
 
 Brands
 
-B&B Hotels
-Best Western
-Best Western Plus
+A&O
+AC hotels by Marriott
+Aman Resorts
 Show More
 
 Reviews
@@ -180,6 +181,15 @@ Assistive listening devices
 Handrails on stairs
 Handrails in hallways
 Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -190,18 +200,22 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Napoli Tree - Lungomare
-Lungomare CaraccioloNear LungomareMap
-Amazing
-90 reviews
-9.7
-Excellent serviceDelicious breakfastIdeal location
-Classic Double Room
+Ca' Bonfadini Historic Experience
+Near Venezia Santa Lucia Railway StationPonte GuglieMap
+Great
+79 reviews
+9.3
+Vintage vibesSunset viewsCentury-old property
+No. 18 of Premium Hotels in Venice
+Superior Double Room
 1 queen bed
-Free Cancellation
 Breakfast included
-€173
-Total (incl. taxes & fees): €201
+Earn €5.54 in Trip Coins
+€553
+€504
+Total (incl. taxes & fees): €565
+Special Discount
+8% off
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
@@ -210,6 +224,6 @@ Hotels
 >
 Hotels in Italy
 >
-Hotels in Campania
+Hotels in Veneto
 >
-Hotels in Naples
+Hotels in Venice
