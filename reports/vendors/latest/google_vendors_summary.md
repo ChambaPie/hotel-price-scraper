@@ -1,68 +1,69 @@
 ## Vendors per hotel (Google Hotels' list of sellers)
 
-Checked 117 of 300 due (23 with a list of sellers); coverage 253/1500; official site listed for 136, website address known for 453.
+Checked 95 of 300 due (29 with a list of sellers); coverage 282/1500; official site listed for 152, website address known for 516.
 
 | vendor | hotels |
 |---|---|
-| Booking.com | 180 |
-| Expedia | 138 |
-| Official site | 136 |
-| Priceline | 134 |
-| Hotels.com | 131 |
-| Agoda | 125 |
-| Super.com | 123 |
-| Travelocity.com | 123 |
-| Bluepillow.com | 109 |
-| CheapTickets.com | 106 |
-| Orbitz.com | 103 |
-| Trip.com | 102 |
-| Hotel Booking Zone | 101 |
-| Etrip.net | 97 |
-| Vio.com | 84 |
-| eDreams | 83 |
-| goseek.com | 77 |
-| dealbase.com | 64 |
-| Tripadvisor.com | 59 |
-| trivago DEALS | 56 |
-| Qantas Hotels | 56 |
-| Reserving | 55 |
-| Clicktrip.com | 38 |
-| TravelUp | 37 |
-| Hotelscombined.com | 35 |
-| Kiwi.com | 35 |
-| Evendo | 35 |
-| Traveluro | 31 |
-| Stayforlong | 26 |
+| Booking.com | 205 |
+| Expedia | 159 |
+| Priceline | 156 |
+| Official site | 152 |
+| Hotels.com | 148 |
+| Travelocity.com | 143 |
+| Super.com | 142 |
+| Agoda | 139 |
+| CheapTickets.com | 122 |
+| Orbitz.com | 120 |
+| Trip.com | 118 |
+| Bluepillow.com | 117 |
+| Etrip.net | 116 |
+| Hotel Booking Zone | 116 |
+| Vio.com | 100 |
+| eDreams | 99 |
+| goseek.com | 92 |
+| Tripadvisor.com | 77 |
+| dealbase.com | 77 |
+| Qantas Hotels | 67 |
+| Reserving | 66 |
+| trivago DEALS | 64 |
+| TravelUp | 52 |
+| Clicktrip.com | 52 |
+| Kiwi.com | 49 |
+| Evendo | 47 |
+| Traveluro | 45 |
+| Stayforlong | 37 |
+| Hotelscombined.com | 36 |
+| Catchit.com | 28 |
+| Closest Hotel | 28 |
+| klook | 27 |
 | HolidayCheck.at | 25 |
-| Closest Hotel | 24 |
-| Catchit.com | 23 |
-| klook | 23 |
-| momondo.com | 21 |
-| ZenHotels.com | 20 |
-| KAYAK.com | 18 |
+| CHECK24.de | 24 |
+| momondo.com | 22 |
+| ZenHotels.com | 22 |
+| KAYAK.com | 20 |
 | Bookhotel.direct | 16 |
 | Reservation Day | 15 |
 | HolidayCheck.de | 14 |
 | Michelin Guide Hotels | 14 |
-| CHECK24.de | 12 |
+| Prestigia.com | 13 |
+| Best Hotel Deals | 12 |
 | Bed-and-Breakfast.it | 12 |
 | CHECK24 | 11 |
-| Prestigia.com | 8 |
-| BusinessHotels.com | 7 |
-| Hotelsnest.com | 6 |
+| BusinessHotels.com | 10 |
+| Hotelsnest.com | 8 |
+| Wego.com | 7 |
 | Preferred Hotels & Resorts | 5 |
 | Skyscanner | 5 |
-| Best Hotel Deals | 4 |
+| HomeToGo | 5 |
 | Agriturismo.farm | 4 |
 | Tablet Hotels | 4 |
 | SKYLARK | 4 |
 | hutchgo (Hutchison Travel Limited) | 4 |
-| HomeToGo | 4 |
 | upps | 3 |
 | Relais & Châteaux | 3 |
+| Halalbooking.com | 3 |
 | Design Hotels | 3 |
 | Szallas.hu | 3 |
-| Halalbooking.com | 2 |
 | Pilot | 2 |
 | EcoHotels.com | 2 |
 | Hotel prive | 1 |
@@ -70,30 +71,31 @@ Checked 117 of 300 due (23 with a list of sellers); coverage 253/1500; official 
 | Kurzwego.de Mehr als eine Übernachtung | 1 |
 | Spadreams | 1 |
 | Travelcircus | 1 |
-| Wego.com | 1 |
+| trivago.com | 1 |
 
 Where Google's "Visit site" links lead (vendor = its own web address, hotels):
 
 | vendor = site | hotels |
 |---|---|
+| Visit site=accommodation.edreams.net | 24 |
 | Visit site=bluepillow.com | 21 |
-| Visit site=accommodation.edreams.net | 19 |
+| Visit site=cheaptickets.com | 18 |
 | Visit site=h-en.reserving.com | 17 |
-| Visit site=cheaptickets.com | 14 |
-| Visit site=hotelbookingzone.com | 11 |
-| Visit site=hotelscombined.com | 10 |
+| Visit site=hotelbookingzone.com | 14 |
+| Visit site=hotelscombined.com | 11 |
+| Visit site=clicktrip.com | 11 |
+| Visit site=evendo.com | 10 |
 | Visit site=super.com | 9 |
-| Visit site=clicktrip.com | 9 |
-| Visit site=evendo.com | 8 |
 | Visit site=agoda.com | 8 |
-| Visit site=deals.etrip.net | 5 |
-| Visit site=booking.com | 5 |
+| Visit site=deals.etrip.net | 8 |
+| Visit site=booking.com | 7 |
 | Visit site=bed-and-breakfast.it | 4 |
 | Featured in The 20 best boutique hotels in Lake Geneva / Vaud – BoutiqueHotel.meVisit site=boutiquehotel.me | 4 |
+| Visit site=deals.dealbase.com | 4 |
 | Bluepillow.comTotal per nightNightly price with taxes + feesNightly price with taxes + feesStay total with taxes + fees€=bluepillow.com | 3 |
 | Visit site=zenhotels.com | 3 |
 |  Prague Tourist InformationVisit site=praguetouristinformation.com | 3 |
-| Visit site=deals.dealbase.com | 3 |
+| Featured in Hotels on the Grand Canal, VeniceVisit site=italyheaven.co.uk | 3 |
 | Visit site=always.bookhotel.direct | 2 |
 | Visit site=catchit.com | 2 |
 | Featured in The 20 best boutique hotels in Strasbourg – BoutiqueHotel.meVisit site=boutiquehotel.me | 2 |
@@ -107,6 +109,9 @@ Where Google's "Visit site" links lead (vendor = its own web address, hotels):
 | Featured in Top 20 Hotel Bars in Budapest - Ingrid Holm's Guide 2022Visit site=hotelbars.guide | 2 |
 | Featured in Best Hotels in Budapest with a View — The Most Perfect ViewVisit site=themostperfectview.com | 2 |
 | Featured in The Best Spa Hotels to Book in Budapest, HungaryVisit site=theculturetrip.com | 2 |
+| Featured in The 12 Best Boutique Hotels in Venice, Italy – Wandering WheatleysVisit site=wanderingwheatleys.com | 2 |
+| Featured in Best Hotels in Venice with Grand Canal ViewsVisit site=themostperfectview.com | 2 |
+| Featured in Best Hotels in Venice Italy Near Cruise Port (Marittima Terminal)Visit site=hotelfollower.com | 2 |
 | for Resort Das Achental=das-achental.com | 1 |
 | Official siteFree cancellation until 31 Jan, · Total per nightNightly price with taxes + feesNight=secure-hotel-tracker.com | 1 |
 | Super.com€307 with taxes + feesNightly base priceNightly price with taxes + feesStay total with taxes + fees€287€287€307=super.com | 1 |
@@ -119,6 +124,9 @@ Where Google's "Visit site" links lead (vendor = its own web address, hotels):
 | for Spongiola=spongiola.com | 1 |
 | uppsFree cancellation until 18 Dec, · Total per nightNightly price with taxes + feesNightly price with taxes + feesStay=upps.at | 1 |
 | Visit site=upps.at | 1 |
+| for B&B Sul Ponte=bebsulponte.it | 1 |
+| Booking.comFree cancellation until 23 Dec, · €80 with taxes + feesNightly base priceNightly price with taxes + feesStay=booking.com | 1 |
+| Tripadvisor.comFree cancellation until 24 Dec, · €80 with taxes + feesNightly base priceNightly price with taxes + feesS=tripadvisor.com | 1 |
 | for Hotel & restaurant Peteani=hotel-peteani.hr | 1 |
 | Official siteFree cancellation until 24 Dec, · Total per nightNightly price with taxes + fe=booking.webbookingpro.com | 1 |
 | Vio.com€124 with taxes + feesNightly base priceNightly price with taxes + feesStay total with taxes + fees€108€108€124€1=deals.vio.com | 1 |
@@ -149,10 +157,3 @@ Where Google's "Visit site" links lead (vendor = its own web address, hotels):
 | Relais & Châteaux€668 with taxes + feesNightly base priceNightly price with taxes + feesStay total with taxes + fees€660=secure-hotel-tracker.com | 1 |
 | Visit site=secure-hotel-tracker.com | 1 |
 | for Cour du Corbeau Hotel Strasbourg - MGallery Collection=mgallery.accor.com | 1 |
-| Super.com€661 with taxes + feesNightly base priceNightly price with taxes + feesStay total with taxes + fees€601€601€661=super.com | 1 |
-| all.accor.com4.7/5 · 1,182 reviewsTony S., 2 weeks agoI was in Strasbourg for a combination of business and pleasure. Th=go.trustyou.com | 1 |
-| for Le Bouclier d'Or Hotel & Spa=lebouclierdor.com | 1 |
-| KAYAK.com€602 with taxes + feesNightly base priceNightly price with taxes + feesStay total with taxes + fees€542€542€602=kayak.com | 1 |
-| Booking.com€606 with taxes + feesNightly base priceNightly price with taxes + feesStay total with taxes + fees€545€545€6=booking.com | 1 |
-| for Hôtel Le Griffon d'Or=hotelgriffondor.fr | 1 |
-| Booking.comFree cancellation until 22 Apr, · €138 with taxes + feesNightly base priceNightly price with taxes + feesStay=booking.com | 1 |

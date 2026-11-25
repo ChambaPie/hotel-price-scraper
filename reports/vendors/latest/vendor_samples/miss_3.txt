@@ -1,24 +1,95 @@
-#HOTEL OTTO Rooms & Photogallery
-#ENTITY 
-Skip to main content
-Accessibility feedback
-Explore
-Flights
-Hotels
-Holiday rentals
-Sign in
+#HOTEL Park Hotel Brasilia
+#ENTITY https://www.google.com/travel/hotels/entity/ChcIt--s_ompndBqGgsvZy8xdnZkdDE2eRAB
+Back to hotels
+Veneto
+Metropolitan City of Venice
+Lido di Jesolo
+Park Hotel Brasilia
+OverviewPrices
+ReviewsLocationAboutPhotos
+Check-in
+Check-out
 2
-All filters
-Price
-Offers
-Guest rating
-Hotel class
-Amenities
-Eco-certified
-Sort by
-No results
-Update your filters or search area to see options.
-Currency​USD
+Nightly price with fees
+Free cancellation only
+Contact this property
+Call or visit website for rates and availability
+People also viewed
+Hotel Adriatic Palace
+4.8
+(385)
+Modern seaside lodging with dining
+0,5 km away
+Hotel Mondial
+4.3
+(628)
+Informal lodging with dining & a pool
+1,4 km away
+Hotel Sayonara
+4.7
+(265)
+Hotel with sea views, a sundeck & a pool
+0,6 km away
+Hotel Strand
+4.5
+(740)
+Modest lodging opposite the beach
+1,5 km away
+Hotel Albatros Jesolo
+4.5
+(328)
+Casual hotel with beach access & a pool
+1,3 km away
+Hotel Mirafiori
+4.5
+(459)
+Relaxed hotel with a private beach area
+0,6 km away
+Popular hotels
+Residence Lido di Dante Jesolo
+5.0
+(21)
+1,6 km away
+Lizard Residence
+5.0
+(5)
+2,1 km away
+Alma Suites
+5.0
+(6)
+1,8 km away
+hotel plaza esperande
+5.0
+(4)
+3 km away
+Bolis Residences
+5.0
+(4)
+3,7 km away
+Green Cavallino
+5.0
+(4)
+8 km away
+Holiday rentals nearby
+Condominio Lara
+Sleeps 10
+0,1 km away
+Residence Solmare Immobiliare Pacella - Apartment with Sea View
+2 bedroomsSleeps 6
+0,1 km away
+Residence Solmare [Pool + Park]
+2 bedroomsSleeps 4
+0,1 km away
+Gemütliche Wohnung mit Terrasse, Garten und Pool | Neben dem Strand
+2 bedroomsSleeps 6
+0,75 km away
+Condominio Maison Jolie- Solo per famiglie- Walterigato Apartments - One-Bedroom Apartment
+1 bedroomSleeps 3
+0,2 km away
+Bali - One-Bedroom Apartment
+1 bedroomSleeps 4
+0,2 km away
+Currency​EUR
 Your results may be based on your Timeline. Learn more
 About
 Privacy
@@ -26,17 +97,14 @@ Terms
 Join user studies
 Report illegal content
 Feedback
+Pricing issues
 Help Centre and Consumer Information
+About this data
+Web results
 
 Displayed currencies may differ from the currencies used to book properties. Learn more
 
-Update list
-Off
-Walk
-Drive
-Public transport
-Areas for dining
-Attractions
-Areas for shopping
-Loading map
-Page loaded.
+Park Hotel Brasilia
+Page loaded. 
+#VENDOR_LINKS
+Visit site for Park Hotel Brasilia	https://www.parkhotelbrasilia.com/?utm_source=GoogleMyBusiness&utm_medium=organic&utm_campaign=mybusiness

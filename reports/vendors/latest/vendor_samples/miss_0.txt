@@ -1,24 +1,97 @@
-#HOTEL Garni B&B La Rua
-#ENTITY 
-Skip to main content
-Accessibility feedback
-Explore
-Flights
-Hotels
-Holiday rentals
-Sign in
+#HOTEL Hotel Montecarlo
+#ENTITY https://www.google.com/travel/hotels/entity/ChcI6vOgnP2cxPIqGgsvZy8xdHl3d3N0YhAB
+Back to hotels
+Veneto
+Metropolitan City of Venice
+Bibione
+Hotel Montecarlo
+OverviewPrices
+ReviewsLocationAboutPhotos
+Check-in
+Check-out
 2
-All filters
-Price
-Offers
-Guest rating
-Hotel class
-Amenities
-Eco-certified
-Sort by
-No results
-Update your filters or search area to see options.
-Currency​USD
+Nightly price with fees
+Free cancellation only
+Contact this property
+Call or visit website for rates and availability
+People also viewed
+€265
+Savoy Beach Hotel Bibione
+4.5
+(1.3k)
+Posh beachfront lodging with breakfast
+1 km away
+Hotel Cesare Augusto
+4.7
+(354)
+Down-to-earth hotel with dining & pools
+1,2 km away
+Hotel Bibione Palace
+4.6
+(1.5k)
+Beachfront resort with dining & 3 pools
+2 km away
+Hotel Airone di Selva Marco
+4.4
+(481)
+Relaxed lodging by the beach, plus a bar
+0,2 km away
+Hotel Astoria
+4.7
+(559)
+Upmarket lodging with dining & a bar
+1,6 km away
+Hotel Lido Bibione 4 Sterne
+4.6
+(684)
+Laid-back lodging with a pool & dining
+1,3 km away
+Popular hotels
+Hotel Garni Renania
+4.9
+(719)
+1,6 km away
+Life Hotel
+4.8
+(425)
+1,9 km away
+Hotel Villa Angelina
+4.8
+(261)
+Casual hotel with dining & live music
+1,3 km away
+Libra Aparthotel
+5.0
+(23)
+1,4 km away
+Residence Orione
+5.0
+(4)
+2,5 km away
+Bibione Hotel Palace
+5.0
+(4)
+2 km away
+Holiday rentals nearby
+Residence Ranieri
+4 bedroomsSleeps 10
+0,1 km away
+Holiday apartment with air conditioning and balcony
+2 bedroomsSleeps 4
+0,5 km away
+Condominio Cormoran
+2 bedroomsSleeps 5
+0,5 km away
+Residence Le Zattere
+Sleeps 10
+0,1 km away
+Comfy seafront apartment-Beahost
+2 bedroomsSleeps 5
+0,5 km away
+Torcello Appartements
+Sleeps 10
+0,1 km away
+Currency​EUR
 Your results may be based on your Timeline. Learn more
 About
 Privacy
@@ -26,17 +99,14 @@ Terms
 Join user studies
 Report illegal content
 Feedback
+Pricing issues
 Help Centre and Consumer Information
+About this data
+Web results
 
 Displayed currencies may differ from the currencies used to book properties. Learn more
 
-Update list
-Off
-Walk
-Drive
-Public transport
-Areas for dining
-Attractions
-Areas for shopping
-Loading map
-Page loaded.
+Hotel Montecarlo
+Page loaded. 
+#VENDOR_LINKS
+Visit site for Hotel Montecarlo	https://www.hotel-montecarlo.com/?utm_source=googlemaps&utm_medium=mybusiness&utm_campaign=mybusiness
