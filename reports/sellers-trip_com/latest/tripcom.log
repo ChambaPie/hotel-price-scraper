@@ -1,4 +1,7 @@
-07:52:58 Sotrani 2027-09-04: not in the answer ([])
-07:53:20 Boutique-Hotel Ballguthof am G 2027-04-28: not in the answer ([])
-07:53:41 Boutique-Hotel Ballguthof am G 2027-10-27: not in the answer ([])
-08:22:54 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 126, 'priced': 48, 'available': 38, 'errors': 0, 'missing': 78, 'stored_nights': 271, 'ids_coverage': '1270/1500'}
+11:43:42 Familienhotel Huber 2026-12-27: not in the answer ([])
+11:44:03 Familienhotel Huber 2027-06-27: not in the answer ([])
+11:44:25 Il Canto del Sole 2027-01-27: not in the answer ([])
+12:08:06 Hotel Rudolf 2027-06-23: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.trip.com/hotels/list?flexType=1&cityId=321
+12:13:23 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 111, 'priced': 38, 'available': 15, 'errors': 1, 'missing': 73, 'stored_nights': 309, 'ids_coverage': '1270/1500'}

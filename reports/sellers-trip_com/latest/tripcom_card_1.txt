@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=33642&provinceId=0&districtId=0&countryId=106&destName=Sotrani&searchWord=Sotrani&searchType=H&optionId=15049966&searchValue=31%7C15049966*31*15049966*1&checkin=2027-03-06&checkout=2027-03-07&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 123.0, 'price_excl': 109.0, 'price_total': 123.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=38732&provinceId=0&districtId=0&countryId=162&destName=Hotel%20Karl%C5%A1tejn%20%26%20Spa&searchWord=Hotel%20Karl%C5%A1tejn%20%26%20Spa&searchType=H&optionId=9848028&searchValue=31%7C9848028*31*9848028*1&checkin=2027-04-14&checkout=2027-04-15&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 154.0, 'price_excl': 137.0, 'price_total': 154.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,27 +11,26 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Sotrani
-Sat, Mar 6
+Hotel Karlštejn & Spa
+Wed, Apr 14
 -
-Sun, Mar 7
+Thu, Apr 15
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Trani
+Popular filters for Karlstejn
 
-24-hour front desk
-Hotel
-Parking available
+Pool
 Breakfast included
-Free cancellation
-Great 9+
+Air conditioning
+Very Good 8+
 Based on guest reviews
-Great views
-Private toilet
-Loft
+1 double bed
+Hotel
+Free cancellation
+Parking available
 
 Budget
 
@@ -50,33 +49,22 @@ Hotels
 Including hotels, resorts, and more
 Homes & apts
 Including homes, apartments, villas, and more
-Hostels
-Including hostels, inns, and more
 Show More
 
 Star rating
 
-Beach vacation
-
-Near Beach
-Pool
-Spa
-
 Location
 
-Straight-line distance from Sotrani
+Straight-line distance from Hotel Karlštejn & Spa
 No distance limit
-Hunter House
-Municipal Library "Giovanni Bovio"
-Palazzo delle Arti Beltrani - Pinacoteca Ivo Scaringi
+Karlštejn Castle
+Golf Resort Karlštejn
+Museum of Nativity Scenes
 Show More
 
 Meals
 
 Breakfast included
-Dinner included
-Breakfast & Dinner Included
-Show More
 
 Bed type
 
@@ -87,16 +75,14 @@ Show More
 
 Room features
 
-Loft
-Private villa
-Suite
-Show More
+Entire unit
+Family room
+Balcony
 
 Number of bedrooms
 
 1 bedroom/studio
 2 bedrooms
-3+ bedrooms
 
 Guest rating
 
@@ -109,27 +95,19 @@ Property facilities & services
 
 Parking available
 Pool
-Pets welcome
+Wi-Fi in public areas
 Show More
 
 Room facilities & services
 
-Jacuzzi
-Kitchen
+Air conditioning
 Private toilet
+Extra beds available
 Show More
-
-Opening/renovation time
-
-Within 1 year
-Within 2 years
 
 Property Features
 
 Great views
-Family-friendly
-Self check-in
-Show More
 
 Guest Impressions
 
@@ -138,9 +116,8 @@ Ideal location
 
 Room Size
 
-≥ 30㎡
-≥ 35㎡
-≥ 55㎡
+≥ 20㎡
+≥ 25㎡
 
 Payment
 
@@ -154,22 +131,20 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
-Brands
-
-Ibis Styles
-
 Reviews
 
 200+
 100+
 50+
-
-Accessibility
-
-Handrails on stairs
-Braille signs
-Stair-free main entrance
-Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -180,26 +155,27 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Sotrani
-Near Trani - Stazione FSCasa de AgneteMap
-Outstanding
-50 reviews
-9.8
-Delicious breakfastBarPets welcome
-Comfort Triple Room
-Bed type randomly assigned by hotel
+Hotel Karlštejn & Spa
+Near Muzeum BetlémůArt Gallery AnnaMap
+Great
+26 reviews
+9.0
+Castle hotelSpaDelicious breakfast
+Superior Double Room With Double Bed
+1 double bed
 Free Cancellation
 Breakfast included
-€109
-Total (incl. taxes & fees): €123
+Only 1 left at this price
+€137
+Total (incl. taxes & fees): €154
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in Italy
+Hotels in Czech Republic
 >
-Hotels in Apulia
+Hotels in Central Bohemia
 >
-Hotels in Trani
+Hotels in Karlstejn

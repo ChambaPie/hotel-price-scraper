@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=36876&provinceId=0&districtId=0&countryId=14&destName=Posthotel%20Achenkirch%20Resort%20and%20Spa%20-%20Adults%20Only&searchWord=Posthotel%20Achenkirch%20Resort%20and%20Spa%20-%20Adults%20Only&searchType=H&optionId=9384022&searchValue=31%7C9384022*31*9384022*1&checkin=2027-10-20&checkout=2027-10-21&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 397.0, 'price_excl': 355.0, 'price_total': 397.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=688&provinceId=0&districtId=0&countryId=106&destName=Hyatt%20Centric%20Murano%20Venice&searchWord=Hyatt%20Centric%20Murano%20Venice&searchType=H&optionId=1613528&searchValue=31%7C1613528*31*1613528*1&checkin=2027-04-15&checkout=2027-04-16&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 232.0, 'price_excl': 225.0, 'price_total': 232.0, 'breakfast': '', 'cancellation': ''}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,38 +11,38 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Posthotel Achenkirch Resort and Spa - Adults Only
-Wed, Oct 20
+Hyatt Centric Murano Venice
+Thu, Apr 15
 -
-Thu, Oct 21
+Fri, Apr 16
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Achenkirch
+Popular filters for Venice
 
-Jacuzzi
-Pets welcome
-Pool
-Sauna
-Breakfast & Dinner Included
-Hotel
+Great 9+
+Based on guest reviews
 Breakfast included
+Hotel
 Free cancellation
-Free parking
-Family-friendly
+Private toilet
+Book now, pay later
+2 beds
+Spa
+Luggage storage
 
 Budget
 
-(€0 - €230+)
+(€0 - €460+)
 Price per room per night (excl. taxes & fees)
-€0 - €50
-€50 - €90
-€90 - €140
-€140 - €180
-€180 - €230
-> €230
+€0 - €70
+€70 - €110
+€110 - €160
+€160 - €250
+€250 - €460
+> €460
 
 Property Type
 
@@ -50,17 +50,25 @@ Hotels
 Including hotels, resorts, and more
 Homes & apts
 Including homes, apartments, villas, and more
+Hostels
+Including hostels, inns, and more
 Show More
 
 Star rating
 
+Beach vacation
+
+Near Beach
+Pool
+Spa
+
 Location
 
-Straight-line distance from Posthotel Achenkirch Resort and Spa - Adults Only
+Straight-line distance from Hyatt Centric Murano Venice
 No distance limit
-Achensee
-Sixenhof museum Achental
-Alpen Caravan Park
+Piazza San Marco
+Venice City Center
+San Marco
 Show More
 
 Meals
@@ -79,9 +87,9 @@ Show More
 
 Room features
 
-Entire unit
+Family room
+Lake view room
 Balcony
-Mountain view room
 Show More
 
 Number of bedrooms
@@ -99,36 +107,43 @@ Show More
 
 Property facilities & services
 
-Sauna
+Parking available
+Luggage storage
 Pool
-Pets welcome
 Show More
 
 Room facilities & services
 
-Jacuzzi
-Extra beds available
-Cribs available
+Private toilet
+Air conditioning
+Non-smoking rooms
 Show More
+
+Opening/renovation time
+
+Within 6 months
+Within 1 year
+Within 2 years
 
 Property Features
 
-Family-friendly
 Great views
-Self check-in
+Romantic vibes
+Family-friendly
+Show More
 
 Guest Impressions
 
-Lots to do
 Ideal location
-Excellent service
+Lots to do
+Sparkling clean
 Show More
 
 Room Size
 
-≥ 35㎡
-≥ 40㎡
-≥ 50㎡
+≥ 20㎡
+≥ 30㎡
+≥ 55㎡
 
 Payment
 
@@ -142,31 +157,29 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
+Discounts
+
+Extra Trip Coin Rewards
+
 Brands
 
-VAYA Resort
+A&O
+AC hotels by Marriott
+Aman Resorts
+Show More
 
 Reviews
 
+500+
 200+
 100+
-50+
 
 Accessibility
 
-Stair-free main entrance
-Wheelchairs available
-accessible facilities
+Assistive listening devices
+Handrails on stairs
+Handrails in hallways
 Show More
-Why book with Trip.com?
-We price match
-We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
-Get rewarded for traveling
-Get money-saving rewards with every booking, with no limits to how you spend Learn More
-4.8/5
-206,715 reviews
-4.7/5
-20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -177,27 +190,24 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Posthotel Achenkirch Resort and Spa - Adults Only
-Near Alpengolf AchenkirchFußballplatz SV AchenkirchMap
-Amazing
-49 reviews
-9.5
-Outdoor poolSpaMeditation room
-No. 1 of Premium Hotels in Achenkirch
-Sonnenberg Studio
-1 double bed
-Free Cancellation
-Breakfast included
-€355
-Total (incl. taxes & fees): €397
+Hyatt Centric Murano Venice
+Near Murano IslandDai Do CancariMap
+Good
+134 reviews
+7.8
+Comfy roomsDuplex western-style houseDelicious breakfast
+King Room With Courtyard View
+1 king bed
+€225
+Total (incl. taxes & fees): €232
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in Austria
+Hotels in Italy
 >
-Hotels in Tyrol
+Hotels in Veneto
 >
-Hotels in Achenkirch
+Hotels in Venice
