@@ -1,126 +1,124 @@
-20:19:14 seekda   Hotel Grossarler Hof                {'code': 'AT_GROSSARLER'}
-20:19:20 simplebooking 7132 Hotel                          None
-20:19:33 seekda   Hotel Fisserhof                     228 nights priced
-20:19:44 seekda   Hotel Toalstock                     212 nights priced
-20:20:05 seekda   Familienresort Buchau               289 nights priced
-20:20:17 seekda   Giardino Marling                    228 nights priced
-20:20:28 synxis   Boutique-Hotel Remorino             8 nights priced
-20:20:39 seekda   Landhaus Koller                     209 nights priced
-20:20:54 hotelnetsolutions Hotel Schwaigerhof                  256 nights priced
-20:20:55 Hotel Interalpen: simplebooking HTTP 203 
-20:21:05 seekda   Wanderhotel Taurerwirt              30 nights priced
-20:21:18 seekda   Alpines Gourmethotel Montanara      139 nights priced
-20:21:32 seekda   Dolomitengolf Suites                261 nights priced
-20:21:43 seekda   Naturhotel Waldklause               112 nights priced
-20:21:57 seekda   Adler Inn Tyrol Mountain Resort Sup 116 nights priced
-20:22:11 seekda   Hotel Alpenhof                      265 nights priced
-20:22:23 seekda   Das Kaltenbach - Nature Hotel       172 nights priced
-20:22:34 seekda   Romantik & Spa Alpen-herz           84 nights priced
-20:22:55 seekda   Hotel Sonnenpark                    330 nights priced
-20:23:07 hotelnetsolutions Das Naturhotel Chesa Valisa         272 nights priced
-20:23:19 seekda   Hotel Andy                          194 nights priced
-20:23:31 seekda   Alpenhotel Heimspitze               84 nights priced
-20:23:43 d_edge   Domaine de Montagne - Chalet Frère  338 nights priced
-20:23:44 Alloggio Agrituristico Albafiorita: simplebooking HTTP 203 
-20:23:56 d_edge   La Chèvre D'Or                      196 nights priced
-20:24:07 hotelnetsolutions Hotel VICTORIA                      297 nights priced
-20:24:15 synxis   Hotel Monte Cenci                   8 nights priced
-20:24:34 blastness Argentina Residenza Style Hotel     8 nights priced
-20:24:34 Hotel Villa Cattani Stuart: simplebooking HTTP 203 
-20:24:36 Savhotel Fiera Bologna: simplebooking HTTP 203 
-20:24:37 Hotel Spadari al Duomo True Stay: simplebooking HTTP 203 
-20:24:37 iQ Hotel Milano: simplebooking HTTP 203 
-20:24:46 synxis   Hermitage Hotel & Spa               8 nights priced
-20:24:57 blastness Gran Baita Hotel & Wellness Resort  8 nights priced
-20:24:57 Hotel Moresco: simplebooking HTTP 203 
-20:24:59 Hotel Dona Palace: simplebooking HTTP 203 
-20:25:11 synxis   Villa Cora                          8 nights priced
-20:25:23 synxis   Collegio alla Querce Auberge Collec 8 nights priced
-20:25:23 Hotel Ilaria: simplebooking HTTP 203 
-20:25:24 Torre Mozza: simplebooking HTTP 203 
-20:25:37 d_edge   Hotel D Geneva                      278 nights priced
-20:25:38 Art Deco Hotel Montana: simplebooking HTTP 203 
-20:25:40 Hotel Belvedere Grindelwald: simplebooking HTTP 203 
-20:25:57 seekda   Waldhotel Arosa                     122 nights priced
-20:26:08 hotelnetsolutions BelArosa Hotel                      208 nights priced
-20:26:18 synxis   Kulm Hotel                          8 nights priced
-20:26:19 Matterhorn FOCUS Design Hotel: simplebooking HTTP 203 
-20:26:20 Christiania Mountain & Spa: simplebooking HTTP 203 
-20:26:21 Grand Hotel Zermatterhof: simplebooking HTTP 203 
-20:26:34 synxis   Hôtel Angleterre                    8 nights priced
-20:26:45 seekda   Hotel  Bristol Salzburg             324 nights priced
-20:26:59 synxis   Hotel Sacher Salzburg               8 nights priced
-20:27:11 synxis   Hotel Sacher Wien                   8 nights priced
-20:27:30 ericsoft Hotel Mioni Pezzato & SPA           8 nights priced
-20:27:39 ericsoft Hotel La Maison Wellness & Spa      8 nights priced
-20:27:40 Hotel Bibione Palace: simplebooking HTTP 203 
-20:27:41 Hotel Montecristo: simplebooking HTTP 203 
-20:27:41 Hotel Torino Wellness & Spa: simplebooking HTTP 203 
-20:27:43 Hotel Miramare: simplebooking HTTP 203 
-20:27:57 blastness Monaco Suites Hotel                 8 nights priced
-20:27:58 Hotel Daniele: simplebooking HTTP 203 
-20:28:06 ericsoft Hotel Chalet all'Imperatore         8 nights priced
-20:28:07 Hotel Crozzon: simplebooking HTTP 203 
-20:28:08 Hotel Eden Roc: simplebooking HTTP 203 
-20:28:09 Hotel Tramonto D'oro: simplebooking HTTP 203 
-20:28:19 synxis   Lido Palace                         8 nights priced
-20:28:33 seekda   Naturhotel Leitlhof                 311 nights priced
-20:28:45 seekda   Granbaita Dolomites                 190 nights priced
-20:28:59 d_edge   St-Alban Hotel & Spa                262 nights priced
-20:29:16 seekda   Hotel Bären Titisee                 312 nights priced
-20:29:17 Romantik Hotel Schweizerhof & Spa: simplebooking HTTP 203 
-20:29:27 synxis   Grand Hotel Kronenhof               8 nights priced
-20:29:27 Parkhotel Margna: simplebooking HTTP 203 
-20:29:40 synxis   Chalet RoyAlp Hotel & Spa           8 nights priced
-20:29:42 Hotel Schweizerhof: simplebooking HTTP 203 
-20:29:43 Castello del Sole Beach Resort & SP: simplebooking HTTP 203 
-20:29:55 seekda   Grand Hotel Lienz                   350 nights priced
-20:30:06 seekda   Hotel Arlberg Lech                  37 nights priced
-20:30:18 seekda   Der Berghof                         146 nights priced
-20:30:29 seekda   Hotel Gotthard                      134 nights priced
-20:30:41 seekda   Hotel Austria Lech                  83 nights priced
-20:30:54 d_edge   Hotel Golden Star                   360 nights priced
-20:31:05 synxis   Hotel Clark Budapest                8 nights priced
-20:31:14 synxis   Hotel Vision Budapest               8 nights priced
-20:31:24 synxis   Boutique Hotel Victoria Budapest    8 nights priced
-20:31:36 synxis   Hotel Moments Budapest              8 nights priced
-20:31:47 seekda   Hotel Central                       234 nights priced
-20:31:58 seekda   Hotel Alte Schmiede                 231 nights priced
-20:32:10 seekda   Parkhotel Seefeld                   224 nights priced
-20:32:10 HOTEL MONTANA: simplebooking HTTP 203 
-20:32:21 seekda   Sonnen Resort                       39 nights priced
-20:32:22 Lindenhof: simplebooking HTTP 203 
-20:32:23 Hotel Sirenetta: simplebooking HTTP 203 
-20:32:33 ericsoft Hotel Galassia                      8 nights priced
-20:32:34 Hotel Bristol: simplebooking HTTP 203 
-20:32:35 Märchenhotel: simplebooking HTTP 203 
-20:32:54 seekda   AlpenParks Hotel & Apartment Orgler 345 nights priced
-20:33:08 seekda   Der Kapruner Hof                    304 nights priced
-20:33:24 seekda   Hotel Stadt Wien                    213 nights priced
-20:33:47 seekda   POP-UP Living Zell am See           363 nights priced
-20:33:57 synxis   Hotel & Restaurant Tannenhof        8 nights priced
-20:34:12 hotelnetsolutions Hotel Zur Pfeffermühle              214 nights priced
-20:34:30 seekda   Hotel Das Central                   239 nights priced
-20:34:41 seekda   Bergland Design and Wellness Hotel  225 nights priced
-20:34:52 seekda   Hotel Arlberghaus                   90 nights priced
-20:35:05 hotelnetsolutions Hotel Schwarzschmied                340 nights priced
-20:35:07 Corona Dolomites Hotel Andalo: simplebooking HTTP 203 
-20:35:09 Sassdei My Active Suite Hotel: simplebooking HTTP 203 
-20:35:10 Cavallino Lovely Hotel: simplebooking HTTP 203 
-20:35:18 synxis   Grand Hotel Tremezzo                8 nights priced
-20:35:35 seekda   Evident Hotel Prägant               250 nights priced
-20:35:54 seekda   Hotel Salzburger Hof                237 nights priced
-20:36:12 seekda   Seehotel Einwaller                  248 nights priced
-20:36:23 seekda   Auenhotel                           87 nights priced
-20:36:39 seekda   Alpinhotel Berghaus Spa             203 nights priced
-20:36:51 seekda   Hotel Eden                          186 nights priced
-20:37:02 seekda   Hotel Alpin Spa Tuxerhof            171 nights priced
-20:37:14 seekda   Das Alois                           97 nights priced
-20:37:32 ericsoft Gran Paradiso Hotel Spa             8 nights priced
-20:37:45 synxis   Spa Hotel Jagdhof                   8 nights priced
-20:37:57 seekda   Alpeiner Nature Resort              275 nights priced
-20:38:11 seekda   Premium Activehotel Bergkonig       313 nights priced
-20:38:42 seekda   Hotel Der Stubaierhof               325 nights priced
-20:38:43 Grand Hotel Due Golfi: simplebooking HTTP 203 
-20:38:55 seekda   Hotel Gebhard                       152 nights priced
-20:38:56 engines: {'ids_due': 2, 'ids_found': 0, 'hotels_priced': 87, 'nights': 13142, 'errors': 36, 'shared_codes': 1, 'ids_coverage': '132/203 hotels on seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft, synxis, blastness'}
+00:10:09 Hotel Belvedere Grindelwald: simplebooking HTTP 203 
+00:10:28 seekda   Waldhotel Arosa                     121 nights priced
+00:10:42 hotelnetsolutions BelArosa Hotel                      208 nights priced
+00:10:53 synxis   Kulm Hotel                          8 nights priced
+00:10:54 Matterhorn FOCUS Design Hotel: simplebooking HTTP 203 
+00:10:55 Christiania Mountain & Spa: simplebooking HTTP 203 
+00:10:57 Grand Hotel Zermatterhof: simplebooking HTTP 203 
+00:11:12 synxis   Hôtel Angleterre                    8 nights priced
+00:11:25 seekda   Hotel  Bristol Salzburg             324 nights priced
+00:11:38 synxis   Hotel Sacher Salzburg               8 nights priced
+00:11:51 synxis   Hotel Sacher Wien                   8 nights priced
+00:12:10 ericsoft Hotel Mioni Pezzato & SPA           8 nights priced
+00:12:20 ericsoft Hotel La Maison Wellness & Spa      8 nights priced
+00:12:21 Hotel Bibione Palace: simplebooking HTTP 203 
+00:12:22 Hotel Montecristo: simplebooking HTTP 203 
+00:12:22 Hotel Torino Wellness & Spa: simplebooking HTTP 203 
+00:12:23 Hotel Miramare: simplebooking HTTP 203 
+00:12:40 blastness Monaco Suites Hotel                 8 nights priced
+00:12:40 Hotel Daniele: simplebooking HTTP 203 
+00:12:50 ericsoft Hotel Chalet all'Imperatore         8 nights priced
+00:12:51 Hotel Crozzon: simplebooking HTTP 203 
+00:12:52 Hotel Eden Roc: simplebooking HTTP 203 
+00:12:53 Hotel Tramonto D'oro: simplebooking HTTP 203 
+00:13:03 synxis   Lido Palace                         8 nights priced
+00:13:20 seekda   Naturhotel Leitlhof                 311 nights priced
+00:13:33 seekda   Granbaita Dolomites                 189 nights priced
+00:13:51 d_edge   St-Alban Hotel & Spa                262 nights priced
+00:14:09 seekda   Hotel Bären Titisee                 312 nights priced
+00:14:11 Romantik Hotel Schweizerhof & Spa: simplebooking HTTP 203 
+00:14:19 synxis   Grand Hotel Kronenhof               8 nights priced
+00:14:20 Parkhotel Margna: simplebooking HTTP 203 
+00:14:33 synxis   Chalet RoyAlp Hotel & Spa           8 nights priced
+00:14:35 Hotel Schweizerhof: simplebooking HTTP 203 
+00:14:36 Castello del Sole Beach Resort & SP: simplebooking HTTP 203 
+00:14:51 seekda   Grand Hotel Lienz                   350 nights priced
+00:15:03 seekda   Hotel Arlberg Lech                  37 nights priced
+00:15:18 seekda   Der Berghof                         146 nights priced
+00:15:31 seekda   Hotel Gotthard                      134 nights priced
+00:15:44 seekda   Hotel Austria Lech                  83 nights priced
+00:16:00 d_edge   Hotel Golden Star                   360 nights priced
+00:16:10 synxis   Hotel Clark Budapest                8 nights priced
+00:16:22 synxis   Hotel Vision Budapest               8 nights priced
+00:16:34 synxis   Boutique Hotel Victoria Budapest    8 nights priced
+00:16:45 synxis   Hotel Moments Budapest              8 nights priced
+00:16:58 seekda   Hotel Central                       234 nights priced
+00:17:12 seekda   Hotel Alte Schmiede                 230 nights priced
+00:17:25 seekda   Parkhotel Seefeld                   224 nights priced
+00:17:27 HOTEL MONTANA: simplebooking HTTP 203 
+00:17:40 seekda   Sonnen Resort                       39 nights priced
+00:17:41 Lindenhof: simplebooking HTTP 203 
+00:17:42 Hotel Sirenetta: simplebooking HTTP 203 
+00:17:53 ericsoft Hotel Galassia                      8 nights priced
+00:17:54 Hotel Bristol: simplebooking HTTP 203 
+00:17:55 Märchenhotel: simplebooking HTTP 203 
+00:18:15 seekda   AlpenParks Hotel & Apartment Orgler 344 nights priced
+00:18:31 seekda   Der Kapruner Hof                    304 nights priced
+00:18:48 seekda   Hotel Stadt Wien                    213 nights priced
+00:19:14 seekda   POP-UP Living Zell am See           363 nights priced
+00:19:26 synxis   Hotel & Restaurant Tannenhof        8 nights priced
+00:19:42 hotelnetsolutions Hotel Zur Pfeffermühle              214 nights priced
+00:20:01 seekda   Hotel Das Central                   239 nights priced
+00:20:15 seekda   Bergland Design and Wellness Hotel  225 nights priced
+00:20:28 seekda   Hotel Arlberghaus                   90 nights priced
+00:20:43 hotelnetsolutions Hotel Schwarzschmied                340 nights priced
+00:20:45 Corona Dolomites Hotel Andalo: simplebooking HTTP 203 
+00:20:45 Sassdei My Active Suite Hotel: simplebooking HTTP 203 
+00:20:46 Cavallino Lovely Hotel: simplebooking HTTP 203 
+00:20:55 synxis   Grand Hotel Tremezzo                8 nights priced
+00:21:14 seekda   Evident Hotel Prägant               250 nights priced
+00:21:34 seekda   Hotel Salzburger Hof                237 nights priced
+00:21:52 seekda   Seehotel Einwaller                  248 nights priced
+00:22:04 seekda   Auenhotel                           86 nights priced
+00:22:21 seekda   Alpinhotel Berghaus Spa             202 nights priced
+00:22:35 seekda   Hotel Eden                          186 nights priced
+00:22:48 seekda   Hotel Alpin Spa Tuxerhof            170 nights priced
+00:23:02 seekda   Das Alois                           96 nights priced
+00:23:20 ericsoft Gran Paradiso Hotel Spa             8 nights priced
+00:23:31 synxis   Spa Hotel Jagdhof                   8 nights priced
+00:23:45 seekda   Alpeiner Nature Resort              275 nights priced
+00:24:01 seekda   Premium Activehotel Bergkonig       313 nights priced
+00:24:32 seekda   Hotel Der Stubaierhof               325 nights priced
+00:24:33 Grand Hotel Due Golfi: simplebooking HTTP 203 
+00:24:48 seekda   Hotel Gebhard                       152 nights priced
+00:25:02 seekda   Hotel Fisserhof                     228 nights priced
+00:25:15 seekda   Hotel Toalstock                     212 nights priced
+00:25:37 seekda   Familienresort Buchau               289 nights priced
+00:25:50 seekda   Giardino Marling                    228 nights priced
+00:26:01 synxis   Boutique-Hotel Remorino             8 nights priced
+00:26:15 seekda   Landhaus Koller                     209 nights priced
+00:26:30 hotelnetsolutions Hotel Schwaigerhof                  256 nights priced
+00:26:32 Hotel Interalpen: simplebooking HTTP 203 
+00:26:44 seekda   Wanderhotel Taurerwirt              30 nights priced
+00:26:59 seekda   Alpines Gourmethotel Montanara      139 nights priced
+00:27:14 seekda   Dolomitengolf Suites                261 nights priced
+00:27:27 seekda   Naturhotel Waldklause               109 nights priced
+00:27:43 seekda   Adler Inn Tyrol Mountain Resort Sup 115 nights priced
+00:27:58 seekda   Hotel Alpenhof                      265 nights priced
+00:28:13 seekda   Das Kaltenbach - Nature Hotel       172 nights priced
+00:28:26 seekda   Romantik & Spa Alpen-herz           84 nights priced
+00:28:48 seekda   Hotel Sonnenpark                    330 nights priced
+00:29:02 hotelnetsolutions Das Naturhotel Chesa Valisa         272 nights priced
+00:29:16 seekda   Hotel Andy                          194 nights priced
+00:29:30 seekda   Alpenhotel Heimspitze               84 nights priced
+00:29:47 d_edge   Domaine de Montagne - Chalet Frère  338 nights priced
+00:29:48 Alloggio Agrituristico Albafiorita: simplebooking HTTP 203 
+00:30:04 d_edge   La Chèvre D'Or                      196 nights priced
+00:30:17 hotelnetsolutions Hotel VICTORIA                      295 nights priced
+00:30:25 synxis   Hotel Monte Cenci                   8 nights priced
+00:30:47 blastness Argentina Residenza Style Hotel     8 nights priced
+00:30:48 Hotel Villa Cattani Stuart: simplebooking HTTP 203 
+00:30:49 Savhotel Fiera Bologna: simplebooking HTTP 203 
+00:30:51 Hotel Spadari al Duomo True Stay: simplebooking HTTP 203 
+00:30:52 iQ Hotel Milano: simplebooking HTTP 203 
+00:31:01 synxis   Hermitage Hotel & Spa               8 nights priced
+00:31:13 blastness Gran Baita Hotel & Wellness Resort  8 nights priced
+00:31:14 Hotel Moresco: simplebooking HTTP 203 
+00:31:15 Hotel Dona Palace: simplebooking HTTP 203 
+00:31:27 synxis   Villa Cora                          8 nights priced
+00:31:37 synxis   Collegio alla Querce Auberge Collec 8 nights priced
+00:31:38 Hotel Ilaria: simplebooking HTTP 203 
+00:31:39 Torre Mozza: simplebooking HTTP 203 
+00:31:57 d_edge   Hotel D Geneva                      277 nights priced
+00:31:58 Art Deco Hotel Montana: simplebooking HTTP 203 
+00:31:58 engines: {'ids_due': 0, 'ids_found': 0, 'hotels_priced': 87, 'nights': 13127, 'errors': 36, 'shared_codes': 0, 'ids_coverage': '132/203 hotels on seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft, synxis, blastness'}
