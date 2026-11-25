@@ -1,230 +1,261 @@
-00:10:43 id NH Collection Olomouc Congress: ok 83021 NH Collection Olomouc Congress 2.03 km
-00:10:43 id Karlsbad Grande Madonna Spa & Welln: not found    km
-00:10:44 id Revelton Studios Karlovy Vary: ok 12933728 Revelton Studios Karlovy Vary 0.43 km
-00:10:45 id Chateau Mcely: ok 44849 Chateau Mcely 0.58 km
-00:10:45 id Hotel Davídek: ok 9272586 Hotel Davídek 1.52 km
-00:10:46 id Bed and Breakfast Zeevat: ok 9018843 Bed And Breakfast Zeevat 0.78 km
-00:10:46 id B&B bei Taferners: not found    km
-00:10:47 id Panorama Allgäu Spa Resort: not found    km
-00:10:47 id Landhaus Meine Auszeit: ok 10419788 Landhaus Meine Auszeit 0.28 km
-00:10:48 id Montara Suites: ok 9124644 Montara Suites Bodenmais 0.46 km
-00:10:49 id Alm- & Wellnesshotel Alpenhof: not found 34249 Alm- & Wellnesshotel Alpenhof 9.38 km
-00:10:50 id Alpenhotel Zechmeisterlehen: not found    km
-00:10:50 id Hotel Edelweiss Berchtesgaden: not found 10495414 Edelweiss 0.24 km
-00:10:51 id Das Achental: ok 33641 Resort Das Achental 0.38 km
-00:10:52 position 156675: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
-00:10:52 id Schloss Elmau: not found 10431392 Schloss Elmau Luxury Spa Retre 0.47 km
-00:10:53 id Bio Thermalhotel Falkenhof: not found    km
-00:10:54 id Hotel Villa Ludwig: ok 10199899 Villa Ludwig Suite Hotel & Cha 0.09 km
-00:10:54 id Das König Ludwig Inspiration Spa: not found    km
-00:10:55 id Hotel Muenchen Palace: not found    km
-00:10:55 id Hotel Torbräu: ok 32226 Hotel Torbräu 0.46 km
-00:10:56 id Mandarin Oriental, Munich: ok 41852 Mandarin Oriental 0.26 km
-00:10:56 id Hotel Metropol by Maier Privathotel: ok 11134 Hotel Metropol by Maier Privat 0.39 km
-00:10:58 id The Charles Hotel: not found 37722 Rocco Forte The Charles Hotel 0.43 km
-00:10:58 id Hotel Franks: ok 40989 Hotel Franks 0.65 km
-00:10:59 id Bichl 761: not found    km
-00:11:00 id Wellness & Naturresort Reischlhof: not found 13855450 Wellness & Naturresort Reischl 7.17 km
-00:11:00 id Wellness- & Sporthotel Jagdhof: ok 13024073 Wellness- & Sporthotel Jagdhof 0.18 km
-00:11:01 id Asam Hotel: ok 35627 Hotel ASAM 1.03 km
-00:11:01 id Hotel Restaurant VILLINO: not found    km
-00:11:02 id Wellnesshotel Zum Bräu: not found    km
-00:11:02 id Domresidenz: not found    km
-00:11:03 id Hotel Arthus: ok 39622 Hotel Arthus 0.28 km
-00:11:04 id Karls Hotel: not found 10576222 Hotel Schwertfirm 167.53 km
-00:11:05 id Hotel VICTORIA: not found 96028 Hotel Pension Victoria 379.0 km
-00:11:06 id Hotel Drei Raben: ok 57681 Hotel Drei Raben 0.46 km
-00:11:07 id Bomonti Hotel Nuremberg-West: not found    km
-00:11:08 id Aribo Hotel: not found 10283897 ARIBO Hotel Erbendorf 0.64 km
-00:11:09 id Mövenpick Hotel Stuttgart Airport: not found 317050 Mövenpick Hotel Stuttgart Airp 3.94 km
-00:11:11 id Hotel Kral: not found 35494 Apartment Hotel Kral 1.11 km
-00:11:12 id Hotel Boehler: not found    km
-00:11:12 id Historikhotel Gotisches Haus: not found    km
-00:11:13 id Hotel herrnschlösschen: not found    km
-00:11:13 id Hotel Bären Titisee: ok 10160540 Hotel Bären Titisee 0.27 km
-00:11:14 id Hotel Kesslermühle: ok 9261041 Hotel Kesslermühle 0.99 km
-00:11:14 id Hotel Bareiss: ok 18063637 Hotel Bareiss 0.87 km
-00:11:15 id Hotel Europäischer Hof Heidelberg: ok 41629 Hotel Europäischer Hof Heidelb 0.78 km
-00:11:16 id Neumühle Resort & Spa: not found 9156944 Neumühle Resort & Spa 4.91 km
-00:11:16 id Kunzmann's Hotel | Spa: not found    km
-00:11:17 id Hilton Garden Inn Mannheim: ok 13094724 Hilton Garden Inn Mannheim 1.14 km
-00:11:17 id Radisson Blu Hotel, Mannheim: ok 11242823 Radisson Blu Hotel 0.4 km
-00:11:19 id René Bohn: not found 33438 Hotel Aigner 168.82 km
-00:11:19 id Hotel Ketschauer Hof: ok 20728205 Ketschauer Hof 0.31 km
-00:11:21 id Hotel Suitess: not found 38790 Suitess - An der Frauenkirche 0.33 km
-00:11:21 id The Grand Green - Familux Resort: not found    km
-00:11:22 id Kimpton Main Frankfurt by IHG: not found    km
-00:11:22 id Hotel Domizil: ok 10958629 Hotel Domizil 0.36 km
-00:11:23 id Schlosshotel Kronberg: ok 41334 Schlosshotel Kronberg 0.99 km
-00:11:24 id Burghotel Auf Schönburg: ok 9022403 Burghotel Auf Schönburg 0.7 km
-00:11:24 id Hotel Rosenpark: ok 34486 Hotel Rosenpark 1.06 km
-00:11:25 position 26140868: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
-00:11:26 id The Guest House & Ski Lodge: not found 15962548 Guest House The Heart Of Dubro 964.88 km
-00:11:26 id Ski Breezy - Chalet D'Ile: not found    km
-00:11:27 id Chalet Les Trois Canards: not found    km
-00:11:27 id Chalet Marie Stuart: not found    km
-00:11:29 id Cairn Lodge: not found 20131 Cairn Bay Lodge 1284.62 km
-00:11:29 id AliKats Mountain Holidays - Ferme à: not found    km
-00:11:30 id Chalet Fourmiliere Morzine: not found    km
-00:11:31 id Vista Azzurra: not found 9280275 Affittacamere Vista Mare 275.62 km
-00:11:32 id Chalet Savoie Faire: not found 10563128 Chalet Montana Airelles 32.76 km
-00:11:32 id Le Mas du Chanoine: ok 10598815 Le Mas du Chanoine 1.45 km
-00:11:33 id La Bousquetiere: not found    km
-00:11:33 id Maison d'Hôtes Bleu Azur: not found    km
-00:11:34 id Mas Samarcande: not found 10471432 Diyora Malika 4888.51 km
-00:11:35 id Villa Le Port d'Attache: ok 11129453 Villa Le Port d'Attache 1.08 km
-00:11:36 id Au Nid Cosy D'Isa: not found    km
-00:11:37 id L'alpen Roc: not found 13618692 Gîte Les Deux Roches 19.95 km
-00:11:38 id Mas la Jaina: not found 5624 La Tortiola Country Hotel 416.53 km
-00:11:39 id Villa Bacchus maison d’hote Gay onl: not found    km
-00:11:40 position 32487682: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
-00:11:41 id Les Aurochs: not found 10375995 Twardokus 1134.54 km
-00:11:41 position 12442407: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
-00:11:42 id Villa de Lorgues: ok 13723242 Villa Colibri 0.14 km
-00:11:42 id Le Mas de Cotignac: ok 10049674 Le Mas de Cotignac 2.35 km
-00:11:43 position 26081126: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
-00:11:44 id Chut ! c'est ici: not found 27946 ibis Styles Paris Gare de l'Es 634.1 km
-00:11:44 id Couette d'Azur: not found    km
-00:11:45 id La Demeure Insoupçonnée: not found    km
-00:11:45 id The Address Cassis: ok 12966763 The Address Cassis 0.66 km
-00:11:46 id Hôtel Les Suites - Maison Bouvier: ok 11216 Hôtel Les Suites - Maison Bouv 0.29 km
-00:11:46 id Hotel Mont-Blanc: ok 460490 Hôtel Mont Blanc Chamonix 0.09 km
-00:11:47 id Hotel Gabriel: not found 10491 Hôtel Gabriel - Nouveauté 2025 0.81 km
-00:11:48 id L'Aiguille Grive Chalets Hotel: not found    km
-00:11:48 id Chilly Powder: ok 9057140 Chilly Powder - Hôtel au Coin  0.11 km
-00:11:49 id Armancette Hôtel, Chalets & Spa: not found    km
-00:11:49 id Hotel Cap Estel: ok 11348445 Hôtel Cap-Estel 1.51 km
-00:11:50 id Simply Morzine - Chalet des Montagn: not found    km
-00:11:50 id La Chèvre D'Or: ok 595677 Château de La Chèvre d’Or 0.06 km
-00:11:52 id Hotel La Bergerie: not found 10578689 Hôtel La Bergerie 14.32 km
-00:11:52 id Hotel Le Samoyede: not found    km
-00:11:52 id Chateau Eza: ok 97629 Chateau Eza 0.05 km
-00:11:53 id RockyPop Flaine: ok 18074411 RockyPop Flaine Appartements & 0.15 km
-00:11:53 id Hotel Champs Fleuris: ok 10192943 Hôtel Champs Fleuris Morzine 0.47 km
-00:11:54 id Chalet Hotel Fleur des Neiges: not found    km
-00:11:55 id Hotel Carlton: ok 26873 Hôtel Carlton 0.56 km
-00:11:55 id Grand-Hôtel du Cap-Ferrat, A Four S: ok 10541740 Grand-Hôtel du Cap-Ferrat 0.63 km
-00:11:57 id Hôtel Saint-Georges: not found 25535 ibis Nuits-Saint-Georges 191.36 km
-00:11:57 id Aparthotel AMMI Vieux Nice: not found    km
-00:11:58 id La Maison Des Tetes - Relais & Chât: not found    km
-00:11:58 id Palais Saleya: ok 11639487 Palais Saleya Boutique Hôtel 0.29 km
-00:11:59 id Aparthotel AMMI Nice Lafayette: ok 79833 Hotel Aparthotel AMMI Nice Laf 0.21 km
-00:11:59 id Hôtel Nice Côte d'Azur: ok 158657 Boutique Hôtel Nice Côte d'Azu 0.3 km
-00:12:00 id Hotel Cour Du Corbeau Strasbourg MG: ok 22080 Cour du Corbeau Hotel Strasbou 0.16 km
-00:12:00 id Hotel Le Bouclier D'or: not found    km
-00:12:01 id Hotel Tandem: not found 24010 Tandem Hotel 271.03 km
-00:12:02 id Hôtel Le Savoy Méribel: ok 9109346 Hôtel Le Savoy Méribel 0.14 km
-00:12:03 id Lodji Hotel: not found 10007818 Hotelik Relax H360 1186.18 km
-00:12:03 id Hotel 16|150: not found    km
-00:12:04 id Villa St Maxime, Hotel Saint Paul d: not found    km
-00:12:05 id Le Domaine du Mas de Pierre: ok 26883 Le Domaine du Mas de Pierre 1.57 km
-00:12:06 id St-Alban Hotel & Spa: not found 33320663 Spacious Family Home Near Melb 16492.13 km
-00:12:06 id Hotel Au Coeur du Village: ok 98924 Au Coeur du Village 0.08 km
-00:12:07 id Hôtel Chalet Alpage: ok 12278802 Hotel Chalet Alpage 2.65 km
-00:12:07 id Regent Carlton Cannes: ok 30277 Carlton Cannes 0.74 km
-00:12:08 id Hotel de Provence: ok 26868 Hotel De Provence 0.6 km
-00:12:09 id Suites de la Tour: not found 9149595 Les Suites de la Potinière 35.49 km
-00:12:10 id Domaine de Montagne - Chalet Frère : ok 31535302 Domaine de Montagne  Chalet Fr 1.81 km
-00:12:11 id Hotel Les Grillons: not found 11490862 Camping Les Grillons 141.81 km
-00:12:12 id Hôtel Interlaken Lounge Bar & Spa: ok 12835914 Hôtel Interlaken Lounge Bar &  0.24 km
-00:12:12 id Auberge du Pere Bise - Jean Sulpice: not found    km
-00:12:13 id Hotel Chalet Mounier: ok 9027123 Hôtel & Spa - Châlet Mounier 1.63 km
-00:12:13 id Villa Rene Lalique: not found    km
-00:12:14 id Unique Hôtel & Residence: not found 11412291 Acropolis Unique Residence 1549.53 km
-00:12:15 id Petit Hotel Confidentiel: ok 9097578 Petit Hôtel Confidentiel 0.28 km
-00:12:16 id Villa Cosy Hôtel & Spa: not found 15120456 Spacious Bungalow in the Cosy  1107.36 km
-00:12:16 id Charembeau: ok 9135660 Hotel Charembeau 2.74 km
-00:12:17 id Hotel Le Griffon d'Or: not found    km
-00:12:18 id Hotel et Spa du Castellet: not found 345968 Hôtel & Spa du Castellet 5.11 km
-00:12:18 id Hôtel Maison Lacassagne: ok 45492 Hôtel Maison Lacassagne 0.58 km
-00:12:19 id Hotel Le Roosevelt: ok 26635 Hôtel Le Roosevelt 0.38 km
-00:12:19 id TRIBE Lyon Croix Rousse: not found    km
-00:12:20 id Les Loges du Théâtre: not found    km
-00:12:20 id Villa Maïa: ok 11681140 Villa Maïa 0.35 km
-00:12:22 id Hotel Victoria: not found 53554 One Shot Reina Victoria 745.76 km
-00:12:22 id Maison Pic: ok 22381 Maison Pic 1.83 km
-00:12:23 id La Casa Di Matiki: not found 9141449 Grecotel Casa Marron 997.82 km
-00:12:24 id Zrinka House: not found 11367260 House Branka 75.58 km
-00:12:25 id Plitvice Villa Verde: not found    km
-00:12:26 id B&B Kuća Bajlo: not found 7973 Hotel Buca di Bacco 391.17 km
-00:12:26 id Splendida Palace: ok 10231843 Splendida Palace 0.12 km
-00:12:27 id Hotel Peteani: not found    km
-00:12:28 id Esplanade Zagreb Hotel: ok 12992133 Esplanade Zagreb Hotel 0.62 km
-00:12:28 id Hyatt Regency Zadar: not found    km
-00:12:29 id Art Hotel Kalelarga: not found    km
-00:12:29 id Heritage Hotel Tisno: not found    km
-00:12:30 id Hotel Spongiola: ok 7335 Hotel Spongiola 0.56 km
-00:12:30 id Hotel Bellevue Trogir: ok 7386 Hotel Bellevue 0.32 km
-00:12:31 id Judita Palace Heritage Hotel: ok 149868 Judita Palace Heritage Hotel 0.11 km
-00:12:31 id Piazza Heritage Hotel: ok 20716447 Piazza Heritage Hotel 0.07 km
-00:12:32 id Cornaro Hotel: ok 11765262 Cornaro Hotel 0.24 km
-00:12:33 id Villa Split Heritage Hotel: ok 7306 Villa Matejuska Heritage 0.18 km
-00:12:33 id Golden Palace Split: not found    km
-00:12:34 id Heritage Hotel Antique Split: not found    km
-00:12:35 id Hotel Lemongarden: ok 10199896 Hotel Lemongarden 0.07 km
-00:12:35 id Hotel Plaza Duce: ok 11254438 Hotel Plaza Duce 0.61 km
-00:12:36 id Villa Nora Hvar: ok 9124740 Hotel Villa Nora 0.1 km
-00:12:36 id Hotel Fortuna: ok 80693 Hotel Fortuna 0.02 km
-00:12:37 position 12397904: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
-00:12:37 id Abuelas Beach House: not found    km
-00:12:38 id Aparthotel Tamaris: not found 1678 Aparthotel la Piramide 3210.92 km
-00:12:39 id Valamar Argosy Hotel: ok 6484 Valamar Argosy Hotel 0.55 km
-00:12:39 id Hilton Imperial Dubrovnik: ok 7562 Hilton Imperial Dubrovnik 0.37 km
-00:12:40 id Heritage Villa Nobile: ok 11531813 Heritage Villa Nobile Adults O 0.51 km
-00:12:40 id St. Joseph's Boutique Hotel: not found    km
-00:12:41 id Hotel Excelsior Dubrovnik: not found 6446 Hotel Excelsior 2.29 km
-00:12:42 id Hotel Supetar Cavtat: ok 9986 Hotel Supetar 0.16 km
-00:12:42 id Parliament Penthouse Budapest B&B: not found    km
-00:12:43 id Wellness Hotel Katalin: not found    km
-00:12:43 id Hotel Vinifera Wine & Spa: ok 27391924 Hotel Vinifera Wine & Spa 1.32 km
-00:12:44 id Mala Garden Design Hotel: not found    km
-00:12:44 id Maison Bistro & Hotel: ok 11350647 Maison Bistro & Hotel 0.42 km
-00:12:45 id Hilton Budapest: ok 43330 Hilton Budapest 0.22 km
-00:12:45 id Hotel Clark Budapest: ok 12062721 Hotel Clark Budapest- Adults O 0.97 km
-00:12:46 id Leon Hotel & Lounge: ok 43433 Leon Hotel & Lounge 1.22 km
-00:12:47 id Boutique Hotel Victoria Budapest: ok 43114 Boutique Hotel Victoria Budape 0.64 km
-00:12:47 id Hotel Vision Budapest: not found 13986441 Hotel Vision 1.32 km
-00:12:48 id Kimpton BEM Budapest by IHG: ok 30150736 Kimpton BEM Budapest by IHG 0.83 km
-00:12:49 id Bohem Art Hotel: ok 116115 Bohem Art Hotel 0.38 km
-00:12:50 id Matild Palace, a Luxury Collection : not found    km
-00:12:51 id Four Seasons Hotel Gresham Palace B: ok 522910 Four Seasons Gresham Palace 0.26 km
-00:12:51 id Prestige Hotel Budapest: ok 20771396 Prestige Hotel Budapest 0.26 km
-00:12:52 id Párisi Udvar Hotel Budapest: ok 13002938 Párisi Udvar Hotel Budapest 1.02 km
-00:12:53 id Emerald Hotel & Suites: not found 13850528 Emerald Suites 769.91 km
-00:12:54 id Hotel Memories Oldtown: ok 12992611 Hotel Memories OldTown 0.45 km
-00:12:55 id Aria Hotel Budapest by Library Hote: ok 20868521 Aria Hotel Budapest by Library 1.42 km
-00:12:56 id Hotel Collect: not found 6193 Hotel Eden - Dorchester Collec 808.94 km
-00:12:57 id Hotel Moments Budapest: ok 10499031 Hotel Moments Budapest 1.17 km
-00:12:57 id Ikonik Parlament: ok 43197 Ikonik Parlament 0.61 km
-00:12:58 id Opera Garden Hotel & Apartments: ok 178250 Opera Garden Hotel & Apartment 0.79 km
-00:12:59 id Cortile Hotel - Adults Only: not found    km
-00:12:59 id Hotel BoHo Budapest, an SLH Hotel: not found    km
-00:13:00 id Casati Hotel - Adults Only: not found    km
-00:13:01 id Eurostars Palazzo Zichy: ok 8311 Eurostars Palazzo Zichy 0.24 km
-00:13:02 id ESCALA Hotel & Suites: ok 116126 Escala Hotel & Suites 0.21 km
-00:13:02 id Kozmo Hotel Suites & Spa  - Small L: not found    km
-00:13:03 id Crowne Plaza Budapest By IHG: ok 790144 Crowne Plaza Budapest by IHG 0.54 km
-00:13:33 20 searches, 132 hotel-nights priced
-00:14:02 40 searches, 166 hotel-nights priced
-00:14:24 60 searches, 207 hotel-nights priced
-00:14:51 80 searches, 275 hotel-nights priced
-00:15:20 100 searches, 356 hotel-nights priced
-00:15:43 120 searches, 379 hotel-nights priced
-00:16:13 140 searches, 738 hotel-nights priced
-00:16:41 160 searches, 1210 hotel-nights priced
-00:17:10 180 searches, 1663 hotel-nights priced
-00:17:37 200 searches, 2077 hotel-nights priced
-00:18:00 220 searches, 2325 hotel-nights priced
-00:18:25 240 searches, 2628 hotel-nights priced
-00:18:50 260 searches, 2926 hotel-nights priced
-00:19:17 280 searches, 3046 hotel-nights priced
-00:19:46 300 searches, 3071 hotel-nights priced
-00:20:14 320 searches, 3143 hotel-nights priced
-00:20:40 340 searches, 3184 hotel-nights priced
-00:21:06 360 searches, 3220 hotel-nights priced
-00:21:30 380 searches, 3260 hotel-nights priced
-00:21:55 400 searches, 3296 hotel-nights priced
-00:22:21 420 searches, 3357 hotel-nights priced
-00:22:47 440 searches, 3407 hotel-nights priced
-00:22:50 442 searches, 3407 hotel-nights priced
-00:22:51 edreams: {'ids_due': 200, 'ids_found': 97, 'ids_missed': 103, 'calls': 442, 'priced': 3407, 'available': 3407, 'errors': 0, 'stored_nights': 6418, 'ids_coverage': '265/1500'}
+04:01:47 id EST Grand Hotel Savoy: ok 23124667 EST Grand Hotel Savoy 0.39 km
+04:01:47 id Hotel Oktogon Haggenmacher: ok 23385305 Hotel Oktogon Haggenmacher 0.39 km
+04:01:48 id Mystery Hotel Budapest, Preferred H: ok 12535581 Mystery Hotel Budapest 0.19 km
+04:01:49 id Corinthia Budapest: ok 43153 Corinthia Budapest 0.44 km
+04:01:50 id Anantara New York Palace Budapest H: ok 43219 Anantara New York Palace Budap 0.51 km
+04:01:51 id Up Hotel Budapest: not found 11899551 Upbeat Downtown 0.47 km
+04:01:52 id Bo33 Hotel Family & Suites: ok 12532916 Bo33 Hotel Family & Suites 0.17 km
+04:01:53 id Silvanus Hotel Visegrad: not found 178174 Silvanus Hotel 1.45 km
+04:01:53 id Castellum Hotel Hollókő: ok 11065659 Castellum Hotel Hollókő 0.43 km
+04:01:54 id 4 Evszak Hegyihotel: not found    km
+04:01:55 id Avalon Resort & Spa: not found 386861 Avaton Resort and Spa 1349.15 km
+04:01:56 id B&B Atelier Lidia Polla: not found    km
+04:01:57 position 10374497: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:01:57 id Sotto Il Faro B&B: not found    km
+04:01:58 id Alloggio Agrituristico Albafiorita: not found 9001825 Alloggio Agrituristico Albafio 3.21 km
+04:01:59 id Residenza de l'Osmarin Suites Guest: not found    km
+04:02:01 id 3C B&B: not found 32767112 Bolhão 3C in Oporto 1755.45 km
+04:02:01 id Ca' Barba B&B: ok 10400759 Ca' Barbaria 0.93 km
+04:02:02 position 14528422: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:02 id Bed and Breakfast You and Me: not found 11033218 Ana Bed and Breakfast 963.73 km
+04:02:04 id Al Teatro Bed & Breakfast: not found 12923665 L'Euforbia Bed and Breakfast 632.82 km
+04:02:05 id B&B Fortuny: ok 10850147 B&B Fortuny 0.42 km
+04:02:05 id Venice-BB-Venezia: not found 155714 Eco BB Venice 7.98 km
+04:02:06 id Campiello Zen: ok 52842 Hotel Campiello 2.04 km
+04:02:07 id Residenza Corte Antica: not found 47371 Antica Corte Charme Residence 85.8 km
+04:02:09 position 28480345: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:09 id B&B Vanessa House: not found 10979958 Q-Bar & Guest House 6408.81 km
+04:02:10 id Dimora Naviglio: ok 12816250 Dimora Naviglio B&B 1.12 km
+04:02:12 id B&B Casa Camilla: not found 13158462 B&B La Casa di Zio Lupo 233.73 km
+04:02:13 id B&B Il Melo: not found 9258906 Eden Meloneras by TAM Resorts 3099.4 km
+04:02:13 id Locanda in Borgo 1775: not found    km
+04:02:14 id Mountain Chalet Pra Ronch: not found    km
+04:02:14 id Boutique Hotel Clara: ok 11088112 B&B Boutiquehotel Clara 1.1 km
+04:02:15 id Agriturismo b&b Vista Parco: not found    km
+04:02:16 id Piazza Nova Guest House: ok 9097867 Piazza Nova Guest House 0.61 km
+04:02:16 id Alkimia Smart Rooms: ok 9003945 Alkimia Smart Rooms 0.17 km
+04:02:17 id B&b Pigiotto: not found 32491173 Giotto B&B 96.78 km
+04:02:18 id Tenuta Delo Relais: ok 9115969 Tenuta Delo Relais 0.94 km
+04:02:19 id Casa & Natura Breviglieri: not found    km
+04:02:20 id B&B Villa Beatrice: not found 23261233 2725 Villa Beatrice by Barbarh 791.43 km
+04:02:21 id B&B Cuore di Giulietta: ok 9132510 B&B Cuore di Giulietta 1.35 km
+04:02:22 position 16086784: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:22 id B&B Santo Stefano: not found 11516307 B&B Porte di Bologna 113.08 km
+04:02:24 id B&B Corte delle Pigne: not found 33148641 Twin Pines Family Cabin by Big 9722.98 km
+04:02:26 id B&B 2 Terrazze: not found 12626030 B&B Le Terrazze Boutique Hotel 266.43 km
+04:02:27 id Il Borgo di Via Chiesa: not found 12022840 Cheeva Dee Hotel 8365.79 km
+04:02:27 id Castello Di Monterado: ok 9026127 Castello Di Monterado 0.05 km
+04:02:28 id Hotel Opinione: not found    km
+04:02:29 id Dolcevita Ambiez Room & Breakfast S: not found    km
+04:02:29 id Bologna Nel Cuore B&B E Suites Di C: not found    km
+04:02:30 id Antica Residenza d'Azeglio: not found    km
+04:02:31 position 12076112: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:32 id Bed & Breakfast Santa Lucia: not found 13990998 Bay Heights Bed and Breakfast 7481.98 km
+04:02:33 position 18095346: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:34 id Tenne Lodges: not found 33568640 Duck Dive Lodge 7503.44 km
+04:02:35 id Alle Pendici del Conero: not found 12980914 Living Hotel De Medici 997.4 km
+04:02:36 id Jolly B&B - Affittacamere: not found    km
+04:02:37 id Viverenumana: not found    km
+04:02:38 id Airone House: not found 11800429 Aarondale Guest House 1627.14 km
+04:02:39 id Bellafiora Affittacamere: not found    km
+04:02:41 id Rooms Il Punto...: not found 10545564 Rooms & Breakfast Il Punto... 1.14 km
+04:02:41 id Maso Fior di Bosco: ok 10227195 Maso Fior di Bosco 0.09 km
+04:02:43 id B&B Gallo delle Pille: not found 23304952 Beach & Bay Stay 16470.34 km
+04:02:45 id Massoni Bed & Breakfast: not found 9085836 Massoni Bed And Breakfast 2.76 km
+04:02:46 position 26178164: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:48 id Sweet Life: not found 10074583 Sweet-Life Wellness Apartments 786.26 km
+04:02:49 position 12505532: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:51 id B&B Antica Maison: not found 12563965 Bohemian Suites Athens - Maiso 1046.26 km
+04:02:52 id B&B A Portata di Mare: not found 10453245 B&B Marcellina 519.81 km
+04:02:53 position 10408052: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:53 id B&B Le Noci di Feo: not found 28557684 Borgo Pinti Suites Le Stanze d 102.61 km
+04:02:54 position 10986137: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:55 id Agriturismo Il Casale: not found 10625202 Agriturismo Casale Il Pisciare 101.31 km
+04:02:56 position 9251534: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:57 position 9088728: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:02:57 id Bed & Breakfast Brigi: not found 10821745 Grateful Bed & Breakfast 8445.08 km
+04:02:58 position 30345397: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:00 position 13041798: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:00 id B&B Villa Cardeto: not found 10747205 Hotel Blue Home Vallarta 10445.62 km
+04:03:01 id Agriturismo Savernano: not found 9109330 Agriturismo Savernano 3.76 km
+04:03:02 id Villino di Porporano: ok 149779 Villino Di Porporano 0.49 km
+04:03:03 id Il Giglio d'Oro: not found 9071494 Ikaros Star Hotel 1423.57 km
+04:03:04 id Palazzo Gozzi Bed & Beauty: not found    km
+04:03:04 id Relais Villa Antea: not found    km
+04:03:05 position 30660782: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:05 id Cà Merlo: not found 11214321 Podere Castel Merlo Resort 62.83 km
+04:03:07 position 11390025: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:08 id San Bernardo: not found 31469338 San Bernardo Jardines de Muril 1652.35 km
+04:03:09 id B&b Il Grappolo Valtellina: not found    km
+04:03:09 id Gourmet Giglio Bianco B&B: not found    km
+04:03:10 id B&B Monte Oliveto: ok 9151643 B&B Monte Oliveto 0.59 km
+04:03:10 id Agriturismo Torre Morgana: not found    km
+04:03:11 id B&B Country House Poggio Del Drago: not found    km
+04:03:12 id Fiorenza B&B: not found 10193236 Duchess Boutique Hotel B&B 2.46 km
+04:03:13 id Casa Portagioia - Tuscany Bed and B: not found    km
+04:03:14 id Boutique Hotel Leone & Retreat Cent: not found    km
+04:03:14 id La terrazza Sulle Vigne B&B: not found    km
+04:03:15 id Locanda San Marco - Palazzo Caluri: not found    km
+04:03:15 position 10057735: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:16 position 17883669: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:16 id La Locanda dei Fiori: not found 9076562 la casa dei fiori 390.72 km
+04:03:17 id Battistero Residenza d'Epoca: ok 11715614 Battistero Residenza d'Epoca 0.07 km
+04:03:17 id Il Nascondiglio - The Hideaway: not found 9324720 Il Nascondiglio - The Hideaway 4.36 km
+04:03:18 id Ancora del Chianti Country B&B - Re: not found    km
+04:03:19 id Portica 10: ok 12995009 Portica 10 1.23 km
+04:03:20 id Alla Maison di Alessia: not found    km
+04:03:23 id Assisium Agriturismo: not found 169675 Agriturismo La Mora 1.34 km
+04:03:23 position 10863206: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:24 position 11590142: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:24 id Isole e Tramonti: not found 27390698 Rondaia Boutique Vineyard Stay 887.78 km
+04:03:26 id Casa Bellavista B&B: not found 178572 Casa Bellavista 9.91 km
+04:03:26 id Residence Terra Dei Santi Country H: not found    km
+04:03:28 id Palazzo Malaspina: ok 9153547 Palazzo Malaspina 0.08 km
+04:03:29 position 13089949: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:30 id Villa Fortezza: not found 127303 Villa Apartments - Porto Letiz 500.02 km
+04:03:31 id Casa La Pace Bed and Breakfast: not found    km
+04:03:31 id Locanda Le Boscarecce: not found 351554 Locanda Le Boscarecce 3.36 km
+04:03:32 id FonteAntica: not found    km
+04:03:32 id Castello delle Serre: not found    km
+04:03:33 position 26158489: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:35 id Siena House: not found 11213467 La Terrazza Sul Campo Rooming  37.7 km
+04:03:37 id Like Home: not found 30319834 Like Home 681.27 km
+04:03:37 id Agriturismo i Mille Ulivi: not found    km
+04:03:38 position 10370453: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:39 position 12820648: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:39 id B&B Casa Laura: not found 30405754 LA CASA DI LAURA B&B 128.48 km
+04:03:40 id Antico Sipario Boutique Hotel: not found    km
+04:03:41 position 9140314: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:42 id Follonico: not found 10578673 Il Veliero 85.22 km
+04:03:42 id Tenuta delle Rose: not found 353699 Rodeway Inn Norcross 7857.77 km
+04:03:43 id Bed and Breakfast Il Ceppo: not found    km
+04:03:44 id Al Giardino degli Etruschi: ok 9003074 Al Giardino degli Etruschi 2.84 km
+04:03:45 id Locanda San Francesco: not found 28557600 B&B SAN FRANCESCO CLASS 348.48 km
+04:03:46 id Residenza Dei Ricci: ok 10761860 Residenza Dei Ricci Relais 0.13 km
+04:03:47 id Torraccia di Chiusi: not found 17873785 Agriturismo Antica Chiesa San  528.68 km
+04:03:48 id Total Tuscany: not found 11455750 Altaluna Nisporto in Nisporto 114.94 km
+04:03:48 id Agriturismo Podere Grotta Antica: not found    km
+04:03:49 id Al Porto di Lucca B&B: not found 23305268 Alle Porte Dell Isola di Ortig 853.9 km
+04:03:50 id Il Canto del Sole: not found 15106096 Belvilla by OYO Cantito 967.58 km
+04:03:51 id La Chiusa delle Monache: not found    km
+04:03:52 position 10308113: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:53 id Bed and Breakfast San Francesco: not found 10562451 San Francesco Bed & Breakfast 586.98 km
+04:03:53 id Residenza d’Epoca La Rosa: not found    km
+04:03:54 id Tenuta La Santissima: not found    km
+04:03:56 id B&B Il Cuore: not found 23305581 Il Cuore di Nervi by Wonderful 96.14 km
+04:03:57 id Casa Fabbrini Val D'Orcia: not found    km
+04:03:58 position 30640494: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:03:58 id B&B Guerrazzi: not found 32371898 Appartamento Guerrazzi by Wond 115.37 km
+04:04:00 id Villa Tres Jolie: not found 30175348 Villa Erofili - Ionian Treasur 1285.3 km
+04:04:00 id B&B Michelangeli: ok 162116 B&B Michelangeli - Private Par 0.19 km
+04:04:01 id B&B Ripa Medici Rooms And Suites: not found    km
+04:04:03 position 17887588: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:04:04 id B&B Le City: not found 27344 Hôtel Les Menuires Les Bruyère 686.46 km
+04:04:06 id Bed & Breakfast Oasi: not found 9016334 Bed & Breakfast Le Oasi 491.5 km
+04:04:09 id Le Eriche B&B: not found 11284127 CGH Residence Boutique les Cha 200.35 km
+04:04:09 id Rosso Segnale Milano: not found    km
+04:04:11 id B&B Bronzino House: not found 10538531 Guest House Vojinovic 847.76 km
+04:04:12 position 12129247: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:04:12 id Nest on the Lake: not found 9313299 Best Western Premier The Lodge 7381.99 km
+04:04:13 id K34 Milano - Bed & Breakfast: not found    km
+04:04:14 id Moscova Luxury B&B: not found 121374 Nobil Luxury Boutique Hotel 1518.56 km
+04:04:15 id Agave in città: not found 12488365 Chios City Inn 1446.63 km
+04:04:16 id Cinqueterre Residence: not found    km
+04:04:16 id Home BB Milano: not found    km
+04:04:16 id CasaLorenza: not found    km
+04:04:17 id Alla Marina: ok 17244949 Alla Marina Affittacamere 0.11 km
+04:04:17 id Il Giardino Incantato Bed and Break: not found    km
+04:04:19 id Manuel's Guest House: not found 31029779 Guest House Villa Daniel 572.1 km
+04:04:19 id Villa Valentina: ok 10351271 Villa Valentina 1.46 km
+04:04:20 id Agriturismo Costa di Faraggiana: ok 9001985 Agriturismo Costa di Faraggian 1.57 km
+04:04:20 id B&B Giuggiolando: not found    km
+04:04:23 id Villa Vacasio: not found 11069069 Agriturismo Eco-Bio Villa Vaca 2.01 km
+04:04:25 id Casa Isabella B&B: not found 10503787 B&B CASABELLA 506.46 km
+04:04:25 id B&b Viterbo Antica: not found    km
+04:04:26 id Casale Sterpeti: not found    km
+04:04:26 id B&B Il Marchese del Grillo: not found    km
+04:04:27 id B&b Sei Stelle: not found 11614938 Hotel Mille Stelle City 912.7 km
+04:04:29 id Il Borgo di Genova: ok 10855432 Il Borgo di Genova 0.46 km
+04:04:29 id Bed and Breakfast Colle Selvotta: not found    km
+04:04:31 id La Casa del Giardiniere: not found    km
+04:04:32 id B&b Dimora Monsignore: not found    km
+04:04:33 id Garni B&B La Rua: not found 9040401 Garnì La Rua Nel Bosco 2.36 km
+04:04:34 id Agriturismo Fontefredda: not found    km
+04:04:34 id La Casa Sul Mare: ok 10385861 La Casa sul Mare 0.26 km
+04:04:35 id Bed and Breakfast Tre Civette Sul C: not found    km
+04:04:36 id OTTO Rooms & Photogallery: not found    km
+04:04:37 id Tinkerbell Roma: not found    km
+04:04:37 id QuodLibet: not found    km
+04:04:38 id Campanella3: not found 26888995 La Campanella 215.25 km
+04:04:39 id Domus Quiritum B&B: not found    km
+04:04:39 id Guest House Casa Martini: not found    km
+04:04:40 id Piazza Di Spagna 9: ok 10331116 Piazza di Spagna 9 0.14 km
+04:04:41 id Crossing Condotti: ok 800118 Crossing Condotti 0.15 km
+04:04:44 id Rome Armony Suites: not found 33539948 Onur Home Suites of München 696.4 km
+04:04:45 id A Peace of Rome: ok 9015370 A Peace Of Rome 0.48 km
+04:04:46 id Gli Scipioni 53 - Alloggio per Uso : ok 11431491 Alloggio per uso turistico DAm 0.88 km
+04:04:47 id Maison Trevi: not found 12250786 Maison Tritone 0.33 km
+04:04:48 id Castel Sant'Angelo Inn: not found    km
+04:04:48 id Locanda del Sole Luxury Suite Rome: not found    km
+04:04:49 id Domus Alberti: ok 10470762 Domus Alberti 0.04 km
+04:04:49 id Assunta Domus - Elegant Suite: not found    km
+04:04:51 id I Capocci: not found 10272612 Casa I Cappuccini 1.3 km
+04:04:52 id Aldebaran Bed & Breakfast: ok 9288294 Aldebaran Bed and Breakfast 0.2 km
+04:04:52 id La Finestra sul Colosseo B&B: not found    km
+04:04:53 id Feliz In Roma: ok 11835814 Feliz In Roma 0.7 km
+04:04:54 id B&B Beside The Vatican: ok 10398211 Beside the Vatican 1.08 km
+04:04:54 id Aurelio Aquilone B&B: not found    km
+04:04:55 id B&B Da Nonna LI: not found    km
+04:04:56 position 13811724: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:04:56 id Olive Tree Hill B&B: not found 26971501 Olive Tree Villa by Estia 649.2 km
+04:04:57 id Colfelice Rooms: not found    km
+04:04:57 id Althea Inn Roof Terrace: ok 10358071 Althea Inn Roof Terrace 0.67 km
+04:04:59 id Casa Eli Roma: not found 13728741 B&B Casa Museo Elio Romano 501.05 km
+04:05:00 id Relais Villa Del Borgo: ok 11628310 Relais Villa del Borgo 0.28 km
+04:05:00 id Villa Fontana Relais Suite & Spa: not found    km
+04:05:02 position 13412517: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:05:03 id Albis Rooms: not found 28557775 Donna Elena Rooms 228.03 km
+04:05:04 position 12470206: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:05:05 id B&B Retro: not found 23357920 Belvilla by OYO Bottrigo A Ret 439.38 km
+04:05:06 id Rome Airport Inn: ok 10697195 Rome Airport Inn 1.18 km
+04:05:06 id Agriturismo Torre dei Preti: not found    km
+04:05:08 id Borgese Camere e Suites: not found 6656 PREMIER SUITES PLUS Antwerp 771.78 km
+04:05:10 id Cascina Giardini: not found 10239974 Giardino della Pieve Relais 225.06 km
+04:05:10 position 11299488: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:05:11 position 33142349: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:05:12 id B&B  Navicri: not found 12816250 Dimora Naviglio B&B 513.07 km
+04:05:13 id B&B I Cordari: ok 11599654 I Cordari B&B 0.44 km
+04:05:14 id Cascina Sant'Eufemia: not found    km
+04:05:14 position 23550040: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:05:15 id La Rosa Gialla: not found 10896548 A Casa di Giallo Guest House 480.44 km
+04:05:15 id Colazione da Augusta: ok 12442691 Colazione da Augusta 0.42 km
+04:05:16 position 26116483: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:05:17 id Villa Olga: not found 13156084 Olga Villa 870.16 km
+04:05:18 id Volver B&B: not found 12377321 La Maison Volver 782.9 km
+04:05:19 id Les Trompeurs Chambres D'Hotes: not found    km
+04:05:20 position 9150438: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
+04:05:20 id Maison Bondaz: not found 12023835 Maison Bionaz Ski & Sport 6.1 km
+04:05:54 20 searches, 448 hotel-nights priced
+04:06:26 40 searches, 919 hotel-nights priced
+04:06:59 60 searches, 1329 hotel-nights priced
+04:07:29 80 searches, 1645 hotel-nights priced
+04:07:59 100 searches, 2063 hotel-nights priced
+04:08:30 120 searches, 2455 hotel-nights priced
+04:09:00 140 searches, 2828 hotel-nights priced
+04:09:29 160 searches, 2875 hotel-nights priced
+04:09:59 180 searches, 2910 hotel-nights priced
+04:10:31 200 searches, 2967 hotel-nights priced
+04:11:01 220 searches, 3003 hotel-nights priced
+04:11:31 240 searches, 3047 hotel-nights priced
+04:12:01 260 searches, 3086 hotel-nights priced
+04:12:30 280 searches, 3122 hotel-nights priced
+04:12:57 300 searches, 3184 hotel-nights priced
+04:13:25 320 searches, 3234 hotel-nights priced
+04:13:57 340 searches, 3271 hotel-nights priced
+04:14:27 360 searches, 3290 hotel-nights priced
+04:14:55 380 searches, 3318 hotel-nights priced
+04:15:25 400 searches, 3359 hotel-nights priced
+04:15:50 420 searches, 3428 hotel-nights priced
+04:16:22 440 searches, 3441 hotel-nights priced
+04:16:27 441 searches, 3443 hotel-nights priced
+04:16:28 edreams: {'ids_due': 200, 'ids_found': 44, 'ids_missed': 156, 'calls': 441, 'priced': 3443, 'available': 3443, 'errors': 0, 'stored_nights': 9055, 'ids_coverage': '309/1500'}
