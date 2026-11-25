@@ -1,24 +1,110 @@
-#HOTEL Hotel Waldstein
-#ENTITY 
-Skip to main content
-Accessibility feedback
-Explore
-Flights
-Hotels
-Holiday rentals
-Sign in
+#HOTEL Hotel Champs Fleuris
+#ENTITY https://www.google.com/travel/hotels/entity/ChcI__LYho_y8aRFGgsvZy8xdms2eTM5OBAB
+Back to hotels
+Auvergne-Rhône-Alpes
+Rhone-Alpes
+Morzine
+Hôtel Champs Fleuris
+OverviewPrices
+ReviewsLocationAboutPhotos
+Check-in
+Check-out
 2
-All filters
-Price
-Offers
-Guest rating
-Hotel class
-Amenities
-Eco-certified
-Sort by
-No results
-Update your filters or search area to see options.
-Currency​USD
+Nightly price with fees
+Free cancellation only
+Available for 18 – 19 Dec for €542.
+People also viewed
+€280
+L'Equipe
+4.5
+(203)
+Chalet-style hotel with a pool & dining
+0,1 km away
+€357
+Chalet Hotel La Marmotte, La Tapiaz Spa, The Originals Relais
+4.4
+(1.0k)
+Cozy lodging with a brasserie & a pool
+3,7 km away
+€643
+Hôtel Alpina & SPA Restaurant Oxalis
+4.6
+(630)
+Refined option with a pool & restaurant
+3,8 km away
+€134
+Hôtel le Concorde
+4.2
+(173)
+0,6 km away
+Hôtel La Bergerie
+4.8
+(127)
+Warm chalet-style venue with a pool
+0,1 km away
+Hôtel Les Bruyères
+4.7
+(113)
+Rustic chalet with dining & a pool
+0,5 km away
+Popular hotels
+Chalet Carclion - Riders Refuge
+5.0
+(22)
+Free breakfast
+0,9 km away
+Treeline Chalets - Chalet Doyen
+5.0
+(4)
+1 km away
+More Mountain - Chalet Beau (The ARK)
+5.0
+(3)
+0,4 km away
+Neige Et Soleil
+5.0
+(2)
+0,9 km away
+Chalet Poudreuse - Skiweekends
+5.0
+(2)
+5,7 km away
+Chalet Kerasia
+5.0
+(1)
+0,9 km away
+Holiday rentals nearby
+€495/night
+16 – 19 Dec
+Simply Morzine - Chalet Petit Central
+3 bedroomsSleeps 6
+0,5 km away
+€490/night
+30 Nov – 6 Dec
+New apartment mountain view - 6 guests
+3 bedroomsSleeps 6
+0,5 km away
+€524/night
+12 – 18 Dec
+CHALENDE 12 : Au coeur du village et à 200m des pistes
+Sleeps 5
+0,1 km away
+€601/night
+10 – 16 Dec
+The best location for 6 people opposite the slopes right in the center
+3 bedroomsSleeps 6
+0,1 km away
+€885/night
+29 Nov – 6 Dec
+Super location. Close To Both The Lifts And Village Centre
+4 bedroomsSleeps 8
+0,2 km away
+€229/night
+29 Nov – 4 Dec
+Efanle 2
+2 bedroomsSleeps 4
+0,75 km away
+Currency​EUR
 Your results may be based on your Timeline. Learn more
 About
 Privacy
@@ -26,17 +112,15 @@ Terms
 Join user studies
 Report illegal content
 Feedback
+Pricing issues
 Help Centre and Consumer Information
+About this data
+Web results
 
 Displayed currencies may differ from the currencies used to book properties. Learn more
 
-Update list
-Off
-Walk
-Drive
-Public transport
-Areas for dining
-Attractions
-Areas for shopping
-Loading map
-Page loaded.
+Hôtel Champs Fleuris
+Page loaded. 
+#VENDOR_LINKS
+Visit site for Hôtel Champs Fleuris	https://www.hotel-champs-fleuris.com/
+Featured in 10 Best Ski Resorts in France 2020/2021Visit site	https://www.sno.co.uk/ski-resort/best-ski-resorts-france/
