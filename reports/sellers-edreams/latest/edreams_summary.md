@@ -1,3 +1,3 @@
 ## eDreams
 
-Hotels found on eDreams: 383/1500 (this pass: 74 found, 126 not found of 200 looked up). Prices: 435 searches, 4137 hotel-nights priced; 10160 nights stored; 0 errors.
+Hotels found on eDreams: 448/1500 (this pass: 65 found, 135 not found of 200 looked up). Prices: 442 searches, 2437 hotel-nights priced; 12473 nights stored; 0 errors.
