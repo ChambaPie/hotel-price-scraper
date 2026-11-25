@@ -1,118 +1,22 @@
-19:25:52 id Saint Hubertus Resort: not found    km
-19:25:54 id Hermitage Hotel & Spa: not found 403966 Sport Hotel Hermitage & Spa 603.57 km
-19:25:55 id Les Neiges d'Antan: not found 23251898 Fleur des Neiges 11.45 km
-19:25:56 id Grand Hotel Sitea: ok 47866 Grand Hotel Sitea 0.87 km
-19:25:57 id Principi di Piemonte | UNA Esperien: ok 48793 Principi di Piemonte | UNA Esp 0.81 km
-19:25:57 id Be Mate Torino Centro: ok 29607060 Be Mate Torino Centro 0.47 km
-19:25:58 id Turin Palace Hotel True Stay: ok 11216510 Turin Palace Hotel True Stay 0.98 km
-19:25:59 id Hotel Torino Wellness & Spa: ok 48064 Hotel Torino Wellness & Spa 0.25 km
-19:26:00 id Hotel Liliana Diano Marina: ok 9061405 Hotel Liliana Diano Marina 0.27 km
-19:26:00 id Relais Del Maro: ok 9103922 Relais Del Maro 0.26 km
-19:26:01 id Hotel Milleluci: ok 9062409 Hotel Milleluci 1.02 km
-19:26:02 id Le Reve Charmant: not found 30462102 Charming Shropshire Ground Lev 1030.29 km
-19:26:03 id La Maison Du Pont Relais | B&B Hote: not found    km
-19:26:03 id Relais du Paradis Chambres d'Hotes : not found    km
-19:26:05 id Relais Del Nazionale: not found 12663685 Hotel Perfectionist by Kelvish 6275.88 km
-19:26:06 id Apricus Locanda: not found 28715101 Apricus Suites 1725.32 km
-19:26:07 id Au Coeur des Neiges: not found 100582 Hotel Au Coeur Des Neiges Spa  3.37 km
-19:26:08 id Hotel Bouton d'Or - Courmayeur: not found    km
-19:26:09 id Gran Baita Hotel & Wellness Resort: not found    km
-19:26:09 id Auberge de la Maison: ok 73444 Auberge de La Maison 0.15 km
-19:26:10 id Borgobeltrani: not found    km
-19:26:11 id The Bellini House: ok 10036455 THE BELLINI HOUSE 0.31 km
-19:26:13 id It's Room Naples: not found 13234174 Sonevi Rooms Napoli 0.76 km
-19:26:14 id Santa Chiara Boutique Hotel: ok 10290527 Santa Chiara Boutique Hotel 0.18 km
-19:26:14 position 11458262: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
-19:26:15 id Hotel Etoile Des Neiges: not found 31790626 Etoiles des Neiges Luxe & Jacu 135.38 km
-19:26:16 id La Tuja Relais Du Parc: not found    km
-19:26:18 id Hotel Villa Garden: not found 9164270 Villa Martha Vintage Hotel B&B 692.65 km
-19:26:19 id Hotel Corallo Sorrento: ok 46568 Hotel Corallo Sorrento 0.78 km
-19:26:20 id Hotel Caravel Sorrento: not found    km
-19:26:20 id Hotel Lorelei Londres: not found    km
-19:26:21 id Grand Hotel Excelsior Vittoria: ok 2994 Grand Hotel Excelsior Vittoria 0.46 km
-19:26:22 id Magi House Relais: ok 113475 Magi House Relais 0.19 km
-19:26:22 id Bellevue Syrene: ok 48937 Bellevue Syrene 0.13 km
-19:26:23 id Grand Hotel De La Ville Sorrento: ok 46585 Grand Hotel De La Ville 0.57 km
-19:26:24 id Palazzo Marziale: ok 2027 Palazzo Marziale 0.23 km
-19:26:24 id Maison La Minervetta: ok 47863 Maison La Minervetta 0.12 km
-19:26:25 id Grand Hotel La Favorita: ok 61682 Grand Hotel La Favorita 0.13 km
-19:26:26 id Villa Oriana Relais: ok 46725 Villa Oriana Relais 1.3 km
-19:26:27 id Sorrento Flats: ok 148066 Sorrento Flats 0.15 km
-19:26:27 id Palazzo Jannuzzi Relais: ok 131562 Palazzo Jannuzzi Relais 0.43 km
-19:26:28 id Best Western Hotel La Solara Sorren: ok 48231 Best Western Hotel La Solara 0.46 km
-19:26:29 id Antiche Mura Hotel: ok 47350 Hotel Antiche Mura 0.46 km
-19:26:29 id Anna Belle Elegant Agriresort: not found    km
-19:26:30 id Le Sirenuse: ok 12779637 Le Sirenuse 0.07 km
-19:26:31 id Positano Art Hotel Pasitea: ok 46604 Positano Art Hotel Pasitea 0.14 km
-19:26:31 id Hotel Eden Roc: ok 2536 Hotel Eden Roc 0.43 km
-19:26:32 id Hotel Punta Regina: ok 47084 Punta Regina 0.23 km
-19:26:33 id Villa Magia: ok 10085851 Villa Magia 0.32 km
-19:26:33 id Romantic Relais Sorrento: not found    km
-19:26:34 id Hotel Miramalfi: ok 47700 Hotel Miramalfi 0.78 km
-19:26:35 id Villa Fiorella Art Hotel: ok 10200740 Villa Fiorella Art Hotel 0.37 km
-19:26:36 id Divina Costiera: not found    km
-19:26:37 id Hotel Prestige Sorrento: not found 52591 Hotel Prestige 2.59 km
-19:26:38 id Grand Hotel Due Golfi: ok 47627 Grand Hotel Due Golfi 0.65 km
-19:26:38 id Grand Hotel Tritone: ok 52771 Grand Hotel Tritone 1.54 km
-19:26:39 id Holidays Fico d'India: not found 30697285 Sakthi Holiday's Inn 8175.66 km
-19:26:40 id Hotel Pellegrino: ok 9063939 Hotel Pellegrino 1.1 km
-19:26:41 id Monastero Santa Rosa Hotel & Spa: not found    km
-19:26:42 id Hotel Sant'Agata: not found 17158918 Casual Raizes Porto Hotel by C 1927.22 km
-19:26:43 id Borgo Santandrea: ok 17872924 Borgo Santandrea 2.77 km
-19:26:43 id Casa Angelina: ok 47936 Casa Angelina 1.02 km
-19:26:44 id Hotel Tramonto D'oro: not found    km
-19:26:45 id Albadamare Boutique Hotel: not found    km
-19:26:45 id Hotel Margherita: ok 48028 Hotel Margherita 0.35 km
-19:26:46 id Hotel Ravesi: ok 20351 Hotel Ravesi 0.33 km
-19:26:47 id Principe Di Salina: ok 50765 Principe di Salina 0.5 km
-19:26:47 position 542890: eDreams HTTP 500: {"errors":[{"message":"Internal server error","path":["geoAccommodationLocation"],; from its search instead
-19:26:48 id Punta Barone: not found 17873844 Hotel Carabela La Pinta 2042.24 km
-19:26:49 id L'Ariana Isole Eolie - UNA Esperien: not found    km
-19:26:50 id Boutique Hotel Townhouse 27: ok 58444 Boutique Hotel Townhouse 27 0.09 km
-19:26:51 id Radisson Collection Hotel, Old Mill: not found 20850346 Radisson Collection Hotel 1.15 km
-19:26:52 id Hotel Mint: not found 10596613 Minturnae Hotel 671.16 km
-19:26:53 id Selection Apartments & Rooms: ok 260419 Selection Apartments & Rooms 0.53 km
-19:26:55 id SAINT TEN Hotel: not found 11339761 Saint Ten Boutique Hotel 0.65 km
-19:26:57 id Pri Lenart Hotel: not found 17868276 Hôtel Le Prieuré - Pra Loup 15 623.68 km
-19:26:59 id G Design Hotel: not found 10300488 Hotel Aura Design & Garden Poo 458.38 km
-19:27:00 id Barbo Palace Apartments and Rooms: not found    km
-19:27:00 id Dvor Tacen Bed and Breakfast: not found    km
-19:27:01 id Penzion Kaps: ok 10585384 Penzion Kaps 0.62 km
-19:27:03 id Garni Hotel Berc: not found 253280 Garni Weiherbach Mit Ferienwoh 163.94 km
-19:27:04 id Boutique Skipass Hotel: not found    km
-19:27:05 id Hotel Marrol's: not found 10549458 Hôtel Sabah 2592.51 km
-19:27:06 id Arcadia Boutique Hotel: ok 9534 Arcadia Boutique Hotel 1.23 km
-19:27:06 id Sheraton Bratislava Hotel: ok 63714 Sheraton Bratislava Hotel 1.48 km
-19:27:07 id Hotel Danubia Gate Bratislava: not found 23184 Danubia Gate 1.64 km
-19:27:08 id Wellness & Spa Hotel Kaskady: ok 24811 Wellness & Spa Hotel Kaskady 2.7 km
-19:27:09 id Wellness Hotel Chopok: not found    km
-19:27:10 id Grand Hotel Kempinski High Tatras: ok 63675 Grand Hotel Kempinski High Tat 0.6 km
-19:27:10 id Kontakt Wellness Hotel: not found    km
-19:27:11 id Hotel Lomnica: ok 11288741 Hotel Lomnica 0.08 km
-19:27:13 id B&B A Picture of Rome: not found 30457759 Picture-perfect Holiday Home i 1069.77 km
-19:27:14 id Al Colonnato di San Pietro Bed and : not found    km
-19:27:14 id My Bed Vatican Museum: ok 11812631 My Bed Vatican Museum 2.27 km
-19:27:58 20 searches, 183 hotel-nights priced
-19:28:44 40 searches, 397 hotel-nights priced
-19:29:15 60 searches, 456 hotel-nights priced
-19:29:49 80 searches, 637 hotel-nights priced
-19:30:24 100 searches, 902 hotel-nights priced
-19:30:59 120 searches, 1147 hotel-nights priced
-19:31:34 140 searches, 1374 hotel-nights priced
-19:32:12 160 searches, 1560 hotel-nights priced
-19:32:55 180 searches, 1915 hotel-nights priced
-19:33:39 200 searches, 2278 hotel-nights priced
-19:34:15 220 searches, 2473 hotel-nights priced
-19:34:45 240 searches, 2547 hotel-nights priced
-19:35:17 260 searches, 2680 hotel-nights priced
-19:35:47 280 searches, 2735 hotel-nights priced
-19:36:16 300 searches, 2791 hotel-nights priced
-19:36:44 320 searches, 2856 hotel-nights priced
-19:37:16 340 searches, 2915 hotel-nights priced
-19:37:47 360 searches, 2995 hotel-nights priced
-19:38:20 380 searches, 3222 hotel-nights priced
-19:38:52 400 searches, 3364 hotel-nights priced
-19:39:26 420 searches, 3447 hotel-nights priced
-19:39:58 440 searches, 3499 hotel-nights priced
-19:40:05 442 searches, 3532 hotel-nights priced
-19:40:07 edreams: {'ids_due': 92, 'ids_found': 48, 'ids_missed': 44, 'calls': 442, 'priced': 3532, 'available': 3532, 'errors': 0, 'stored_nights': 17634, 'ids_coverage': '598/1500'}
+23:16:47 20 searches, 64 hotel-nights priced
+23:17:16 40 searches, 129 hotel-nights priced
+23:17:47 60 searches, 199 hotel-nights priced
+23:18:19 80 searches, 267 hotel-nights priced
+23:18:54 100 searches, 407 hotel-nights priced
+23:19:22 120 searches, 470 hotel-nights priced
+23:20:07 140 searches, 658 hotel-nights priced
+23:20:51 160 searches, 845 hotel-nights priced
+23:21:20 180 searches, 912 hotel-nights priced
+23:21:51 200 searches, 988 hotel-nights priced
+23:22:23 220 searches, 1088 hotel-nights priced
+23:22:53 240 searches, 1145 hotel-nights priced
+23:23:23 260 searches, 1178 hotel-nights priced
+23:23:49 280 searches, 1235 hotel-nights priced
+23:24:20 300 searches, 1294 hotel-nights priced
+23:24:49 320 searches, 1374 hotel-nights priced
+23:25:16 340 searches, 1395 hotel-nights priced
+23:25:50 360 searches, 1817 hotel-nights priced
+23:26:24 380 searches, 2268 hotel-nights priced
+23:26:57 400 searches, 2731 hotel-nights priced
+23:27:30 420 searches, 3135 hotel-nights priced
+23:28:00 edreams: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 439, 'priced': 3346, 'available': 3346, 'errors': 0, 'stored_nights': 19829, 'ids_coverage': '598/1500'}
