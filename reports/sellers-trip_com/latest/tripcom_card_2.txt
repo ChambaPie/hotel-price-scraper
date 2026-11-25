@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=688&provinceId=0&districtId=0&countryId=106&destName=Hyatt%20Centric%20Murano%20Venice&searchWord=Hyatt%20Centric%20Murano%20Venice&searchType=H&optionId=1613528&searchValue=31%7C1613528*31*1613528*1&checkin=2027-04-15&checkout=2027-04-16&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 232.0, 'price_excl': 225.0, 'price_total': 232.0, 'breakfast': '', 'cancellation': ''}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=9515&provinceId=0&districtId=0&countryId=106&destName=Villa%20di%20Piazzano%20-%20Small%20Luxury%20Hotels%20of%20the%20World&searchWord=Villa%20di%20Piazzano%20-%20Small%20Luxury%20Hotels%20of%20the%20World&searchType=H&optionId=4371050&searchValue=31%7C4371050*31*4371050*1&checkin=2027-05-03&checkout=2027-05-04&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 1106.0, 'price_excl': 999.0, 'price_total': 1106.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,38 +11,37 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Hyatt Centric Murano Venice
-Thu, Apr 15
+Villa di Piazzano - Small Luxury Hotels of the World
+Mon, May 3
 -
-Fri, Apr 16
+Tue, May 4
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Venice
+Popular filters for Cortona
 
-Great 9+
-Based on guest reviews
+Family-friendly
+Homes & apts
+Breakfast & Dinner Included
 Breakfast included
 Hotel
 Free cancellation
+2 bedrooms
+Parking available
 Private toilet
-Book now, pay later
-2 beds
-Spa
-Luggage storage
 
 Budget
 
-(€0 - €460+)
+(€0 - €230+)
 Price per room per night (excl. taxes & fees)
-€0 - €70
-€70 - €110
-€110 - €160
-€160 - €250
-€250 - €460
-> €460
+€0 - €50
+€50 - €90
+€90 - €140
+€140 - €180
+€180 - €230
+> €230
 
 Property Type
 
@@ -50,25 +49,17 @@ Hotels
 Including hotels, resorts, and more
 Homes & apts
 Including homes, apartments, villas, and more
-Hostels
-Including hostels, inns, and more
 Show More
 
 Star rating
 
-Beach vacation
-
-Near Beach
-Pool
-Spa
-
 Location
 
-Straight-line distance from Hyatt Centric Murano Venice
+Straight-line distance from Villa di Piazzano - Small Luxury Hotels of the World
 No distance limit
-Piazza San Marco
-Venice City Center
-San Marco
+Cortona Old Town
+Terontola Cortona
+Stazione di Camucia-Cortona
 Show More
 
 Meals
@@ -87,9 +78,9 @@ Show More
 
 Room features
 
-Family room
-Lake view room
+Private villa
 Balcony
+Entire unit
 Show More
 
 Number of bedrooms
@@ -107,43 +98,36 @@ Show More
 
 Property facilities & services
 
-Parking available
-Luggage storage
 Pool
+Parking available
+Spa
 Show More
 
 Room facilities & services
 
-Private toilet
 Air conditioning
-Non-smoking rooms
+Private toilet
+Extra beds available
 Show More
-
-Opening/renovation time
-
-Within 6 months
-Within 1 year
-Within 2 years
 
 Property Features
 
-Great views
-Romantic vibes
 Family-friendly
+Self check-in
+Great views
 Show More
 
 Guest Impressions
 
-Ideal location
 Lots to do
-Sparkling clean
-Show More
+Ideal location
+Excellent service
 
 Room Size
 
-≥ 20㎡
-≥ 30㎡
-≥ 55㎡
+≥ 25㎡
+≥ 45㎡
+≥ 85㎡
 
 Payment
 
@@ -163,22 +147,20 @@ Extra Trip Coin Rewards
 
 Brands
 
-A&O
-AC hotels by Marriott
-Aman Resorts
-Show More
+Relais & Chateaux
+Small Luxury Hotels of the World
 
 Reviews
 
-500+
 200+
 100+
+50+
 
 Accessibility
 
-Assistive listening devices
 Handrails on stairs
 Handrails in hallways
+Pool ramp available
 Show More
 First booking offer!
 We'll apply the best discount for you at check-out
@@ -190,16 +172,19 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Hyatt Centric Murano Venice
-Near Murano IslandDai Do CancariMap
-Good
-134 reviews
-7.8
-Comfy roomsDuplex western-style houseDelicious breakfast
-King Room With Courtyard View
-1 king bed
-€225
-Total (incl. taxes & fees): €232
+Villa di Piazzano - Small Luxury Hotels of the World
+5.8 km from city center (straight-line distance)Map
+Great
+81 reviews
+9.1
+Century-old propertyVintage vibesOutdoor garden
+No. 6 of Instagrammable Hotels in Tuscany
+Junior Suite, 1 Queen Bed (Villa)
+1 queen bed
+Free Cancellation
+Breakfast included
+€999
+Total (incl. taxes & fees): €1,106
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
@@ -208,6 +193,6 @@ Hotels
 >
 Hotels in Italy
 >
-Hotels in Veneto
+Hotels in Tuscany
 >
-Hotels in Venice
+Hotels in Cortona

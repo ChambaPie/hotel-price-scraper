@@ -1,7 +1,4 @@
-11:43:42 Familienhotel Huber 2026-12-27: not in the answer ([])
-11:44:03 Familienhotel Huber 2027-06-27: not in the answer ([])
-11:44:25 Il Canto del Sole 2027-01-27: not in the answer ([])
-12:08:06 Hotel Rudolf 2027-06-23: Page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://www.trip.com/hotels/list?flexType=1&cityId=321
-12:13:23 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 111, 'priced': 38, 'available': 15, 'errors': 1, 'missing': 73, 'stored_nights': 309, 'ids_coverage': '1270/1500'}
+15:34:45 Hotel Quelle Nature Spa Resort 2027-06-16: not in the answer ([])
+15:35:07 L'Ariana Isole Eolie | UNA Esp 2026-12-03: not in the answer ([])
+15:35:38 Sportpension Aichholzer 2026-12-01: not in the answer ([])
+16:05:02 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 116, 'priced': 38, 'available': 13, 'errors': 0, 'missing': 78, 'stored_nights': 347, 'ids_coverage': '1270/1500'}
