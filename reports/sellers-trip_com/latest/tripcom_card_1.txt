@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=40381&provinceId=0&districtId=0&countryId=247&destName=Hotel%20Lomnica&searchWord=Hotel%20Lomnica&searchType=H&optionId=8987201&searchValue=31%7C8987201*31*8987201*1&checkin=2027-05-11&checkout=2027-05-12&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 184.0, 'price_excl': 160.0, 'price_total': 184.0, 'breakfast': 'included', 'cancellation': ''}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=33642&provinceId=0&districtId=0&countryId=106&destName=Sotrani&searchWord=Sotrani&searchType=H&optionId=15049966&searchValue=31%7C15049966*31*15049966*1&checkin=2027-03-06&checkout=2027-03-07&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 123.0, 'price_excl': 109.0, 'price_total': 123.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,26 +11,27 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Hotel Lomnica
-Tue, May 11
+Sotrani
+Sat, Mar 6
 -
-Wed, May 12
+Sun, Mar 7
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Tatranska Lomnica
+Popular filters for Trani
 
-Breakfast included
-Parking available
-Pool
-3 beds
+24-hour front desk
 Hotel
+Parking available
+Breakfast included
 Free cancellation
-Pets welcome
-Air conditioning
-Bathtub
+Great 9+
+Based on guest reviews
+Great views
+Private toilet
+Loft
 
 Budget
 
@@ -55,13 +56,19 @@ Show More
 
 Star rating
 
+Beach vacation
+
+Near Beach
+Pool
+Spa
+
 Location
 
-Straight-line distance from Hotel Lomnica
+Straight-line distance from Sotrani
 No distance limit
-Vysoké Tatry — Hory zážitkov • Tatranská Lomnica
-Obrovsky waterfall
-Ski Museum
+Hunter House
+Municipal Library "Giovanni Bovio"
+Palazzo delle Arti Beltrani - Pinacoteca Ivo Scaringi
 Show More
 
 Meals
@@ -69,6 +76,7 @@ Meals
 Breakfast included
 Dinner included
 Breakfast & Dinner Included
+Show More
 
 Bed type
 
@@ -79,9 +87,9 @@ Show More
 
 Room features
 
-Entire unit
-Bed in dormitory
-Mountain view room
+Loft
+Private villa
+Suite
 Show More
 
 Number of bedrooms
@@ -99,36 +107,40 @@ Show More
 
 Property facilities & services
 
-Pool
 Parking available
+Pool
 Pets welcome
 Show More
 
 Room facilities & services
 
-Air conditioning
+Jacuzzi
+Kitchen
 Private toilet
-Bathtub
 Show More
+
+Opening/renovation time
+
+Within 1 year
+Within 2 years
 
 Property Features
 
-Self check-in
 Great views
 Family-friendly
+Self check-in
+Show More
 
 Guest Impressions
 
 Lots to do
 Ideal location
-Excellent service
-Show More
 
 Room Size
 
-≥ 40㎡
-≥ 45㎡
-≥ 70㎡
+≥ 30㎡
+≥ 35㎡
+≥ 55㎡
 
 Payment
 
@@ -144,7 +156,7 @@ Free cancellation
 
 Brands
 
-APLEND
+Ibis Styles
 
 Reviews
 
@@ -154,9 +166,9 @@ Reviews
 
 Accessibility
 
+Handrails on stairs
+Braille signs
 Stair-free main entrance
-accessible facilities
-Accessible shower
 Show More
 First booking offer!
 We'll apply the best discount for you at check-out
@@ -168,26 +180,27 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Hotel Lomnica
-Near Vysoké Tatry Tatranska Lomnica Train StationLomnica parkMap
-Amazing
-33 reviews
-9.4
-Ski shuttleDelicious breakfastSpa
-No. 4 of Premium Hotels in Slovakia
-Standard Room (Historic, Attic)
-2 single beds or 1 queen bed
+Sotrani
+Near Trani - Stazione FSCasa de AgneteMap
+Outstanding
+50 reviews
+9.8
+Delicious breakfastBarPets welcome
+Comfort Triple Room
+Bed type randomly assigned by hotel
+Free Cancellation
 Breakfast included
-€160
-Total (incl. taxes & fees): €184
+Only 1 left at this price
+€109
+Total (incl. taxes & fees): €123
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in Slovakia
+Hotels in Italy
 >
-Hotels in Presov Region
+Hotels in Apulia
 >
-Hotels in Tatranska Lomnica
+Hotels in Trani
