@@ -1,3 +1,3 @@
 ## Vio.com (and Etrip, goSeek...)
 
-Hotels found on Vio: 695/1500 (this pass: 195 found, 105 not found of 300 looked up). Prices: 200 calendar calls, 17768 hotel-nights answered, 4139 sold by Vio itself; 34669 nights stored; 13 errors.
+Hotels found on Vio: 950/1500 (this pass: 255 found, 45 not found of 300 looked up). Prices: 232 calendar calls, 14453 hotel-nights answered, 4468 sold by Vio itself; 47831 nights stored; 4 errors.
