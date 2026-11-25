@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=9515&provinceId=0&districtId=0&countryId=106&destName=Villa%20di%20Piazzano%20-%20Small%20Luxury%20Hotels%20of%20the%20World&searchWord=Villa%20di%20Piazzano%20-%20Small%20Luxury%20Hotels%20of%20the%20World&searchType=H&optionId=4371050&searchValue=31%7C4371050*31*4371050*1&checkin=2027-05-03&checkout=2027-05-04&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 1106.0, 'price_excl': 999.0, 'price_total': 1106.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=1262&provinceId=0&districtId=0&countryId=106&destName=It%27s%20Room%20Naples&searchWord=It%27s%20Room%20Naples&searchType=H&optionId=21850075&searchValue=31%7C21850075*31*21850075*1&checkin=2026-12-18&checkout=2026-12-19&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 91.0, 'price_excl': 0.8, 'price_total': 91.0, 'breakfast': '', 'cancellation': ''}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,36 +11,37 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Villa di Piazzano - Small Luxury Hotels of the World
-Mon, May 3
+It's Room Naples
+Fri, Dec 18
 -
-Tue, May 4
+Sat, Dec 19
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Cortona
+Popular filters for Naples
 
-Family-friendly
-Homes & apts
-Breakfast & Dinner Included
-Breakfast included
 Hotel
+Great 9+
+Based on guest reviews
+Breakfast included
+Homes & apts
 Free cancellation
-2 bedrooms
-Parking available
-Private toilet
+Private bathroom
+Book now, pay later
+Free parking
+Pets welcome
 
 Budget
 
 (€0 - €230+)
 Price per room per night (excl. taxes & fees)
 €0 - €50
-€50 - €90
-€90 - €140
-€140 - €180
-€180 - €230
+€50 - €80
+€80 - €110
+€110 - €150
+€150 - €230
 > €230
 
 Property Type
@@ -49,17 +50,25 @@ Hotels
 Including hotels, resorts, and more
 Homes & apts
 Including homes, apartments, villas, and more
+Hostels
+Including hostels, inns, and more
 Show More
 
 Star rating
 
+Beach vacation
+
+Near Beach
+Spa
+Private beach
+
 Location
 
-Straight-line distance from Villa di Piazzano - Small Luxury Hotels of the World
+Straight-line distance from It's Room Naples
 No distance limit
-Cortona Old Town
-Terontola Cortona
-Stazione di Camucia-Cortona
+Via Caracciolo e Lungomare di Napoli
+Chiaia
+Port of Naples
 Show More
 
 Meals
@@ -78,9 +87,9 @@ Show More
 
 Room features
 
-Private villa
+Family room
+Suite
 Balcony
-Entire unit
 Show More
 
 Number of bedrooms
@@ -98,36 +107,43 @@ Show More
 
 Property facilities & services
 
-Pool
 Parking available
+Pets welcome
 Spa
 Show More
 
 Room facilities & services
 
 Air conditioning
+Jacuzzi
 Private toilet
-Extra beds available
 Show More
+
+Opening/renovation time
+
+Within 6 months
+Within 1 year
+Within 2 years
 
 Property Features
 
-Family-friendly
-Self check-in
 Great views
+Family-friendly
+Romantic vibes
 Show More
 
 Guest Impressions
 
-Lots to do
 Ideal location
-Excellent service
+Lots to do
+Sparkling clean
+Show More
 
 Room Size
 
+≥ 20㎡
 ≥ 25㎡
-≥ 45㎡
-≥ 85㎡
+≥ 40㎡
 
 Payment
 
@@ -147,21 +163,32 @@ Extra Trip Coin Rewards
 
 Brands
 
-Relais & Chateaux
-Small Luxury Hotels of the World
+B&B Hotels
+Best Western
+Best Western Plus
+Show More
 
 Reviews
 
+500+
 200+
 100+
-50+
 
 Accessibility
 
+Assistive listening devices
 Handrails on stairs
 Handrails in hallways
-Pool ramp available
 Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -172,19 +199,21 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Villa di Piazzano - Small Luxury Hotels of the World
-5.8 km from city center (straight-line distance)Map
+It's Room Naples
+Renovated in 2026
+SpaccanapoliNear Napoli Centrale Railway StationMap
 Great
-81 reviews
-9.1
-Century-old propertyVintage vibesOutdoor garden
-No. 6 of Instagrammable Hotels in Tuscany
-Junior Suite, 1 Queen Bed (Villa)
+92 reviews
+9.0
+Comfy roomsIdeal locationNewly renovated
+Superior Double Room, 1 Queen Bed, Non Smoking, Tower
 1 queen bed
-Free Cancellation
-Breakfast included
-€999
-Total (incl. taxes & fees): €1,106
+Earn €0.80 in Trip Coins
+€84
+€73
+Total (incl. taxes & fees): €91
+Special Discount
+12% off
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
@@ -193,6 +222,6 @@ Hotels
 >
 Hotels in Italy
 >
-Hotels in Tuscany
+Hotels in Campania
 >
-Hotels in Cortona
+Hotels in Naples
