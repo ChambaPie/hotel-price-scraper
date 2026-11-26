@@ -1,5 +1,1 @@
-14:38:48 Three Corners Avenue Hotel Budapest VI. : 'NoneType' object has no attribute 'get'
-14:38:49 id Three Corners Avenue Hotel: ok 120491102 Three Corners Avenue Hotel 0.01 km
-14:38:49 id Villa Paganini B&B: ok 2782035 Villa Paganini B&B 0.02 km
-14:38:49 id Inn Urbe Vaticano: ok 1972822 Inn Urbe Vaticano 0.02 km
-15:09:04 vio: {'ids_due': 3, 'ids_found': 3, 'ids_missed': 0, 'calls': 288, 'priced': 15408, 'available': 2417, 'errors': 1, 'stored_nights': 123797, 'ids_coverage': '1208/1500'}
+19:00:03 vio: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 288, 'priced': 19439, 'available': 3619, 'errors': 0, 'stored_nights': 123965, 'ids_coverage': '1208/1500'}
