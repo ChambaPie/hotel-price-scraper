@@ -1,3 +1,3 @@
 ## HRS (and hotel.de)
 
-Hotels found on HRS: 938/1500 (this pass: 0 found, 0 not found of 0 looked up). Prices: 240 calls, 5904 hotel-nights answered, 1203 available; 65568 nights stored; 0 errors.
+Hotels found on HRS: 938/1500 (this pass: 1 found, 2 not found of 3 looked up). Prices: 240 calls, 5910 hotel-nights answered, 1183 available; 71478 nights stored; 0 errors.

@@ -1,2 +1,5 @@
-10:48:19 took HRS's own hotel search from its results page
-10:59:08 hrs: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 240, 'priced': 5904, 'available': 1203, 'errors': 0, 'stored_nights': 65568, 'ids_coverage': '938/1500'}
+14:39:18 id Three Corners Avenue Hotel: not found 1126845 Three Corners Downtown Hotel H 0.83 km
+14:39:19 id Villa Paganini B&B: ok 2199533 Villa Paganini B&b 0.0 km
+14:39:24 id Inn Urbe Vaticano: not found 751492 Room Inn Rome 0.75 km
+14:39:25 took HRS's own hotel search from its results page
+14:49:04 hrs: {'ids_due': 3, 'ids_found': 1, 'ids_missed': 2, 'calls': 240, 'priced': 5910, 'available': 1183, 'errors': 0, 'stored_nights': 71478, 'ids_coverage': '938/1500'}
