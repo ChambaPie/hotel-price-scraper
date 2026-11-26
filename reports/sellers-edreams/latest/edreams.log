@@ -1,24 +1,22 @@
-03:07:27 20 searches, 419 hotel-nights priced
-03:07:58 40 searches, 826 hotel-nights priced
-03:08:29 60 searches, 1215 hotel-nights priced
-03:08:59 80 searches, 1237 hotel-nights priced
-03:09:27 Heritage Villa Nobile Adults O 2027-02-23: HTTP 500: {"errors":[{"message":"Internal server error","path":["searchAccommodation"],"extensions":{"code":"INT-01","se
-03:09:39 103 searches, 1287 hotel-nights priced
-03:10:10 123 searches, 1345 hotel-nights priced
-03:10:41 143 searches, 1402 hotel-nights priced
-03:11:19 163 searches, 1555 hotel-nights priced
-03:11:49 183 searches, 1681 hotel-nights priced
-03:12:19 203 searches, 1718 hotel-nights priced
-03:12:45 223 searches, 1757 hotel-nights priced
-03:13:14 243 searches, 1794 hotel-nights priced
-03:13:47 263 searches, 1890 hotel-nights priced
-03:14:18 283 searches, 1969 hotel-nights priced
-03:14:50 303 searches, 2045 hotel-nights priced
-03:15:21 323 searches, 2104 hotel-nights priced
-03:15:53 343 searches, 2214 hotel-nights priced
-03:16:23 363 searches, 2247 hotel-nights priced
-03:16:50 383 searches, 2295 hotel-nights priced
-03:17:20 403 searches, 2354 hotel-nights priced
-03:17:47 423 searches, 2410 hotel-nights priced
-03:18:15 440 searches, 2441 hotel-nights priced
-03:18:18 edreams: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 440, 'priced': 2441, 'available': 2441, 'errors': 1, 'stored_nights': 21644, 'ids_coverage': '598/1500'}
+06:58:10 20 searches, 35 hotel-nights priced
+06:58:38 40 searches, 94 hotel-nights priced
+06:59:05 60 searches, 147 hotel-nights priced
+06:59:36 80 searches, 228 hotel-nights priced
+07:00:08 100 searches, 329 hotel-nights priced
+07:00:41 120 searches, 418 hotel-nights priced
+07:01:15 140 searches, 558 hotel-nights priced
+07:01:46 160 searches, 622 hotel-nights priced
+07:02:17 180 searches, 669 hotel-nights priced
+07:02:45 200 searches, 695 hotel-nights priced
+07:03:33 220 searches, 914 hotel-nights priced
+07:04:19 240 searches, 1089 hotel-nights priced
+07:05:05 260 searches, 1291 hotel-nights priced
+07:05:54 280 searches, 1538 hotel-nights priced
+07:06:54 300 searches, 2020 hotel-nights priced
+07:07:53 320 searches, 2452 hotel-nights priced
+07:08:54 340 searches, 2960 hotel-nights priced
+07:09:52 360 searches, 3471 hotel-nights priced
+07:10:47 380 searches, 3887 hotel-nights priced
+07:11:15 400 searches, 3928 hotel-nights priced
+07:11:44 420 searches, 3978 hotel-nights priced
+07:12:15 edreams: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 434, 'priced': 4069, 'available': 4069, 'errors': 0, 'stored_nights': 25410, 'ids_coverage': '598/1500'}
