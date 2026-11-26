@@ -1,11 +1,7 @@
-14:39:50 id Three Corners Avenue Hotel: ok loarXX5G Three Corners Avenue Hotel 0.01 km (526 hotels in the area)
-14:39:50 id Villa Paganini B&B: not found RjbJZA9j Palm Gallery Hotel 0.07 km (2618 hotels in the area)
-14:39:50 id Inn Urbe Vaticano: ok MlyPVL6W Hotel Roma Vaticano 0.09 km (2624 hotels in the area)
-14:40:53 23 searches, 178 hotel-nights priced
-14:41:54 43 searches, 219 hotel-nights priced
-14:42:41 63 searches, 237 hotel-nights priced
-14:43:26 83 searches, 249 hotel-nights priced
-14:44:08 103 searches, 307 hotel-nights priced
-14:44:30 area 37409 2027-01-11: Error: recommender.getUnauthMapView HTTP 503: {"error":{"message":"Request failed with status code 503","code":-32603,"d
-14:45:34 122 searches, 537 hotel-nights priced
-14:45:36 super.com: {'ids_due': 3, 'ids_found': 2, 'ids_missed': 1, 'calls': 122, 'priced': 537, 'available': 537, 'errors': 1, 'stored_nights': 1946, 'ids_coverage': '524/1500'}
+18:30:56 20 searches, 55 hotel-nights priced
+18:31:37 40 searches, 71 hotel-nights priced
+18:32:21 60 searches, 88 hotel-nights priced
+18:33:06 80 searches, 131 hotel-nights priced
+18:33:44 100 searches, 175 hotel-nights priced
+18:34:23 120 searches, 188 hotel-nights priced
+18:34:26 super.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 120, 'priced': 188, 'available': 188, 'errors': 0, 'stored_nights': 2134, 'ids_coverage': '524/1500'}
