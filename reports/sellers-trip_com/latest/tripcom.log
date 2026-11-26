@@ -1,4 +1,7 @@
-18:30:38 Hotel Caravel 2027-03-09: not in the answer ([])
-18:31:00 Hotel Caravel 2027-09-07: not in the answer ([])
-18:31:28 Hotel Corallo Sorrento 2027-02-16: not in the answer ([])
-19:00:30 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 110, 'priced': 34, 'available': 12, 'errors': 0, 'missing': 76, 'stored_nights': 930, 'ids_coverage': '1270/1500'}
+22:22:05 Le Palais Art Hotel Prague 2027-09-09: not in the answer ([])
+22:24:32 Aparthotel City 5 2027-05-25: not in the answer ([])
+22:24:54 Aparthotel City 5 2027-11-23: not in the answer ([])
+22:25:56 Mandarin Oriental, Prague 2027-06-07: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.trip.com/hotels/list?flexType=1&cityId=128
+22:51:55 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 243, 'priced': 186, 'available': 123, 'errors': 1, 'missing': 57, 'stored_nights': 1116, 'ids_coverage': '1270/1500'}
