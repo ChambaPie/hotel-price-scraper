@@ -1,4 +1,4 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=1288&provinceId=0&districtId=0&countryId=162&destName=The%20Mozart%20Prague&searchWord=The%20Mozart%20Prague&searchType=H&optionId=748365&searchValue=31%7C748365*31*748365*1&checkin=2027-03-22&checkout=2027-03-23&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=49776&provinceId=0&districtId=0&countryId=106&destName=Life%20Hotel%204%20Superior&searchWord=Life%20Hotel%204%20Superior&searchType=H&optionId=55506309&searchValue=31%7C55506309*31*55506309*1&checkin=2027-06-26&checkout=2027-06-27&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
 Go to main content
 Hotels & Homes
 Flights
@@ -10,38 +10,38 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-The Mozart Prague
-Mon, Mar 22
+Life Hotel 4 Superior
+Sat, Jun 26
 -
-Tue, Mar 23
+Sun, Jun 27
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Prague
+Popular filters for San Michele al Tagliamento
 
+All Meals Included
 Hotel
 Breakfast included
-Great 9+
-Based on guest reviews
 Free cancellation
-Private toilet
+Family-friendly
 Parking available
-1 double bed
-Pay at Hotel
+Pool
+Elevator
 Balcony
+Air conditioning
 
 Budget
 
-(€0 - €350+)
+(€0 - €230+)
 Price per room per night (excl. taxes & fees)
-€0 - €60
-€60 - €100
-€100 - €150
-€150 - €230
-€230 - €350
-> €350
+€0 - €50
+€50 - €90
+€90 - €140
+€140 - €180
+€180 - €230
+> €230
 
 Property Type
 
@@ -49,19 +49,24 @@ Hotels
 Including hotels, resorts, and more
 Homes & apts
 Including homes, apartments, villas, and more
-Hostels
-Including hostels, inns, and more
 Show More
 
 Star rating
 
+Beach vacation
+
+Near Beach
+Pool
+Spa
+Show More
+
 Location
 
-Straight-line distance from The Mozart Prague
+Straight-line distance from Life Hotel 4 Superior
 No distance limit
-Old Town Square
-Prague 1
-Old Town
+Bibione beach
+Bibione Spiaggia
+La Perla Nera piazzale zenit
 Show More
 
 Meals
@@ -80,9 +85,9 @@ Show More
 
 Room features
 
-Family room
 Balcony
-Suite
+Family room
+Private villa
 Show More
 
 Number of bedrooms
@@ -101,41 +106,35 @@ Show More
 Property facilities & services
 
 Parking available
-Spa
-Gym
+Pool
+Pets welcome
 Show More
 
 Room facilities & services
 
-Private toilet
 Air conditioning
-Non-smoking rooms
+Balcony
+Kitchen
 Show More
-
-Opening/renovation time
-
-Within 1 year
-Within 2 years
 
 Property Features
 
-Great views
+Near Beach
 Family-friendly
-Romantic vibes
+Great views
 Show More
 
 Guest Impressions
 
-Ideal location
 Lots to do
-Sparkling clean
+Ideal location
+Excellent service
 Show More
 
 Room Size
 
-≥ 30㎡
 ≥ 40㎡
-≥ 70㎡
+≥ 50㎡
 
 Payment
 
@@ -149,28 +148,21 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
-Discounts
-
-Extra Trip Coin Rewards
-
 Brands
 
-A&O
-Adrez
-ALMANAC
-Show More
+Apogia Hotels
 
 Reviews
 
-500+
 200+
 100+
+50+
 
 Accessibility
 
-Assistive listening devices
 Handrails on stairs
-Handrails in hallways
+Braille signs
+Pool ramp available
 Show More
 Why book with Trip.com?
 We price match
@@ -191,177 +183,94 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-The Mozart Prague
-Wenceslas SquareStare MestoMap
+Life Hotel 4 Superior
+15 km from city center (straight-line distance)Map
 Amazing
-75 reviews
-9.4
-Design hotelCastle hotelSunset views
-No. 3 of Scenic Hotels in Czech Republic
+40 reviews
+9.6
+Pool barExcellent serviceOutdoor heated pool
 No availability on or around your selected dates
 The above properties only meet some of your requirements
 You may also like:
-The Botanist by Adrez
-Opened in 2025
-610m from your search (straight-line distance)Wenceslas SquareMap
-Great
-63 reviews
-9.2
-Comfy roomsIdeal locationGarden view
-Intimate Studio
-1 king bed
-Earn €0.74 in Trip Coins
-€103
-€63
-Total (incl. taxes & fees): €74
-Special Discount
-35% off
-Check Availability
-Sign in for member prices
-Hotel Caesar Prague
-790m from your search (straight-line distance)New TownMap
-Amazing
-59 reviews
-9.4
-Comfy roomsExcellent serviceIdeal location
-Standard Double or Twin Room
-1 queen bed or 2 single beds
-Earn €0.76 in Trip Coins
-€54
-€45
-Total (incl. taxes & fees): €55
-Special Discount
-14% off
-Check Availability
-Aparthotel Rimska 14
-1.6 km from your search (straight-line distance)VinohradyMap
-Great
-333 reviews
-9.3
-Free luggage storageIdeal location
-Smart Garden Cabin (No 010 - 060)
-Entire unit 16㎡1 bedroom1 bed
-24-hour Cancellation Window
-Earn €5.82 in Trip Coins
-€82
-Total (incl. taxes & fees): €116
-Check Availability
-Sign in for member prices
-City Pop Prague Aparthotel
-Opened in 2025
-1.4 km from your search (straight-line distance)New TownMap
+Olimpia Hotel & Aparthotel
+540m from your search (straight-line distance)Near Gasoline BibioneMap
 Very good
-145 reviews
+27 reviews
 8.7
-Sparkling cleanIdeal locationSelf check-in
-Classic Apartment
-1 queen bed
-Earn €0.74 in Trip Coins
-€67
-Total (incl. taxes & fees): €79
-Check Availability
-The Gold Bank
-1.5 km from your search (straight-line distance)New TownMap
-Very good
-659 reviews
-8.8
-Varied breakfastIdeal locationBar
-Standard Double or Twin Room
-1 queen bed or 2 single beds
-Earn €1.09 in Trip Coins
-€72
-€65
-Total (incl. taxes & fees): €77
-Special Discount
-9% off
-Check Availability
-Prague Dream Hostel
-1 km from your search (straight-line distance)New TownMap
-Very good
-511 reviews
-8.8
-American breakfastGaming areaBarbecue
-Private Room (2 Beds) - Shared Bathroom
-2 single beds
-24-hour Cancellation Window
-Earn €0.81 in Trip Coins
-€98
-€73
-Total (incl. taxes & fees): €86
-Limited Time Offer
-23% off
-Check Availability
-Sign in for member prices
-Monastery Garden Prague
-1 km from your search (straight-line distance)Stare MestoMap
-Great
-52 reviews
-9.1
-SpaVaried breakfastIdeal location
-Deluxe Double Room
-2 single beds or 1 king bed
+Excellent serviceOutdoor rooftop poolSparkling clean
+Standard Triple Room With Balcony
+1 queen bed and 1 sofa bed
 Breakfast included
-Earn €1.34 in Trip Coins
-€110
-€80
-Total (incl. taxes & fees): €94
-Special Discount
-25% off
+€218
+Total (incl. taxes & fees): €243
 Check Availability
-Hotel Cube Prague
-580m from your search (straight-line distance)New TownMap
-Amazing
-135 reviews
-9.6
-Comfy roomsExcellent servicePrivate terrace
-No. 4 of 4-Star Select Hotels in Czech Republic
-Superior Room
-2 single beds or 1 king bed
+Hotel Centrale
+9.8 km from your search (straight-line distance)Near Associazione Amici della Foghera, PertegadaMap
+Very good
+5 reviews
+8.5
+Buffet breakfastsBarPrivate parking
+Triple Room
+1 queen bed and 1 single bed
 Free Cancellation
 Breakfast included
-Earn €1.58 in Trip Coins
-€152
-€141
-Total (incl. taxes & fees): €162
-Special Discount
-7% off
+€113
+Total (incl. taxes & fees): €124
 Check Availability
-Michelangelo Grand Hotel
-650m from your search (straight-line distance)New TownMap
-Amazing
-127 reviews
-9.5
-Excellent serviceFree luggage storageIdeal location
-Deluxe Double or Twin Room
-1 double bed or 2 single beds
-Breakfast included
-Earn €1.98 in Trip Coins
-€136
-€118
-Total (incl. taxes & fees): €136
-Special Discount
-12% off
+Discover, Experience and Enjoy in Lignano
+New to Trip.com
+5.9 km from your search (straight-line distance)Pineta, Lignano PinetaMap
+Good
+5 reviews
+7.6
+Self check-inFree parkingCoffee machine
+Standard 2-Bed Room
+
+x5
+
+Entire vacation home 60㎡2 bedrooms2 beds
+Free Cancellation
+Only 1 left at this price
+€272
+Total (incl. taxes & fees): €350
 Check Availability
-Pure White
-1.9 km from your search (straight-line distance)VinohradyMap
-Amazing
-144 reviews
-9.4
-Excellent serviceVaried breakfastIdeal location
-Standard Double Room
-1 double bed or 2 single beds
-Earn €1.09 in Trip Coins
-€73
-€65
-Total (incl. taxes & fees): €77
-Special Discount
-10% off
-Check Availability
+No additional properties available.
 Trip.com
 >
 Hotels
 >
-Hotels in Czech Republic
+Hotels in Italy
 >
-Hotels in Prague
-Hi! TripGenie is here. Chat wi
+Hotels in Veneto
+>
+Hotels in San Michele al Tagliamento
+Hi! TripGenie is here. Chat with me no
+Contact us
+Customer support
+Service Guarantee
+More service info
+About
+About Trip.com
+News
+Careers
+Terms & Conditions
+Privacy Statement
+Accessibility Statement
+AI generated personalized content
+About Trip.com Group
+Other services
+Investor relations
+Trip.com Rewards
+AI Lab
+Affiliate program
+List your property
+All hotels
+Become a Supplier
+Security
+Payment methods
+Our partners
+iF Design Award 2026
+Contact Center
+of the year 2025
+Copyright © 2026 Trip.com Travel Singapore Pte. Ltd. All rights reserved
+Site Operator: Trip.com Travel Singapore Pte. Ltd.
