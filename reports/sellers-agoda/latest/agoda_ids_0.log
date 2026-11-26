@@ -1,1 +1,4 @@
-11:17:25 agoda: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 0, 'ids_coverage': '661/1500'}
+15:04:16 id Three Corners Avenue Hotel: not found 32830458 Three Corners Downtown Hotel 0.83 km
+15:04:18 id Villa Paganini B&B: ok 94372878 Villa Paganini B&B  km
+15:04:20 id Inn Urbe Vaticano: not found    km
+15:04:21 agoda: {'ids_due': 3, 'ids_found': 1, 'ids_missed': 2, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 10, 'ids_coverage': '662/1500'}

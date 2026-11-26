@@ -1,0 +1,170 @@
+{
+ "status": 400,
+ "answer": "{\"data\":null,\"errors\":[{\"message\":\"Variable '$ContentSummaryRequest' expected value of type 'ContentSummaryRequest!' but got: {\\\"context\\\":{\\\"rawUserId\\\":\\\"894188ed-0862-487c-9205-50ef00cf6ce9\\\",\\\"locale\\\":\\\"en-gb\\\",\\\"forceExperimentsByIdNew\\\":[],\\\"apo\\\":false,\\\"cid\\\":\\\"1917399\\\",\\\"searchCriteria\\\":{\\\"cityId\\\":10647},\\\"occupancy\\\":{\\\"numberOfAdults\\\":2,\\\"checkIn\\\":\\\"2026-12-26T00:00:00.000Z\\\"}},\\\"images\\\":{\\\"page\\\":{\\\"pageNumber\\\":1,\\\"pageSize\\\":1}},\\\"engagement\\\":true,\\\"reviews\\\":{\\\"cumulative\\\":{}},\\\"summary\\\":{}}. Reason: 'context.occupancy.numberOfChildren' Expected non-null value, found null. (line 2, column 1):\\n$ContentSummaryRequest: ContentSummaryRequest!\\n^\",\"locations\":[{\"line\":2,\"column\":1}]}]}",
+ "body": {
+  "query": "query citySearch ($CitySearchRequest: CitySearchRequest!\n$ContentSummaryRequest: ContentSummaryRequest!\n$PricingSummaryRequest: PricingRequestParameters) { citySearch (CitySearchRequest: $CitySearchRequest) { properties (ContentSummaryRequest: $ContentSummaryRequest\nPricingSummaryRequest: $PricingSummaryRequest) { propertyId, propertyResultType, content { informationSummary { propertyLinks { propertyPage }, localeName, defaultName, displayName, accommodationType, propertyType, address { city { id, name } }, geoInfo { latitude, longitude }, rating }, images { hotelImages { id, urls { key, value } } }, reviews { cumulative { reviewCount, score } }, propertyEngagement { todayBooking } }, pricing { isAvailable, suggestPriceType { suggestPrice }, offers { roomOffers { room { pricing { currency, price { perNight { exclusive { display, originalPrice }, inclusive { display, originalPrice } }, perRoomPerNight { exclusive { display, originalPrice }, inclusive { display, originalPrice } } } } } } } } } } } ",
+  "variables": {
+   "CitySearchRequest": {
+    "cityId": 10647,
+    "searchRequest": {
+     "searchCriteria": {
+      "isAllowBookOnRequest": true,
+      "bookingDate": "2026-11-26T15:04:16.000Z",
+      "checkInDate": "2026-12-26T00:00:00.000Z",
+      "localCheckInDate": "2026-12-26",
+      "los": 1,
+      "rooms": 1,
+      "adults": 2,
+      "children": 0,
+      "childAges": [],
+      "ratePlans": [],
+      "featureFlagRequest": {},
+      "currency": "EUR",
+      "sorting": {
+       "sortField": "Ranking",
+       "sortOrder": "Desc"
+      },
+      "requiredPrice": "Exclusive",
+      "isUserLoggedIn": false
+     },
+     "searchContext": {
+      "userId": "894188ed-0862-487c-9205-50ef00cf6ce9",
+      "memberId": -1,
+      "locale": "en-gb",
+      "cid": 1917399,
+      "origin": "US",
+      "platform": 1,
+      "deviceTypeId": 1,
+      "experiments": {},
+      "storeFrontId": 3,
+      "pageTypeId": 1,
+      "endpointSearchType": "CitySearch",
+      "searchId": "13c3a46d-e982-458c-8879-24e6f2926a3d"
+     },
+     "page": {
+      "pageSize": 5,
+      "pageNumber": 1,
+      "pageToken": ""
+     },
+     "extraHotels": {
+      "extraHotelIds": [
+       59032167
+      ],
+      "enableFiltersForExtraHotels": false
+     },
+     "searchHistory": []
+    }
+   },
+   "ContentSummaryRequest": {
+    "context": {
+     "rawUserId": "894188ed-0862-487c-9205-50ef00cf6ce9",
+     "locale": "en-gb",
+     "forceExperimentsByIdNew": [],
+     "apo": false,
+     "cid": "1917399",
+     "searchCriteria": {
+      "cityId": 10647
+     },
+     "occupancy": {
+      "numberOfAdults": 2,
+      "checkIn": "2026-12-26T00:00:00.000Z"
+     }
+    },
+    "images": {
+     "page": {
+      "pageNumber": 1,
+      "pageSize": 1
+     }
+    },
+    "engagement": true,
+    "reviews": {
+     "cumulative": {}
+    },
+    "summary": {}
+   },
+   "PricingSummaryRequest": {
+    "cheapestOnly": true,
+    "context": {
+     "isAllowBookOnRequest": true,
+     "abTests": [],
+     "clientInfo": {
+      "cid": 1917399,
+      "languageId": 1,
+      "languageUse": 1,
+      "origin": "US",
+      "searchId": "13c3a46d-e982-458c-8879-24e6f2926a3d",
+      "storefront": 3,
+      "platform": 1,
+      "userId": "894188ed-0862-487c-9205-50ef00cf6ce9"
+     },
+     "experiment": [],
+     "sessionInfo": {
+      "isLogin": true,
+      "memberId": -1,
+      "sessionId": 1
+     }
+    },
+    "pricing": {
+     "bookingDate": "2026-11-26T15:04:16.000Z",
+     "checkIn": "2026-12-26T00:00:00.000Z",
+     "checkout": "2026-12-27T00:00:00.000Z",
+     "localCheckInDate": "2026-12-26",
+     "localCheckoutDate": "2026-12-27",
+     "currency": "EUR",
+     "details": {
+      "cheapestPriceOnly": true,
+      "itemBreakdown": false,
+      "priceBreakdown": false
+     },
+     "featureFlag": [
+      "ClientDiscount",
+      "EnableCashback"
+     ],
+     "features": {
+      "crossOutRate": false,
+      "isAPSPeek": false,
+      "isAllOcc": false,
+      "isApsEnabled": false,
+      "isIncludeUsdAndLocalCurrency": false,
+      "isMSE": false,
+      "isRPM2Included": false,
+      "maxSuggestions": 0,
+      "isEnableSupplierFinancialInfo": false,
+      "isLoggingAuctionData": false,
+      "newRateModel": false,
+      "overrideOccupancy": false,
+      "filterCheapestRoomEscapesPackage": false,
+      "priusId": 0,
+      "synchronous": false,
+      "enableRichContentOffer": true,
+      "showCouponAmountInUserCurrency": false,
+      "disableEscapesPackage": false,
+      "enablePushDayUseRates": false,
+      "enableDayUseCor": false
+     },
+     "filters": {
+      "cheapestRoomFilters": [],
+      "filterAPO": false,
+      "ratePlans": [],
+      "secretDealOnly": false,
+      "suppliers": [],
+      "nosOfBedrooms": []
+     },
+     "includedPriceInfo": false,
+     "occupancy": {
+      "adults": 2,
+      "children": 0,
+      "childAges": [],
+      "rooms": 1,
+      "childrenTypes": []
+     },
+     "mseHotelIds": [
+      59032167
+     ],
+     "mseClicked": ""
+    },
+    "suggestedPrice": "Exclusive"
+   }
+  }
+ }
+}
