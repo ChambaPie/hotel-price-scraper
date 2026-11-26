@@ -1,7 +1,7 @@
-06:58:14 20 searches, 20 hotel-nights priced
-06:59:01 40 searches, 48 hotel-nights priced
-06:59:31 60 searches, 58 hotel-nights priced
-07:00:06 80 searches, 71 hotel-nights priced
-07:00:58 100 searches, 84 hotel-nights priced
-07:01:44 120 searches, 98 hotel-nights priced
-07:01:46 super.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 120, 'priced': 98, 'available': 98, 'errors': 0, 'stored_nights': 1334, 'ids_coverage': '525/1500'}
+10:49:17 area 19751 2027-06-28: Error: recommender.checkJobStatus HTTP 503: {"error":{"message":"Request failed with status code 503","code":-32603,"dat
+10:49:25 23 searches, 14 hotel-nights priced
+10:50:17 43 searches, 24 hotel-nights priced
+10:51:08 63 searches, 35 hotel-nights priced
+10:51:37 83 searches, 43 hotel-nights priced
+10:52:16 103 searches, 66 hotel-nights priced
+10:52:49 super.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 119, 'priced': 75, 'available': 75, 'errors': 1, 'stored_nights': 1409, 'ids_coverage': '525/1500'}
