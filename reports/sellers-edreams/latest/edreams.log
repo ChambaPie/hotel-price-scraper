@@ -1,27 +1,22 @@
-14:39:29 id Three Corners Avenue Hotel: not found    km
-14:39:30 id Villa Paganini B&B: ok 10752373 Villa Paganini B&B 1.35 km
-14:39:31 id Inn Urbe Vaticano: not found    km
-14:40:04 20 searches, 153 hotel-nights priced
-14:40:39 40 searches, 416 hotel-nights priced
-14:41:16 60 searches, 691 hotel-nights priced
-14:41:50 80 searches, 921 hotel-nights priced
-14:42:27 100 searches, 1104 hotel-nights priced
-14:43:08 120 searches, 1472 hotel-nights priced
-14:43:49 140 searches, 1831 hotel-nights priced
-14:44:26 160 searches, 2046 hotel-nights priced
-14:44:57 180 searches, 2116 hotel-nights priced
-14:45:31 200 searches, 2246 hotel-nights priced
-14:46:02 220 searches, 2303 hotel-nights priced
-14:46:32 240 searches, 2366 hotel-nights priced
-14:47:02 260 searches, 2427 hotel-nights priced
-14:47:33 280 searches, 2494 hotel-nights priced
-14:48:04 300 searches, 2578 hotel-nights priced
-14:48:36 320 searches, 2793 hotel-nights priced
-14:49:08 340 searches, 2929 hotel-nights priced
-14:49:42 360 searches, 3013 hotel-nights priced
-14:50:13 380 searches, 3061 hotel-nights priced
-14:50:47 400 searches, 3156 hotel-nights priced
-14:51:20 420 searches, 3215 hotel-nights priced
-14:51:52 440 searches, 3291 hotel-nights priced
-14:51:58 442 searches, 3297 hotel-nights priced
-14:52:00 edreams: {'ids_due': 3, 'ids_found': 1, 'ids_missed': 2, 'calls': 442, 'priced': 3297, 'available': 3297, 'errors': 0, 'stored_nights': 29975, 'ids_coverage': '598/1500'}
+18:31:00 20 searches, 64 hotel-nights priced
+18:31:37 40 searches, 210 hotel-nights priced
+18:32:08 60 searches, 274 hotel-nights priced
+18:32:51 80 searches, 467 hotel-nights priced
+18:33:35 100 searches, 646 hotel-nights priced
+18:34:08 120 searches, 720 hotel-nights priced
+18:34:43 140 searches, 805 hotel-nights priced
+18:35:18 160 searches, 911 hotel-nights priced
+18:35:52 180 searches, 990 hotel-nights priced
+18:36:24 200 searches, 1024 hotel-nights priced
+18:36:54 220 searches, 1078 hotel-nights priced
+18:37:26 240 searches, 1141 hotel-nights priced
+18:37:59 260 searches, 1215 hotel-nights priced
+18:38:28 280 searches, 1238 hotel-nights priced
+18:39:00 300 searches, 1588 hotel-nights priced
+18:39:33 320 searches, 2040 hotel-nights priced
+18:40:06 340 searches, 2477 hotel-nights priced
+18:40:39 360 searches, 2890 hotel-nights priced
+18:41:10 380 searches, 3121 hotel-nights priced
+18:41:41 400 searches, 3535 hotel-nights priced
+18:42:10 420 searches, 3936 hotel-nights priced
+18:42:42 edreams: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 438, 'priced': 4315, 'available': 4315, 'errors': 0, 'stored_nights': 31722, 'ids_coverage': '598/1500'}
