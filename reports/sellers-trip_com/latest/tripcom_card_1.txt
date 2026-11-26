@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=32007&provinceId=0&districtId=0&countryId=106&destName=B%26B%20Domus%20Traiani%20Benevento&searchWord=B%26B%20Domus%20Traiani%20Benevento&searchType=H&optionId=9043772&searchValue=31%7C9043772*31*9043772*1&checkin=2026-12-01&checkout=2026-12-02&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 120.0, 'price_excl': 109.0, 'price_total': 120.0, 'breakfast': 'included', 'cancellation': ''}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=33401&provinceId=0&districtId=0&countryId=106&destName=Hotel%20Villa%20Garden&searchWord=Hotel%20Villa%20Garden&searchType=H&optionId=3682647&searchValue=31%7C3682647*31*3682647*1&checkin=2027-04-21&checkout=2027-04-22&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 246.0, 'price_excl': 216.0, 'price_total': 246.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,26 +11,26 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-B&B Domus Traiani Benevento
-Tue, Dec 1
+Hotel Villa Garden
+Wed, Apr 21
 -
-Wed, Dec 2
+Thu, Apr 22
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Benevento
+Popular filters for Sant'Agnello
 
-Homes & apts
-Breakfast included
-Hotel
-Elevator
-Free cancellation
-Private toilet
-Air conditioning
 Parking available
-Non-smoking rooms
+Breakfast included
+Great views
+Ideal location
+Hotel
+Free cancellation
+Pool ramp available
+Balcony
+Private toilet
 
 Budget
 
@@ -49,22 +49,27 @@ Hotels
 Including hotels, resorts, and more
 Homes & apts
 Including homes, apartments, villas, and more
+Hostels
+Including hostels, inns, and more
 Show More
 
 Star rating
 
 Location
 
-Straight-line distance from B&B Domus Traiani Benevento
+Straight-line distance from Hotel Villa Garden
 No distance limit
-Benevento Railway Station
-Sala per feste "La casa sul lago"
-Museum of Sannio
+Guide Centre Sorrento
+S. Agnello
+Stabilimento Balneare La Marinella
 Show More
 
 Meals
 
 Breakfast included
+Dinner included
+Breakfast & Dinner Included
+Show More
 
 Bed type
 
@@ -75,9 +80,9 @@ Show More
 
 Room features
 
-Entire unit
 Balcony
-Suite
+Entire unit
+Bed in dormitory
 Show More
 
 Number of bedrooms
@@ -96,20 +101,23 @@ Show More
 Property facilities & services
 
 Pool
-Elevator
 Parking available
+Wi-Fi in public areas
 Show More
 
 Room facilities & services
 
-Private toilet
-Jacuzzi
 Air conditioning
+Balcony
+Private toilet
 Show More
 
 Property Features
 
+Great views
+Family-friendly
 Self check-in
+Show More
 
 Guest Impressions
 
@@ -121,19 +129,30 @@ Show More
 Room Size
 
 ≥ 25㎡
-≥ 30㎡
-≥ 40㎡
+≥ 45㎡
 
 Payment
 
 Prepay Online
+Book now, pay later
 Pay at Hotel
-Book without credit card
+Show More
 
 Booking Policy
 
 Instant confirmation
 Free cancellation
+
+Discounts
+
+Extra Trip Coin Rewards
+
+Brands
+
+Colonna Hotels
+Curio Collection by Hilton
+Small Luxury Hotels of the World
+Show More
 
 Reviews
 
@@ -144,8 +163,8 @@ Reviews
 Accessibility
 
 Handrails on stairs
-Pool ramp available
-Stair-free main entrance
+Handrails in hallways
+Braille signs
 Show More
 First booking offer!
 We'll apply the best discount for you at check-out
@@ -157,17 +176,19 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-B&B Domus Traiani Benevento
-Near Benevento Arco Traiano StationMonumental complex of "Sant'Ilario a Port'Aurea"Map
-Great
-45 reviews
-9.3
-Excellent serviceSparkling cleanDelicious breakfast
-Two-Bedroom Family Room
-1 queen bed and 2 single beds
+Hotel Villa Garden
+770m from city center (straight-line distance)Map
+Amazing
+75 reviews
+9.7
+SunsetExcellent serviceOcean views
+No. 4 of Scenic Hotels in Sant'Agnello
+Double or Twin Room with Patio
+2 single beds or 1 double bed
+Free Cancellation
 Breakfast included
-€109
-Total (incl. taxes & fees): €120
+€216
+Total (incl. taxes & fees): €246
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
@@ -178,4 +199,4 @@ Hotels in Italy
 >
 Hotels in Campania
 >
-Hotels in Benevento
+Hotels in Sant'Agnello

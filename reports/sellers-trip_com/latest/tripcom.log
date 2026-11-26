@@ -1,7 +1,4 @@
-14:38:57 id Three Corners Avenue Hotel: ok 121054076 Three Corners Avenue Hotel 0.01 km
-14:38:58 id Villa Paganini B&B: ok 9206593 Villa Paganini B&B 0.0 km
-14:39:02 id Inn Urbe Vaticano: not found 764141 Inn Urbe Colosseo 2.84 km
-14:39:24 Hotel Belsoggiorno 2026-12-25: not in the answer ([])
-14:39:46 Hotel Belsoggiorno 2027-06-25: not in the answer ([])
-14:40:15 Life Hotel 4 Superior 2026-12-26: not in the answer ([])
-15:09:29 trip.com: {'ids_due': 3, 'ids_found': 2, 'ids_missed': 1, 'calls': 108, 'priced': 32, 'available': 15, 'errors': 0, 'missing': 76, 'stored_nights': 896, 'ids_coverage': '1270/1500'}
+18:30:38 Hotel Caravel 2027-03-09: not in the answer ([])
+18:31:00 Hotel Caravel 2027-09-07: not in the answer ([])
+18:31:28 Hotel Corallo Sorrento 2027-02-16: not in the answer ([])
+19:00:30 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 110, 'priced': 34, 'available': 12, 'errors': 0, 'missing': 76, 'stored_nights': 930, 'ids_coverage': '1270/1500'}
