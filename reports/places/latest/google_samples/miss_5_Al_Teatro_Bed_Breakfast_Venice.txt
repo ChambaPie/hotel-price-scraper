@@ -1,4 +1,4 @@
-#QUERY Hotel Drei Raben Nuernberg
+#QUERY Al Teatro Bed & Breakfast Venice
 #CARDS 0
 Skip to main content
 Accessibility feedback
@@ -30,7 +30,7 @@ Help Centre and Consumer Information
 
 Displayed currencies may differ from the currencies used to book properties. Learn more
 
-Update list when map moves
+Update list
 Off
 Walk
 Drive

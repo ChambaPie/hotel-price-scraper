@@ -1,4 +1,4 @@
-#QUERY René Bohn Ludwigshafen am Rhein
+#QUERY Crowne Plaza Budapest By IHG Budapest VI. keruelet
 #CARDS 0
 Skip to main content
 Accessibility feedback
@@ -30,7 +30,7 @@ Help Centre and Consumer Information
 
 Displayed currencies may differ from the currencies used to book properties. Learn more
 
-Update list when map moves
+Update list
 Off
 Walk
 Drive
