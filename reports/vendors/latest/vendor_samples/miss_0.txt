@@ -1,10 +1,10 @@
-#HOTEL Hotel Montecarlo
-#ENTITY https://www.google.com/travel/hotels/entity/ChcI6vOgnP2cxPIqGgsvZy8xdHl3d3N0YhAB
+#HOTEL Hotel Hubertus
+#ENTITY https://www.google.com/travel/hotels/entity/ChkIxsLOlbPZud7BARoML2cvMWprdzV6Nmc3EAE
 Back to hotels
-Veneto
-Metropolitan City of Venice
-Bibione
-Hotel Montecarlo
+Trentino-Alto Adige/Südtirol
+Autonomous Province of Bolzano – South Tyrol
+Olang
+Hotel Hubertus
 OverviewPrices
 ReviewsLocationAboutPhotos
 Check-in
@@ -14,83 +14,140 @@ Nightly price with fees
 Free cancellation only
 Contact this property
 Call or visit website for rates and availability
+Sponsored·Similar hotels
+Alpin Hotel Sonnblick
+€456
+ Booking.com
+4.8/5
+(612)
+ · 4-star hotel
+Spa · Pool
+Visit Booking.com
+Hotel Royal Hinterhuber
+€482
+ Expedia.com
+4.7/5
+(307)
+ · 4-star hotel
+Free cancellation · Hot tub
+Visit Expedia.com
+Hotel Trenker
+€405
+ Booking.com
+4.5/5
+(442)
+ · 4-star hotel
+Spa · Pool
+Visit Booking.com
+Hotel Christoph
+€648
+ KAYAK.com
+4.5/5
+(439)
+ · 4-star hotel
+Hot tub · Spa
+Visit KAYAK.com
+Ampark
+€431
+ Booking.com
+4.4/5
+(240)
+ · 3-star hotel
+Pet-friendly · Parking
+Visit Booking.com
+Hotel Petrus
+€580
+ Tripadvisor.com
+4.8/5
+(714)
+ · 5-star hotel
+Free cancellation · Hot tub
+Visit Tripadvisor.com
 People also viewed
-€265
-Savoy Beach Hotel Bibione
-4.5
-(1.3k)
-Posh beachfront lodging with breakfast
+€419
+Hotel Petrus
+4.8
+(714)
+Posh hotel with a spa & mountain views
+5 km away
+Bärenhotel
+4.8
+(449)
+Refined hotel with a spa & dining
+0,9 km away
+Falkensteiner Hotel Kronplatz
+4.6
+(747)
+Upmarket hotel with a spa & dining
+5,6 km away
+Berghotel Zirm
+4.7
+(575)
+Chic mountain hotel with a spa & pools
 1 km away
-Hotel Cesare Augusto
+Mirabell Dolomites Hotel . Luxury . Ayurveda & SPA
 4.7
-(354)
-Down-to-earth hotel with dining & pools
-1,2 km away
-Hotel Bibione Palace
-4.6
-(1.5k)
-Beachfront resort with dining & 3 pools
+(427)
+Posh lodging with a golf course & a spa
 2 km away
-Hotel Airone di Selva Marco
-4.4
-(481)
-Relaxed lodging by the beach, plus a bar
-0,2 km away
-Hotel Astoria
-4.7
-(559)
-Upmarket lodging with dining & a bar
-1,6 km away
-Hotel Lido Bibione 4 Sterne
-4.6
-(684)
-Laid-back lodging with a pool & dining
-1,3 km away
-Popular hotels
-Hotel Garni Renania
+Hotel Alpen Tesitin
 4.9
-(719)
-1,6 km away
-Life Hotel
-4.8
-(425)
+(1.1k)
+Posh alpine-style hotel with a chic spa
+7,2 km away
+Popular hotels
+Liebharterhof
+5.0
+(40)
+1,5 km away
+Perfila
+4.9
+(40)
+Relaxed guesthouse set on a farm
+0,5 km away
+SOTTLA your mountain home
+5.0
+(30)
 1,9 km away
-Hotel Villa Angelina
-4.8
-(261)
-Casual hotel with dining & live music
-1,3 km away
-Libra Aparthotel
+K Lodge
+4.9
+(13)
+2,1 km away
+Sorafurcia Lodge
 5.0
-(23)
-1,4 km away
-Residence Orione
+(3)
+0,6 km away
+Chalet Tyrolian Apartments - by Familiaris - Pools 500 meters
 5.0
-(4)
-2,5 km away
-Bibione Hotel Palace
-5.0
-(4)
-2 km away
+(1)
+2,4 km away
 Holiday rentals nearby
-Residence Ranieri
-4 bedroomsSleeps 10
-0,1 km away
-Holiday apartment with air conditioning and balcony
-2 bedroomsSleeps 4
+€128/night
+13 – 16 Dec
+Appartment Hossler
+1 bedroomSleeps 4
 0,5 km away
-Condominio Cormoran
-2 bedroomsSleeps 5
-0,5 km away
-Residence Le Zattere
-Sleeps 10
-0,1 km away
-Comfy seafront apartment-Beahost
-2 bedroomsSleeps 5
-0,5 km away
-Torcello Appartements
-Sleeps 10
-0,1 km away
+€699/night
+10 – 11 Dec
+Apartment Piz da Peres - Olang with Mountain View, Pool, Sauna & Wi-Fi
+1 bedroomSleeps 3
+0,2 km away
+€926/night
+29 Nov – 1 Dec
+Chalet 'Rueper Hof Ruipa' with Whirlpool, Private Terrace, and Wi-Fi
+2 bedroomsSleeps 8
+0,4 km away
+€5,786/night
+28 – 29 Nov
+K Lodge View - Chalet
+Sleeps 12
+0,4 km away
+Chalet Piz da Peres - Apartment - Split Level
+3 bedroomsSleeps 7
+0,2 km away
+Apartment 'Kranebitterhof Edelweiss' with Mountain View, Shared Garden and Wi-Fi
+1 bedroomSleeps 4
+0,3 km away
 Currency​EUR
 Your results may be based on your Timeline. Learn more
 About
@@ -106,7 +163,62 @@ Web results
 
 Displayed currencies may differ from the currencies used to book properties. Learn more
 
-Hotel Montecarlo
+Hotel Hubertus
 Page loaded. 
 #VENDOR_LINKS
-Visit site for Hotel Montecarlo	https://www.hotel-montecarlo.com/?utm_source=googlemaps&utm_medium=mybusiness&utm_campaign=mybusiness
+Visit site for Hotel Hubertus	https://www.hotel-hubertus.com/?utm_source=google&utm_medium=organic&utm_campaign=google_my_business
+Featured in LUXURY WELLNESS HOLIDAYS - WELLNESSHOTELS - Austria - Germany - Italy - Spain - Slovenia - Croatia - The Net	https://www.leadingspa.com/en/wellness-spa-hotels-resorts.html
+Alpin Hotel Sonnblick€456 Booking.com4.8/5 (612) · 4-star hotelSpa · PoolVisit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQAxoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYASABEgKSofD_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_2tgsmYTinBNgZ6vVU8cNk1Eggu-g&adurl=
+Hotel Royal Hinterhuber€482 Expedia.com4.7/5 (307) · 4-star hotelFree cancellation · Hot tubVisit Expedia.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQBxoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYAiABEgJDu_D_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_04rVi1zA7EPU4HYgbDQJhJ-0CeOA&adurl=
+Hotel Trenker€405 Booking.com4.5/5 (442) · 4-star hotelSpa · PoolVisit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQARoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYAyABEgJ_YvD_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_17ve0TazQvrqv6oiWHbaGHKH6Y0w&adurl=
+Hotel Christoph€648 KAYAK.com4.5/5 (439) · 4-star hotelHot tub · SpaVisit KAYAK.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQCRoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYBCABEgJPivD_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_0PtPhQZ5fQLvvp-idC4bzYcAAIyA&adurl=
+Ampark€431 Booking.com4.4/5 (240) · 3-star hotelPet-friendly · ParkingVisit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQBRoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYBSABEgJvF_D_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_1SqnoBgC3ELcBv2jtKiYAYCP6Fyw&adurl=
+Hotel Petrus€580 Tripadvisor.com4.8/5 (714) · 5-star hotelFree cancellation · Hot tubVisit Tripadvisor.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQCxoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYBiABEgKvRfD_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_0tOZ9bHPfwVCGjDY4jHxV4DoX15g&adurl=
+Alpin Hotel Sonnblick
+€456
+ Booking.com
+4.8/5
+(612)
+ · 4-star hotel
+Spa · Pool
+Visit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQAxoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYASABEgKSofD_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_2tgsmYTinBNgZ6vVU8cNk1Eggu-g&adurl=
+Hotel Royal Hinterhuber
+€482
+ Expedia.com
+4.7/5
+(307)
+ · 4-star hotel
+Free cancellation · Hot tub
+Visit Expedia.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQBxoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYAiABEgJDu_D_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_04rVi1zA7EPU4HYgbDQJhJ-0CeOA&adurl=
+Hotel Trenker
+€405
+ Booking.com
+4.5/5
+(442)
+ · 4-star hotel
+Spa · Pool
+Visit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQARoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYAyABEgJ_YvD_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_17ve0TazQvrqv6oiWHbaGHKH6Y0w&adurl=
+Hotel Christoph
+€648
+ KAYAK.com
+4.5/5
+(439)
+ · 4-star hotel
+Hot tub · Spa
+Visit KAYAK.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQCRoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYBCABEgJPivD_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_0PtPhQZ5fQLvvp-idC4bzYcAAIyA&adurl=
+Ampark
+€431
+ Booking.com
+4.4/5
+(240)
+ · 3-star hotel
+Pet-friendly · Parking
+Visit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQBRoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYBSABEgJvF_D_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_1SqnoBgC3ELcBv2jtKiYAYCP6Fyw&adurl=
+Hotel Petrus
+€580
+ Tripadvisor.com
+4.8/5
+(714)
+ · 5-star hotel
+Free cancellation · Hot tub
+Visit Tripadvisor.com	https://www.google.com/aclk?sa=l&ai=DChsSEwixs_Ocz6SYAxV2Na0GHb4oEvUYACICCAEQCxoCcHY&co=1&ase=2&gclid=EAIaIQobChMIsbPznM-kmAMVdjWtBh2-KBL1ECQYBiABEgKvRfD_BwE&cid=CAASugHkaDnrEqWqbY-NXWOtr9r5yRUb2AKBtoBwYtsVo4Hc3F3CRSJ9jtvLcfNkr7tx-QNeoNtCT1AUkoajwfpfgraE8cEKP8I7ikZpD8_g1bP-B6U6HtwVk_-BC4-lQB_Ig2yd_S2pTrpJQlolCiain63xvIwkYwKOzKBi2QI5ei_JYXKZ6IhlDUCeC5AhIzGCAgRsMhjBx0gyy4S8-jgm7toV7stnKRgPP7CAiLevcvAXom3u5HyO3iKqiSY&category=acrcp_v1_48&sig=AOD64_0tOZ9bHPfwVCGjDY4jHxV4DoX15g&adurl=
