@@ -1,167 +1,24 @@
-#HOTEL Dan Hotel
-#ENTITY https://www.google.com/travel/hotels/entity/ChkIqfG2l_jWo_xRGg0vZy8xMWRmcGN3d210EAE
-Back to hotels
-Emilia-Romagna
-Province of Rimini
-Riccione
-Dan Hotel
-OverviewPrices
-ReviewsLocationAboutPhotos
-Check-in
-Check-out
+#HOTEL Three Corners Avenue Hotel
+#ENTITY 
+Skip to main content
+Accessibility feedback
+Explore
+Flights
+Hotels
+Holiday rentals
+Sign in
 2
-Nightly price with fees
-Free cancellation only
-Contact this property
-Call or visit website for rates and availability
-Sponsored·Similar hotels
-Hotel La Cappuccina
-€78
- Booking.com
-4.4/5
-(1.1k)
- · 3-star hotel
-Pool · Pet-friendly
-Visit Booking.com
-Hotel De La Ville
-€117
- Expedia.com
-4.4/5
-(839)
- · 4-star hotel
-Free cancellation · Hot tub
-Visit Expedia.com
-Hotel La Plata
-€59
- Booking.com
-3.8/5
-(154)
- · 2-star hotel
-Free cancellation · Pool
-Visit Booking.com
-Hotel Darsena
-€100
- Expedia.com
-4.4/5
-(358)
- · 3-star hotel
-Pet-friendly · Parking
-Visit Expedia.com
-Hotel Napoleon Riccione
-€49
- Booking.com
-3.5/5
-(363)
- · 2-star hotel
-Free cancellation · Pet-friendly
-Visit Booking.com
-Hotel Diamond
-€110
- Booking.com
-3.9/5
-(205)
- · 4-star hotel
-Free cancellation · Hot tub
-Visit Booking.com
-Record Hotel
-€172
- Tripadvisor.com
-4.5/5
-(212)
- · 3-star hotel
-Free cancellation · Pet-friendly
-Visit Tripadvisor.com
-People also viewed
-€136
-Royal Boutique Hotel
-4.2
-(314)
-Informal hotel with a pool & a 24/7 bar
-1,5 km away
-Hotel Fantasy
-4.7
-(433)
-Free parking
-0,1 km away
-Hotel Kursaal
-4.3
-(290)
-Hip lodging & kids' activities
-0,4 km away
-Hotel Giulietta
-4.2
-(358)
-Relaxed property with dining & a beach
-0,2 km away
-Hotel Commodore Riccione
-4.5
-(706)
-Casual lodging with a private beach area
-0,7 km away
-Vagabond Boutique Hotel
-4.8
-(442)
-Informal lodging close to the beach
-0,1 km away
-Popular hotels
-€112
-Meg Lifestyle Hotel
-4.9
-(169)
-Free parking
-1,1 km away
-€181
-Ceccarini 9 Suite Home Hotel
-4.9
-(105)
-Free parking
-0,6 km away
-€136
-History Suite Riccione
-4.9
-(44)
-0,3 km away
-Affittacamere Ceccarini
-5.0
-(51)
-1,1 km away
-App Sea View
-5.0
-(55)
-0,5 km away
-Le Sabbie B&B
-5.0
-(20)
-Free parking
-2,4 km away
-Holiday rentals nearby
-€110/night
-30 Jan – 6 Feb 2027
-Porto Attico Wally -Flexrent Immobiliare Abissinia
-2 bedroomsSleeps 4
-0,5 km away
-€116/night
-8 – 14 Feb 2027
-Residenza Raggio - Two-Bedroom Apartment
-2 bedroomsSleeps 5
-0,1 km away
-€160/night
-14 – 20 Dec
-House with garden
-2 bedroomsSleeps 4
-0,2 km away
-€178/night
-8 – 14 Dec
-new apartment in villa with a large terrace
-2 bedroomsSleeps 4
-0,2 km away
-Casa al mare e nel centro di Riccione con parcheggio gratuito - One-Bedroom Apartment
-1 bedroomSleeps 5
-0,1 km away
-Holiday apartment with yard
-2 bedroomsSleeps 5
-0,5 km away
-Currency​EUR
+All filters
+Price
+Offers
+Guest rating
+Hotel class
+Amenities
+Eco-certified
+Sort by
+No results
+Update your filters or search area to see options.
+Currency​USD
 Your results may be based on your Timeline. Learn more
 About
 Privacy
@@ -169,77 +26,17 @@ Terms
 Join user studies
 Report illegal content
 Feedback
-Pricing issues
 Help Centre and Consumer Information
-About this data
-Web results
 
 Displayed currencies may differ from the currencies used to book properties. Learn more
 
-Dan Hotel
-Page loaded. 
-#VENDOR_LINKS
-Visit site for Dan Hotel	http://www.danhotelriccione.com/
-Hotel La Cappuccina€78 Booking.com4.4/5 (1.1k) · 3-star hotelPool · Pet-friendlyVisit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQAxoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYASABEgI0IPD_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_0C7EhemX2eC6v6BLTGXI6xXuxXSQ&adurl=
-Hotel De La Ville€117 Expedia.com4.4/5 (839) · 4-star hotelFree cancellation · Hot tubVisit Expedia.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQCxoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYAiABEgI2NvD_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_1gQLt6nNokxlFeXTUoz_tw9cScHg&adurl=
-Hotel La Plata€59 Booking.com3.8/5 (154) · 2-star hotelFree cancellation · PoolVisit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQARoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYAyABEgKHb_D_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_1dhFGeUmT5TsTQrjApILfeubCY2g&adurl=
-Hotel Darsena€100 Expedia.com4.4/5 (358) · 3-star hotelPet-friendly · ParkingVisit Expedia.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQCRoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYBCABEgKYv_D_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_1ftWZhgGGa5FrGRunK68_jEal7fA&adurl=
-Hotel Napoleon Riccione€49 Booking.com3.5/5 (363) · 2-star hotelFree cancellation · Pet-friendlyVisit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQBRoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYBSABEgKVcfD_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_3e8tN9yWXvuRbsuzs-ghbZPS_rXg&adurl=
-Hotel Diamond€110 Booking.com3.9/5 (205) · 4-star hotelFree cancellation · Hot tubVisit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQBxoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYBiABEgLQkfD_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_0ngPNa-oDPo9ImQGOtPCQV1qmK3g&adurl=
-Record Hotel€172 Tripadvisor.com4.5/5 (212) · 3-star hotelFree cancellation · Pet-friendlyVisit Tripadvisor.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQDRoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYByABEgLKePD_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_3ltaqOSTn0jogNlKepQnPCADOC4Q&adurl=
-Hotel La Cappuccina
-€78
- Booking.com
-4.4/5
-(1.1k)
- · 3-star hotel
-Pool · Pet-friendly
-Visit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQAxoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYASABEgI0IPD_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_0C7EhemX2eC6v6BLTGXI6xXuxXSQ&adurl=
-Hotel De La Ville
-€117
- Expedia.com
-4.4/5
-(839)
- · 4-star hotel
-Free cancellation · Hot tub
-Visit Expedia.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQCxoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYAiABEgI2NvD_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_1gQLt6nNokxlFeXTUoz_tw9cScHg&adurl=
-Hotel La Plata
-€59
- Booking.com
-3.8/5
-(154)
- · 2-star hotel
-Free cancellation · Pool
-Visit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQARoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYAyABEgKHb_D_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_1dhFGeUmT5TsTQrjApILfeubCY2g&adurl=
-Hotel Darsena
-€100
- Expedia.com
-4.4/5
-(358)
- · 3-star hotel
-Pet-friendly · Parking
-Visit Expedia.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQCRoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYBCABEgKYv_D_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_1ftWZhgGGa5FrGRunK68_jEal7fA&adurl=
-Hotel Napoleon Riccione
-€49
- Booking.com
-3.5/5
-(363)
- · 2-star hotel
-Free cancellation · Pet-friendly
-Visit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQBRoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYBSABEgKVcfD_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_3e8tN9yWXvuRbsuzs-ghbZPS_rXg&adurl=
-Hotel Diamond
-€110
- Booking.com
-3.9/5
-(205)
- · 4-star hotel
-Free cancellation · Hot tub
-Visit Booking.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQBxoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYBiABEgLQkfD_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_0ngPNa-oDPo9ImQGOtPCQV1qmK3g&adurl=
-Record Hotel
-€172
- Tripadvisor.com
-4.5/5
-(212)
- · 3-star hotel
-Free cancellation · Pet-friendly
-Visit Tripadvisor.com	https://www.google.com/aclk?sa=l&ai=DChsSEwi12cfdnaWYAxW9OEQIHQGuOKEYACICCAEQDRoCZHo&co=1&ase=2&gclid=EAIaIQobChMItdnH3Z2lmAMVvThECB0BrjihECQYByABEgLKePD_BwE&cid=CAASugHkaBAJb5fy8E8jnDXgm-9PFLiFiaKQ5ADDwoOYcou1Uts8yCiyev_668scJ43Eab2PfVaSB6n7LtyCWGn8QiPLLLI9ZoYLMU4aFSjnuDoZi1JGmlr_XeJ--r9eBudyfuEDfEUZXCeO8zU9Xx0cNlHNBSeebW8lrGgZwMfxaBNeqqBR9S0xEhvQPhAVYO7wFRHOlqOVYsWUNGEKJxJ9QgcGqm46Glp6GJ5cPR-1I9sjCsKceDbnew1I2qU&category=acrcp_v1_48&sig=AOD64_3ltaqOSTn0jogNlKepQnPCADOC4Q&adurl=
+Update list
+Off
+Walk
+Drive
+Public transport
+Areas for dining
+Attractions
+Areas for shopping
+Loading map
+Page loaded.
