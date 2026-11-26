@@ -2,7 +2,7 @@
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
-| Roma | IT | 26 |
+| Roma | IT | 25 |
 | Milano | IT | 18 |
 | Grado | IT | 17 |
 | Kraków | PL | 17 |
@@ -30,6 +30,7 @@
 | Rifiano | IT | 6 |
 | Sesto San Giovanni | IT | 6 |
 | Mostar | BA | 5 |
+| Zürich | CH | 5 |
 | München | DE | 5 |
 | Porec | HR | 5 |
 | Florence | IT | 5 |
@@ -38,7 +39,6 @@
 | Eben am Achensee | AT | 4 |
 | Sölden | AT | 4 |
 | St. Anton am Arlberg | AT | 4 |
-| Zürich | CH | 4 |
 | Frankfurt am Main | DE | 4 |
 | Belfort | FR | 4 |
 | Cannes | FR | 4 |
