@@ -1,4 +1,7 @@
-06:58:11 Hotel Punta Regina 2027-03-25: not in the answer ([])
-06:58:33 Hotel Punta Regina 2027-09-23: not in the answer ([])
-06:59:03 Hotel Pellegrino 2027-01-09: not in the answer ([])
-07:27:59 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 116, 'priced': 40, 'available': 19, 'errors': 0, 'missing': 76, 'stored_nights': 731, 'ids_coverage': '1270/1500'}
+10:49:00 Berghotel Presslauer 2027-11-20: not in the answer ([])
+10:49:22 Die HOCHKÖNIGIN - Mountain Res 2027-04-28: not in the answer ([])
+10:49:50 Berg & Spa Hotel Urslauerhof 2026-12-18: not in the answer ([])
+10:53:04 4 Évszak Hegyihotel 2027-03-25: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.trip.com/hotels/list?flexType=1&cityId=504
+11:18:39 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 193, 'priced': 133, 'available': 91, 'errors': 1, 'missing': 60, 'stored_nights': 864, 'ids_coverage': '1270/1500'}

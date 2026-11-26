@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=3642&provinceId=0&districtId=0&countryId=106&destName=Villa%20Magia&searchWord=Villa%20Magia&searchType=H&optionId=3922345&searchValue=31%7C3922345*31*3922345*1&checkin=2027-04-02&checkout=2027-04-03&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 574.0, 'price_excl': 581.0, 'price_total': 574.0, 'breakfast': 'included', 'cancellation': ''}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=32428&provinceId=0&districtId=0&countryId=106&destName=Hotel%20Cenobio%20Dei%20Dogi&searchWord=Hotel%20Cenobio%20Dei%20Dogi&searchType=H&optionId=4375162&searchValue=31%7C4375162*31*4375162*1&checkin=2027-02-15&checkout=2027-02-16&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 208.0, 'price_excl': 182.0, 'price_total': 208.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,27 +11,27 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Villa Magia
-Fri, Apr 2
+Hotel Cenobio Dei Dogi
+Mon, Feb 15
 -
-Sat, Apr 3
+Tue, Feb 16
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Positano
+Popular filters for Camogli
 
+Parking available
+2 beds
+Breakfast included
+Hotel
+Free cancellation
+Jacuzzi
 Great 9+
 Based on guest reviews
-Air conditioning
-Hotel
-Balcony
-Breakfast included
-Free cancellation
-Near Beach
-Parking available
-Villa
+Pool
+Great views
 
 Budget
 
@@ -63,18 +63,16 @@ Show More
 
 Location
 
-Straight-line distance from Villa Magia
+Straight-line distance from Hotel Cenobio Dei Dogi
 No distance limit
-Positano
-Church of Saint Mary of the Assumption
-Get Amalfi Coast
+Camogli - San Rocco - Batterie - San Fruttuoso Trail
+Camogli - San Rocco - Punta Chiappa Trail
+Golfo Paradiso
 Show More
 
 Meals
 
 Breakfast included
-Dinner included
-Breakfast & Dinner Included
 
 Bed type
 
@@ -86,8 +84,8 @@ Show More
 Room features
 
 Balcony
-Mountain view room
-Private villa
+Suite
+Family room
 Show More
 
 Number of bedrooms
@@ -106,20 +104,16 @@ Show More
 Property facilities & services
 
 Parking available
+Pets welcome
 Pool
-Free parking
 Show More
 
 Room facilities & services
 
-Balcony
-Air conditioning
+Private toilet
 Jacuzzi
+Air conditioning
 Show More
-
-Opening/renovation time
-
-Within 2 years
 
 Property Features
 
@@ -139,7 +133,7 @@ Room Size
 
 ≥ 30㎡
 ≥ 45㎡
-≥ 80㎡
+≥ 55㎡
 
 Payment
 
@@ -155,9 +149,8 @@ Free cancellation
 
 Brands
 
-Preferred
-Relais & Chateaux
-The Leading Hotels of the World
+Idea Hotel Group
+WorldHotels Elite
 
 Reviews
 
@@ -167,10 +160,19 @@ Reviews
 
 Accessibility
 
-Handrails on stairs
-Handrails in hallways
-Braille signs
+Stair-free main entrance
+Wheelchairs available
+accessible facilities
 Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -181,21 +183,19 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Villa Magia
-<100m from city center (straight-line distance)Map
-Outstanding
-63 reviews
-9.8
-Pool with ocean viewsItalian restaurantIdeal location
-No. 17 of Instagrammable Hotels in Italy
-Deluxe Double Room With Balcony And Sea View
-Entire unit 55㎡2 bedrooms1 bed
+Hotel Cenobio Dei Dogi
+Near Museo Marinaro Gio Bono FerrariSocieta' Capitani E Macchinisti NavaliMap
+Amazing
+77 reviews
+9.4
+SunsetScenic restaurantIdeal location
+No. 11 of 4-Star Select Hotels in Liguria
+Standard Double Room
+1 double bed
+Free Cancellation
 Breakfast included
-€581
-€513
-Total (incl. taxes & fees): €574
-Special Discount
-11% off
+€182
+Total (incl. taxes & fees): €208
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
@@ -204,6 +204,6 @@ Hotels
 >
 Hotels in Italy
 >
-Hotels in Campania
+Hotels in Liguria
 >
-Hotels in Positano
+Hotels in Camogli
