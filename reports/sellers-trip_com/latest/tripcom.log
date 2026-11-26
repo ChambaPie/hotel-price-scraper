@@ -1,4 +1,4 @@
-03:08:56 Boutiquehotel Das Tyrol 2027-04-26: not in the answer ([])
-03:09:26 Hotel Chesa Staila 2027-04-23: not in the answer ([])
-03:09:48 Hotel Chesa Staila 2027-10-22: not in the answer ([])
-03:36:43 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 132, 'priced': 60, 'available': 41, 'errors': 0, 'missing': 72, 'stored_nights': 691, 'ids_coverage': '1270/1500'}
+06:58:11 Hotel Punta Regina 2027-03-25: not in the answer ([])
+06:58:33 Hotel Punta Regina 2027-09-23: not in the answer ([])
+06:59:03 Hotel Pellegrino 2027-01-09: not in the answer ([])
+07:27:59 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 116, 'priced': 40, 'available': 19, 'errors': 0, 'missing': 76, 'stored_nights': 731, 'ids_coverage': '1270/1500'}
