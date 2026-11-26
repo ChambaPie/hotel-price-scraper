@@ -326,8 +326,8 @@ ta:g187791-d1751325,Althea Inn Roof Terrace,41.87437,12.47876,listing,listing on
 ta:g187791-d1821265,Rome Armony Suites,41.90799,12.466042,listing,listing only,41.90799,12.466042,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g187791-d1863272,A Peace of Rome,41.90917,12.462217,listing,listing only,41.90917,12.462217,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g187791-d1874678,Maison Trevi,41.902515,12.488283,listing,listing only,41.902515,12.488283,0.0,,,,,,,2026-11-23T16:08:44+00:00
+ta:g187791-d1908905,Villa Paganini B&B,41.917076,12.508299,listing,listing only,41.917076,12.508299,0.0,,,,,,,2026-11-26T19:44:57+00:00
 ta:g187791-d191099,Albergo del Senato,41.899174,12.477302,listing,listing only,41.899174,12.477302,0.0,,,,,,,2026-11-23T16:08:44+00:00
-ta:g187791-d1928033,Locanda del Sole Luxury Suite Rome,41.90256,12.475103,listing,listing only,41.90256,12.475103,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g187791-d1960703,Aurelio Aquilone B&B,41.899155,12.432989,listing,listing only,41.899155,12.432989,0.0,,,,,,,2026-11-24T20:45:38+00:00
 ta:g187791-d198734,Hotel Locarno,41.909687,12.474711,listing,listing only,41.909687,12.474711,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g187791-d198736,Nerva Boutique Hotel,41.894566,12.487195,listing,listing only,41.894566,12.487195,0.0,,,,,,,2026-11-23T16:08:44+00:00
@@ -356,6 +356,7 @@ ta:g187791-d3566707,Guest House Casa Martini,41.910637,12.457793,listing,listing
 ta:g187791-d3929140,J.K. Place Roma,41.904427,12.47696,listing,listing only,41.904427,12.47696,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g187791-d4028829,Casa Eli Roma,41.869335,12.445125,listing,listing only,41.869335,12.445125,0.0,,,,,,,2026-11-24T20:45:38+00:00
 ta:g187791-d4232199,Colfelice Rooms,41.869183,12.53148,listing,listing only,41.869183,12.53148,0.0,,,,,,,2026-11-24T20:45:38+00:00
+ta:g187791-d4742103,Inn Urbe Vaticano,41.908012,12.465903,listing,listing only,41.908012,12.465903,0.0,,,,,,,2026-11-26T19:44:57+00:00
 ta:g187791-d497255,Al Colonnato di San Pietro Bed and Breakfast,41.9,12.456754,listing,listing only,41.9,12.456754,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g187791-d531936,Argentina Residenza Style Hotel,41.895207,12.47622,osm,confirmed,41.89534,12.476083,0.02,41.895207,12.47622,Torre Argentina Relais,,,,2026-11-23T16:08:44+00:00
 ta:g187791-d596437,The Inn At The Roman Forum,41.894646,12.487596,listing,listing only,41.894646,12.487596,0.0,,,,,,,2026-11-23T16:08:44+00:00
@@ -1044,7 +1045,6 @@ ta:g274707-d280282,Aria Hotel Prague,50.087143,14.402665,osm,confirmed,50.087143
 ta:g274707-d280324,Hotel Schwaiger,50.10342,14.408323,osm,confirmed,50.10327,14.40838,0.02,50.10342,14.408323,Hotel Schwaiger,,,,2026-11-23T16:08:44+00:00
 ta:g274707-d311877,House at the Big Boot,50.087532,14.398163,listing,listing only,50.087532,14.398163,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g274707-d4326734,Innside Prague,50.091469,14.431,osm,confirmed,50.091553,14.43108,0.01,50.091469,14.431,INNSiDE Prague Old Town by Mélia,,,,2026-11-23T16:08:44+00:00
-ta:g274707-d507334,Ventana Hotel Prague,50.08751,14.42339,listing,listing only,50.08751,14.42339,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g274707-d543175,The Mozart Prague,50.084616,14.414087,osm,confirmed,50.08467,14.414157,0.01,50.084616,14.414087,The Mozart Prague,,,,2026-11-23T16:08:44+00:00
 ta:g274707-d543179,Alchymist Grand Hotel and Spa,50.087553,14.400954,photon,confirmed,50.087555,14.400884,0.0,,,,50.0875535,14.400954,Alchymist Grand Hotel and Spa,2026-11-23T16:08:44+00:00
 ta:g274707-d581385,Hotel Hastal Prague Old Town,50.09101,14.424786,osm,confirmed,50.090973,14.424858,0.01,50.09101,14.424786,Hotel Haštal Prague Old Town,,,,2026-11-23T16:08:44+00:00
@@ -1054,7 +1054,6 @@ ta:g274707-d616395,"Mandarin Oriental, Prague",50.08472,14.405461,osm,confirmed,
 ta:g274707-d641025,The Dominican,50.085628,14.41865,osm,confirmed,50.085842,14.418923,0.03,50.085628,14.41865,Dominican,,,,2026-11-23T16:08:44+00:00
 ta:g274707-d658737,Hotel Residence Agnes,50.09136,14.425792,photon,confirmed,50.09135,14.425758,0.0,,,,50.09136,14.4257915,Residence Agnes,2026-11-23T16:08:44+00:00
 ta:g274707-d667752,Residence Karolina - Prague City Apartments,50.082253,14.415634,listing,listing only,50.082253,14.415634,0.0,,,,,,,2026-11-24T20:45:38+00:00
-ta:g274707-d782524,Hotel General,50.0701,14.4092,listing,listing only,50.0701,14.4092,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g274707-d8501421,BoHo Prague Hotel - Small Luxury Hotels of the World,50.08612,14.429348,listing,listing only,50.08612,14.429348,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g274718-d1783064,NH Collection Olomouc Congress,49.601276,17.246207,osm,confirmed,49.601223,17.24689,0.05,49.601276,17.246207,NH Olomouc Congress,,,,2026-11-23T16:08:44+00:00
 ta:g274863-d3221974,Penzion Kaps,46.364624,14.109581,osm,confirmed,46.364685,14.109572,0.01,46.364624,14.109581,Penzion Kaps,,,,2026-11-23T16:08:44+00:00
@@ -1087,6 +1086,7 @@ ta:g274887-d276362,Hilton Budapest,47.502759,19.03371,osm,confirmed,47.502586,19
 ta:g274887-d276381,Boutique Hotel Victoria Budapest,47.501547,19.039772,osm,confirmed,47.501534,19.039803,0.0,47.501547,19.039772,Boutique Hotel Victoria Budapest ****,,,,2026-11-23T16:08:44+00:00
 ta:g274887-d276849,Four Seasons Hotel Gresham Palace Budapest,47.499862,19.048055,photon,confirmed,47.499676,19.048044,0.02,,,,47.4998621,19.0480552,Four Seasons Gresham Palace,2026-11-23T16:08:44+00:00
 ta:g274887-d27786638,Kimpton BEM Budapest by IHG,47.512102,19.037935,photon,confirmed,47.512066,19.037928,0.0,,,,47.5121016,19.0379353,Kimpton BEM Budapest,2026-11-23T16:08:44+00:00
+ta:g274887-d28116411,Three Corners Avenue Hotel,47.503139,19.061446,photon,confirmed,47.503098,19.0614,0.01,,,,47.5031388,19.0614463,Three Corners Avenue,2026-11-26T19:44:57+00:00
 ta:g274887-d28136428,"Hotel BoHo Budapest, an SLH Hotel",47.490223,19.066643,listing,listing only,47.490223,19.066643,0.0,,,,,,,2026-11-23T16:08:44+00:00
 ta:g274887-d285437,Corinthia Budapest,47.502672,19.066793,osm,confirmed,47.502754,19.067019,0.02,47.502672,19.066793,Corinthia Grand Hotel Royal,,,,2026-11-23T16:08:44+00:00
 ta:g274887-d33325555,Leon Hotel & Lounge,47.496487,19.041616,listing,listing only,47.496487,19.041616,0.0,,,,,,,2026-11-23T16:08:44+00:00
