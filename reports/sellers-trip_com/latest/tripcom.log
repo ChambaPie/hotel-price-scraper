@@ -1,7 +1,4 @@
-02:12:08 Feldhof DolceVita Resort 2027-01-07: not in the answer ([])
-02:12:30 Feldhof DolceVita Resort 2027-07-08: not in the answer ([])
-02:12:52 Villa Bordoni 2027-03-13: not in the answer ([])
-02:34:58 Hotel Barbarahof Saalbach 2027-11-01: Page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://www.trip.com/hotels/list?flexType=1&cityId=372
-02:41:49 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 95, 'priced': 20, 'available': 7, 'errors': 1, 'missing': 75, 'stored_nights': 1133, 'ids_coverage': '1270/1500'}
+06:03:18 Das Alois 4 Sterne Superior 2027-05-16: not in the answer ([])
+06:03:39 Das Alois 4 Sterne Superior 2027-11-14: not in the answer ([])
+06:04:01 Natur- & Wanderhotel Tuxertal 2027-02-10: not in the answer ([])
+06:33:08 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 118, 'priced': 41, 'available': 20, 'errors': 0, 'missing': 77, 'stored_nights': 1154, 'ids_coverage': '1270/1500'}

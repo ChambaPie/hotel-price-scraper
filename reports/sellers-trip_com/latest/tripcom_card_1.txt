@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=49226&provinceId=0&districtId=0&countryId=106&destName=Adriatic%20Palace%20Hotel&searchWord=Adriatic%20Palace%20Hotel&searchType=H&optionId=3663184&searchValue=31%7C3663184*31*3663184*1&checkin=2027-04-25&checkout=2027-04-26&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 129.0, 'price_excl': 113.0, 'price_total': 129.0, 'breakfast': 'included', 'cancellation': ''}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=27208&provinceId=0&districtId=0&countryId=28&destName=Hotel%20St.%20Florian&searchWord=Hotel%20St.%20Florian&searchType=H&optionId=7196077&searchValue=31%7C7196077*31*7196077*1&checkin=2027-03-03&checkout=2027-03-04&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 335.0, 'price_excl': 310.0, 'price_total': 335.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,28 +11,23 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Adriatic Palace Hotel
-Sun, Apr 25
+Hotel St. Florian
+Wed, Mar 3
 -
-Mon, Apr 26
+Thu, Mar 4
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Jesolo
+Popular filters for Frauenau
 
-Hotel
-Near Beach
 Breakfast included
-Good 7+
-Based on guest reviews
-Parking available
-Free cancellation
-Pay at Hotel
+Dinner included
 Pool
-2 beds
-Pets welcome
+Hotel
+Free cancellation
+Breakfast & Dinner Included
 
 Budget
 
@@ -55,20 +50,13 @@ Show More
 
 Star rating
 
-Beach vacation
-
-Near Beach
-Pool
-Spa
-Show More
-
 Location
 
-Straight-line distance from Adriatic Palace Hotel
+Straight-line distance from Hotel St. Florian
 No distance limit
-Beach Lido Centro
-Lido di Jesolo Autostazione/Busbahnhof
-Spiaggia Jesolo
+Nationalpark Bayerischer Wald
+Frauenau Glass Museum
+St. Hermann Kapelle auf der Zell
 Show More
 
 Meals
@@ -87,16 +75,14 @@ Show More
 
 Room features
 
+Entire unit
 Balcony
-Family room
-Private villa
-Show More
+Mountain view room
 
 Number of bedrooms
 
 1 bedroom/studio
 2 bedrooms
-3+ bedrooms
 
 Guest rating
 
@@ -108,36 +94,29 @@ Show More
 Property facilities & services
 
 Pool
+Wi-Fi in public areas
 Parking available
-Pets welcome
 Show More
 
 Room facilities & services
 
-Air conditioning
-Balcony
-Private pool
+Extra beds available
+Cribs available
+Smoking room
 Show More
 
 Property Features
 
-Near Beach
 Family-friendly
-Great views
-Show More
 
 Guest Impressions
 
 Lots to do
-Ideal location
-Sparkling clean
-Show More
 
 Room Size
 
-≥ 20㎡
-≥ 25㎡
-≥ 50㎡
+≥ 30㎡
+≥ 35㎡
 
 Payment
 
@@ -151,23 +130,27 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
-Brands
-
-Falkensteiner
-Rizzante Hotels
-
 Reviews
 
-200+
-100+
 50+
+20+
+10+
 
 Accessibility
 
-Assistive listening devices
 Handrails on stairs
-Handrails in hallways
+Braille signs
+Pool ramp available
 Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -178,27 +161,27 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Adriatic Palace Hotel
-Piazza MilanoMap
+Hotel St. Florian
+Near FrauenauGlashutte Valentin EischMap
 Amazing
-64 reviews
-9.5
-Excellent servicePublic beachDelicious breakfast
-No. 14 of Scenic Hotels in Veneto
-Double Room with Sea View
-2 single beds or 1 double bed
+17 reviews
+9.4
+SpaIndoor poolSkiing
+No. 5 of 4-Star Select Hotels in Grosser Arber
+Double Room (Themendoppelzimmer)
+1 double bed
+Free Cancellation
 Breakfast included
-Only 3 left at this price
-€113
-Total (incl. taxes & fees): €129
+€310
+Total (incl. taxes & fees): €335
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in Italy
+Hotels in Germany
 >
-Hotels in Veneto
+Hotels in Bavaria
 >
-Hotels in Jesolo
+Hotels in Frauenau

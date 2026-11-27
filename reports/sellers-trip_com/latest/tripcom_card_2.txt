@@ -1,39 +1,36 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=40189&provinceId=0&districtId=0&countryId=80&destName=Hotel%20Eden%20Spiez&searchWord=Hotel%20Eden%20Spiez&searchType=H&optionId=1548007&searchValue=31%7C1548007*31*1548007*1&checkin=2027-05-07&checkout=2027-05-08&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 399.0, 'price_excl': 375.0, 'price_total': 399.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=3651&provinceId=0&districtId=0&countryId=106&destName=Gran%20Paradiso%20Hotel%20Spa&searchWord=Gran%20Paradiso%20Hotel%20Spa&searchType=H&optionId=3162681&searchValue=31%7C3162681*31*3162681*1&checkin=2027-03-13&checkout=2027-03-14&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 102.0, 'price_excl': 89.0, 'price_total': 102.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
 Trains
 Cars
-Attractions & Tours
 App
 List your property
 EUR
 Customer support
 Find bookings
 Sign in/register
-Hotel Eden Spiez
-Fri, May 7
+Gran Paradiso Hotel Spa
+Sat, Mar 13
 -
-Sat, May 8
+Sun, Mar 14
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Spiez
+Popular filters for San Giovanni Rotondo
 
+Bathtub with grab bars
+Free parking
 Breakfast included
-Free cancellation
-Homes & apts
-Kitchen
-Apartment
 Hotel
+Free cancellation
 Private toilet
-3 beds
-2 bedrooms
-Great 9+
-Based on guest reviews
+1 double bed
+Water park
+Family room
 
 Budget
 
@@ -58,11 +55,11 @@ Star rating
 
 Location
 
-Straight-line distance from Hotel Eden Spiez
+Straight-line distance from Gran Paradiso Hotel Spa
 No distance limit
-Spiez
-Lake Thun
-Town of Spiez
+Sanctuary of Saint Mary Our Lady of Graces
+Chiesa di San Pio
+Church of the Transfiguration of Our Lord Jesus
 Show More
 
 Meals
@@ -78,16 +75,15 @@ Show More
 
 Room features
 
-Family room
+Suite
 Balcony
-Lake view room
+Family room
 Show More
 
 Number of bedrooms
 
 1 bedroom/studio
 2 bedrooms
-3+ bedrooms
 
 Guest rating
 
@@ -99,23 +95,20 @@ Show More
 Property facilities & services
 
 Parking available
-Elevator
 Pool
+Free parking
 Show More
 
 Room facilities & services
 
-Kitchen
+Private toilet
 Air conditioning
 Non-smoking rooms
 Show More
 
 Property Features
 
-Great views
 Family-friendly
-Self check-in
-Show More
 
 Guest Impressions
 
@@ -126,9 +119,8 @@ Show More
 
 Room Size
 
-≥ 35㎡
-≥ 50㎡
-≥ 80㎡
+≥ 20㎡
+≥ 25㎡
 
 Payment
 
@@ -142,14 +134,6 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
-Discounts
-
-Extra Trip Coin Rewards
-
-Brands
-
-Preferred
-
 Reviews
 
 200+
@@ -159,7 +143,7 @@ Reviews
 Accessibility
 
 Handrails on stairs
-Pool ramp available
+Braille signs
 Stair-free main entrance
 Show More
 First booking offer!
@@ -172,28 +156,26 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Hotel Eden Spiez
-Near SpiezTown of SpiezMap
-Great
-91 reviews
-9.1
-BarIdeal locationSpa
-No. 1 of Scenic Hotels in Spiez
-Small Room (Bed: 135x200cm)
-1 double bed
+Gran Paradiso Hotel Spa
+Near Sanctuary of Saint Mary Our Lady of GracesChiesa di San PioMap
+Very good
+98 reviews
+8.3
+SpaDelicious breakfastIdeal location
+Classic Double Room
+2 single beds or 1 double bed
 Free Cancellation
 Breakfast included
-Only 3 left at this price
-€375
-Total (incl. taxes & fees): €399
+€89
+Total (incl. taxes & fees): €102
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in Switzerland
+Hotels in Italy
 >
-Hotels in Canton of Bern
+Hotels in Apulia
 >
-Hotels in Spiez
+Hotels in San Giovanni Rotondo
