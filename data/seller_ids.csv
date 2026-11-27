@@ -4834,6 +4834,7 @@ ta:g1024764-d4564528,official,"seekda:{""code"":""S003791""}",,Dolomitengolf Sui
 ta:g1055481-d599886,official,"seekda:{""code"":""S006552""}",,Naturhotel Waldklause,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g1056049-d1006824,official,"seekda:{""code"":""AT_TUX_BERGLAND""}",,Adler Inn Tyrol Mountain Resort Superior,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g1056049-d1145033,official,"seekda:{""code"":""AT_HINTER_ALPEN""}",,Hotel Alpenhof,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g1092800-d309743,official,"ericsoft:{""code"":""8316777908C06CC5"",""host"":""booking.ericsoft.com""}",,Auberge de la Maison,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g1118194-d4875759,official,,,L'Aiguille Grive Chalets Hotel,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g1133410-d1134896,official,,,Auberge de la Gare,,,,,not found,2026-11-25T15:34:09+00:00
 ta:g1147559-d563683,official,"seekda:{""code"":""S005744""}",,Cyprianerhof Dolomit Resort,,,,,ok,2026-11-25T15:34:09+00:00
@@ -4841,12 +4842,15 @@ ta:g1171382-d6868672,official,"seekda:{""code"":""S000161""}",,Das Kaltenbach - 
 ta:g1171460-d1730625,official,"seekda:{""code"":""AT_IQ_007""}",,Romantik & Spa Alpen-herz,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g1171611-d1182300,official,"seekda:{""code"":""AT_LUTZ_SONNENPA""}",,Hotel Sonnenpark,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g1172212-d3807287,official,"hotelnetsolutions:{""code"":""naturhotel-chesa-valisa""}",,Das Naturhotel Chesa Valisa,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g1183488-d1189483,official,"ericsoft:{""code"":""980204DF7D786B42"",""host"":""booking.ericsoft.com""}",,Berghotel Miramonti,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g1183879-d1830966,official,,,Hotel Executive La Fiorita,,,,,not found,2026-11-24T10:24:08+00:00
+ta:g1184636-d567545,official,"seekda:{""code"":""IT_HAF_MIRAMONTI""}",,Miramonti Boutique Hotel,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g1194193-d1209188,official,"seekda:{""code"":""S001318""}",,Hotel Andy,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g1195534-d1195537,official,,,Vila Vita Pannonia,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g1197017-d25185293,official,"seekda:{""code"":""S001320""}",,Alpenhotel Heimspitze,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g1223267-d32862259,official,"d_edge:{""auth"":""eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSjFJNiIsImhvdGVsSWQiOiIyOTU1MiIsImdyb3VwSWQiOiIxNzgxMiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiUkFDS1BSSSIsImRpc3BsYXlOYW1lIjoiRG9tYWluZS1Nb250YWduZSIsIm5iZiI6MTczNjc4NTEwNCwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTczNjc4NTEwNCwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.G6WyT8NfbNJmrVhO_uskBuUqeuoMRjwZZOuQeKZnt9TNTgfyhGKKEggtwLGhFGF4r9K8A5_y3v42vHw2K1WUPA"",""code"":""J1I6-29552"",""group"":""""}",,Domaine de Montagne - Chalet Frère Joseph,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g1425788-d1161517,official,"simplebooking:{""code"":""9819""}",,Hotel Opinione,,,,,ok,2026-11-25T15:34:09+00:00
+ta:g1425788-d1569429,official,"simplebooking:{""code"":""3493""}",,Garnì Lilly,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g1596637-d279305,official,,,Hotel et Spa du Castellet,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g1786906-d1788330,official,"simplebooking:{""code"":""8930""}",,Alloggio Agrituristico Albafiorita,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g187073-d239294,official,,,La Maison Des Tetes - Relais & Châteaux,,,,,not found,2026-11-25T15:34:09+00:00
@@ -4867,37 +4871,76 @@ ta:g187309-d201931,official,,,Hotel Torbräu,,,,,not found,2026-11-24T10:24:08+0
 ta:g187309-d217948,official,,,Hotel Muenchen Palace,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187309-d233835,official,,,"Mandarin Oriental, Munich",,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187310-d202030,official,"hotelnetsolutions:{""code"":""hotel-victoria-nuernberg""}",,Hotel VICTORIA,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g187780-d21512228,official,"synxis:{""chain"":""8565"",""code"":""40469"",""host"":""be.synxis.com""}",,Borgo Santandrea,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187780-d235968,official,"synxis:{""chain"":""22402"",""code"":""46850"",""host"":""be.synxis.com""}",,Hotel Miramalfi,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187782-d14195364,official,"simplebooking:{""code"":""4654""}",,Antica Dimora Magi,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187782-d17913144,official,"simplebooking:{""code"":""5737""}",,Hotel Lorelei Londres,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187782-d2175053,official,,,Palazzo Jannuzzi Relais,,,,,not found,2026-11-27T17:35:00+00:00
+ta:g187782-d228959,official,"synxis:{""chain"":""24447"",""code"":""6792"",""host"":""be.synxis.com""}",,Grand Hotel Excelsior Vittoria,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187782-d235955,official,,,Bellevue Syrene,,,,,not found,2026-11-27T17:35:00+00:00
+ta:g187782-d275663,official,"simplebooking:{""code"":""1313""}",,Villa Oriana Relais,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187782-d291098,official,,,Grand Hotel De La Ville Sorrento,,,,,not found,2026-11-27T17:35:00+00:00
+ta:g187782-d291430,official,"simplebooking:{""code"":""7575""}",,Palazzo Marziale,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187791-d10553781,official,"synxis:{""chain"":""5375"",""code"":""71264"",""host"":""be.synxis.com""}",,Hotel Monte Cenci,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g187791-d15327157,official,,,The First Roma Dolce,,,,,not found,2026-11-24T10:24:08+00:00
+ta:g187791-d1751325,official,"simplebooking:{""code"":""3872""}",,Althea Inn Roof Terrace,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187791-d198734,official,"synxis:{""chain"":""5375"",""code"":""25659"",""host"":""be.synxis.com""}",,Hotel Locarno,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187791-d203175,official,,,Hotel Barocco,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g187791-d205044,official,,,Hotel Artemide,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187791-d3244512,official,,,The Independent Hotel,,,,,not found,2026-11-24T10:24:08+00:00
+ta:g187791-d3929140,official,"synxis:{""chain"":""24447"",""code"":""6880"",""host"":""be.synxis.com""}",,J.K. Place Roma,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187791-d531936,official,"blastness:{""code"":""12102"",""dc"":""3546""}",,Argentina Residenza Style Hotel,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g187791-d597703,official,"synxis:{""chain"":""22402"",""code"":""78691"",""host"":""be.synxis.com""}",,Villa Spalletti Trivelli,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187791-d7134644,official,,,Palazzo Navona,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g187791-d7976127,official,,,A Roma Lifestyle Hotel,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187796-d567588,official,"simplebooking:{""code"":""5184""}",,Hotel Villa Cattani Stuart,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g187801-d202776,official,"synxis:{""chain"":""24447"",""code"":""6804"",""host"":""be.synxis.com""}",,Grand Hotel Majestic Gia Baglioni,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187801-d601493,official,"simplebooking:{""code"":""2874""}",,Savhotel Fiera Bologna,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g187804-d1775632,official,,,Villino di Porporano,,,,,not found,2026-11-25T15:34:09+00:00
+ta:g187806-d3856919,official,"simplebooking:{""code"":""3086""}",,Palazzo Bezzi,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187807-d10393197,official,"d_edge:{""auth"":""eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSkkxQyIsImhvdGVsSWQiOiIyNjQwNiIsImdyb3VwSWQiOiIxNjQ0NiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiRkxFWEJCIiwiZGlzcGxheU5hbWUiOiJVUC1Ib3RlbCIsIm5iZiI6MTY0MzgwMDAzMSwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTY0MzgwMDAzMSwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.OJFlokYuZEA0EQaipP8-ayXL6aZ-QHUxNn5inrpj0vsfUM3uwSDi7796UmPQEZHtnWlUgfEvH-Nb5Dy0XWpdCA"",""code"":""JI1C-26406"",""group"":""""}",,Up Hotel,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187827-d202959,official,"d_edge:{""auth"":""eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiSlQ5RiIsImhvdGVsSWQiOiIzMDI4NiIsImdyb3VwSWQiOiIxODIyOSIsInJlZmVyZW5jZVJhdGVDb2RlIjoiQkFSIiwiZGlzcGxheU5hbWUiOiJHcmFuZC1Ib3RlbC1NaXJhbWFyZSIsIm5iZiI6MTczMDM4OTgwOCwiZXhwIjoyNTM0MDIzMDA4MDAsImlhdCI6MTczMDM4OTgwOCwiaXNzIjoiQXZhaWxwcm8gQVBJIE1hbmFnZXIiLCJhdWQiOiJkLWVkZ2UifQ.5JgidItnnftgGXaf_nqgo9q2l-r2woj-KDMYQMIrUmIEdYGsRqGIMX5021m8LCbm3qlHbbk5UVZ59T0Q8uoPog"",""code"":""JT9F-30286"",""group"":""""}",,Grand Hotel Miramare,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187842-d277407,official,,,Hotel Continental,,,,,not found,2026-11-24T10:24:08+00:00
+ta:g187847-d238559,official,,,Hotel Residence La Luna Nel Porto,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g187849-d194976,official,"simplebooking:{""code"":""10049""}",,Hotel Spadari al Duomo True Stay,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g187849-d204472,official,,,Urban Hive Milano,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187849-d3561841,official,,,The Street Milano Duomo | a Design Boutique Hotel,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187849-d4552883,official,,,Palazzo Parigi Hotel & Grand Spa,,,,,not found,2026-11-24T09:58:19+00:00
 ta:g187849-d563622,official,"simplebooking:{""code"":""5704""}",,iQ Hotel Milano,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g187864-d202793,official,"synxis:{""chain"":""8565"",""code"":""22894"",""host"":""be.synxis.com""}",,Hermitage Hotel & Spa,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g187865-d238532,official,"simplebooking:{""code"":""10010""}",,Hotel Bouton d'Or - Courmayeur,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187865-d3654148,official,"blastness:{""code"":""11153"",""dc"":""5562147""}",,Gran Baita Hotel & Wellness Resort,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g187870-d10804768,official,,,Palazzo Venart Luxury Hotel,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g187870-d1309168,official,"simplebooking:{""code"":""5060""}",,Ca' Barba B&B,,,,,ok,2026-11-25T15:34:09+00:00
+ta:g187870-d14117477,official,"simplebooking:{""code"":""5646""}",,Santa Croce Boutique Hotel,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187870-d239101,official,,,Hotel San Gallo,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187870-d25333692,official,,,Palazzo Keller,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187870-d2558563,official,,,Carnival Palace Hotel,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187870-d256010,official,,,Sina Palazzo Sant'angelo,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187870-d3348175,official,"simplebooking:{""code"":""1413""}",,Hotel Moresco,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g187870-d3454812,official,"simplebooking:{""code"":""10740""}",,Corte Di Gabriela,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187870-d488758,official,"simplebooking:{""code"":""3466""}",,Hotel Dona Palace,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g187870-d585019,official,"simplebooking:{""code"":""4622""}",,Oltre Il Giardino,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187870-d7392736,official,,,Hotel L'Orologio,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g187871-d232955,official,,,Hotel Accademia,,,,,not found,2026-11-24T10:24:08+00:00
+ta:g187894-d13943300,official,,,Monastero di Cortona Hotel & Spa,,,,,not found,2026-11-27T17:35:00+00:00
+ta:g187894-d278182,official,"blastness:{""code"":""5338"",""dc"":""3333""}",,Villa Marsili,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187895-d10462189,official,"simplebooking:{""code"":""4392""}",,Milu Hotel,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187895-d12920834,official,"simplebooking:{""code"":""8622""}",,Eco Urban B&B,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187895-d15239228,official,"blastness:{""code"":""18464"",""dc"":""9680""}",,The Frame Hotel,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187895-d1752811,official,,,Hotel Mulino di Firenze,,,,,not found,2026-11-24T10:24:08+00:00
+ta:g187895-d17703706,official,"simplebooking:{""code"":""5590""}",,Hotel Calimala Florence,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187895-d195005,official,"synxis:{""chain"":""24447"",""code"":""6861"",""host"":""reservations.villacora.it""}",,Villa Cora,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g187895-d203921,official,"simplebooking:{""code"":""1071""}",,Hotel David,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187895-d229073,official,"synxis:{""chain"":""10237"",""code"":""65826"",""host"":""be.synxis.com""}",,Bernini Palace Hotel,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187895-d230717,official,"simplebooking:{""code"":""2778""}",,Hotel Spadai,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187895-d232969,official,"simplebooking:{""code"":""8625""}",,The Market Urban Hotel,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g187895-d296175,official,"simplebooking:{""code"":""9856""}",,Hotel Davanzati,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187895-d32873561,official,"synxis:{""chain"":""16237"",""code"":""46302"",""host"":""reserve.auberge.com""}",,Collegio alla Querce Auberge Collection,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g187895-d3314157,official,"synxis:{""chain"":""10237"",""code"":""47197"",""host"":""be.synxis.com""}",,Hotel Number Nine,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187898-d232981,official,"simplebooking:{""code"":""4952""}",,Hotel Ilaria,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g187900-d8387332,official,"simplebooking:{""code"":""7748""}",,Torre Mozza,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g187902-d195711,official,"blastness:{""code"":""21800"",""dc"":""5463""}",,Hotel Certosa di Maggiano,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g187906-d202935,official,,,Park Hotel Ai Cappuccini,,,,,not found,2026-11-24T10:24:08+00:00
 ta:g188057-d15654431,official,"d_edge:{""auth"":""eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiMlFXVSIsImhvdGVsSWQiOiIyMTgxOSIsImdyb3VwSWQiOiIxMDQ2NiIsInJlZmVyZW5jZVJhdGVDb2RlIjoiQkFSMiIsImRpc3BsYXlOYW1lIjoiSG90ZWwtRC1HZW5ldmEiLCJuYmYiOjE3ODUyMjI4OTMsImV4cCI6MjUzNDAyMzAwODAwLCJpYXQiOjE3ODUyMjI4OTMsImlzcyI6IkF2YWlscHJvIEFQSSBNYW5hZ2VyIiwiYXVkIjoiZC1lZGdlIn0.KImfzvrJz6Gw2bvooNaYelWg9gqS54fpojqLVr2xnqDGo6fZeL2kTANYqkwNTeUVdBX-FNYnkZJs54nInuECqQ"",""code"":""2QWU-21819"",""group"":""""}",,Hotel D Geneva,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g188057-d195979,official,"synxis:{""chain"":""5169"",""code"":""10191"",""host"":""reservations.dangleterrehotel.com""}",,Hotel D'angleterre,,,,,ok,2026-11-25T15:34:09+00:00
@@ -4943,8 +4986,14 @@ ta:g190454-d272580,official,,,Hotel Erzherzog Rainer,,,,,not found,2026-11-24T15
 ta:g194659-d487705,official,"ericsoft:{""code"":""1E85423534B413F9"",""host"":""booking.ericsoft.com""}",,Hotel Mioni Pezzato & SPA,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g194664-d1972023,official,"ericsoft:{""code"":""C4F7F3CFA10444AB"",""host"":""booking.ericsoft.com""}",,Hotel Calissano,,,,,ok,2026-11-23T22:33:15+00:00
 ta:g194667-d597186,official,"ericsoft:{""code"":""6F47713E95525FA7"",""host"":""www.ericsoft.biz""}",,Hotel La Maison Wellness & Spa,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g194676-d2426128,official,,,Hotel Palazzo dei Mercanti,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g194691-d616411,official,"simplebooking:{""code"":""2295""}",,Hotel Bibione Palace,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g194697-d529976,official,"simplebooking:{""code"":""2779""}",,Hotel La Genzianella,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g194697-d646774,official,"simplebooking:{""code"":""2891""}",,Hotel Larice Bianco,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g194708-d529639,official,"simplebooking:{""code"":""6894""}",,Hotel Montecristo,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g194709-d3805960,official,"simplebooking:{""code"":""7401""}",,Chalet Vites Mountain Hotel,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g194729-d567471,official,"ericsoft:{""code"":""25DB3C950E632FD4"",""host"":""booking.ericsoft.com""}",,Hotel Schiller,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g194746-d233138,official,"synxis:{""chain"":""24447"",""code"":""6765"",""host"":""be.synxis.com""}",,Hotel La Perla,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g194752-d269332,official,"simplebooking:{""code"":""1870""}",,Hotel Torino Wellness & Spa,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g194763-d2620786,official,"simplebooking:{""code"":""4147""}",,Hotel La Baita,,,,,ok,2026-11-25T15:34:09+00:00
 ta:g194796-d1151812,official,"simplebooking:{""code"":""9486""}",,Hotel Miramare,,,,,ok,2026-11-24T10:24:08+00:00
@@ -4956,13 +5005,24 @@ ta:g194805-d529631,official,"simplebooking:{""code"":""1955""}",,Hotel Crozzon,,
 ta:g194823-d2175614,official,,,Bellettini Hotel,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g194825-d1168892,official,,,Hotel Alle Alpi Beauty & Relax,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g194825-d529191,official,,,Leading Relax Hotel Maria,,,,,not found,2026-11-24T15:32:22+00:00
+ta:g194830-d296956,official,"simplebooking:{""code"":""2022""}",,Grand Hotel Francia & Quirinale,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g194835-d1125876,official,,,Palazzo Seneca,,,,,not found,2026-11-24T15:32:22+00:00
+ta:g194862-d233345,official,,,Grand Hotel Portovenere,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g194863-d229064,official,"simplebooking:{""code"":""983""}",,Hotel Eden Roc,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g194863-d307715,official,"ericsoft:{""code"":""B5D6FD6E9D0B6048"",""host"":""booking.ericsoft.com""}",,Hotel Punta Regina,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g194867-d276585,official,"simplebooking:{""code"":""6972""}",,Hotel Tramonto D'oro,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g194878-d12516148,official,"simplebooking:{""code"":""3925""}",,Dan Hotel,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g194878-d13516164,official,"simplebooking:{""code"":""4308""}",,Hotel Vagabond,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g194878-d2101307,official,"simplebooking:{""code"":""6171""}",,Hotel Tenerife,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g194878-d7617245,official,,,Hotel Carmen,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g194883-d233469,official,,,Du Lac et Du Parc Grand Resort,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g194883-d314203,official,"synxis:{""chain"":""24447"",""code"":""6782"",""host"":""be.synxis.com""}",,Lido Palace,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g194889-d6375452,official,,,Casa del Pittore,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g194896-d1168513,official,"seekda:{""code"":""S003910""}",,Naturhotel Leitlhof,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g194912-d951755,official,"seekda:{""code"":""S003096""}",,Granbaita Dolomites,,,,,ok,2026-11-24T15:32:22+00:00
+ta:g194935-d1140981,official,"simplebooking:{""code"":""4281""}",,Aktivhotel Santalucia,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g194946-d265536,official,,,Grand Hotel Principe di Piemonte,,,,,not found,2026-11-27T17:35:00+00:00
+ta:g194947-d33006787,official,"blastness:{""code"":""28675"",""dc"":""1443""}",,La Tuja Relais Du Parc,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g196706-d14958929,official,"d_edge:{""auth"":""eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJib29raW5nRW5naW5lUmVmZXJlbmNlIjoiMlExOSIsImhvdGVsSWQiOiIyMTEzOSIsImdyb3VwSWQiOiI5Mzk3IiwicmVmZXJlbmNlUmF0ZUNvZGUiOiJGTEVYIiwiZGlzcGxheU5hbWUiOiJTdC1BbGJhbi1Ib3RlbC1TcGEiLCJuYmYiOjE3MTY5MDkxODQsImV4cCI6MjUzNDAyMzAwODAwLCJpYXQiOjE3MTY5MDkxODQsImlzcyI6IkF2YWlscHJvIEFQSSBNYW5hZ2VyIiwiYXVkIjoiZC1lZGdlIn0.0Yn57vr6oNCOQmGNc4VxUdk_YkyMhK5DdZEcyiVTlkxsZiWqLJSf9qlASuw_aQrOm6KQPK_q70ib0zcpPPyqJg"",""code"":""2Q19-21139"",""group"":""""}",,St-Alban Hotel & Spa,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g198541-d1178251,official,"seekda:{""code"":""S002785""}",,Hotel Bären Titisee,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g198810-d1590856,official,,,Guarda Golf Hotel & Residences,,,,,not found,2026-11-25T15:34:09+00:00
@@ -5015,6 +5075,7 @@ ta:g274887-d9250207,official,"synxis:{""chain"":""5375"",""code"":""67171"",""ho
 ta:g274924-d1435845,official,,,Hotel Danubia Gate Bratislava,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g274924-d669692,official,,,Arcadia Boutique Hotel,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g294454-d301428,official,,,Esplanade Zagreb Hotel,,,,,not found,2026-11-24T15:32:22+00:00
+ta:g294472-d10753006,official,,,SAINT TEN Hotel,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g296672-d579480,official,"seekda:{""code"":""S005617""}",,Hotel Cortisen am See,,,,,ok,2026-11-24T05:29:46+00:00
 ta:g319732-d291520,official,,,Alpin Resort Sacher,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g319732-d500144,official,"seekda:{""code"":""AT_SEEFE_CENTRAL""}",,Hotel Central,,,,,ok,2026-11-24T15:32:22+00:00
@@ -5048,12 +5109,17 @@ ta:g608679-d659782,official,"seekda:{""code"":""AT_SW_BERGLAND""}",,Bergland Des
 ta:g608682-d1024087,official,"seekda:{""code"":""AT_ZUERS_ARLBERG""}",,Hotel Arlberghaus,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g608931-d637685,official,"hotelnetsolutions:{""code"":""hotel-schwarzschmied""}",,Hotel Schwarzschmied,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g608934-d1412326,official,"simplebooking:{""code"":""3939""}",,Follonico,,,,,ok,2026-11-25T15:34:09+00:00
+ta:g612437-d1099062,official,"simplebooking:{""code"":""9235""}",,Park Hotel Sport,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g612437-d1114303,official,"simplebooking:{""code"":""2466""}",,Corona Dolomites Hotel Andalo,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g612437-d1516232,official,,,Hotel Paganella,,,,,not found,2026-11-27T17:35:00+00:00
+ta:g612437-d2189263,official,"simplebooking:{""code"":""5386""}",,Hotel Nordik,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g612437-d5611610,official,"simplebooking:{""code"":""11847""}",,Sassdei My Active Suite Hotel,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g612437-d571556,official,"simplebooking:{""code"":""4698""}",,Cavallino Lovely Hotel,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g616132-d23516147,official,,,RockyPop Flaine,,,,,not found,2026-11-24T15:32:22+00:00
+ta:g616174-d611394,official,"synxis:{""chain"":""5375"",""code"":""57476"",""host"":""be.synxis.com""}",,Abbadia San Giorgio,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g616196-d247537,official,,,Castello di Spaltenna Exclusive Tuscan Resort & Spa,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g635546-d1017772,official,"seekda:{""code"":""S002996""}",,Hotel Alpina Rauris,,,,,ok,2026-11-24T05:29:46+00:00
+ta:g635621-d2557790,official,,,Monastero Santa Rosa Hotel & Spa,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g635626-d229044,official,"synxis:{""chain"":""10237"",""code"":""26937"",""host"":""be.synxis.com""}",,Grand Hotel Tremezzo,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g635770-d626771,official,,,Chateau Mcely,,,,,not found,2026-11-25T15:34:09+00:00
 ta:g641721-d565732,official,"seekda:{""code"":""AT_KLEIN_PRAEGA""}",,Evident Hotel Prägant,,,,,ok,2026-11-24T15:32:22+00:00
@@ -5071,12 +5137,17 @@ ta:g644054-d3748473,official,"seekda:{""code"":""AT_NEU_SCHLOESSL""}",,Alpeiner 
 ta:g644054-d500371,official,"seekda:{""code"":""AT_NEU_BERGKOENI""}",,Premium Activehotel Bergkonig,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g644054-d500767,official,"seekda:{""code"":""AT_NEU_STUBAI""}",,Hotel Der Stubaierhof,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g644245-d275671,official,"simplebooking:{""code"":""949""}",,Grand Hotel Due Golfi,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g644254-d589302,official,"simplebooking:{""code"":""5027""}",,Hotel Vigna,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g644287-d637028,official,"simplebooking:{""code"":""1393""}",,Torre Palombara - Dimora Storica,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g651667-d1742400,official,"seekda:{""code"":""S003586""}",,Hotel Gebhard,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g651667-d1873486,official,"seekda:{""code"":""S002969""}",,Hotel Fisserhof,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g651667-d2002426,official,"seekda:{""code"":""AT_IQ_009""}",,Hotel Toalstock,,,,,ok,2026-11-24T15:32:22+00:00
+ta:g652032-d1087811,official,,,Relais Sant'Elena,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g658716-d1367444,official,"seekda:{""code"":""AT_KH_0016""}",,Familienresort Buchau,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g663602-d1367949,official,"seekda:{""code"":""S005849""}",,Giardino Marling,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g664160-d254104,official,"synxis:{""chain"":""5375"",""code"":""74897"",""host"":""be.synxis.com""}",,Boutique-Hotel Remorino,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g664168-d262530,official,"ericsoft:{""code"":""50C782440CCA60AE"",""host"":""booking.ericsoft.com""}",,Hotel Pironi,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g664199-d2144171,official,"simplebooking:{""code"":""3802""}",,Hotel Europa,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g666530-d1020558,official,"seekda:{""code"":""AT_SHH_037""}",,Landhaus Koller,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g667020-d1236658,official,"hotelnetsolutions:{""code"":""schwaigerhof""}",,Hotel Schwaigerhof,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g667205-d1056987,official,"simplebooking:{""code"":""5444""}",,Hotel Interalpen,,,,,ok,2026-11-24T10:24:08+00:00
@@ -5084,11 +5155,14 @@ ta:g668227-d9454866,official,,,Locanda in Tuscany,,,,,not found,2026-11-24T15:32
 ta:g668546-d3836197,official,"simplebooking:{""code"":""7338""}",,Hotel Ciarnadoi,,,,,ok,2026-11-25T15:34:09+00:00
 ta:g676650-d1500608,official,"seekda:{""code"":""S000108""}",,Wanderhotel Taurerwirt,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g677293-d676426,official,"seekda:{""code"":""IT_VAL_VALSERHOF""}",,Hotel Valserhof,,,,,ok,2026-11-24T05:29:46+00:00
+ta:g780819-d3326309,official,"ericsoft:{""code"":""3707C18625AA078B"",""host"":""booking.ericsoft.com""}",,Relais Del Maro,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g784829-d1805979,official,"synxis:{""chain"":""8565"",""code"":""63020"",""host"":""be.synxis.com""}",,Terra - The Magic Place,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g807293-d1181140,official,"seekda:{""code"":""MTS_MBH_0002""}",,Alpines Gourmethotel Montanara,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g807869-d1059933,official,,,Damülser Hof - Wellness & Spa,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g808078-d1728712,official,"seekda:{""code"":""AT_GROSSARLER""}",,Hotel Grossarler Hof,,,,,shared code,2026-11-24T20:19:03+00:00
 ta:g811451-d1682047,official,"seekda:{""code"":""S005568""}",,Hotel Babymio ****,,,,,ok,2026-11-24T05:29:46+00:00
 ta:g811462-d1595255,official,"seekda:{""code"":""AT_GROSSARLER""}",,Premium Wanderhotel Steirerhof,,,,,ok,2026-11-24T05:29:46+00:00
+ta:g858371-d1125725,official,"simplebooking:{""code"":""6920""}",,Brunet The Dolomites Resort,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g954021-d582835,official,,,7132 Hotel,,,,,not found,2026-11-24T20:19:03+00:00
 ta:g1009332-d1802173,super_com,,76283,Penzion Limba,49.028503,19.572277,1.08,0.154,not found,2026-11-25T19:25:50+00:00
 ta:g1010234-d3353901,super_com,,98334,La Ribambelle,45.996563,6.93189,3.64,0.133,not found,2026-11-25T00:10:49+00:00
