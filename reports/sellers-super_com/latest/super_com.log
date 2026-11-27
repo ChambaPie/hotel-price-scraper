@@ -1,7 +1,7 @@
-13:45:39 20 searches, 175 hotel-nights priced
-13:46:34 40 searches, 220 hotel-nights priced
-13:47:18 60 searches, 236 hotel-nights priced
-13:47:52 80 searches, 247 hotel-nights priced
-13:48:59 100 searches, 411 hotel-nights priced
-13:50:16 120 searches, 616 hotel-nights priced
-13:50:20 super.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 120, 'priced': 616, 'available': 616, 'errors': 0, 'stored_nights': 2925, 'ids_coverage': '524/1500'}
+17:35:50 20 searches, 16 hotel-nights priced
+17:36:30 40 searches, 31 hotel-nights priced
+17:37:18 60 searches, 46 hotel-nights priced
+17:37:56 80 searches, 93 hotel-nights priced
+17:38:42 100 searches, 132 hotel-nights priced
+17:39:25 120 searches, 144 hotel-nights priced
+17:39:28 super.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 120, 'priced': 144, 'available': 144, 'errors': 0, 'stored_nights': 2453, 'ids_coverage': '524/1500'}
