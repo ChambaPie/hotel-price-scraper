@@ -1,226 +1,204 @@
-17:35:12 seekda   Miramonti Boutique Hotel            {'code': 'IT_HAF_MIRAMONTI'}
-17:35:21 simplebooking Palazzo Jannuzzi Relais             None
-17:35:28 blastness Bellevue Syrene                     None
-17:35:35 d_edge   Grand Hotel De La Ville Sorrento    None
-17:35:43 blastness Hotel Barocco                       None
-17:35:50 blastness Palazzo Navona                      None
-17:35:58 d_edge   Up Hotel                            {'code': 'JI1C-26406', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
-17:36:05 d_edge   Grand Hotel Miramare                {'code': 'JT9F-30286', 'group': '', 'auth': 'eyJhbGciOiJIUzUxMiIsInR5'}
-17:36:13 blastness Hotel Residence La Luna Nel Porto   None
-17:36:22 simplebooking Palazzo Venart Luxury Hotel         None
-17:36:30 blastness Monastero di Cortona Hotel & Spa    None
-17:36:37 simplebooking Hotel Palazzo dei Mercanti          None
-17:36:43 synxis   Grand Hotel Portovenere             None
-17:36:51 simplebooking Hotel Carmen                        None
-17:36:59 simplebooking Casa del Pittore                    None
-17:37:06 synxis   Grand Hotel Principe di Piemonte    None
-17:37:13 synxis   SAINT TEN Hotel                     None
-17:37:22 simplebooking Hotel Paganella                     None
-17:37:29 synxis   Monastero Santa Rosa Hotel & Spa    None
-17:37:38 simplebooking Relais Sant'Elena                   None
-17:37:48 seekda   Naturhotel Waldklause               109 nights priced
-17:38:02 seekda   Adler Inn Tyrol Mountain Resort Sup 126 nights priced
-17:38:15 seekda   Hotel Alpenhof                      267 nights priced
-17:38:27 ericsoft Auberge de la Maison                8 nights priced
-17:38:42 seekda   Cyprianerhof Dolomit Resort         266 nights priced
-17:38:53 seekda   Das Kaltenbach - Nature Hotel       173 nights priced
-17:39:04 seekda   Romantik & Spa Alpen-herz           84 nights priced
-17:39:25 seekda   Hotel Sonnenpark                    335 nights priced
-17:39:39 hotelnetsolutions Das Naturhotel Chesa Valisa         272 nights priced
-17:39:47 ericsoft Berghotel Miramonti                 8 nights priced
-17:40:03 seekda   Miramonti Boutique Hotel            334 nights priced
-17:40:15 seekda   Hotel Andy                          194 nights priced
-17:40:27 seekda   Alpenhotel Heimspitze               84 nights priced
-17:40:39 d_edge   Domaine de Montagne - Chalet Frère  340 nights priced
-17:40:39 Hotel Opinione: simplebooking HTTP 203 
-17:40:40 Garnì Lilly: simplebooking HTTP 203 
-17:40:41 Alloggio Agrituristico Albafiorita: simplebooking HTTP 203 
-17:40:54 d_edge   La Chèvre D'Or                      197 nights priced
-17:41:06 hotelnetsolutions Hotel VICTORIA                      303 nights priced
-17:41:08 Borgo Santandrea: synxis HTTP 401: {"Message":"An error occurred while sending the request..The underlying connection was closed: Could no
-17:41:13 Hotel Miramalfi: synxis HTTP 401: {"Message":"An error occurred while sending the request..The underlying connection was closed: Could no
-17:41:14 Antica Dimora Magi: simplebooking HTTP 203 
-17:41:14 Hotel Lorelei Londres: simplebooking HTTP 203 
-17:41:27 synxis   Grand Hotel Excelsior Vittoria      8 nights priced
-17:41:28 Villa Oriana Relais: simplebooking HTTP 203 
-17:41:29 Palazzo Marziale: simplebooking HTTP 203 
-17:41:37 synxis   Hotel Monte Cenci                   8 nights priced
-17:41:38 Althea Inn Roof Terrace: simplebooking HTTP 203 
-17:41:40 Hotel Locarno: synxis HTTP 401: {"Message":"An error occurred while sending the request..The underlying connection was closed: Could no
-17:41:53 synxis   J.K. Place Roma                     8 nights priced
-17:42:12 blastness Argentina Residenza Style Hotel     8 nights priced
-17:43:04 Villa Spalletti Trivelli: APIRequestContext.post: Timeout 45000ms exceeded.
-Call log:
-  - → POST https://be.synxis.com/gw/product/v1/getProductAva
-17:43:05 Hotel Villa Cattani Stuart: simplebooking HTTP 203 
-17:43:16 synxis   Grand Hotel Majestic Gia Baglioni   8 nights priced
-17:43:18 Savhotel Fiera Bologna: simplebooking HTTP 203 
-17:43:19 Palazzo Bezzi: simplebooking HTTP 203 
-17:43:30 d_edge   Up Hotel                            285 nights priced
-17:43:43 d_edge   Grand Hotel Miramare                195 nights priced
-17:43:44 Hotel Spadari al Duomo True Stay: simplebooking HTTP 203 
-17:43:45 iQ Hotel Milano: simplebooking HTTP 203 
-17:43:52 synxis   Hermitage Hotel & Spa               8 nights priced
-17:43:53 Hotel Bouton d'Or - Courmayeur: simplebooking HTTP 203 
-17:44:06 blastness Gran Baita Hotel & Wellness Resort  8 nights priced
-17:44:07 Ca' Barba B&B: simplebooking HTTP 203 
-17:44:07 Santa Croce Boutique Hotel: simplebooking HTTP 203 
-17:44:08 Hotel Moresco: simplebooking HTTP 203 
-17:44:09 Corte Di Gabriela: simplebooking HTTP 203 
-17:44:10 Hotel Dona Palace: simplebooking HTTP 203 
-17:44:11 Oltre Il Giardino: simplebooking HTTP 203 
-17:44:24 blastness Villa Marsili                       8 nights priced
-17:44:25 Milu Hotel: simplebooking HTTP 203 
-17:44:26 Eco Urban B&B: simplebooking HTTP 203 
-17:44:43 blastness The Frame Hotel                     8 nights priced
-17:44:45 Hotel Calimala Florence: simplebooking HTTP 203 
-17:44:58 synxis   Villa Cora                          8 nights priced
-17:45:00 Hotel David: simplebooking HTTP 203 
-17:45:18 synxis   Bernini Palace Hotel                8 nights priced
-17:45:19 Hotel Spadai: simplebooking HTTP 203 
-17:45:20 The Market Urban Hotel: simplebooking HTTP 203 
-17:45:21 Hotel Davanzati: simplebooking HTTP 203 
-17:45:31 synxis   Collegio alla Querce Auberge Collec 8 nights priced
-17:45:44 synxis   Hotel Number Nine                   8 nights priced
-17:45:44 Hotel Ilaria: simplebooking HTTP 203 
-17:45:45 Torre Mozza: simplebooking HTTP 203 
-17:45:59 blastness Hotel Certosa di Maggiano           8 nights priced
-17:46:14 d_edge   Hotel D Geneva                      364 nights priced
-17:46:23 synxis   Hotel D'angleterre                  8 nights priced
-17:46:24 Art Deco Hotel Montana: simplebooking HTTP 203 
-17:46:34 synxis   Le Grand Bellevue                   8 nights priced
-17:46:50 synxis   The Alpina Gstaad                   8 nights priced
-17:46:51 Hotel Gletschergarten: simplebooking HTTP 203 
-17:46:51 Hotel Fiescherblick: simplebooking HTTP 203 
-17:46:53 Hotel Belvedere Grindelwald: simplebooking HTTP 203 
-17:47:09 seekda   Waldhotel Arosa                     118 nights priced
-17:47:21 hotelnetsolutions BelArosa Hotel                      208 nights priced
-17:47:32 synxis   Kulm Hotel                          8 nights priced
-17:47:32 Matterhorn FOCUS Design Hotel: simplebooking HTTP 203 
-17:47:33 Christiania Mountain & Spa: simplebooking HTTP 203 
-17:47:34 Hotel Firefly: simplebooking HTTP 203 
-17:47:35 Grand Hotel Zermatterhof: simplebooking HTTP 203 
-17:47:35 Schloss  Zermatt: simplebooking HTTP 203 
-17:47:36 Hotel Sonne: simplebooking HTTP 203 
-17:47:37 Hotel Bellerive: simplebooking HTTP 203 
-17:47:38 Hotel Eden Wellness: simplebooking HTTP 203 
-17:47:38 The Omnia: simplebooking HTTP 203 
-17:47:55 synxis   Hôtel Angleterre                    8 nights priced
-17:48:06 seekda   Hotel  Bristol Salzburg             324 nights priced
-17:48:21 synxis   Hotel Sacher Salzburg               8 nights priced
-17:48:34 synxis   Hotel Sacher Wien                   8 nights priced
-17:48:53 ericsoft Hotel Mioni Pezzato & SPA           8 nights priced
-17:49:02 ericsoft Hotel La Maison Wellness & Spa      8 nights priced
-17:49:03 Hotel Bibione Palace: simplebooking HTTP 203 
-17:49:04 Hotel La Genzianella: simplebooking HTTP 203 
-17:49:05 Hotel Larice Bianco: simplebooking HTTP 203 
-17:49:06 Hotel Montecristo: simplebooking HTTP 203 
-17:49:07 Chalet Vites Mountain Hotel: simplebooking HTTP 203 
-17:49:23 Hotel Schiller: ericsoft: the booking page made no /api/book/GetSolutions call
-17:49:35 synxis   Hotel La Perla                      8 nights priced
-17:49:35 Hotel Torino Wellness & Spa: simplebooking HTTP 203 
-17:49:36 Hotel La Baita: simplebooking HTTP 203 
-17:49:36 Hotel Miramare: simplebooking HTTP 203 
-17:49:51 blastness Monaco Suites Hotel                 8 nights priced
-17:49:51 Hotel Daniele: simplebooking HTTP 203 
-17:50:00 ericsoft Hotel Chalet all'Imperatore         8 nights priced
-17:50:01 Hotel Crozzon: simplebooking HTTP 203 
-17:50:02 Grand Hotel Francia & Quirinale: simplebooking HTTP 203 
-17:50:03 Hotel Eden Roc: simplebooking HTTP 203 
-17:50:12 ericsoft Hotel Punta Regina                  8 nights priced
-17:50:13 Hotel Tramonto D'oro: simplebooking HTTP 203 
-17:50:14 Dan Hotel: simplebooking HTTP 203 
-17:50:14 Hotel Vagabond: simplebooking HTTP 203 
-17:50:15 Hotel Tenerife: simplebooking HTTP 203 
-17:50:25 synxis   Lido Palace                         8 nights priced
-17:50:38 seekda   Naturhotel Leitlhof                 307 nights priced
-17:50:50 seekda   Granbaita Dolomites                 194 nights priced
-17:50:50 Aktivhotel Santalucia: simplebooking HTTP 203 
-17:51:02 blastness La Tuja Relais Du Parc              8 nights priced
-17:51:14 d_edge   St-Alban Hotel & Spa                262 nights priced
-17:51:30 seekda   Hotel Bären Titisee                 312 nights priced
-17:51:30 Romantik Hotel Schweizerhof & Spa: simplebooking HTTP 203 
-17:51:40 synxis   Grand Hotel Kronenhof               8 nights priced
-17:51:41 Hotel Garni Chesa Mulin: simplebooking HTTP 203 
-17:51:42 Parkhotel Margna: simplebooking HTTP 203 
-17:51:42 The Capra: simplebooking HTTP 203 
-17:51:56 synxis   Chalet RoyAlp Hotel & Spa           8 nights priced
-17:51:57 Hotel Schweizerhof: simplebooking HTTP 203 
-17:51:58 Castello del Sole Beach Resort & SP: simplebooking HTTP 203 
-17:52:12 hotelnetsolutions Hotel Bergkristall                  88 nights priced
-17:52:25 seekda   Grand Hotel Lienz                   355 nights priced
-17:52:36 hotelnetsolutions Aribo Hotel                         347 nights priced
-17:52:47 seekda   Hotel Arlberg Lech                  37 nights priced
-17:52:59 seekda   Der Berghof                         148 nights priced
-17:53:10 seekda   Hotel Gotthard                      133 nights priced
-17:53:21 seekda   Hotel Austria Lech                  83 nights priced
-17:53:33 d_edge   Hotel Golden Star                   360 nights priced
-17:53:43 synxis   Hotel Clark Budapest                8 nights priced
-17:53:52 synxis   Hotel Vision Budapest               8 nights priced
-17:54:01 synxis   Boutique Hotel Victoria Budapest    8 nights priced
-17:54:11 synxis   Hotel Moments Budapest              8 nights priced
-17:54:22 seekda   Hotel Central                       233 nights priced
-17:54:34 seekda   Hotel Alte Schmiede                 230 nights priced
-17:54:45 seekda   Parkhotel Seefeld                   214 nights priced
-17:54:46 HOTEL MONTANA: simplebooking HTTP 203 
-17:54:56 seekda   Sonnen Resort                       39 nights priced
-17:55:08 seekda   Feldhof DolceVita Resort            259 nights priced
-17:55:09 Lindenhof: simplebooking HTTP 203 
-17:55:10 Milton Boutique Hotel: simplebooking HTTP 203 
-17:55:10 Hotel Sirenetta: simplebooking HTTP 203 
-17:55:21 ericsoft Hotel Galassia                      8 nights priced
-17:55:22 Hotel Bristol: simplebooking HTTP 203 
-17:55:23 Märchenhotel: simplebooking HTTP 203 
-17:55:40 seekda   AlpenParks Hotel & Apartment Orgler 340 nights priced
-17:55:54 seekda   Der Kapruner Hof                    304 nights priced
-17:56:09 seekda   Hotel Stadt Wien                    213 nights priced
-17:56:31 seekda   POP-UP Living Zell am See           363 nights priced
-17:56:40 synxis   Hotel & Restaurant Tannenhof        8 nights priced
-17:56:53 hotelnetsolutions Hotel Zur Pfeffermühle              208 nights priced
-17:57:09 seekda   Hotel Das Central                   222 nights priced
-17:57:20 seekda   Bergland Design and Wellness Hotel  223 nights priced
-17:57:31 seekda   Hotel Arlberghaus                   90 nights priced
-17:57:44 hotelnetsolutions Hotel Schwarzschmied                340 nights priced
-17:57:45 Follonico: simplebooking HTTP 203 
-17:57:46 Park Hotel Sport: simplebooking HTTP 203 
-17:57:46 Corona Dolomites Hotel Andalo: simplebooking HTTP 203 
-17:57:47 Hotel Nordik: simplebooking HTTP 203 
-17:57:48 Sassdei My Active Suite Hotel: simplebooking HTTP 203 
-17:57:49 Cavallino Lovely Hotel: simplebooking HTTP 203 
-17:57:58 synxis   Abbadia San Giorgio                 8 nights priced
-17:58:07 synxis   Grand Hotel Tremezzo                8 nights priced
-17:58:23 seekda   Evident Hotel Prägant               250 nights priced
-17:58:40 seekda   Hotel Salzburger Hof                237 nights priced
-17:58:56 seekda   Seehotel Einwaller                  248 nights priced
-17:59:07 seekda   Auenhotel                           81 nights priced
-17:59:21 seekda   Alpinhotel Berghaus Spa             199 nights priced
-17:59:33 seekda   Hotel Eden                          189 nights priced
-17:59:44 seekda   Hotel Alpin Spa Tuxerhof            167 nights priced
-17:59:56 seekda   Das Alois                           95 nights priced
-18:00:13 ericsoft Gran Paradiso Hotel Spa             8 nights priced
-18:00:26 synxis   Spa Hotel Jagdhof                   8 nights priced
-18:00:38 seekda   Alpeiner Nature Resort              274 nights priced
-18:00:52 seekda   Premium Activehotel Bergkonig       318 nights priced
-18:01:19 seekda   Hotel Der Stubaierhof               330 nights priced
-18:01:20 Grand Hotel Due Golfi: simplebooking HTTP 203 
-18:01:21 Hotel Vigna: simplebooking HTTP 203 
-18:01:22 Torre Palombara - Dimora Storica: simplebooking HTTP 203 
-18:01:34 seekda   Hotel Gebhard                       152 nights priced
-18:01:46 seekda   Hotel Fisserhof                     230 nights priced
-18:01:57 seekda   Hotel Toalstock                     211 nights priced
-18:02:19 seekda   Familienresort Buchau               289 nights priced
-18:02:31 seekda   Giardino Marling                    228 nights priced
-18:02:43 synxis   Boutique-Hotel Remorino             8 nights priced
-18:02:52 ericsoft Hotel Pironi                        8 nights priced
-18:02:53 Hotel Europa: simplebooking HTTP 203 
-18:03:04 seekda   Landhaus Koller                     195 nights priced
-18:03:18 hotelnetsolutions Hotel Schwaigerhof                  256 nights priced
-18:03:19 Hotel Interalpen: simplebooking HTTP 203 
-18:03:19 Hotel Ciarnadoi: simplebooking HTTP 203 
-18:03:30 seekda   Wanderhotel Taurerwirt              30 nights priced
-18:03:39 ericsoft Relais Del Maro                     8 nights priced
-18:03:52 synxis   Terra - The Magic Place             8 nights priced
-18:04:05 seekda   Alpines Gourmethotel Montanara      137 nights priced
-18:04:06 Brunet The Dolomites Resort: simplebooking HTTP 203 
-18:04:18 seekda   Dolomitengolf Suites                261 nights priced
-18:04:21 engines: {'ids_due': 74, 'ids_found': 57, 'hotels_priced': 114, 'nights': 15031, 'errors': 89, 'shared_codes': 0, 'ids_coverage': '212/296 hotels on seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft, synxis, blastness'}
+21:26:02 synxis   Hermitage Hotel & Spa               8 nights priced
+21:26:03 Hotel Bouton d'Or - Courmayeur: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:26:18 blastness Gran Baita Hotel & Wellness Resort  8 nights priced
+21:26:18 Ca' Barba B&B: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:26:19 Santa Croce Boutique Hotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:26:19 Hotel Moresco: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:26:19 Corte Di Gabriela: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:26:20 Hotel Dona Palace: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:26:20 Oltre Il Giardino: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:26:32 blastness Villa Marsili                       8 nights priced
+21:26:32 Milu Hotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:26:33 Eco Urban B&B: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:26:52 blastness The Frame Hotel                     8 nights priced
+21:26:52 Hotel Calimala Florence: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:27:05 synxis   Villa Cora                          8 nights priced
+21:27:06 Hotel David: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:27:22 synxis   Bernini Palace Hotel                8 nights priced
+21:27:23 Hotel Spadai: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:27:23 The Market Urban Hotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:27:23 Hotel Davanzati: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:27:33 synxis   Collegio alla Querce Auberge Collec 8 nights priced
+21:27:47 synxis   Hotel Number Nine                   8 nights priced
+21:27:47 Hotel Ilaria: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:27:48 Torre Mozza: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:28:04 blastness Hotel Certosa di Maggiano           8 nights priced
+21:28:21 d_edge   Hotel D Geneva                      364 nights priced
+21:28:30 synxis   Hotel D'angleterre                  8 nights priced
+21:28:31 Art Deco Hotel Montana: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:28:40 synxis   Le Grand Bellevue                   8 nights priced
+21:28:52 synxis   The Alpina Gstaad                   8 nights priced
+21:28:53 Hotel Gletschergarten: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:28:53 Hotel Fiescherblick: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:28:53 Hotel Belvedere Grindelwald: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:29:12 seekda   Waldhotel Arosa                     118 nights priced
+21:29:27 hotelnetsolutions BelArosa Hotel                      208 nights priced
+21:29:38 synxis   Kulm Hotel                          8 nights priced
+21:29:38 Matterhorn FOCUS Design Hotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:29:38 Christiania Mountain & Spa: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:29:39 Hotel Firefly: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:29:39 Grand Hotel Zermatterhof: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:29:39 Schloss  Zermatt: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:29:40 Hotel Sonne: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:29:40 Hotel Bellerive: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:29:40 Hotel Eden Wellness: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:29:41 The Omnia: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:29:56 synxis   Hôtel Angleterre                    8 nights priced
+21:30:10 seekda   Hotel  Bristol Salzburg             324 nights priced
+21:30:24 synxis   Hotel Sacher Salzburg               8 nights priced
+21:30:35 synxis   Hotel Sacher Wien                   8 nights priced
+21:30:58 ericsoft Hotel Mioni Pezzato & SPA           8 nights priced
+21:31:09 ericsoft Hotel La Maison Wellness & Spa      8 nights priced
+21:31:10 Hotel Bibione Palace: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:31:10 Hotel La Genzianella: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:31:10 Hotel Larice Bianco: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:31:11 Hotel Montecristo: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:31:11 Chalet Vites Mountain Hotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:31:26 Hotel Schiller: ericsoft: the booking page made no /api/book/GetSolutions call
+21:31:36 synxis   Hotel La Perla                      8 nights priced
+21:31:37 Hotel Torino Wellness & Spa: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:31:37 Hotel La Baita: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:31:37 Hotel Miramare: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:31:52 blastness Monaco Suites Hotel                 8 nights priced
+21:31:52 Hotel Daniele: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:32:02 ericsoft Hotel Chalet all'Imperatore         8 nights priced
+21:32:03 Hotel Crozzon: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:32:03 Grand Hotel Francia & Quirinale: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:32:03 Hotel Eden Roc: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:32:13 ericsoft Hotel Punta Regina                  8 nights priced
+21:32:13 Hotel Tramonto D'oro: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:32:13 Dan Hotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:32:14 Hotel Vagabond: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:32:14 Hotel Tenerife: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:32:25 synxis   Lido Palace                         8 nights priced
+21:32:42 seekda   Naturhotel Leitlhof                 307 nights priced
+21:32:56 seekda   Granbaita Dolomites                 194 nights priced
+21:32:56 Aktivhotel Santalucia: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:33:09 blastness La Tuja Relais Du Parc              8 nights priced
+21:33:24 d_edge   St-Alban Hotel & Spa                262 nights priced
+21:33:42 seekda   Hotel Bären Titisee                 312 nights priced
+21:33:43 Romantik Hotel Schweizerhof & Spa: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:33:51 synxis   Grand Hotel Kronenhof               8 nights priced
+21:33:52 Hotel Garni Chesa Mulin: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:33:52 Parkhotel Margna: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:33:52 The Capra: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:34:05 synxis   Chalet RoyAlp Hotel & Spa           8 nights priced
+21:34:05 Hotel Schweizerhof: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:34:05 Castello del Sole Beach Resort & SP: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:34:24 hotelnetsolutions Hotel Bergkristall                  88 nights priced
+21:34:39 seekda   Grand Hotel Lienz                   356 nights priced
+21:34:52 hotelnetsolutions Aribo Hotel                         347 nights priced
+21:35:05 seekda   Hotel Arlberg Lech                  37 nights priced
+21:35:20 seekda   Der Berghof                         148 nights priced
+21:35:34 seekda   Hotel Gotthard                      133 nights priced
+21:35:48 seekda   Hotel Austria Lech                  83 nights priced
+21:36:07 d_edge   Hotel Golden Star                   359 nights priced
+21:36:16 synxis   Hotel Clark Budapest                8 nights priced
+21:36:28 synxis   Hotel Vision Budapest               8 nights priced
+21:36:37 synxis   Boutique Hotel Victoria Budapest    8 nights priced
+21:36:47 synxis   Hotel Moments Budapest              8 nights priced
+21:37:01 seekda   Hotel Central                       233 nights priced
+21:37:15 seekda   Hotel Alte Schmiede                 230 nights priced
+21:37:29 seekda   Parkhotel Seefeld                   214 nights priced
+21:37:29 HOTEL MONTANA: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:37:43 seekda   Sonnen Resort                       39 nights priced
+21:37:58 seekda   Feldhof DolceVita Resort            259 nights priced
+21:37:58 Lindenhof: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:37:58 Milton Boutique Hotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:37:59 Hotel Sirenetta: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:38:11 ericsoft Hotel Galassia                      8 nights priced
+21:38:11 Hotel Bristol: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:38:11 Märchenhotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:38:32 seekda   AlpenParks Hotel & Apartment Orgler 340 nights priced
+21:38:48 seekda   Der Kapruner Hof                    304 nights priced
+21:39:06 seekda   Hotel Stadt Wien                    213 nights priced
+21:39:31 seekda   POP-UP Living Zell am See           363 nights priced
+21:39:40 synxis   Hotel & Restaurant Tannenhof        8 nights priced
+21:39:55 hotelnetsolutions Hotel Zur Pfeffermühle              206 nights priced
+21:40:14 seekda   Hotel Das Central                   222 nights priced
+21:40:29 seekda   Bergland Design and Wellness Hotel  223 nights priced
+21:40:42 seekda   Hotel Arlberghaus                   90 nights priced
+21:40:57 hotelnetsolutions Hotel Schwarzschmied                340 nights priced
+21:40:57 Follonico: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:40:58 Park Hotel Sport: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:40:58 Corona Dolomites Hotel Andalo: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:40:59 Hotel Nordik: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:40:59 Sassdei My Active Suite Hotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:40:59 Cavallino Lovely Hotel: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:41:09 synxis   Abbadia San Giorgio                 8 nights priced
+21:41:19 synxis   Grand Hotel Tremezzo                8 nights priced
+21:41:38 seekda   Evident Hotel Prägant               250 nights priced
+21:41:58 seekda   Hotel Salzburger Hof                237 nights priced
+21:42:17 seekda   Seehotel Einwaller                  248 nights priced
+21:42:30 seekda   Auenhotel                           81 nights priced
+21:42:48 seekda   Alpinhotel Berghaus Spa             199 nights priced
+21:43:02 seekda   Hotel Eden                          188 nights priced
+21:43:17 seekda   Hotel Alpin Spa Tuxerhof            167 nights priced
+21:43:31 seekda   Das Alois                           94 nights priced
+21:43:51 ericsoft Gran Paradiso Hotel Spa             8 nights priced
+21:44:01 synxis   Spa Hotel Jagdhof                   8 nights priced
+21:44:16 seekda   Alpeiner Nature Resort              274 nights priced
+21:44:33 seekda   Premium Activehotel Bergkonig       318 nights priced
+21:45:03 seekda   Hotel Der Stubaierhof               330 nights priced
+21:45:04 Grand Hotel Due Golfi: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:45:04 Hotel Vigna: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:45:04 Torre Palombara - Dimora Storica: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:45:20 seekda   Hotel Gebhard                       152 nights priced
+21:45:34 seekda   Hotel Fisserhof                     230 nights priced
+21:45:48 seekda   Hotel Toalstock                     211 nights priced
+21:46:12 seekda   Familienresort Buchau               289 nights priced
+21:46:28 seekda   Giardino Marling                    228 nights priced
+21:46:39 synxis   Boutique-Hotel Remorino             8 nights priced
+21:46:49 ericsoft Hotel Pironi                        8 nights priced
+21:46:49 Hotel Europa: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:47:03 seekda   Landhaus Koller                     195 nights priced
+21:47:19 hotelnetsolutions Hotel Schwaigerhof                  256 nights priced
+21:47:19 Hotel Interalpen: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:47:20 Hotel Ciarnadoi: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:47:33 seekda   Wanderhotel Taurerwirt              30 nights priced
+21:47:42 ericsoft Relais Del Maro                     8 nights priced
+21:47:52 synxis   Terra - The Magic Place             8 nights priced
+21:48:07 seekda   Alpines Gourmethotel Montanara      137 nights priced
+21:48:08 Brunet The Dolomites Resort: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:48:23 seekda   Dolomitengolf Suites                261 nights priced
+21:48:37 seekda   Naturhotel Waldklause               109 nights priced
+21:48:53 seekda   Adler Inn Tyrol Mountain Resort Sup 126 nights priced
+21:49:09 seekda   Hotel Alpenhof                      267 nights priced
+21:49:20 ericsoft Auberge de la Maison                8 nights priced
+21:49:37 seekda   Cyprianerhof Dolomit Resort         266 nights priced
+21:49:52 seekda   Das Kaltenbach - Nature Hotel       173 nights priced
+21:50:05 seekda   Romantik & Spa Alpen-herz           84 nights priced
+21:50:28 seekda   Hotel Sonnenpark                    335 nights priced
+21:50:43 hotelnetsolutions Das Naturhotel Chesa Valisa         272 nights priced
+21:50:52 ericsoft Berghotel Miramonti                 8 nights priced
+21:51:11 seekda   Miramonti Boutique Hotel            334 nights priced
+21:51:26 seekda   Hotel Andy                          194 nights priced
+21:51:40 seekda   Alpenhotel Heimspitze               84 nights priced
+21:51:55 d_edge   Domaine de Montagne - Chalet Frère  340 nights priced
+21:51:56 Hotel Opinione: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:51:56 Garnì Lilly: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:51:56 Alloggio Agrituristico Albafiorita: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:52:12 d_edge   La Chèvre D'Or                      197 nights priced
+21:52:25 hotelnetsolutions Hotel VICTORIA                      303 nights priced
+21:52:34 synxis   Borgo Santandrea                    8 nights priced
+21:52:43 synxis   Hotel Miramalfi                     8 nights priced
+21:52:44 Antica Dimora Magi: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:52:44 Hotel Lorelei Londres: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:52:57 synxis   Grand Hotel Excelsior Vittoria      8 nights priced
+21:52:57 Villa Oriana Relais: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:52:58 Palazzo Marziale: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:53:07 synxis   Hotel Monte Cenci                   8 nights priced
+21:53:07 Althea Inn Roof Terrace: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:53:18 synxis   Hotel Locarno                       8 nights priced
+21:53:29 synxis   J.K. Place Roma                     8 nights priced
+21:53:49 blastness Argentina Residenza Style Hotel     8 nights priced
+21:53:59 synxis   Villa Spalletti Trivelli            8 nights priced
+21:53:59 Hotel Villa Cattani Stuart: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:54:12 synxis   Grand Hotel Majestic Gia Baglioni   8 nights priced
+21:54:12 Savhotel Fiera Bologna: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:54:13 Palazzo Bezzi: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:54:27 d_edge   Up Hotel                            285 nights priced
+21:54:44 d_edge   Grand Hotel Miramare                195 nights priced
+21:54:45 Hotel Spadari al Duomo True Stay: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:54:45 iQ Hotel Milano: simplebooking HTTP 0 [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.
+21:54:47 engines: {'ids_due': 0, 'ids_found': 0, 'hotels_priced': 118, 'nights': 15055, 'errors': 85, 'shared_codes': 0, 'ids_coverage': '212/296 hotels on seekda, d_edge, simplebooking, hotelnetsolutions, ericsoft, synxis, blastness'}
