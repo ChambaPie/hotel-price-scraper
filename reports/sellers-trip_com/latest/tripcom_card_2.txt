@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=775&provinceId=0&districtId=0&countryId=31&destName=Aparthotel%20Ammi%20Vieux%20Nice&searchWord=Aparthotel%20Ammi%20Vieux%20Nice&searchType=H&optionId=9940174&searchValue=31%7C9940174*31*9940174*1&checkin=2027-03-07&checkout=2027-03-08&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 116.0, 'price_excl': 101.0, 'price_total': 116.0, 'breakfast': '', 'cancellation': ''}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=343&provinceId=0&districtId=0&countryId=106&destName=Piazza%20di%20Spagna%209&searchWord=Piazza%20di%20Spagna%209&searchType=H&optionId=2509796&searchValue=31%7C2509796*31*2509796*1&checkin=2027-09-17&checkout=2027-09-18&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 580.0, 'price_excl': 513.0, 'price_total': 580.0, 'breakfast': '', 'cancellation': ''}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,38 +11,38 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Aparthotel Ammi Vieux Nice
-Sun, Mar 7
+Piazza di Spagna 9
+Fri, Sep 17
 -
-Mon, Mar 8
+Sat, Sep 18
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Nice
+Popular filters for Rome
 
-Breakfast included
-Very Good 8+
+Hotel
+Great 9+
 Based on guest reviews
 Black Friday sale
-Hotel
+Breakfast included
 Free cancellation
-Parking available
-1 bedroom/studio
-Gym
+Private bathroom
 1 double bed
+Book now, pay later
+≥ 25㎡
 
 Budget
 
-(€0 - €330+)
+(€0 - €360+)
 Price per room per night (excl. taxes & fees)
-€0 - €60
-€60 - €90
-€90 - €130
-€130 - €190
-€190 - €330
-> €330
+€0 - €70
+€70 - €110
+€110 - €150
+€150 - €220
+€220 - €360
+> €360
 
 Property Type
 
@@ -56,19 +56,13 @@ Show More
 
 Star rating
 
-Beach vacation
-
-Near Beach
-Spa
-Private beach
-
 Location
 
-Straight-line distance from Aparthotel Ammi Vieux Nice
+Straight-line distance from Piazza di Spagna 9
 No distance limit
-Nice City Center
-Nice Waterfront
-Nice Old Town
+Rome City Centre
+Colosseum
+Trevi Fountain
 Show More
 
 Meals
@@ -76,6 +70,7 @@ Meals
 Breakfast included
 Dinner included
 Breakfast & Dinner Included
+Show More
 
 Bed type
 
@@ -111,27 +106,28 @@ Show More
 Property facilities & services
 
 Parking available
-Spa
-Pets welcome
+Pool
+Luggage storage
 Show More
 
 Room facilities & services
 
-Air conditioning
-Balcony
 Private toilet
+Air conditioning
+Non-smoking rooms
 Show More
 
 Opening/renovation time
 
+Within 6 months
 Within 1 year
 Within 2 years
 
 Property Features
 
-Near Beach
 Great views
 Family-friendly
+Romantic vibes
 Show More
 
 Guest Impressions
@@ -145,7 +141,7 @@ Room Size
 
 ≥ 20㎡
 ≥ 25㎡
-≥ 40㎡
+≥ 50㎡
 
 Payment
 
@@ -166,9 +162,9 @@ Extra Trip Coin Rewards
 
 Brands
 
+4L Collection Hotels
+9Hotel Collection
 AC hotels by Marriott
-Adagio APARTHOTEL access
-Anantara Hotels, Resorts& Spas
 Show More
 
 Reviews
@@ -183,6 +179,15 @@ Assistive listening devices
 Handrails on stairs
 Handrails in hallways
 Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -193,25 +198,26 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Aparthotel Ammi Vieux Nice
-Nice City CenterNice Old TownMap
-Great
-66 reviews
-9.2
-Excellent serviceSparkling cleanIdeal location
-Standard Studio
-2 single beds or 1 queen bed
-Only 2 left at this price
-€101
-Total (incl. taxes & fees): €116
+Piazza di Spagna 9
+SpagnaRome City CentreMap
+Outstanding
+56 reviews
+9.9
+Excellent serviceSpaGreat views
+No. 11 of Vacation Homes in Italy
+Deluxe Double Room
+1 king bed
+Only 4 left at this price
+€513
+Total (incl. taxes & fees): €580
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in France
+Hotels in Italy
 >
-Hotels in Provence-Alpes-Cote d'Azur
+Hotels in Lazio
 >
-Hotels in Nice
+Hotels in Rome
