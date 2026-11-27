@@ -1,6 +1,6 @@
 ## Vendors per hotel (Google Hotels' list of sellers)
 
-Checked 91 of 91 due (41 with a list of sellers); coverage 467/1500; official site listed for 249, website address known for 831.
+Checked 0 of 0 due (0 with a list of sellers); coverage 467/1500; official site listed for 249, website address known for 831.
 
 | vendor | hotels |
 |---|---|
@@ -101,8 +101,8 @@ Where Google's "Visit site" links lead (vendor = its own web address, hotels):
 | Visit site=bed-and-breakfast.it | 5 |
 | Visit site=reservationday.com | 4 |
 | Bluepillow.comTotal per nightNightly price with taxes + feesNightly price with taxes + feesStay total with taxes + fees€=bluepillow.com | 4 |
-| Featured in The 20 best boutique hotels in Lake Geneva / Vaud – BoutiqueHotel.meVisit site=boutiquehotel.me | 4 |
 | Featured in WHERE TO STAY on the AMALFI COAST (including Capri) for 2022Visit site=thetourguy.com | 4 |
+| Featured in The 20 best boutique hotels in Lake Geneva / Vaud – BoutiqueHotel.meVisit site=boutiquehotel.me | 4 |
 | Visit site=upps.at | 3 |
 | Visit site=qantas.com | 3 |
 | Featured in The 8 Best Boutique Hotels in Rome (with Prices)Visit site=jetsetter.com | 3 |
@@ -117,6 +117,8 @@ Where Google's "Visit site" links lead (vendor = its own web address, hotels):
 | Super.com€110 with taxes + feesNightly base priceNightly price with taxes + feesStay total with taxes + fees€100€100€110=super.com | 2 |
 | Featured in The 20 best boutique hotels in Strasbourg – BoutiqueHotel.meVisit site=boutiquehotel.me | 2 |
 | Visit site=businesshotels.com | 2 |
+| Featured in BEST GUIDE: Where to Stay on Amalfi Coast (with a map!)Visit site=misstourist.com | 2 |
+| Featured in The 20 best boutique hotels in Italy – BoutiqueHotel.meVisit site=boutiquehotel.me | 2 |
 | Official siteTotal per nightNightly price with taxes + feesNightly price with taxes + feesStay total wi=book.krossbooking.com | 2 |
 | Super.com€192 with taxes + feesNightly base priceNightly price with taxes + feesStay total with taxes + fees€176€176€192=super.com | 2 |
 | Featured in Rome Hotels near the Pantheon you will loveVisit site=mamalovesrome.com | 2 |
@@ -138,16 +140,14 @@ Where Google's "Visit site" links lead (vendor = its own web address, hotels):
 | Featured in Top 20 Luxury Hotels near Duomo, FlorenceVisit site=luxuryhotel.guru | 2 |
 | Featured in Geneva Hotels with Best Lake Views — The Most Perfect ViewVisit site=themostperfectview.com | 2 |
 | Featured in Top 19 Luxury Hotels in Swiss Alps - Sara Lind's Guide 2022Visit site=luxuryhotel.guru | 2 |
+|  Fodor's TravelVisit site=fodors.com | 2 |
 | Super.com€117 with taxes + feesNightly base priceNightly price with taxes + feesStay total with taxes + fees€107€107€117=super.com | 2 |
 | The following are included with your stay if you book with Tablet Hotels: €90 hotel credit to spend on sit=tablethotels.com | 2 |
 | Featured in The Best Spa Hotels to Book in PragueVisit site=theculturetrip.com | 2 |
 | Featured in The 6 Best Hotels in Prague for Incredible ViewsVisit site=fodors.com | 2 |
-|  Fodor's TravelVisit site=fodors.com | 2 |
 | Featured in Top 20 Hotel Bars in Budapest - Ingrid Holm's Guide 2022Visit site=hotelbars.guide | 2 |
 | Featured in Best Hotels in Budapest with a View — The Most Perfect ViewVisit site=themostperfectview.com | 2 |
 | Featured in The Best Spa Hotels to Book in Budapest, HungaryVisit site=theculturetrip.com | 2 |
-| Featured in The 20 best boutique hotels in Italy – BoutiqueHotel.meVisit site=boutiquehotel.me | 2 |
-| Featured in BEST GUIDE: Where to Stay on Amalfi Coast (with a map!)Visit site=misstourist.com | 2 |
 | Featured in The 17 best boutique hotels in High Tatras – BoutiqueHotel.meVisit site=boutiquehotel.me | 2 |
 | for Locanda la Pieve B&B - Vicino a Saturnia, rigenerarsi a Ottobre; Relax, Terme e Sagre....=locandalapieve.it | 1 |
 | for Resort Das Achental=das-achental.com | 1 |
