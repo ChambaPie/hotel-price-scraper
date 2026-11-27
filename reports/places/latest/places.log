@@ -1,10 +1,44 @@
-19:45:06 download.geofabrik.de: try 1 failed: <urlopen error [Errno 101] Network is unreachable>
-19:45:12 download.geofabrik.de: try 2 failed: <urlopen error [Errno 111] Connection refused>
-19:45:22 download.geofabrik.de: try 3 failed: <urlopen error [Errno 111] Connection refused>
-19:45:37 extract index not reachable: https://download.geofabrik.de/index-v1.json: <urlopen error [Errno 111] Connection refused>
+19:37:00 sud: 132 properties, 50406 feature points, 18 cities, 82 s
+19:39:39 nord-ovest: 122 properties, 99250 feature points, 24 cities, 159 s
+19:41:07 switzerland: 110 properties, 60099 feature points, 11 cities, 88 s
+19:43:39 austria: 59 properties, 54383 feature points, 6 cities, 152 s
+19:44:47 centro: 52 properties, 58958 feature points, 20 cities, 69 s
+19:47:22 nord-est: 44 properties, 84467 feature points, 21 cities, 155 s
+19:48:16 hungary: 43 properties, 16946 feature points, 13 cities, 53 s
+19:48:27 praha: 41 properties, 2588 feature points, 2 cities, 11 s
+19:49:52 rhone-alpes: 38 properties, 33191 feature points, 5 cities, 85 s
+19:52:12 provence-alpes-cote-d-azur: 35 properties, 55873 feature points, 5 cities, 140 s
+19:52:52 croatia: 30 properties, 123562 feature points, 11 cities, 40 s
+19:53:58 oberbayern: 12 properties, 13175 feature points, 1 cities, 66 s
+19:55:33 slovakia: 9 properties, 9014 feature points, 8 cities, 95 s
+19:55:57 schwaben: 7 properties, 4758 feature points, 0 cities, 23 s
+19:56:13 niederbayern: 7 properties, 943 feature points, 0 cities, 16 s
+19:57:14 slovenia: 7 properties, 3933 feature points, 2 cities, 61 s
+19:57:31 mittelfranken: 6 properties, 5141 feature points, 3 cities, 17 s
+19:58:05 alsace: 5 properties, 2161 feature points, 1 cities, 35 s
+19:59:07 serbia: 5 properties, 375 feature points, 2 cities, 61 s
+19:59:16 karlovarsky: 4 properties, 1602 feature points, 2 cities, 9 s
+19:59:41 karlsruhe-regbez: 4 properties, 7190 feature points, 4 cities, 25 s
+20:00:16 isole: 4 properties, 1861 feature points, 0 cities, 36 s
+20:01:08 rheinland-pfalz: 3 properties, 25982 feature points, 3 cities, 51 s
+20:02:49 hessen: 3 properties, 3246 feature points, 3 cities, 101 s
+20:03:44 lorraine: 3 properties, 351 feature points, 0 cities, 55 s
+20:04:28 bosnia-herzegovina: 2 properties, 1532 feature points, 4 cities, 44 s
+20:05:05 stredocesky: 2 properties, 8278 feature points, 4 cities, 37 s
+20:05:20 zlinsky: 2 properties, 1357 feature points, 2 cities, 14 s
+20:05:37 oberpfalz: 2 properties, 1478 feature points, 1 cities, 18 s
+20:06:26 tuebingen-regbez: 2 properties, 603 feature points, 0 cities, 49 s
+20:06:59 stuttgart-regbez: 2 properties, 1885 feature points, 2 cities, 33 s
+20:07:26 freiburg-regbez: 2 properties, 210 feature points, 0 cities, 27 s
+20:07:46 unterfranken: 2 properties, 837 feature points, 0 cities, 20 s
+20:08:13 thueringen: 2 properties, 772 feature points, 1 cities, 28 s
+20:08:27 vysocina: 1 properties, 1360 feature points, 1 cities, 14 s
+20:08:38 olomoucky: 1 properties, 1469 feature points, 2 cities, 11 s
+20:08:50 kralovehradecky: 1 properties, 567 feature points, 0 cities, 11 s
+20:09:34 sachsen: 1 properties, 1510 feature points, 1 cities, 44 s
 ## Type of place
 
-Processed 0 of 807 due from 0 OpenStreetMap extracts (0 MB, -1 failed); coverage 693/1500.
+Processed 807 of 807 due from 38 OpenStreetMap extracts (9448 MB, 0 failed); coverage 1500/1500.
 
-Tags: 
+Tags: mountain 540, city 503, vineyards 426, ski 377, beach 372, old_town 365, major_city 318, sea 284, countryside 205, lake 140, thermal 133
 

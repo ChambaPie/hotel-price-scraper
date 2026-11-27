@@ -1,7 +1,7 @@
-19:45:03 {"due": 3, "done": 3, "photon_calls": 3, "photon_errors": 0, "status": {"confirmed": 848, "listing only": 646, "check": 4, "corrected": 2}, "source": {"osm": 749, "listing": 650, "photon": 101}, "coverage": "1500/1500"}
+19:35:33 {"due": 0, "done": 0, "photon_calls": 0, "photon_errors": 0, "status": {"confirmed": 848, "listing only": 646, "check": 4, "corrected": 2}, "source": {"osm": 749, "listing": 650, "photon": 101}, "coverage": "1500/1500"}
 ## Hotel positions
 
-Located 3 of 3 due; coverage 1500/1500. Status: confirmed 848, listing only 646, check 4, corrected 2. Source: osm 749, listing 650, photon 101. Photon searches 3 (0 failed).
+Located 0 of 0 due; coverage 1500/1500. Status: confirmed 848, listing only 646, check 4, corrected 2. Source: osm 749, listing 650, photon 101. Photon searches 0 (0 failed).
 
 Moved furthest from the listed position:
 

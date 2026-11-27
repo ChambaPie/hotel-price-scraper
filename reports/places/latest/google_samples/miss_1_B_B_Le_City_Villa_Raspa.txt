@@ -1,0 +1,5 @@
+#QUERY B&B Le City Villa Raspa
+#CARDS 0
+500. That’s an error.
+
+There was an error. Please try again later. That’s all we know.

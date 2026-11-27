@@ -1,6 +1,6 @@
 ## Hotel positions
 
-Located 3 of 3 due; coverage 1500/1500. Status: confirmed 848, listing only 646, check 4, corrected 2. Source: osm 749, listing 650, photon 101. Photon searches 3 (0 failed).
+Located 0 of 0 due; coverage 1500/1500. Status: confirmed 848, listing only 646, check 4, corrected 2. Source: osm 749, listing 650, photon 101. Photon searches 0 (0 failed).
 
 Moved furthest from the listed position:
 
