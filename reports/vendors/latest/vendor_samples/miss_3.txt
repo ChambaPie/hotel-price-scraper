@@ -1,4 +1,4 @@
-#HOTEL Relais San Vigilio al Castello
+#HOTEL Turin Palace Hotel True Stay
 #ENTITY 
 Skip to main content
 Accessibility feedback
@@ -30,7 +30,7 @@ Help Centre and Consumer Information
 
 Displayed currencies may differ from the currencies used to book properties. Learn more
 
-Update list when map moves
+Update list
 Off
 Walk
 Drive
