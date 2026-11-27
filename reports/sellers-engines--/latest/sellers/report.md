@@ -1,0 +1,88 @@
+# Sellers' own websites: probe S0
+
+## Official websites: booking engines
+
+1067 of 1500 watched hotels have an official website in OpenStreetMap; 976 answered.
+
+| engine | hotels |
+|---|---|
+| (not recognised) | 509 |
+| simplebooking | 90 |
+| synxis | 71 |
+| seekda | 62 |
+| d_edge | 32 |
+| bookingexpert | 27 |
+| vertical_booking | 23 |
+| blastness | 17 |
+| hotelnetsolutions | 12 |
+| ericsoft | 12 |
+| wubook | 10 |
+| feratel | 8 |
+| bookassist | 8 |
+| octorate | 8 |
+| krossbooking | 8 |
+| scidoo | 8 |
+| easybooking | 7 |
+| casablanca | 7 |
+| dirs21 | 7 |
+| mews | 7 |
+| siteminder | 6 |
+| reservit | 6 |
+| passepartout | 5 |
+| capcorn | 4 |
+| zimres | 4 |
+| iperbooking | 4 |
+| cloudbeds | 3 |
+| smoobu | 2 |
+| slope | 2 |
+| mirai | 2 |
+| gastrodat | 1 |
+| reconline | 1 |
+| apaleo | 1 |
+| bedzzle | 1 |
+| profitroom | 1 |
+
+Booking links on other sites, engine not recognised (candidates to add to the settings):
+
+- secure-reservation.cloud: 7
+- booking.ireservation.it: 3
+- book2.nozio.com: 3
+- hospitality-guest.teamsystem.cloud: 3
+- secure.bookingevolution.com: 2
+- bookingsuedtirol.com: 2
+- reservations.fontanellestate.com: 2
+- vio.com: 1
+- fideliobooking.at: 1
+- at_kh_0027.officialbookings.com: 1
+- kaernten.at: 1
+- booking.haus-hirt.com: 1
+- booking.sonnhof-alpendorf.at: 1
+- buchen.diebarbara.at: 1
+- urlaub.hoeflehner.com: 1
+- booking.bliems-familienhotel.at: 1
+- booking.neubergerhof.at: 1
+- booking.felben.at: 1
+- hochkoenig.at: 1
+- dachsteinkoenig-familux.samera.one: 1
+- buchen.landhof.com: 1
+- cognitoforms.com: 1
+- derpostwirt.at: 1
+- booking.laschensky.at: 1
+- buchen.hotel-muhr.at: 1
+- reservierung-vital.reduce.at: 1
+- reservierung-thermal.reduce.at: 1
+- shop.holzleiten.at: 1
+- schlosshotel.samera.one: 1
+- s003740.officialbookings.com: 1
+- booking.hotel-kristberg.at: 1
+- booking.haldenhof.at: 1
+- oberjoch-familux.samera.one: 1
+- reserve.molzait.com: 1
+- bookings.sanssouci-wien.com: 1
+- booking.waldhaus-sils.ch: 1
+- tschuggencollection.ch: 1
+- book.praetschli.ch: 1
+- booking.schluessel-beckenried.ch: 1
+- spa.parkhotel-vitznau.ch: 1
+
+Sites not answering 200: 403 x46, 503 x12, error: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1011) x7, error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:  x7, 404 x5, error: timed out x3, error: [Errno -2] Name or service not known x3, 410 x1
