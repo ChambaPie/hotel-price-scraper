@@ -1,4 +1,7 @@
-09:54:12 Regia Rosetta - Royal Rooms Bo 2027-09-08: not in the answer ([])
-09:54:36 Alpinhotel Monte Superior - Si 2027-10-01: not in the answer ([])
-09:54:58 Panorama Allgäu Spa Resort 2027-05-03: not in the answer ([])
-10:23:52 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 114, 'priced': 37, 'available': 17, 'errors': 0, 'missing': 77, 'stored_nights': 1150, 'ids_coverage': '1270/1500'}
+13:45:03 Ilot du Golf, BW Premier Colle 2027-10-27: not in the answer ([])
+13:45:34 Palais Saleya Boutique hôtel 2027-08-23: not in the answer ([])
+13:46:22 Les Aurochs 2027-01-07: not in the answer ([])
+14:07:59 Maison la Minervetta 2027-04-15: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.trip.com/hotels/list?flexType=1&cityId=365
+14:14:58 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 185, 'priced': 124, 'available': 71, 'errors': 1, 'missing': 61, 'stored_nights': 1274, 'ids_coverage': '1270/1500'}

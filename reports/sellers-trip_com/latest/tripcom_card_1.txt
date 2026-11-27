@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=33155&provinceId=0&districtId=0&countryId=106&destName=Antico%20Sipario%20Boutique%20Hotel%2C%20BW%20Signature%20Collection&searchWord=Antico%20Sipario%20Boutique%20Hotel%2C%20BW%20Signature%20Collection&searchType=H&optionId=23936593&searchValue=31%7C23936593*31*23936593*1&checkin=2027-06-13&checkout=2027-06-14&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 117.0, 'price_excl': 104.0, 'price_total': 117.0, 'breakfast': '', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=7737&provinceId=0&districtId=0&countryId=31&destName=Gabriel%20Boutique%20Hotel&searchWord=Gabriel%20Boutique%20Hotel&searchType=H&optionId=4379883&searchValue=31%7C4379883*31*4379883*1&checkin=2027-04-03&checkout=2027-04-04&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 227.0, 'price_excl': 202.0, 'price_total': 227.0, 'breakfast': '', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,27 +11,27 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Antico Sipario Boutique Hotel, BW Signature Collection
-Sun, Jun 13
+Gabriel Boutique Hotel
+Sat, Apr 3
 -
-Mon, Jun 14
+Sun, Apr 4
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Paciano
+Popular filters for Menton
 
-Extra beds available
-Great 9+
-Based on guest reviews
-Pay at Hotel
-Playground
-Multiple bathrooms
-Hotel
 Breakfast included
-Free cancellation
 Parking available
+2 beds
+Hotel
+Free cancellation
+Very Good 8+
+Based on guest reviews
+Homes & apts
+Kitchen
+Spa
 
 Budget
 
@@ -50,22 +50,33 @@ Hotels
 Including hotels, resorts, and more
 Homes & apts
 Including homes, apartments, villas, and more
+Hostels
+Including hostels, inns, and more
 Show More
 
 Star rating
 
+Beach vacation
+
+Near Beach
+Spa
+Private beach
+
 Location
 
-Straight-line distance from Antico Sipario Boutique Hotel, BW Signature Collection
+Straight-line distance from Gabriel Boutique Hotel
 No distance limit
-TrasiMemo Bank of the Trasimeno Memory
-Museo "Don Aldo Rossi"
-Centro Storico di Paciano
+Port de Menton Garavan
+Menton
+Palmes Beach
 Show More
 
 Meals
 
 Breakfast included
+Dinner included
+Breakfast & Dinner Included
+Show More
 
 Bed type
 
@@ -77,8 +88,8 @@ Show More
 Room features
 
 Family room
-Entire unit
 Balcony
+Mountain view room
 Show More
 
 Number of bedrooms
@@ -97,26 +108,36 @@ Show More
 Property facilities & services
 
 Parking available
-Playground
-Barbecue
+Pets welcome
+Spa
 Show More
 
 Room facilities & services
 
-Extra beds available
-Cribs available
-Smoking room
+Kitchen
+Air conditioning
+Balcony
 Show More
 
 Property Features
 
-Self check-in
-Villa with pool
+Near Beach
 Great views
+Family-friendly
+Show More
 
 Guest Impressions
 
 Lots to do
+Ideal location
+Excellent service
+Show More
+
+Room Size
+
+≥ 20㎡
+≥ 25㎡
+≥ 30㎡
 
 Payment
 
@@ -130,9 +151,16 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
+Discounts
+
+Extra Trip Coin Rewards
+
 Brands
 
-BW Signature Collection
+Best Western
+Ibis budget
+Ibis Styles
+Show More
 
 Reviews
 
@@ -142,9 +170,9 @@ Reviews
 
 Accessibility
 
-Stair-free main entrance
-accessible facilities
-Accessible shower
+Assistive listening devices
+Handrails on stairs
+Braille signs
 Show More
 Why book with Trip.com?
 We price match
@@ -165,25 +193,25 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Antico Sipario Boutique Hotel, BW Signature Collection
-Near Museo "Don Aldo Rossi"TrasiMemo Bank of the Trasimeno MemoryMap
-Outstanding
-46 reviews
-9.8
-Delicious breakfastBarGarden
-Superior King Room-Non-Smoking
-1 king bed
+Gabriel Boutique Hotel
+Near Regional Prehistory MuseumCarrousel de MentonMap
+Amazing
+97 reviews
+9.6
+Excellent serviceSparkling cleanVaried breakfast
+Chambre Mimosa-La Standard
+1 double bed
 Free Cancellation
-€104
-Total (incl. taxes & fees): €117
+€202
+Total (incl. taxes & fees): €227
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in Italy
+Hotels in France
 >
-Hotels in Umbria
+Hotels in Provence-Alpes-Cote d'Azur
 >
-Hotels in Paciano
+Hotels in Menton
