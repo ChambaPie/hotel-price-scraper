@@ -1,4 +1,4 @@
-## Coverage: 3934 of 5897 official 4-5* hotels matched to TripAdvisor
+## Coverage: 3936 of 5897 official 4-5* hotels matched to TripAdvisor
 
 | Town | Country | Unmatched 4-5* hotels |
 |---|---|---|
@@ -22,7 +22,6 @@
 | Brescia | IT | 7 |
 | Praha | CZ | 6 |
 | Karlovy Vary | CZ | 6 |
-| Nürnberg | DE | 6 |
 | Stuttgart | DE | 6 |
 | Strasbourg | FR | 6 |
 | Budapest | HU | 6 |
@@ -32,6 +31,7 @@
 | Mostar | BA | 5 |
 | Zürich | CH | 5 |
 | München | DE | 5 |
+| Nürnberg | DE | 5 |
 | Porec | HR | 5 |
 | Florence | IT | 5 |
 | Krakow | PL | 5 |
