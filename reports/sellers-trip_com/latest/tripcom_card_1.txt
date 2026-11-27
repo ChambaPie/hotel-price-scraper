@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=27208&provinceId=0&districtId=0&countryId=28&destName=Hotel%20St.%20Florian&searchWord=Hotel%20St.%20Florian&searchType=H&optionId=7196077&searchValue=31%7C7196077*31*7196077*1&checkin=2027-03-03&checkout=2027-03-04&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 335.0, 'price_excl': 310.0, 'price_total': 335.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=33155&provinceId=0&districtId=0&countryId=106&destName=Antico%20Sipario%20Boutique%20Hotel%2C%20BW%20Signature%20Collection&searchWord=Antico%20Sipario%20Boutique%20Hotel%2C%20BW%20Signature%20Collection&searchType=H&optionId=23936593&searchValue=31%7C23936593*31*23936593*1&checkin=2027-06-13&checkout=2027-06-14&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 117.0, 'price_excl': 104.0, 'price_total': 117.0, 'breakfast': '', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,23 +11,27 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Hotel St. Florian
-Wed, Mar 3
+Antico Sipario Boutique Hotel, BW Signature Collection
+Sun, Jun 13
 -
-Thu, Mar 4
+Mon, Jun 14
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Frauenau
+Popular filters for Paciano
 
-Breakfast included
-Dinner included
-Pool
+Extra beds available
+Great 9+
+Based on guest reviews
+Pay at Hotel
+Playground
+Multiple bathrooms
 Hotel
+Breakfast included
 Free cancellation
-Breakfast & Dinner Included
+Parking available
 
 Budget
 
@@ -52,19 +56,16 @@ Star rating
 
 Location
 
-Straight-line distance from Hotel St. Florian
+Straight-line distance from Antico Sipario Boutique Hotel, BW Signature Collection
 No distance limit
-Nationalpark Bayerischer Wald
-Frauenau Glass Museum
-St. Hermann Kapelle auf der Zell
+TrasiMemo Bank of the Trasimeno Memory
+Museo "Don Aldo Rossi"
+Centro Storico di Paciano
 Show More
 
 Meals
 
 Breakfast included
-Dinner included
-Breakfast & Dinner Included
-Show More
 
 Bed type
 
@@ -75,14 +76,16 @@ Show More
 
 Room features
 
+Family room
 Entire unit
 Balcony
-Mountain view room
+Show More
 
 Number of bedrooms
 
 1 bedroom/studio
 2 bedrooms
+3+ bedrooms
 
 Guest rating
 
@@ -93,9 +96,9 @@ Show More
 
 Property facilities & services
 
-Pool
-Wi-Fi in public areas
 Parking available
+Playground
+Barbecue
 Show More
 
 Room facilities & services
@@ -107,16 +110,13 @@ Show More
 
 Property Features
 
-Family-friendly
+Self check-in
+Villa with pool
+Great views
 
 Guest Impressions
 
 Lots to do
-
-Room Size
-
-≥ 30㎡
-≥ 35㎡
 
 Payment
 
@@ -130,17 +130,21 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
+Brands
+
+BW Signature Collection
+
 Reviews
 
+200+
+100+
 50+
-20+
-10+
 
 Accessibility
 
-Handrails on stairs
-Braille signs
-Pool ramp available
+Stair-free main entrance
+accessible facilities
+Accessible shower
 Show More
 Why book with Trip.com?
 We price match
@@ -161,27 +165,25 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Hotel St. Florian
-Near FrauenauGlashutte Valentin EischMap
-Amazing
-17 reviews
-9.4
-SpaIndoor poolSkiing
-No. 5 of 4-Star Select Hotels in Grosser Arber
-Double Room (Themendoppelzimmer)
-1 double bed
+Antico Sipario Boutique Hotel, BW Signature Collection
+Near Museo "Don Aldo Rossi"TrasiMemo Bank of the Trasimeno MemoryMap
+Outstanding
+46 reviews
+9.8
+Delicious breakfastBarGarden
+Superior King Room-Non-Smoking
+1 king bed
 Free Cancellation
-Breakfast included
-€310
-Total (incl. taxes & fees): €335
+€104
+Total (incl. taxes & fees): €117
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in Germany
+Hotels in Italy
 >
-Hotels in Bavaria
+Hotels in Umbria
 >
-Hotels in Frauenau
+Hotels in Paciano

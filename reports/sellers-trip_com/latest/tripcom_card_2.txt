@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=3651&provinceId=0&districtId=0&countryId=106&destName=Gran%20Paradiso%20Hotel%20Spa&searchWord=Gran%20Paradiso%20Hotel%20Spa&searchType=H&optionId=3162681&searchValue=31%7C3162681*31*3162681*1&checkin=2027-03-13&checkout=2027-03-14&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 102.0, 'price_excl': 89.0, 'price_total': 102.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=32823&provinceId=0&districtId=0&countryId=106&destName=Casa%20Isabella%20B%26B&searchWord=Casa%20Isabella%20B%26B&searchType=H&optionId=10786179&searchValue=31%7C10786179*31*10786179*1&checkin=2027-02-13&checkout=2027-02-14&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 140.0, 'price_excl': 127.0, 'price_total': 140.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,26 +11,21 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Gran Paradiso Hotel Spa
-Sat, Mar 13
+Casa Isabella B&B
+Sat, Feb 13
 -
-Sun, Mar 14
+Sun, Feb 14
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for San Giovanni Rotondo
+Popular filters for Rocca San Giovanni
 
-Bathtub with grab bars
-Free parking
-Breakfast included
+Jacuzzi
 Hotel
+Breakfast included
 Free cancellation
-Private toilet
-1 double bed
-Water park
-Family room
 
 Budget
 
@@ -55,11 +50,11 @@ Star rating
 
 Location
 
-Straight-line distance from Gran Paradiso Hotel Spa
+Straight-line distance from Casa Isabella B&B
 No distance limit
-Sanctuary of Saint Mary Our Lady of Graces
-Chiesa di San Pio
-Church of the Transfiguration of Our Lord Jesus
+Palazzo del Municipio
+Trabocco Punta Torre
+Pinetina di Rocca San Giovanni
 Show More
 
 Meals
@@ -75,15 +70,15 @@ Show More
 
 Room features
 
-Suite
+Entire unit
 Balcony
-Family room
-Show More
+Mountain view room
 
 Number of bedrooms
 
 1 bedroom/studio
 2 bedrooms
+3+ bedrooms
 
 Guest rating
 
@@ -94,33 +89,32 @@ Show More
 
 Property facilities & services
 
-Parking available
-Pool
+Wi-Fi in public areas
 Free parking
+Parking available
 Show More
 
 Room facilities & services
 
-Private toilet
-Air conditioning
-Non-smoking rooms
+Jacuzzi
+Extra beds available
+Cribs available
 Show More
 
 Property Features
 
-Family-friendly
+Great views
+Self check-in
 
 Guest Impressions
 
 Lots to do
 Ideal location
-Sparkling clean
-Show More
 
 Room Size
 
+≥ 15㎡
 ≥ 20㎡
-≥ 25㎡
 
 Payment
 
@@ -143,9 +137,18 @@ Reviews
 Accessibility
 
 Handrails on stairs
-Braille signs
 Stair-free main entrance
+accessible facilities
 Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -156,18 +159,18 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Gran Paradiso Hotel Spa
-Near Sanctuary of Saint Mary Our Lady of GracesChiesa di San PioMap
-Very good
-98 reviews
-8.3
-SpaDelicious breakfastIdeal location
-Classic Double Room
-2 single beds or 1 double bed
+Casa Isabella B&B
+Near Church of Saint Matthew ApostlePalazzo del MunicipioMap
+Outstanding
+40 reviews
+10.0
+Delicious breakfast
+Economy Double Room with External Bathroom
+Entire unit 16㎡1 bedroom1 bed
 Free Cancellation
 Breakfast included
-€89
-Total (incl. taxes & fees): €102
+€127
+Total (incl. taxes & fees): €140
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
@@ -176,6 +179,6 @@ Hotels
 >
 Hotels in Italy
 >
-Hotels in Apulia
+Hotels in Abruzzo
 >
-Hotels in San Giovanni Rotondo
+Hotels in Rocca San Giovanni
