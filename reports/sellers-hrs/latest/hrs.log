@@ -1,2 +1,2 @@
-09:53:44 took HRS's own hotel search from its results page
-10:05:50 hrs: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 240, 'priced': 5910, 'available': 1245, 'errors': 0, 'stored_nights': 89208, 'ids_coverage': '938/1500'}
+13:44:39 took HRS's own hotel search from its results page
+13:55:52 hrs: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 240, 'priced': 5910, 'available': 772, 'errors': 0, 'stored_nights': 95118, 'ids_coverage': '938/1500'}
