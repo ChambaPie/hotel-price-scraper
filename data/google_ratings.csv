@@ -1,6 +1,7 @@
 pid,google_name,google_rating,google_reviews,google_class,amenities,similarity,query,status,checked_at
 ta:g1010234-d3353901,The Guest House,4.9,89,,Breakfast ($)|Free Wi-Fi|Free parking|Golf|Child-friendly|Smoke-free property,0.9,The Guest House & Ski Lodge Chamonix-Mont-Blanc,ok,2026-11-25T20:03:37+00:00
 ta:g1010803-d23160688,Karls Hotel,4.9,731,4,Breakfast ($)|Free Wi-Fi|Free parking|Air conditioning|Pet-friendly|Fitness centre|Bar|Restaurant,1.0,Karls Hotel Sigmaringen,ok,2026-11-25T20:03:37+00:00
+ta:g1016057-d10531655,Casale Sterpeti,4.9,237,4,,1.0,Casale Sterpeti Magliano in Toscana,ok,2026-11-27T20:09:43+00:00
 ta:g1021491-d316270,MAISON HORNBERG,4.9,567,4,Free breakfast|Free Wi-Fi|Free parking|Indoor pool|Pet-friendly|Spa|Bar|Restaurant,1.0,MAISON HORNBERG Gstaad,ok,2026-11-24T20:51:09+00:00
 ta:g1024764-d4564528,,,,,,0.0,Dolomitengolf Suites Lavant,not found,2026-11-23T14:37:32+00:00
 ta:g1025600-d290126,,,,,,0.0,Wellness & Spa Pirmin Zurbriggen Saas-Fee,not found,2026-11-23T17:07:41+00:00
@@ -12,15 +13,20 @@ ta:g1056049-d1006044,,,,,,0.0,Kinder- & Gletscherhotel Hintertuxerhof Schmirn,no
 ta:g1056049-d1006824,Adler Inn Tyrol Mountain Resort,4.9,371,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,0.9,Adler Inn Tyrol Mountain Resort Superior Schmirn,ok,2026-11-23T14:37:32+00:00
 ta:g1056049-d1145033,Hotel Alpenhof,4.9,483,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Pet-friendly|Fitness centre|Spa,1.0,Hotel Alpenhof Schmirn,ok,2026-11-23T14:37:32+00:00
 ta:g1056778-d260107,Resort Das Achental,4.4,443,,,1.0,Das Achental Grassau,ok,2026-11-24T20:51:09+00:00
+ta:g1057024-d10045348,B&B Casa Nannina,4.5,109,,,1.0,Casa Nannina Meta,ok,2026-11-27T20:09:43+00:00
+ta:g1057212-d12339710,Borgese Camere e Suites,4.9,179,4,,1.0,Borgese Camere e Suites Neive-Borgonovo,ok,2026-11-27T20:09:43+00:00
 ta:g1057590-d15339739,Antico Sipario Boutique Hotel,4.9,224,3,Free breakfast|Free Wi-Fi|Free parking|Hot tub|Air conditioning|Bar|Accessible|Child-friendly,1.0,Antico Sipario Boutique Hotel Paciano,ok,2026-11-26T19:45:49+00:00
+ta:g1058220-d18206582,Casa Isabella - Bed & Breakfast,5.0,222,4,,0.9,Casa Isabella B&B Rocca San Giovanni,ok,2026-11-27T20:09:43+00:00
 ta:g1060376-d2686895,,,,,,0.0,Alpinhotel Monte ***superior Galtur,not found,2026-11-23T15:46:35+00:00
 ta:g1062081-d1568398,,,,,,0.533,Panorama Allgäu Spa Resort Seeg,not found,2026-11-24T20:51:09+00:00
 ta:g1062574-d3386055,Torre Morgana,4.9,164,,Free breakfast|Free parking|Wi-Fi|Smoke-free property,0.9,Agriturismo Torre Morgana Trestina,ok,2026-11-26T19:45:49+00:00
 ta:g1063626-d202631,"Schlosshotel Kronberg, an SLH Hotel",4.6,1800,5,,0.9,Schlosshotel Kronberg Kronberg,ok,2026-11-25T20:03:37+00:00
 ta:g1069848-d783916,Spongiola,4.7,535,4,,1.0,Hotel Spongiola Brodarica,ok,2026-11-25T20:03:37+00:00
 ta:g1071604-d26657180,,,,,,0.0,Hotel Freigold ****Superior Freistadt,not found,2026-11-23T17:07:41+00:00
+ta:g1077046-d12909736,B&B Sul Ponte,4.9,358,4,,1.0,B&B Sul Ponte Gravina in Puglia,ok,2026-11-27T20:09:43+00:00
 ta:g1077176-d10637353,Hotel & restaurant Peteani,4.8,811,4,,0.9,Hotel Peteani Labin,ok,2026-11-25T20:03:37+00:00
 ta:g1077264-d1148778,Wellness Hotel Katalin,4.9,1400,4,,1.0,Wellness Hotel Katalin Gyenesdias,ok,2026-11-25T20:03:37+00:00
+ta:g1078038-d4260094,Bed and Breakfast Il Giardino di Villa Anna,4.9,257,4,,1.0,Bed and Breakfast Il Giardino di Villa Anna Boscotrecase,ok,2026-11-27T20:09:43+00:00
 ta:g1095749-d613184,Castello Delle Serre,4.8,204,4,,1.0,Castello delle Serre Serre di Rapolano,ok,2026-11-26T19:45:49+00:00
 ta:g1096327-d1115666,,,,,,0.0,Hotel Slalom Fiesch,not found,2026-11-23T17:07:41+00:00
 ta:g1096327-d1234412,,,,,,0.625,Hotel Waldhaus Fiesch,not found,2026-11-23T17:07:41+00:00
@@ -73,18 +79,24 @@ ta:g1196910-d2231250,Hotel Kleißl,4.9,215,4,,0.833,Hotel Kleissl Oberperfuss,ok
 ta:g1197017-d25185293,,,,,,0.524,Alpenhotel Heimspitze Sankt Gallenkirch,not found,2026-11-23T17:07:41+00:00
 ta:g1197052-d1485364,,,,,,0.353,Habachklause Bramberg am Wildkogel,not found,2026-11-23T14:37:32+00:00
 ta:g1197052-d1586671,Hotel Senningerbräu Bramberg,4.7,255,4,,0.9,Hotel Senningerbräu Bramberg am Wildkogel,ok,2026-11-23T14:37:32+00:00
+ta:g1202906-d12458621,,,,,,0.0,Relais Villa Del Borgo Canelli,not found,2026-11-27T20:09:43+00:00
+ta:g1220549-d617509,Cascina Sant'Eufemia,4.8,76,3,,1.0,Cascina Sant'Eufemia Sinio,ok,2026-11-27T20:09:43+00:00
 ta:g1223267-d32862259,,,,,,0.0,Domaine de Montagne - Chalet Frère Joseph Bussang,not found,2026-11-25T20:03:37+00:00
 ta:g1226846-d1056140,,,,,,0.0,Il Nascondiglio - The Hideaway Comunanza,not found,2026-11-26T19:45:49+00:00
 ta:g1379147-d2627456,,,,,,0.0,Agriturismo b&b Vista Parco Fosso Ghiaia,not found,2026-11-26T19:45:49+00:00
 ta:g1401073-d1753309,B&B Il Grappolo Valtellina,4.9,154,3,Free breakfast|Free Wi-Fi|Free parking|Pet-friendly|Child-friendly,1.0,B&b Il Grappolo Valtellina Bianzone,ok,2026-11-26T19:45:49+00:00
 ta:g1405352-d610638,Castello di Monterado,4.8,626,4,,1.0,Castello Di Monterado Monterado,ok,2026-11-26T19:45:49+00:00
+ta:g1410653-d2039712,La Rosa Gialla,4.9,287,4,,1.0,La Rosa Gialla Barolo,ok,2026-11-27T20:09:43+00:00
 ta:g1425788-d10312871,,,,,,0.0,Dolcevita Ambiez Room & Breakfast Suite Apartments Dorsino,not found,2026-11-26T19:45:49+00:00
 ta:g1425788-d1161517,Flair Hotel Opinione,4.8,249,3,,0.9,Hotel Opinione San Lorenzo in Banale,ok,2026-11-26T19:45:49+00:00
 ta:g1497685-d1553639,AIRONE House,4.8,90,3,Free Wi-Fi|Free parking|Outdoor pool|Hot tub|Air conditioning|Pet-friendly|Breakfast|Kitchen in rooms,1.0,Airone House Offagna,ok,2026-11-26T19:45:49+00:00
 ta:g1497685-d2284926,,,,,,0.0,Bellafiora Affittacamere San Biagio,not found,2026-11-26T19:45:49+00:00
 ta:g1498253-d1229345,Sonne Mellau - Feel good Hotel,4.6,484,4,,0.9,Sonne Mellau Reuthe,ok,2026-11-23T17:07:41+00:00
+ta:g1509112-d8459142,B & B Le Parfum du Sel,4.9,274,4,,0.929,Le Parfum du Sel Jovencan,ok,2026-11-27T20:09:43+00:00
+ta:g1509125-d6116837,Da Nonna Li bed & breakfast,5.0,390,3,,0.9,B&B Da Nonna LI Villetta Barrea,ok,2026-11-27T20:09:43+00:00
 ta:g1535493-d1536647,Mas La Jaina,4.9,107,,,1.0,Mas la Jaina Bargemon,ok,2026-11-25T20:03:37+00:00
 ta:g1554312-d1458035,Agriturismo Il Casale,4.8,317,4,,1.0,Agriturismo Il Casale Trodica,ok,2026-11-26T19:45:49+00:00
+ta:g15709246-d1931010,,,,,,0.0,Farfalle E Gabbiani Polvica,not found,2026-11-27T20:09:43+00:00
 ta:g1582949-d5616194,,,,,,0.0,Bed & Breakfast Brigi Porto Sant'Elpidio,not found,2026-11-26T19:45:49+00:00
 ta:g1596637-d279305,Hotel & Spa Du Castellet,4.6,516,,,0.917,Hotel et Spa du Castellet Le Castellet,ok,2026-11-25T20:03:37+00:00
 ta:g1604040-d3396699,,,,,,0.0,Maso Fior di Bosco San Bernardo,not found,2026-11-26T19:45:49+00:00
@@ -155,6 +167,75 @@ ta:g187343-d241859,Hotel Rosenpark,4.8,3000,,,1.0,Hotel Rosenpark Marburg an der
 ta:g187392-d281058,,,,,,0.0,René Bohn Ludwigshafen am Rhein,not found,2026-11-25T20:03:37+00:00
 ta:g187399-d679585,Hotel Suitess,4.7,1500,5,,1.0,Hotel Suitess Dresden,ok,2026-11-25T20:03:37+00:00
 ta:g187419-d9698525,Hotel Domizil Erfurt,4.9,409,4,,0.9,Hotel Domizil Erfurt,ok,2026-11-25T20:03:37+00:00
+ta:g187770-d1960334,,,,,,0.0,Bed & Breakfast Oasi Villa Raspa,not found,2026-11-27T20:09:43+00:00
+ta:g187780-d21512228,Borgo Santandrea,4.9,390,5,,1.0,(with) Il Pavone Conca dei Marini,ok,2026-11-27T20:09:43+00:00
+ta:g187780-d653917,Residenza Luce,5.0,224,3,,1.0,Residenza Luce Amalfi,ok,2026-11-27T20:09:43+00:00
+ta:g187781-d1727803,,,,,,0.0,Salerno Centro Bed And Breakfast Capezzano Inferiore,not found,2026-11-27T20:09:43+00:00
+ta:g187781-d2542214,Piccolo Principe B&B,4.7,17,4,Breakfast ($)|Free Wi-Fi|Parking ($)|Air conditioning|Pet-friendly|Airport shuttle|Child-friendly|Smoke-free property,0.9,Il Piccolo Principe Salerno b&b Salerno,ok,2026-11-27T20:09:43+00:00
+ta:g187781-d3250694,,,,,,0.0,Bed & Breakfast Salerno Antica Capezzano Inferiore,not found,2026-11-27T20:09:43+00:00
+ta:g187781-d3383567,,,,,,0.0,Salerno in Alto Mare B&B Capezzano Inferiore,not found,2026-11-27T20:09:43+00:00
+ta:g187781-d4747767,,,,,,0.621,Seaview Salerno B & B Capezzano Inferiore,not found,2026-11-27T20:09:43+00:00
+ta:g187781-d5281685,,,,,,0.0,Bed and Breakfast San Francesco Capezzano Inferiore,not found,2026-11-27T20:09:43+00:00
+ta:g187782-d10850373,,,,,,0.0,Villa Prestige Sant'Agnello,not found,2026-11-27T20:09:43+00:00
+ta:g187782-d14195364,Antica Dimora Magi,5.0,58,4,,1.0,Antica Dimora Magi Sorrento,ok,2026-11-27T20:09:43+00:00
+ta:g187782-d1825909,Palazzo Montefusco Relais,4.6,63,4,,0.792,Palazzo Montefusco Sorrento Sorrento,ok,2026-11-27T20:09:43+00:00
+ta:g187782-d4079353,,,,,,0.567,Villa Carolina Country House Sorrento Massa Lubrense,not found,2026-11-27T20:09:43+00:00
+ta:g187782-d611764,Villa Monica,4.8,140,4,Free breakfast|Free Wi-Fi|Free parking|Air conditioning|Airport shuttle|Child-friendly|Smoke-free property,1.0,Villa Monica B&b Sant'Agnello,ok,2026-11-27T20:09:43+00:00
+ta:g187782-d675580,B&B Sorrento Flats,4.9,184,4,,1.0,(with) Palazzo Montefusco Sorrento Sorrento,ok,2026-11-27T20:09:43+00:00
+ta:g187782-d8074010,,,,,,0.0,Surriento Suites - Bed&Breakfast Sorrento,not found,2026-11-27T20:09:43+00:00
+ta:g187785-d10067502,About,4.9,303,4,,0.9,(with) Borgo Vergini Garden B&B Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d10127783,La Gemma,5.0,143,4,Free breakfast|Free Wi-Fi|Parking ($)|Air conditioning|Room service|Airport shuttle|Full-service laundry|Child-friendly,1.0,La Gemma B&B Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d10163434,Bed & Breakfast Colori e Note - Centro Storico,4.9,231,4,,0.9,Colori E Note Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d12139291,PizzaSleep B&B,5.0,190,4,Free breakfast|Free Wi-Fi|Parking ($)|Air conditioning|Airport shuttle|Child-friendly|Smoke-free property,1.0,Pizzasleep B&B Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d12686661,Borgo Vergini Garden B&B,4.9,303,4,,1.0,Borgo Vergini Garden B&B Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d12724877,The Dante House B&B by House In Naples,4.8,209,4,Free breakfast|Free Wi-Fi|Parking|Air conditioning|Pet-friendly|Airport shuttle|Child-friendly|Smoke-free property,0.9,(with) La Gemma B&B Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d12728231,B&B HOTEL Napoli,4.2,3500,3,,0.9,(with) La Gatta Cenerentola Rooms Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d12998260,Wanda Bed&Breakfast,5.0,126,4,Free breakfast|Free Wi-Fi|Parking ($)|Air conditioning|Airport shuttle|Child-friendly,1.0,Wanda Bed&Breakfast Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d13923727,Hotel Naples,3.9,981,4,Free breakfast|Free Wi-Fi|Parking|Air conditioning|Pet-friendly|Restaurant|Airport shuttle|Full-service laundry,0.9,(with) Dimora Duomo Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d14003708,NAPLESUITE,4.9,169,4,,1.0,Naplesuite Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d14020233,B&B Antica Capri,4.9,102,4,,1.0,Antica Capri B&B Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d1475247,Bed And Breakfast - Orsini46,4.9,187,4,Free breakfast|Free Wi-Fi|Parking ($)|Air conditioning|Pet-friendly|Airport shuttle|Full-service laundry|Child-friendly,1.0,Orsini 46 - Bed And Breakfast Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d15005164,319 al Duomo,5.0,332,4,,1.0,319 Al Duomo Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d15865744,Rinuccini Relais Boutique Hotel,4.8,170,4,,0.9,Rinuccini Relais Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d1751333,,,,,,0.0,Bed & Breakfast Atmospheres Of The Historic Center Napoli,not found,2026-11-27T20:09:43+00:00
+ta:g187785-d17577445,La Gatta Cenerentola Rooms,5.0,282,4,,1.0,La Gatta Cenerentola Rooms Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d19120967,DIMORA DUOMO,4.9,165,,Free breakfast|Free Wi-Fi|Parking ($)|Air conditioning|Room service|Kitchen in some rooms|Airport shuttle|Full-service laundry|Child-friendly,1.0,Dimora Duomo Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d19871624,Calenda suite,4.9,237,4,,1.0,Calenda Suite Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d23298912,B&B HOTEL Napoli,4.2,3500,3,,0.9,(with) La Gatta Cenerentola Rooms Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d3478136,B&B HOTEL Napoli,4.2,3500,3,,0.9,(with) La Gatta Cenerentola Rooms Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d4200913,,,,,,0.696,ToledoStation Bed & breakfast Napoli,not found,2026-11-27T20:09:43+00:00
+ta:g187785-d664865,Casa 12,4.4,12,4,Free breakfast|Free Wi-Fi|Air conditioning|Airport shuttle|Child-friendly|Smoke-free property,1.0,Casa 12 B&B Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d6686720,The Bellini House,4.8,214,4,Free breakfast|Free Wi-Fi|Air conditioning|Pet-friendly|Parking|Kitchen in some rooms|Airport shuttle|Child-friendly,1.0,(with) La Gemma B&B Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187785-d8110824,B&B HOTEL Napoli,4.2,3500,3,,0.9,(with) La Gatta Cenerentola Rooms Napoli,ok,2026-11-27T20:09:43+00:00
+ta:g187790-d3567211,Volver,4.9,417,3,,1.0,Volver B&B Gaeta,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d10137564,,,,,,0.25,Tinkerbell Roma Vatican City,not found,2026-11-27T20:09:43+00:00
+ta:g187791-d1078247,Crossing Condotti,4.8,84,4,,1.0,Crossing Condotti Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d1084840,,,,,,0.0,QuodLibet Vatican City,not found,2026-11-27T20:09:43+00:00
+ta:g187791-d1509277,Gli Scipioni,4.7,26,4,,0.9,Gli Scipioni 53 - Alloggio per Uso Turistico D’Ambrosio Antonella Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d1721909,Campanella3,5.0,329,,Free breakfast|Free Wi-Fi|Parking ($)|Air conditioning|Restaurant|Kitchen in some rooms|Airport shuttle|Child-friendly|Smoke-free property,1.0,Campanella3 Vatican City,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d17463894,,,,,,0.0,OTTO Rooms & Photogallery Rome,not found,2026-11-27T20:09:43+00:00
+ta:g187791-d1751325,Althea Inn Roof Terrace,4.9,257,4,,1.0,Althea Inn Roof Terrace Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d1821265,,,,,,0.0,Rome Armony Suites Rome,not found,2026-11-27T20:09:43+00:00
+ta:g187791-d1863272,,,,,,0.267,A Peace of Rome Vatican City,not found,2026-11-27T20:09:43+00:00
+ta:g187791-d1874678,Maison Trevi,4.6,90,4,Free Wi-Fi|Child-friendly|Smoke-free property,1.0,Maison Trevi Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d1908905,Villa Paganini BB,4.7,43,4,Free breakfast|Free Wi-Fi|Free parking|Air conditioning|Pet-friendly|Airport shuttle|Child-friendly|Smoke-free property,0.929,Villa Paganini B&B Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d1960703,,,,,,0.0,Aurelio Aquilone B&B Vatican City,not found,2026-11-27T20:09:43+00:00
+ta:g187791-d198736,About,4.8,84,4,,0.9,(with) Crossing Condotti Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d19907141,About,4.8,84,4,,0.9,(with) Crossing Condotti Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d2171875,,,,,,0.0,Feliz In Roma Rome,not found,2026-11-27T20:09:43+00:00
+ta:g187791-d2184224,I Capocci,4.6,35,,,1.0,I Capocci Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d2268708,B & B Domus Quiritum,4.9,65,4,,0.929,Domus Quiritum B&B Vatican City,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d2285303,B&B Tre Civette Sul Comò,4.8,190,4,Breakfast ($)|Free Wi-Fi|Parking ($)|Air conditioning|Airport shuttle|Child-friendly|Smoke-free property,1.0,Bed and Breakfast Tre Civette Sul Comò Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d3176997,B&B La Finestra sul Colosseo,4.9,97,3,,1.0,La Finestra sul Colosseo B&B Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d3354676,Domus Alberti - Rent Rooms,4.9,147,4,,0.9,Domus Alberti Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d3478675,Castel Sant'Angelo Inn,4.5,94,4,,1.0,Castel Sant'Angelo Inn Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d3566707,,,,,,0.571,Guest House Casa Martini Vatican City,not found,2026-11-27T20:09:43+00:00
+ta:g187791-d4028829,Casa Eli Roma,4.9,57,4,Free breakfast|Free Wi-Fi|Parking|Air conditioning|Airport shuttle|Child-friendly|Smoke-free property,1.0,Casa Eli Roma Vatican City,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d4232199,B&B Colfelice Rooms,4.8,109,4,Free breakfast|Free Wi-Fi|Parking ($)|Air conditioning|Pet-friendly|Airport shuttle|Child-friendly|Smoke-free property,1.0,Colfelice Rooms Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d6030326,,,,,,0.0,B&B Beside The Vatican Rome,not found,2026-11-27T20:09:43+00:00
+ta:g187791-d626945,Bed and Breakfast Aldebaran,4.8,61,3,,0.9,Aldebaran Bed & Breakfast Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d6353278,Hotel Piazza di Spagna,4.5,313,3,Breakfast ($)|Free Wi-Fi|Hot tub|Air conditioning|Parking|Bar|Room service|Airport shuttle,0.966,Piazza Di Spagna 9 Rome,ok,2026-11-27T20:09:43+00:00
+ta:g187791-d7082722,Assunta Domus - Elegant Suite,4.8,70,4,,1.0,Assunta Domus - Elegant Suite Rome,ok,2026-11-27T20:09:43+00:00
 ta:g187796-d4022758,B&B Pigiotto,4.7,61,3,,1.0,B&b Pigiotto Pesaro,ok,2026-11-26T19:45:49+00:00
 ta:g187801-d1636879,Antica Residenza D'Azeglio,4.7,91,4,,1.0,Antica Residenza d'Azeglio Bologna,ok,2026-11-26T19:45:49+00:00
 ta:g187801-d1898151,,,,,,0.0,Bologna Nel Cuore B&B E Suites Di Charme Bologna,not found,2026-11-26T19:45:49+00:00
@@ -162,9 +243,27 @@ ta:g187801-d202776,Grand Hotel Majestic già Baglioni,4.6,1200,5,,1.0,(with) Ant
 ta:g187803-d12336397,B&B Le Noci di Feo,5.0,265,4,,1.0,B&B Le Noci di Feo Modena,ok,2026-11-26T19:45:49+00:00
 ta:g187804-d11620683,Palazzo Gozzi Bed & Beauty,4.9,163,3,,1.0,Palazzo Gozzi Bed & Beauty Parma,ok,2026-11-26T19:45:49+00:00
 ta:g187804-d1775632,Villino Di Porporano,4.8,102,4,,1.0,Villino di Porporano Porporano,ok,2026-11-26T19:45:49+00:00
+ta:g187813-d1406742,Victoria Hotel Letterario,4.6,1700,4,,1.0,Victoria Hotel Letterario Trieste,ok,2026-11-27T20:09:43+00:00
 ta:g187813-d203235,Savoia Excelsior Palace,4.7,3100,4,,0.9,(with) B&B Atelier Lidia Polla Trieste,ok,2026-11-26T19:45:49+00:00
 ta:g187813-d4064942,B & B Atelier Lidia Polla,5.0,83,,,0.944,B&B Atelier Lidia Polla Trieste,ok,2026-11-26T19:45:49+00:00
 ta:g187813-d4751590,B&B Sotto il Faro,4.8,105,1,Free breakfast|Free Wi-Fi|Free parking|Air conditioning|Pet-friendly|Child-friendly|Smoke-free property,1.0,Sotto Il Faro B&B Villa Opicina,ok,2026-11-26T19:45:49+00:00
+ta:g187820-d238482,Hotel Pasquale,4.8,307,3,Free breakfast|Free Wi-Fi|Parking|Air conditioning|Bar|Restaurant|Full-service laundry|Child-friendly,1.0,(with) Il Giardino Incantato Bed and Breakfast Monterosso al Mare,ok,2026-11-27T20:09:43+00:00
+ta:g187820-d617418,Manuel's Guesthouse B&B,4.9,87,4,Air conditioning|Child-friendly,1.0,(with) Il Giardino Incantato Bed and Breakfast Monterosso al Mare,ok,2026-11-27T20:09:43+00:00
+ta:g187820-d654847,Il Giardino Incantato B&B,4.9,55,,Breakfast|Air conditioning|Pet-friendly|Child-friendly,1.0,Il Giardino Incantato Bed and Breakfast Monterosso al Mare,ok,2026-11-27T20:09:43+00:00
+ta:g187821-d2323647,Alla Marina Affittacamere,4.8,176,,,0.9,Alla Marina Riomaggiore,ok,2026-11-27T20:09:43+00:00
+ta:g187821-d480610,,,,,,0.0,Cinqueterre Residence Riomaggiore,not found,2026-11-27T20:09:43+00:00
+ta:g187821-d675364,,,,,,0.0,CasaLorenza Riomaggiore,not found,2026-11-27T20:09:43+00:00
+ta:g187823-d1498270,Borgo di Genova,4.6,69,2,Free Wi-Fi|Parking ($)|Air conditioning|Pet-friendly|Breakfast|Smoke-free property,0.929,Il Borgo di Genova Genoa,ok,2026-11-27T20:09:43+00:00
+ta:g187823-d22866184,Hotel Astoria,4.6,725,4,Free breakfast|Free Wi-Fi|Parking|Air conditioning|Pet-friendly|Restaurant|Full-service laundry|Accessible,0.9,(with) Il Borgo di Genova Genoa,ok,2026-11-27T20:09:43+00:00
+ta:g187847-d2272471,,,,,,0.0,La Casa del Giardiniere Stresa,not found,2026-11-27T20:09:43+00:00
+ta:g187849-d12231338,Moscova Luxury B&B Milano,4.8,178,,,0.9,Moscova Luxury B&B Milano,ok,2026-11-27T20:09:43+00:00
+ta:g187849-d32714603,Hotel Calimala Milano,4.8,326,4,Free breakfast|Wi-Fi|Pool|Air conditioning|Parking|Restaurant,1.0,(with) B&B Bronzino House Milano,ok,2026-11-27T20:09:43+00:00
+ta:g187849-d3562012,,,,,,0.571,B&B Bronzino House Milano,not found,2026-11-27T20:09:43+00:00
+ta:g187849-d3595471,Home BB Milano,4.7,46,4,Breakfast ($)|Free Wi-Fi|Parking ($)|Air conditioning|Smoke-free property,1.0,Home BB Milano Romano Banco,ok,2026-11-27T20:09:43+00:00
+ta:g187849-d4097922,RossoSegnale B&B,4.6,43,4,,0.9,Rosso Segnale Milano Milano,ok,2026-11-27T20:09:43+00:00
+ta:g187849-d7938100,,,,,,0.0,K34 Milano - Bed & Breakfast Milano,not found,2026-11-27T20:09:43+00:00
+ta:g187855-d11958867,Colazione da Augusta,4.9,153,4,,1.0,Colazione da Augusta Turin,ok,2026-11-27T20:09:43+00:00
+ta:g187863-d3581215,Maison Bondaz,4.9,414,3,,1.0,Maison Bondaz Aosta,ok,2026-11-27T20:09:43+00:00
 ta:g187867-d3403423,Casa Camilla,4.9,294,4,,1.0,B&B Casa Camilla Padova,ok,2026-11-26T19:45:49+00:00
 ta:g187870-d1098534,B&B 3C di Rosa juri castello,4.8,111,4,,0.9,3C B&B Venice,ok,2026-11-26T19:45:49+00:00
 ta:g187870-d1204407,,,,,,0.476,Campiello Zen Venice,not found,2026-11-26T19:45:49+00:00
@@ -189,6 +288,7 @@ ta:g187871-d2323526,,,,,,0.0,B&B Santo Stefano Verona,not found,2026-11-26T19:45
 ta:g187871-d2691114,B&B 2 Terrazze,4.8,59,,,1.0,B&B 2 Terrazze Verona,ok,2026-11-26T19:45:49+00:00
 ta:g187871-d678497,,,,,,0.0,B&B Villa Beatrice Poiano,not found,2026-11-26T19:45:49+00:00
 ta:g187872-d2337626,,,,,,0.0,B&B Il Melo Crispi Cavour,not found,2026-11-26T19:45:49+00:00
+ta:g187874-d17660801,Atipico B&B,4.8,124,3,,1.0,Atipico B&b Bari,ok,2026-11-27T20:09:43+00:00
 ta:g187894-d310651,Casa Bellavista BB,4.8,59,4,Breakfast ($)|Free Wi-Fi|Free parking|Indoor pool|Hot tub|Restaurant|Child-friendly,0.933,Casa Bellavista B&B Foiano della Chiana,ok,2026-11-26T19:45:49+00:00
 ta:g187895-d1113344,,,,,,0.0,B&B Monte Oliveto Florence,not found,2026-11-26T19:45:49+00:00
 ta:g187895-d1433880,Il Giglio D'Oro,4.7,18,,Breakfast|Air conditioning|Child-friendly,1.0,Il Giglio d'Oro Florence,ok,2026-11-26T19:45:49+00:00
@@ -196,6 +296,7 @@ ta:g187895-d305315,Relais Villa Antea,4.7,74,4,,1.0,Relais Villa Antea Florence,
 ta:g187895-d567732,,,,,,0.0,Fiorenza B&B Florence,not found,2026-11-26T19:45:49+00:00
 ta:g187895-d5827160,Portrait Firenze,4.8,318,5,,1.0,(with) Relais Villa Antea Florence,ok,2026-11-26T19:45:49+00:00
 ta:g187895-d593710,,,,,,0.0,Gourmet Giglio Bianco B&B Florence,not found,2026-11-26T19:45:49+00:00
+ta:g187897-d14944513,Agave in Città,4.9,724,3,,1.0,Agave in città Livorno,ok,2026-11-27T20:09:43+00:00
 ta:g187898-d10055331,Chiusa Delle Monache,4.9,178,3,,0.947,La Chiusa delle Monache Lucca,ok,2026-11-26T19:45:49+00:00
 ta:g187898-d2277825,B&B Al Porto di Lucca,4.8,85,3,,1.0,Al Porto di Lucca B&B Lucca,ok,2026-11-26T19:45:49+00:00
 ta:g187898-d232981,Hotel Ilaria - Lucca,4.7,747,4,,0.9,(with) Al Porto di Lucca B&B Lucca,ok,2026-11-26T19:45:49+00:00
@@ -297,27 +398,63 @@ ta:g190454-d482579,,,,,,0.444,Buxbaum Boutique Hotel Vienna,not found,2026-11-23
 ta:g190454-d577354,,,,,,0.526,Boutiquehotel Das Tyrol Vienna,not found,2026-11-23T17:07:41+00:00
 ta:g190454-d6603500,,,,,,0.478,Park Hyatt Vienna Vienna,not found,2026-11-23T17:07:41+00:00
 ta:g1915616-d7392744,Chesa Staila,4.8,58,,Breakfast|Free Wi-Fi|Free parking|Pet-friendly|Child-friendly,1.0,Chesa Staila Hotel B&B Ponte,ok,2026-11-23T17:07:41+00:00
+ta:g1928103-d7196362,Villa Fontana Relais & Wellness Spa,4.8,589,4,Free breakfast|Free Wi-Fi|Free parking|Outdoor pool|Hot tub|Air conditioning|Pet-friendly|Spa,0.776,Villa Fontana Relais Suite & Spa Agliano,ok,2026-11-27T20:09:43+00:00
 ta:g1933306-d565753,Suites de la Tour,4.8,191,,,1.0,Suites de la Tour Gresy-sur-Isere,ok,2026-11-25T20:03:37+00:00
 ta:g1943241-d11616269,Hotel Plaža Duće,4.8,1500,4,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Air conditioning|Fitness centre|Beach access,1.0,Hotel Plaza Duce Duce,ok,2026-11-25T20:03:37+00:00
+ta:g194664-d3158933,,,,,,0.0,Cascina Giardini Ricca,not found,2026-11-27T20:09:43+00:00
 ta:g194676-d1478251,B & B Villa Fortezza,4.8,130,3,,0.929,Villa Fortezza Ascoli Piceno,ok,2026-11-26T19:45:49+00:00
+ta:g194690-d1809957,Domus Traiani,4.8,183,4,,0.9,"B&B Domus Traiani, Benevento Benevento",ok,2026-11-27T20:09:43+00:00
+ta:g194713-d4782287,,,,,,0.0,A Corte B&B Casola,not found,2026-11-27T20:09:43+00:00
 ta:g194739-d1577410,Al Giardino Degli Etruschi,4.9,238,4,,1.0,Al Giardino degli Etruschi Chiusi,ok,2026-11-26T19:45:49+00:00
 ta:g194739-d28110949,Agriturismo Podere Grotta Antica,5.0,325,,,1.0,Agriturismo Podere Grotta Antica Chiusi,ok,2026-11-26T19:45:49+00:00
 ta:g194739-d8309748,Residenza Dei Ricci,5.0,101,4,,1.0,Residenza Dei Ricci Chiusi,ok,2026-11-26T19:45:49+00:00
+ta:g194743-d8866261,La Casa sul Mare B&B,4.9,156,4,,1.0,La Casa Sul Mare Civitavecchia,ok,2026-11-27T20:09:43+00:00
 ta:g194753-d2136159,,,,,,0.0,Jolly B&B - Affittacamere Dimaro,not found,2026-11-26T19:45:49+00:00
 ta:g194760-d2407473,,,,,,0.48,Alkimia Smart Rooms Ferrara,not found,2026-11-26T19:45:49+00:00
 ta:g194760-d484859,Piazza Nova Guest House,5.0,642,,,1.0,Piazza Nova Guest House Ferrara,ok,2026-11-26T19:45:49+00:00
+ta:g194765-d2186650,Villa Olga Bed & Breakfast Formia,4.9,127,4,Free breakfast|Free Wi-Fi|Parking|Air conditioning|Pet-friendly|Child-friendly,0.9,Villa Olga Maranola-Trivio,ok,2026-11-27T20:09:43+00:00
+ta:g194790-d3800234,B&B Giuggiolando,4.9,257,5,,1.0,B&B Giuggiolando L'Aquila,ok,2026-11-27T20:09:43+00:00
+ta:g194796-d1170642,Hotel Bellavista,4.7,568,4,,1.0,Hotel Bellavista Lignano Sabbiadoro,ok,2026-11-27T20:09:43+00:00
+ta:g194796-d1473191,,,,,,0.0,Monaco Suites Hotel Lignano Sabbiadoro,not found,2026-11-27T20:09:43+00:00
 ta:g194802-d2235843,B&B Antica Maison,4.9,80,,,1.0,B&B Antica Maison Loreto,ok,2026-11-26T19:45:49+00:00
 ta:g194802-d7002486,B&B A Portata di Mare,4.9,129,3,,1.0,B&B A Portata di Mare Loreto,ok,2026-11-26T19:45:49+00:00
+ta:g194819-d12563031,Casa Clementina - Marciano,4.9,266,4,,0.9,Casa Clementina Massa Lubrense,ok,2026-11-27T20:09:43+00:00
+ta:g194819-d13385790,,,,,,0.0,Relais Palazzo Del Barone Massa Lubrense,not found,2026-11-27T20:09:43+00:00
+ta:g194821-d1945473,B&B Le Eriche,5.0,72,,Free breakfast|Free Wi-Fi|Free parking|Pet-friendly|Child-friendly,1.0,Le Eriche B&B Menaggio,ok,2026-11-27T20:09:43+00:00
 ta:g194833-d501862,,,,,,0.0,Total Tuscany Montepulciano,not found,2026-11-26T19:45:49+00:00
 ta:g194833-d618733,La Locanda di San Francesco,4.5,116,4,,0.905,Locanda San Francesco Montepulciano,ok,2026-11-26T19:45:49+00:00
+ta:g194834-d10399694,,,,,,0.0,B&B Le City Villa Raspa,not found,2026-11-27T20:09:43+00:00
 ta:g194835-d1125876,Palazzo Seneca,4.7,416,4,,1.0,(with) FonteAntica Norcia,ok,2026-11-26T19:45:49+00:00
 ta:g194835-d1383536,FonteAntica Agriturismo,4.8,200,4,,0.9,FonteAntica Norcia,ok,2026-11-26T19:45:49+00:00
 ta:g194838-d10897803,Viverenumana affittacamere e appartamenti,4.9,288,,Free breakfast|Free Wi-Fi|Free parking|Hot tub|Air conditioning|Pet-friendly|Spa|Kitchen in some rooms|Airport shuttle,0.9,Viverenumana Numana,ok,2026-11-26T19:45:49+00:00
+ta:g194843-d2061112,B&B Michelangeli,4.8,86,,,1.0,B&B Michelangeli Orvieto,ok,2026-11-27T20:09:43+00:00
+ta:g194843-d646632,,,,,,0.432,B&B Ripa Medici Rooms And Suites Orvieto,not found,2026-11-27T20:09:43+00:00
+ta:g194848-d1045345,Agriturismo Torre dei Preti,4.9,188,4,,1.0,Agriturismo Torre dei Preti Peschici,ok,2026-11-27T20:09:43+00:00
 ta:g194851-d12677186,Battistero Residenza d'Epoca,4.7,248,3,,1.0,Battistero Residenza d'Epoca Pistoia,ok,2026-11-26T19:45:49+00:00
 ta:g194851-d3165052,LSM-Locanda San Marco Palazzo Caluri,4.8,143,1,,0.949,Locanda San Marco - Palazzo Caluri Pistoia,ok,2026-11-26T19:45:49+00:00
 ta:g194851-d6410918,La Locanda dei Fiori,4.7,213,3,,1.0,La Locanda dei Fiori Pistoia,ok,2026-11-26T19:45:49+00:00
+ta:g194863-d1069391,,,,,,0.538,Casa Gilda Positano,not found,2026-11-27T20:09:43+00:00
+ta:g194863-d1204726,Villa Mary,4.9,174,4,Free breakfast|Free Wi-Fi|Parking|Outdoor pool|Air conditioning|Airport shuttle|Child-friendly|Smoke-free property,0.9,Villa Mary Suites Positano,ok,2026-11-27T20:09:43+00:00
+ta:g194863-d2634107,,,,,,0.0,B&B Mamma Rosa Positano Positano,not found,2026-11-27T20:09:43+00:00
+ta:g194863-d307715,Hotel Punta Regina,4.9,208,4,,1.0,(with) Casa Cuccaro B&B Positano,ok,2026-11-27T20:09:43+00:00
+ta:g194863-d737142,Casa Cuccaro,4.9,156,,,1.0,Casa Cuccaro B&B Positano,ok,2026-11-27T20:09:43+00:00
+ta:g194863-d8715392,Villa Magia,4.8,181,5,Free breakfast|Free Wi-Fi|Parking|Outdoor pool|Hot tub|Air conditioning|Fitness centre|Spa,1.0,(with) Villa Mary Suites Positano,ok,2026-11-27T20:09:43+00:00
+ta:g194867-d1062501,Hotel Pellegrino,4.9,335,3,,1.0,(with) B&B La Barbera Praiano,ok,2026-11-27T20:09:43+00:00
+ta:g194867-d14043231,La Barbera,5.0,170,4,,1.0,B&B La Barbera Praiano,ok,2026-11-27T20:09:43+00:00
+ta:g194867-d276585,Hotel Tramonto D'Oro,4.8,695,4,,1.0,(with) B&B La Barbera Praiano,ok,2026-11-27T20:09:43+00:00
+ta:g194873-d2280506,Auditorium Rooms,4.9,47,3,,1.0,Auditorium Rooms Ravello,ok,2026-11-27T20:09:43+00:00
+ta:g194873-d472225,B&B Punta Civita,4.9,118,,Free breakfast|Free Wi-Fi|Parking ($)|Air conditioning|Child-friendly|Smoke-free property,1.0,B&B Punta Civita Atrani,ok,2026-11-27T20:09:43+00:00
 ta:g194874-d627174,Agriturismo Gravanella,4.6,137,,Free breakfast|Free Wi-Fi|Free parking|Outdoor pool|Air conditioning|Pet-friendly|Bar|Restaurant|Kitchen in rooms,0.732,Agriturismo Savernano Pian di Sco,ok,2026-11-26T19:45:49+00:00
 ta:g194912-d1650904,Mountain Chalet Pra Ronch,4.9,73,4,,1.0,Mountain Chalet Pra Ronch Santa Cristina Valgardena,ok,2026-11-26T19:45:49+00:00
+ta:g194928-d1893325,B&B Sei Stelle,4.9,146,3,,1.0,B&b Sei Stelle Sulmona,ok,2026-11-27T20:09:43+00:00
+ta:g194928-d3228276,b&b Il Marchese del grillo,4.9,157,3,,1.0,B&B Il Marchese del Grillo Sulmona,ok,2026-11-27T20:09:43+00:00
+ta:g194930-d3200664,Dimora Monsignore,4.9,184,,,1.0,B&b Dimora Monsignore Termoli,ok,2026-11-27T20:09:43+00:00
+ta:g194943-d3292215,B&B Colle Selvotta,4.9,258,,Free breakfast|Free Wi-Fi|Free parking|Outdoor pool|Air conditioning|Pet-friendly|Child-friendly|Smoke-free property,1.0,Bed and Breakfast Colle Selvotta Marina di Vasto,ok,2026-11-27T20:09:43+00:00
+ta:g194947-d1437339,Villa Ketty,4.9,320,,,1.0,Villa Ketty Resort Vico Equense,ok,2026-11-27T20:09:43+00:00
+ta:g194947-d2499974,,,,,,0.667,Villa Denise Meta,not found,2026-11-27T20:09:43+00:00
+ta:g194948-d12434566,B & B I Cordari Vieste,4.9,142,4,,0.9,B&B I Cordari Vieste,ok,2026-11-27T20:09:43+00:00
+ta:g194948-d7737285,Bed and Breakfast Navicri,4.8,261,3,,1.0,B&B  Navicri Vieste,ok,2026-11-27T20:09:43+00:00
+ta:g194950-d5961494,B&B Viterbo Antica - centro storico,4.9,167,,,0.9,B&b Viterbo Antica Viterbo,ok,2026-11-27T20:09:43+00:00
 ta:g196614-d21305452,"Au Nid Cosy d'Isa **** Gérardmer Spas privatifs, classés n°1",5.0,319,,,0.9,Au Nid Cosy D'Isa Gerardmer,ok,2026-11-25T20:03:37+00:00
 ta:g196673-d16664967,The Address Cassis,5.0,121,,,1.0,The Address Cassis Cassis,ok,2026-11-25T20:03:37+00:00
 ta:g196673-d2154054,"La Demeure Insoupçonnée, chambre d'hôtes et gîtes à Cassis, spa, piscine, vue mer",4.8,100,,,0.9,La Demeure Insoupçonnée Cassis,ok,2026-11-25T20:03:37+00:00
@@ -372,6 +509,7 @@ ta:g198865-d234215,,,,,,0.552,Hotel Eden Roc Ascona Ascona,not found,2026-11-23T
 ta:g1988927-d1986522,Defereggental Hotel & Resort,4.9,452,4,Breakfast|Free Wi-Fi|Free parking|Indoor pool|Fitness centre|Spa|Bar|Restaurant,1.0,Defereggental Hotel & Resort Innervillgraten,ok,2026-11-23T14:37:32+00:00
 ta:g199033-d1500234,Hotel Zeit & Traum,4.9,500,,,1.0,(with) Hotel Fassbind (Beausite) Beatenberg Beatenberg,ok,2026-11-23T17:07:41+00:00
 ta:g199033-d291722,,,,,,0.35,Hotel Fassbind (Beausite) Beatenberg Beatenberg,not found,2026-11-23T17:07:41+00:00
+ta:g1996590-d6586134,Villa Antica Macina B&B,4.8,77,4,,1.0,Villa Antica Macina B&B Positano,ok,2026-11-27T20:09:43+00:00
 ta:g2034461-d1772997,Hotel Fortuna,4.6,271,4,,1.0,Hotel Fortuna Hvar,ok,2026-11-25T20:03:37+00:00
 ta:g207359-d1379872,Chilly Powder - Hotel Au Coin du Feu,4.8,69,,,0.9,Chilly Powder Morzine,ok,2026-11-25T20:03:37+00:00
 ta:g207359-d1400983,"Cairn Lodge, Reach4thealps",5.0,10,,,0.9,Cairn Lodge Morzine,ok,2026-11-25T20:03:37+00:00
@@ -537,6 +675,7 @@ ta:g319732-d500477,Hotel Alte Schmiede,4.5,249,4,,1.0,Hotel Alte Schmiede Seefel
 ta:g319732-d500484,Hotel Residenz Hochland,4.7,226,4,,1.0,(with) Hotel Helga Seefeld in Tirol,ok,2026-11-24T20:51:09+00:00
 ta:g319732-d646259,,,,,,0.286,Parkhotel Seefeld Seefeld in Tirol,not found,2026-11-23T15:46:35+00:00
 ta:g319732-d676222,Hotel Helga,4.5,105,3,,1.0,Hotel Helga Seefeld in Tirol,ok,2026-11-24T20:51:09+00:00
+ta:g3340760-d3340762,,,,,,0.0,Agriturismo Fontefredda Tavenna,not found,2026-11-27T20:09:43+00:00
 ta:g3663064-d1145679,,,,,,0.486,Tenuta Delo Relais Montorio,not found,2026-11-26T19:45:49+00:00
 ta:g3772583-d2175546,,,,,,0.0,San Bernardo Villa,not found,2026-11-26T19:45:49+00:00
 ta:g3961434-d3197510,Das Schäfer,4.7,444,4,Breakfast|Free Wi-Fi|Free parking|Indoor pool|Pet-friendly|Fitness centre|Spa|Bar,0.9,Kräuter & Spa Das Schäfer Damuels,ok,2026-11-24T20:51:09+00:00
@@ -555,6 +694,12 @@ ta:g580116-d1010387,Hotel Sonngastein,4.8,431,4,,1.0,Hotel Sonngastein Bad Gaste
 ta:g580116-d286604,Haus Hirt - Alpine Spa Designhotel,4.7,319,4,,0.9,Haus Hirt Bad Gastein,ok,2026-11-24T20:51:09+00:00
 ta:g580116-d575322,,,,,,0.0,Villa Excelsior Hotel & Kurhaus Bad Gastein,not found,2026-11-23T14:37:32+00:00
 ta:g580182-d289833,Hôtel Le Savoy Méribel,4.7,186,,,1.0,Hôtel Le Savoy Méribel Meribel,ok,2026-11-25T20:03:37+00:00
+ta:g580201-d1443321,Nido Verde,4.9,156,3,,1.0,Nido Verde Agerola,ok,2026-11-27T20:09:43+00:00
+ta:g580201-d15018173,Villa Paradise Resort,4.9,435,4,,1.0,Villa Paradise Resort Furore,ok,2026-11-27T20:09:43+00:00
+ta:g580201-d7052249,,,,,,0.0,BB Santalucia Conca dei Marini,not found,2026-11-27T20:09:43+00:00
+ta:g580223-d1554785,Park Hotel Argento,4.7,418,4,,1.0,(with) Villa Valentina Levanto,ok,2026-11-27T20:09:43+00:00
+ta:g580223-d3139976,Villa Valentina,4.9,159,,,1.0,Villa Valentina Levanto,ok,2026-11-27T20:09:43+00:00
+ta:g580223-d3436936,Agriturismo Costa di Faraggiana,4.8,129,4,,1.0,Agriturismo Costa di Faraggiana Levanto,ok,2026-11-27T20:09:43+00:00
 ta:g580240-d267490,,,,,,0.0,Ancora del Chianti Country B&B - Retreat in Tuscany Greve in Chianti,not found,2026-11-26T19:45:49+00:00
 ta:g580339-d631970,,,,,,0.552,Hotel Eden Spiez Spiez,not found,2026-11-23T17:07:41+00:00
 ta:g580344-d637840,,,,,,0.0,Märchenhotel Linthal,not found,2026-11-23T17:07:41+00:00
@@ -626,6 +771,7 @@ ta:g608721-d1473809,,,,,,0.0,Aparthotel Tamaris Tucepi,not found,2026-11-25T20:0
 ta:g608815-d19614772,"Hôtel et spa le 16 | 150**** - restaurant le Skitchen - Vars, a 4-star tourist hotel.",4.7,227,,Breakfast|Free Wi-Fi|Free parking|Fitness centre|Spa|Bar|Restaurant|Accessible,0.9,Hotel 16|150 Guillestre,ok,2026-11-25T20:03:37+00:00
 ta:g608818-d5445118,Chalet Savoie Faire,4.9,38,,Free Wi-Fi|Air conditioning|Child-friendly,1.0,Chalet Savoie Faire Aigueblanche,ok,2026-11-25T20:03:37+00:00
 ta:g608900-d3200312,Alle Pendici del Conero - Residenza d'Epoca,4.8,139,2,,0.9,Alle Pendici del Conero Sirolo,ok,2026-11-26T19:45:49+00:00
+ta:g608901-d13397121,Sotrani,5.0,56,4,,1.0,Sotrani Trani,ok,2026-11-27T20:09:43+00:00
 ta:g608934-d1412326,Follonico,4.9,143,2,,1.0,Follonico Montepulciano,ok,2026-11-26T19:45:49+00:00
 ta:g608934-d1724008,Siena House,5.0,54,3,,1.0,Siena House Torrita di Siena,ok,2026-11-26T19:45:49+00:00
 ta:g608936-d1648487,Tenuta delle Rose,4.9,49,,,1.0,Tenuta delle Rose Montaione,ok,2026-11-26T19:45:49+00:00
@@ -640,6 +786,9 @@ ta:g616132-d23516147,RockyPop Flaine,4.7,248,,,1.0,RockyPop Flaine Araches-la-Fr
 ta:g635546-d1017772,,,,,,0.0,Hotel Alpina Rauris Rauris,not found,2026-11-23T14:37:32+00:00
 ta:g635546-d571954,,,,,,0.0,Hotel Rauriserhof Rauris,not found,2026-11-23T14:37:32+00:00
 ta:g635593-d2385493,,,,,,0.556,Chalet Les Trois Canards Chatel,not found,2026-11-25T20:03:37+00:00
+ta:g635619-d1544880,La Scogliera Rooms,5.0,94,2,Free breakfast|Free Wi-Fi|Air conditioning|Pet-friendly|Child-friendly|Smoke-free property,0.9,(with) B&B Punta Civita Atrani,ok,2026-11-27T20:09:43+00:00
+ta:g635621-d2184505,B&B IL Pavone,5.0,63,4,,1.0,Il Pavone Conca dei Marini,ok,2026-11-27T20:09:43+00:00
+ta:g635621-d2557790,Monastero Santa Rosa Hotel & Spa,4.8,555,5,,1.0,(with) Il Pavone Conca dei Marini,ok,2026-11-27T20:09:43+00:00
 ta:g635642-d2172461,,,,,,0.0,Massoni Bed & Breakfast Peschiera del Garda,not found,2026-11-26T19:45:49+00:00
 ta:g635642-d3507314,Bed and Breakfast Sweet Life,4.7,106,4,Free breakfast|Free Wi-Fi|Free parking|Outdoor pool|Air conditioning|Airport shuttle|Child-friendly,1.0,Sweet Life Pozzolengo,ok,2026-11-26T19:45:49+00:00
 ta:g635642-d3591472,Rooms Il Punto... Peschiera del Garda,4.9,217,4,,0.9,Rooms Il Punto... Peschiera del Garda,ok,2026-11-26T19:45:49+00:00
@@ -690,8 +839,10 @@ ta:g644054-d3748473,,,,,,0.211,Alpeiner Nature Resort Neustift im Stubaital,not 
 ta:g644054-d500371,Activehotel Bergkönig,4.8,540,4,,0.9,(with) Alpenhotel Tirolerhof Neustift im Stubaital,ok,2026-11-24T20:51:09+00:00
 ta:g644054-d500767,,,,,,0.0,Hotel Der Stubaierhof Neustift im Stubaital,not found,2026-11-23T14:37:32+00:00
 ta:g644071-d12874631,,,,,,0.0,Zrinka House Jezerce,not found,2026-11-25T20:03:37+00:00
+ta:g644245-d275671,Grand Hotel Due Golfi,4.7,826,4,,1.0,(with) Casa Clementina Massa Lubrense,ok,2026-11-27T20:09:43+00:00
 ta:g644253-d638171,Villa Très Jolie,4.9,89,3,,1.0,Villa Tres Jolie Aurogna,ok,2026-11-26T19:45:49+00:00
 ta:g644280-d17424167,Residenza d'Epoca La Rosa,5.0,108,4,,1.0,Residenza d’Epoca La Rosa Pienza,ok,2026-11-26T19:45:49+00:00
+ta:g644281-d1726625,Farmhouse Eco-Bio Villa Vacasio,4.8,230,3,,0.9,Villa Vacasio Pitigliano,ok,2026-11-27T20:09:43+00:00
 ta:g651663-d667324,"Das Moser, Hotel am See",4.7,168,4,Breakfast|Free Wi-Fi|Pet-friendly|Spa|Room service|Golf|Full-service laundry,0.839,das Moser - Hotel Garni am See Wernberg,ok,2026-11-24T20:51:09+00:00
 ta:g651666-d1447501,Hotel Platzer,4.9,405,4,Free breakfast|Free Wi-Fi|Free parking|Pool|Hot tub|Pet-friendly|Spa|Bar,0.9,Wohlfuhlhotel Platzer Gerlos,ok,2026-11-23T14:37:32+00:00
 ta:g651666-d1583386,Hotel Schönruh,4.9,262,4,,0.941,Schoenruh Gerlos,ok,2026-11-24T20:51:09+00:00
@@ -704,9 +855,13 @@ ta:g651667-d2002426,,,,,,0.143,Hotel Toalstock Fiss,not found,2026-11-23T15:46:3
 ta:g651667-d7018173,Alps Lodge,4.8,242,,,1.0,(with) Hotel Gebhard Fiss,ok,2026-11-23T15:46:35+00:00
 ta:g651670-d672071,,,,,,0.0,Romantik Hotel Verwall Gaschurn,not found,2026-11-24T20:51:09+00:00
 ta:g651819-d1090419,,,,,,0.429,Neumühle Resort & Spa Wartmannsroth,not found,2026-11-25T20:03:37+00:00
+ta:g651998-d6610561,,,,,,0.0,Bed & Breakfast Gli Avi Casamassima,not found,2026-11-27T20:09:43+00:00
 ta:g652052-d3950212,B&B Santa Lucia,4.9,342,,Free breakfast|Free Wi-Fi|Free parking|Air conditioning|Accessible|Child-friendly|Smoke-free property,0.9,Bed & Breakfast Santa Lucia Pastrengo,ok,2026-11-26T19:45:49+00:00
 ta:g656477-d645309,,,,,,0.556,Hotel Ritzenhof Saalfelden am Steinernen Meer,not found,2026-11-23T14:37:32+00:00
 ta:g656520-d646017,Kunzmann's Hotel,4.6,813,4,,1.0,Kunzmann's Hotel | Spa Bad Bocklet,ok,2026-11-25T20:03:37+00:00
+ta:g656615-d10483209,Rome Airport Inn,4.6,579,4,Free breakfast|Free Wi-Fi|Free parking|Air conditioning|Bar|Room service|Kitchen in some rooms|Airport shuttle,1.0,Rome Airport Inn Fiumicino-Isola Sacra,ok,2026-11-27T20:09:43+00:00
+ta:g656615-d2039718,,,,,,0.0,B&B Retro Lido di Ostia,not found,2026-11-27T20:09:43+00:00
+ta:g656615-d2058643,"Guest House ""Albis Rooms""",4.7,101,4,,0.9,Albis Rooms Fiumicino-Isola Sacra,ok,2026-11-27T20:09:43+00:00
 ta:g656889-d503428,Hotel Castell,4.8,337,,,1.0,Hotel Castell Zuoz,ok,2026-11-24T20:51:09+00:00
 ta:g657849-d10277887,Assisium Agriturismo,4.7,621,4,,1.0,Assisium Agriturismo Santa Maria degli Angeli,ok,2026-11-26T19:45:49+00:00
 ta:g658282-d2480709,,,,,,0.0,Hotel Annelies Schladming,not found,2026-11-24T20:51:09+00:00
@@ -721,6 +876,7 @@ ta:g663797-d736078,,,,,,0.0,Locanda Le Boscarecce Castelfiorentino,not found,202
 ta:g664064-d2141833,B&B Gallo delle Pille,4.8,129,3,,1.0,B&B Gallo delle Pille Monzambano,ok,2026-11-26T19:45:49+00:00
 ta:g664160-d254104,Boutique-Hotel Remorino,4.7,199,4,,1.0,Boutique-Hotel Remorino Minusio,ok,2026-11-23T17:07:41+00:00
 ta:g664160-d291795,Smart-HOTEL MINUSIO,4.7,203,3,Breakfast|Free Wi-Fi|Free parking|Outdoor pool|Pet-friendly|Restaurant|Full-service laundry|Child-friendly,1.0,Smart-Hotel Minusio Minusio,ok,2026-11-23T17:07:41+00:00
+ta:g664188-d1825942,Nest on The Lake,4.8,98,3,,1.0,Nest on the Lake Lezzeno,ok,2026-11-27T20:09:43+00:00
 ta:g665890-d858417,,,,,,0.0,Hotel der Engel Graen,not found,2026-11-23T17:07:41+00:00
 ta:g666530-d10124343,Dachsteinkönig – Familux Resort,4.9,1800,5,,1.0,Dachsteinkönig - Familux Resort Bad Goisern,ok,2026-11-24T20:51:09+00:00
 ta:g666530-d1020558,,,,,,0.48,Landhaus Koller Bad Goisern,not found,2026-11-23T14:37:32+00:00
@@ -743,7 +899,9 @@ ta:g676772-d1954803,Romantic hotel Mlyn Karlstejn,4.5,764,,Free breakfast|Free W
 ta:g677523-d610090,IL Canto Del Sole,4.9,218,4,,1.0,Il Canto del Sole Ponte A Tressa,ok,2026-11-26T19:45:49+00:00
 ta:g6885244-d2485745,Il Borgo di Via Chiesa CIN:037030B4WO6UTWWJ,4.9,68,,037030B4WO6UTWWJ: Free breakfast|Free Wi-Fi|Free parking|Air conditioning|Accessible|Child-friendly|Smoke-free property,0.9,Il Borgo di Via Chiesa Granarolo dell'Emilia e Viadagola,ok,2026-11-26T19:45:49+00:00
 ta:g729917-d258717,"Casa Portagioia, Tuscany B&B",5.0,62,4,Free breakfast|Free Wi-Fi|Free parking|Outdoor pool|Air conditioning|Pet-friendly|Restaurant|Kitchen in some rooms,1.0,Casa Portagioia - Tuscany Bed and Breakfast Castiglion Fiorentino,ok,2026-11-26T19:45:49+00:00
+ta:g736252-d4811665,Les Trompeurs Chez Odette,4.9,126,3,Free breakfast|Free Wi-Fi|Free parking|Pet-friendly|Child-friendly,0.75,Les Trompeurs Chambres D'Hotes Cogne,ok,2026-11-27T20:09:43+00:00
 ta:g754051-d10033788,Castellum Hotel Hollókő,4.7,1900,4,,1.0,Castellum Hotel Hollókő Rimoc,ok,2026-11-26T19:45:49+00:00
+ta:g776159-d588925,,,,,,0.0,Garni B&B La Rua Pescocostanzo,not found,2026-11-27T20:09:43+00:00
 ta:g776244-d650210,Hotel KOLLERs,4.8,511,4,,1.0,KOLLER's Hotel Seeboden,ok,2026-11-24T20:51:09+00:00
 ta:g780652-d12986998,Dimora Naviglio B&B,4.9,73,3,,1.0,Dimora Naviglio Dolo,ok,2026-11-26T19:45:49+00:00
 ta:g780934-d2534140,,,,,,0.0,Boutique Hotel Leone & Retreat Centre Montelparo,not found,2026-11-26T19:45:49+00:00
@@ -751,6 +909,7 @@ ta:g790182-d4162085,Hotel Davídek Trutnov,4.7,375,,,0.9,Hotel Davídek Trutnov,
 ta:g793515-d1966743,,,,,,0.0,Hotel Gesser Sillian,not found,2026-11-23T14:37:32+00:00
 ta:g793518-d292034,STOCK resort,4.8,1200,5,Free breakfast|Free Wi-Fi|Free parking|Pools|Hot tub|Air conditioning|Pet-friendly|Fitness centre,1.0,(with) Mountain Resort M&M Mayrhofen,ok,2026-11-24T20:51:09+00:00
 ta:g793518-d7119775,Mountain Resort M&M,4.9,190,4,Breakfast|Free Wi-Fi|Free parking|Pool|Hot tub|Room service|Full-service laundry|Accessible,1.0,Mountain Resort M&M Mayrhofen,ok,2026-11-24T20:51:09+00:00
+ta:g795890-d603482,Olive Tree Hill - alloggio turistico T.Lipsanen,4.7,87,4,Free breakfast|Free Wi-Fi|Free parking|Outdoor pool|Pet-friendly|Restaurant|Kitchen in some rooms|Airport shuttle,0.9,Olive Tree Hill B&B Zagarolo,ok,2026-11-27T20:09:43+00:00
 ta:g804267-d628899,POST Family Resort,4.8,603,4,,1.0,POST - Family Resort Unken,ok,2026-11-24T20:51:09+00:00
 ta:g807293-d1181140,Alpines Gourmet Hotel Montanara,4.9,344,4,,0.902,Alpines Gourmethotel Montanara Flachau,ok,2026-11-24T20:51:09+00:00
 ta:g807869-d1059933,Hotel Damülser Hof,4.8,321,4,Breakfast|Free Wi-Fi|Free parking|Pools|Fitness centre|Spa|Bar|Restaurant,0.9,(with) Kräuter & Spa Das Schäfer Damuels,ok,2026-11-24T20:51:09+00:00
