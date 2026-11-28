@@ -4996,6 +4996,7 @@ ta:g194729-d567471,official,"ericsoft:{""code"":""25DB3C950E632FD4"",""host"":""
 ta:g194746-d233138,official,"synxis:{""chain"":""24447"",""code"":""6765"",""host"":""be.synxis.com""}",,Hotel La Perla,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g194752-d269332,official,"simplebooking:{""code"":""1870""}",,Hotel Torino Wellness & Spa,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g194763-d2620786,official,"simplebooking:{""code"":""4147""}",,Hotel La Baita,,,,,ok,2026-11-25T15:34:09+00:00
+ta:g194772-d314131,official,"ericsoft:{""code"":""DBE6C621BA9407BB"",""host"":""www.ericsoft.biz""}",,Hotel Villa Florida,,,,,ok,2026-11-28T16:39:33+00:00
 ta:g194796-d1151812,official,"simplebooking:{""code"":""9486""}",,Hotel Miramare,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g194796-d1170642,official,,,Hotel Bellavista,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g194796-d1473191,official,"blastness:{""code"":""30354"",""dc"":""3461""}",,Monaco Suites Hotel,,,,,ok,2026-11-24T10:24:08+00:00
@@ -5010,6 +5011,7 @@ ta:g194835-d1125876,official,,,Palazzo Seneca,,,,,not found,2026-11-24T15:32:22+
 ta:g194862-d233345,official,,,Grand Hotel Portovenere,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g194863-d229064,official,"simplebooking:{""code"":""983""}",,Hotel Eden Roc,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g194863-d307715,official,"ericsoft:{""code"":""B5D6FD6E9D0B6048"",""host"":""booking.ericsoft.com""}",,Hotel Punta Regina,,,,,ok,2026-11-27T17:35:00+00:00
+ta:g194867-d274456,official,,,Grand Hotel Tritone,,,,,not found,2026-11-28T16:39:33+00:00
 ta:g194867-d276585,official,"simplebooking:{""code"":""6972""}",,Hotel Tramonto D'oro,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g194878-d12516148,official,"simplebooking:{""code"":""3925""}",,Dan Hotel,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g194878-d13516164,official,"simplebooking:{""code"":""4308""}",,Hotel Vagabond,,,,,ok,2026-11-27T17:35:00+00:00
@@ -5019,6 +5021,7 @@ ta:g194883-d233469,official,,,Du Lac et Du Parc Grand Resort,,,,,not found,2026-
 ta:g194883-d314203,official,"synxis:{""chain"":""24447"",""code"":""6782"",""host"":""be.synxis.com""}",,Lido Palace,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g194889-d6375452,official,,,Casa del Pittore,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g194896-d1168513,official,"seekda:{""code"":""S003910""}",,Naturhotel Leitlhof,,,,,ok,2026-11-24T15:32:22+00:00
+ta:g194907-d292082,official,"simplebooking:{""code"":""2989""}",,Hotel Villa Garden,,,,,ok,2026-11-28T16:39:33+00:00
 ta:g194912-d951755,official,"seekda:{""code"":""S003096""}",,Granbaita Dolomites,,,,,ok,2026-11-24T15:32:22+00:00
 ta:g194935-d1140981,official,"simplebooking:{""code"":""4281""}",,Aktivhotel Santalucia,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g194946-d265536,official,,,Grand Hotel Principe di Piemonte,,,,,not found,2026-11-27T17:35:00+00:00
@@ -5071,6 +5074,7 @@ ta:g274887-d1977620,official,,,ESCALA Hotel & Suites,,,,,not found,2026-11-24T15
 ta:g274887-d2035671,official,,,Bohem Art Hotel,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g274887-d20767878,official,"synxis:{""chain"":""5375"",""code"":""17478"",""host"":""be.synxis.com""}",,Hotel Vision Budapest,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g274887-d276381,official,"synxis:{""chain"":""5375"",""code"":""67922"",""host"":""be.synxis.com""}",,Boutique Hotel Victoria Budapest,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g274887-d285437,official,,,Corinthia Budapest,,,,,not found,2026-11-28T16:39:33+00:00
 ta:g274887-d9250207,official,"synxis:{""chain"":""5375"",""code"":""67171"",""host"":""be.synxis.com""}",,Hotel Moments Budapest,,,,,ok,2026-11-24T10:24:08+00:00
 ta:g274924-d1435845,official,,,Hotel Danubia Gate Bratislava,,,,,not found,2026-11-24T15:32:22+00:00
 ta:g274924-d669692,official,,,Arcadia Boutique Hotel,,,,,not found,2026-11-24T15:32:22+00:00
@@ -5111,6 +5115,7 @@ ta:g608931-d637685,official,"hotelnetsolutions:{""code"":""hotel-schwarzschmied"
 ta:g608934-d1412326,official,"simplebooking:{""code"":""3939""}",,Follonico,,,,,ok,2026-11-25T15:34:09+00:00
 ta:g612437-d1099062,official,"simplebooking:{""code"":""9235""}",,Park Hotel Sport,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g612437-d1114303,official,"simplebooking:{""code"":""2466""}",,Corona Dolomites Hotel Andalo,,,,,ok,2026-11-24T10:24:08+00:00
+ta:g612437-d1224845,official,"simplebooking:{""code"":""6674""}",,Hotel Cristallo Andalo,,,,,ok,2026-11-28T16:39:33+00:00
 ta:g612437-d1516232,official,,,Hotel Paganella,,,,,not found,2026-11-27T17:35:00+00:00
 ta:g612437-d2189263,official,"simplebooking:{""code"":""5386""}",,Hotel Nordik,,,,,ok,2026-11-27T17:35:00+00:00
 ta:g612437-d5611610,official,"simplebooking:{""code"":""11847""}",,Sassdei My Active Suite Hotel,,,,,ok,2026-11-24T10:24:08+00:00
