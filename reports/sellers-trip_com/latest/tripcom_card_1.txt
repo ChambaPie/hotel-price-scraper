@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=37095&provinceId=0&districtId=0&countryId=14&destName=Hotel%20Kaprunerhof&searchWord=Hotel%20Kaprunerhof&searchType=H&optionId=4382728&searchValue=31%7C4382728*31*4382728*1&checkin=2027-05-17&checkout=2027-05-18&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 274.0, 'price_excl': 241.0, 'price_total': 274.0, 'breakfast': '', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=33195&provinceId=0&districtId=0&countryId=106&destName=Agriturismo%20Eco-Bio%20Villa%20Vacasio&searchWord=Agriturismo%20Eco-Bio%20Villa%20Vacasio&searchType=H&optionId=5693662&searchValue=31%7C5693662*31*5693662*1&checkin=2027-03-07&checkout=2027-03-08&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 117.0, 'price_excl': 104.0, 'price_total': 117.0, 'breakfast': 'included', 'cancellation': ''}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,27 +11,26 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Hotel Kaprunerhof
-Mon, May 17
+Agriturismo Eco-Bio Villa Vacasio
+Sun, Mar 7
 -
-Tue, May 18
+Mon, Mar 8
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Kaprun
+Popular filters for Pitigliano
 
-Spa
-Breakfast & Dinner Included
-Sauna
-Pool
-Pets welcome
-Hotel
+Parking available
 Breakfast included
 Free cancellation
-Homes & apts
-Dinner included
+Hotel
+Private toilet
+Air conditioning
+Hot springs
+Private bathroom
+Family-friendly
 
 Budget
 
@@ -56,19 +55,16 @@ Star rating
 
 Location
 
-Straight-line distance from Hotel Kaprunerhof
+Straight-line distance from Agriturismo Eco-Bio Villa Vacasio
 No distance limit
-Kitzsteinhorn
-Burg Kaprun
-Gipfelwelt 3000
+Museo Civico Archeologico della Civilta Etrusca
+Cascata del Londini
+Villa Corano
 Show More
 
 Meals
 
 Breakfast included
-Dinner included
-Breakfast & Dinner Included
-Show More
 
 Bed type
 
@@ -79,9 +75,9 @@ Show More
 
 Room features
 
+Entire unit
 Balcony
-Mountain view room
-Lake view room
+Family room
 Show More
 
 Number of bedrooms
@@ -99,36 +95,35 @@ Show More
 
 Property facilities & services
 
+Pool
 Parking available
-Free parking
-Spa
+Pets welcome
 Show More
 
 Room facilities & services
 
 Air conditioning
-Balcony
-Kitchen
+Private toilet
+Extra beds available
 Show More
 
 Property Features
 
-Great views
 Family-friendly
 Self check-in
+Great views
 
 Guest Impressions
 
 Lots to do
 Ideal location
-Sparkling clean
+Excellent service
 Show More
 
 Room Size
 
-≥ 35㎡
-≥ 50㎡
-≥ 95㎡
+≥ 20㎡
+≥ 40㎡
 
 Payment
 
@@ -142,23 +137,17 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
-Brands
-
-AlpenParks
-COOEE
-Revier Hotels
-
 Reviews
 
-500+
 200+
 100+
+50+
 
 Accessibility
 
 Handrails on stairs
-Handrails in hallways
-Pool hoist available
+Stair-free main entrance
+Wheelchairs available
 Show More
 First booking offer!
 We'll apply the best discount for you at check-out
@@ -170,25 +159,25 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Hotel Kaprunerhof
-Near BILLA AGSt.Margareta ChurchMap
-Very good
-4 reviews
-8.7
-Indoor heated poolSpaBar
-Double Room
+Agriturismo Eco-Bio Villa Vacasio
+Near Azienda Agricola Biologica Podere Marco PoloSantuario della Madonna delle GrazieMap
+Amazing
+584 reviews
+9.5
+Outdoor poolBarbecueDiving
+Classic Room
 1 queen bed
-Free Cancellation
-€241
-Total (incl. taxes & fees): €274
+Breakfast included
+€104
+Total (incl. taxes & fees): €117
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in Austria
+Hotels in Italy
 >
-Hotels in Salzburg State
+Hotels in Tuscany
 >
-Hotels in Kaprun
+Hotels in Pitigliano
