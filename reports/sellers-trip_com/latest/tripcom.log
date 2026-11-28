@@ -1,4 +1,4 @@
-08:59:08 Aparthotel City 5 2026-12-05: not in the answer ([])
-08:59:30 Aparthotel City 5 2027-06-05: not in the answer ([])
-09:00:11 Residence Karolina 2027-03-02: not in the answer ([])
-09:28:33 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 206, 'priced': 144, 'available': 97, 'errors': 0, 'missing': 62, 'stored_nights': 1291, 'ids_coverage': '1270/1500'}
+12:49:36 Hotel Condor 2027-06-08: not in the answer ([])
+12:49:57 Boutique Hotel Olympia 2027-03-17: not in the answer ([])
+12:50:19 Boutique Hotel Olympia 2027-09-15: not in the answer ([])
+13:19:35 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 100, 'priced': 20, 'available': 3, 'errors': 0, 'missing': 80, 'stored_nights': 1167, 'ids_coverage': '1270/1500'}

@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=1288&provinceId=0&districtId=0&countryId=162&destName=Alchymist%20Grand%20Hotel%20and%20Spa&searchWord=Alchymist%20Grand%20Hotel%20and%20Spa&searchType=H&optionId=2509717&searchValue=31%7C2509717*31*2509717*1&checkin=2027-10-03&checkout=2027-10-04&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 207.0, 'price_excl': 182.0, 'price_total': 207.0, 'breakfast': 'included', 'cancellation': ''}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=3403&provinceId=0&districtId=0&countryId=14&destName=Salzburgerhof%2C%20Das%205-Sterne%20Hotel%20Von%20Zell%20am%20See&searchWord=Salzburgerhof%2C%20Das%205-Sterne%20Hotel%20Von%20Zell%20am%20See&searchType=H&optionId=9882100&searchValue=31%7C9882100*31*9882100*1&checkin=2027-05-06&checkout=2027-05-07&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 380.0, 'price_excl': 341.0, 'price_total': 380.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,38 +11,38 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Alchymist Grand Hotel and Spa
-Sun, Oct 3
+Salzburgerhof, Das 5-Sterne Hotel Von Zell am See
+Thu, May 6
 -
-Mon, Oct 4
+Fri, May 7
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Prague
+Popular filters for Zell am See
 
-Hotel
 Breakfast included
-Black Friday sale
+Spa
+Breakfast & Dinner Included
+Sauna
+Hotel
+Free cancellation
 Very Good 8+
 Based on guest reviews
-Free cancellation
-Private toilet
-Parking available
 1 double bed
-1 bedroom/studio
+Dinner included
 
 Budget
 
-(€0 - €350+)
+(€0 - €500+)
 Price per room per night (excl. taxes & fees)
-€0 - €60
-€60 - €100
-€100 - €150
-€150 - €230
-€230 - €350
-> €350
+€0 - €150
+€150 - €190
+€190 - €250
+€250 - €340
+€340 - €500
+> €500
 
 Property Type
 
@@ -58,11 +58,11 @@ Star rating
 
 Location
 
-Straight-line distance from Alchymist Grand Hotel and Spa
+Straight-line distance from Salzburgerhof, Das 5-Sterne Hotel Von Zell am See
 No distance limit
-Old Town Square
-Prague 1
-Old Town
+Lake Zell
+Zell am See
+Zell am See-Kaprun
 Show More
 
 Meals
@@ -81,9 +81,9 @@ Show More
 
 Room features
 
-Family room
+Lake view room
 Balcony
-Suite
+Mountain view room
 Show More
 
 Number of bedrooms
@@ -102,41 +102,35 @@ Show More
 Property facilities & services
 
 Parking available
+Free parking
 Spa
-Gym
 Show More
 
 Room facilities & services
 
-Private toilet
 Air conditioning
-Non-smoking rooms
+Balcony
+Kitchen
 Show More
-
-Opening/renovation time
-
-Within 1 year
-Within 2 years
 
 Property Features
 
 Great views
 Family-friendly
-Romantic vibes
-Show More
+Self check-in
 
 Guest Impressions
 
-Ideal location
 Lots to do
+Ideal location
 Sparkling clean
 Show More
 
 Room Size
 
-≥ 30㎡
 ≥ 40㎡
-≥ 70㎡
+≥ 55㎡
+≥ 95㎡
 
 Payment
 
@@ -150,17 +144,11 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
-Discounts
-
-Black Friday sale
-Extra Trip Coin Rewards
-
 Brands
 
-A&O
-Adrez
-ALMANAC
-Show More
+AlpenParks
+Hapimag
+VAYA Resort
 
 Reviews
 
@@ -170,10 +158,19 @@ Reviews
 
 Accessibility
 
-Assistive listening devices
 Handrails on stairs
 Handrails in hallways
+Stair-free main entrance
 Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -184,25 +181,28 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Alchymist Grand Hotel and Spa
-Lesser TownNear Charles BridgeMap
+Salzburgerhof, Das 5-Sterne Hotel Von Zell am See
+Near Zell am SeeBrunnen am StadtplatzMap
 Great
-138 reviews
-9.1
-Castle hotelFree spa accessIndoor pool
-No. 6 of Cultural Hotels in Czech Republic
-Cozy Double Room
-1 queen bed
+57 reviews
+9.2
+Outdoor heated poolMountain retreatIdeal location
+No. 1 of Premium Hotels in Kitzsteinhorn
+Comfort Double Room
+1 double bed
+Free Cancellation
 Breakfast included
-Only 2 left at this price
-€182
-Total (incl. taxes & fees): €207
+Only 4 left at this price
+€341
+Total (incl. taxes & fees): €380
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
 >
 Hotels
 >
-Hotels in Czech Republic
+Hotels in Austria
 >
-Hotels in Prague
+Hotels in Salzburg State
+>
+Hotels in Zell am See
