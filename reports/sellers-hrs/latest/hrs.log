@@ -1,2 +1,27 @@
-01:16:58 took HRS's own hotel search from its results page
-01:27:10 hrs: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 240, 'priced': 5910, 'available': 1292, 'errors': 0, 'stored_nights': 95118, 'ids_coverage': '938/1500'}
+05:07:27 took HRS's own hotel search from its results page
+05:07:27 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a618f-43b46f1322e421d602ba37c4;Root=1-6b0
+05:07:29 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a6191-4efa190a6d9805102e5336aa;Root=1-6b0
+05:07:30 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a6192-6b60557b55d01559713e3ac7;Root=1-6b0
+05:07:31 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a6193-3b701d8e56c90d1b3eba3e2e;Root=1-6b0
+05:07:33 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a6195-0f00ccb93d5ea2af46048bf7;Root=1-6b0
+05:07:34 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a6196-1dd4eae365b3b70d36b9c8cc;Root=1-6b0
+05:07:35 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a6197-1d55f06b0c28273d307cae25;Root=1-6b0
+05:07:37 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a6199-45b7284c4bc8eb5f3c70f504;Root=1-6b0
+05:07:38 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a619a-1083a197524561e60304e08c;Root=1-6b0
+05:07:39 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a619b-2ddec0fc524feef92e89e9ec;Root=1-6b0
+05:07:41 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a619d-0ff30bd05b438c342fc337d9;Root=1-6b0
+05:07:42 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a619e-7dddee2a7441e32b03d51cbc;Root=1-6b0
+05:07:43 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a619f-1872f31f09a7288b2a7f79e7;Root=1-6b0
+05:07:45 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61a0-3ddc44555c5544b8595cc1b1;Root=1-6b0
+05:07:46 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61a2-2b8ee7267e13f1da393e2259;Root=1-6b0
+05:07:47 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61a3-631304c52d069deb5d5bd5c3;Root=1-6b0
+05:07:49 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61a5-0aeda1206a2c3469278c9282;Root=1-6b0
+05:07:50 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61a6-68c0418877a5b65973b3e81a;Root=1-6b0
+05:07:51 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61a7-27b3a1ba64ef851c7d937368;Root=1-6b0
+05:07:52 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61a8-7560f12a644001970d4aa5a5;Root=1-6b0
+05:07:54 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61aa-1841081602415acf264ae8c9;Root=1-6b0
+05:07:55 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61ab-2e9b45e06ce107da133bb34d;Root=1-6b0
+05:07:57 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61ac-0e580b1d6d725c0d381bd307;Root=1-6b0
+05:07:58 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61ae-3e0b4fb75468646a32fae0aa;Root=1-6b0
+05:07:59 2026-12-05 (25 hotels): HRS HTTP 500: {"status":500,"code":"ServiceUnavailable","requestId":"Self=1-6b0a61af-4814722038aec1d936bc55b4;Root=1-6b0
+05:08:03 hrs: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 0, 'priced': 0, 'available': 0, 'errors': 25, 'stored_nights': 89208, 'ids_coverage': '938/1500'}
