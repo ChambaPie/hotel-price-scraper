@@ -1,4 +1,4 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=6616&provinceId=0&districtId=0&countryId=80&destName=Giardino%20Ascona&searchWord=Giardino%20Ascona&searchType=H&optionId=5488260&searchValue=31%7C5488260*31*5488260*1&checkin=2027-09-09&checkout=2027-09-10&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=1288&provinceId=0&districtId=0&countryId=162&destName=The%20Mozart%20Prague&searchWord=The%20Mozart%20Prague&searchType=H&optionId=748365&searchValue=31%7C748365*31*748365*1&checkin=2027-10-04&checkout=2027-10-05&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
 Go to main content
 Hotels & Homes
 Flights
@@ -10,38 +10,38 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Giardino Ascona
-Thu, Sep 9
+The Mozart Prague
+Mon, Oct 4
 -
-Fri, Sep 10
+Tue, Oct 5
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Ascona
+Popular filters for Prague
 
-1 double bed
+Hotel
+Breakfast included
+Black Friday sale
 Very Good 8+
 Based on guest reviews
-Breakfast included
-Private toilet
-Hotel
 Free cancellation
-Pool
-Family-friendly
-Pets welcome
+Private toilet
+Parking available
+1 double bed
+1 bedroom/studio
 
 Budget
 
-(€0 - €230+)
+(€0 - €350+)
 Price per room per night (excl. taxes & fees)
-€0 - €50
-€50 - €90
-€90 - €140
-€140 - €180
-€180 - €230
-> €230
+€0 - €60
+€60 - €100
+€100 - €150
+€150 - €230
+€230 - €350
+> €350
 
 Property Type
 
@@ -57,16 +57,19 @@ Star rating
 
 Location
 
-Straight-line distance from Giardino Ascona
+Straight-line distance from The Mozart Prague
 No distance limit
-Ascona
-Lido Ascona
-Museo Castello San Materno
+Old Town Square
+Prague 1
+Old Town
 Show More
 
 Meals
 
 Breakfast included
+Dinner included
+Breakfast & Dinner Included
+Show More
 
 Bed type
 
@@ -77,9 +80,9 @@ Show More
 
 Room features
 
-Lake view room
+Family room
 Balcony
-Entire unit
+Suite
 Show More
 
 Number of bedrooms
@@ -98,35 +101,41 @@ Show More
 Property facilities & services
 
 Parking available
-Pool
-Pets welcome
+Spa
+Gym
 Show More
 
 Room facilities & services
 
-Balcony
 Private toilet
 Air conditioning
+Non-smoking rooms
 Show More
+
+Opening/renovation time
+
+Within 1 year
+Within 2 years
 
 Property Features
 
 Great views
 Family-friendly
-Self check-in
+Romantic vibes
+Show More
 
 Guest Impressions
 
-Lots to do
 Ideal location
-Excellent service
+Lots to do
+Sparkling clean
 Show More
 
 Room Size
 
-≥ 20㎡
-≥ 35㎡
-≥ 60㎡
+≥ 30㎡
+≥ 40㎡
+≥ 70㎡
 
 Payment
 
@@ -140,24 +149,29 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
+Discounts
+
+Black Friday sale
+Extra Trip Coin Rewards
+
 Brands
 
-Design Hotels
-Hapimag
-ROMANTIK HOTELS
+A&O
+Adrez
+ALMANAC
 Show More
 
 Reviews
 
+500+
 200+
 100+
-50+
 
 Accessibility
 
+Assistive listening devices
 Handrails on stairs
-Pool ramp available
-Stair-free main entrance
+Handrails in hallways
 Show More
 Why book with Trip.com?
 We price match
@@ -178,169 +192,165 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Giardino Ascona
-1.2 km from city center (straight-line distance)Map
+The Mozart Prague
+Wenceslas SquareStare MestoMap
 Amazing
-45 reviews
-9.5
-Italian restaurantExcellent serviceFree spa access
-No. 7 of Family Hotels in Switzerland
+75 reviews
+9.4
+Design hotelCastle hotelRomantic vibes
+No. 3 of Scenic Hotels in Czech Republic
 No availability on or around your selected dates
 The above properties only meet some of your requirements
 You may also like:
-Seven Boutique Hotel
-1.7 km from your search (straight-line distance)Near Ascona lakesideMap
-Very good
-124 reviews
-8.8
-Delicious breakfastGreat viewsIdeal location
-Budget Double Mansard Room
-1 double bed
-Free Cancellation
-Breakfast included
-Only 1 left at this price
-€196
-€175
-Total (incl. taxes & fees): €191
-Surprise Savings
-10% off
-Check Availability
-Hotel Polo
-1.5 km from your search (straight-line distance)Near Santa Maria della MisericordiaMap
-Very good
-27 reviews
-8.7
-Delicious breakfastIdeal locationGarden
-Standard Double Room with Balcony
-1 queen bed
-€211
-Total (incl. taxes & fees): €226
-Check Availability
-La Villa - Hotel Remorino
-3.5 km from your search (straight-line distance)Minusio, MinusioMap
-Amazing
-3 reviews
-9.6
-Outdoor heated poolGarden viewCar rentals
-Double Room "La Villa"
-1 queen bed
-Free Cancellation
-Only 1 left at this price
-€425
-Total (incl. taxes & fees): €454
+Aparthotel Rimska 14
+1.6 km from your search (straight-line distance)VinohradyMap
+Great
+334 reviews
+9.3
+Free luggage storageExcellent serviceIdeal location
+Smart Garden Cabin (No 010 - 060)
+Entire unit 16㎡1 bedroom1 bed
+24-hour Cancellation Window
+Earn €6.04 in Trip Coins
+€86
+Total (incl. taxes & fees): €121
 Check Availability
 Sign in for member prices
-Hotel la Palma au Lac
-2.6 km from your search (straight-line distance)Muralto, MuraltoMap
-Amazing
-100 reviews
-9.5
-LakesideVaried breakfastIdeal location
-No. 17 of Scenic Hotels in Canton of Ticino
-Economy Room
-1 queen bed
-Breakfast included
-Earn €2.39 in Trip Coins
-€257
-€230
-Total (incl. taxes & fees): €249
-Surprise Savings
-10% off
-Check Availability
-Sunstar Hotel Brissago
-6.8 km from your search (straight-line distance)BrissagoMap
+Factory Suites
+Opened in 2026
+3.1 km from your search (straight-line distance)KarlinMap
 Great
-24 reviews
-9.1
-LakesideIndoor poolIdeal location
-No. 9 of Scenic Hotels in Canton of Ticino
-Junior Suite
-2 single beds
-Breakfast included
-Only 4 left at this price
-€357
-Total (incl. taxes & fees): €383
-Check Availability
-Sign in for member prices
-Hampton by Hilton Locarno
-2.3 km from your search (straight-line distance)Near Le Minigolf, LosoneMap
-Very good
-64 reviews
-8.6
-Delicious breakfastBarIdeal location
-Queen Room With View
-1 queen bed
-Breakfast included
-€187
-Total (incl. taxes & fees): €200
-Check Availability
-Dorint Resort & Spa Locarno Riazzino
-7.9 km from your search (straight-line distance)Near Riazzino, LocarnoMap
-Great
-114 reviews
+96 reviews
 9.2
-Free hot spring accessFree spa accessPool bar
-Standard Room
-1 double bed
-Breakfast included
-Last booked 6 hrs ago
-€224
-€201
-Total (incl. taxes & fees): €218
+Excellent serviceIdeal locationNewly opened
+Studio
+Entire apartment 20㎡1 bedroom2 beds
+24-hour Cancellation Window
+Earn €0.88 in Trip Coins
+€90
+€75
+Total (incl. taxes & fees): €88
 Surprise Savings
-10% off
+14% off
 Check Availability
-Riva Rooms & Studios - Check-in 24hr
-3.6 km from your search (straight-line distance)Minusio, MinusioMap
-Amazing
-55 reviews
-9.4
-Sparkling cleanExcellent serviceLakeside
-Double Room with Mountain View
-1 double bed or 2 single beds
-Earn €1.37 in Trip Coins
-€147
-€132
-Total (incl. taxes & fees): €147
-Surprise Savings
-10% off
-Check Availability
-Hotel City Locarno
-2.2 km from your search (straight-line distance)Near Ghisla Art Collection, LocarnoMap
-Great
-114 reviews
-9.0
-Sparkling cleanDelicious breakfastIdeal location
-Economy Double Room
-1 double bed
-Free Cancellation
-Only 4 left at this price
-€153
-€137
-Total (incl. taxes & fees): €152
-Surprise Savings
-10% off
-Check Availability
-Hotel Arcadia Locarno, a Trademark Collection by Wyndham
-2.1 km from your search (straight-line distance)LocarnoMap
+City Pop Prague Aparthotel
+Opened in 2025
+1.4 km from your search (straight-line distance)New TownMap
 Very good
-112 reviews
+145 reviews
+8.7
+Sparkling cleanIdeal locationSelf check-in
+Classic Apartment
+1 queen bed
+Earn €1.23 in Trip Coins
+€110
+Total (incl. taxes & fees): €127
+Check Availability
+The Gold Bank
+1.5 km from your search (straight-line distance)New TownMap
+Very good
+662 reviews
 8.8
-LakesideIdeal locationDelicious breakfast
-No. 2 of Scenic Hotels in Locarno
-Standard King Room - Accessible
+Varied breakfastIdeal locationBar
+Lower Ground Floor Double
+1 queen bed or 2 single beds
+Earn €1.98 in Trip Coins
+€137
+€114
+Total (incl. taxes & fees): €132
+Surprise Savings
+15% off
+Check Availability
+Hotel Caesar Prague
+790m from your search (straight-line distance)New TownMap
+Amazing
+59 reviews
+9.4
+Comfy roomsExcellent serviceIdeal location
+Standard Double or Twin Room
+1 queen bed or 2 single beds
+Earn €1.26 in Trip Coins
+€75
+Total (incl. taxes & fees): €88
+Check Availability
+Hotel Cube Prague
+580m from your search (straight-line distance)New TownMap
+Amazing
+135 reviews
+9.6
+Comfy roomsExcellent servicePrivate terrace
+No. 4 of 4-Star Select Hotels in Czech Republic
+Superior Room
+2 single beds or 1 king bed
+Breakfast included
+Earn €1.31 in Trip Coins
+€132
+€117
+Total (incl. taxes & fees): €136
+Surprise Savings
+10% off
+Check Availability
+The Botanist by Adrez
+Opened in 2025
+610m from your search (straight-line distance)Wenceslas SquareMap
+Great
+63 reviews
+9.2
+Comfy roomsIdeal locationGarden view
+Intimate Studio
 1 king bed
+Earn €1.59 in Trip Coins
+€138
+Total (incl. taxes & fees): €158
+Check Availability
+Sign in for member prices
+Monastery Garden Prague
+1 km from your search (straight-line distance)Stare MestoMap
+Great
+51 reviews
+9.1
+SpaVaried breakfastIdeal location
+Deluxe Double Room
+2 single beds or 1 king bed
+Breakfast included
+Earn €2.88 in Trip Coins
+€219
+€171
+Total (incl. taxes & fees): €196
+Special Discount
+20% off
+Check Availability
+Panorama by Verdi Hotels
+4.3 km from your search (straight-line distance)Near Central Park PankrácMap
+Very good
+205 reviews
+8.7
+Massage poolIdeal locationDelicious breakfast
+Superior King
+1 king bed
+Earn €1.49 in Trip Coins
+€133
+Total (incl. taxes & fees): €153
+Check Availability
+Sign in for member prices
+Zleep Hotel Prague
+4 km from your search (straight-line distance)Near Old Town SquareMap
+Very good
+163 reviews
+8.7
+Excellent serviceSparkling cleanIndustrial chic
+Standard Twin Room
+2 single beds
 Free Cancellation
-€316
-Total (incl. taxes & fees): €342
+Earn €0.54 in Trip Coins
+€45
+Total (incl. taxes & fees): €54
 Check Availability
 Trip.com
 >
 Hotels
 >
-Hotels in Switzerland
+Hotels in Czech Republic
 >
-Hotels in Canton of Ticino
->
-Hotels in Ascona
-Hi! TripGenie is he
+Hotels in Prague
+Hi! TripGenie is here. Chat wit

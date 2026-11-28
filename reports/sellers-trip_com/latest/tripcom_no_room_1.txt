@@ -1,4 +1,4 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=40126&provinceId=0&districtId=0&countryId=80&destName=Hotel%20Garni%20Chesa%20Mulin&searchWord=Hotel%20Garni%20Chesa%20Mulin&searchType=H&optionId=4230268&searchValue=31%7C4230268*31*4230268*1&checkin=2027-10-21&checkout=2027-10-22&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=1288&provinceId=0&districtId=0&countryId=162&destName=The%20Mozart%20Prague&searchWord=The%20Mozart%20Prague&searchType=H&optionId=748365&searchValue=31%7C748365*31*748365*1&checkin=2027-04-05&checkout=2027-04-06&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
 Go to main content
 Hotels & Homes
 Flights
@@ -10,38 +10,38 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Hotel Garni Chesa Mulin
-Thu, Oct 21
+The Mozart Prague
+Mon, Apr 5
 -
-Fri, Oct 22
+Tue, Apr 6
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Pontresina
+Popular filters for Prague
 
-Pets welcome
-Free cancellation
-Homes & apts
-Private toilet
-Breakfast included
 Hotel
-Spa
-Free parking
-Gym
-Sauna
+Breakfast included
+Black Friday sale
+Very Good 8+
+Based on guest reviews
+Free cancellation
+Private toilet
+Parking available
+1 double bed
+1 bedroom/studio
 
 Budget
 
-(€0 - €230+)
+(€0 - €350+)
 Price per room per night (excl. taxes & fees)
-€0 - €50
-€50 - €90
-€90 - €140
-€140 - €180
-€180 - €230
-> €230
+€0 - €60
+€60 - €100
+€100 - €150
+€150 - €230
+€230 - €350
+> €350
 
 Property Type
 
@@ -57,11 +57,11 @@ Star rating
 
 Location
 
-Straight-line distance from Hotel Garni Chesa Mulin
+Straight-line distance from The Mozart Prague
 No distance limit
-Pontresina
-Diavolezza
-Chamanna Segantini
+Old Town Square
+Prague 1
+Old Town
 Show More
 
 Meals
@@ -69,6 +69,7 @@ Meals
 Breakfast included
 Dinner included
 Breakfast & Dinner Included
+Show More
 
 Bed type
 
@@ -79,9 +80,9 @@ Show More
 
 Room features
 
-Entire unit
-Bed in dormitory
-Mountain view room
+Family room
+Balcony
+Suite
 Show More
 
 Number of bedrooms
@@ -99,37 +100,42 @@ Show More
 
 Property facilities & services
 
-Spa
-Pets welcome
 Parking available
+Spa
+Gym
 Show More
 
 Room facilities & services
 
 Private toilet
+Air conditioning
 Non-smoking rooms
-Kitchen
 Show More
+
+Opening/renovation time
+
+Within 1 year
+Within 2 years
 
 Property Features
 
 Great views
 Family-friendly
-Self check-in
+Romantic vibes
 Show More
 
 Guest Impressions
 
-Lots to do
 Ideal location
-Excellent service
+Lots to do
+Sparkling clean
 Show More
 
 Room Size
 
-≥ 25㎡
-≥ 35㎡
-≥ 55㎡
+≥ 30㎡
+≥ 40㎡
+≥ 70㎡
 
 Payment
 
@@ -145,25 +151,27 @@ Free cancellation
 
 Discounts
 
+Black Friday sale
 Extra Trip Coin Rewards
 
 Brands
 
-Relais & Chateaux
-Sunstar hotels
-Youth Hostel
+A&O
+Adrez
+ALMANAC
+Show More
 
 Reviews
 
+500+
+200+
 100+
-50+
-20+
 
 Accessibility
 
-Stair-free main entrance
-accessible facilities
-Accessible shower
+Assistive listening devices
+Handrails on stairs
+Handrails in hallways
 Show More
 Why book with Trip.com?
 We price match
@@ -184,182 +192,163 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Hotel Garni Chesa Mulin
-320m from city center (straight-line distance)Map
+The Mozart Prague
+Wenceslas SquareStare MestoMap
 Amazing
-40 reviews
-9.5
-Excellent serviceMountain retreatSparkling clean
+75 reviews
+9.4
+Design hotelCastle hotelRomantic vibes
+No. 3 of Scenic Hotels in Czech Republic
 No availability on or around your selected dates
 The above properties only meet some of your requirements
 You may also like:
-Sunstar Hotel Pontresina
-180m from your search (straight-line distance)Near SurovasMap
-Amazing
-57 reviews
-9.5
-SkiingBarIdeal location
-No. 19 of 4-Star Select Hotels in Canton of the Grisons
-Mountain Style Double Room
-2 single beds
-Breakfast included
-€295
-€265
-Total (incl. taxes & fees): €284
-Surprise Savings
-10% off
-Check Availability
-Hotel Saratz Pontresina
-510m from your search (straight-line distance)Near PontresinaMap
+Zleep Hotel Prague
+4 km from your search (straight-line distance)Near Old Town SquareMap
 Very good
-50 reviews
-8.9
-Comfy roomsIndoor poolIdeal location
-No. 14 of Cultural Hotels in Canton of the Grisons
-Comfort Room
-1 double bed and 1 sofa bed
+163 reviews
+8.7
+Excellent serviceSparkling cleanIndustrial chic
+Standard Twin Room
+2 single beds
 Free Cancellation
-Breakfast included
-Earn €2.88 in Trip Coins
-€278
-Total (incl. taxes & fees): €295
+Earn €0.76 in Trip Coins
+€65
+Total (incl. taxes & fees): €77
 Check Availability
-St. Moritz Youth Hostel
-4.5 km from your search (straight-line distance)Near Lake St Moritz, Saint MoritzMap
+Hotel Caesar Prague
+790m from your search (straight-line distance)New TownMap
+Amazing
+59 reviews
+9.4
+Comfy roomsExcellent serviceIdeal location
+Standard Double or Twin Room
+1 queen bed or 2 single beds
+Earn €1.00 in Trip Coins
+€87
+€60
+Total (incl. taxes & fees): €71
+Surprise Savings
+29% off
+Check Availability
+Factory Suites
+Opened in 2026
+3.1 km from your search (straight-line distance)KarlinMap
+Great
+96 reviews
+9.2
+Excellent serviceIdeal locationNewly opened
+Superior Studio
+Entire apartment 25㎡1 bedroom2 beds
+Earn €0.60 in Trip Coins
+€53
+Total (incl. taxes & fees): €64
+Check Availability
+Comfort Hotel Prague City East
+5.8 km from your search (straight-line distance)Near Malešice parkMap
+Very good
+152 reviews
+8.7
+Delicious breakfastGaming areaIdeal location
+Standard Double or Twin Room
+1 double bed or 2 single beds
+Breakfast included
+Last booked 37 mins ago
+€43
+€40
+Total (incl. taxes & fees): €49
+Special Discount
+5% off
+Check Availability
+Ibis Praha Mala Strana
+1.7 km from your search (straight-line distance)SmichovMap
+Great
+295 reviews
+9.0
+Excellent serviceSparkling cleanVaried breakfast
+Room With 2 Single Beds Equipped With The New Bedding
+2 single beds
+Last booked 18 mins ago
+€95
+Total (incl. taxes & fees): €111
+Check Availability
+City Pop Prague Aparthotel
+Opened in 2025
+1.4 km from your search (straight-line distance)New TownMap
 Very good
 145 reviews
-8.5
-Delicious breakfastIdeal locationSquash court
-Twin Room with Shared Bathroom
-2 single beds
-Breakfast included
-Last booked 13 hrs ago
-€155
-€139
-Total (incl. taxes & fees): €148
-Surprise Savings
-10% off
+8.7
+Sparkling cleanIdeal locationSelf check-in
+Classic Apartment
+1 queen bed
+Earn €0.99 in Trip Coins
+€89
+Total (incl. taxes & fees): €103
 Check Availability
-Hotel Schweizerhof, Sils Maria, a Faern Collection Hotel
-12.8 km from your search (straight-line distance)Near Sils Museum, Sils MariaMap
+Amedia Express Prag, Trademark Collection by Wyndham
+7.7 km from your search (straight-line distance)Near Monument to victims of road accidentsMap
 Very good
-62 reviews
-8.5
-Buffet breakfastsIdeal locationGaming area
-Double Room
-2 single beds
-Breakfast included
-Earn €1.51 in Trip Coins
-€197
-€146
-Total (incl. taxes & fees): €165
-Surprise Savings
-25% off
-Check Availability
-Hotel Laudinella
-5.2 km from your search (straight-line distance)Near Mini Golf, St. Moritz, Saint MoritzMap
-Very good
-8 reviews
-8.5
-SpaBuffet breakfastsFree gym
-Superior Double Room
-2 single beds
-Breakfast included
-Earn €2.89 in Trip Coins
-€392
-€279
-Total (incl. taxes & fees): €297
-Surprise Savings
-28% off
-Check Availability
-Hauser Hotel St. Moritz
-5.2 km from your search (straight-line distance)Near St. Moritz Station, Saint MoritzMap
-Amazing
 56 reviews
-9.4
-free station pick-upFree shuttle busExcellent service
-Standard Double
+8.8
+Sparkling cleanVaried breakfastBar
+Comfort Twin Room
 2 single beds
-Breakfast included
-Last booked 1 hr ago
-€291
-Total (incl. taxes & fees): €309
+Free Cancellation
+Last booked 17 hrs ago
+€50
+€46
+Total (incl. taxes & fees): €53
+Special Discount
+6% off
 Check Availability
 Sign in for member prices
-Hotel Piz St. Moritz
-5.3 km from your search (straight-line distance)Near Engadin Bikes, Saint MoritzMap
+The Gold Bank
+1.5 km from your search (straight-line distance)New TownMap
 Very good
-113 reviews
-8.5
-Italian restaurantSpaDelicious breakfast
-Deluxe Double Room
-1 double bed
-Breakfast included
-€201
-Total (incl. taxes & fees): €215
+662 reviews
+8.8
+Varied breakfastIdeal locationBar
+Economy Double Or Twin Room
+2 single beds or 1 king bed
+Earn €1.50 in Trip Coins
+€118
+€89
+Total (incl. taxes & fees): €104
+Special Discount
+22% off
 Check Availability
-Hotel Waldhaus am See
-4.4 km from your search (straight-line distance)Near St. Moritz Station, Saint MoritzMap
-Great
-137 reviews
-9.3
-LakesideFree station transfersExcellent service
-Double Room
-1 double bed
-Breakfast included
-€273
-Total (incl. taxes & fees): €290
+Prague Dream Hostel
+1 km from your search (straight-line distance)New TownMap
+Very good
+515 reviews
+8.8
+American breakfastGaming areaBarbecue
+Private Room (2 Beds) - Shared Bathroom
+2 single beds
+24-hour Cancellation Window
+Earn €0.78 in Trip Coins
+€118
+€70
+Total (incl. taxes & fees): €82
+Surprise Savings
+38% off
 Check Availability
-Edelweiss Swiss Quality Hotel
-12.6 km from your search (straight-line distance)Near Sils Museum, Sils MariaMap
-Great
-50 reviews
-9.2
-Free shuttle busFree spa accessfree station pick-up
-Economy Room
-2 single beds or 1 double bed
-Breakfast included
-Only 5 left at this price
-€267
-Total (incl. taxes & fees): €288
+Travel&Joy Backpackers
+710m from your search (straight-line distance)New TownMap
+Very good
+101 reviews
+8.1
+BarIdeal locationOn-site cooking facilities
+City Twin Room, Kitchen, Courtyard View
+Entire unit 18㎡1 bedroom2 beds
+Last booked 32 mins ago
+€29
+Total (incl. taxes & fees): €36
 Check Availability
-No additional properties available.
 Trip.com
 >
 Hotels
 >
-Hotels in Switzerland
+Hotels in Czech Republic
 >
-Hotels in Canton of the Grisons
->
-Hotels in Pontresina
-Hi! TripGenie is here. Chat with me now
-Contact us
-Customer support
-Service Guarantee
-More service info
-About
-About Trip.com
-News
-Careers
-Terms & Conditions
-Privacy Statement
-Accessibility Statement
-AI generated personalized content
-About Trip.com Group
-Other services
-Investor relations
-Trip.com Rewards
-AI Lab
-Affiliate program
-List your property
-All hotels
-Become a Supplier
-Security
-Payment methods
-Our partners
-iF Design Award 2026
-Contact Center
-of the year 2025
-Copyright © 2026 Trip.com Travel Singapore Pte. Ltd. All rights reserved
-Site Operator: Trip.com Travel Singapore Pte. Ltd.
+Hotels in Prague
+Hi! TripGenie is here. Chat with
