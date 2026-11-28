@@ -1,58 +1,57 @@
-14:02:07 engines: 1067 watched hotels with an official website
+13:17:39 engines: 1067 watched hotels with an official website
 # Sellers' own websites: probe S0
 
 ## Official websites: booking engines
 
-1067 of 1500 watched hotels have an official website in OpenStreetMap; 976 answered.
+1067 of 1500 watched hotels have an official website in OpenStreetMap; 966 answered.
 
 | engine | hotels |
 |---|---|
-| (not recognised) | 509 |
-| simplebooking | 90 |
-| synxis | 71 |
-| seekda | 62 |
-| d_edge | 32 |
-| bookingexpert | 27 |
-| vertical_booking | 23 |
+| (not recognised) | 453 |
+| simplebooking | 110 |
+| synxis | 74 |
+| seekda | 61 |
+| d_edge | 33 |
+| bookingexpert | 30 |
+| vertical_booking | 27 |
 | blastness | 17 |
+| ericsoft | 13 |
 | hotelnetsolutions | 12 |
-| ericsoft | 12 |
-| wubook | 10 |
-| feratel | 8 |
-| bookassist | 8 |
-| octorate | 8 |
-| krossbooking | 8 |
+| wubook | 11 |
+| krossbooking | 11 |
+| octorate | 11 |
+| feratel | 9 |
+| bookassist | 9 |
+| easybooking | 8 |
+| casablanca | 8 |
 | scidoo | 8 |
-| easybooking | 7 |
-| casablanca | 7 |
+| siteminder | 7 |
 | dirs21 | 7 |
 | mews | 7 |
-| siteminder | 6 |
 | reservit | 6 |
 | passepartout | 5 |
+| iperbooking | 5 |
 | capcorn | 4 |
 | zimres | 4 |
-| iperbooking | 4 |
 | cloudbeds | 3 |
+| slope | 3 |
 | smoobu | 2 |
-| slope | 2 |
+| bedzzle | 2 |
 | mirai | 2 |
 | gastrodat | 1 |
 | reconline | 1 |
 | apaleo | 1 |
-| bedzzle | 1 |
 | profitroom | 1 |
 
 Booking links on other sites, engine not recognised (candidates to add to the settings):
 
-- secure-reservation.cloud: 7
+- secure-reservation.cloud: 10
+- book2.nozio.com: 4
 - booking.ireservation.it: 3
-- book2.nozio.com: 3
 - hospitality-guest.teamsystem.cloud: 3
 - secure.bookingevolution.com: 2
 - bookingsuedtirol.com: 2
 - reservations.fontanellestate.com: 2
-- vio.com: 1
 - fideliobooking.at: 1
 - at_kh_0027.officialbookings.com: 1
 - kaernten.at: 1
@@ -85,6 +84,7 @@ Booking links on other sites, engine not recognised (candidates to add to the se
 - book.praetschli.ch: 1
 - booking.schluessel-beckenried.ch: 1
 - spa.parkhotel-vitznau.ch: 1
+- bookings.balances.ch: 1
 
-Sites not answering 200: 403 x46, 503 x12, error: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1011) x7, error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:  x7, 404 x5, error: timed out x3, error: [Errno -2] Name or service not known x3, 410 x1
+Sites not answering 200: 403 x47, 503 x12, error: [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1011) x7, error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:  x6, error: timed out x6, 404 x5, error: [Errno 101] Network is unreachable x5, 202 x3
 

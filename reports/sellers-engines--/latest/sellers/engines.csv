@@ -1,5 +1,5 @@
 pid,name,country,website,status,engine,evidence,booking_link,booking_host,pages
-ta:g608661-d1371831,Pension St. Georg,AT,https://deals.vio.com/?sig=73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233&turl=https://www.vio.com/Hotel/Search?hotelId%3D22689941%26utm_source%3Dgha-vr%26utm_campaign%3Dstatic%26openHotelDetails%3D1&sa=X&ved=2ahUKEwiZg6WYh5-YAxWkki0JHaRcDUsQyK4DegUIAxCYAQ,200,,,https://www.vio.com/Hotel/22689941/en-GB?is_retargeting=true&amp;openHotelDetails=1&amp;pid=click-tracker&amp;sa=X&amp;utm_campaign=static&amp;utm_source=gha-vr&amp;vclid=8d80e5d1-e8f3-4cdc-86a5-da1eb9783fb4&amp;ved=2ahUKEwiZg6WYh5-YAxWkki0JHaRcDUsQyK4DegUIAxCYAQ&amp;vtm_src=gha-vr&amp;srpSearchFlow,vio.com,2
+ta:g608661-d1371831,Pension St. Georg,AT,https://deals.vio.com/?sig=73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233&turl=https://www.vio.com/Hotel/Search?hotelId%3D22689941%26utm_source%3Dgha-vr%26utm_campaign%3Dstatic%26openHotelDetails%3D1&sa=X&ved=2ahUKEwiZg6WYh5-YAxWkki0JHaRcDUsQyK4DegUIAxCYAQ,202,,,,,1
 ta:g651667-d1765617,Natuerlich. Hotel mit Charakter,AT,http://www.hotel-fiss-serfaus-ladis.at/?sa=X&ved=2ahUKEwiczOu6h5-YAxUsWKsCHS3mBaYQyK4DegUIAxD7Ag,200,feratel,deskline,https://www.hotel-fiss-serfaus-ladis.at/anfragen-hotel-sommer/,hotel-fiss-serfaus-ladis.at,3
 ta:g651663-d667324,das Moser - Hotel Garni am See,AT,https://www.das-moser.at/,200,easybooking,easy-booking.at,https://das-moser.at/anfrage/,das-moser.at,2
 ta:g641727-d577737,Barry Memle Lakeside Resort,AT,https://www.barry.at/,200,,,https://www.barry.at/anfrage-reservierung_D.php?anfrage_reservierung=anfragen,barry.at,3
@@ -34,7 +34,7 @@ ta:g667020-d1236658,Hotel Schwaigerhof,AT,https://www.schwaigerhof.at,200,hoteln
 ta:g229452-d1222305,Hotel die Barbara,AT,https://diebarbara.at/,200,,,https://buchen.diebarbara.at/Websline-ABM/Homepage/Booking/Preset?CodeHash=54-3f0f25cae965a7749ad34f4d6cc7e615d6af48af,buchen.diebarbara.at,3
 ta:g808084-d1208311,Natur und Wellnesshotel Hoeflehner,AT,https://www.hoeflehner.com/,200,,,https://urlaub.hoeflehner.com/websLINE-ABM/Homepage/Booking/Preset?TenantId=1-69abeabc288a70ba37bc815682a995991cea1505,urlaub.hoeflehner.com,3
 ta:g808084-d2560714,Bliem's Familienhotel,AT,https://www.bliems-familienhotel.at,200,,,https://booking.bliems-familienhotel.at/websLINE-ABM/Homepage/Booking/Index/en,booking.bliems-familienhotel.at,2
-ta:g658282-d2480709,Hotel Annelies,AT,https://www.hotel-annelies.at/,200,,,,,1
+ta:g658282-d2480709,Hotel Annelies,AT,https://www.hotel-annelies.at/,200,,,https://www.hotel-annelies.at/buchungsseite/,hotel-annelies.at,3
 ta:g608661-d575343,Der Kapruner Hof,AT,https://www.kaprunerhof.at,200,seekda,seekda,https://booking.kaprunerhof.at,booking.kaprunerhof.at,2
 ta:g608661-d10533258,AlpenParks Hotel & Apartment Orgler Kaprun,AT,https://www.alpenparks.at/de/hotel-apartment-orgler-kaprun/,200,seekda,seekda,https://booking-hotel-apartment-orgler-kaprun.alpenparks.at?skd-language-code=de,booking-hotel-apartment-orgler-kaprun.alpenparks.at,1
 ta:g608666-d647276,POP-UP Living Zell am See,AT,https://www.kinderhotelzellamsee.at,200,seekda,seekda,https://booking.mavida.at,booking.mavida.at,2
@@ -88,7 +88,7 @@ ta:g1101280-d1730915,Hotel Stadler,AT,https://www.seegasthof-stadler.at,200,capc
 ta:g190441-d253252,Hotel Sacher Salzburg,AT,https://www.sacher.com/de/salzburg/,200,synxis,synxis.com,https://reservations.salzburg.sacher.com/?Hotel=6724&#038;Chain=24447&#038;locale=de-DE&#038;adult=2,reservations.salzburg.sacher.com,2
 ta:g190441-d228064,Hotel  Bristol Salzburg,AT,https://www.bristol-salzburg.at,200,seekda,seekda,https://booking.bristol-salzburg.at/,booking.bristol-salzburg.at,2
 ta:g1749064-d3536209,Hotel Muhr,AT,https://www.hotel-muhr.at,200,,,https://buchen.hotel-muhr.at/websLINE-ABM/Homepage/Booking/Preset,buchen.hotel-muhr.at,3
-ta:g644054-d3748473,Alpeiner Nature Resort,AT,https://www.alpeiner.at/,200,seekda,seekda,https://booking.alpeiner.at/,booking.alpeiner.at,1
+ta:g644054-d3748473,Alpeiner Nature Resort,AT,https://www.alpeiner.at/,500,,,,,1
 ta:g644054-d1500915,Biohotel Rastbichlhof,AT,https://www.rastbichlhof.at/,200,,,https://rastbichlhof.at/kontakt/unverbindlich-anfragen,rastbichlhof.at,3
 ta:g644054-d1108350,Alpenhotel Tirolerhof,AT,https://alpenhotel-tirolerhof.com/,200,casablanca,casablanca.at,https://booking.alpenhotel-tirolerhof.com/,booking.alpenhotel-tirolerhof.com,1
 ta:g644054-d500767,Hotel Der Stubaierhof,AT,https://www.der-stubaierhof.com/,200,seekda,seekda,https://der-stubaierhof.officialbookings.com/,der-stubaierhof.officialbookings.com,2
@@ -103,11 +103,11 @@ ta:g641768-d292031,Wellness & Kuschelhotel Winzer,AT,https://www.hotel-winzer.at
 ta:g608679-d1143015,Hotel Das Central,AT,https://www.central-soelden.com/,200,seekda,seekda,https://booking.central-soelden.com?skd-language-code=DE,booking.central-soelden.com,2
 ta:g608679-d659782,Bergland Design and Wellness Hotel Sölden,AT,http://www.bergland-soelden.at/,200,seekda,seekda,https://booking.bergland-soelden.at/?skd-language-code=en,booking.bergland-soelden.at,2
 ta:g616044-d583396,Posthotel Achenkirch,AT,https://www.posthotel.at/,200,,,,,1
-ta:g1196910-d2231250,Hotel Kleissl,AT,https://www.kleissl.at/,200,,,https://www.kleissl.at/de/nc/de/anfragen-buchen/,kleissl.at,2
+ta:g1196910-d2231250,Hotel Kleissl,AT,https://www.kleissl.at/,200,,,https://www.kleissl.at/de/nc/anfragen-buchen/,kleissl.at,2
 ta:g660756-d1373883,Reduce Hotel Vital,AT,https://www.reduce.at/reduce-vital/,200,,,https://reservierung-vital.reduce.at/websLINE-ABM/Homepage/Booking,reservierung-vital.reduce.at,3
 ta:g660756-d1184847,Reduce Hotel Thermal,AT,https://www.reduce.at/reduce-thermal/,200,,,https://reservierung-thermal.reduce.at/websLINE-ABM/Homepage/Booking,reservierung-thermal.reduce.at,3
 ta:g1055481-d599886,Naturhotel Waldklause,AT,http://www.waldklause.at/?sa=X&ved=2ahUKEwih2YTHjp-YAxW4UKsCHYfiLHEQyK4DegUIAxD7Ag,200,seekda,seekda,https://booking.waldklause.at/,booking.waldklause.at,2
-ta:g319732-d1140276,Hotel Princess Bergfrieden,AT,https://www.oasisresorts.de/princessbergfrieden,410,,,,,1
+ta:g319732-d1140276,Hotel Princess Bergfrieden,AT,https://www.oasisresorts.de/princessbergfrieden,202,,,,,1
 ta:g319732-d500477,Hotel Alte Schmiede,AT,https://www.hotel-alte-schmiede.at/,200,seekda,seekda,https://booking.hotel-alte-schmiede.at/room/AP_TOP4,booking.hotel-alte-schmiede.at,2
 ta:g319732-d500144,Hotel Central,AT,https://www.central-seefeld.at/,200,seekda,seekda,https://booking.central-seefeld.com/,booking.central-seefeld.com,1
 ta:g319732-d646259,Parkhotel Seefeld,AT,https://www.parkhotel-seefeld.at/,200,seekda,seekda,https://booking.parkhotel-seefeld.at/,booking.parkhotel-seefeld.at,1
@@ -157,17 +157,17 @@ ta:g262035-d657387,Hotel Kristberg,AT,https://www.hotel-kristberg.at/,200,,,http
 ta:g262035-d1734862,Hotel Garni Schneider,AT,https://schneider-lech.at/,200,easybooking,easy-booking.at,https://www.schneider-lech.at/anfrage/,schneider-lech.at,2
 ta:g262035-d315708,Der Berghof,AT,https://www.derberghof.at/,200,seekda,seekda,https://bookings.derberghof.at,bookings.derberghof.at,1
 ta:g262035-d316306,Hotel Gotthard,AT,https://www.gotthard.at/,200,seekda,seekda,https://book.gotthard.at/,book.gotthard.at,2
-ta:g262035-d563372,Hotel Theodul,AT,http://www.theodul.at/,200,seekda,seekda,https://book.gotthard.at/,book.gotthard.at,2
+ta:g262035-d563372,Hotel Theodul,AT,http://www.theodul.at/,error: timed out,,,,,1
 ta:g262035-d620774,Panorama Hotel,AT,https://www.hotel-panorama.at/,200,,,https://www.hotel-panorama.at/anfragen,hotel-panorama.at,3
 ta:g262035-d263524,Hotel Arlberg Lech,AT,https://www.arlberghotel.at/,200,seekda,seekda,https://s000058.officialbookings.com/?activeBookingEngine=KBE&propertyCode=S000058,s000058.officialbookings.com,2
 ta:g262035-d316316,Hotel Jagdhaus Monzabon,AT,https://www.monzabon.at/,200,,,https://www.monzabon.at/anfragen,monzabon.at,3
 ta:g262035-d316322,Hotel Sandhof,AT,https://www.sandhof.at/,200,,,https://www.sandhof.at/anfrageformular,sandhof.at,2
 ta:g262035-d282368,Hotel Haldenhof,AT,https://www.haldenhof.at/,200,,,https://booking.haldenhof.at/websLINE-ABM/homepage/booking/index/de,booking.haldenhof.at,3
-ta:g262035-d850390,Hotel Austria Lech,AT,https://www.hotelaustria.com/,200,,,,,1
-ta:g262035-d1587293,Hotel Antonius Lech am Arlberg,AT,https://www.antonius.at/,200,,,,,1
+ta:g262035-d850390,Hotel Austria Lech,AT,https://www.hotelaustria.com/,200,seekda,seekda,https://booking.hotelaustria.com/,booking.hotelaustria.com,2
+ta:g262035-d1587293,Hotel Antonius Lech am Arlberg,AT,https://www.antonius.at/,200,feratel,deskline,https://www.antonius.at/de/buchen/,antonius.at,3
 ta:g262035-d1605341,Hotel Auenhof,AT,https://www.auenhof.com/,200,,,,,1
 ta:g262035-d291954,Burg Vital Resort,AT,http://www.burgvitalhotel.at/,503,,,,,1
-ta:g262035-d1228068,Hotel Mohnenfluh,AT,https://www.mohnenfluh.com/,200,,,,,1
+ta:g262035-d1228068,Hotel Mohnenfluh,AT,https://www.mohnenfluh.com/,200,casablanca,casablanca.at,https://www.mohnenfluh.com/online-buchen?casapackage=PMS_YPNRTUOM,mohnenfluh.com,2
 ta:g1197017-d25185293,Alpenhotel Heimspitze,AT,https://heimspitze.com/,200,seekda,seekda,https://booking.heimspitze.com/,booking.heimspitze.com,2
 ta:g670762-d234520,Oberjoch - Familux Resort,AT,https://www.oberjochresort.de/,200,,,https://oberjoch-familux.samera.one?language=de,oberjoch-familux.samera.one,3
 ta:g1195534-d1195537,Vila Vita Pannonia,AT,https://www.vilavitapannonia.at/,200,synxis,travelclick,https://bookings.travelclick.com/107183?hotelId=107183&amp;&amp;LanguageID=7#/guestsandrooms,bookings.travelclick.com,1
@@ -197,17 +197,17 @@ ta:g807869-d1059933,Damülser Hof - Wellness & Spa,AT,https://www.damuelserhof.a
 ta:g1498253-d1229345,Sonne Mellau,AT,https://sonnemellau.com/,200,casablanca,casablanca.at,https://bookingengine.casablanca.at/de/14a10f44-f042-4993-9c32-c074d62ac1b3/sonne-mellau?numberOfRooms=1,bookingengine.casablanca.at,1
 ta:g580360-d8127631,Guarda Lodge,CH,http://www.guardalodge.ch/?sa=X&ved=2ahUKEwj3mNy_jKCYAxWdHtQBHY2LBi4QyK4DegUIAxCJAw,200,dirs21,dirs21,https://v4.ibe.dirs21.de/Channels/guardalodgech/?in_tab=true,v4.ibe.dirs21.de,1
 ta:g198832-d253630,Hotel Garni Chesa Mulin,CH,http://www.chesa-mulin.ch/?sa=X&ved=2ahUKEwj0z8zUjKCYAxUPPNQBHaQvHWEQyK4DegUIAxC9Aw,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/4342?lang=EN&amp;cur=CHF,simplebooking.it,1
-ta:g198832-d236315,Grand Hotel Kronenhof,CH,https://www.kronenhof.com/,200,synxis,synxis.com,https://reservations.kronenhof.com/?adult=2&arrive=2026-11-28&chain=10205&child=0&currency=CHF&depart=2026-11-30&hotel=6058&level=hotel&locale=en-US&nocache=true&rooms=1,reservations.kronenhof.com,2
+ta:g198832-d236315,Grand Hotel Kronenhof,CH,https://www.kronenhof.com/,200,synxis,synxis.com,https://reservations.kronenhof.com/?adult=2&arrive=2026-11-29&chain=10205&child=0&currency=CHF&depart=2026-12-01&hotel=6058&level=hotel&locale=en-US&nocache=true&rooms=1,reservations.kronenhof.com,2
 ta:g656889-d503428,Hotel Castell,CH,https://castellzuoz.com/,200,,,,,1
 ta:g188088-d228245,Hotel Chesa Rosatsch - Home of Food,CH,https://www.rosatsch.ch/,200,mews,mews.com/distributor,https://api.mews.com/distributor/737d727f-118c-4b61-a594-adce00627457,api.mews.com,1
 ta:g198833-d620985,Hotel Donatz,CH,http://www.hoteldonatz.ch/?sa=X&ved=2ahUKEwiuweH1jKCYAxWQEtQBHTuOJ3cQyK4DegUIAxCQBA,200,simplebooking,simplebooking.it,,,1
 ta:g188088-d244788,Cresta Palace Celerina,CH,https://www.crestapalace.ch/,200,,,,,1
 ta:g188091-d206213,Badrutt's Palace Hotel St.Moritz,CH,https://www.badruttspalace.com/,200,,,,,1
-ta:g188091-d233005,Kulm Hotel,CH,https://kulm.com,200,synxis,synxis.com,https://be.synxis.com/?adult=2&arrive=2026-11-28&chain=24447&child=0&currency=CHF&depart=2026-11-30&hotel=6921&level=hotel&locale=en-US&nocache=true&rooms=1,be.synxis.com,1
+ta:g188091-d233005,Kulm Hotel,CH,https://kulm.com,200,synxis,synxis.com,https://be.synxis.com/?adult=2&arrive=2026-11-29&chain=24447&child=0&currency=CHF&depart=2026-12-01&hotel=6921&level=hotel&locale=en-US&nocache=true&rooms=1,be.synxis.com,1
 ta:g188091-d196851,Suvretta House,CH,https://www.suvrettahouse.ch/,200,synxis,synxis.com,,,1
 ta:g188091-d2332172,Hotel Giardino Mountain,CH,https://giardinohotels.ch/st-moritz/?sa=X&ved=2ahUKEwjzxp6qjaCYAxUPpgMAHaDBOGQQyK4DegUIAxDCBA,200,synxis,synxis.com,https://be.synxis.com/?_ga=2.104449024.1061988142.1738256911-1716906712.1738256911&amp;_gac=1.120552954.1738360723.Cj0KCQiAhvK8BhDfARIsABsPy4gGYmSbWRfcrrWp1aUQ2gZqdSE862pXPAcJo0wMHGHBJKYf3P11aCMaAqb6EALw_wcB&amp;_gl=1*lesi04*_gcl_aw*R0NMLjE3MzgzNjA3MjQuQ2owS0NRaUFodks4QmhEZkFSSXNBQnNQeTRnR1ltU2JXUmZ,be.synxis.com,1
 ta:g198834-d233004,Hotel Waldhaus,CH,https://waldhaus-sils.ch/,200,,,https://booking.waldhaus-sils.ch/waldhaus-sils,booking.waldhaus-sils.ch,3
-ta:g198834-d236354,Parkhotel Margna,CH,https://www.margna.ch/,200,,,,,1
+ta:g198834-d236354,Parkhotel Margna,CH,https://www.margna.ch/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5715?lang=DE&amp;cur=CHF,simplebooking.it,1
 ta:g188090-d290100,Waldhotel Davos for Body & Soul,CH,https://www.waldhotel-davos.ch/,200,simplebooking,simplebooking.it,https://guest.foratable.com/restaurants/019e68a61fcf72d4ba4dd5136d4620ef?embed=inline,guest.foratable.com,1
 ta:g188087-d266531,Hotel Hohe Promenade,CH,http://www.hohe-promenade.ch/?sa=X&ved=2ahUKEwjkouPnjaCYAxUmPNQBHfvPHlEQyK4DegUIAxD5Ag,200,,,,,1
 ta:g188087-d632738,BelArosa Hotel,CH,https://www.belarosa.ch/,200,hotelnetsolutions,hotelnetsolutions,https://www.cbooking.de/v4/booking.aspx?id=belarosa&amp;module=public&amp;lang=en,onepagebooking.com,2
@@ -221,41 +221,41 @@ ta:g188095-d228201,Luganodante Boutique & Lifestyle Hotel,CH,https://www.hotel-l
 ta:g664160-d254104,Boutique-Hotel Remorino,CH,https://www.remorino.ch/,200,synxis,synxis.com,https://be.synxis.com/?chain=5375&amp;hotel=74897&amp;locale=it-IT&amp;guestemail=REMORINO&amp;adult=2&amp;_ga=2.13404862.888918030.1775806640-134268614.1775806640&amp;_gl=1*1x1wmnm*_ga*MTM0MjY4NjE0LjE3NzU4MDY2NDA.*_ga_K0LEJ163B6*czE3NzU4MDY2NDAkbzEkZzEkdDE3NzU4MDgzNTkkajYwJGwwJGgw,be.synxis.com,1
 ta:g198865-d234214,Castello del Sole Beach Resort & SPA,CH,https://www.castellodelsole.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/4556?lang=EN,simplebooking.it,1
 ta:g198865-d231846,Giardino Ascona,CH,https://www.giardino-ascona.ch/,200,synxis,synxis.com,https://be.synxis.com/?_ga=2.264618191.1946620487.1737823753-945747624.1737823753&amp;_gac=1.189891033.1737823753.CjwKCAiAtNK8BhBBEiwA8wVt9w6uVHD8PtXiYgyXS7an3kEesNtOBl64lLkEShAyk8ZbeDh3dUyyHRoCsBIQAvD_BwE&amp;_gl=1*d99cqr*_gcl_aw*R0NMLjE3Mzc4MjM3NjAuQ2p3S0NBaUF0Tks4QmhCQkVpd0E4d1Z0OXc2dVZIRDhQdFhpW,be.synxis.com,1
-ta:g188068-d228151,Einstein St. Gallen,CH,https://www.einstein.ch/,200,,,,,1
-ta:g580344-d637840,Märchenhotel,CH,https://www.maerchenhotel.ch/,200,,,,,1
-ta:g580355-d1234359,Rivabella au Lac,CH,http://www.rivabellaaulac.ch/?sa=X&ved=2ahUKEwjqk_mPj6CYAxVFGWgBHWQAJHMQyK4DegUIAxD9Ag,200,,,,,1
+ta:g188068-d228151,Einstein St. Gallen,CH,https://www.einstein.ch/,200,synxis,synxis.com,https://www.einstein.ch/en/eating-drinking/book-a-table,einstein.ch,1
+ta:g580344-d637840,Märchenhotel,CH,https://www.maerchenhotel.ch/,200,simplebooking,simplebooking.it,https://maerchenhotel.simplebooking.it/ibe2/hotel/5748?cur=CHF&amp;lang=DE&lang=DE,maerchenhotel.simplebooking.it,1
+ta:g580355-d1234359,Rivabella au Lac,CH,http://www.rivabellaaulac.ch/?sa=X&ved=2ahUKEwjqk_mPj6CYAxVFGWgBHWQAJHMQyK4DegUIAxD9Ag,error: [Errno 101] Network is unreachable,,,,,1
 ta:g198795-d4608234,The Chedi Andermatt,CH,https://www.thechediandermatt.com/de,403,,,,,1
 ta:g635894-d1006394,Boutique Hotel Schlüssel,CH,https://www.schluessel-beckenried.ch,200,,,https://booking.schluessel-beckenried.ch/de/rates?where=BHS&amp;view=cards,booking.schluessel-beckenried.ch,2
 ta:g198861-d233224,Park Hotel Vitznau,CH,https://www.parkhotel-vitznau.ch/,200,,,https://spa.parkhotel-vitznau.ch/,spa.parkhotel-vitznau.ch,3
 ta:g188113-d196061,The Dolder Grand,CH,https://www.thedoldergrand.com/,200,,,https://www.thedoldergrand.com/reservation/,thedoldergrand.com,3
-ta:g1190193-d10826651,The Onya Resort & Spa,CH,http://www.onya.ch/?sa=X&ved=2ahUKEwjxmN3hj6CYAxWGImgBHTWrMC4QyK4DegUIAxCUBA,200,,,,,1
+ta:g1190193-d10826651,The Onya Resort & Spa,CH,http://www.onya.ch/?sa=X&ved=2ahUKEwjxmN3hj6CYAxWGImgBHTWrMC4QyK4DegUIAxCUBA,error: [Errno 101] Network is unreachable,,,,,1
 ta:g188113-d483104,Park Hyatt Zurich,CH,https://www.hyatt.com/en-US/hotel/switzerland/park-hyatt-zurich/zurph,403,,,,,1
 ta:g188113-d12105934,25hours Hotel Zurich Langstrasse,CH,https://www.25hours-hotels.com/hotels/zuerich/langstrasse,200,,,,,1
-ta:g188064-d206049,Art Deco Hotel Montana,CH,https://www.hotel-montana.ch/,200,,,,,1
-ta:g188064-d206048,Hotel des Balances,CH,https://www.balances.ch/,200,,,,,1
+ta:g188064-d206049,Art Deco Hotel Montana,CH,https://www.hotel-montana.ch/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=4270&amp;lang=DE#/,simplebooking.it,1
+ta:g188064-d206048,Hotel des Balances,CH,https://www.balances.ch/,200,,,https://bookings.balances.ch/des-balances,bookings.balances.ch,2
 ta:g1025600-d290126,Wellness & Spa Pirmin Zurbriggen,CH,https://www.wellnesshotel-zurbriggen.ch/en/,200,,,https://www.wellnesshotel-zurbriggen.ch/en/rooms-prices/room-availability/,wellnesshotel-zurbriggen.ch,3
-ta:g188080-d236385,Hotel Gletschergarten,CH,http://www.hotel-gletschergarten.ch/?sa=X&ved=2ahUKEwjv387E-qCYAxVsN_kAHUB5IPYQyK4DegUIAxCcBA,200,,,,,1
-ta:g188080-d24981975,Hotel Fiescherblick,CH,https://www.hotel-fiescherblick.ch/?sa=X&ved=2ahUKEwiLtMnN-qCYAxWfBvkAHeD0CRQQyK4DegUIAxCVAw,200,,,,,1
+ta:g188080-d236385,Hotel Gletschergarten,CH,http://www.hotel-gletschergarten.ch/?sa=X&ved=2ahUKEwjv387E-qCYAxVsN_kAHUB5IPYQyK4DegUIAxCcBA,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=6574&#038;lang=de,simplebooking.it,1
+ta:g188080-d24981975,Hotel Fiescherblick,CH,https://www.hotel-fiescherblick.ch/?sa=X&ved=2ahUKEwiLtMnN-qCYAxWfBvkAHeD0CRQQyK4DegUIAxCVAw,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=8349&#038;lang=de,simplebooking.it,1
 ta:g198839-d1179800,Hotel Etoile,CH,https://www.hotel-etoile.ch/?sa=X&ved=2ahUKEwi29YHq-qCYAxVLIvkAHUnNMScQyK4DegUIAxCKAw,200,cloudbeds,cloudbeds.com,https://us2.cloudbeds.com/de/reservation/yNHFs2?currency=chf,us2.cloudbeds.com,1
-ta:g198839-d646572,Hotel Allalin,CH,https://www.allalin.ch/,200,,,,,1
-ta:g198839-d199008,Park Hotel,CH,http://www.parkhotel-saas-fee.ch/?sa=X&ved=2ahUKEwjW9uyH-6CYAxV2B_kAHQhPDv0QyK4DegUIAxDoAg,200,,,,,1
+ta:g198839-d646572,Hotel Allalin,CH,https://www.allalin.ch/,200,simplebooking,simplebooking.it,https://allalin.ch/booking/,allalin.ch,1
+ta:g198839-d199008,Park Hotel,CH,http://www.parkhotel-saas-fee.ch/?sa=X&ved=2ahUKEwjW9uyH-6CYAxV2B_kAHQhPDv0QyK4DegUIAxDoAg,200,easybooking,easy-booking.at,https://www.parkhotel-saas-fee.ch/en/online-buchen,parkhotel-saas-fee.ch,2
 ta:g198839-d244809,The Capra,CH,https://www.capra.ch/?sa=X&ved=2ahUKEwier_Cd-6CYAxXYO_kAHYXPLtMQyK4DegUIAxC8BQ,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/9201?lang=EN&cur=CHF,simplebooking.it,1
 ta:g188080-d253751,Hotel Belvedere Grindelwald,CH,https://www.belvedere-grindelwald.ch/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/6812?lang=EN,simplebooking.it,1
 ta:g198839-d267880,Elite Alpine Lodge,CH,http://www.elite-saas-fee.ch/?sa=X&ved=2ahUKEwi8gqSr-6CYAxWRPvkAHRwGKhoQyK4DegUIAxDvAg,200,easybooking,easy-booking.at,https://www.elite-saas-fee.ch/Booking,elite-saas-fee.ch,2
-ta:g188098-d1582687,CERVO Mountain Resort,CH,https://www.cervo.ch,200,,,,,1
-ta:g188098-d1163050,Christiania Mountain & Spa,CH,https://www.christiania-zermatt.com/,200,,,,,1
-ta:g188098-d230196,Hotel Metropol & Spa Zermatt,CH,https://www.metropol-zermatt.ch/,200,reconline,reconline.com,http://www.reconline.com/ibe/reco/directsearch?idhotel=30014&amp;bs=30003&amp;checkin=27.11.2026&amp;checkout=28.11.2026&amp;dateformat=dd.MM.yyyy&amp;numrooms=1&amp;adults=2&amp;children=0&amp;ratecode=Z3920,reconline.com,1
+ta:g188098-d1582687,CERVO Mountain Resort,CH,https://www.cervo.ch,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/portal?pid=50&lang=en&tid=44,simplebooking.it,1
+ta:g188098-d1163050,Christiania Mountain & Spa,CH,https://www.christiania-zermatt.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5030?lang=en&cur=CHF,simplebooking.it,1
+ta:g188098-d230196,Hotel Metropol & Spa Zermatt,CH,https://www.metropol-zermatt.ch/,200,reconline,reconline.com,http://www.reconline.com/ibe/reco/directsearch?idhotel=30014&amp;bs=30003&amp;checkin=28.11.2026&amp;checkout=29.11.2026&amp;dateformat=dd.MM.yyyy&amp;numrooms=1&amp;adults=2&amp;children=0&amp;ratecode=Z3920,reconline.com,1
 ta:g188098-d236181,Europe Hotel & Spa,CH,http://www.europe-zermatt.ch/?sa=X&ved=2ahUKEwjs8N-B_KCYAxXGAPkAHWKsMckQyK4DegUIAxDuAg,200,simplebooking,simplebooking.it,,,1
 ta:g188098-d561189,Hotel Eden Wellness,CH,https://hotel-eden.ch/home/?sa=X&ved=2ahUKEwiE87yX_KCYAxWuBDoGHVQXLhcQyK4DegUIAxDwAg,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=8912&amp;lang=DE,simplebooking.it,1
 ta:g188098-d238057,Schloss  Zermatt,CH,https://www.schlosszermatt.swiss/?sa=X&ved=2ahUKEwjdxJGt_KCYAxUSP_kAHdD3Gn0QyK4DegUIAxDWBA,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/9035?lang=EN&cur=CHF,simplebooking.it,1
-ta:g188098-d278486,Hotel Bellerive,CH,http://www.bellerive-zermatt.ch/?sa=X&ved=2ahUKEwjiloy2_KCYAxVRGfkAHad7G-AQyK4DegUIAxCBAw,200,,,,,1
+ta:g188098-d278486,Hotel Bellerive,CH,http://www.bellerive-zermatt.ch/?sa=X&ved=2ahUKEwjiloy2_KCYAxVRGfkAHad7G-AQyK4DegUIAxCBAw,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/3220?lang=en,simplebooking.it,1
 ta:g188098-d576872,Hotel Chesa Valese,CH,http://www.sisterszermatt.ch/?sa=X&ved=2ahUKEwit1eHS_KCYAxVtBToGHfqxGRwQyK4DegUIAxDeAw,200,,,,,1
 ta:g188098-d1237798,Hotel Firefly,CH,https://www.firefly-zermatt.ch/?sa=X&ved=2ahUKEwizhJnf_KCYAxVzPfkAHXEVEakQyK4DegUIAxCBAw,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=9357&lang=de,simplebooking.it,1
-ta:g188098-d196832,Grand Hotel Zermatterhof,CH,https://zermatterhof.ch/,200,,,,,1
+ta:g188098-d196832,Grand Hotel Zermatterhof,CH,https://zermatterhof.ch/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/7311/?hid=7311&lang=DE&_ga=2.44617828.1399126582.1642423008-1890622617.1637920894&cur=CHF,simplebooking.it,1
 ta:g188098-d236182,Hotel Monte Rosa,CH,https://www.monterosazermatt.ch/,200,,,,,1
 ta:g188098-d619925,The Omnia,CH,http://www.the-omnia.com/?sa=X&ved=2ahUKEwjdkrGV_aCYAxVaE_kAHYc2IXoQyK4DegUIAxCLBQ,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5293?lang=EN&amp;cur=CHF,simplebooking.it,1
-ta:g188098-d1107788,Matterhorn FOCUS Design Hotel,CH,https://www.matterhorn-focus.ch/,200,,,,,1
-ta:g188098-d264708,Hotel Sonne,CH,http://www.sonnezermatt.ch/?sa=X&ved=2ahUKEwi3xNK0_aCYAxWfBvkAHeD0CRQQyK4DegUIAxD9Ag,200,,,,,1
+ta:g188098-d1107788,Matterhorn FOCUS Design Hotel,CH,https://www.matterhorn-focus.ch/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/search?hid=3559&lang=EN,simplebooking.it,1
+ta:g188098-d264708,Hotel Sonne,CH,http://www.sonnezermatt.ch/?sa=X&ved=2ahUKEwi3xNK0_aCYAxWfBvkAHeD0CRQQyK4DegUIAxD9Ag,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/7520?lang=en&cur=CHF,simplebooking.it,1
 ta:g188098-d266043,Coeur des Alpes,CH,https://coeurdesalpes.ch/?sa=X&ved=2ahUKEwidqqnK_aCYAxXHFvkAHe6-DCgQyK4DegUIAxD-Ag,200,,,,,1
 ta:g188098-d498083,Silvana Mountain Hotel,CH,http://www.hotelsilvana.ch/?sa=X&ved=2ahUKEwj_teff_aCYAxVhCPkAHbQNFOcQyK4DegUIAxD5Ag,200,,,https://hotelsilvana.ch/en,hotelsilvana.ch,2
 ta:g199033-d1500234,Hotel Zeit & Traum,CH,http://www.zeithotel.ch/?sa=X&ved=2ahUKEwjw7er5_aCYAxX0PPkAHa40A-oQyK4DegUIAxCrAw,200,,,https://booking.viatocrs.de/idx?pr=RtZeFmpOdzs5&amp;ro,booking.viatocrs.de,3
@@ -265,9 +265,9 @@ ta:g580350-d278510,Lenkerhof Gourmet Spa Resort,CH,https://www.lenkerhof.ch,200,
 ta:g580350-d1233030,Lenk Lodge,CH,http://www.lenklodge.ch/?sa=X&ved=2ahUKEwit34a1_qCYAxVpB_kAHbk9BbQQyK4DegUIAxCmAg,200,mews,mews.com/distributor,https://app.mews.com/distributor/af81d5fe-9f0c-478e-9d0e-b20b0089f81c,app.mews.com,1
 ta:g188052-d236358,Bellevue Palace,CH,https://www.bellevue-palace.ch/,200,,,https://www.bellevue-palace.ch/de/booking/?page=1&hotel_id=801&lang=de,bellevue-palace.ch,3
 ta:g188052-d267307,Hotel Schweizerhof Bern & Spa,CH,http://www.schweizerhof-bern.ch,200,,,https://thespa.schweizerhof-bern.ch/reservations/category/,thespa.schweizerhof-bern.ch,3
-ta:g188076-d229944,La Couronne Hotel,CH,https://www.lacouronne-solothurn.ch,200,,,,,1
+ta:g188076-d229944,La Couronne Hotel,CH,https://www.lacouronne-solothurn.ch,200,simplebooking,simplebooking.it,https://simplebooking.lacouronne-solothurn.ch/ibe2/hotel/4629?lang=DE&amp;cur=CHF,simplebooking.lacouronne-solothurn.ch,1
 ta:g188079-d3345157,The Alpina Gstaad,CH,http://www.thealpinagstaad.ch/?sa=X&ved=2ahUKEwjchLzl_qCYAxWWNfkAHQeRHiIQyK4DegUIAxD6Ag,200,synxis,synxis.com,https://be.synxis.com/?Hotel=56809&amp;template=rSIRTA&amp;shell=rSIRTA&amp;locale=en-US,be.synxis.com,1
-ta:g188079-d244787,Le Grand Bellevue,CH,http://www.bellevue-gstaad.ch/?sa=X&ved=2ahUKEwixmK37_qCYAxWuBDoGHVQXLhcQyK4DegUIAxD6Ag,200,synxis,synxis.com,https://be.synxis.com/landing?chain=22402&amp;hotel=78395&amp;adult=2&amp;arrive=2026-12-18&amp;locale=en-US&amp;src=24C,be.synxis.com,1
+ta:g188079-d244787,Le Grand Bellevue,CH,http://www.bellevue-gstaad.ch/?sa=X&ved=2ahUKEwixmK37_qCYAxWuBDoGHVQXLhcQyK4DegUIAxD6Ag,200,synxis,synxis.com,https://be.synxis.com/landing?chain=22402&amp;hotel=78395&amp;adult=2&amp;arrive=2026-12-16&amp;locale=en-US&amp;src=24C,be.synxis.com,1
 ta:g188049-d234218,Grand Hotel les Trois Rois,CH,http://www.lestroisrois.com/?sa=X&ved=2ahUKEwiO9duR_6CYAxXRP_kAHTZxIqIQyK4DegUIAxDaBg,200,,,,,1
 ta:g198849-d1176209,Chalet RoyAlp Hotel & Spa,CH,https://www.royalp.ch/,200,synxis,synxis.com,https://be.synxis.com/?chain=24447&amp;hotel=6898&amp;SRC=30,be.synxis.com,1
 ta:g198827-d206145,Grand Hôtel du Lac,CH,https://www.ghdl.ch,200,,,,,1
@@ -395,7 +395,7 @@ ta:g207359-d659214,Hotel Le Samoyede,FR,http://www.hotel-lesamoyede.com/?sa=X&ve
 ta:g187222-d233655,Chateau Eza,FR,http://www.chateaueza.com/?sa=X&ved=2ahUKEwiE1uaRlaKYAxVZNvkAHW3CJYEQyK4DegUIAxCGBQ,200,siteminder,siteminder,https://www.paratytech.com/motor-de-reservas.html,paratytech.com,2
 ta:g616132-d23516147,RockyPop Flaine,FR,https://www.rockypop.com/flaine/,200,d_edge,secure-hotel-booking.com,,,1
 ta:g207359-d500731,Hotel Champs Fleuris,FR,http://www.hotel-champs-fleuris.com/fr/,200,reservit,reservit.com,"https://secure.reservit.com/fo/booking/2/140274/availability?nbroom=1&specialMode=default&begindate=29%2F12%2F2023&tmonth=12&tyear=2023&hotelid=140274&numnight=1&m=booking&roomAge1=40,40&langcode=FR&enddate=30%2F12%2F2023&fyear=2023&custid=2&fmonth=12&tday=30",secure.reservit.com,1
-ta:g187218-d222930,Hotel Carlton,FR,http://www.carlton-beaulieu.com,200,d_edge,secure-hotel-booking.com,,,1
+ta:g187218-d222930,Hotel Carlton,FR,http://www.carlton-beaulieu.com,error: timed out,,,,,1
 ta:g187237-d195666,"Grand-Hôtel du Cap-Ferrat, A Four Seasons Hotel",FR,https://www.fourseasons.com/capferrat/,403,,,,,1
 ta:g187266-d543540,Hôtel Saint-Georges,FR,https://www.hotelsaintgeorges-megeve.com,200,d_edge,secure-hotel-booking.com,,,1
 ta:g187073-d239294,La Maison Des Tetes - Relais & Châteaux,FR,https://www.maisondestetes.com/fr/?sa=X&ved=2ahUKEwiHl9jnlaKYAxWrCPkAHSGlJeIQyK4DegUIAxCJAw,200,d_edge,secure-hotel-booking.com,https://ib.guestonline.fr/instabook/bookings/3VzQWgI?locale=fr,ib.guestonline.fr,1
@@ -412,7 +412,7 @@ ta:g196706-d14958929,St-Alban Hotel & Spa,FR,https://www.hotel-st-alban.com/,200
 ta:g196706-d607949,Hôtel Chalet Alpage,FR,http://www.chalet-alpage.com/?sa=X&ved=2ahUKEwiVgJi-lqKYAxUIAvkAHXW5DvYQyK4DegUIAxDbAg,200,,,,,1
 ta:g187221-d219954,Regent Carlton Cannes,FR,https://www.ihg.com/regent/hotels/gb/en/cannes/ceqha/hoteldetail?cm_mmc=GoogleMaps-_-RE-_-FR-_-CEQHA&sa=X&ved=2ahUKEwiiu9rUlqKYAxWJADoGHXMDNR4QyK4DegUIAxCDDg,403,,,,,1
 ta:g187221-d197838,Hotel de Provence,FR,http://www.hotel-de-provence.com/?sa=X&ved=2ahUKEwip_8TrlqKYAxXfH_kAHWkmJ-8QyK4DegUIAxCrAw,200,,,https://hoteldeprovence.thais-hotel.com/direct-booking/calendar?lang=fr,hoteldeprovence.thais-hotel.com,2
-ta:g1933306-d565753,Suites de la Tour,FR,https://www.suites-de-la-tour.com/?sa=X&ved=2ahUKEwjI0bDzlqKYAxUlEvkAHXmgN5IQyK4DegUIAxDHAg,200,,,,,1
+ta:g1933306-d565753,Suites de la Tour,FR,https://www.suites-de-la-tour.com/?sa=X&ved=2ahUKEwjI0bDzlqKYAxUlEvkAHXmgN5IQyK4DegUIAxDHAg,error: timed out,,,,,1
 ta:g1223267-d32862259,Domaine de Montagne - Chalet Frère Joseph,FR,https://domainedemontagne.com/,200,d_edge,secure-hotel-booking.com,https://domainedemontagne.com/fr/reservation-en-ligne.html,domainedemontagne.com,3
 ta:g187270-d677552,Hotel Les Grillons,FR,http://www.hotel-grillons.com/?sa=X&ved=2ahUKEwiJnaaNl6KYAxXwD_kAHUTEIk8QyK4DegUIAxDnAg,200,reservit,reservit.com,,,1
 ta:g196707-d314350,Hotel Chalet Mounier,FR,https://www.chalet-mounier.com/fr/,403,,,,,1
@@ -433,45 +433,45 @@ ta:g1077176-d10637353,Hotel Peteani,HR,https://hotel-peteani.hr/,200,,,https://h
 ta:g294454-d301428,Esplanade Zagreb Hotel,HR,https://www.esplanade.hr/,200,synxis,travelclick,https://reservations.travelclick.com/77283?HotelID=77283&#038;languageid=1#/guestsandrooms%20,reservations.travelclick.com,1
 ta:g295374-d32822737,Hyatt Regency Zadar,HR,https://www.hyatt.com/hyatt-regency/en-US/zadrz-hyatt-regency-zadar,403,,,,,1
 ta:g295374-d3348367,Art Hotel Kalelarga,HR,https://www.arthotel-kalelarga.com/?sa=X&ved=2ahUKEwiU25j8mKKYAxV3FfkAHey_CAAQyK4DegUIAxDwAg,200,,,https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=17468,booking.roomcloud.net,2
-ta:g1069848-d783916,Hotel Spongiola,HR,https://spongiola.com/,200,,,,,1
+ta:g1069848-d783916,Hotel Spongiola,HR,https://spongiola.com/,200,,,https://spongiola.com/rezerviraj/,spongiola.com,3
 ta:g295370-d2236475,Judita Palace Heritage Hotel,HR,https://najam-soba-branko-madunic.worhot.com/?sa=X&ved=2ahUKEwjJkrawmaKYAxWbD_kAHTilKbQQyK4DegUIAxCEAw,error: Remote end closed connection without response,,,,,1
 ta:g295370-d6870214,Piazza Heritage Hotel,HR,https://piazza-heritagehotel.com/?sa=X&ved=2ahUKEwiQ1ZXGmaKYAxV6GfkAHQTZHPkQyK4DegUIAxCFAw,200,,,,,1
 ta:g295370-d6871450,Cornaro Hotel,HR,https://cornarohotel.com/,200,,,,,1
 ta:g295370-d4308958,Villa Split Heritage Hotel,HR,http://villasplitluxury.com/?sa=X&ved=2ahUKEwi9q-TWmaKYAxXxG_kAHfn8DOIQyK4DegUIAxDvAg,200,,,,,1
-ta:g1943241-d11616269,Hotel Plaza Duce,HR,https://www.hotelplaza.hr/en/hotel-duce/,200,,,,,1
+ta:g1943241-d11616269,Hotel Plaza Duce,HR,https://www.hotelplaza.hr/en/hotel-duce/,200,bookassist,bookassist,https://www.hotelplaza.hr/booking/,hotelplaza.hr,1
 ta:g2034461-d1772997,Hotel Fortuna,HR,http://www.fortunahvarhotel.com/?sa=X&ved=2ahUKEwiuk5yBmqKYAxWzAfkAHd3lF88QyK4DegUIAxDnAg,200,,,https://hotelfortuna.book.rentl.io,hotelfortuna.book.rentl.io,2
 ta:g480253-d2197379,Abuelas Beach House,HR,http://www.abuelasbeachhouse.com/?sa=X&ved=2ahUKEwjGx7WWmqKYAxV6GfkAHQTZHPkQyK4DegQIAxBx,200,,,https://www.abuelasbeachhouse.com/apartments,abuelasbeachhouse.com,2
-ta:g608721-d1473809,Aparthotel Tamaris,HR,http://www.hotel-tamaris.hr,200,,,,,1
+ta:g608721-d1473809,Aparthotel Tamaris,HR,http://www.hotel-tamaris.hr,200,,,https://hotel-tamaris.com/booking,hotel-tamaris.com,2
 ta:g295371-d302876,Valamar Argosy Hotel,HR,https://www.valamar.com/en/hotels-dubrovnik/argosy-hotel?utm_source=gmb&utm_medium=listing&utm_campaign=argosy&sa=X&ved=2ahUKEwiO__i8mqKYAxXFF_kAHSx7J84QyK4DegUIAxC-Aw,200,,,https://www.valamar.com/en/hotels-dubrovnik/argosy-hotel/book-rooms?utm_medium=listing&amp;sa=X,valamar.com,3
 ta:g295371-d559522,Hilton Imperial Dubrovnik,HR,https://www.hilton.com/en/hotels/dbvhihi-hilton-imperial-dubrovnik/,403,,,,,1
-ta:g295371-d21303097,Heritage Villa Nobile,HR,https://hotel-marcopolo.com/en/heritage-villa-nobile/?utm_source=GMB&utm_medium=organic&utm_term=%7B%7Bad.name%7D%7D&utm_content=Listing&utm_campaign=GMB2&sa=X&ved=2ahUKEwiOw6jOmqKYAxWJADoGHXMDNR4QyK4DegUIAxDnAg,200,,,,,1
+ta:g295371-d21303097,Heritage Villa Nobile,HR,https://hotel-marcopolo.com/en/heritage-villa-nobile/?utm_source=GMB&utm_medium=organic&utm_term=%7B%7Bad.name%7D%7D&utm_content=Listing&utm_campaign=GMB2&sa=X&ved=2ahUKEwiOw6jOmqKYAxWJADoGHXMDNR4QyK4DegUIAxDnAg,200,,,https://secure.phobs.net/booking.php?sid=epgujamtjhd9lur6l84mrcd9q1&amp;companyid=20&amp;crcid=4bb68193d31a8c03bf3f293d25fce3b2&amp;date=today&amp;nights=1&amp;lang=en&amp;,secure.phobs.net,3
 ta:g303804-d615523,Hotel Supetar Cavtat,HR,https://www.adriaticluxuryhotels.com/hotel-supetar-dubrovnik-cavtat?utm_source=google&utm_medium=organic&utm_campaign=Google-places&sa=X&ved=2ahUKEwjOnIf6mqKYAxWiCPkAHUH-J_8QyK4DegUIAxCKBA,200,,,,,1
 ta:g1077264-d1148778,Wellness Hotel Katalin,HU,https://www.hotelkatalin.hu/,200,,,,,1
-ta:g274884-d26146311,Hotel Vinifera Wine & Spa,HU,https://vinifera.hu,200,,,,,1
+ta:g274884-d26146311,Hotel Vinifera Wine & Spa,HU,https://vinifera.hu,200,,,https://book.vinifera.hu/foglalas/kereses,book.vinifera.hu,2
 ta:g274887-d276362,Hilton Budapest,HU,https://www.hilton.com/en/hotels/budhitw-hilton-budapest/,403,,,,,1
 ta:g274887-d13392862,Hotel Clark Budapest,HU,https://hotelclarkbudapest.hu/,200,synxis,synxis.com,https://be.synxis.com/?adult=2&chain=5375&currency=EUR&hotel=1892&locale=hu-HU&arrive=YYYY-MM-DD&depart=YYYY-MM-DD,be.synxis.com,1
-ta:g274887-d276381,Boutique Hotel Victoria Budapest,HU,https://www.victoria.hu/,200,,,,,1
+ta:g274887-d276381,Boutique Hotel Victoria Budapest,HU,https://www.victoria.hu/,200,synxis,synxis.com,https://be.synxis.com/?chain=5375&amp;currency=EUR&amp;hotel=67922&amp;locale=en-US,be.synxis.com,1
 ta:g274887-d20767878,Hotel Vision Budapest,HU,https://www.hotelvision.hu,200,synxis,synxis.com,https://be.synxis.com/?chain=5375&currency=EUR&hotel=17478&locale=en-US&config=VisionCI,be.synxis.com,1
-ta:g274887-d2035671,Bohem Art Hotel,HU,https://www.bohemarthotel.hu/,200,,,,,1
+ta:g274887-d2035671,Bohem Art Hotel,HU,https://www.bohemarthotel.hu/,200,d_edge,secure-hotel-booking.com,,,1
 ta:g274887-d22120945,"Matild Palace, a Luxury Collection Hotel, Budapest",HU,https://www.marriott.com/en-us/hotels/budlc-matild-palace-a-luxury-collection-hotel-budapest,403,,,,,1
 ta:g274887-d276849,Four Seasons Hotel Gresham Palace Budapest,HU,https://www.fourseasons.com/budapest/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-bud-hre-mid-seo-na&utm_content=na-na&utm_term=na&sa=X&ved=2ahUKEwiSkrffm6KYAxUIAvkAHXW5DvYQyK4DegUIAxCnBg,403,,,,,1
 ta:g274887-d7818402,Prestige Hotel Budapest,HU,https://www.mamaisonhotelchainbridge.com/,200,,,https://www.mamaisonhotelchainbridge.com/en/reservations,mamaisonhotelchainbridge.com,2
 ta:g274887-d17783358,Párisi Udvar Hotel Budapest,HU,https://www.hyatt.com/unbound-collection/en-US/budub-parisi-udvar-hotel,403,,,,,1
 ta:g274887-d16658652,Hotel Memories Oldtown,HU,http://www.hotelmemories.hu/?sa=X&ved=2ahUKEwjOn6b_m6KYAxWgLfkAHbvHAF4QyK4DegUIAxCpBQ,200,synxis,synxis.com,https://hotelmemories.hu/booking,hotelmemories.hu,3
-ta:g274887-d15141883,Hotel Collect,HU,https://hotelcollect.hu/,200,,,,,1
+ta:g274887-d15141883,Hotel Collect,HU,https://hotelcollect.hu/,200,,,https://ibe.sabeeapp.com/properties/Hotel-Collect-booking/?p=bSp1688c95e30bebd05&amp;l=en,ibe.sabeeapp.com,3
 ta:g274887-d9250207,Hotel Moments Budapest,HU,https://hotelmomentsbudapest.hu,200,synxis,synxis.com,https://be.synxis.com/?adult=2&chain=5375&hotel=67171&locale=en-US,be.synxis.com,1
 ta:g274887-d597800,Ikonik Parlament,HU,https://www.ikonikparlament.com,200,,,https://www.ikonikparlament.com/my-book.html,ikonikparlament.com,2
-ta:g274887-d1557739,Opera Garden Hotel & Apartments,HU,https://www.operagardenhotel.hu/,200,,,,,1
+ta:g274887-d1557739,Opera Garden Hotel & Apartments,HU,https://www.operagardenhotel.hu/,200,d_edge,secure-hotel-booking.com,,,1
 ta:g274887-d1200734,Eurostars Palazzo Zichy,HU,https://www.eurostarshotels.co.uk/eurostars-palazzo-zichy.html,200,,,,,1
 ta:g274887-d1977620,ESCALA Hotel & Suites,HU,https://escalabudapest.com,200,synxis,travelclick,https://reservations.travelclick.com/116214?Adults=2&Children=0&languageid=1,reservations.travelclick.com,1
 ta:g274887-d23394053,Crowne Plaza Budapest By IHG,HU,https://www.ihg.com/crowneplaza/hotels/us/en/budapest/budpb/hoteldetail,403,,,,,1
 ta:g274887-d23959231,EST Grand Hotel Savoy,HU,https://www.est-hotels.com/grand-hotel-savoy/welcome/,200,,,,,1
-ta:g274887-d285437,Corinthia Budapest,HU,https://www.corinthia.com/budapest/?utm_source=gmb&utm_medium=seo&utm_campaign=budapestlisting&sa=X&ved=2ahUKEwjEjJ3WnKKYAxV5EvkAHUarMe4QyK4DegUIAxC3Bg,403,,,,,1
-ta:g274887-d602514,Anantara New York Palace Budapest Hotel,HU,https://www.anantara.com/en/new-york-palace-budapest,200,,,https://www.anantara.com/en/my-booking?hc=HUBU.NYPAL,anantara.com,3
+ta:g274887-d285437,Corinthia Budapest,HU,https://www.corinthia.com/budapest/?utm_source=gmb&utm_medium=seo&utm_campaign=budapestlisting&sa=X&ved=2ahUKEwjEjJ3WnKKYAxV5EvkAHUarMe4QyK4DegUIAxC3Bg,200,synxis,synxis.com,https://reservations.corinthia.com/signin?adult=1&amp;arrive=2024-09-11&amp;chain=11693&amp;child=0&amp;depart=2024-09-12&amp;level=chain&amp;locale=en-US&amp;rooms=1,reservations.corinthia.com,2
+ta:g274887-d602514,Anantara New York Palace Budapest Hotel,HU,https://www.anantara.com/en/new-york-palace-budapest,200,siteminder,direct-book.com,https://www.anantara.com/en/my-booking?hc=HUBU.NYPAL,anantara.com,2
 ta:g274887-d7392359,Bo33 Hotel Family & Suites,HU,https://www.bo33hotelbudapest.com/,200,,,,,1
 ta:g274920-d276842,Silvanus Hotel Visegrad,HU,https://www.hotelsilvanus.hu/,200,,,https://hotelsilvanus.hu/ajanlataink/szobafoglalas/,hotelsilvanus.hu,2
 ta:g754051-d10033788,Castellum Hotel Hollókő,HU,https://hotelholloko.hu/,200,,,https://hotelholloko.hu/online-foglalas/,hotelholloko.hu,2
-ta:g2283409-d18840788,4 Evszak Hegyihotel,HU,http://www.hegyihotel.hu/?sa=X&ved=2ahUKEwj10aeEnaKYAxWuAfkAHTLfNeEQyK4DegUIAxCCAw,200,,,,,1
+ta:g2283409-d18840788,4 Evszak Hegyihotel,HU,http://www.hegyihotel.hu/?sa=X&ved=2ahUKEwj10aeEnaKYAxWuAfkAHTLfNeEQyK4DegUIAxCCAw,200,,,https://zcms.hu/bookinghegyihotelhu/guest_adv/guestadvisor_applikacio_hasznalati_utmutato_-_hegyihotelbe.pdf,zcms.hu,3
 ta:g9745745-d10171320,Avalon Resort & Spa,HU,http://www.avalonresort.hu/?sa=X&ved=2ahUKEwjujdGMnaKYAxUDCfkAHXD9K6IQyK4DegUIAxDBAg,200,,,https://book.avalonresort.hu/foglalas/kereses,book.avalonresort.hu,2
 ta:g187813-d4064942,B&B Atelier Lidia Polla,IT,http://www.atelierlidiapolla.com/?sa=X&ved=2ahUKEwjitL6inaKYAxUuLPkAHThXBLkQyK4DegUIAxDrAg,200,,,https://www.atelierlidiapolla.com/en/booking/,atelierlidiapolla.com,2
 ta:g1786906-d1788330,Alloggio Agrituristico Albafiorita,IT,https://www.albafiorita.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=8930&lang=it,simplebooking.it,1
@@ -487,9 +487,9 @@ ta:g187796-d4022758,B&b Pigiotto,IT,http://www.pigiotto.it/?sa=X&ved=2ahUKEwiX0a
 ta:g187871-d2036402,B&B Corte delle Pigne,IT,http://www.cortedellepigneverona.it/?sa=X&ved=2ahUKEwisz6Ll46KYAxXFCdQBHdsIGP4QyK4DegQIAxB8,200,,,,,1
 ta:g187871-d2691114,B&B 2 Terrazze,IT,http://www.2terrazze.it/?sa=X&ved=2ahUKEwiAuqf546KYAxVgH2gBHdhxKykQyK4DegUIAxD_Ag,500,,,,,1
 ta:g1405352-d610638,Castello Di Monterado,IT,http://www.castellodimonterado.it/?sa=X&ved=2ahUKEwjl9OCf5KKYAxWebX8AHc38LnsQyK4DegUIAxChBQ,200,vertical_booking,verticalbooking,,,1
-ta:g1425788-d1161517,Hotel Opinione,IT,http://www.hotelopinione.com/?sa=X&ved=2ahUKEwim-dKo5KKYAxUGTn8AHdt8I3EQyK4DegUIAxDVAg,200,,,,,1
+ta:g1425788-d1161517,Hotel Opinione,IT,http://www.hotelopinione.com/?sa=X&ved=2ahUKEwim-dKo5KKYAxUGTn8AHdt8I3EQyK4DegUIAxDVAg,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/9819?lang=IT&amp;cur=EUR,simplebooking.it,1
 ta:g187801-d1636879,Antica Residenza d'Azeglio,IT,http://www.anticaresidenzadazeglio.it/?sa=X&ved=2ahUKEwjF-9XF5KKYAxWjW38AHevbIoUQyK4DegUIAxCOAw,200,,,https://anticaresidenzadazeglio.it/booking-en/,anticaresidenzadazeglio.it,2
-ta:g608900-d3200312,Alle Pendici del Conero,IT,http://www.allependicidelconero.it/?sa=X&ved=2ahUKEwixs4vj5KKYAxW1D2gBHbbJLYQQyK4DegUIAxDrAg,200,,,,,1
+ta:g608900-d3200312,Alle Pendici del Conero,IT,http://www.allependicidelconero.it/?sa=X&ved=2ahUKEwixs4vj5KKYAxW1D2gBHbbJLYQQyK4DegUIAxDrAg,200,krossbooking,krossbooking,,,1
 ta:g635642-d3591472,Rooms Il Punto...,IT,https://roomsilpunto.com/?sa=X&ved=2ahUKEwiixc2P5aKYAxX4CWgBHfCNF1oQyK4DegUIAxDEAw,200,,,,,1
 ta:g664064-d2141833,B&B Gallo delle Pille,IT,http://www.gallodellepille.it/?sa=X&ved=2ahUKEwjS9bqb5aKYAxVgH2gBHdhxKykQyK4DegUIAxD1Ag,200,,,,,1
 ta:g194802-d2235843,B&B Antica Maison,IT,http://www.anticamaison.net/?sa=X&ved=2ahUKEwjb_I245aKYAxUQFtQBHbAwLFgQyK4DegUIAxDrAg,200,,,,,1
@@ -503,9 +503,9 @@ ta:g642186-d1722923,B&B Country House Poggio Del Drago,IT,http://www.poggiodeldr
 ta:g194851-d3165052,Locanda San Marco - Palazzo Caluri,IT,http://www.lsmpistoia.it/?sa=X&ved=2ahUKEwj5oaGX56KYAxWQEtQBHTuOJ3cQyK4DegUIAxDyAg,200,,,,,1
 ta:g194851-d6410918,La Locanda dei Fiori,IT,https://www.locandadeifiori.it/?sa=X&ved=2ahUKEwiFtOCs56KYAxUZB2gBHXM2Mp4QyK4DegUIAxCVBA,200,,,https://www.locandadeifiori.it/richiesta-prenotazione/,locandadeifiori.it,2
 ta:g194851-d12677186,Battistero Residenza d'Epoca,IT,https://www.residenzabattistero.it/?sa=X&ved=2ahUKEwiwg8W056KYAxWebX8AHc38LnsQyK4DegUIAxDoBA,200,,,https://booking.amichotel.it/Widget.aspx?p_id=1369,booking.amichotel.it,2
-ta:g187905-d17552629,Portica 10,IT,http://www.portica10.com/?sa=X&ved=2ahUKEwjK0f3K56KYAxXeAGgBHcS4N3UQyK4DegUIAxDEBA,200,,,,,1
+ta:g187905-d17552629,Portica 10,IT,http://www.portica10.com/?sa=X&ved=2ahUKEwjK0f3K56KYAxXeAGgBHcS4N3UQyK4DegUIAxDEBA,200,wubook,wubook,https://wubook.net/wbkd/wbk/?lcode=1557819184&amp;lang=it,wubook.net,1
 ta:g187907-d3842272,Alla Maison di Alessia,IT,http://www.allamaisondialessia.it/?sa=X&ved=2ahUKEwiQnunS56KYAxWYCWgBHVLxGV4QyK4DegUIAxDwAg,200,,,,,1
-ta:g657849-d10277887,Assisium Agriturismo,IT,https://www.assisium.com/?sa=X&ved=2ahUKEwiq4tTu56KYAxW1ImgBHQpjMEUQyK4DegUIAxDmAw,200,,,,,1
+ta:g657849-d10277887,Assisium Agriturismo,IT,https://www.assisium.com/?sa=X&ved=2ahUKEwiq4tTu56KYAxW1ImgBHQpjMEUQyK4DegUIAxDmAw,200,slope,slope.it,https://www.assisium.com/prenota-ora,assisium.com,1
 ta:g4541862-d1874690,Isole e Tramonti,IT,http://www.isoletramonti.com/?sa=X&ved=2ahUKEwjG8_z856KYAxUpD2gBHQVgCT0QyK4DegUIAxC7Aw,200,,,,,1
 ta:g672717-d2439430,Residence Terra Dei Santi Country House,IT,http://www.terradeisanti.com/?sa=X&ved=2ahUKEwjl65aP6KKYAxXroAMAHd4HDVQQyK4DegUIAxCTAw,200,,,https://booking.ireservation.it/it/umbria/bb-terra-dei-santi-country-house-spello/32977?utm_source=widgetBeb,booking.ireservation.it,3
 ta:g194676-d1478251,Villa Fortezza,IT,http://www.villafortezza.it/?sa=X&ved=2ahUKEwj1ibua6KKYAxWwXX8AHecoH3cQyK4DegUIAxCSAw,200,scidoo,scidoo.com,https://booking.scidoo.com/?shop-id=3918e028-572a-498c-9179-0ae40ef05b1a&#038;lang=0,booking.scidoo.com,1
@@ -523,27 +523,27 @@ ta:g187898-d2277825,Al Porto di Lucca B&B,IT,http://www.alportodilucca.com/?sa=X
 ta:g677523-d610090,Il Canto del Sole,IT,http://www.ilcantodelsole.com/?sa=X&ved=2ahUKEwjTosOo6qKYAxV0B2gBHW5uCfQQyK4DegUIAxD5Ag,200,passepartout,passepartout.cloud,https://booking.passepartout.cloud/booking?oidPortale=8611&lingua=it,booking.passepartout.cloud,1
 ta:g644280-d17424167,Residenza d’Epoca La Rosa,IT,http://residenzadepocalarosa.it/?sa=X&ved=2ahUKEwja3PjL6qKYAxWdHtQBHY2LBi4QyK4DegUIAxDuAw,403,,,,,1
 ta:g660766-d2436391,B&B Il Cuore,IT,http://www.bbilcuore.it/?sa=X&ved=2ahUKEwjk3Yfe6qKYAxWebX8AHc38LnsQyK4DegUIAxD4Ag,200,,,,,1
-ta:g187899-d1818848,B&B Guerrazzi,IT,http://www.bbguerrazzipisa.it/it/?sa=X&ved=2ahUKEwj1tqzw6qKYAxUQFtQBHbAwLFgQyK4DegUIAxCzAw,200,,,https://www.bbguerrazzipisa.it/it/prenota,bbguerrazzipisa.it,3
+ta:g187899-d1818848,B&B Guerrazzi,IT,http://www.bbguerrazzipisa.it/it/?sa=X&ved=2ahUKEwj1tqzw6qKYAxUQFtQBHbAwLFgQyK4DegUIAxCzAw,error: [Errno 101] Network is unreachable,,,,,1
 ta:g644253-d638171,Villa Tres Jolie,IT,http://www.villatresjolie.com/?sa=X&ved=2ahUKEwjQgfr36qKYAxVjDGgBHXuCBT8QyK4DegUIAxD2Ag,200,,,,,1
 ta:g194843-d2061112,B&B Michelangeli,IT,http://www.bbmichelangeli.com/?sa=X&ved=2ahUKEwjwgeeZ66KYAxXBXX8AHcCUA18QyK4DegUIAxCIAw,200,,,,,1
 ta:g664188-d1825942,Nest on the Lake,IT,http://www.nestonthelake.com/?sa=X&ved=2ahUKEwid7OXG66KYAxV9INQBHee4CRgQyK4DegUIAxCIBA,200,smoobu,smoobu,https://nestonthelake.hbb.bz/booking.php?lang=it&ID=MTg0OC04MTU2YWE&step=1,nestonthelake.hbb.bz,1
-ta:g187849-d12231338,Moscova Luxury B&B,IT,http://moscovaluxury.com/?utm_source=gmb&sa=X&ved=2ahUKEwjIlo_Z66KYAxUfHWgBHaKxMWIQyK4DegUIAxDPBA,200,,,,,1
+ta:g187849-d12231338,Moscova Luxury B&B,IT,http://moscovaluxury.com/?utm_source=gmb&sa=X&ved=2ahUKEwjIlo_Z66KYAxUfHWgBHaKxMWIQyK4DegUIAxDPBA,403,,,,,1
 ta:g187897-d14944513,Agave in città,IT,https://www.agaveflowers.it/location/agave-in-citta/?sa=X&ved=2ahUKEwitq-7g66KYAxUtvAMAHUM6AIoQyK4DegUIAxDvBw,200,krossbooking,krossbooking,https://agaveprimopiano.kross.travel,agaveprimopiano.kross.travel,1
 ta:g187821-d480610,Cinqueterre Residence,IT,http://www.cinqueterreresidence.it/?sa=X&ved=2ahUKEwjW9OLp66KYAxUSEGgBHWtYOVwQyK4DegUIAxCDAw,200,krossbooking,krossbooking,https://www.cinqueterreresidence.it/booking,cinqueterreresidence.it,1
-ta:g187821-d675364,CasaLorenza,IT,http://www.casalorenza.it/?sa=X&ved=2ahUKEwi0tuKC7KKYAxVOCtQBHZ8BFwoQyK4DegUIAxDoAg,200,,,,,1
-ta:g187821-d2323647,Alla Marina,IT,https://www.allamarina.com/index.php?sa=X&ved=2ahUKEwiHopyX7KKYAxU_D2gBHWbkICUQyK4DegUIAxC1BA,error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: ,,,,,1
-ta:g580223-d3139976,Villa Valentina,IT,http://www.villavalentina5terre.com/?sa=X&ved=2ahUKEwij1ICo7KKYAxVtImgBHWuPOQgQyK4DegUIAxDiAg,200,,,,,1
-ta:g580223-d3436936,Agriturismo Costa di Faraggiana,IT,http://www.costadifaraggiana.com/?sa=X&ved=2ahUKEwjsh4zK7KKYAxUzc38AHQu2J2EQyK4DegUIAxDsAw,error: timed out,,,,,1
+ta:g187821-d675364,CasaLorenza,IT,http://www.casalorenza.it/?sa=X&ved=2ahUKEwi0tuKC7KKYAxVOCtQBHZ8BFwoQyK4DegUIAxDoAg,200,,,https://casalorenza.it/prenota-ora/,casalorenza.it,2
+ta:g187821-d2323647,Alla Marina,IT,https://www.allamarina.com/index.php?sa=X&ved=2ahUKEwiHopyX7KKYAxU_D2gBHWbkICUQyK4DegUIAxC1BA,200,octorate,octorate,https://book.octorate.com/octobook/site/reservation/index.xhtml?codice=107442,book.octorate.com,1
+ta:g580223-d3139976,Villa Valentina,IT,http://www.villavalentina5terre.com/?sa=X&ved=2ahUKEwij1ICo7KKYAxVtImgBHWuPOQgQyK4DegUIAxDiAg,200,octorate,octorate,http://www.villavalentina5terre.com/en/?view=article&amp;id=8:booking-en&amp;catid=2,villavalentina5terre.com,2
+ta:g580223-d3436936,Agriturismo Costa di Faraggiana,IT,http://www.costadifaraggiana.com/?sa=X&ved=2ahUKEwjsh4zK7KKYAxUzc38AHQu2J2EQyK4DegUIAxDsAw,200,,,https://www.secure-reservation.cloud/booking-engine/?portal=costadifaraggiana-levanto&#038;lang=it,secure-reservation.cloud,2
 ta:g644281-d1726625,Villa Vacasio,IT,http://www.villavacasio.com/?sa=X&ved=2ahUKEwi86-rl7KKYAxW9SH8AHSdcNYoQyK4DegUIAxCLBA,200,,,,,1
 ta:g1058220-d18206582,Casa Isabella B&B,IT,http://www.casaisabellacharme.it/?sa=X&ved=2ahUKEwiK3uLz7KKYAxVgH2gBHdhxKykQyK4DegUIAxDkAg,200,,,,,1
 ta:g194950-d5961494,B&b Viterbo Antica,IT,https://www.bbviterboantica.com/?sa=X&ved=2ahUKEwjch9P77KKYAxWoNtQBHTRGKwYQyK4DegUIAxDeAg,503,,,,,1
-ta:g1016057-d10531655,Casale Sterpeti,IT,http://casalesterpeti.it/?sa=X&ved=2ahUKEwi-xZqD7aKYAxVZImgBHWRPO2cQyK4DegUIAxDeAg,200,,,,,1
+ta:g1016057-d10531655,Casale Sterpeti,IT,http://casalesterpeti.it/?sa=X&ved=2ahUKEwi-xZqD7aKYAxVZImgBHWRPO2cQyK4DegUIAxDeAg,200,,,https://book2.nozio.com/v2/widget/WidgetNewWindowStart?channelId=005f5451-02f0-4e67-b995-51ef0c3d7f7e,book2.nozio.com,2
 ta:g194928-d3228276,B&B Il Marchese del Grillo,IT,https://www.bebilmarchesedelgrillo.it/index.php?lang=it&sa=X&ved=2ahUKEwj2pLee7aKYAxUfHWgBHaKxMWIQyK4DegUIAxCeAw,200,,,,,1
 ta:g194928-d1893325,B&b Sei Stelle,IT,http://www.bbseistelle.com/?sa=X&ved=2ahUKEwj16_el7aKYAxUtvAMAHUM6AIoQyK4DegUIAxDlAg,200,wubook,wubook,https://bbseistelle.com/book-your-stay-1,bbseistelle.com,2
 ta:g194930-d3200664,B&b Dimora Monsignore,IT,https://www.dimoramonsignore.it/?sa=X&ved=2ahUKEwjC9PzG7aKYAxWgUH8AHQhfLB0QyK4DegUIAxDSAg,200,,,https://www.dimoramonsignore.it/richiedi-disponibilita/,dimoramonsignore.it,3
 ta:g3340760-d3340762,Agriturismo Fontefredda,IT,http://www.agriturismofontefredda.it/?sa=X&ved=2ahUKEwjOnuefsqOYAxVSMdQBHYJtHlwQyK4DegUIAxDlAg,200,,,,,1
-ta:g194743-d8866261,La Casa Sul Mare,IT,http://www.lacasasulmare.net/?sa=X&ved=2ahUKEwjT8aDEsqOYAxV-EGgBHUjiLq4QyK4DegUIAxCSBg,200,,,,,1
-ta:g187791-d2268708,Domus Quiritum B&B,IT,https://www.romebestbb.com/?sa=X&ved=2ahUKEwjR5rbhsqOYAxVlI2gBHRoBNAcQyK4DegUIAxCOAw,200,,,,,1
+ta:g194743-d8866261,La Casa Sul Mare,IT,http://www.lacasasulmare.net/?sa=X&ved=2ahUKEwjT8aDEsqOYAxV-EGgBHUjiLq4QyK4DegUIAxCSBg,200,,,https://www.lacasasulmare.net/rooms/montecristo.html,lacasasulmare.net,3
+ta:g187791-d2268708,Domus Quiritum B&B,IT,https://www.romebestbb.com/?sa=X&ved=2ahUKEwjR5rbhsqOYAxVlI2gBHRoBNAcQyK4DegUIAxCOAw,200,krossbooking,krossbooking,https://domusquiritum.bookpage.io/it/properties?ad=2&#038;ch=0&#038;page=1,domusquiritum.bookpage.io,1
 ta:g187791-d3354676,Domus Alberti,IT,http://www.domusalberti.com/?sa=X&ved=2ahUKEwjijOqks6OYAxVZEWgBHW0kKGMQyK4DegUIAxC0BQ,200,octorate,octorate,https://www.octorate.com/octobook/site/reservation/index.xhtml?siteKey=034fe06481a71dd768b355424112ba98,octorate.com,1
 ta:g187791-d7082722,Assunta Domus - Elegant Suite,IT,http://www.assuntadomus.com/?sa=X&ved=2ahUKEwjzrPS0s6OYAxWjW38AHevbIoUQyK4DegUIAxDBBQ,200,octorate,octorate,,,1
 ta:g187791-d2184224,I Capocci,IT,http://www.icapocci.it/?sa=X&ved=2ahUKEwjWqu-8s6OYAxXBXX8AHcCUA18QyK4DegUIAxCCAw,200,,,http://www.icapocci.it/prenota/,icapocci.it,2
@@ -567,11 +567,11 @@ ta:g187785-d17577445,La Gatta Cenerentola Rooms,IT,https://lagattacenerentolaroo
 ta:g187785-d10163434,Colori E Note,IT,http://www.colorienote.it/?sa=X&ved=2ahUKEwiVnoH6tqOYAxWmEWgBHQ79FEgQyK4DegUIAxCgAw,200,,,https://www.colorienote.it/esperienze.asp,colorienote.it,2
 ta:g187785-d12724877,The Dante House,IT,http://houseinnaples.it/?sa=X&ved=2ahUKEwjfrb6Gt6OYAxWKUX8AHYONDf0QyK4DegUIAxCIBQ,200,krossbooking,krossbooking,,,1
 ta:g187785-d15865744,Rinuccini Relais,IT,http://www.rinuccinirelais.com/?sa=X&ved=2ahUKEwjSicKOt6OYAxVOIWgBHQbFJYcQyK4DegUIAxCcBQ,200,octorate,octorate,https://book.octorate.com/octobook/site/reservation/result.xhtml?siteKey=4c94643af30bb6e0a058a8870997e705&lang=it,book.octorate.com,1
-ta:g187785-d19871624,Calenda Suite,IT,https://calendasuite.top/?sa=X&ved=2ahUKEwjuldmXt6OYAxVSMdQBHYJtHlwQyK4DegUIAxCSAw,200,,,,,1
+ta:g187785-d19871624,Calenda Suite,IT,https://calendasuite.top/?sa=X&ved=2ahUKEwjuldmXt6OYAxVSMdQBHYJtHlwQyK4DegUIAxCSAw,200,,,https://booking.stay22.com/vivemabtravelsl/KdstRk5dPF,booking.stay22.com,2
 ta:g187785-d14003708,Naplesuite,IT,https://www.naplesuite.com/?sa=X&ved=2ahUKEwjfgbS4t6OYAxWbEWgBHYMHNV4QyK4DegUIAxDVBQ,200,,,https://naplesuite.beddy.io?lang=it,naplesuite.beddy.io,3
 ta:g187785-d14020233,Antica Capri B&B,IT,http://www.bbanticacapri.it/?sa=X&ved=2ahUKEwjs6bz0t6OYAxXBXX8AHcCUA18QyK4DegUIAxDsAg,200,,,https://www.bbanticacapri.it/prenota/,bbanticacapri.it,2
 ta:g1078038-d4260094,Bed and Breakfast Il Giardino di Villa Anna,IT,http://www.bebvillanna.it/?sa=X&ved=2ahUKEwi4iYeJuKOYAxU-ssUCHSkzM9AQyK4DegUIAxCVAw,error: [Errno 111] Connection refused,,,,,1
-ta:g194947-d1437339,Villa Ketty Resort,IT,https://www.villaketty.com/?sa=X&ved=2ahUKEwih04WkuKOYAxXrLNQBHW_1K-kQyK4DegUIAxCkAw,200,,,,,1
+ta:g194947-d1437339,Villa Ketty Resort,IT,https://www.villaketty.com/?sa=X&ved=2ahUKEwih04WkuKOYAxXrLNQBHW_1K-kQyK4DegUIAxCkAw,200,,,https://villaketty.beddy.io/#/(beddy:home)?lang=it,villaketty.beddy.io,2
 ta:g1057024-d10045348,Casa Nannina,IT,https://casanannina.com/?sa=X&ved=2ahUKEwjLjpbTuKOYAxVRI2gBHd0pNGUQyK4DegUIAxCBAw,200,wubook,wubook,,,1
 ta:g194873-d2280506,Auditorium Rooms,IT,http://www.auditoriumrooms.com/?sa=X&ved=2ahUKEwjG3b_vuKOYAxUdAWgBHbMFLAYQyK4DegUIAxDxAg,200,,,,,1
 ta:g187782-d14195364,Antica Dimora Magi,IT,http://www.magianticadimora.it/?sa=X&ved=2ahUKEwjwqvX_uKOYAxXroAMAHd4HDVQQyK4DegUIAxCZAw,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=4654&amp;lang=IT,simplebooking.it,1
@@ -581,13 +581,13 @@ ta:g194863-d737142,Casa Cuccaro B&B,IT,http://www.casacuccaro.it/?sa=X&ved=2ahUK
 ta:g1996590-d6586134,Villa Antica Macina B&B,IT,https://www.villaanticamacina.it/?sa=X&ved=2ahUKEwiq9b7fuaOYAxWgUH8AHQhfLB0QyK4DegUIAxDoAg,200,,,https://api.whatsapp.com/send?phone=393333726737&amp;text=Availability+request,api.whatsapp.com,3
 ta:g580201-d1443321,Nido Verde,IT,http://www.hotelnidoverde.it/?sa=X&ved=2ahUKEwisyaD5uaOYAxXPAGgBHUbYIU0QyK4DegUIAxCKAw,200,,,,,1
 ta:g187780-d653917,Residenza Luce,IT,https://residenzaluce.it/?sa=X&ved=2ahUKEwi9jOuOuqOYAxX4CWgBHfCNF1oQyK4DegUIAxCaAw,200,octorate,octorate,https://book.octorate.com/octobook/site/reservation/index.xhtml?codice=998270&#038;lang=it,book.octorate.com,1
-ta:g635619-d1544880,La Scogliera,IT,https://www.lascoglierarooms.it/?sa=X&ved=2ahUKEwj-upKpuqOYAxWzLNQBHUuzJU4QyK4DegUIAxCKAw,200,,,,,1
+ta:g635619-d1544880,La Scogliera,IT,https://www.lascoglierarooms.it/?sa=X&ved=2ahUKEwj-upKpuqOYAxWzLNQBHUuzJU4QyK4DegUIAxCKAw,200,,,https://lascoglierarooms.reserve-online.net,lascoglierarooms.reserve-online.net,2
 ta:g580201-d15018173,Villa Paradise Resort,IT,http://www.villaparadiseresort.com/?sa=X&ved=2ahUKEwi7iObQuqOYAxVSMdQBHYJtHlwQyK4DegUIAxCEBQ,200,wubook,wubook,https://wubook.net/wbkd/wbk/?lcode=1533541651,wubook.net,1
 ta:g635621-d2184505,Il Pavone,IT,http://www.bbilpavone.it/?sa=X&ved=2ahUKEwjXke_cuqOYAxUQFtQBHbAwLFgQyK4DegUIAxCUAw,200,,,https://www.bbilpavone.it/en/booking/room,bbilpavone.it,2
 ta:g194867-d14043231,B&B La Barbera,IT,http://www.bblabarbera.com/?sa=X&ved=2ahUKEwiowPnyuqOYAxXPAGgBHUbYIU0QyK4DegUIAxCKAw,503,,,,,1
 ta:g194819-d12563031,Casa Clementina,IT,https://www.casaclementina.it/?sa=X&ved=2ahUKEwjS_JCJu6OYAxX4CWgBHfCNF1oQyK4DegUIAxCQAw,200,krossbooking,krossbooking,https://casaclementina.kross.travel/,casaclementina.kross.travel,1
 ta:g1077046-d12909736,B&B Sul Ponte,IT,https://bebsulponte.it/?sa=X&ved=2ahUKEwji48qfu6OYAxV-EGgBHUjiLq4QyK4DegUIAxDRBA,200,,,,,1
-ta:g187813-d1406742,Victoria Hotel Letterario,IT,https://www.hotelvictoriatrieste.com/,200,,,,,1
+ta:g187813-d1406742,Victoria Hotel Letterario,IT,https://www.hotelvictoriatrieste.com/,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/home/index?layout=13541&#038;nsid=b8114b89-c457-40e6-96ae-a2285674fa3b,be.bookingexpert.it,1
 ta:g194796-d1170642,Hotel Bellavista,IT,https://www.bellavistalignano.it/,200,ericsoft,ericsoft,https://booking.ericsoft.com/NewBooking/book.aspx?id=dpUqhc%2b%2fj4E%3d&lingua=it,booking.ericsoft.com,1
 ta:g194796-d1473191,Monaco Suites Hotel,IT,https://www.hotelmonaco.net,200,blastness,blastness,https://book.blastness.com/results?lingua_int=ita&id_albergo=30354&dc=3461&id_stile=571&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=|*GIORNO_ODIERNO*|&mm=|*MESE_ODIERNO*|&aa=|*ANNO_ODIERNO*|,book.blastness.com,1
 ta:g194796-d1151812,Hotel Miramare,IT,https://www.miramare.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/9486?lang=IT&amp;cur=EUR,simplebooking.it,1
@@ -599,24 +599,24 @@ ta:g194710-d677856,Hotel Garden Sea,IT,https://www.hotelgardencaorle.it/,200,,,h
 ta:g194710-d12405653,AQA Palace,IT,https://www.aqapalace.com,200,vertical_booking,verticalbooking,https://hospitality-guest.teamsystem.cloud/booking-engine/aqa-palace-hotel,hospitality-guest.teamsystem.cloud,1
 ta:g580246-d529294,Hotel Orient & Pacific,IT,https://www.orient-pacific.net,200,vertical_booking,verticalbooking,https://www.orient-pacific.net/camere/camera-deluxe-spa-frontemare/,orient-pacific.net,1
 ta:g580246-d454998,Park Hotel Brasilia,IT,https://www.parkhotelbrasilia.com,200,vertical_booking,verticalbooking,https://booking.parkhotelbrasilia.com/,booking.parkhotelbrasilia.com,1
-ta:g580246-d1491197,Adriatic Palace Hotel,IT,https://www.hoteladriaticpalace.com,200,,,,,1
+ta:g580246-d1491197,Adriatic Palace Hotel,IT,https://www.hoteladriaticpalace.com,200,vertical_booking,verticalbooking,,,1
 ta:g580246-d6207800,Almar Jesolo Resort & Spa,IT,https://www.almarjesolo.com,200,,,https://booking.almarjesolo.com/en,booking.almarjesolo.com,2
-ta:g11962484-d20160236,J44 Lifestyle Hotel,IT,https://www.j44hoteljesolo.it/,200,,,,,1
+ta:g11962484-d20160236,J44 Lifestyle Hotel,IT,https://www.j44hoteljesolo.it/,200,,,https://book.j44hoteljesolo.it/,book.j44hoteljesolo.it,2
 ta:g580246-d662400,Hotel Gardenia,IT,https://www.hotelgardeniajesolo.it/?utm_source=googlelocal&utm_medium=organic&utm_campaign=localtab&sa=X&ved=2ahUKEwiY7pv1gaSYAxV2R6sCHd98Kp8QyK4DegUIAxD7Ag,200,vertical_booking,verticalbooking,,,1
 ta:g580246-d314797,Hotel Principe Palace,IT,https://www.principepalace.it,200,passepartout,passepartout.cloud,https://principepalace.it/prenota/,principepalace.it,2
 ta:g580246-d1171946,Hotel Sirenetta,IT,https://www.hotel-sirenetta.it,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/search?hid=10161&amp;lang=IT&amp;cur=EUR,simplebooking.it,1
 ta:g580246-d1641133,Hotel Galassia,IT,https://www.hotelgalassia.it/it/,200,ericsoft,ericsoft,https://booking.ericsoft.com/BookingEngine/Book?idh=BE53232EB0856075&#038;=it&#038;cur=EUR,booking.ericsoft.com,1
-ta:g580246-d1109668,Milton Boutique Hotel,IT,https://www.hotelmiltonjesolo.com,200,,,,,1
-ta:g580246-d584478,Hotel Bristol,IT,https://www.bristol-hotel.it,200,,,,,1
-ta:g580246-d529301,Cavalieri Palace,IT,https://www.hotelcavalieripalace.com,200,,,,,1
-ta:g580246-d1035722,Hotel delle Nazioni,IT,https://m.hotelnazionijesolo.it/,200,,,,,1
+ta:g580246-d1109668,Milton Boutique Hotel,IT,https://www.hotelmiltonjesolo.com,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/10592?lang=EN&#038;cur=EUR,simplebooking.it,1
+ta:g580246-d584478,Hotel Bristol,IT,https://www.bristol-hotel.it,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/11023?lang=IT&cur=EUR,simplebooking.it,1
+ta:g580246-d529301,Cavalieri Palace,IT,https://www.hotelcavalieripalace.com,200,vertical_booking,verticalbooking,https://www.hotelcavalieripalace.com/perche-prenotare/,hotelcavalieripalace.com,1
+ta:g580246-d1035722,Hotel delle Nazioni,IT,https://m.hotelnazionijesolo.it/,500,,,,,1
 ta:g681249-d4064587,Hyatt Centric Murano Venice,IT,https://www.hyatt.com/hyatt-centric/en-US/vcect-hyatt-centric-murano-venice,403,,,,,1
 ta:g187870-d235850,Hotel Bucintoro,IT,https://www.hotelbucintoro.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&sa=X&ved=2ahUKEwi9zJKZg6SYAxX3WKsCHXzjAKgQyK4DegUIAxD3BA,200,vertical_booking,verticalbooking,https://www.hotelbucintoro.com/specialoffers/booking-directly-is-worth-your-while,hotelbucintoro.com,1
 ta:g187870-d16712010,Palazzo San Lorenzo,IT,https://www.palazzosanlorenzovenezia.com/,200,,,"https://booking.hotelincloud.com/it/show/287008?accid=%5B321453,321605,321656,321707,321758,321809%5D",booking.hotelincloud.com,2
 ta:g187870-d202728,Londra Palace Venezia,IT,https://www.londrapalace.com/,200,,,https://www.londrapalace.com/en/#/booking/step-1,londrapalace.com,2
 ta:g187870-d1057391,Ruzzini Palace Hotel,IT,https://www.ruzzinipalace.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&sa=X&ved=2ahUKEwjI06K4g6SYAxUNWKsCHdvkHqsQyK4DegUIAxDwBg,200,,,https://book.ruzzinipalace.com/accommodation/list?channelId=2efdc849-fb1d-4878-a87f-848e8af939f7&culture=en&_ga=2.175408738.1162775536.1650588844-1c7dd0bb-c790-4c9f-a2cb-fc1868ef1d96,book.ruzzinipalace.com,3
 ta:g187870-d488758,Hotel Dona Palace,IT,https://www.donapalace.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/search?hid=3466&#038;lang=IT&#038;cur=EUR#guests=A,simplebooking.it,1
-ta:g187870-d12579192,Rosa Salva Hotel,IT,http://www.rosasalvahotel.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&sa=X&ved=2ahUKEwj81brLg6SYAxWvSKsCHZwuDqEQyK4DegUIAxCHBg,200,,,,,1
+ta:g187870-d12579192,Rosa Salva Hotel,IT,http://www.rosasalvahotel.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&sa=X&ved=2ahUKEwj81brLg6SYAxWvSKsCHZwuDqEQyK4DegUIAxCHBg,200,,,https://book.rosasalvahotel.it/accommodation?roomid=00000&roomconfig=a2&culture=it&year=&month=&day=&staylength=0,book.rosasalvahotel.it,2
 ta:g187870-d13478751,Hotel Heureka,IT,https://www.hotel-heureka.com/?sa=X&ved=2ahUKEwjzrKjcg6SYAxWoWasCHVr2A5kQyK4DegUIAxDXBQ,200,,,https://book2.nozio.com/accommodation/list?channelId=6cc2e09d-284b-45ec-83a6-c00b0da7531a&amp;_ga=2.114230147.546095220.1572021356-2118193404.1572021356,book2.nozio.com,3
 ta:g187870-d2264971,Scalon del Doge,IT,http://www.scalondeldoge.com/?sa=X&ved=2ahUKEwihuNDlg6SYAxUZjC0JHVUoK38QyK4DegUIAxCcAw,200,,,https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.scalondeldoge.com%2F&amp;linkname=Scalon%20del%20Doge,addtoany.com,3
 ta:g187870-d233394,Al Ponte Antico Hotel,IT,http://www.alponteantico.com/?sa=X&ved=2ahUKEwjDh4uFhKSYAxWxR6sCHWI6GJcQyK4DegUIAxClAw,200,,,https://book2.nozio.com/accommodation/list?channelId=c1cdb8dd-2e6b-4116-97e6-9c99720d4eac&#038;culture=en,book2.nozio.com,3
@@ -635,7 +635,7 @@ ta:g187870-d14117477,Santa Croce Boutique Hotel,IT,https://www.santacroceboutiqu
 ta:g187870-d1547281,Hotel Canal Grande,IT,https://www.hotelcanalgrande.it/,200,,,https://book.hotelcanalgrande.it/accommodation/list?channelId=d3034c2f-8506-4c90-880d-6e6b5797d228&culture=en,book.hotelcanalgrande.it,3
 ta:g187870-d17388353,Palazzetto Foscari,IT,https://palazzettofoscari.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&sa=X&ved=2ahUKEwjAosi_haSYAxUuQqsCHd1qEagQyK4DegUIAxD8Ag,200,,,https://hospitality-guest.teamsystem.cloud/booking-engine/palazzetto-foscari,hospitality-guest.teamsystem.cloud,2
 ta:g187870-d651332,Hotel Palazzo Stern,IT,http://www.palazzostern.com/?sa=X&ved=2ahUKEwi3qN_WhaSYAxW8WKsCHfmlJI0QyK4DegUIAxCsAw,200,vertical_booking,verticalbooking,,,1
-ta:g187870-d202737,U-Visionary Venezia Hotel,IT,https://www.uvisionaryvenezia.com/en/,200,,,,,1
+ta:g187870-d202737,U-Visionary Venezia Hotel,IT,https://www.uvisionaryvenezia.com/en/,200,,,https://www.hoteleasyreservations.it/herx/client/index.html?form=load&amp;hotel=611&amp;hlang=en&amp;clientId=MTIzMTA4MTc0My4xNzYwNTM3ODgz&amp;sessionId=MTc2MjE1NzI1NQ%3D%3D,hoteleasyreservations.it,2
 ta:g187870-d2558563,Carnival Palace Hotel,IT,https://www.carnivalpalace.com/,200,blastness,blastness,,,1
 ta:g187870-d289202,Hotel Antiche Figure,IT,https://www.hotelantichefigure.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&sa=X&ved=2ahUKEwim9NLthaSYAxUEbKsCHbEWLDEQyK4DegUIAxDZBg,200,,,https://book.hotelantichefigure.it/accommodation/list?channelId=086891fc-2838-44e3-8f03-20bffa473919&culture=en,book.hotelantichefigure.it,3
 ta:g187870-d202684,Hotel Papadopoli Venezia - MGallery,IT,https://www.accorhotels.com/gb/hotel-1313-hotel-papadopoli-venezia-mgallery-collection/index.shtml,error: [Errno -2] Name or service not known,,,,,1
@@ -665,7 +665,7 @@ ta:g1169453-d483103,Kolfuschgerhof Mountain Resort,IT,https://www.kolfuschgerhof
 ta:g194680-d1836000,Hotel Gran Ander,IT,http://www.granander.it/?sa=X&ved=2ahUKEwj1rYfBiaSYAxVGVqsCHewRFp8QyK4DegUIAxD7Ag,200,,,https://granander.it/en/booking,granander.it,2
 ta:g194709-d2157527,Locanda Degli Artisti Art Hotel ****,IT,https://www.locandadegliartisti.art/,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/home/index?layout=15391&lang=it&currency=EUR,be.bookingexpert.it,1
 ta:g194825-d677729,Hotel Garden Moena,IT,https://www.hotelgardenmoena.it/,200,vertical_booking,verticalbooking,https://be.bookingexpert.it/book/home/index?layout=16809&amp;nsid=870ae225-f549-4864-b0e7-eff366152eb0,be.bookingexpert.it,1
-ta:g194825-d1168892,Hotel Alle Alpi Beauty & Relax,IT,https://www.hotelallealpi.it/,error: [Errno -2] Name or service not known,,,,,1
+ta:g194825-d1168892,Hotel Alle Alpi Beauty & Relax,IT,https://www.hotelallealpi.it/,200,,,,,1
 ta:g194825-d529191,Leading Relax Hotel Maria,IT,https://www.hotelmaria.com/,200,simplebooking,simplebooking.it,https://www.hotelmaria.com/ita/Prenota,hotelmaria.com,1
 ta:g659470-d1189304,Hotel Madonnina,IT,http://www.hotelmadonnina.com/?sa=X&ved=2ahUKEwjIhIChiqSYAxVLki0JHU4uOUAQyK4DegUIAxD6Ag,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/home/single?layout=15401&lang=it,be.bookingexpert.it,1
 ta:g1199936-d1192261,Residence Montana,IT,https://www.residence-montana.it/?sa=X&ved=2ahUKEwjyuYu4iqSYAxVokS0JHbFNED4QyK4DegUIAxCDAw,200,,,,,1
@@ -673,7 +673,7 @@ ta:g194825-d528713,Hotel Piedibosco,IT,https://www.piedibosco.it/?sa=X&ved=2ahUK
 ta:g194940-d1535101,Das Bärenhotel,IT,https://www.baerenhotel.com,200,,,https://www.baerenhotel.com/anfragen,baerenhotel.com,2
 ta:g194940-d1522818,Hotel Hubertus,IT,https://www.hotel-hubertus.com/,200,,,https://booking.hotel-hubertus.com/be/de/hotel-hubertus-valdaora,booking.hotel-hubertus.com,3
 ta:g1020227-d565391,Family Hotel Gran Baita,IT,https://www.familyhotelgranbaita.it/,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/simple/step2?checkin=1677798000000&checkout=1677884400000&hotel=18075&guesttypes[0][20463]=2&ages[0][20463]=18&ages[0][20463]=18&layout=15437&lang=it&currency=EUR&_ga=2.235319489.1974854652.1677683645-1858624583.1677683645&nsid=f78ac5a4-bcda-4824-b3fc-a0ff2ec6f303&wi,be.bookingexpert.it,1
-ta:g668546-d633921,MyTime Hotels La Grotta,IT,https://www.mytimehotels.com/it/hotel-la-grotta/,200,,,,,1
+ta:g668546-d633921,MyTime Hotels La Grotta,IT,https://www.mytimehotels.com/it/hotel-la-grotta/,200,bedzzle,bedzzle,,,1
 ta:g668546-d3836197,Hotel Ciarnadoi,IT,https://www.hotelciarnadoi.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/7338?lang=IT,simplebooking.it,1
 ta:g5971121-d2188077,Hotel Olympia,IT,https://www.olympiahotel.it/?sa=X&ved=2ahUKEwiE5sjnz6SYAxVWJ_kAHWo8B28QyK4DegUIAxDcAg,200,,,,,1
 ta:g5971121-d1166618,Excelsior Dolomites Life Resort,IT,https://www.myexcelsior.com/,200,seekda,seekda,https://myexcelsior.officialbookings.com/?activeBookingEngine=KBE&amp;propertyCode=IT_STV_EXCELSIOR,myexcelsior.officialbookings.com,2
@@ -713,7 +713,7 @@ ta:g194732-d2308393,Hotel Trieste,IT,http://www.hotel-trieste.net/?sa=X&ved=2ahU
 ta:g1095838-d1863488,COMO Alpina Dolomites,IT,https://www.alpinadolomites.it/,403,,,,,1
 ta:g194841-d967248,La Cort My Dollhouse - Adults Only,IT,https://www.lacort.it/?sa=X&ved=2ahUKEwip4Ouk1aSYAxW8LPkAHWCTIw4QyK4DegUIAxCYAw,200,,,https://www.bookingsouthtyrol.com/ortiseivalgardenastulrichingroeden/la-cort-my-dollhouse-adults-only#_back=search,bookingsouthtyrol.com,3
 ta:g194732-d1092378,Executive Hotel Evolution,IT,https://www.clubfamilyhotel.com/,200,,,,,1
-ta:g194732-d1899442,Club Family Hotel Serenissima,IT,https://www.familyhotelcesenatico.com/?sa=X&ved=2ahUKEwjZ4I7Q1aSYAxVPEPkAHX9FOswQyK4DegUIAxDRAg,200,,,,,1
+ta:g194732-d1899442,Club Family Hotel Serenissima,IT,https://www.familyhotelcesenatico.com/?sa=X&ved=2ahUKEwjZ4I7Q1aSYAxVPEPkAHX9FOswQyK4DegUIAxDRAg,200,,,https://www.familyhotelcesenatico.com/offerte/prenota-prima-estate-vacanze-serene,familyhotelcesenatico.com,2
 ta:g1182946-d314585,Bad Ratzes,IT,https://www.badratzes.it/,200,,,https://www.badratzes.it/en/booking/,badratzes.it,2
 ta:g194688-d4340521,Hotel Belsoggiorno,IT,http://www.hbelsoggiorno.com/?sa=X&ved=2ahUKEwi9xOWC1qSYAxW3PvkAHdN9IiMQyK4DegUIAxDCAg,200,,,,,1
 ta:g1081261-d1876757,Hotel Kronblick,IT,https://www.kronhotels.com/,200,iperbooking,iperbooking,https://secure.iperbooking.net/be/en/kronblick/?canale=,secure.iperbooking.net,1
@@ -731,7 +731,7 @@ ta:g187807-d1566455,i-SUITE Hotel,IT,https://www.i-suite.it/,200,vertical_bookin
 ta:g187807-d1641879,Hotel Baltic,IT,https://www.baltic.it/?sa=X&ved=2ahUKEwiL6Pn516SYAxXYO_kAHYXPLtMQyK4DegUIAxCVAw,200,,,https://booking.myguestcare.com/.eshop?idcliente=hotelbaltic&idvendor=1&lang=it,booking.myguestcare.com,2
 ta:g187807-d10393197,Up Hotel,IT,http://www.uphotel.it/?sa=X&ved=2ahUKEwja086U2KSYAxUDCfkAHXD9K6IQyK4DegUIAxC8Bg,200,d_edge,secure-hotel-booking.com,,,1
 ta:g1183879-d1830966,Hotel Executive La Fiorita,IT,https://www.executivelafiorita.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/portal?pid=107&tid=77&lang=IT,simplebooking.it,1
-ta:g187807-d1404871,Hotel Stresa,IT,https://www.hotelstresa.com/?sa=X&ved=2ahUKEwjtx5K02KSYAxUEBvkAHV9KH90QyK4DegUIAxCkAw,200,,,,,1
+ta:g187807-d1404871,Hotel Stresa,IT,https://www.hotelstresa.com/?sa=X&ved=2ahUKEwjtx5K02KSYAxUEBvkAHV9KH90QyK4DegUIAxCkAw,200,,,https://www.secure-reservation.cloud/booking-engine/?portal=hotelstresa-rimini&#038;lang=it,secure-reservation.cloud,3
 ta:g194763-d2620786,Hotel La Baita,IT,https://www.hotellabaita.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=4147&lang=it,simplebooking.it,1
 ta:g194703-d4374747,Hotel Tourist,IT,https://www.hoteltourist.info/?sa=X&ved=2ahUKEwiAtr_Z2KSYAxUbGvkAHRUvAcoQyK4DegUIAxDzAw,200,,,,,1
 ta:g194878-d2101307,Hotel Tenerife,IT,http://www.hoteltenerife.it/?sa=X&ved=2ahUKEwiC28Tl2KSYAxX9IvkAHUZsJBwQyK4DegUIAxDcAg,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/search?hid=6171&#038;lang=IT,simplebooking.it,1
@@ -764,18 +764,18 @@ ta:g947888-d1060987,Hotel Masl,IT,https://www.hotel-masl.com/,200,,,https://www.
 ta:g946905-d1892372,Seeleiten - Lake Spa Hotel,IT,http://www.seeleiten.it/,200,,,https://www.seeleiten.it/luxushotel-suedtirol/anfragen,seeleiten.it,3
 ta:g677293-d833668,Familienhotel Huber,IT,https://www.hotelhuber.com/,200,,,https://www.hotelhuber.com/en/book.html,hotelhuber.com,2
 ta:g1185111-d2275555,Hotel Girlanerhof,IT,https://www.girlanerhof.it/,200,,,https://www.girlanerhof.it/anfragen,girlanerhof.it,3
-ta:g194889-d6375452,Casa del Pittore,IT,https://www.casadelpittore.it/?sa=X&ved=2ahUKEwjMsNqwoaWYAxXKCfkAHZteHC0QyK4DegUIAxDkAg,200,simplebooking,simplebooking.it,,,1
+ta:g194889-d6375452,Casa del Pittore,IT,https://www.casadelpittore.it/?sa=X&ved=2ahUKEwjMsNqwoaWYAxXKCfkAHZteHC0QyK4DegUIAxDkAg,error: [Errno 101] Network is unreachable,,,,,1
 ta:g3444827-d1476625,HOTEL MONTANA,IT,http://www.hotelmontana.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5477?lang=IT&#038;cur=EUR,simplebooking.it,1
 ta:g664820-d1926308,Solea Dolomiti Boutique Hotel,IT,https://www.hotelsolea.com,200,,,https://www.hotelsolea.com/en/booking/,hotelsolea.com,2
 ta:g187871-d232955,Hotel Accademia,IT,https://www.hotelaccademiaverona.it/,200,synxis,travelclick,,,1
 ta:g187871-d2222738,Opera Relais de Charme,IT,http://www.operarelais.it/?sa=X&ved=2ahUKEwjZ17TUoaWYAxWQEvkAHZskOgoQyK4DegUIAxCWBQ,200,passepartout,5stelle,https://www.secure-reservation.cloud/booking-engine/?portal=operarelais-verona&#038;lang=it,secure-reservation.cloud,1
 ta:g664820-d1498424,Albergo Miravalle Fai della Paganella,IT,http://www.miravallefai.it/?sa=X&ved=2ahUKEwj88KbdoaWYAxVVCPkAHZxWFtoQyK4DegUIAxCyAg,200,bookingexpert,bookingexpert.it,,,1
 ta:g784829-d1805979,Terra - The Magic Place,IT,https://terra.place/?sa=X&ved=2ahUKEwjCm-v5oaWYAxUaIPkAHWGIMsYQyK4DegUIAxCUBA,200,synxis,synxis.com,https://be.synxis.com/landing?chain=8565&configcode=C_TERRA&hotel=63020&level=hotel&themecode=TERRA&adult=2&locale=en-US,be.synxis.com,1
-ta:g612437-d1224845,Hotel Cristallo Andalo,IT,http://www.hotelcristalloandalo.com/?sa=X&ved=2ahUKEwip6PCLoqWYAxWXJvkAHbx2DvAQyK4DegUIAxDYAg,200,,,,,1
+ta:g612437-d1224845,Hotel Cristallo Andalo,IT,http://www.hotelcristalloandalo.com/?sa=X&ved=2ahUKEwip6PCLoqWYAxWXJvkAHbx2DvAQyK4DegUIAxDYAg,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/6674?lang=IT&#038;cur=EUR,simplebooking.it,1
 ta:g612437-d2189263,Hotel Nordik,IT,http://www.hotelnordik.com/?sa=X&ved=2ahUKEwjqp5aeoqWYAxXVBPkAHWeUPBIQyK4DegUIAxCZBA,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5386?lang=IT&#038;cur=EUR,simplebooking.it,1
 ta:g612437-d5611610,Sassdei My Active Suite Hotel,IT,https://www.hotelsassdeiandalo.it,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/11847?lang=IT&cur=EUR,simplebooking.it,1
 ta:g612437-d1516232,Hotel Paganella,IT,http://www.hotelpaganella.com/?sa=X&ved=2ahUKEwiv1eaqoqWYAxWxAPkAHWqBNv0QyK4DegUIAxDUAg,200,simplebooking,simplebooking.it,,,1
-ta:g612437-d571556,Cavallino Lovely Hotel,IT,http://www.hotelcavallino.com/,200,,,,,1
+ta:g612437-d571556,Cavallino Lovely Hotel,IT,http://www.hotelcavallino.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/4698?lang=IT&amp;cur=EUR,simplebooking.it,1
 ta:g612437-d1022344,Astoria Comfort Hotel,IT,https://www.astoria-andalo.com/?utm_source=googlelocal&utm_medium=organic&utm_campaign=localtab&sa=X&ved=2ahUKEwj1vtbboqWYAxXrPvkAHfu1PbgQyK4DegUIAxDaAg,200,,,,,1
 ta:g612437-d1099062,Park Hotel Sport,IT,http://www.parkhotelsport.it/?sa=X&ved=2ahUKEwi-l9PxoqWYAxULKvkAHVvqBtYQyK4DegUIAxDeAg,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=9235&amp;lang=it,simplebooking.it,1
 ta:g612437-d1114303,Corona Dolomites Hotel Andalo,IT,https://www.coronadolomiteshotel.com,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/2466?lang=IT&#038;cur=EUR,simplebooking.it,1
@@ -819,7 +819,7 @@ ta:g194933-d1370749,Hotel Patrizia,IT,https://hotel-patrizia.it,200,,,https://bo
 ta:g1079897-d667643,Hotel Wiesenhof,IT,https://www.wiesenhof.com/,200,,,https://booking.wiesenhof.com/booking?cd=137870&amp;id=EApQOAv6&amp;lang=en&amp;utm_source=www.wiesenhof.com&amp;utm_medium=direct&amp;utm_campaign=Homepage&amp;utm_bookingChannel=Webseite&amp;flex=0&amp;lm=true,booking.wiesenhof.com,3
 ta:g670607-d3673918,Wiesenhof Garden Resort,IT,https://www.wiesenhof.net/,200,,,https://www.wiesenhof-passeier.com/en/book,wiesenhof-passeier.com,2
 ta:g1010307-d1458505,Erlebnisort Gassenhof,IT,https://www.gassenhof.com/,200,,,https://www.gassenhof.com/lieblingszimmer/buchen,gassenhof.com,3
-ta:g1079897-d2072897,Schloss Plars Wine & Suites,IT,https://www.schlossplars.com/,error: The read operation timed out,,,,,1
+ta:g1079897-d2072897,Schloss Plars Wine & Suites,IT,https://www.schlossplars.com/,200,,,https://www.schlossplars.com/en/booking/,schlossplars.com,2
 ta:g194805-d1636860,Hotel Maribel,IT,https://maribelhotel.it/,200,scidoo,scidoo.com,https://www.scidoo.com/preventivov2/?cod=52a23165-f91f-401f-a6c7-4b80c63dde1f,scidoo.com,1
 ta:g194789-d1862952,Hotel Relais agli Olivi,IT,https://www.relaisagliolivi.com/?sa=X&ved=2ahUKEwiAmKmz7KWYAxWHssUCHYD3LbEQyK4DegUIAxCTBA,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/home/single?layout=10019834&amp;lang=it,be.bookingexpert.it,1
 ta:g194789-d15675622,Quellenhof Luxury Resort Lazise,IT,https://www.quellenhof-lazise.it/,200,,,https://www.quellenhof-lazise.it/wohnen-angebote/anfrage,quellenhof-lazise.it,3
@@ -848,12 +848,12 @@ ta:g664150-d1200097,Lefay Lago di Garda,IT,https://www.marriott.com/en-us/hotels
 ta:g187842-d1796192,Casa Scaligeri,IT,https://www.casascaligeri.com/?sa=X&ved=2ahUKEwiGnveE76WYAxW6jsUCHTz8BcAQyK4DegUIAxDLBg,200,,,https://www.secure-reservation.cloud/booking-engine/?portal=casascaligeri-sirmione&amp;lang=it,secure-reservation.cloud,2
 ta:g187842-d314146,Hotel Eden,IT,https://www.hoteledensirmione.it,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/home/index?layout=10019218&lang=it,be.bookingexpert.it,1
 ta:g187842-d277407,Hotel Continental,IT,https://www.continentalsirmione.com,200,blastness,blastness,,,1
-ta:g194772-d314131,Hotel Villa Florida,IT,https://www.hotelvillaflorida.it/?sa=X&ved=2ahUKEwi92qiy76WYAxXhrsUCHUe4OrcQyK4DegUIAxCfAw,200,,,,,1
+ta:g194772-d314131,Hotel Villa Florida,IT,https://www.hotelvillaflorida.it/?sa=X&ved=2ahUKEwi92qiy76WYAxXhrsUCHUe4OrcQyK4DegUIAxCfAw,200,ericsoft,ericsoft,https://www.ericsoft.biz/it/BookingEngine/Book?idh=DBE6C621BA9407BB&amp;cur=EUR&amp;lang=it,ericsoft.biz,1
 ta:g642183-d1882614,Mein Matillhof,IT,https://www.hotelmatillhof.com/,200,,,https://www.matill-retreat.com/anfragen/,matill-retreat.com,3
 ta:g1095214-d1187860,Kristiania Pure Nature Hotel & Spa,IT,https://www.hotelkristiania.it/,200,bookingexpert,bookingexpert.it,https://booking.hotelkristiania.it/book/home/single?layout=15054&lang=it&currency=EUR,booking.hotelkristiania.it,1
 ta:g644254-d589302,Hotel Vigna,IT,http://www.hotelvignasalo.it/?sa=X&ved=2ahUKEwjknMDe76WYAxWjscUCHd6SCbUQyK4DegUIAxCAAw,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=5027&lang=EN,simplebooking.it,1
 ta:g1568268-d1736935,Hotel Le Grotte,IT,https://www.hotellegrotte.it/,200,vertical_booking,verticalbooking,https://my.hotellegrotte.it/it-IT/reservation/module,my.hotellegrotte.it,1
-ta:g194922-d1368464,Hotel Cristallo,IT,https://www.cristallosulden.it/,200,,,,,1
+ta:g194922-d1368464,Hotel Cristallo,IT,https://www.cristallosulden.it/,error: timed out,,,,,1
 ta:g194922-d1846791,Hotel Marlet,IT,https://www.marlet.com/,200,,,,,1
 ta:g644268-d486886,Aktiv & Wellnesshotel Zentral,IT,https://www.zentral.it/,200,,,https://www.zentral.it/zimmer-preise/anfragen.html,zentral.it,3
 ta:g187906-d202935,Park Hotel Ai Cappuccini,IT,https://parkhotelaicappuccini.it/,200,d_edge,d-edge,,,1
@@ -868,15 +868,15 @@ ta:g187895-d1752811,Hotel Mulino di Firenze,IT,https://www.mulinodifirenze.com/,
 ta:g187895-d32873561,Collegio alla Querce Auberge Collection,IT,https://aubergeresorts.com/collegioallaquerce/,200,synxis,synxis.com,https://reserve.auberge.com?chain=16237&amp;hotel=46302&amp;level=chain&amp;config=initial,reserve.auberge.com,1
 ta:g187895-d866681,Four Seasons Hotel Firenze,IT,https://www.fourseasons.com/florence,403,,,,,1
 ta:g187895-d250849,Room Mate Luca,IT,https://room-matehotels.com/en/luca/,200,mirai,mirai.com,,,1
-ta:g187895-d7165960,San Giuliano Inn,IT,http://www.sangiulianoinnflorence.com/?sa=X&ved=2ahUKEwivyuSl8aWYAxVMscUCHaoiBxYQyK4DegUIAxDOBA,200,,,,,1
+ta:g187895-d7165960,San Giuliano Inn,IT,http://www.sangiulianoinnflorence.com/?sa=X&ved=2ahUKEwivyuSl8aWYAxVMscUCHaoiBxYQyK4DegUIAxDOBA,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/home/index?layout=20020333&#038;lang=it,be.bookingexpert.it,1
 ta:g187895-d230717,Hotel Spadai,IT,https://www.hotelspadai.it/it?utm_source=google&utm_medium=organic&utm_campaign=gmb_profile&sa=X&ved=2ahUKEwjsm6Wz8aWYAxWIq44EHdSTF8gQyK4DegUIAxDLBg,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=2778&amp;lang=IT,simplebooking.it,1
 ta:g187895-d203921,Hotel David,IT,http://www.hoteldavid.com/?sa=X&ved=2ahUKEwiBidm88aWYAxVLrcUCHQEvLMEQyK4DegUIAxDHBw,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/1071?lang=EN&amp;cur=EUR,simplebooking.it,1
 ta:g187895-d232969,The Market Urban Hotel,IT,https://www.themarketurbanhotel.com/?sa=X&ved=2ahUKEwikvYfG8aWYAxW6jsUCHTz8BcAQyK4DegUIAxCCBg,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=8625&amp;lang=EN,simplebooking.it,1
 ta:g187895-d12920834,Eco Urban B&B,IT,https://www.ecourbanbb.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&sa=X&ved=2ahUKEwi2g6zP8aWYAxV9v8UCHTOCHcIQyK4DegUIAxDYBQ,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=8622&amp;lang=EN,simplebooking.it,1
 ta:g187895-d3314157,Hotel Number Nine,IT,http://www.firenzenumbernine.com/?sa=X&ved=2ahUKEwjMlNfY8aWYAxWIq44EHdSTF8gQyK4DegUIAxC8Bw,200,synxis,synxis.com,https://be.synxis.com/?Chain=10237&amp;Hotel=47197&amp;level=hotel,be.synxis.com,1
 ta:g187895-d15239228,The Frame Hotel,IT,https://www.theframehotel.com/?sa=X&ved=2ahUKEwjC5oXm8aWYAxVsrsUCHTHvJZQQyK4DegUIAxCLBw,200,blastness,blastness,https://book.blastness.com/results?lingua_int=eng&id_albergo=18464&dc=9680&id_stile=17087,book.blastness.com,1
-ta:g187895-d195855,Hotel Savoy,IT,http://www.hotelsavoy.it/,200,,,,,1
-ta:g187895-d2257439,San Firenze Suites & Spa,IT,https://www.sanfirenzesuites.com/?sa=X&ved=2ahUKEwj1hPby8aWYAxVmssUCHbBVJsMQyK4DegUIAxCxBw,200,,,,,1
+ta:g187895-d195855,Hotel Savoy,IT,http://www.hotelsavoy.it/,521,,,,,1
+ta:g187895-d2257439,San Firenze Suites & Spa,IT,https://www.sanfirenzesuites.com/?sa=X&ved=2ahUKEwj1hPby8aWYAxVmssUCHbBVJsMQyK4DegUIAxCxBw,403,,,,,1
 ta:g187895-d229073,Bernini Palace Hotel,IT,http://hotelbernini.duetorrihotels.com/?sa=X&ved=2ahUKEwiJjdCA8qWYAxX_mMUCHfmgJMcQyK4DegUIAxDuBw,200,synxis,synxis.com,https://be.synxis.com/signin?Chain=10237&amp;Hotel=65826&amp;level=hotel&amp;locale=it-IT,be.synxis.com,1
 ta:g187895-d17703706,Hotel Calimala Florence,IT,https://www.hotelcalimala.com/?utm_source=google&utm_medium=gmb&utm_campaign=gmb_website&sa=X&ved=2ahUKEwjIjq-K8qWYAxWWv8UCHdzzHMMQyK4DegUIAxD3CA,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5590?lang=EN,simplebooking.it,1
 ta:g187895-d296175,Hotel Davanzati,IT,http://www.hoteldavanzati.it/?sa=X&ved=2ahUKEwjSku6T8qWYAxUwr8UCHT-jHOQQyK4DegUIAxDjBQ,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/9856?lang=en,simplebooking.it,1
@@ -890,17 +890,17 @@ ta:g187895-d195005,Villa Cora,IT,https://www.villacora.it/,200,synxis,synxis.com
 ta:g667205-d1056987,Hotel Interalpen,IT,https://www.hotelinteralpen.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/5444?lang=IT,simplebooking.it,1
 ta:g194673-d1881150,La Cantina Relais - Fattoria Il Cipresso,IT,http://www.ilcipresso.com/?sa=X&ved=2ahUKEwiu8fWK86WYAxU-ssUCHSkzM9AQyK4DegUIAxCFBQ,200,wubook,wubook,https://wubook.net/nneb/bk?f=today&#038;n=1&#038;ep=3cda8c95&#038;board=bb&#038;o=2.0.0.0,wubook.net,1
 ta:g194799-d1122349,Park Chalet Village,IT,http://www.parkchaletvillage.com/?sa=X&ved=2ahUKEwiolIOT86WYAxV0ssUCHYzOIb4QyK4DegUIAxCJBA,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/services/index?ecommerce=10000324&layout=1665&lang=it&currency=EUR&nsid=f9359b3a-437b-4002-81df-056a6a34287b&searchId=a02624c0-322b-4237-a53a-e31076b5da4b&_gl=1*pc5hqg*_ga*MTc5MTc4OTYzOC4xNjY2NDYyNDE5*_ga_NGM3DGQ9MS*czE3NzQ0MzQyNjUkbzg1NyRnMCR0MTc3NDQzNDI2NSRqNjAkbDA,be.bookingexpert.it,1
-ta:g194799-d637178,Hotel Flora,IT,https://www.hotelfloralivigno.com/?sa=X&ved=2ahUKEwio_feg86WYAxW6jsUCHTz8BcAQyK4DegUIAxD0Ag,200,,,,,1
+ta:g194799-d637178,Hotel Flora,IT,https://www.hotelfloralivigno.com/?sa=X&ved=2ahUKEwio_feg86WYAxW6jsUCHTz8BcAQyK4DegUIAxD0Ag,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/home/single?layout=10018762&amp;lang=en&amp;currency=EUR&amp;nsid=04714f12-5bfd-41aa-87d3-08a641927bfb,be.bookingexpert.it,1
 ta:g194799-d1426168,Hotel Larice,IT,https://www.laricelivigno.it/?sa=X&ved=2ahUKEwjnqdq286WYAxXZjcUCHY0qHqwQyK4DegUIAxD5Ag,200,scidoo,scidoo.com,https://www.scidoo.com/preventivov2/?cod=8cdbe279-1e55-4a27-9a65-8ccc62e62567&lang=0,scidoo.com,1
 ta:g194799-d1637066,Hotel Roberta Alpine,IT,http://www.hotelroberta.it/?sa=X&ved=2ahUKEwiEs8nM86WYAxUMsY4EHbXrAKYQyK4DegUIAxDkAg,200,,,,,1
 ta:g194799-d529599,Hotel Concordia,IT,https://www.concordialivigno.com/?sa=X&ved=2ahUKEwjvisXt86WYAxX2jsUCHdAiFBgQyK4DegUIAxDHAw,200,vertical_booking,verticalbooking,https://www.stuanoa.com/prenota-stua-noa,stuanoa.com,1
-ta:g194799-d602603,MOTA hotel,IT,https://www.hotelmota.com/,200,,,,,1
+ta:g194799-d602603,MOTA hotel,IT,https://www.hotelmota.com/,200,iperbooking,iperbooking,https://secure.iperbooking.net/be/en/hotel-mota-livigno/,secure.iperbooking.net,1
 ta:g1968193-d1899963,Cerqua Rosara Residence,IT,http://www.cerquarosara.eu/?sa=X&ved=2ahUKEwjg263586WYAxXSscUCHZEqPfcQyK4DegUIAxDpAg,503,,,,,1
 ta:g194799-d12090552,Hotel Sporting Family Hospitality,IT,https://www.hotelsportinglivigno.com/?sa=X&ved=2ahUKEwiliK-P9KWYAxXZjcUCHY0qHqwQyK4DegUIAxCaAw,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/home/index?layout=5875&#038;lang=it,be.bookingexpert.it,1
 ta:g194799-d314262,Sport Hotel,IT,https://www.sporthotellivigno.it/,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/simple/step2?hotel=19865&amp;lang=it&amp;currency=EUR,be.bookingexpert.it,1
 ta:g194799-d10822282,Green Rose,IT,http://www.greenroselivigno.it/?sa=X&ved=2ahUKEwjM4MKt9KWYAxUqssUCHezWMYoQyK4DegUIAxD2Ag,200,,,https://www.secure-reservation.cloud/booking-engine/?portal=greenroseecohotel-livigno&lang=it,secure-reservation.cloud,3
 ta:g187894-d13943300,Monastero di Cortona Hotel & Spa,IT,https://www.monasterodicortona.com/?utm_source=google&utm_medium=organic&utm_campaign=knowledge-graph&sa=X&ved=2ahUKEwjz9pbD9KWYAxXnl8UCHVCyOIMQyK4DegUIAxCcCA,200,blastness,blastness,https://booking.monasterodicortona.com/manage-reservation?lingua_int=ita&id_albergo=27499&dc=9188&id_stile=20676,booking.monasterodicortona.com,1
-ta:g187894-d278182,Villa Marsili,IT,http://www.villamarsili.net/?sa=X&ved=2ahUKEwir8aLa9KWYAxWIq44EHdSTF8gQyK4DegUIAxDhBQ,200,blastness,blastness,https://book.blastness.com/results?lingua_int=ita&id_albergo=5338&dc=3333&id_stile=19011&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=27&mm=11&aa=2026,book.blastness.com,1
+ta:g187894-d278182,Villa Marsili,IT,http://www.villamarsili.net/?sa=X&ved=2ahUKEwir8aLa9KWYAxWIq44EHdSTF8gQyK4DegUIAxDhBQ,200,blastness,blastness,https://book.blastness.com/results?lingua_int=ita&id_albergo=5338&dc=3333&id_stile=19011&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=28&mm=11&aa=2026,book.blastness.com,1
 ta:g187905-d1863553,Nun Assisi Relais & Spa Museum,IT,http://www.nunassisi.com/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness&sa=X&ved=2ahUKEwjRj8jm9KWYAxUwr8UCHT-jHOQQyK4DegUIAxCuBg,200,,,https://booking.isidorosoftware.com/NUNASSISI?IDCOMPANY=1&amp;lang=En,booking.isidorosoftware.com,2
 ta:g580240-d618893,Villa Bordoni,IT,https://www.villabordoni.com/?sa=X&ved=2ahUKEwjxu6j99KWYAxVYqsUCHaQVNhkQyK4DegUIAxC_Aw,200,,,,,1
 ta:g616196-d247537,Castello di Spaltenna Exclusive Tuscan Resort & Spa,IT,http://www.spaltenna.it/,200,simplebooking,simplebooking.it,https://www.spaltenna.it/it/offerte/hotel/advance-booking,spaltenna.it,1
@@ -909,7 +909,7 @@ ta:g1092610-d2325464,Albergo Esperia,IT,http://www.albergoesperia.com/?sa=X&ved=
 ta:g194676-d2426128,Hotel Palazzo dei Mercanti,IT,http://www.palazzodeimercanti.it/?sa=X&ved=2ahUKEwjTopq69aWYAxVLrcUCHQEvLMEQyK4DegUIAxChBQ,200,simplebooking,simplebooking.it,https://www.palazzodeimercanti.it/facebook-login/,palazzodeimercanti.it,1
 ta:g194720-d236011,Hotel Palazzo Squarcialupi,IT,https://www.squarcialupirelaxinchianti.com/?sa=X&ved=2ahUKEwjq1rXW9aWYAxWHssUCHYD3LbEQyK4DegUIAxC-BQ,200,passepartout,passepartout.cloud,https://booking.passepartout.cloud/booking?oidPortale=4717&lingua=it,booking.passepartout.cloud,1
 ta:g2502019-d10256464,Orobie Alps Resort,IT,http://www.orobiealpsresort.com/?sa=X&ved=2ahUKEwjmsfnm9aWYAxWesMUCHZkZLPsQyK4DegUIAxDuAw,200,,,https://www.orobiealpsresort.com/prenota_ora.htm,orobiealpsresort.com,3
-ta:g194665-d1520303,Hotel Excelsior,IT,http://www.excelsioralba.com/?sa=X&ved=2ahUKEwj5zLPz9aWYAxXllMUCHT-JHqYQyK4DegUIAxDhAg,200,,,,,1
+ta:g194665-d1520303,Hotel Excelsior,IT,http://www.excelsioralba.com/?sa=X&ved=2ahUKEwj5zLPz9aWYAxXllMUCHT-JHqYQyK4DegUIAxDhAg,200,,,https://www.excelsioralba.com/images/booking-award-big.png,excelsioralba.com,2
 ta:g1227212-d25009306,The Club House,IT,https://www.fontanellestate.com/hotel-the-club-house,200,,,https://reservations.fontanellestate.com/premium/index.html?id_albergo=25099&dc=6191&lingua_int=ita&id_stile=19325&_gl=1*1b7ltug*_gcl_au*MjgzNTAxNDYzLjE3MjgyOTg1NTg.*_ga*MTQxNzQyMjM0NS4xNzIwMTgyOTEw*_ga_HEE1L9YC80*MTcyODkxNjE1OC43My4xLjE3Mjg5MTYxODQuMzQuMC44NzQ4NzMzNjU,reservations.fontanellestate.com,3
 ta:g1236093-d620351,Hotel Le Fontanelle,IT,https://www.fontanellestate.com/hotel-le-fontanelle,200,,,https://reservations.fontanellestate.com/premium/index.html?id_albergo=175&dc=251&lingua_int=ita&id_stile=17299&_gl=1*p5co49*_gcl_au*MjgzNTAxNDYzLjE3MjgyOTg1NTg.*_ga*MTQxNzQyMjM0NS4xNzIwMTgyOTEw*_ga_HEE1L9YC80*MTcyODkxNjE1OC43My4xLjE3Mjg5MTYxNjEuNTcuMC44NzQ4NzMzNjU,reservations.fontanellestate.com,3
 ta:g616200-d4446080,Il Borgo dell'Ulivo,IT,http://www.borgoulivo.it/?sa=X&ved=2ahUKEwjQy8WS9qWYAxU_ro4EHV5PK-0QyK4DegUIAxCZBA,200,,,https://borgoulivo.it/contattateci/,borgoulivo.it,2
@@ -917,16 +917,16 @@ ta:g1186589-d1170820,Hotel Venezia,IT,http://www.hvenezia.com/?sa=X&ved=2ahUKEwj
 ta:g187830-d1729158,Petronilla Hotel,IT,https://www.petronillahotel.com/?sa=X&ved=2ahUKEwj-4o_ouqaYAxXGZKsCHelCNJkQyK4DegUIAxD-BA,200,,,https://www.petronillahotel.com/prenotazioni/,petronillahotel.com,3
 ta:g194775-d1121769,Hotel Baltic,IT,https://www.hotelbaltic.com/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&sa=X&ved=2ahUKEwiM9NCAu6aYAxWCWKsCHYKoMX8QyK4DegUIAxDpAg,200,,,,,1
 ta:g194835-d1125876,Palazzo Seneca,IT,https://www.palazzoseneca.com,200,blastness,blastness,,,1
-ta:g187902-d195711,Hotel Certosa di Maggiano,IT,https://www.lacertosadimaggiano.com/?sa=X&ved=2ahUKEwjolu2nu6aYAxXldqsCHZXEM4AQyK4DegUIAxDjBQ,200,blastness,blastness,https://book.blastness.com/results?lingua_int=eng&id_albergo=21800&dc=5463&id_stile=18266&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=27&mm=11&aa=2026,book.blastness.com,1
+ta:g187902-d195711,Hotel Certosa di Maggiano,IT,https://www.lacertosadimaggiano.com/?sa=X&ved=2ahUKEwjolu2nu6aYAxXldqsCHZXEM4AQyK4DegUIAxDjBQ,200,blastness,blastness,https://book.blastness.com/results?lingua_int=eng&id_albergo=21800&dc=5463&id_stile=18266&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=28&mm=11&aa=2026,book.blastness.com,1
 ta:g187902-d585222,Campo Regio Relais,IT,http://www.camporegio.com/?sa=X&ved=2ahUKEwjm7vawu6aYAxVdaqsCHThJBasQyK4DegUIAxDtBA,200,bookingexpert,bookingexpert.it,https://be.bookingexpert.it/book/home/index?layout=16366&#038;lang=it,be.bookingexpert.it,1
 ta:g187901-d238819,Villasanpaolo Resort & Spa,IT,https://www.villasanpaolo.com/,200,,,,,1
-ta:g194833-d24135725,Stelle Di Monte,IT,https://stelledimonte.com/?sa=X&ved=2ahUKEwi897XPu6aYAxVTfasCHd7bDqQQyK4DegUIAxCzAw,200,,,,,1
+ta:g194833-d24135725,Stelle Di Monte,IT,https://stelledimonte.com/?sa=X&ved=2ahUKEwi897XPu6aYAxVTfasCHd7bDqQQyK4DegUIAxCzAw,200,vertical_booking,verticalbooking,,,1
 ta:g668223-d8400498,Palazzo Pacini,IT,https://www.palazzopacini.it/?sa=X&ved=2ahUKEwjiz-nku6aYAxW4UKsCHYfiLHEQyK4DegUIAxDlBg,200,wubook,wubook,,,1
-ta:g194833-d4028686,Il Tosco,IT,http://www.iltosco.com/?sa=X&ved=2ahUKEwjlgtH7u6aYAxVCjC0JHeBWOHcQyK4DegUIAxDyAw,200,,,,,1
+ta:g194833-d4028686,Il Tosco,IT,http://www.iltosco.com/?sa=X&ved=2ahUKEwjlgtH7u6aYAxVCjC0JHeBWOHcQyK4DegUIAxDyAw,200,octorate,octorate,https://book.octorate.com/octobook/site/reservation/index.xhtml?codice=915097,book.octorate.com,1
 ta:g187898-d232981,Hotel Ilaria,IT,https://www.hotelilaria.com/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/4952?lang=en,simplebooking.it,1
 ta:g187898-d12591148,Palazzo Dipinto,IT,http://www.palazzodipinto.com/?sa=X&ved=2ahUKEwi51ciMvKaYAxVdS6sCHZOHGzwQyK4DegUIAxCzBg,200,,,https://www.palazzodipinto.com/it/offerte-hotel-lucca/offerta3x4/,palazzodipinto.com,3
 ta:g668227-d9454866,Locanda in Tuscany,IT,http://www.locandaintuscany.com/,200,simplebooking,simplebooking.it,https://www.locandaintuscany.it/room/double-deluxe/,locandaintuscany.it,1
-ta:g194766-d811336,Hotel Olimpia,IT,http://www.olimpiahotel.it/?sa=X&ved=2ahUKEwjAkJWavKaYAxVaWKsCHQVCGbsQyK4DegUIAxD3Ag,200,,,,,1
+ta:g194766-d811336,Hotel Olimpia,IT,http://www.olimpiahotel.it/?sa=X&ved=2ahUKEwjAkJWavKaYAxVaWKsCHQVCGbsQyK4DegUIAxD3Ag,200,,,https://www.secure-reservation.cloud/booking-engine/?portal=hotelolimpia-fortedeimarmi&#038;lang=it,secure-reservation.cloud,2
 ta:g194794-d2205123,Residence Anna Rosa,IT,https://www.residenceannarosa.it/?sa=X&ved=2ahUKEwjB-PGvvKaYAxW7ni0JHd_ZI44QyK4DegUIAxDWAg,200,,,,,1
 ta:g635634-d1147343,"Castiglion del Bosco, A Rosewood Hotel",IT,https://www.rosewoodhotels.com/en/castiglion-del-bosco,200,,,,,1
 ta:g194794-d6782105,Petit Hotel,IT,https://ptithotel.com/?sa=X&ved=2ahUKEwiC7bLOvKaYAxXGki0JHZzXEk8QyK4DegUIAxDgAg,403,,,,,1
@@ -957,8 +957,8 @@ ta:g187849-d204472,Urban Hive Milano,IT,https://www.urbanhivehotels.com/milano/,
 ta:g187849-d2254113,Aethos Milan,IT,https://www.aethoshotels.com/milan/,403,,,,,1
 ta:g644287-d637028,Torre Palombara - Dimora Storica,IT,http://www.torrepalombara.com/?sa=X&ved=2ahUKEwjUxLXrvqaYAxVehS0JHWP4ImkQyK4DegUIAxCNAw,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=1393&#038;lang=EN,simplebooking.it,1
 ta:g652032-d1087811,Relais Sant'Elena,IT,https://www.relaissantelena.it/?sa=X&ved=2ahUKEwjY_OmAv6aYAxWdiS0JHXJiMbIQyK4DegUIAxCFAw,200,simplebooking,simplebooking.it,,,1
-ta:g187820-d459904,Hotel Villa Steno,IT,http://www.villasteno.com/?sa=X&ved=2ahUKEwi8mcKWv6aYAxVdaqsCHThJBasQyK4DegUIAxCeAw,200,,,,,1
-ta:g580223-d1554785,Park Hotel Argento,IT,https://www.parkhotelargento.com/,200,,,,,1
+ta:g187820-d459904,Hotel Villa Steno,IT,http://www.villasteno.com/?sa=X&ved=2ahUKEwi8mcKWv6aYAxVdaqsCHThJBasQyK4DegUIAxCeAw,error: [Errno 101] Network is unreachable,,,,,1
+ta:g580223-d1554785,Park Hotel Argento,IT,https://www.parkhotelargento.com/,200,simplebooking,simplebooking.it,https://booking.slope.it/afe4dace-84a6-4796-90ce-104b7dbf0862,booking.slope.it,1
 ta:g1028615-d1051096,Locanda La Pieve,IT,https://www.locandalapieve.it/?sa=X&ved=2ahUKEwjmh87gv6aYAxVCjC0JHeBWOHcQyK4DegUIAxDWAg,200,,,https://portal.freetobook.com/reservations?w_id=36459&#038;w_tkn=i1g6M0kOvSf6SyiMHT4dAojkiOTSkrN09RhcfMNpx6QnYThFSsMwDdPHZmp54,portal.freetobook.com,2
 ta:g616174-d611394,Abbadia San Giorgio,IT,http://www.abbadiasangiorgio.com/?sa=X&ved=2ahUKEwjHw_zsv6aYAxVTVqsCHcOYE5EQyK4DegUIAxDyAg,200,synxis,synxis.com,https://be.synxis.com/?adult=2&amp;arrive=2021-03-26&amp;chain=5375&amp;child=0&amp;currency=EUR&amp;depart=2021-03-27&amp;hotel=57476&amp;level=hotel&amp;locale=it-IT&amp;rooms=1,be.synxis.com,1
 ta:g187826-d238197,Tigullio Royal Hotel,IT,https://www.royalhotelrapallo.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness&sa=X&ved=2ahUKEwj58buCwKaYAxWJdasCHa95IK8QyK4DegUIAxD8Bg,200,vertical_booking,verticalbooking,https://outlook.office.com/book/PrenotazioniPrivateSPA@hoteltigullioroyal.it/?ismsaljsauthenabled,outlook.office.com,1
@@ -982,13 +982,13 @@ ta:g187791-d15327157,The First Roma Dolce,IT,https://www.pavilionshotels.com/rom
 ta:g187791-d8865999,NH Collection Roma Palazzo Cinquecento,IT,https://www.nh-hotels.com/en/hotel/nh-collection-roma-palazzo-cinquecento?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb&sa=X&ved=2ahUKEwiyvueswqaYAxVSQ6sCHdghMoIQyK4DegUIAxDIDA,403,,,,,1
 ta:g187791-d203175,Hotel Barocco,IT,https://www.hotelbarocco.com/?utm_source=google&utm_medium=organic&utm_campaign=knowledge-graph&sa=X&ved=2ahUKEwiB2Ii6wqaYAxWUfKsCHQlYA60QyK4DegUIAxDvBQ,200,blastness,blastness,https://booking.hotelbarocco.com/manage-reservation?lingua_int=ita&id_albergo=27482&dc=9323&id_stile=20666,booking.hotelbarocco.com,1
 ta:g187791-d601432,Portrait Roma,IT,https://www.lungarnocollection.com/portrait-roma/?utm_source=google&utm_medium=GMB&utm_campaign=mybusinessmaps&sa=X&ved=2ahUKEwiK9rrHwqaYAxXhWasCHZIWLq4QyK4DegUIAxC6BQ,403,,,,,1
-ta:g187791-d13919298,Maison Tritone,IT,http://www.maisontritone.it/?sa=X&ved=2ahUKEwj96eLXwqaYAxXgji0JHQBcFDoQyK4DegUIAxCQBQ,200,,,,,1
+ta:g187791-d13919298,Maison Tritone,IT,http://www.maisontritone.it/?sa=X&ved=2ahUKEwj96eLXwqaYAxXgji0JHQBcFDoQyK4DegUIAxCQBQ,200,vertical_booking,verticalbooking,https://tritonenextarget.kross.travel/,tritonenextarget.kross.travel,1
 ta:g187791-d23700559,Sophie Terrace Hotel,IT,https://www.romehotelmediterraneo.it/,200,,,,,1
 ta:g187791-d3929140,J.K. Place Roma,IT,http://www.jkroma.com/?sa=X&ved=2ahUKEwiEqNfkwqaYAxVaiC0JHWaVGKoQyK4DegUIAxDKBg,200,synxis,synxis.com,https://be.synxis.com/?chain=24447&hotel=6880&currency=EUR&adult=2&child=0&lang=en-US,be.synxis.com,1
 ta:g187791-d205044,Hotel Artemide,IT,https://www.hotelartemide.it/,200,simplebooking,simplebooking.it,https://booking.resdiary.com/widget/Standard/AmbrosiaRooftopRestaurantBar/51079,booking.resdiary.com,1
 ta:g187791-d8615697,Arpinelli Relais,IT,http://www.arpinelli.com/?sa=X&ved=2ahUKEwj17Ib3wqaYAxXGki0JHZzXEk8QyK4DegUIAxCDBQ,200,octorate,octorate,https://www.arpinelli.com/page/booking-engine,arpinelli.com,2
 ta:g187791-d597703,Villa Spalletti Trivelli,IT,http://villaspalletti.it/?utm_source=google&utm_medium=organic&utm_campaign=gmb&sa=X&ved=2ahUKEwjvsraLw6aYAxXrVasCHfCfOZQQyK4DegUIAxDJBQ,200,synxis,synxis.com,https://be.synxis.com/?adult=2&chain=22402&hotel=78691&src=24C&&locale=en-GB,be.synxis.com,1
-ta:g187791-d33749842,Dimora Coppelle,IT,https://dimoracoppelle.com/,200,,,,,1
+ta:g187791-d33749842,Dimora Coppelle,IT,https://dimoracoppelle.com/,200,,,https://palazzodellecoppelle.reserve-online.net/?lang=en,palazzodellecoppelle.reserve-online.net,2
 ta:g187791-d7619756,The Fifteen Keys Hotel,IT,http://fifteenkeys.com/?sa=X&ved=2ahUKEwi36dmdw6aYAxWXii0JHQ4vOKMQyK4DegUIAxDGBQ,200,,,,,1
 ta:g187791-d191099,Albergo del Senato,IT,https://www.albergodelsenato.it/?sa=X&ved=2ahUKEwjN8tSqw6aYAxVCjC0JHeBWOHcQyK4DegUIAxC9Bg,200,,,https://albergodelsenatorome.reserve-online.net/?lang=en,albergodelsenatorome.reserve-online.net,2
 ta:g187791-d19907141,Dharma Boutique Hotel & Spa,IT,https://www.dharmagroup.it/hotel/dharma-boutique/en/?sa=X&ved=2ahUKEwj4md-zw6aYAxXxgy0JHbNeD2gQyK4DegUIAxDCBQ,200,,,,,1
@@ -1013,7 +1013,7 @@ ta:g780819-d3326309,Relais Del Maro,IT,http://www.relaisdelmaro.it/?sa=X&ved=2ah
 ta:g187863-d280909,Hotel Milleluci,IT,https://www.hotelmilleluci.com/?sa=X&ved=2ahUKEwjRq5rsiaeYAxUTC_kAHdExBAkQyK4DegUIAxD8BA,200,passepartout,passepartout.net,https://booking.passepartout.cloud/booking?oidPortale=20391&lingua=it&extraSelect=true,booking.passepartout.cloud,1
 ta:g187863-d5865858,Le Reve Charmant,IT,http://www.lerevecharmant.com/?sa=X&ved=2ahUKEwjk7eP8iaeYAxVSI_kAHQNFHf0QyK4DegUIAxD-Aw,200,,,,,1
 ta:g194945-d1022646,Relais Del Nazionale,IT,https://www.ilnazionale.com/it/relais/?sa=X&ved=2ahUKEwj4r5qOiqeYAxUuF_kAHYK_E34QyK4DegUIAxDCAg,200,,,https://www.ilnazionale.com/it/relais/prenota/,ilnazionale.com,3
-ta:g676086-d673603,Apricus Locanda,IT,http://www.apricuslocanda.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=7960347010254145682&sa=X&ved=2ahUKEwia_M2kiqeYAxXrPvkAHfu1PbgQyK4DegUIAxD7Ag,200,,,,,1
+ta:g676086-d673603,Apricus Locanda,IT,http://www.apricuslocanda.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=7960347010254145682&sa=X&ved=2ahUKEwia_M2kiqeYAxXrPvkAHfu1PbgQyK4DegUIAxD7Ag,200,krossbooking,krossbooking,https://apricushotel.kross.travel/,apricushotel.kross.travel,2
 ta:g187865-d238532,Hotel Bouton d'Or - Courmayeur,IT,https://www.hotelboutondor.com/?sa=X&ved=2ahUKEwiu2da_iqeYAxUDADoGHXdzMsYQyK4DegUIAxCAAw,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/10010?lang=EN&#038;cur=EUR,simplebooking.it,1
 ta:g187865-d3654148,Gran Baita Hotel & Wellness Resort,IT,https://www.alpissima.it/gran-baita-courmayeur/,200,blastness,blastness,https://book.blastness.com/results?lingua_int=ita&id_albergo=11153&dc=5562147&id_stile=,book.blastness.com,1
 ta:g1092800-d309743,Auberge de la Maison,IT,https://www.aubergemaison.it/?sa=X&ved=2ahUKEwjw4OXaiqeYAxUuF_kAHYK_E34QyK4DegUIAxD_Ag,200,ericsoft,ericsoft,https://booking.ericsoft.com/BookingEngine/book.aspx?idh=8316777908C06CC5&#038;lang=it&#038;cur=EUR&#038;arrival=2019-08-21&#038;departure=2019-08-22&#038;pax=2_0_0&#038;acmp=RT0,booking.ericsoft.com,1
@@ -1021,8 +1021,8 @@ ta:g608901-d12616403,Borgobeltrani,IT,http://www.borgobeltrani.it/?sa=X&ved=2ahU
 ta:g187785-d6686720,The Bellini House,IT,http://www.houseinnaples.it/?sa=X&ved=2ahUKEwiDmNP5iqeYAxWfBvkAHeD0CRQQyK4DegUIAxDPAw,200,krossbooking,krossbooking,,,1
 ta:g187785-d10067502,Santa Chiara Boutique Hotel,IT,https://www.santachiarahotel.com/,200,,,https://secure.visioni.info/santachiarahotel.com/book/booking/quote_request.php?lang=en,secure.visioni.info,3
 ta:g194891-d1464822,Hotel Etoile Des Neiges,IT,https://www.etoiledesneiges.it/?sa=X&ved=2ahUKEwjyiPiPi6eYAxWEBvkAHccGBsQQyK4DegUIAxDhAg,200,,,https://www.etoiledesneiges.it/booking-etoile-des-neiges/,etoiledesneiges.it,3
-ta:g194947-d33006787,La Tuja Relais Du Parc,IT,https://www.latujarelaisduparc.com/?sa=X&ved=2ahUKEwiJ6ce0i6eYAxVVCPkAHZxWFtoQyK4DegUIAxCbAw,200,blastness,blastness,https://book.blastness.com/results?lingua_int=ita&id_albergo=28675&dc=1443&id_stile=21484&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=27&mm=11&aa=2026,book.blastness.com,1
-ta:g194907-d292082,Hotel Villa Garden,IT,https://www.villagardenhotel.com/?sa=X&ved=2ahUKEwip0K3Li6eYAxVGL_kAHZ0BA1cQyK4DegUIAxDOBA,200,,,,,1
+ta:g194947-d33006787,La Tuja Relais Du Parc,IT,https://www.latujarelaisduparc.com/?sa=X&ved=2ahUKEwiJ6ce0i6eYAxVVCPkAHZxWFtoQyK4DegUIAxCbAw,200,blastness,blastness,https://book.blastness.com/results?lingua_int=ita&id_albergo=28675&dc=1443&id_stile=21484&notti_1=1&tot_camere=1&tot_adulti=2&tot_bambini=0&gg=28&mm=11&aa=2026,book.blastness.com,1
+ta:g194907-d292082,Hotel Villa Garden,IT,https://www.villagardenhotel.com/?sa=X&ved=2ahUKEwip0K3Li6eYAxVGL_kAHZ0BA1cQyK4DegUIAxDOBA,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=2989&lang=EN,simplebooking.it,1
 ta:g194907-d232506,Hotel Caravel Sorrento,IT,https://www.hotelcaravel.com/,200,,,https://www.hotelcaravel.com/en/reservations,hotelcaravel.com,2
 ta:g187782-d17913144,Hotel Lorelei Londres,IT,http://www.loreleisorrento.com/?sa=X&ved=2ahUKEwi3nfLqi6eYAxUcNfkAHcrQDmQQyK4DegUIAxCWBA,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/search?hid=5737&amp;lang=en&amp;cur=EUR,simplebooking.it,1
 ta:g187782-d228959,Grand Hotel Excelsior Vittoria,IT,https://www.excelsiorvittoria.com/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile&sa=X&ved=2ahUKEwiK5J7zi6eYAxVGL_kAHZ0BA1cQyK4DegUIAxDxBg,200,synxis,synxis.com,https://be.synxis.com/?adult=2&chain=24447&child=0&currency=EUR&hotel=6792&level=hotel&locale=en-US&rooms=1&src=30,be.synxis.com,1
@@ -1033,14 +1033,14 @@ ta:g187782-d579275,Maison La Minervetta,IT,https://www.laminervetta.com/?sa=X&ve
 ta:g187782-d1656729,Grand Hotel La Favorita,IT,http://www.hotellafavorita.com/?sa=X&ved=2ahUKEwi9iqbAjKeYAxWYF_kAHU_qJncQyK4DegUIAxCbBg,200,,,,,1
 ta:g187782-d275663,Villa Oriana Relais,IT,http://www.villaoriana.it/?sa=X&ved=2ahUKEwjev5bYjKeYAxVZNvkAHW3CJYEQyK4DegUIAxDeAw,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/1313?lang=EN&cur=EUR,simplebooking.it,1
 ta:g187782-d2175053,Palazzo Jannuzzi Relais,IT,http://www.palazzojannuzzi.com/?sa=X&ved=2ahUKEwiI0NjljKeYAxUTC_kAHdExBAkQyK4DegUIAxCjBA,200,simplebooking,simplebooking.it,https://www.palazzojannuzzi.com/en/reservations,palazzojannuzzi.com,1
-ta:g187782-d308082,Antiche Mura Hotel,IT,http://www.hotelantichemura.com/?sa=X&ved=2ahUKEwiRm9yBjaeYAxVWJ_kAHWo8B28QyK4DegUIAxDyAw,200,,,https://www.hotelantichemura.com/assets/images/public/offers/big/prenotazioni-hotel-tariffe-non-rimborsabili-clausola-vessatoria_1614272966.jpg,hotelantichemura.com,3
+ta:g187782-d308082,Antiche Mura Hotel,IT,http://www.hotelantichemura.com/?sa=X&ved=2ahUKEwiRm9yBjaeYAxVWJ_kAHWo8B28QyK4DegUIAxDyAw,200,,,https://www.hotelantichemura.com/en/book-now,hotelantichemura.com,3
 ta:g194863-d195499,Le Sirenuse,IT,https://sirenuse.it/,200,,,https://sirenuse.it/en/booking/#/booking/step-1,sirenuse.it,2
 ta:g194863-d229064,Hotel Eden Roc,IT,https://www.edenroc.it/,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe2/hotel/983?lang=IT,simplebooking.it,1
 ta:g194863-d307715,Hotel Punta Regina,IT,https://www.puntaregina.com/?sa=X&ved=2ahUKEwiNxL_DjaeYAxVzPfkAHXEVEakQyK4DegUIAxCCAw,200,ericsoft,ericsoft,https://booking.ericsoft.com/BookingEngine/book.aspx?idh=B5D6FD6E9D0B6048&lang=en,booking.ericsoft.com,1
 ta:g194863-d8715392,Villa Magia,IT,https://www.villamagiapositano.com/?sa=X&ved=2ahUKEwj1_6XojaeYAxXHFvkAHe6-DCgQyK4DegUIAxDRAw,200,,,https://villamagia.prenota-web.it/prenotazioni/?lang,villamagia.prenota-web.it,3
 ta:g187780-d235968,Hotel Miramalfi,IT,https://www.miramalfi.com/?sa=X&ved=2ahUKEwjF6eCDjqeYAxVZNvkAHW3CJYEQyK4DegUIAxDiBQ,200,synxis,synxis.com,https://be.synxis.com/?chain=22402&hotel=46850&src=24C&adult=2&locale=en-US&arrive=2026-04-02,be.synxis.com,1
 ta:g644245-d275671,Grand Hotel Due Golfi,IT,https://www.grandhotelduegolfi.com,200,simplebooking,simplebooking.it,https://www.simplebooking.it/ibe/hotelbooking/search?hid=949&lang=IT,simplebooking.it,1
-ta:g194867-d274456,Grand Hotel Tritone,IT,https://www.grandhoteltritone.com/?utm_source=googlemybusiness&utm_campaign=localmarketing&utm_medium=localrecord&sa=X&ved=2ahUKEwjN8NXAjqeYAxVaE_kAHYc2IXoQyK4DegUIAxCzBA,200,,,,,1
+ta:g194867-d274456,Grand Hotel Tritone,IT,https://www.grandhoteltritone.com/?utm_source=googlemybusiness&utm_campaign=localmarketing&utm_medium=localrecord&sa=X&ved=2ahUKEwjN8NXAjqeYAxVaE_kAHYc2IXoQyK4DegUIAxCzBA,200,simplebooking,simplebooking.it,https://grandhoteltritone.scidoo.com/preventivov2/?cod=28194015-b793-468f-9549-cc391913edd2&lang=1,grandhoteltritone.scidoo.com,1
 ta:g194867-d1062501,Hotel Pellegrino,IT,https://booking.slope.it/440191f2-841a-4e76-947c-444468d84371?sa=X&ved=2ahUKEwiu2-fOjqeYAxVDOfkAHSBiE48QyK4DegUIAxD8Ag,200,slope,slope.it,https://booking.slope.it/440191f2-841a-4e76-947c-444468d84371/affiliations/unlock,booking.slope.it,1
 ta:g635621-d2557790,Monastero Santa Rosa Hotel & Spa,IT,https://www.monasterosantarosa.com/?sa=X&ved=2ahUKEwjpgd7zjqeYAxU_AfkAHVVwFOgQyK4DegUIAxCxBA,200,synxis,synxis.com,,,1
 ta:g644245-d529585,Hotel Sant'Agata,IT,http://www.hotelsantagata.com/?sa=X&ved=2ahUKEwjemPn8jqeYAxWzAfkAHd3lF88QyK4DegUIAxD2Ag,200,,,https://hospitality-guest.teamsystem.cloud/booking-engine/hotel-sant&#039;agata-massa-lubrense-2,hospitality-guest.teamsystem.cloud,3
@@ -1054,9 +1054,9 @@ ta:g1078168-d3171593,Punta Barone,IT,https://www.hotelpuntabarone.it/?sa=X&ved=2
 ta:g294472-d6707465,"Radisson Collection Hotel, Old Mill Belgrade",RS,https://www.radissonhotels.com/en-us/hotels/radisson-collection-old-mill-belgrade,403,,,,,1
 ta:g294472-d10753006,SAINT TEN Hotel,RS,http://www.saintten.com/?sa=X&ved=2ahUKEwi69MjHkKeYAxUoBDoGHWlNOx8QyK4DegUIAxC2Bw,200,synxis,travelclick,https://reservations.travelclick.com/99986?HotelId=99986&languageid=1&rooms=1&adults=1&roomtypeid=424788,reservations.travelclick.com,1
 ta:g274873-d3547110,G Design Hotel,SI,https://gdesignhotel.si/,200,,,,,1
-ta:g274863-d3221974,Penzion Kaps,SI,https://www.penzion-kaps.si/?sa=X&ved=2ahUKEwjZ2YX3kKeYAxVxM_kAHdFHL1AQyK4DegUIAxCBAw,200,,,,,1
+ta:g274863-d3221974,Penzion Kaps,SI,https://www.penzion-kaps.si/?sa=X&ved=2ahUKEwjZ2YX3kKeYAxVxM_kAHdFHL1AQyK4DegUIAxCBAw,200,,,https://www.penzion-kaps.si/reservation/,penzion-kaps.si,2
 ta:g274863-d613563,Garni Hotel Berc,SI,https://www.berc-sp.si/?sa=X&ved=2ahUKEwiU3dONkaeYAxVMAPkAHbYwKwIQyK4DegUIAxD5Ag,200,,,,,1
-ta:g274870-d3825312,Boutique Skipass Hotel,SI,https://www.skipasshotel.si/?utm_source=mybusiness&utm_medium=organic&utm_campaign=GMB&sa=X&ved=2ahUKEwi5sfajkaeYAxWWAvkAHdKNJ9MQyK4DegUIAxC1Aw,200,,,,,1
+ta:g274870-d3825312,Boutique Skipass Hotel,SI,https://www.skipasshotel.si/?utm_source=mybusiness&utm_medium=organic&utm_campaign=GMB&sa=X&ved=2ahUKEwi5sfajkaeYAxWWAvkAHdKNJ9MQyK4DegUIAxC1Aw,200,,,https://reservations.cubilis.eu/boutique-hotel-skipass-kranjska-gora?Language=sl-SI,reservations.cubilis.eu,2
 ta:g274924-d276296,Hotel Marrol's,SK,https://www.hotelmarrols.sk/,200,,,https://hotelmarrols.book-onlinenow.net/index.aspx?Page=1&amp;src=1&amp;lan_id=sk-SK,hotelmarrols.book-onlinenow.net,2
 ta:g274924-d669692,Arcadia Boutique Hotel,SK,https://www.arcadia-hotel.sk/,200,d_edge,secure-hotel-booking.com,,,1
 ta:g274924-d1592032,Sheraton Bratislava Hotel,SK,https://www.sheratonbratislava.sk/,200,,,https://www.marriott.com/hotels/travel/btssi-sheraton-bratislava-hotel/,marriott.com,3
