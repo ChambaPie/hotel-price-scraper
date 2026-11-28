@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=3635&provinceId=0&districtId=0&countryId=106&destName=Al%20Porto%20di%20Lucca%20B%26B&searchWord=Al%20Porto%20di%20Lucca%20B%26B&searchType=H&optionId=5565482&searchValue=31%7C5565482*31*5565482*1&checkin=2027-04-01&checkout=2027-04-02&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 165.0, 'price_excl': 144.0, 'price_total': 165.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=33267&provinceId=0&districtId=0&countryId=106&destName=La%20Casa%20Sul%20Mare&searchWord=La%20Casa%20Sul%20Mare&searchType=H&optionId=8990753&searchValue=31%7C8990753*31*8990753*1&checkin=2026-12-29&checkout=2026-12-30&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 359.0, 'price_excl': 321.0, 'price_total': 359.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,27 +11,27 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Al Porto di Lucca B&B
-Thu, Apr 1
+La Casa Sul Mare
+Tue, Dec 29
 -
-Fri, Apr 2
+Wed, Dec 30
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Lucca
+Popular filters for Civitavecchia
 
-Parking available
-Non-smoking rooms
-Black Friday sale
-Hotel
-Private toilet
 Breakfast included
-Free cancellation
+Hotel
 Very Good 8+
 Based on guest reviews
-1 double bed
+Free cancellation
+Spa
+24-hour front desk
+Pets welcome
+2 beds
+Wi-Fi in public areas
 
 Budget
 
@@ -50,19 +50,17 @@ Hotels
 Including hotels, resorts, and more
 Homes & apts
 Including homes, apartments, villas, and more
-Hostels
-Including hostels, inns, and more
 Show More
 
 Star rating
 
 Location
 
-Straight-line distance from Al Porto di Lucca B&B
+Straight-line distance from La Casa Sul Mare
 No distance limit
-Lucca Centro Storico
-Walled City
-Lucca
+Porta Livorno
+Civitavecchia
+Charter pesca Roma Civitavecchia
 Show More
 
 Meals
@@ -81,8 +79,8 @@ Show More
 Room features
 
 Family room
+Private villa
 Balcony
-Mountain view room
 Show More
 
 Number of bedrooms
@@ -101,41 +99,36 @@ Show More
 Property facilities & services
 
 Parking available
+Elevator
 Pool
-Spa
 Show More
 
 Room facilities & services
 
-Private toilet
 Air conditioning
-Private pool
+Private toilet
+Non-smoking rooms
 Show More
-
-Opening/renovation time
-
-Within 1 year
-Within 2 years
 
 Property Features
 
-Great views
 Self check-in
-Romantic vibes
+Family-friendly
+Great views
 Show More
 
 Guest Impressions
 
-Lots to do
 Ideal location
+Lots to do
 Sparkling clean
 Show More
 
 Room Size
 
 ≥ 20㎡
-≥ 25㎡
-≥ 45㎡
+≥ 30㎡
+≥ 40㎡
 
 Payment
 
@@ -149,28 +142,27 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
-Discounts
-
-Black Friday sale
-
-Brands
-
-Autograph Collection
-Best Western
-Exe Hotels
-
 Reviews
 
-500+
 200+
 100+
+50+
 
 Accessibility
 
-Assistive listening devices
 Handrails on stairs
-Handrails in hallways
+Stair-free main entrance
+accessible facilities
 Show More
+Why book with Trip.com?
+We price match
+We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
+Get rewarded for traveling
+Get money-saving rewards with every booking, with no limits to how you spend Learn More
+4.8/5
+206,715 reviews
+4.7/5
+20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -181,18 +173,18 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Al Porto di Lucca B&B
-Near LuccaDopolavoro FerroviarioMap
-Amazing
-55 reviews
-9.5
-Delicious breakfastBarIdeal location
-Standard Double Room
-1 double bed
+La Casa Sul Mare
+Near CivitavecchiaMichelangelo Contemporanea Art GalleryMap
+Outstanding
+101 reviews
+9.9
+Excellent servicePublic beachDelicious breakfast
+Double Room, 1 Queen Bed, Private Bathroom (External), Balcony Sea View
+1 queen bed
 Free Cancellation
 Breakfast included
-€144
-Total (incl. taxes & fees): €165
+€321
+Total (incl. taxes & fees): €359
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
@@ -201,6 +193,6 @@ Hotels
 >
 Hotels in Italy
 >
-Hotels in Tuscany
+Hotels in Lazio
 >
-Hotels in Lucca
+Hotels in Civitavecchia
