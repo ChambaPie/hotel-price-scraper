@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=33267&provinceId=0&districtId=0&countryId=106&destName=La%20Casa%20Sul%20Mare&searchWord=La%20Casa%20Sul%20Mare&searchType=H&optionId=8990753&searchValue=31%7C8990753*31*8990753*1&checkin=2026-12-29&checkout=2026-12-30&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 359.0, 'price_excl': 321.0, 'price_total': 359.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=33680&provinceId=0&districtId=0&countryId=106&destName=Hotel%20Lago%20di%20Garda&searchWord=Hotel%20Lago%20di%20Garda&searchType=H&optionId=775676&searchValue=31%7C775676*31*775676*1&checkin=2027-06-24&checkout=2027-06-25&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 133.0, 'price_excl': 117.0, 'price_total': 133.0, 'breakfast': 'included', 'cancellation': ''}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,27 +11,28 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-La Casa Sul Mare
-Tue, Dec 29
+Hotel Lago di Garda
+Thu, Jun 24
 -
-Wed, Dec 30
+Fri, Jun 25
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Civitavecchia
+Popular filters for Torbole
 
 Breakfast included
-Hotel
+Spa
+Free cancellation
+Pool
 Very Good 8+
 Based on guest reviews
-Free cancellation
-Spa
-24-hour front desk
+Hotel
 Pets welcome
-2 beds
-Wi-Fi in public areas
+Family-friendly
+Breakfast & Dinner Included
+Balcony
 
 Budget
 
@@ -56,11 +57,11 @@ Star rating
 
 Location
 
-Straight-line distance from La Casa Sul Mare
+Straight-line distance from Hotel Lago di Garda
 No distance limit
-Porta Livorno
-Civitavecchia
-Charter pesca Roma Civitavecchia
+Lake Garda
+Torre della Chiesa - Museo Paul Flora
+Comune Di Nago Torbole
 Show More
 
 Meals
@@ -78,9 +79,9 @@ Show More
 
 Room features
 
-Family room
 Private villa
-Balcony
+Lake view room
+Family room
 Show More
 
 Number of bedrooms
@@ -99,36 +100,36 @@ Show More
 Property facilities & services
 
 Parking available
-Elevator
 Pool
+Pets welcome
 Show More
 
 Room facilities & services
 
-Air conditioning
-Private toilet
-Non-smoking rooms
+Balcony
+Extra beds available
+Cribs available
 Show More
 
 Property Features
 
-Self check-in
 Family-friendly
 Great views
+Self check-in
 Show More
 
 Guest Impressions
 
-Ideal location
 Lots to do
-Sparkling clean
+Ideal location
+Excellent service
 Show More
 
 Room Size
 
 ≥ 20㎡
-≥ 30㎡
-≥ 40㎡
+≥ 25㎡
+≥ 45㎡
 
 Payment
 
@@ -142,6 +143,10 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
+Brands
+
+Happy.Rentals
+
 Reviews
 
 200+
@@ -151,18 +156,9 @@ Reviews
 Accessibility
 
 Handrails on stairs
+Pool ramp available
 Stair-free main entrance
-accessible facilities
 Show More
-Why book with Trip.com?
-We price match
-We aim to offer you the best possible price. If you find it cheaper elsewhere, we'll refund the eligible price difference in Trip Coins. Learn More
-Get rewarded for traveling
-Get money-saving rewards with every booking, with no limits to how you spend Learn More
-4.8/5
-206,715 reviews
-4.7/5
-20,234 reviews
 First booking offer!
 We'll apply the best discount for you at check-out
 Claim All
@@ -173,18 +169,18 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-La Casa Sul Mare
-Near CivitavecchiaMichelangelo Contemporanea Art GalleryMap
-Outstanding
-101 reviews
-9.9
-Excellent servicePublic beachDelicious breakfast
-Double Room, 1 Queen Bed, Private Bathroom (External), Balcony Sea View
-1 queen bed
-Free Cancellation
+Hotel Lago di Garda
+Near Casa del DazioPista ciclabile Torbole MoriMap
+Great
+95 reviews
+9.0
+LakesideSpaMini golf
+Economy Double Room
+1 double bed
 Breakfast included
-€321
-Total (incl. taxes & fees): €359
+Last booked 14 hrs ago
+€117
+Total (incl. taxes & fees): €133
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
@@ -193,6 +189,6 @@ Hotels
 >
 Hotels in Italy
 >
-Hotels in Lazio
+Hotels in Trentino Alto Adige
 >
-Hotels in Civitavecchia
+Hotels in Torbole

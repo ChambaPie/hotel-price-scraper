@@ -1,4 +1,4 @@
-01:17:21 Maree Hotel 2027-03-22: not in the answer ([])
-01:17:43 Maree Hotel 2027-09-20: not in the answer ([])
-01:18:05 Hotel Trieste 2027-03-22: not in the answer ([])
-01:47:20 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 108, 'priced': 30, 'available': 13, 'errors': 0, 'missing': 78, 'stored_nights': 1177, 'ids_coverage': '1270/1500'}
+05:07:52 Hotel Patrizia 2027-02-24: not in the answer ([])
+05:08:14 Hotel Patrizia 2027-08-25: not in the answer ([])
+05:08:37 Hotel KÜGLERHOF 2026-12-30: not in the answer ([])
+05:37:46 trip.com: {'ids_due': 0, 'ids_found': 0, 'ids_missed': 0, 'calls': 138, 'priced': 65, 'available': 28, 'errors': 0, 'missing': 73, 'stored_nights': 1212, 'ids_coverage': '1270/1500'}

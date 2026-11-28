@@ -1,5 +1,5 @@
-#URL https://www.trip.com/hotels/list?flexType=1&cityId=33297&provinceId=0&districtId=0&countryId=106&destName=Residenza%20Dei%20Ricci&searchWord=Residenza%20Dei%20Ricci&searchType=H&optionId=9388687&searchValue=31%7C9388687*31*9388687*1&checkin=2027-05-08&checkout=2027-05-09&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
-#READ {'available': True, 'price': 155.0, 'price_excl': 135.0, 'price_total': 155.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
+#URL https://www.trip.com/hotels/list?flexType=1&cityId=420906&provinceId=0&districtId=0&countryId=106&destName=Aktivhotel%20Santalucia&searchWord=Aktivhotel%20Santalucia&searchType=H&optionId=3922000&searchValue=31%7C3922000*31*3922000*1&checkin=2027-04-13&checkout=2027-04-14&crn=1&adult=2&listFilters=29~1*29*1~2*2&curr=EUR&locale=en-GB&old=1
+#READ {'available': True, 'price': 232.0, 'price_excl': 206.0, 'price_total': 232.0, 'breakfast': 'included', 'cancellation': 'free cancellation'}
 Go to main content
 Hotels & Homes
 Flights
@@ -11,27 +11,26 @@ EUR
 Customer support
 Find bookings
 Sign in/register
-Residenza Dei Ricci
-Sat, May 8
+Aktivhotel Santalucia
+Tue, Apr 13
 -
-Sun, May 9
+Wed, Apr 14
 1 night
 1 room, 2 adults, 0 children
 Search
 Show on Map
 
-Popular filters for Chiusi
+Popular filters for Nago-Torbole
 
 Pool
-Sauna
-Playground
-Hot springs
-1 double bed
-Hotel
 Breakfast included
-Free cancellation
-Ideal location
+Great views
 Private toilet
+Hotel
+Free cancellation
+Air conditioning
+Parking available
+1 double bed
 
 Budget
 
@@ -50,26 +49,22 @@ Hotels
 Including hotels, resorts, and more
 Homes & apts
 Including homes, apartments, villas, and more
-Hostels
-Including hostels, inns, and more
 Show More
 
 Star rating
 
 Location
 
-Straight-line distance from Residenza Dei Ricci
+Straight-line distance from Aktivhotel Santalucia
 No distance limit
-Chiusi-chianciano Terme
-Museo Civico La citta sotterranea
-Parrocchia Maria Ss Bambina
+Torre della Chiesa - Museo Paul Flora
+Comune Di Nago Torbole
+Camping Europa
 Show More
 
 Meals
 
 Breakfast included
-Dinner included
-Breakfast & Dinner Included
 
 Bed type
 
@@ -80,9 +75,9 @@ Show More
 
 Room features
 
-Private villa
 Entire unit
 Balcony
+Mountain view room
 Show More
 
 Number of bedrooms
@@ -101,22 +96,22 @@ Show More
 Property facilities & services
 
 Pool
-Sauna
 Parking available
+Pets welcome
 Show More
 
 Room facilities & services
 
-Non-smoking rooms
-Air conditioning
 Private toilet
+Air conditioning
+Extra beds available
 Show More
 
 Property Features
 
-Family-friendly
 Great views
 Self check-in
+Family-friendly
 Show More
 
 Guest Impressions
@@ -128,9 +123,9 @@ Show More
 
 Room Size
 
+≥ 20㎡
 ≥ 25㎡
-≥ 30㎡
-≥ 60㎡
+≥ 65㎡
 
 Payment
 
@@ -144,6 +139,11 @@ Booking Policy
 Instant confirmation
 Free cancellation
 
+Brands
+
+Happy.Rentals
+TONELLI HOTELS
+
 Reviews
 
 200+
@@ -153,8 +153,8 @@ Reviews
 Accessibility
 
 Handrails on stairs
-Handrails in hallways
-Stair-free main entrance
+Braille signs
+Pool ramp available
 Show More
 First booking offer!
 We'll apply the best discount for you at check-out
@@ -166,19 +166,18 @@ First Booking Deal
 Use your promo code
 1 property found
 Trip.com recommended
-Residenza Dei Ricci
-Near Chiusi CittàMuseo Civico La citta sotterraneaMap
-Amazing
-44 reviews
-9.7
-Delicious breakfastBarbecueGarden view
-Junior Suite
-2 single beds or 1 queen bed
+Aktivhotel Santalucia
+Near Passeggiata lungolago, Torbole Lago di GardaMap
+Outstanding
+54 reviews
+9.9
+Wine tastingLake viewOutdoor pool
+Standard Double or Twin Room
+1 double bed or 2 single beds
 Free Cancellation
 Breakfast included
-Only 1 left at this price
-€135
-Total (incl. taxes & fees): €155
+€206
+Total (incl. taxes & fees): €232
 Check Availability
 Already showing all properties that meet your filters, you can adjust your filters and search again
 Trip.com
@@ -187,6 +186,6 @@ Hotels
 >
 Hotels in Italy
 >
-Hotels in Tuscany
+Hotels in Trentino Alto Adige
 >
-Hotels in Chiusi
+Hotels in Nago-Torbole
